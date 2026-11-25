@@ -1,0 +1,44 @@
+render.sh: another lab run holds D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/LOCK (pid 6264 out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RB since 14:43:22); waiting...
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_austria_unity.log)
+render.sh: site austria Unity exit 0 after 202 s
+   wrote shot a1
+   wrote shot a2
+   wrote shot a3
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_shot_a1.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_shot_a1_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_shot_a2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_shot_a2_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_shot_a3.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at_shot_a3_void.png
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_dv_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_dv_dover_unity.log)
+render.sh: site dover Unity exit 0 after 112 s
+   wrote shot d1
+   wrote shot d2
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_dv_shot_d1.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_dv_shot_d1_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_dv_shot_d2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_dv_shot_d2_void.png
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_austria_unity.log)
+render.sh: site austria Unity exit 0 after 192 s
+   wrote shot a1
+   wrote shot a2
+   wrote shot a3
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_shot_a1.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_shot_a1_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_shot_a2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_shot_a2_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_shot_a3.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at_shot_a3_void.png
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv_dover_unity.log)
+render.sh: site dover Unity exit 0 after 111 s
+   wrote shot d1
+   wrote shot d2
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv_shot_d1.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv_shot_d1_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv_shot_d2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv_shot_d2_void.png
+LAB DONE

@@ -1,0 +1,7 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a5_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a5_austria_unity.log)
+render.sh: site austria Unity exit 0 after 146 s
+   wrote shot r4f
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a5_shot_r4f.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a5_shot_r4f_void.png
+exit 0

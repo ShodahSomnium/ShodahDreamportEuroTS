@@ -1,0 +1,11 @@
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_dover_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_dover_dover_unity.log)
+
+Aborting batchmode due to failure:
+Scripts have compiler errors.
+
+render.sh: site dover Unity exit 1 after 10 s
+render.sh: COMPILE ERRORS in the code under test:
+Assets\#User\SomniumEuroTruck\EtsTrafficModels.cs(763,37): error CS0117: 'EtsDayNight' does not contain a definition for 'TrafficHeadlights'
+Assets\#User\SomniumEuroTruck\EtsTrafficModels.cs(773,28): error CS1061: 'EtsVehicleLamps' does not contain a definition for 'SetHead' and no accessible extension method 'SetHead' accepting a first argument of type 'EtsVehicleLamps' could be found (are you missing a using directive or an assembly reference?)
+render.sh: images:
+  none

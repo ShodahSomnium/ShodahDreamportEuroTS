@@ -1,0 +1,28 @@
+12:29:29 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:29:32 loading 8 % Reading the map
+12:29:34 loading 56 % Building junctions and yards
+12:29:37 loading 65 % Placing buildings and props
+12:29:39 loading 72 % Placing fences and barriers
+12:29:41 loading 72 % Placing fences and barriers
+12:29:43 loading 100 % Ready
+12:29:43 first build complete at 13 s
+12:30:13 settled for traffic site after 30 s: built 3001, queued 0, batching 0, plants 63084 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:30:23 traffic: 10 s, role Local, 0 vehicles and 0 trailers within 300 m
+12:30:33 traffic: 20 s, role Local, 0 vehicles and 0 trailers within 300 m
+12:30:43 traffic: 30 s, role Local, 9 vehicles and 0 trailers within 300 m
+12:30:53 traffic: 40 s, role Local, 14 vehicles and 1 trailers within 300 m
+12:31:03 traffic: 50 s, role Local, 15 vehicles and 1 trailers within 300 m
+12:31:13 traffic: 60 s, role Local, 13 vehicles and 1 trailers within 300 m
+12:31:23 traffic: 70 s, role Local, 15 vehicles and 3 trailers within 300 m
+12:31:33 traffic: 80 s, role Local, 15 vehicles and 2 trailers within 300 m
+12:31:43 traffic: 90 s, role Local, 15 vehicles and 3 trailers within 300 m
+12:31:53 traffic: 100 s, role Local, 17 vehicles and 4 trailers within 300 m
+12:32:03 traffic: 110 s, role Local, 18 vehicles and 5 trailers within 300 m
+12:32:13 traffic: 120 s, role Local, 15 vehicles and 4 trailers within 300 m
+12:32:23 traffic: 130 s, role Local, 15 vehicles and 4 trailers within 300 m
+12:32:33 traffic: 140 s, role Local, 16 vehicles and 4 trailers within 300 m
+12:32:43 traffic: 150 s, role Local, 16 vehicles and 3 trailers within 300 m
+12:32:50 settled for traffic mw_oncoming (camera placed) after 7 s: built 3001, queued 0, batching 0, plants 63084 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:32:50 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_traffic_mw_oncoming.png
+12:32:57 settled for traffic mw_away (camera placed) after 7 s: built 3001, queued 0, batching 0, plants 63084 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:32:57 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_traffic_mw_away.png

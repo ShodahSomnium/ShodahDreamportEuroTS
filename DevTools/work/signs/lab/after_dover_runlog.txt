@@ -1,0 +1,32 @@
+20:03:11 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/signs/lab/after gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+20:03:14 loading 8 % Reading the map
+20:03:16 loading 56 % Building junctions and yards
+20:03:18 loading 65 % Placing buildings and props
+20:03:20 loading 72 % Placing fences and barriers
+20:03:22 loading 72 % Placing fences and barriers
+20:03:24 loading 100 % Ready
+20:03:24 first build complete at 13 s
+20:03:54 settled for shot hq98 after 30 s: built 2969, queued 0, batching 0, plants 56000 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:04:02 settled for shot hq98 (camera placed) after 8 s: built 2969, queued 0, batching 0, plants 56000 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:04:03 wrote shot hq98
+20:04:33 settled for shot hq142 after 31 s: built 3200, queued 0, batching 0, plants 56089 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:04:41 settled for shot hq142 (camera placed) after 8 s: built 3200, queued 0, batching 0, plants 56089 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:04:42 wrote shot hq142
+20:05:12 settled for shot tall648 after 31 s: built 3270, queued 0, batching 0, plants 55794 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:05:20 settled for shot tall648 (camera placed) after 8 s: built 3270, queued 0, batching 0, plants 55794 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:05:21 wrote shot tall648
+20:05:52 settled for shot big922 after 31 s: built 3053, queued 0, batching 0, plants 62531 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:06:00 settled for shot big922 (camera placed) after 8 s: built 3053, queued 0, batching 0, plants 62531 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:06:00 wrote shot big922
+20:06:31 settled for shot gantry1149 after 31 s: built 3048, queued 0, batching 0, plants 65342 (sides waiting 3), detail jobs 0, ground fill builds 1
+20:06:39 settled for shot gantry1149 (camera placed) after 8 s: built 3048, queued 0, batching 0, plants 65342 (sides waiting 3), detail jobs 0, ground fill builds 1
+20:06:39 wrote shot gantry1149
+20:07:09 settled for shot calais after 30 s: built 3628, queued 0, batching 0, plants 38922 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:07:17 settled for shot calais (camera placed) after 8 s: built 3628, queued 0, batching 0, plants 38922 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:07:18 wrote shot calais
+20:07:49 settled for shot calais2 after 31 s: built 3889, queued 0, batching 0, plants 46972 (sides waiting 2), detail jobs 0, ground fill builds 1
+20:07:57 settled for shot calais2 (camera placed) after 8 s: built 3889, queued 0, batching 0, plants 46972 (sides waiting 2), detail jobs 0, ground fill builds 1
+20:07:57 wrote shot calais2
+20:08:28 settled for shot calaisgantry after 31 s: built 4037, queued 0, batching 0, plants 57942 (sides waiting 12), detail jobs 0, ground fill builds 1
+20:08:36 settled for shot calaisgantry (camera placed) after 8 s: built 4037, queued 0, batching 0, plants 57942 (sides waiting 12), detail jobs 0, ground fill builds 1
+20:08:36 wrote shot calaisgantry

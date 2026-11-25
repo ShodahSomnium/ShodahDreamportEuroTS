@@ -1,0 +1,26 @@
+22:34:33 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+22:34:36 loading 10 % Building roads
+22:34:38 loading 56 % Building junctions and yards
+22:34:40 loading 58 % Building junctions and yards
+22:34:42 loading 72 % Placing fences and barriers
+22:34:44 loading 72 % Placing fences and barriers
+22:34:46 loading 100 % Ready
+22:34:46 first build complete at 13 s
+22:35:17 settled for shot dv_fence_metal after 31 s: built 3229, queued 0, batching 0, plants 56000 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:35:25 settled for shot dv_fence_metal (camera placed) after 8 s: built 3229, queued 0, batching 0, plants 56000 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:35:26 wrote shot dv_fence_metal
+22:35:57 settled for shot dv_fence_metal2 after 31 s: built 3618, queued 0, batching 0, plants 58802 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:36:05 settled for shot dv_fence_metal2 (camera placed) after 8 s: built 3618, queued 0, batching 0, plants 58802 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:36:05 wrote shot dv_fence_metal2
+22:36:36 settled for shot dv_antinoise after 31 s: built 3654, queued 0, batching 0, plants 59528 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:36:44 settled for shot dv_antinoise (camera placed) after 8 s: built 3654, queued 0, batching 0, plants 59528 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:36:45 wrote shot dv_antinoise
+22:37:15 settled for shot dv_fence_concrete after 31 s: built 3639, queued 0, batching 0, plants 59528 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:37:23 settled for shot dv_fence_concrete (camera placed) after 8 s: built 3639, queued 0, batching 0, plants 59528 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:37:24 wrote shot dv_fence_concrete
+22:37:54 settled for shot dv_admin_roof after 31 s: built 3485, queued 0, batching 0, plants 57984 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:03 settled for shot dv_admin_roof (camera placed) after 8 s: built 3485, queued 0, batching 0, plants 57984 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:03 wrote shot dv_admin_roof
+22:38:34 settled for shot dv_hedge after 31 s: built 3515, queued 0, batching 0, plants 57984 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:42 settled for shot dv_hedge (camera placed) after 8 s: built 3515, queued 0, batching 0, plants 57984 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:42 wrote shot dv_hedge

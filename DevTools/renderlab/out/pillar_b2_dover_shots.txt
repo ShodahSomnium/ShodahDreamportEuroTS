@@ -1,0 +1,4 @@
+shot_t1: 34 hole px of 921600 below the horizon (0.004 %); sampled 3: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 3, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+      void cells: unity (70, -119) game (-33321, -7301) 2 m x3 y 195.8 near []
+shot_t2: 27 hole px of 921600 below the horizon (0.003 %); sampled 3: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 3, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+      void cells: unity (-39, -60) game (-33430, -7360) 2 m x3 y 197.4 near []

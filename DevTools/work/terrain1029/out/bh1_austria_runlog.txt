@@ -1,0 +1,202 @@
+22:28:46 site austria centre (-46097.8, 35.7, -20220.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/bh1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+22:28:50 loading 39 % Building terrain
+22:28:52 loading 58 % Building junctions and yards
+22:28:54 loading 66 % Placing buildings and props
+22:28:56 loading 71 % Placing fences and barriers
+22:28:58 loading 100 % Ready
+22:28:58 first build complete at 11 s
+22:29:29 settled for shot d1f after 31 s: built 2171, queued 0, batching 0, plants 88060 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:29:37 settled for shot d1f (camera placed) after 8 s: built 2171, queued 0, batching 0, plants 88060 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:29:37 wrote shot d1f
+22:30:08 settled for shot d2f after 31 s: built 2183, queued 0, batching 0, plants 89716 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:30:16 settled for shot d2f (camera placed) after 8 s: built 2183, queued 0, batching 0, plants 89716 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:30:16 wrote shot d2f
+22:30:47 settled for shot d3f after 31 s: built 2288, queued 0, batching 0, plants 92302 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:30:55 settled for shot d3f (camera placed) after 8 s: built 2288, queued 0, batching 0, plants 92302 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:30:55 wrote shot d3f
+22:31:26 settled for shot d4f after 31 s: built 2292, queued 0, batching 0, plants 92302 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:31:34 settled for shot d4f (camera placed) after 8 s: built 2292, queued 0, batching 0, plants 92302 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:31:35 wrote shot d4f
+22:32:05 settled for shot d5f after 31 s: built 2366, queued 0, batching 0, plants 93928 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:32:13 settled for shot d5f (camera placed) after 8 s: built 2366, queued 0, batching 0, plants 93928 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:32:14 wrote shot d5f
+22:32:44 settled for shot d6f after 31 s: built 2625, queued 0, batching 0, plants 97389 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:32:52 settled for shot d6f (camera placed) after 8 s: built 2625, queued 0, batching 0, plants 97389 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:32:53 wrote shot d6f
+22:33:23 settled for shot d7f after 31 s: built 2727, queued 0, batching 0, plants 97389 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:33:31 settled for shot d7f (camera placed) after 8 s: built 2727, queued 0, batching 0, plants 97389 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:33:32 wrote shot d7f
+22:34:03 settled for shot d8f after 31 s: built 2889, queued 0, batching 0, plants 100980 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:34:11 settled for shot d8f (camera placed) after 8 s: built 2889, queued 0, batching 0, plants 100980 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:34:11 wrote shot d8f
+22:34:42 settled for shot d9f after 31 s: built 2931, queued 0, batching 0, plants 100980 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:34:50 settled for shot d9f (camera placed) after 8 s: built 2931, queued 0, batching 0, plants 100980 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:34:50 wrote shot d9f
+22:35:21 settled for shot d10f after 31 s: built 2949, queued 0, batching 0, plants 100980 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:35:29 settled for shot d10f (camera placed) after 8 s: built 2949, queued 0, batching 0, plants 100980 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:35:29 wrote shot d10f
+22:36:00 settled for shot d11f after 31 s: built 2968, queued 0, batching 0, plants 100980 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:36:08 settled for shot d11f (camera placed) after 8 s: built 2968, queued 0, batching 0, plants 100980 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:36:08 wrote shot d11f
+22:36:39 settled for shot d12f after 31 s: built 2981, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:36:47 settled for shot d12f (camera placed) after 8 s: built 2981, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:36:47 wrote shot d12f
+22:37:18 settled for shot d13f after 31 s: built 2981, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:37:26 settled for shot d13f (camera placed) after 8 s: built 2981, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:37:26 wrote shot d13f
+22:37:57 settled for shot d14f after 31 s: built 2980, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:05 settled for shot d14f (camera placed) after 8 s: built 2980, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:05 wrote shot d14f
+22:38:36 settled for shot d15f after 31 s: built 2989, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:44 settled for shot d15f (camera placed) after 8 s: built 2989, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:38:44 wrote shot d15f
+22:39:15 settled for shot d16f after 31 s: built 2990, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:39:23 settled for shot d16f (camera placed) after 8 s: built 2990, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:39:23 wrote shot d16f
+22:39:54 settled for shot d17f after 31 s: built 2961, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:40:02 settled for shot d17f (camera placed) after 8 s: built 2961, queued 0, batching 0, plants 100452 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:40:02 wrote shot d17f
+22:40:33 settled for shot s18f after 31 s: built 3048, queued 0, batching 0, plants 98949 (sides waiting 6), detail jobs 0, ground fill builds 1
+22:40:41 settled for shot s18f (camera placed) after 8 s: built 3048, queued 0, batching 0, plants 98949 (sides waiting 6), detail jobs 0, ground fill builds 1
+22:40:42 wrote shot s18f
+22:41:12 settled for shot s18l after 31 s: built 3048, queued 0, batching 0, plants 98949 (sides waiting 6), detail jobs 0, ground fill builds 1
+22:41:20 settled for shot s18l (camera placed) after 8 s: built 3048, queued 0, batching 0, plants 98949 (sides waiting 6), detail jobs 0, ground fill builds 1
+22:41:21 wrote shot s18l
+22:41:52 settled for shot s19f after 31 s: built 3042, queued 0, batching 0, plants 99432 (sides waiting 5), detail jobs 0, ground fill builds 1
+22:42:00 settled for shot s19f (camera placed) after 8 s: built 3042, queued 0, batching 0, plants 99432 (sides waiting 5), detail jobs 0, ground fill builds 1
+22:42:00 wrote shot s19f
+22:42:31 settled for shot s19l after 31 s: built 3042, queued 0, batching 0, plants 99432 (sides waiting 5), detail jobs 0, ground fill builds 1
+22:42:39 settled for shot s19l (camera placed) after 8 s: built 3042, queued 0, batching 0, plants 99432 (sides waiting 5), detail jobs 0, ground fill builds 1
+22:42:39 wrote shot s19l
+22:43:10 settled for shot s20f after 31 s: built 3014, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:43:18 settled for shot s20f (camera placed) after 8 s: built 3014, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:43:18 wrote shot s20f
+22:43:49 settled for shot s20l after 31 s: built 3014, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:43:57 settled for shot s20l (camera placed) after 8 s: built 3014, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:43:57 wrote shot s20l
+22:44:28 settled for shot s21f after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:44:36 settled for shot s21f (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:44:37 wrote shot s21f
+22:45:07 settled for shot s21l after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:45:15 settled for shot s21l (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:45:16 wrote shot s21l
+22:45:46 settled for shot s22f after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:45:54 settled for shot s22f (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:45:55 wrote shot s22f
+22:46:26 settled for shot s22l after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:46:34 settled for shot s22l (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:46:34 wrote shot s22l
+22:47:05 settled for shot s23f after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:47:13 settled for shot s23f (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:47:13 wrote shot s23f
+22:47:44 settled for shot s23l after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:47:52 settled for shot s23l (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:47:52 wrote shot s23l
+22:48:23 settled for shot s24f after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:48:31 settled for shot s24f (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:48:31 wrote shot s24f
+22:49:02 settled for shot s24l after 31 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:49:10 settled for shot s24l (camera placed) after 8 s: built 3013, queued 0, batching 0, plants 100339 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:49:10 wrote shot s24l
+22:49:41 settled for shot s25f after 31 s: built 2977, queued 0, batching 0, plants 99895 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:49:49 settled for shot s25f (camera placed) after 8 s: built 2977, queued 0, batching 0, plants 99895 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:49:50 wrote shot s25f
+22:50:20 settled for shot s25l after 31 s: built 2977, queued 0, batching 0, plants 99895 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:50:28 settled for shot s25l (camera placed) after 8 s: built 2977, queued 0, batching 0, plants 99895 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:50:29 wrote shot s25l
+22:50:59 settled for shot s26f after 31 s: built 3008, queued 0, batching 0, plants 101559 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:51:07 settled for shot s26f (camera placed) after 8 s: built 3008, queued 0, batching 0, plants 101559 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:51:08 wrote shot s26f
+22:51:38 settled for shot s26l after 31 s: built 3008, queued 0, batching 0, plants 101559 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:51:46 settled for shot s26l (camera placed) after 8 s: built 3008, queued 0, batching 0, plants 101559 (sides waiting 3), detail jobs 0, ground fill builds 1
+22:51:47 wrote shot s26l
+22:52:18 settled for shot s27f after 31 s: built 2992, queued 0, batching 0, plants 99324 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:52:26 settled for shot s27f (camera placed) after 8 s: built 2992, queued 0, batching 0, plants 99324 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:52:26 wrote shot s27f
+22:52:57 settled for shot s27l after 31 s: built 2992, queued 0, batching 0, plants 99324 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:53:05 settled for shot s27l (camera placed) after 8 s: built 2992, queued 0, batching 0, plants 99324 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:53:05 wrote shot s27l
+22:53:36 settled for shot s28f after 31 s: built 2870, queued 0, batching 0, plants 100364 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:53:44 settled for shot s28f (camera placed) after 8 s: built 2870, queued 0, batching 0, plants 100364 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:53:44 wrote shot s28f
+22:54:15 settled for shot s28l after 31 s: built 2870, queued 0, batching 0, plants 100364 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:54:23 settled for shot s28l (camera placed) after 8 s: built 2870, queued 0, batching 0, plants 100364 (sides waiting 1), detail jobs 0, ground fill builds 1
+22:54:23 wrote shot s28l
+22:54:54 settled for shot s29f after 31 s: built 2637, queued 0, batching 0, plants 97066 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:55:02 settled for shot s29f (camera placed) after 8 s: built 2637, queued 0, batching 0, plants 97066 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:55:02 wrote shot s29f
+22:55:33 settled for shot s29l after 31 s: built 2637, queued 0, batching 0, plants 97066 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:55:41 settled for shot s29l (camera placed) after 8 s: built 2637, queued 0, batching 0, plants 97066 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:55:41 wrote shot s29l
+22:56:12 settled for shot s30f after 31 s: built 2406, queued 0, batching 0, plants 96261 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:56:20 settled for shot s30f (camera placed) after 8 s: built 2406, queued 0, batching 0, plants 96261 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:56:21 wrote shot s30f
+22:56:51 settled for shot s30l after 31 s: built 2406, queued 0, batching 0, plants 96261 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:56:59 settled for shot s30l (camera placed) after 8 s: built 2406, queued 0, batching 0, plants 96261 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:57:00 wrote shot s30l
+22:57:30 settled for shot s31f after 31 s: built 2335, queued 0, batching 0, plants 91386 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:57:38 settled for shot s31f (camera placed) after 8 s: built 2335, queued 0, batching 0, plants 91386 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:57:39 wrote shot s31f
+22:58:10 settled for shot s31l after 31 s: built 2335, queued 0, batching 0, plants 91386 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:58:18 settled for shot s31l (camera placed) after 8 s: built 2335, queued 0, batching 0, plants 91386 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:58:18 wrote shot s31l
+22:58:49 settled for shot s32f after 31 s: built 2262, queued 0, batching 0, plants 89366 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:58:57 settled for shot s32f (camera placed) after 8 s: built 2262, queued 0, batching 0, plants 89366 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:58:57 wrote shot s32f
+22:59:28 settled for shot s32l after 31 s: built 2262, queued 0, batching 0, plants 89366 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:59:36 settled for shot s32l (camera placed) after 8 s: built 2262, queued 0, batching 0, plants 89366 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:59:36 wrote shot s32l
+23:00:07 settled for shot s33f after 31 s: built 2282, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:00:15 settled for shot s33f (camera placed) after 8 s: built 2282, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:00:15 wrote shot s33f
+23:00:46 settled for shot s33l after 31 s: built 2282, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:00:54 settled for shot s33l (camera placed) after 8 s: built 2282, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:00:54 wrote shot s33l
+23:01:25 settled for shot s34f after 31 s: built 2288, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:01:33 settled for shot s34f (camera placed) after 8 s: built 2288, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:01:34 wrote shot s34f
+23:02:04 settled for shot s34l after 31 s: built 2288, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:02:12 settled for shot s34l (camera placed) after 8 s: built 2288, queued 0, batching 0, plants 89908 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:02:13 wrote shot s34l
+23:02:43 settled for shot s35f after 31 s: built 2315, queued 0, batching 0, plants 89922 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:02:51 settled for shot s35f (camera placed) after 8 s: built 2315, queued 0, batching 0, plants 89922 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:02:52 wrote shot s35f
+23:03:22 settled for shot s35l after 31 s: built 2315, queued 0, batching 0, plants 89922 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:03:30 settled for shot s35l (camera placed) after 8 s: built 2315, queued 0, batching 0, plants 89922 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:03:31 wrote shot s35l
+23:04:01 settled for shot s36f after 31 s: built 2284, queued 0, batching 0, plants 95440 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:04:09 settled for shot s36f (camera placed) after 8 s: built 2284, queued 0, batching 0, plants 95440 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:04:10 wrote shot s36f
+23:04:41 settled for shot s36l after 31 s: built 2284, queued 0, batching 0, plants 95440 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:04:49 settled for shot s36l (camera placed) after 8 s: built 2284, queued 0, batching 0, plants 95440 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:04:49 wrote shot s36l
+23:05:20 settled for shot s37f after 31 s: built 2176, queued 0, batching 0, plants 101747 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:05:28 settled for shot s37f (camera placed) after 8 s: built 2176, queued 0, batching 0, plants 101747 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:05:28 wrote shot s37f
+23:05:59 settled for shot s37l after 31 s: built 2176, queued 0, batching 0, plants 101747 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:06:07 settled for shot s37l (camera placed) after 8 s: built 2176, queued 0, batching 0, plants 101747 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:06:07 wrote shot s37l
+23:06:38 settled for shot s38f after 31 s: built 1908, queued 0, batching 0, plants 101625 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:06:46 settled for shot s38f (camera placed) after 8 s: built 1908, queued 0, batching 0, plants 101625 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:06:46 wrote shot s38f
+23:07:17 settled for shot s38l after 31 s: built 1908, queued 0, batching 0, plants 101625 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:07:25 settled for shot s38l (camera placed) after 8 s: built 1908, queued 0, batching 0, plants 101625 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:07:25 wrote shot s38l
+23:07:56 settled for shot s39f after 31 s: built 1743, queued 0, batching 0, plants 101486 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:08:04 settled for shot s39f (camera placed) after 8 s: built 1743, queued 0, batching 0, plants 101486 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:08:04 wrote shot s39f
+23:08:35 settled for shot s39l after 31 s: built 1743, queued 0, batching 0, plants 101486 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:08:43 settled for shot s39l (camera placed) after 8 s: built 1743, queued 0, batching 0, plants 101486 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:08:44 wrote shot s39l
+23:09:14 settled for shot jA after 31 s: built 1730, queued 0, batching 0, plants 101234 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:09:22 settled for shot jA (camera placed) after 8 s: built 1730, queued 0, batching 0, plants 101234 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:09:23 wrote shot jA
+23:09:53 settled for shot jB after 31 s: built 1730, queued 0, batching 0, plants 101234 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:10:01 settled for shot jB (camera placed) after 8 s: built 1730, queued 0, batching 0, plants 101234 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:10:02 wrote shot jB
+23:10:32 settled for shot bup after 31 s: built 2489, queued 0, batching 0, plants 96213 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:10:40 settled for shot bup (camera placed) after 8 s: built 2489, queued 0, batching 0, plants 96213 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:10:41 wrote shot bup
+23:11:11 settled for shot b1 after 31 s: built 2719, queued 0, batching 0, plants 96213 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:11:19 settled for shot b1 (camera placed) after 8 s: built 2719, queued 0, batching 0, plants 96213 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:11:20 wrote shot b1

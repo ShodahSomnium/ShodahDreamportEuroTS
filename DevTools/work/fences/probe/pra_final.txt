@@ -1,0 +1,580 @@
+variant final: 0 curves, 441 buildings, 20 railed roads, 132042 triangles, 1692 copies
+overlapping coplanar same-facing pairs: 586 (201.02 m2); within one item (joints): 11 (0.02 m2); opposite-facing coplanar pairs: 2272
+    119.896 m2     55 pairs  cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center
+     74.522 m2     17 pairs  cross:bld tiled_wall.pmd:center | bld tiled_wall.pmd:center
+      2.330 m2     41 pairs  cross:bld double.pmd:center | bld double.pmd:center
+      1.708 m2    146 pairs  cross:bld hedge.pmd:center | bld hedge.pmd:center
+      1.401 m2    108 pairs  cross:bld railway_powerline_single.pmd:center | bld railway_powerline_single.pmd:center
+      0.413 m2     87 pairs  cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m
+      0.279 m2     20 pairs  cross:bld pillar_plaster.pmd:center | bld pillar_plaster.pmd:center
+      0.209 m2     48 pairs  cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center
+      0.080 m2     15 pairs  cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center
+      0.048 m2      1 pairs  cross:bld anti_noise_low.pmd:center | bld anti_noise_low.pmd:center
+      0.033 m2     12 pairs  cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center
+      0.028 m2      3 pairs  cross:bld small.pmd:center | bld small.pmd:center
+      0.018 m2     11 pairs  cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m
+      0.015 m2      9 pairs  same:bld anti_noise.pmd:center
+      0.015 m2      1 pairs  cross:bld hedge_lod.pmd:center | bld hedge_lod.pmd:center
+      0.010 m2      6 pairs  cross:bld terrace.pmd:center | bld terrace.pmd:center
+      0.008 m2      2 pairs  same:bld base_wall_netting.pmd:center
+      0.002 m2      2 pairs  cross:bld plastic_red.pmd:center | bld plastic_red.pmd:center
+      0.001 m2      2 pairs  cross:bld conc_barrier.pmd:center | bld conc_barrier.pmd:center
+
+bld 1 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 159.9 stretch 1.00
+bld 2 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 3.8 stretch 1.00
+bld 3 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 14.3 stretch 1.00
+bld 4 /model/wall/pillar_plaster.pmd el center partLen 8.09 width -1.00 start start end end len 27.6 stretch 1.00
+bld 5 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.7 stretch 1.00
+bld 6 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.0 stretch 1.00
+bld 7 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 17.3 stretch 1.00
+bld 8 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.9 stretch 1.00
+bld 9 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 29.9 stretch 1.00
+bld 10 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 19.1 stretch 1.00
+bld 11 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.0 stretch 1.00
+bld 12 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 7.9 stretch 1.00
+bld 13 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.1 stretch 1.00
+bld 14 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 22.1 stretch 1.00
+bld 15 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 24.5 stretch 1.00
+bld 16 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 7.2 stretch 1.00
+bld 17 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 114.9 stretch 1.00
+bld 18 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 19 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.6 stretch 1.00
+bld 20 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 15.3 stretch 1.00
+bld 22 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.5 stretch 1.00
+bld 23 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 21.3 stretch 1.00
+bld 24 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.8 stretch 1.00
+bld 25 /model/vegetation/tree_deciduous/tree_railing_full.pmd el center partLen 74.63 width -1.00 start start end end len 72.3 stretch 1.00
+bld 26 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 23.7 stretch 1.00
+bld 27 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 18.5 stretch 1.00
+bld 28 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 8.7 stretch 1.00
+bld 29 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.9 stretch 1.00
+bld 30 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.0 stretch 1.00
+bld 31 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.2 stretch 1.00
+bld 32 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 28.7 stretch 1.00
+bld 33 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.7 stretch 1.00
+bld 34 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 8.8 stretch 1.00
+bld 35 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 18.7 stretch 1.00
+bld 36 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.6 stretch 1.00
+bld 37 /model/wall/concrete_wall_czech.pmd el center partLen 13.01 width -1.00 start start end end len 14.5 stretch 1.00
+bld 38 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 46.2 stretch 1.00
+bld 39 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 17.5 stretch 1.00
+bld 40 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 9.9 stretch 1.00
+bld 41 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 14.7 stretch 1.00
+bld 42 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 21.4 stretch 1.00
+bld 43 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 44.9 stretch 1.00
+bld 44 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 44.5 stretch 1.00
+bld 45 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 19.2 stretch 1.00
+bld 46 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 22.6 stretch 1.00
+bld 48 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.8 stretch 1.00
+bld 49 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 36.8 stretch 1.00
+bld 50 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 14.1 stretch 1.00
+bld 51 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 10.5 stretch 1.00
+bld 52 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 38.2 stretch 1.00
+bld 53 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 11.8 stretch 1.00
+bld 54 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.1 stretch 1.00
+bld 55 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 24.7 stretch 1.00
+bld 56 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 17.5 stretch 1.00
+bld 57 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 22.9 stretch 1.00
+bld 58 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 7.2 stretch 1.00
+bld 59 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 135.4 stretch 1.00
+bld 60 /model/hedge_lod.pmd el center partLen 6.70 width -1.00 start start end end len 26.0 stretch 1.00
+bld 61 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 154.3 stretch 1.00
+bld 62 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 4.5 stretch 1.00
+bld 63 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 19.1 stretch 1.00
+bld 64 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.3 stretch 1.00
+bld 65 /model/wall/pillar_brick.pmd el center partLen 8.09 width -1.00 start start end end len 107.6 stretch 1.00
+bld 66 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 16.1 stretch 1.00
+bld 67 /model/rail/wheelrail.pmd el center partLen 5.00 width -1.00 start start end end len 20.9 stretch 1.00
+bld 68 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 10.1 stretch 1.00
+bld 69 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.1 stretch 1.00
+bld 70 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 62.2 stretch 1.00
+bld 71 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 32.2 stretch 1.00
+bld 72 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.2 stretch 1.00
+bld 73 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.9 stretch 1.00
+bld 74 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 75 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 39.7 stretch 1.00
+bld 76 /model/railing/wall/waterfront.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.8 stretch 1.00
+bld 77 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 29.4 stretch 1.00
+bld 78 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 10.6 stretch 1.00
+bld 79 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 13.5 stretch 1.00
+bld 81 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 38.0 stretch 1.00
+bld 82 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 42.6 stretch 1.00
+bld 83 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 27.1 stretch 1.00
+bld 84 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 43.3 stretch 1.00
+bld 85 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.8 stretch 1.00
+bld 86 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 11.2 stretch 1.00
+bld 87 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 109.9 stretch 1.00
+bld 88 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.2 stretch 1.00
+bld 89 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.0 stretch 1.00
+bld 90 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.8 stretch 1.00
+bld 91 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.1 stretch 1.00
+bld 92 /model/wall/concrete_wall_czech.pmd el center partLen 13.01 width -1.00 start start end end len 22.0 stretch 1.00
+bld 93 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.5 stretch 1.00
+bld 94 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.1 stretch 1.00
+bld 95 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 27.5 stretch 1.00
+bld 96 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 71.6 stretch 1.00
+bld 97 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.0 stretch 1.00
+bld 98 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 99 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.3 stretch 1.00
+bld 100 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 21.3 stretch 1.00
+bld 101 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.9 stretch 1.00
+bld 102 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 38.1 stretch 1.00
+bld 103 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 182.4 stretch 1.00
+bld 104 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 32.2 stretch 1.00
+bld 105 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 29.2 stretch 1.00
+bld 106 /model/wall/pillar_plaster.pmd el center partLen 8.09 width -1.00 start start end end len 17.4 stretch 1.00
+bld 107 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 29.7 stretch 1.00
+bld 108 /model/wall/anti_noise_low.pmd el center partLen 20.00 width -1.00 start start end end len 60.6 stretch 1.00
+bld 109 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 25.9 stretch 1.00
+bld 110 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 42.4 stretch 1.00
+bld 111 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.9 stretch 1.00
+bld 112 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 16.3 stretch 1.00
+bld 113 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 38.7 stretch 1.00
+bld 114 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 48.2 stretch 1.00
+bld 115 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.3 stretch 1.00
+bld 116 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 23.3 stretch 1.00
+bld 117 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 118 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.9 stretch 1.00
+bld 119 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.1 stretch 1.00
+bld 120 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 26.1 stretch 1.00
+bld 121 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 15.2 stretch 1.00
+bld 122 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 4.0 stretch 1.00
+bld 123 /model/garage/double.pmd el center partLen 8.00 width -1.00 start start end end len 82.4 stretch 1.00
+bld 124 /model/vegetation/tree_deciduous/tree_railing_full.pmd el center partLen 74.63 width -1.00 start start end end len 99.3 stretch 1.00
+bld 125 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 14.3 stretch 1.00
+bld 126 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 13.0 stretch 1.00
+bld 127 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.4 stretch 1.00
+bld 128 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 19.2 stretch 1.00
+bld 129 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 12.1 stretch 1.00
+bld 130 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.0 stretch 1.00
+bld 131 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.9 stretch 1.00
+bld 132 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 24.4 stretch 1.00
+bld 133 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 14.1 stretch 1.00
+bld 134 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 4.8 stretch 1.00
+bld 135 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 42.7 stretch 1.00
+bld 136 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.1 stretch 1.00
+bld 137 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.6 stretch 1.00
+bld 138 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 79.2 stretch 1.00
+bld 139 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 13.4 stretch 1.00
+bld 140 /model/vegetation/tree_deciduous/tree_railing_full.pmd el center partLen 74.63 width -1.00 start start end end len 50.3 stretch 1.00
+bld 141 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 19.3 stretch 1.00
+bld 142 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 4.6 stretch 1.00
+bld 143 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 11.3 stretch 1.00
+bld 144 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.1 stretch 1.00
+bld 145 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 23.3 stretch 1.00
+bld 146 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 7.1 stretch 1.00
+bld 147 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 32.6 stretch 1.00
+bld 148 /model/wall/pillar_brick.pmd el center partLen 8.09 width -1.00 start start end end len 60.1 stretch 1.00
+bld 149 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 30.8 stretch 1.00
+bld 150 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.0 stretch 1.00
+bld 151 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.9 stretch 1.00
+bld 152 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 4.1 stretch 1.00
+bld 153 /model/rail/wheelrail.pmd el center partLen 5.00 width -1.00 start start end end len 17.5 stretch 1.00
+bld 154 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 14.8 stretch 1.00
+bld 155 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 130.6 stretch 1.00
+bld 156 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 21.3 stretch 1.00
+bld 157 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.0 stretch 1.00
+bld 158 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.1 stretch 1.00
+bld 159 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.3 stretch 1.00
+bld 160 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 8.7 stretch 1.00
+bld 161 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.9 stretch 1.00
+bld 162 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 10.6 stretch 1.00
+bld 163 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 9.3 stretch 1.00
+bld 164 /model/pavement_3m.pmd el center partLen 2.00 width -1.00 start start end end len 7.0 stretch 1.00
+bld 165 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 26.9 stretch 1.00
+bld 166 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 8.5 stretch 1.00
+bld 167 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 30.0 stretch 1.00
+bld 168 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 24.3 stretch 1.00
+bld 169 /model/rail/wheelrail.pmd el center partLen 5.00 width -1.00 start start end end len 19.4 stretch 1.00
+bld 170 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.5 stretch 1.00
+bld 171 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 13.8 stretch 1.00
+bld 172 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.0 stretch 1.00
+bld 173 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 27.9 stretch 1.00
+bld 174 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 46.4 stretch 1.00
+bld 175 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 32.4 stretch 1.00
+bld 176 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 36.9 stretch 1.00
+bld 177 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 4.2 stretch 1.00
+bld 178 /model/rail/rail.pmd el center partLen 25.00 width -1.00 start start end end len 225.2 stretch 1.00
+bld 179 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 11.1 stretch 1.00
+bld 180 /model/rail/wheelrail.pmd el center partLen 5.00 width -1.00 start start end end len 16.6 stretch 1.00
+bld 181 /model/garage/double.pmd el center partLen 8.00 width -1.00 start start end end len 96.6 stretch 1.00
+bld 182 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 28.4 stretch 1.00
+bld 183 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.5 stretch 1.00
+bld 184 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 4.7 stretch 1.00
+bld 185 /model/pavement_3m.pmd el center partLen 2.00 width -1.00 start start end end len 7.6 stretch 1.00
+bld 186 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 21.5 stretch 1.00
+bld 187 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 20.0 stretch 1.00
+bld 188 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 16.2 stretch 1.00
+bld 189 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 49.6 stretch 1.00
+bld 190 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 47.2 stretch 1.00
+bld 191 /model/rail/wheelrail.pmd el center partLen 5.00 width -1.00 start start end end len 23.8 stretch 1.00
+bld 192 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 9.4 stretch 1.00
+bld 193 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 11.1 stretch 1.00
+bld 194 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.0 stretch 1.00
+bld 195 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 16.2 stretch 1.00
+bld 196 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 14.0 stretch 1.00
+bld 197 /model/vegetation/tree_deciduous/tree_railing_full.pmd el center partLen 74.63 width -1.00 start start end end len 61.4 stretch 1.00
+bld 198 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 10.2 stretch 1.00
+bld 199 /model/vegetation/tree_deciduous/tree_railing_full.pmd el center partLen 74.63 width -1.00 start start end end len 113.1 stretch 1.00
+bld 200 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.1 stretch 1.00
+bld 201 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.6 stretch 1.00
+bld 202 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 10.4 stretch 1.00
+bld 203 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 22.5 stretch 1.00
+bld 204 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 79.6 stretch 1.00
+bld 205 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 9.7 stretch 1.00
+bld 206 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 10.1 stretch 1.00
+bld 207 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 12.5 stretch 1.00
+bld 208 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 20.0 stretch 1.00
+bld 209 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 65.7 stretch 1.00
+bld 210 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.2 stretch 1.00
+bld 211 /model/wall/terrace.pmd el center partLen 20.00 width -1.00 start start end end len 98.7 stretch 1.00
+bld 212 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 28.4 stretch 1.00
+bld 213 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 12.2 stretch 1.00
+bld 214 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.1 stretch 1.00
+bld 215 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.0 stretch 1.00
+bld 216 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 23.8 stretch 1.00
+bld 217 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 85.4 stretch 1.00
+bld 218 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 25.7 stretch 1.00
+bld 219 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 21.0 stretch 1.00
+bld 220 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 15.2 stretch 1.00
+bld 221 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 26.1 stretch 1.00
+bld 222 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 11.3 stretch 1.00
+bld 223 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 58.6 stretch 1.00
+bld 224 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 23.3 stretch 1.00
+bld 225 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 4.2 stretch 1.00
+bld 226 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 11.5 stretch 1.00
+bld 227 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.3 stretch 1.00
+bld 228 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.3 stretch 1.00
+bld 229 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 15.4 stretch 1.00
+bld 230 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 18.9 stretch 1.00
+bld 231 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 3.7 stretch 1.00
+bld 232 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.0 stretch 1.00
+bld 233 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 177.1 stretch 1.00
+bld 234 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 24.1 stretch 1.00
+bld 235 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.0 stretch 1.00
+bld 236 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.0 stretch 1.00
+bld 237 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 20.7 stretch 1.00
+bld 238 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 40.0 stretch 1.00
+bld 239 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 15.0 stretch 1.00
+bld 240 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 241 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 34.4 stretch 1.00
+bld 242 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 22.2 stretch 1.00
+bld 243 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 35.1 stretch 1.00
+bld 244 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 9.8 stretch 1.00
+bld 245 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.5 stretch 1.00
+bld 246 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.0 stretch 1.00
+bld 247 /model/hedge_lod.pmd el center partLen 6.70 width -1.00 start start end end len 11.5 stretch 1.00
+bld 248 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 11.7 stretch 1.00
+bld 249 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 13.3 stretch 1.00
+bld 250 /model/railing/wall/waterfront.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.8 stretch 1.00
+bld 252 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.8 stretch 1.00
+bld 253 /model/warehouse/small.pmd el center partLen 5.00 width -1.00 start start end end len 30.2 stretch 1.00
+bld 254 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 36.8 stretch 1.00
+bld 255 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 11.6 stretch 1.00
+bld 256 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.6 stretch 1.00
+bld 257 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.9 stretch 1.00
+bld 258 /model/wall/pillar_brick.pmd el center partLen 8.09 width -1.00 start start end end len 28.8 stretch 1.00
+bld 259 /model/wall/pillar_brick.pmd el center partLen 8.09 width -1.00 start start end end len 24.5 stretch 1.00
+bld 260 /model/railing/wall/waterfront.pmd el center5m partLen 5.00 width -1.00 start  end  len 6.8 stretch 1.00
+bld 261 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 21.3 stretch 1.00
+bld 262 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 17.9 stretch 1.00
+bld 263 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 4.3 stretch 1.00
+bld 264 /model/wall/anti_noise_low.pmd el center partLen 20.00 width -1.00 start start end end len 39.1 stretch 1.00
+bld 265 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 22.9 stretch 1.00
+bld 266 /model/warehouse/small.pmd el center partLen 5.00 width -1.00 start start end end len 31.3 stretch 1.00
+bld 267 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.0 stretch 1.00
+bld 268 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 11.2 stretch 1.00
+bld 269 /model/railing/wall/waterfront.pmd el center5m partLen 5.00 width -1.00 start  end  len 12.5 stretch 1.00
+bld 270 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 9.0 stretch 1.00
+bld 271 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 18.8 stretch 1.00
+bld 272 /model/wall/concrete_wall_czech.pmd el center partLen 13.01 width -1.00 start start end end len 6.2 stretch 1.00
+bld 274 /model/wall/terrace.pmd el center partLen 20.00 width -1.00 start start end end len 57.1 stretch 1.00
+bld 275 /model/wall/terrace.pmd el center partLen 20.00 width -1.00 start start end end len 65.9 stretch 1.00
+bld 276 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.1 stretch 1.00
+bld 277 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 15.6 stretch 1.00
+bld 278 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 3.2 stretch 1.00
+bld 279 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 10.9 stretch 1.00
+bld 280 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 9.9 stretch 1.00
+bld 281 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 40.2 stretch 1.00
+bld 282 /dlc/dead_end_dlc.pmd el center partLen 1.87 width -1.00 start start end end len 15.6 stretch 1.00
+bld 283 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 9.6 stretch 1.00
+bld 284 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 285 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 32.5 stretch 1.00
+bld 286 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 12.8 stretch 1.00
+bld 287 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 49.3 stretch 1.00
+bld 288 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 21.2 stretch 1.00
+bld 289 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 71.5 stretch 1.00
+bld 290 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.0 stretch 1.00
+bld 291 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.2 stretch 1.00
+bld 292 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 26.7 stretch 1.00
+bld 293 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 7.2 stretch 1.00
+bld 294 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 42.5 stretch 1.00
+bld 295 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 27.9 stretch 1.00
+bld 296 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 11.9 stretch 1.00
+bld 297 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 43.3 stretch 1.00
+bld 298 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 18.1 stretch 1.00
+bld 299 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 10.6 stretch 1.00
+bld 300 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 4.1 stretch 1.00
+bld 301 /model/vegetation/tree_deciduous/tree_railing_full.pmd el center partLen 74.63 width -1.00 start start end end len 86.5 stretch 1.00
+bld 302 /model/wall/pillar_plaster.pmd el center partLen 8.09 width -1.00 start start end end len 33.2 stretch 1.00
+bld 303 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 49.8 stretch 1.00
+bld 304 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 18.5 stretch 1.00
+bld 305 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 11.3 stretch 1.00
+bld 306 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.0 stretch 1.00
+bld 307 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 110.7 stretch 1.00
+bld 308 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 309 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 11.3 stretch 1.00
+bld 310 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 60.8 stretch 1.00
+bld 311 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.0 stretch 1.00
+bld 312 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.6 stretch 1.00
+bld 313 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 9.4 stretch 1.00
+bld 314 /model/wall/pillar_plaster.pmd el center partLen 8.09 width -1.00 start start end end len 47.5 stretch 1.00
+bld 315 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 17.0 stretch 1.00
+bld 316 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 3.5 stretch 1.00
+bld 317 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.9 stretch 1.00
+bld 318 /model/wall/concrete_wall_czech.pmd el center partLen 13.01 width -1.00 start start end end len 41.5 stretch 1.00
+bld 319 /model/wall/pillar_plaster.pmd el center partLen 8.09 width -1.00 start start end end len 31.2 stretch 1.00
+bld 320 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 76.1 stretch 1.00
+bld 321 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.0 stretch 1.00
+bld 322 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 21.4 stretch 1.00
+bld 323 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.6 stretch 1.00
+bld 324 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 13.5 stretch 1.00
+bld 325 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.0 stretch 1.00
+bld 326 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 11.3 stretch 1.00
+bld 327 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 50.1 stretch 1.00
+bld 328 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.8 stretch 1.00
+bld 329 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 4.6 stretch 1.00
+bld 330 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 39.1 stretch 1.00
+bld 331 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 21.4 stretch 1.00
+bld 332 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 24.1 stretch 1.00
+bld 333 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 6.4 stretch 1.00
+bld 334 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 21.1 stretch 1.00
+bld 336 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.0 stretch 1.00
+bld 337 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 60.6 stretch 1.00
+bld 338 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 31.7 stretch 1.00
+bld 339 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.3 stretch 1.00
+bld 340 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 341 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 156.4 stretch 1.00
+bld 342 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 20.3 stretch 1.00
+bld 343 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.7 stretch 1.00
+bld 344 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 11.4 stretch 1.00
+bld 345 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.7 stretch 1.00
+bld 346 /model/wall/anti_noise7.pmd el center partLen 7.00 width -1.00 start start end end len 39.0 stretch 1.00
+bld 347 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 25.7 stretch 1.00
+bld 348 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 35.7 stretch 1.00
+bld 349 /model/hedge_lod.pmd el center partLen 6.70 width -1.00 start start end end len 6.8 stretch 1.00
+bld 350 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 28.4 stretch 1.00
+bld 351 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.4 stretch 1.00
+bld 352 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 60.8 stretch 1.00
+bld 353 /model/warehouse/small.pmd el center partLen 5.00 width -1.00 start start end end len 36.6 stretch 1.00
+bld 354 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.5 stretch 1.00
+bld 355 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 14.5 stretch 1.00
+bld 356 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 14.8 stretch 1.00
+bld 357 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 60.8 stretch 1.00
+bld 358 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 16.7 stretch 1.00
+bld 359 /model/wall/pillar_brick.pmd el center partLen 8.09 width -1.00 start start end end len 24.3 stretch 1.00
+bld 360 /model/railing/wall/waterfront.pmd el center5m partLen 5.00 width -1.00 start  end  len 21.5 stretch 1.00
+bld 361 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 18.1 stretch 1.00
+bld 362 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.3 stretch 1.00
+bld 363 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 19.8 stretch 1.00
+bld 364 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.4 stretch 1.00
+bld 365 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 48.2 stretch 1.00
+bld 366 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 7.1 stretch 1.00
+bld 367 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 6.8 stretch 1.00
+bld 368 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 369 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 42.2 stretch 1.00
+bld 370 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 31.2 stretch 1.00
+bld 371 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 38.2 stretch 1.00
+bld 372 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 5.3 stretch 1.00
+bld 373 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 67.0 stretch 1.00
+bld 374 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 24.8 stretch 1.00
+bld 375 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 38.1 stretch 1.00
+bld 376 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.5 stretch 1.00
+bld 377 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.4 stretch 1.00
+bld 379 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.3 stretch 1.00
+bld 380 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 51.3 stretch 1.00
+bld 381 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 20.9 stretch 1.00
+bld 382 /model/wall/concrete_wall_czech_lod.pmd el center partLen 13.01 width -1.00 start start end end len 48.2 stretch 1.00
+bld 383 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 22.7 stretch 1.00
+bld 384 /model/wall/construction/plastic_red.pmd el center partLen 2.98 width -1.00 start start end end len 21.6 stretch 1.00
+bld 385 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 324.7 stretch 1.00
+bld 386 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 57.2 stretch 1.00
+bld 387 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.3 stretch 1.00
+bld 388 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 18.2 stretch 1.00
+bld 389 /model/power_line/railway_powerline_single.pmd el center partLen 51.17 width -1.00 start start end end len 48.5 stretch 1.00
+bld 390 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 67.6 stretch 1.00
+bld 391 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.4 stretch 1.00
+bld 392 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 32.5 stretch 1.00
+bld 394 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 18.5 stretch 1.00
+bld 395 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 13.5 stretch 1.00
+bld 398 /model/wall/pillar_brick.pmd el center partLen 8.09 width -1.00 start start end end len 95.5 stretch 1.00
+bld 399 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 8.9 stretch 1.00
+bld 400 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 33.0 stretch 1.00
+bld 401 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 3.6 stretch 1.00
+bld 402 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 11.2 stretch 1.00
+bld 403 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 20.6 stretch 1.00
+bld 404 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 10.5 stretch 1.00
+bld 405 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 18.5 stretch 1.00
+bld 406 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 9.5 stretch 1.00
+bld 407 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.3 stretch 1.00
+bld 408 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 18.7 stretch 1.00
+bld 409 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 19.8 stretch 1.00
+bld 410 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 8.6 stretch 1.00
+bld 411 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 13.2 stretch 1.00
+bld 412 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 11.8 stretch 1.00
+bld 413 /model/railing/wall_with_wooden_fence.pmd el center5m partLen 5.00 width -1.00 start  end  len 31.5 stretch 1.00
+bld 414 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.9 stretch 1.00
+bld 415 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.2 stretch 1.00
+bld 416 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 7.3 stretch 1.00
+bld 417 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 24.1 stretch 1.00
+bld 418 /model/warehouse/tiled_wall.pmd el center partLen 20.00 width -1.00 start start end end len 25.8 stretch 1.00
+bld 419 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 25.6 stretch 1.00
+bld 420 /model/wall/base_wall_netting.pmd el center partLen 15.00 width -1.00 start start end end len 12.6 stretch 1.00
+bld 421 /model/wall/construction/conc_barrier.pmd el center partLen 2.26 width -1.00 start start end end len 14.7 stretch 1.00
+bld 422 /model/wall/anti_noise.pmd el center partLen 20.00 width -1.00 start start end end len 26.1 stretch 1.00
+bld 423 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 24.1 stretch 1.00
+bld 424 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 3.9 stretch 1.00
+bld 425 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 8.1 stretch 1.00
+bld 426 /model/wall/anti_noise6_lod.pmd el center partLen 9.60 width -1.00 start start end end len 11.1 stretch 1.00
+bld 427 /model/wall/treewall.pmd el center partLen 60.00 width -1.00 start start end end len 139.4 stretch 1.00
+bld 428 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 19.2 stretch 1.00
+bld 429 /model/rail/wheelrail.pmd el center partLen 5.00 width -1.00 start start end end len 19.4 stretch 1.00
+bld 431 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.2 stretch 1.00
+bld 432 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 5.4 stretch 1.00
+bld 433 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 17.1 stretch 1.00
+bld 434 /model/railing/crash_barrier_single_concrete.pmd el center5m partLen 5.00 width -1.00 start  end  len 11.7 stretch 1.00
+bld 435 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 5.9 stretch 1.00
+bld 436 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 8.7 stretch 1.00
+bld 437 /model/railing/metal_fence_with_base_wall.pmd el center5m partLen 5.00 width -1.00 start  end  len 26.5 stretch 1.00
+bld 438 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 30.8 stretch 1.00
+bld 439 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 6.5 stretch 1.00
+bld 440 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 23.6 stretch 1.00
+bld 441 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 21.5 stretch 1.00
+bld 442 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 23.9 stretch 1.00
+bld 443 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 23.5 stretch 1.00
+bld 444 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 26.1 stretch 1.00
+bld 445 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 23.7 stretch 1.00
+bld 446 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 24.0 stretch 1.00
+bld 447 /model/wall/rail_redwhite.pmd el center partLen 2.00 width -1.00 start start end end len 23.8 stretch 1.00
+bld 448 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 8.6 stretch 1.00
+bld 449 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 34.9 stretch 1.00
+bld 450 /model2/plaza/pavement_curb_blke2.pmd el center partLen 6.79 width -1.00 start start end end len 7.6 stretch 1.00
+bld 451 /model2/plaza/pavement_curb_blke2.pmd el center partLen 6.79 width -1.00 start start end end len 8.8 stretch 1.00
+bld 452 /model/hedge.pmd el center partLen 6.70 width -1.00 start start end end len 7.5 stretch 1.00
+road 453 002935DE05E0BF2D len 190.7 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/True
+road 454 002935DE08F04DAF len 28.7 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/False
+road 455 002935DE10B04DD8 len 25.6 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 456 002935DE10F04DCF len 81.7 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/True
+road 457 002935DE1FC0C0AA len 31.4 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 458 002935DE3BF04DDD len 54.8 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/False
+road 459 002935DE51B04DC4 len 25.8 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 460 002935DE5CA04DB3 len 54.0 railing /model/railing/crash_barrier_single_concrete.pmd R slot 0 off 1.00 lateral 2.00 turned False DS False centreOnly False caps True/False
+road 460 002935DE5CA04DB3 len 54.0 railing /model/railing/outer_crash_barrier_cityroad_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/False
+road 461 002935DE74A04DD5 len 40.7 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 462 002935DE76804D5A len 63.5 railing /model/railing/crash_barrier_single_concrete.pmd R slot 0 off 1.00 lateral 2.00 turned False DS False centreOnly False caps False/False
+road 462 002935DE76804D5A len 63.5 railing /model/railing/outer_crash_barrier_cityroad_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/False
+road 463 002935DE9920BF2B len 121.4 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/False
+road 464 002935DE9FF04D55 len 74.9 railing /model/railing/crash_barrier_single_concrete.pmd R slot 0 off 1.00 lateral 2.00 turned False DS False centreOnly False caps False/True
+road 464 002935DE9FF04D55 len 74.9 railing /model/railing/outer_crash_barrier_cityroad_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/True
+road 465 002935DEBD304DBC len 30.7 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 466 002935DED0D04D72 len 81.5 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/True
+road 467 002935DED6604DBE len 24.8 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 468 002935DEDD104DA3 len 28.6 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/True
+road 469 002935DEE2604DD2 len 25.6 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 470 002935DEE8D04DE0 len 69.2 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps False/False
+road 471 002935DEEAF04DB7 len 27.2 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/True
+road 472 002935DEF7604DAA len 110.6 railing /model/railing/center_crash_barrier_1m_cz.pmd L slot 0 off 0.00 lateral -1.00 turned True DS False centreOnly False caps True/False
+  PAIR    73.786 m2 items 352/390 cross:bld tiled_wall.pmd:center | bld tiled_wall.pmd:center @(154.18,83.91,121.05) n (0.00,1.00,0.00)
+  PAIR    33.447 m2 items 67/153 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-294.29,72.23,17.84) n (0.00,1.00,0.00)
+  PAIR    25.060 m2 items 153/169 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-294.07,72.23,11.85) n (0.00,1.00,0.00)
+  PAIR    25.005 m2 items 169/191 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-300.85,72.23,13.69) n (0.00,1.00,0.00)
+  PAIR    21.491 m2 items 67/191 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-297.41,72.23,22.02) n (0.00,1.00,0.00)
+  PAIR     7.470 m2 items 67/429 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-297.41,72.23,22.02) n (0.00,1.00,0.00)
+  PAIR     5.894 m2 items 67/169 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-291.18,72.23,13.65) n (0.00,1.00,0.00)
+  PAIR     2.330 m2 items 123/181 cross:bld double.pmd:center | bld double.pmd:center @(-18.96,83.91,203.43) n (0.00,1.00,0.00)
+  PAIR     1.385 m2 items 153/191 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-293.23,72.23,17.49) n (0.00,1.00,0.00)
+  PAIR     0.692 m2 items 138/341 cross:bld railway_powerline_single.pmd:center | bld railway_powerline_single.pmd:center @(38.90,84.17,-259.87) n (0.12,0.00,0.99)
+  PAIR     0.618 m2 items 49/390 cross:bld tiled_wall.pmd:center | bld tiled_wall.pmd:center @(219.98,82.91,109.34) n (0.00,-1.00,0.00)
+  PAIR     0.562 m2 items 13/85 cross:bld hedge.pmd:center | bld hedge.pmd:center @(259.34,73.88,-65.27) n (0.00,1.00,0.00)
+  PAIR     0.441 m2 items 345/377 cross:bld hedge.pmd:center | bld hedge.pmd:center @(257.65,72.69,-68.17) n (0.00,1.00,0.00)
+  PAIR     0.259 m2 items 314/319 cross:bld pillar_plaster.pmd:center | bld pillar_plaster.pmd:center @(-125.16,76.12,12.96) n (0.00,-1.00,0.00)
+  PAIR     0.256 m2 items 138/350 cross:bld railway_powerline_single.pmd:center | bld railway_powerline_single.pmd:center @(117.88,84.68,-264.04) n (0.01,0.98,0.18)
+  PAIR     0.225 m2 items 126/245 cross:bld hedge.pmd:center | bld hedge.pmd:center @(248.28,73.88,-68.54) n (0.00,1.00,0.00)
+  PAIR     0.217 m2 items 287/348 cross:bld railway_powerline_single.pmd:center | bld railway_powerline_single.pmd:center @(239.82,84.41,-286.89) n (0.21,0.00,0.98)
+  PAIR     0.212 m2 items 126/276 cross:bld hedge.pmd:center | bld hedge.pmd:center @(248.40,72.77,-60.05) n (0.00,1.00,0.00)
+  PAIR     0.191 m2 items 350/389 cross:bld railway_powerline_single.pmd:center | bld railway_powerline_single.pmd:center @(145.69,84.41,-264.73) n (0.16,0.00,0.99)
+  PAIR     0.153 m2 items 64/209 cross:bld hedge.pmd:center | bld hedge.pmd:center @(249.60,73.88,-58.27) n (0.00,1.00,0.00)
+  PAIR     0.110 m2 items 289/386 cross:bld tiled_wall.pmd:center | bld tiled_wall.pmd:center @(237.48,82.91,267.45) n (0.00,-1.00,0.00)
+  PAIR     0.106 m2 items 95/369 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-159.14,73.02,92.35) n (0.00,1.00,0.00)
+  PAIR     0.094 m2 items 195/292 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(307.90,77.88,-43.71) n (0.00,1.00,0.00)
+  PAIR     0.086 m2 items 153/180 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-293.79,72.23,6.01) n (0.00,1.00,0.00)
+  PAIR     0.082 m2 items 96/209 cross:bld hedge.pmd:center | bld hedge.pmd:center @(245.94,73.88,7.46) n (0.00,1.00,0.00)
+  PAIR     0.058 m2 items 191/429 cross:bld wheelrail.pmd:center | bld wheelrail.pmd:center @(-295.41,72.23,21.19) n (0.00,1.00,0.00)
+  PAIR     0.051 m2 items 53/222 cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center @(-362.99,73.00,-100.20) n (0.00,1.00,0.00)
+  PAIR     0.048 m2 items 108/264 cross:bld anti_noise_low.pmd:center | bld anti_noise_low.pmd:center @(-123.61,73.64,-56.49) n (0.00,1.00,0.00)
+  PAIR     0.045 m2 items 287/389 cross:bld railway_powerline_single.pmd:center | bld railway_powerline_single.pmd:center @(191.28,84.41,-279.29) n (0.33,0.00,0.94)
+  PAIR     0.042 m2 items 187/208 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(208.00,72.83,35.67) n (0.00,1.00,0.00)
+  PAIR     0.039 m2 items 7/133 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(304.46,77.93,-13.82) n (0.00,1.00,0.00)
+  PAIR     0.036 m2 items 141/428 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(169.11,72.83,39.68) n (0.00,1.00,0.00)
+  PAIR     0.033 m2 items 42/156 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(206.07,77.93,66.82) n (0.00,1.00,0.00)
+  PAIR     0.033 m2 items 84/190 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-240.92,73.02,117.45) n (0.00,1.00,0.00)
+  PAIR     0.028 m2 items 245/448 cross:bld hedge.pmd:center | bld hedge.pmd:center @(241.48,72.77,-72.86) n (0.00,1.00,0.00)
+  PAIR     0.028 m2 items 266/353 cross:bld small.pmd:center | bld small.pmd:center @(276.69,82.95,87.04) n (0.00,1.00,0.00)
+  PAIR     0.024 m2 items 143/309 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(121.54,72.83,6.13) n (0.00,1.00,0.00)
+  PAIR     0.019 m2 items 222/333 cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center @(-356.56,73.00,-108.65) n (0.00,1.00,0.00)
+  PAIR     0.017 m2 items 31/69 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(343.55,73.16,-116.86) n (0.30,0.00,-0.95)
+  PAIR     0.016 m2 items 106/302 cross:bld pillar_plaster.pmd:center | bld pillar_plaster.pmd:center @(-171.43,76.12,26.26) n (0.00,-1.00,0.00)
+  PAIR     0.016 m2 items 95/167 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-136.71,73.02,84.42) n (0.00,1.00,0.00)
+  PAIR     0.016 m2 items 90/210 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-354.58,73.58,150.93) n (-0.60,0.00,-0.80)
+  PAIR     0.015 m2 items 247/349 cross:bld hedge_lod.pmd:center | bld hedge_lod.pmd:center @(-226.40,74.90,-131.47) n (0.00,1.00,0.00)
+  PAIR     0.015 m2 items 121/268 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(130.41,72.83,35.61) n (0.00,1.00,0.00)
+  PAIR     0.014 m2 items 130/323 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(312.27,73.22,-147.59) n (-0.62,0.00,0.78)
+  PAIR     0.013 m2 items 72/93 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-326.82,73.58,123.31) n (0.82,0.00,0.57)
+  PAIR     0.013 m2 items 115/210 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-357.07,73.53,155.26) n (0.96,0.00,0.27)
+  PAIR     0.013 m2 items 2/69 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(339.49,73.22,-119.56) n (-0.84,0.00,0.55)
+  PAIR     0.012 m2 items 63/119 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(91.30,72.91,102.46) n (0.00,1.00,0.00)
+  PAIR     0.012 m2 items 93/435 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-322.56,73.54,120.26) n (0.30,0.00,0.95)
+  PAIR     0.011 m2 items 75/156 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(227.04,76.40,61.51) n (0.34,0.00,0.94)
+  PAIR     0.011 m2 items 130/152 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(309.90,73.16,-151.67) n (0.96,0.00,-0.27)
+  PAIR     0.010 m2 items 75/346 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(262.28,77.15,44.15) n (-0.56,0.00,-0.83)
+  PAIR     0.010 m2 items 83/190 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-291.44,73.02,120.57) n (0.00,1.00,0.00)
+  PAIR     0.010 m2 items 42/322 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(185.10,77.15,68.80) n (-0.07,0.00,-1.00)
+  PAIR     0.010 m2 items 274/275 cross:bld terrace.pmd:center | bld terrace.pmd:center @(391.86,83.39,-36.46) n (0.00,-1.00,0.00)
+  PAIR     0.008 m2 items 310/352 cross:bld tiled_wall.pmd:center | bld tiled_wall.pmd:center @(165.75,82.91,174.04) n (0.00,-1.00,0.00)
+  PAIR     0.008 m2 items 121/150 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(122.39,73.33,25.13) n (0.92,0.00,-0.40)
+  PAIR     0.008 m2 items 420/420 same:bld base_wall_netting.pmd:center @(-342.50,75.25,-109.73) n (-0.01,0.00,-1.00)
+  PAIR     0.008 m2 items 132/304 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(-83.50,74.22,27.17) n (0.00,1.00,0.00)
+  PAIR     0.007 m2 items 394/394 same:bld anti_noise.pmd:center @(78.27,69.41,-280.94) n (-1.00,0.00,0.03)
+  PAIR     0.007 m2 items 27/27 same:bld anti_noise.pmd:center @(133.32,69.41,-237.95) n (1.00,0.00,-0.03)
+  PAIR     0.007 m2 items 100/112 cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center @(90.87,73.23,-221.43) n (0.00,1.00,0.00)
+  PAIR     0.006 m2 items 242/388 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(-73.46,74.22,91.03) n (0.00,1.00,0.00)
+  PAIR     0.005 m2 items 322/331 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(163.75,76.42,69.89) n (0.02,0.00,1.00)
+  PAIR     0.005 m2 items 7/56 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(299.31,77.15,2.27) n (-0.92,0.00,-0.39)
+  PAIR     0.005 m2 items 94/268 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(142.20,73.33,39.64) n (0.13,0.00,-0.99)
+  PAIR     0.005 m2 items 105/167 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-104.10,73.02,77.14) n (0.00,1.00,0.00)
+  PAIR     0.005 m2 items 120/363 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(133.18,70.08,-268.54) n (1.00,0.00,0.01)
+  PAIR     0.005 m2 items 221/409 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(78.40,70.08,-250.36) n (-1.00,0.00,-0.01)
+  PAIR     0.004 m2 items 288/304 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(-103.26,74.22,29.65) n (0.00,1.00,0.00)
+  PAIR     0.003 m2 items 145/238 cross:bld hedge.pmd:center | bld hedge.pmd:center @(-11.43,73.24,69.49) n (0.00,0.00,-1.00)
+  PAIR     0.003 m2 items 4/302 cross:bld pillar_plaster.pmd:center | bld pillar_plaster.pmd:center @(-202.41,76.12,38.63) n (0.00,-1.00,0.00)
+  PAIR     0.003 m2 items 394/409 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(78.96,74.22,-271.59) n (0.00,1.00,0.00)
+  PAIR     0.003 m2 items 27/363 cross:bld anti_noise.pmd:center | bld anti_noise.pmd:center @(132.63,74.22,-247.31) n (0.00,1.00,0.00)
+  PAIR     0.003 m2 items 141/208 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(186.72,73.33,39.37) n (0.09,0.00,1.00)
+  PAIR     0.002 m2 items 150/309 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(121.53,73.26,19.32) n (1.00,0.00,-0.07)
+  PAIR     0.002 m2 items 83/435 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-316.73,73.53,120.27) n (0.01,0.00,-1.00)
+  PAIR     0.002 m2 items 5/59 cross:bld hedge.pmd:center | bld hedge.pmd:center @(258.98,72.78,-138.67) n (0.00,1.00,0.00)
+  PAIR     0.002 m2 items 8/146 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(68.22,72.91,69.64) n (0.00,1.00,0.00)
+  PAIR     0.002 m2 items 132/132 same:bld anti_noise.pmd:center @(-71.37,83.22,24.68) n (0.00,1.00,0.00)
+  PAIR     0.002 m2 items 146/299 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(75.10,72.91,70.38) n (0.00,1.00,0.00)
+  PAIR     0.002 m2 items 133/195 cross:bld anti_noise7.pmd:center | bld anti_noise7.pmd:center @(306.65,72.97,-27.80) n (-0.99,0.00,-0.11)
+  PAIR     0.002 m2 items 154/239 cross:bld plastic_red.pmd:center | bld plastic_red.pmd:center @(215.07,74.14,-332.87) n (-0.02,0.00,1.00)
+  PAIR     0.001 m2 items 166/193 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(89.83,72.91,82.60) n (0.00,1.00,0.00)
+  PAIR     0.001 m2 items 71/358 cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center @(-165.64,73.23,62.65) n (0.00,1.00,0.00)
+  PAIR     0.001 m2 items 41/203 cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center @(-202.09,73.23,76.74) n (0.00,1.00,0.00)
+  PAIR     0.001 m2 items 279/366 cross:bld conc_barrier.pmd:center | bld conc_barrier.pmd:center @(65.91,73.11,39.75) n (0.02,0.13,0.99)
+  PAIR     0.001 m2 items 106/319 cross:bld pillar_plaster.pmd:center | bld pillar_plaster.pmd:center @(-154.89,76.12,21.43) n (0.00,-1.00,0.00)
+  PAIR     0.001 m2 items 84/369 cross:bld metal_fence_with_base_wall.pmd:center5m | bld metal_fence_with_base_wall.pmd:center5m @(-200.34,74.06,107.75) n (-0.29,0.00,-0.96)
+  PAIR     0.001 m2 items 166/299 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(86.69,72.91,78.00) n (0.00,1.00,0.00)
+  PAIR     0.001 m2 items 107/295 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(92.78,72.91,148.00) n (0.00,1.00,0.00)
+  PAIR     0.001 m2 items 119/193 cross:bld wall_with_wooden_fence.pmd:center5m | bld wall_with_wooden_fence.pmd:center5m @(91.30,72.91,96.83) n (0.00,1.00,0.00)
+  PAIR     0.001 m2 items 45/405 cross:bld base_wall_netting.pmd:center | bld base_wall_netting.pmd:center @(-77.53,73.23,43.36) n (0.00,1.00,0.00)

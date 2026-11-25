@@ -1,0 +1,2 @@
+shot_t3: 13 hole px of 921600 below the horizon (0.001 %); sampled 2: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 2, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+      void cells: unity (69, 149) game (-33322, -7569) 1 m x2 y 497.2 near []

@@ -1,0 +1,3221 @@
+SHDO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_
+
+
+/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+P
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+deferred_param0_data
+deferred_param_interleaved_fragment_layer_setup
+deferred_param_viewport_coord_to_es_ray
+es_world_up
+material1_data
+texture_reflection_modulator
+threshold_map_frame_idx
+transform0_data
+water_data
+attributes_0
+_attributes_0
+attributes_1
+_attributes_1
+attributes_2
+_attributes_2
+attributes_3
+_attributes_3
+diffuse_lighting
+_diffuse_lighting
+specular_lighting
+_specular_lighting
+texture_reflection
+_texture_reflection
+cbuffer0
+#version 330
+
+#extension GL_ARB_separate_shader_objects : require
+
+struct lighting_factors_t {
+
+    float _ambient;
+
+    float _diffuse1;
+
+    float _specular1;
+
+    float _shadow;
+
+};
+
+struct tex2d_float_t {
+
+    sampler2D _samp3;
+
+};
+
+struct tex2d_float4_t {
+
+    sampler2D _samp4;
+
+};
+
+struct tex2d_uint4_t {
+
+    usampler2D _samp5;
+
+};
+
+struct tex2d_cmp_t {
+
+    sampler2D _samp6;
+
+};
+
+struct tex2darray_cmp_t {
+
+    sampler2DArray _samp7;
+
+};
+
+struct texcube_float4_t {
+
+    samplerCube _samp8;
+
+};
+
+struct buffer_float4_t {
+
+    samplerBuffer _samp9;
+
+};
+
+struct buffer_uint4_t {
+
+    usamplerBuffer _samp10;
+
+};
+
+struct quad_parameters_t {
+
+    vec4 _quad_to_texture;
+
+    vec4 _texture_sizes[8];
+
+};
+
+struct vertex_in_tmp_t {
+
+    vec4 _position2;
+
+    vec4 _color1;
+
+    vec4 _tex_coord_0;
+
+    vec4 _tex_coord_1;
+
+    vec4 _tex_coord_2;
+
+    vec4 _tex_coord_3;
+
+    uvec4 _factor;
+
+    vec4 _packed_tangents;
+
+    vec3 _normal;
+
+    vec2 _normal_map_tex_coord;
+
+};
+
+struct geom_vertex_in_t {
+
+    vec4 _position3;
+
+};
+
+struct quad_vertex_in_t {
+
+    vec4 _quad_position;
+
+};
+
+struct vattr_unpack_t {
+
+    vec4 _tex_0sb_1sb;
+
+    vec4 _tex_2sb_3sb;
+
+    vec4 _tex_4sb_5sb;
+
+    vec4 _tex_6sb_7sb;
+
+};
+
+struct deferred_param0_cb_t {
+
+    vec4 _normalized_to_texture;
+
+    vec4 _viewport_size;
+
+    vec3 _additional_ambient_color;
+
+};
+
+struct deferred_param1_cb_t {
+
+    vec4 _fog_density;
+
+    vec3 _fog_color;
+
+    vec3 _fog_color2;
+
+    vec3 _fog_color2_direction_es;
+
+    float _fog_gradient;
+
+    vec4 _fog_gradient_plane_es;
+
+};
+
+struct deferred_parameters_t {
+
+    vec4 _normalized_to_texture1;
+
+    vec4 _viewport_coord_to_es_ray;
+
+    vec4 _viewport_size1;
+
+    vec3 _additional_ambient_color1;
+
+    vec4 _fog_density1;
+
+    vec3 _fog_color1;
+
+    vec3 _fog_color21;
+
+    vec3 _fog_color2_direction_es1;
+
+    vec4 _fog_gradient_plane_es1;
+
+    float _fog_gradient1;
+
+    float _fog_mask_mix_factor;
+
+    vec4 _fog_es_to_mask_matrix[4];
+
+    vec4 _fog_mask_distances;
+
+    vec4 _input_texture_size;
+
+    vec4 _range_def;
+
+    vec4 _histogram_params[2];
+
+    vec4 _eye_adapt_factors[2];
+
+    vec2 _low_intensity_factors;
+
+    vec3 _low_intensity_color;
+
+    vec4 _tonemap_params[6];
+
+    vec3 _bloom_params;
+
+    vec2 _dof_range;
+
+    vec4 _color_correction;
+
+    vec2 _distortion;
+
+    float _distortion_blur;
+
+    float _drr_strength;
+
+    vec4 _filter_offsets[7];
+
+    vec4 _filter_weights[4];
+
+    vec4 _envmap_matrix[4];
+
+    vec4 _reflection_from_scene;
+
+    vec2 _reflection_texture_params;
+
+    vec4 _reflection_from_eye[4];
+
+    vec4 _reflection_plane;
+
+    vec3 _reflection_strengths;
+
+    vec3 _sunshaft_color;
+
+    vec4 _sunshaft_params;
+
+    vec2 _sunshaft_sun_position;
+
+    vec2 _sunshaft_area_clamp;
+
+    vec4 _debug_fparam;
+
+    uvec4 _debug_uparam;
+
+    vec4 _ao_apply_params;
+
+    uvec4 _light_list_uparam;
+
+    vec4 _light_list_fparam;
+
+    vec2 _interleaved_fragment_layer_setup;
+
+};
+
+struct noperspective2_t {
+
+    vec3 _data;
+
+};
+
+struct screen_info_t {
+
+    vec2 _scene_texture_uv;
+
+    vec2 _screen_position;
+
+};
+
+struct screen_vertex_out_tmp_t {
+
+    vec4 _position4;
+
+    screen_info_t _screen_info;
+
+};
+
+struct quad_vertex_out_t {
+
+    vec4 _tex_interp_01;
+
+};
+
+struct geom_vertex_out_t {
+
+    noperspective2_t _packed_screen_info;
+
+};
+
+struct deferred_attributes_t {
+
+    vec3 _es_position6;
+
+    vec3 _es_normal1;
+
+    vec3 _diffuse2;
+
+    vec3 _specular2;
+
+    float _specular_power;
+
+    uint _bit_mask;
+
+    uint _specular_mix2;
+
+    vec3 _emittance1;
+
+    float _ambient1;
+
+    float _shadow_strength1;
+
+    float _shadow_offset1;
+
+    float _reflection_strength;
+
+    float _opacity;
+
+    vec2 _sampling_uv;
+
+    vec3 _to_eye_direction;
+
+    vec3 _deinterleaved_top_es_position;
+
+};
+
+struct gbuffer_out_t {
+
+    vec4 _rt02;
+
+    vec4 _rt12;
+
+    vec4 _rt21;
+
+    uvec4 _rt33;
+
+};
+
+struct gbuffer_in_t {
+
+    tex2d_float4_t _rt03;
+
+    tex2d_float4_t _rt13;
+
+    tex2d_float4_t _rt22;
+
+    tex2d_uint4_t _rt34;
+
+};
+
+struct distance_attenuation_t {
+
+    float _linear_attenuation_scale;
+
+    float _linear_attenuation_bias;
+
+    float _attenuation_range_recip;
+
+};
+
+struct gobo_set_t {
+
+    uint _count1;
+
+    vec4 _origin_f0[15];
+
+    vec4 _axis0_f1[15];
+
+    vec4 _axis1_f2[15];
+
+};
+
+struct deferred_light_t {
+
+    vec3 _es_position7;
+
+    vec3 _es_direction;
+
+    vec4 _es_world_plane;
+
+    float _ambient_directionality;
+
+    vec4 _es_clip_plane1;
+
+    vec3 _aurora_es_direction;
+
+    vec3 _aurora_diffuse;
+
+    distance_attenuation_t _attenuation;
+
+    vec2 _spot_falloff;
+
+    vec4 _ambient_environment;
+
+    vec3 _diffuse3;
+
+    vec3 _specular3;
+
+    tex2d_float4_t _texture_rgba;
+
+    tex2d_float_t _texture_r_0;
+
+    tex2d_float_t _texture_r_1;
+
+    tex2d_cmp_t _texture_cmp;
+
+    tex2darray_cmp_t _texarray_cmp;
+
+    vec4 _projection_matrix[4];
+
+    vec4 _projection_weights;
+
+    vec4 _simple_projection_mtx[4];
+
+    vec4 _generic_data[2];
+
+    vec4 _generic_matrix[8];
+
+    vec4 _smap_proj_ortho_mtx[15];
+
+    vec4 _smap_texture_size;
+
+    vec4 _smap2_texture_size;
+
+    float _smap2_texel_radius;
+
+    vec2 _smap_scene_fadeout;
+
+    vec2 _smap_light_fadeout;
+
+    float _smap_strength;
+
+    gobo_set_t _interior_gobo_set;
+
+    vec4 _llist_data[960];
+
+};
+
+struct spot_light_shape_t {
+
+    bool _use_invsqr_attenuation;
+
+    bool _use_forward_distance;
+
+    vec3 _es_position8;
+
+    distance_attenuation_t _distance_attenuation;
+
+    vec2 _spot_falloff1;
+
+    vec3 _es_direction1;
+
+};
+
+struct omni_light_shape_t {
+
+    bool _use_invsqr_attenuation1;
+
+    vec3 _es_position9;
+
+    distance_attenuation_t _distance_attenuation1;
+
+};
+
+struct tex2d_float4_set_t {
+
+    tex2d_float4_t _element0;
+
+    tex2d_float4_t _element1;
+
+    tex2d_float4_t _element2;
+
+    tex2d_float4_t _element3;
+
+    tex2d_float4_t _element4;
+
+    tex2d_float4_t _element5;
+
+    tex2d_float4_t _element6;
+
+    tex2d_float4_t _element7;
+
+};
+
+struct proj_light_shape_t {
+
+    bool _use_invsqr_attenuation2;
+
+    vec3 _es_position10;
+
+    distance_attenuation_t _distance_attenuation2;
+
+    uint _texture_index;
+
+    vec4 _projection_matrix1[4];
+
+};
+
+struct deferred_lighting_t {
+
+    vec3 _diffuse4;
+
+    vec3 _specular4;
+
+    float _envmap_strength;
+
+};
+
+struct lbuffer_out_t {
+
+    vec4 _diffuse5;
+
+    vec4 _specular5;
+
+};
+
+struct lbuffer_in_t {
+
+    tex2d_float4_t _diffuse_lighting1;
+
+    tex2d_float4_t _specular_lighting1;
+
+};
+
+struct vertex_out_tmp_t {
+
+    vec4 _scr_position;
+
+    vec3 _es_position11;
+
+    vec3 _es_normal2;
+
+    vec3 _es_tangent1;
+
+    vec3 _es_bitangent1;
+
+    vec2 _normal_map_tex_coord1;
+
+    vec4 _color2;
+
+    uvec4 _factor1;
+
+    float _aux0;
+
+    float _aux1;
+
+    float _aux2;
+
+    float _aux3;
+
+    vec4 _tex_coord_01;
+
+    vec4 _tex_coord_11;
+
+    vec4 _tex_coord_21;
+
+    vec4 _tex_coord_31;
+
+    vec4 _tex_coord_4;
+
+};
+
+struct post_vertex_out_tmp_t {
+
+    screen_info_t _screen_info1;
+
+    vertex_out_tmp_t _vertex_out;
+
+};
+
+struct fragment_attribute_evaluator_i {
+
+    int dummy;
+
+};
+
+struct normal_evaluator_i {
+
+    int dummy;
+
+};
+
+struct normal_modulator_i {
+
+    int dummy;
+
+};
+
+struct light_factors_evaluator_i {
+
+    int dummy;
+
+};
+
+struct light_color_evaluator_i {
+
+    int dummy;
+
+};
+
+struct lighting_evaluator_i {
+
+    int dummy;
+
+};
+
+struct fog_evaluator_i {
+
+    int dummy;
+
+};
+
+struct envmap_evaluator_i {
+
+    int dummy;
+
+};
+
+struct alpha_value_evaluator_i {
+
+    int dummy;
+
+};
+
+struct post_composition_evaluator_i {
+
+    int dummy;
+
+};
+
+struct empty_attribute_evaluator_t {
+
+    int dummy;
+
+};
+
+struct empty_normal_modulator_t {
+
+    int dummy;
+
+};
+
+struct default_light_color_evaluator_t {
+
+    int dummy;
+
+};
+
+struct no_light_lighting_evaluator_t {
+
+    int dummy;
+
+};
+
+struct threshold_map_t {
+
+    float _frame_idx1;
+
+    vec2 _fragment_coords;
+
+};
+
+struct vertex_skin_t {
+
+    uvec4 _bone_index;
+
+    vec4 _bone_weight;
+
+};
+
+struct transform0_cb_t {
+
+    vec4 _mv_matrix[4];
+
+    vec4 _mvp_matrix[4];
+
+    vec4 _mvp_matrix_uncorrected[4];
+
+    vec4 _unpack_tex_0sb_1sb;
+
+};
+
+struct placement_instance_t {
+
+    uvec4 _data0;
+
+    vec4 _data1;
+
+};
+
+struct transform_t {
+
+    vec4 _mvp_matrix1[4];
+
+    vec4 _mv_matrix1[4];
+
+    vec4 _p_matrix[4];
+
+    vec4 _p_matrix_uncorrected[4];
+
+    vec4 _mvp_matrix_uncorrected1[4];
+
+    vec4 _correction_matrix[4];
+
+    vec4 _camera_offset;
+
+};
+
+struct planar_texgen_t {
+
+    vec4 _gen_x;
+
+    vec4 _gen_y;
+
+};
+
+struct fwd_light_cb_t {
+
+    vec4 _ambient_env;
+
+    vec3 _sun_es_direction;
+
+    vec3 _sun_diffuse;
+
+    vec3 _sun_specular;
+
+};
+
+struct fwd_truck_light_cb_t {
+
+    vec3 _tl_es_position;
+
+    float _tl_range_inv;
+
+    vec3 _tl_es_direction;
+
+    float _tl_reflective_rdivd_to_pixel;
+
+    vec3 _tl_diffuse;
+
+    vec3 _tl_specular;
+
+    vec4 _tl_left_mtx[4];
+
+    vec4 _tl_right_mtx[4];
+
+};
+
+struct material0_cb_t {
+
+    vec3 _diffuse6;
+
+    float _ambient2;
+
+    vec4 _specular6;
+
+    vec2 _reflections;
+
+    vec2 _alpha_to_weight_factors;
+
+    uint _tag;
+
+};
+
+struct material1_cb_t {
+
+    vec4 _envmap_matrix1[4];
+
+    vec3 _environment;
+
+    vec4 _fresnel;
+
+};
+
+struct forward_lighting_samplers_t {
+
+    tex2d_float4_t _tl_proj_texture;
+
+};
+
+struct water_cb_t {
+
+    vec3 _setup;
+
+    vec3 _near_color;
+
+    vec3 _horizon_color;
+
+    vec4 _reflection_mvp[4];
+
+    vec4 _texgen_uv_scale_rcp;
+
+    vec4 _texgen_uv_axis[4];
+
+    vec2 _stream_v_offset;
+
+    float _foam_anim_time;
+
+    vec2 _foam_domain_size;
+
+    float _base_roughness;
+
+};
+
+struct no_envmap_evaluator_t {
+
+    int dummy;
+
+};
+
+struct default_envmap_evaluator_t {
+
+    float _envmap_strength1;
+
+    vec4 _envmap_matrix2[4];
+
+    float _fresnel_f0;
+
+    float _fresnel_scale;
+
+    int _fresnel_type;
+
+    bool _lod_0_used;
+
+    bool _fov_hack_used;
+
+    vec3 _envmap_multiplier;
+
+    texcube_float4_t _envmap_texture;
+
+};
+
+struct no_fog_evaluator_t {
+
+    int dummy;
+
+};
+
+struct exp2_plane_fog_evaluator_t {
+
+    vec3 _color3;
+
+    float _density;
+
+};
+
+struct exp2_radial_fog_evaluator_t {
+
+    vec3 _color4;
+
+    float _density_sq;
+
+};
+
+struct complex_fog_evaluator_t {
+
+    vec3 _color5;
+
+    vec3 _color21;
+
+    vec3 _color2_direction_es;
+
+    vec4 _gradient_plane_es;
+
+    float _gradient;
+
+    float _density1;
+
+    float _offset1;
+
+};
+
+struct envmap_post_evaluator_t {
+
+    vec4 _envmap_matrix3[4];
+
+    float _fresnel_f01;
+
+    float _fresnel_scale1;
+
+    int _fresnel_type1;
+
+    bool _fov_hack_used1;
+
+    vec3 _envmap_multiplier1;
+
+    float _envmap_strength_multiplier;
+
+    texcube_float4_t _texture_reflection1;
+
+};
+
+struct opaque_alpha_evaluator_t {
+
+    int dummy;
+
+};
+
+struct texture_alpha_evaluator_t {
+
+    tex2d_float4_t _texture_base;
+
+};
+
+struct texture_vcol_alpha_evaluator_t {
+
+    tex2d_float4_t _texture_base1;
+
+};
+
+struct vertex_normal_evaluator_t {
+
+    int dummy;
+
+};
+
+struct bc5_ts_normal_evaluator_uv0_t {
+
+    tex2d_float4_t _texture_nmap;
+
+};
+
+struct bc5_ts_normal_evaluator_uvnmap_t {
+
+    tex2d_float4_t _texture_nmap1;
+
+};
+
+struct rg_unorm_ts_normal_evaluator_uv0_t {
+
+    tex2d_float4_t _texture_nmap2;
+
+};
+
+struct rg_unorm_ts_normal_evaluator_uvnmap_t {
+
+    tex2d_float4_t _texture_nmap3;
+
+};
+
+struct shadowmap_out_t {
+
+    int dummy;
+
+};
+
+struct post_composition_out_t {
+
+    vec4 _color6;
+
+};
+
+struct prebuilt_light_data_t {
+
+    vec3 _to_light_offset1;
+
+    float _light_distance;
+
+    vec3 _to_light_direction;
+
+};
+
+struct directional_light_factors_evaluator_t {
+
+    int dummy;
+
+};
+
+struct gobo_t {
+
+    vec3 _origin;
+
+    vec3 _x_axis;
+
+    vec3 _y_axis;
+
+    vec3 _param;
+
+};
+
+struct sun_light_factors_evaluator_t {
+
+    int dummy;
+
+};
+
+struct light_list_factors_evaluator_t {
+
+    int dummy;
+
+};
+
+struct forward_lighting_evaluator_t {
+
+    vec4 _ambient_environment1;
+
+    deferred_light_t _sun_light;
+
+};
+
+struct pnctt_vertex_in_t {
+
+    vec4 _position5;
+
+    vec3 _normal1;
+
+    vec4 _color7;
+
+    vec4 _tex_coord_02;
+
+    vec4 _tex_coord_12;
+
+};
+
+struct pncaat2t2xt3t4_vertex_out_t {
+
+    vec4 _color;
+
+    vec4 _tex_interp_0;
+
+    vec4 _tex_interp_1;
+
+    vec4 _tex_interp_2;
+
+    vec3 _tex_interp_3;
+
+    vec2 _tex_interp_4;
+
+};
+
+struct shadow_pncaat2t2xt3t4_vertex_out_t {
+
+    int dummy;
+
+};
+
+struct water_post_evaluator_t {
+
+    texcube_float4_t _texture_reflection2;
+
+    float _texture_reflection_modulator1;
+
+    vec4 _envmap_matrix4[4];
+
+    water_cb_t _water3;
+
+    deferred_parameters_t _deferred_param9;
+
+    deferred_attributes_t _attributes_surface3;
+
+    deferred_attributes_t _attributes_bottom;
+
+    deferred_lighting_t _lighting_surface1;
+
+    deferred_lighting_t _lighting_bottom;
+
+    float _depth_bias2;
+
+    fwd_light_cb_t _fwd_light_params;
+
+    vec3 _flow_dir_perp_xz_ws1;
+
+    vec3 _view_xz_ws;
+
+    float _roughness3;
+
+};
+
+vec2 _TMP67;
+
+vec2 _TMP57;
+
+float _TMP60;
+
+float _TMP59;
+
+float _TMP58;
+
+float _TMP70;
+
+float _TMP138;
+
+float _TMP137;
+
+float _TMP135;
+
+float _TMP90;
+
+float _TMP143;
+
+float _TMP134;
+
+float _TMP133;
+
+float _TMP132;
+
+float _TMP130;
+
+float _TMP129;
+
+float _TMP128;
+
+float _TMP127;
+
+vec3 _TMP125;
+
+float _TMP123;
+
+float _TMP122;
+
+vec3 _TMP121;
+
+float _TMP71;
+
+vec3 _TMP119;
+
+float _TMP118;
+
+float _TMP142;
+
+float _TMP141;
+
+float _TMP140;
+
+float _TMP115;
+
+float _TMP112;
+
+float _TMP103;
+
+float _TMP101;
+
+float _TMP98;
+
+vec4 _TMP157;
+
+vec4 _TMP156;
+
+vec4 _TMP155;
+
+vec4 _TMP154;
+
+vec4 _TMP153;
+
+vec4 _TMP152;
+
+vec4 _TMP151;
+
+float _TMP163;
+
+float _TMP162;
+
+float _TMP161;
+
+float _TMP160;
+
+vec4 _TMP150;
+
+vec4 _TMP149;
+
+vec4 _TMP148;
+
+vec4 _TMP147;
+
+vec4 _TMP159;
+
+vec2 _TMP158;
+
+vec2 _TMP144;
+
+float _TMP94;
+
+float _TMP139;
+
+float _TMP42;
+
+float _TMP86;
+
+post_composition_out_t _o3;
+
+vec3 _TMP56;
+
+vec2 _TMP55;
+
+vec4 _TMP32;
+
+uint _TMP69;
+
+uint _TMP68;
+
+vec3 _TMP38;
+
+vec4 _TMP53;
+
+vec2 _TMP52;
+
+vec2 _TMP51;
+
+vec3 _TMP73;
+
+float _TMP75;
+
+float _TMP74;
+
+float _TMP47;
+
+vec3 _TMP44;
+
+float _TMP11;
+
+float _TMP9;
+
+float _TMP8;
+
+float _TMP36;
+
+float _TMP34;
+
+float _TMP35;
+
+vec3 _TMP27;
+
+float _TMP24;
+
+vec3 _TMP22;
+
+float _TMP66;
+
+float _TMP65;
+
+vec3 _TMP21;
+
+vec4 _value0391;
+
+vec2 _view_coord0405;
+
+screen_info_t _o0405;
+
+material1_cb_t _result0572;
+
+vec3 _dp10586;
+
+vec3 _dp20586;
+
+vec3 _es_compute_normal0586;
+
+vec3 _TMP3180586[3];
+
+float _x0620;
+
+float _TMP621;
+
+vec3 _value0633;
+
+bool _top_layer0645;
+
+vec2 _scene_texture_size0647;
+
+vec2 _scene_texture_coord0647;
+
+uvec2 _coord0652;
+
+ivec3 _coord0659;
+
+vec2 _scene_texture_size0663;
+
+vec2 _scene_texture_coord0663;
+
+vec4 _TMP667;
+
+ivec4 _c0671;
+
+vec4 _TMP688;
+
+ivec4 _c0692;
+
+ivec3 _coord0777;
+
+vec2 _scene_texture_size0779;
+
+vec2 _scene_texture_coord0779;
+
+vec4 _TMP783;
+
+ivec4 _c0787;
+
+vec4 _TMP800;
+
+ivec4 _c0804;
+
+deferred_attributes_t this811;
+
+deferred_attributes_t _proxy_attributes0837;
+
+bool _bit_set0837;
+
+vec2 _scene_texture_uv0839;
+
+vec2 _scene_texture_size0839;
+
+vec2 _scene_texture_coord0839;
+
+uvec4 _TMP843;
+
+ivec3 _c0844;
+
+ivec4 _c0847;
+
+float _x0881;
+
+float _TMP882;
+
+bool _existing_depth0889;
+
+vec2 _vp_coord0891;
+
+vec2 _es_1m_ray_xy0891;
+
+vec3 _es_position0891;
+
+vec2 _TMP3120891;
+
+ivec3 _coord0893;
+
+vec2 _scene_texture_size0895;
+
+vec2 _scene_texture_coord0895;
+
+vec4 _TMP899;
+
+ivec4 _c0903;
+
+vec3 _a0922;
+
+vec3 _b0922;
+
+float _TMP925;
+
+vec2 _TMP931;
+
+float _scatter_radius0932;
+
+vec2 _base_scatter_offset0932;
+
+vec2 _base_refraction_offset0932;
+
+vec2 _refraction_nview_coord_displacement0932;
+
+float _aspect_rcp0932;
+
+vec2 _screen_correction0932;
+
+vec2 _base_nview_coord0932;
+
+vec2 _refracted_nview_coord0932;
+
+float _x0944;
+
+float _TMP945;
+
+float _b0952;
+
+vec3 _xyz_random0954;
+
+vec4 _TMP955;
+
+vec4 _state0956;
+
+vec4 _x0959;
+
+vec4 _b0961;
+
+vec4 _x0963;
+
+float _value0967;
+
+vec2 _x0981;
+
+vec2 _a0983;
+
+deferred_attributes_t _attributes0987;
+
+deferred_lighting_t _lighting0987;
+
+bool _distortion_sample_underwater0987;
+
+vec3 _fallback_es_position0987;
+
+bool _top_layer0993;
+
+vec2 _scene_texture_size0995;
+
+vec2 _scene_texture_coord0995;
+
+uvec2 _coord1000;
+
+bool _existing_depth1003;
+
+vec2 _vp_coord1005;
+
+vec2 _es_1m_ray_xy1005;
+
+vec3 _es_position1005;
+
+vec2 _TMP3121005;
+
+ivec3 _coord1007;
+
+vec2 _scene_texture_size1009;
+
+vec2 _scene_texture_coord1009;
+
+vec4 _TMP1013;
+
+ivec4 _c1017;
+
+vec3 _a1036;
+
+vec3 _b1036;
+
+ivec3 _coord1037;
+
+vec2 _scene_texture_size1041;
+
+vec2 _scene_texture_coord1041;
+
+vec4 _TMP1066;
+
+ivec4 _c1070;
+
+ivec3 _coord1156;
+
+vec2 _scene_texture_size1160;
+
+vec2 _scene_texture_coord1160;
+
+vec4 _TMP1164;
+
+ivec4 _c1168;
+
+ivec3 _coord1169;
+
+vec2 _scene_texture_size1171;
+
+vec2 _scene_texture_coord1171;
+
+vec4 _TMP1175;
+
+ivec4 _c1179;
+
+vec4 _TMP1192;
+
+ivec4 _c1196;
+
+vec3 _os_normal1214;
+
+vec3 _r1216;
+
+post_composition_out_t _result1223;
+
+vec4 _reflection1229;
+
+float _bottom_depth_unbiased1229;
+
+float _bottom_depth1229;
+
+float _bottom_distance1229;
+
+float _scramble_factor1235;
+
+vec3 _fake_normal1235;
+
+vec3 _es_reflection1235;
+
+vec3 _envmap_coord1235;
+
+float _fresnel_factor1235;
+
+float _SPECULAR_NORMALIZATION1235;
+
+vec3 _specular_surface1235;
+
+vec3 _TMP3031235;
+
+float _t1246;
+
+vec3 _i1248;
+
+vec3 _r1252;
+
+vec3 _v1252;
+
+vec4 _TMP1259;
+
+float _bias1260;
+
+vec4 _c1263;
+
+float _TMP1271;
+
+float _TMP1277;
+
+float _x1278;
+
+float _x1282;
+
+float _y1282;
+
+float _TMP1285;
+
+float _y1288;
+
+vec3 _a1307;
+
+vec3 _b1307;
+
+vec3 _a1320;
+
+vec3 _b1320;
+
+float _TMP1327;
+
+vec3 _v1328;
+
+float _b1336;
+
+vec3 _TMP1337;
+
+float _soaked_mix1338;
+
+float _underwater_mix1338;
+
+float _shallow_mix1338;
+
+float _bottom_depth_clamped1338;
+
+vec4 _foam_color1338;
+
+vec3 _foam_foam_scramble_vect11338;
+
+float _foam_sample11338;
+
+float _foam_edge_depth_span11338;
+
+float _foam_mix11338;
+
+float _edge_foam_mix11338;
+
+float _accumulation_highlight11338;
+
+vec3 _full_scattered_color1338;
+
+float _bottom_smoothness1338;
+
+float _wet_specular_boost1338;
+
+vec3 _diffuse_bottom1338;
+
+vec3 _specular_bottom1338;
+
+vec3 _GLOBAL_ABSORPTION_RATE1338;
+
+vec3 _full_refracted_color1338;
+
+vec3 _subsurface_absorbed_result1338;
+
+vec3 _subsurface_scattered_result1338;
+
+vec3 _shore_color1338;
+
+vec3 _water_transmittance1338;
+
+float _occlusion_intensity1338;
+
+float _reflection_slope1338;
+
+float _intersection_height1338;
+
+float _reflection_visibility1338;
+
+vec3 _water_sum1338;
+
+float _x1343;
+
+float _TMP1344;
+
+float _x1353;
+
+float _TMP1354;
+
+vec2 _uv_scale_rcp1375;
+
+vec4 _offset_uvs1375;
+
+float _TMP1376;
+
+vec2 _TMP3061377[2];
+
+vec2 _domain_scale1377;
+
+vec2 _wrapped_coord1377;
+
+vec2 _cell_tile1377;
+
+vec4 _packed_cell_tile_x1377;
+
+vec4 _packed_cell_tile_y1377;
+
+vec4 _hash_seed1377;
+
+vec4 _p1377;
+
+vec4 _packed_cell_hash_x1377;
+
+vec4 _packed_cell_hash_y1377;
+
+float _anim_time1377;
+
+vec4 _jitter1377;
+
+vec4 _delta_x1377;
+
+vec4 _delta_y1377;
+
+vec4 _dists_sqr1377;
+
+vec2 _min01377;
+
+vec2 _r1381;
+
+vec2 _M1381[2];
+
+vec2 _r1387;
+
+vec2 _x1395;
+
+vec4 _x1399;
+
+vec4 _x1401;
+
+vec4 _x1403;
+
+vec4 _x1405;
+
+vec4 _x1407;
+
+vec4 _x1413;
+
+vec4 _val1425;
+
+vec4 _val1429;
+
+float _TMP1438;
+
+vec2 _uv1439;
+
+vec2 _TMP3061439[2];
+
+vec2 _domain_scale1439;
+
+vec2 _wrapped_coord1439;
+
+vec2 _cell_tile1439;
+
+vec4 _packed_cell_tile_x1439;
+
+vec4 _packed_cell_tile_y1439;
+
+vec4 _hash_seed1439;
+
+vec4 _p1439;
+
+vec4 _packed_cell_hash_x1439;
+
+vec4 _packed_cell_hash_y1439;
+
+float _anim_time1439;
+
+vec4 _jitter1439;
+
+vec4 _delta_x1439;
+
+vec4 _delta_y1439;
+
+vec4 _dists_sqr1439;
+
+vec2 _min01439;
+
+vec2 _r1443;
+
+vec2 _M1443[2];
+
+vec2 _r1449;
+
+vec2 _x1457;
+
+vec4 _x1461;
+
+vec4 _x1463;
+
+vec4 _x1465;
+
+vec4 _x1467;
+
+vec4 _x1469;
+
+vec4 _x1475;
+
+vec4 _val1487;
+
+vec4 _val1491;
+
+float _x1505;
+
+float _TMP1506;
+
+float _b1513;
+
+float _x1517;
+
+float _TMP1518;
+
+float _TMP1534;
+
+float _value1541;
+
+float _x1543;
+
+float _TMP1544;
+
+float _x1551;
+
+float _TMP1552;
+
+float _x1576;
+
+float _TMP1577;
+
+float _t1584;
+
+float _a1592;
+
+vec3 _x1606;
+
+float _x1621;
+
+float _x1623;
+
+float _x1637;
+
+float _TMP1638;
+
+float _a1647;
+
+float _TMP1650;
+
+float _TMP1662;
+
+float _b1669;
+
+float _x1675;
+
+float _TMP1676;
+
+float _t1683;
+
+vec3 _TMP1698;
+
+vec3 _TMP1699;
+
+vec3 _TMP1700;
+
+vec3 _TMP1701;
+
+vec3 _TMP1702;
+
+vec3 _TMP1703;
+
+vec3 _TMP1704;
+
+vec3 _TMP1705;
+
+vec3 _TMP1706;
+
+vec3 _TMP1707;
+
+vec3 _TMP1708;
+
+vec3 _TMP1709;
+
+layout(std140) uniform cbuffer0 {
+
+ vec4 _deferred_param0_data[3];
+
+ vec2 _deferred_param_interleaved_fragment_layer_setup;
+
+ vec4 _deferred_param_viewport_coord_to_es_ray;
+
+ vec3 _es_world_up;
+
+ vec4 _material1_data[6];
+
+ float _texture_reflection_modulator;
+
+ float _threshold_map_frame_idx;
+
+ vec4 _transform0_data[13];
+
+ vec4 _water_data[14];
+
+};
+
+uniform samplerCube _texture_reflection;
+
+uniform sampler2D _attributes_0;
+
+uniform sampler2D _attributes_1;
+
+uniform sampler2D _attributes_2;
+
+uniform usampler2D _attributes_3;
+
+uniform sampler2D _diffuse_lighting;
+
+uniform sampler2D _specular_lighting;
+
+layout(location = 8) in vec4 cg_FrontColor;
+
+layout(location = 4) in vec4 cg_TexCoord4;
+
+layout(location = 1) in vec4 cg_TexCoord1;
+
+layout(location = 6) in vec4 cg_TexCoord6;
+
+layout(location = 0) in vec4 cg_TexCoord0;
+
+layout(location = 2) in vec4 cg_TexCoord2;
+
+layout(location = 0) out vec4 cg_FragColor;
+
+ void main()
+
+{
+
+    vec4 _deinterleaved_scene_uv;
+
+    deferred_attributes_t _attributes_surface2;
+
+    float _roughness2;
+
+    float _depth_bias1;
+
+    _value0391 = vec4(cg_TexCoord4.x, cg_TexCoord4.y, 0.00000000E+000, 0.00000000E+000);
+
+    _view_coord0405 = cg_TexCoord6.yz/cg_TexCoord6.x;
+
+    _o0405._scene_texture_uv = _view_coord0405*_deferred_param0_data[0].xy;
+
+    _o0405._screen_position = _view_coord0405*_deferred_param0_data[1].xy;
+
+    _result0572._envmap_matrix1[0] = vec4(float(_material1_data[0].x), float(_material1_data[0].y), float(_material1_data[0].z), float(_material1_data[0].w));
+
+    _result0572._envmap_matrix1[1] = vec4(float(_material1_data[1].x), float(_material1_data[1].y), float(_material1_data[1].z), float(_material1_data[1].w));
+
+    _result0572._envmap_matrix1[2] = vec4(float(_material1_data[2].x), float(_material1_data[2].y), float(_material1_data[2].z), float(_material1_data[2].w));
+
+    _dp10586 = dFdx(cg_TexCoord2.xyz);
+
+    _TMP21 = dFdy(cg_TexCoord2.xyz);
+
+    _dp20586 = -_TMP21;
+
+    _TMP22 = _dp10586.yzx*_dp20586.zxy - _dp10586.zxy*_dp20586.yzx;
+
+    _TMP65 = dot(_TMP22, _TMP22);
+
+    _TMP66 = inversesqrt(_TMP65);
+
+    _es_compute_normal0586 = _TMP66*_TMP22;
+
+    _TMP24 = dot(_es_world_up, _es_compute_normal0586);
+
+    _x0620 = (1.00000000E+000 - _TMP24)*6.40000000E+001;
+
+    _TMP70 = min(1.00000000E+000, _x0620);
+
+    _TMP621 = max(0.00000000E+000, _TMP70);
+
+    _TMP27 = _es_world_up + _TMP621*(_es_compute_normal0586 - _es_world_up);
+
+    _TMP3180586[2] = vec3(float(_TMP27.x), float(_TMP27.y), float(_TMP27.z));
+
+    _value0633 = vec3(float(_TMP3180586[2].x), float(_TMP3180586[2].y), float(_TMP3180586[2].z));
+
+    _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size0647 = _TMP57*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord0647 = _o0405._scene_texture_uv.xy*_scene_texture_size0647;
+
+    _coord0652 = uvec2(uint(_scene_texture_coord0647.x), uint(_scene_texture_coord0647.y));
+
+    _top_layer0645 = bool(((_coord0652.x + _coord0652.y + uint(_deferred_param_interleaved_fragment_layer_setup.x)) & 1u));
+
+    if (_top_layer0645) {         _TMP32 = vec4(0.00000000E+000, 0.00000000E+000, _deferred_param_interleaved_fragment_layer_setup.y, 0.00000000E+000);
+
+    } else {
+
+        _TMP32 = vec4(_deferred_param_interleaved_fragment_layer_setup.y, 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    }     _deinterleaved_scene_uv = _o0405._scene_texture_uv.xyxy + _TMP32;
+
+    _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size0663 = _TMP57*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord0663 = _deinterleaved_scene_uv.xy*_scene_texture_size0663;
+
+    _coord0659 = ivec3(int(_scene_texture_coord0663.x), int(_scene_texture_coord0663.y), 0);
+
+    _c0671 = ivec4(_coord0659.x, _coord0659.y, 0, _coord0659.z);
+
+    _TMP667 = texelFetch(_attributes_0, _c0671.xy, _c0671.w);
+
+    _c0692 = ivec4(_coord0659.x, _coord0659.y, 0, _coord0659.z);
+
+    _TMP688 = texelFetch(_attributes_1, _c0692.xy, _c0692.w);
+
+    _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size0779 = _TMP57*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord0779 = _deinterleaved_scene_uv.xy*_scene_texture_size0779;
+
+    _coord0777 = ivec3(int(_scene_texture_coord0779.x), int(_scene_texture_coord0779.y), 0);
+
+    _c0787 = ivec4(_coord0777.x, _coord0777.y, 0, _coord0777.z);
+
+    _TMP783 = texelFetch(_diffuse_lighting, _c0787.xy, _c0787.w);
+
+    _c0804 = ivec4(_coord0777.x, _coord0777.y, 0, _coord0777.z);
+
+    _TMP800 = texelFetch(_specular_lighting, _c0804.xy, _c0804.w);
+
+    _TMP58 = dot(cg_TexCoord2.xyz, cg_TexCoord2.xyz);
+
+    _TMP59 = max(_TMP58, 9.99999997E-007);
+
+    _TMP60 = inversesqrt(_TMP59);
+
+    this811._to_eye_direction = -cg_TexCoord2.xyz*_TMP60;
+
+    _attributes_surface2._es_normal1 = _TMP667.xyz;
+
+    _attributes_surface2._specular2 = vec3( 1.00000000E+000, 1.00000000E+000, 1.00000000E+000);
+
+    _TMP34 = log2(_TMP688.w);
+
+    _TMP35 = log2(6.50000000E+003);
+
+    _TMP36 = 1.00000000E+000/_TMP35;
+
+    _roughness2 = 1.00000000E+000 - _TMP34*_TMP36;
+
+    _scene_texture_uv0839 = _deinterleaved_scene_uv.xy*_deferred_param0_data[0].xy;
+
+    _TMP67 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size0839 = _TMP67*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord0839 = _scene_texture_uv0839*_scene_texture_size0839;
+
+    _c0844 = ivec3(int(_scene_texture_coord0839.x), int(_scene_texture_coord0839.y), 0);
+
+    _c0847 = ivec4(_c0844.x, _c0844.y, 0, _c0844.z);
+
+    _TMP843 = texelFetch(_attributes_3, _c0847.xy, _c0847.w);
+
+    _TMP68 = (_TMP843.w >> 13u) & 7u;
+
+    _TMP69 = _TMP843.z & 3u;
+
+    _proxy_attributes0837._bit_mask = _TMP68 | (_TMP69 << 3u);
+
+    _bit_set0837 = bool((_proxy_attributes0837._bit_mask & 16u));
+
+    if (!_bit_set0837) {         _attributes_surface2._es_normal1 = _value0633;
+
+        _attributes_surface2._specular2 = vec3( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    }     _TMP8 = dot(_value0633, _attributes_surface2._es_normal1);
+
+    _TMP9 = _TMP8*_TMP8;
+
+    _x0881 = 1.00000000E+000 - _TMP9;
+
+    _TMP70 = min(1.00000000E+000, _x0881);
+
+    _TMP882 = max(0.00000000E+000, _TMP70);
+
+    _depth_bias1 = -(9.99999978E-003 + 7.50000000E-001*_TMP882);
+
+    _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size0895 = _TMP57*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord0895 = _deinterleaved_scene_uv.zw*_scene_texture_size0895;
+
+    _coord0893 = ivec3(int(_scene_texture_coord0895.x), int(_scene_texture_coord0895.y), 0);
+
+    _c0903 = ivec4(_coord0893.x, _coord0893.y, 0, _coord0893.z);
+
+    _TMP899 = texelFetch(_attributes_0, _c0903.xy, _c0903.w);
+
+    _vp_coord0891 = _deinterleaved_scene_uv.zw*_deferred_param0_data[0].zw;
+
+    _es_1m_ray_xy0891 = _vp_coord0891*_deferred_param_viewport_coord_to_es_ray.zw + _deferred_param_viewport_coord_to_es_ray.xy;
+
+    _TMP3120891 = _es_1m_ray_xy0891*_TMP899.w;
+
+    _es_position0891 = vec3(_TMP3120891.x, _TMP3120891.y, _TMP899.w);
+
+    _existing_depth0889 = _es_position0891.z < 0.00000000E+000;
+
+    if (_existing_depth0889) {         _TMP38 = _es_position0891;
+
+    } else {
+
+        _TMP38 = cg_TexCoord2.xyz*1.63840000E+004;
+
+    }     _a0922 = _TMP38 - cg_TexCoord2.xyz;
+
+    _b0922 = -_value0633;
+
+    _TMP42 = dot(_a0922, _b0922);
+
+    _TMP11 = _TMP42 + _depth_bias1;
+
+    _TMP70 = min(1.00000000E+000, _TMP11);
+
+    _TMP925 = max(0.00000000E+000, _TMP70);
+
+    _TMP71 = log2(1.00000001E-001);
+
+    _TMP44 = _TMP71/cg_TexCoord1.www;
+
+    _x0944 = -_TMP44.x*2.50000000E-001;
+
+    _TMP70 = min(1.00000000E+000, _x0944);
+
+    _TMP945 = max(0.00000000E+000, _TMP70);
+
+    _b0952 = cg_TexCoord0.w*_TMP945;
+
+    _TMP47 = max(_roughness2, _b0952);
+
+    _scatter_radius0932 = _TMP47*5.00000000E-001;
+
+    _x0959 = (_o0405._screen_position.xyxy + vec4(2.56000000E+002*(_threshold_map_frame_idx - 1.00000000E+000), 2.56000000E+002*(_threshold_map_frame_idx - 1.00000000E+000), 2.56000000E+002*(_threshold_map_frame_idx - 1.00000000E+000), 2.56000000E+002*(_threshold_map_frame_idx - 1.00000000E+000)))*vec4( 1.03100002E-001, 1.03000000E-001, 9.73000005E-002, 1.09899998E-001);
+
+    _state0956 = fract(_x0959);
+
+    _b0961 = _state0956.wzxy + vec4( 3.33300018E+001, 3.33300018E+001, 3.33300018E+001, 3.33300018E+001);
+
+    _TMP86 = dot(_state0956, _b0961);
+
+    _state0956 = _state0956 + _TMP86;
+
+    _x0963 = (_state0956.xxyz + _state0956.yzzw)*_state0956.zywx;
+
+    _TMP955 = fract(_x0963);
+
+    _xyz_random0954 = _TMP955.xyz*2.00000000E+000 - 1.00000000E+000;
+
+    if (_threshold_map_frame_idx != 0.00000000E+000) {         _TMP74 = dot(_xyz_random0954, _xyz_random0954);
+
+        _value0967 = 1.00000000E+000 + 8.00000000E+000*_TMP74;
+
+        _TMP75 = 1.00000000E+000/_value0967;
+
+        _TMP73 = _xyz_random0954*_TMP75;
+
+    } else {
+
+        _TMP73 = vec3( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    }     _base_scatter_offset0932 = _TMP73.xy*_scatter_radius0932;
+
+    _base_refraction_offset0932 = (_value0633.xy - _attributes_surface2._es_normal1.xy)*2.25000000E+000;
+
+    _refraction_nview_coord_displacement0932 = ((_base_refraction_offset0932 + _base_scatter_offset0932)*_TMP925)/(cg_TexCoord6.x*5.00000000E-001);
+
+    _aspect_rcp0932 = _deferred_param0_data[1].y/_deferred_param0_data[1].x;
+
+    _screen_correction0932 = vec2(_aspect_rcp0932, 1.00000000E+000)*vec2( 5.00000000E-001, -5.00000000E-001);
+
+    _base_nview_coord0932 = _deinterleaved_scene_uv.xy*_deferred_param0_data[0].zw;
+
+    _refracted_nview_coord0932 = _refraction_nview_coord_displacement0932*_screen_correction0932 + _base_nview_coord0932;
+
+    _x0981 = _refracted_nview_coord0932*vec2( 5.00000000E-001, 5.00000000E-001) - vec2( 5.00000000E-001, 5.00000000E-001);
+
+    _TMP51 = fract(_x0981);
+
+    _a0983 = _TMP51*vec2( 2.00000000E+000, 2.00000000E+000) - vec2( 1.00000000E+000, 1.00000000E+000);
+
+    _TMP52 = abs(_a0983);
+
+    _TMP931 = _TMP52*_deferred_param0_data[0].xy;
+
+    _fallback_es_position0987 = _TMP38;
+
+    _attributes0987._diffuse2 = vec3( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    _attributes0987._specular2 = vec3( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    _lighting0987._diffuse4 = vec3( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    _lighting0987._specular4 = vec3( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size0995 = _TMP57*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord0995 = _TMP931.xy*_scene_texture_size0995;
+
+    _coord1000 = uvec2(uint(_scene_texture_coord0995.x), uint(_scene_texture_coord0995.y));
+
+    _top_layer0993 = bool(((_coord1000.x + _coord1000.y + uint(_deferred_param_interleaved_fragment_layer_setup.x)) & 1u));
+
+    if (_top_layer0993) {         _TMP32 = vec4(0.00000000E+000, 0.00000000E+000, _deferred_param_interleaved_fragment_layer_setup.y, 0.00000000E+000);
+
+    } else {
+
+        _TMP32 = vec4(_deferred_param_interleaved_fragment_layer_setup.y, 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    }     _TMP53 = _TMP931.xyxy + _TMP32;
+
+    _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+    _scene_texture_size1009 = _TMP57*_deferred_param0_data[1].xy;
+
+    _scene_texture_coord1009 = _TMP53.zw*_scene_texture_size1009;
+
+    _coord1007 = ivec3(int(_scene_texture_coord1009.x), int(_scene_texture_coord1009.y), 0);
+
+    _c1017 = ivec4(_coord1007.x, _coord1007.y, 0, _coord1007.z);
+
+    _TMP1013 = texelFetch(_attributes_0, _c1017.xy, _c1017.w);
+
+    _vp_coord1005 = _TMP53.zw*_deferred_param0_data[0].zw;
+
+    _es_1m_ray_xy1005 = _vp_coord1005*_deferred_param_viewport_coord_to_es_ray.zw + _deferred_param_viewport_coord_to_es_ray.xy;
+
+    _TMP3121005 = _es_1m_ray_xy1005*_TMP1013.w;
+
+    _es_position1005 = vec3(_TMP3121005.x, _TMP3121005.y, _TMP1013.w);
+
+    _existing_depth1003 = _es_position1005.z < 0.00000000E+000;
+
+    if (_existing_depth1003) {         _TMP38 = _es_position1005;
+
+    } else {
+
+        _TMP38 = cg_TexCoord2.xyz*1.63840000E+004;
+
+    }     _a1036 = _TMP38 - cg_TexCoord2.xyz;
+
+    _b1036 = -_value0633;
+
+    _TMP42 = dot(_a1036, _b1036);
+
+    _distortion_sample_underwater0987 = _TMP42 >= 0.00000000E+000;
+
+    if (_existing_depth1003) {         _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+        _scene_texture_size1041 = _TMP57*_deferred_param0_data[1].xy;
+
+        _scene_texture_coord1041 = _TMP53.zw*_scene_texture_size1041;
+
+        _coord1037 = ivec3(int(_scene_texture_coord1041.x), int(_scene_texture_coord1041.y), 0);
+
+        _c1070 = ivec4(_coord1037.x, _coord1037.y, 0, _coord1037.z);
+
+        _TMP1066 = texelFetch(_attributes_1, _c1070.xy, _c1070.w);
+
+        _attributes0987._specular2 = _TMP1066.xyz;
+
+        if (_distortion_sample_underwater0987) {             _TMP55 = _TMP931;
+
+        } else {
+
+            _TMP55 = _deinterleaved_scene_uv.zw;
+
+        }         _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+        _scene_texture_size1160 = _TMP57*_deferred_param0_data[1].xy;
+
+        _scene_texture_coord1160 = _TMP55*_scene_texture_size1160;
+
+        _coord1156 = ivec3(int(_scene_texture_coord1160.x), int(_scene_texture_coord1160.y), 0);
+
+        _c1168 = ivec4(_coord1156.x, _coord1156.y, 0, _coord1156.z);
+
+        _TMP1164 = texelFetch(_attributes_2, _c1168.xy, _c1168.w);
+
+        _attributes0987._diffuse2 = _TMP1164.xyz;
+
+        _TMP57 = 1.00000000E+000/_deferred_param0_data[1].zw;
+
+        _scene_texture_size1171 = _TMP57*_deferred_param0_data[1].xy;
+
+        _scene_texture_coord1171 = _TMP53.zw*_scene_texture_size1171;
+
+        _coord1169 = ivec3(int(_scene_texture_coord1171.x), int(_scene_texture_coord1171.y), 0);
+
+        _c1179 = ivec4(_coord1169.x, _coord1169.y, 0, _coord1169.z);
+
+        _TMP1175 = texelFetch(_diffuse_lighting, _c1179.xy, _c1179.w);
+
+        _c1196 = ivec4(_coord1169.x, _coord1169.y, 0, _coord1169.z);
+
+        _TMP1192 = texelFetch(_specular_lighting, _c1196.xy, _c1196.w);
+
+        _lighting0987._diffuse4 = _TMP1175.xyz;
+
+        _lighting0987._specular4 = _TMP1192.xyz;
+
+    }     if (_distortion_sample_underwater0987) {         _TMP56 = _TMP38;
+
+    } else {
+
+        _TMP56 = _fallback_es_position0987;
+
+    }     _os_normal1214 = -this811._to_eye_direction;
+
+    _TMP1698.x = _transform0_data[0].x;
+
+    _TMP1698.y = _transform0_data[1].x;
+
+    _TMP1698.z = _transform0_data[2].x;
+
+    _r1216.x = dot(_TMP1698, _os_normal1214);
+
+    _TMP1699.x = _transform0_data[0].y;
+
+    _TMP1699.y = _transform0_data[1].y;
+
+    _TMP1699.z = _transform0_data[2].y;
+
+    _r1216.y = dot(_TMP1699, _os_normal1214);
+
+    _TMP1700.x = _transform0_data[0].z;
+
+    _TMP1700.y = _transform0_data[1].z;
+
+    _TMP1700.z = _transform0_data[2].z;
+
+    _r1216.z = dot(_TMP1700, _os_normal1214);
+
+    _scramble_factor1235 = -cg_TexCoord2.z/_water_data[0].z + _water_data[0].y;
+
+    _t1246 = 1.00000000E+000/_scramble_factor1235;
+
+    _fake_normal1235 = _value0633 + _t1246*(_attributes_surface2._es_normal1 - _value0633);
+
+    _i1248 = -this811._to_eye_direction;
+
+    _TMP134 = dot(_fake_normal1235, _i1248);
+
+    _es_reflection1235 = _i1248 - (2.00000000E+000*_fake_normal1235)*_TMP134;
+
+    _v1252 = vec3(float(_es_reflection1235.x), float(_es_reflection1235.y), float(_es_reflection1235.z));
+
+    _TMP1701.x = _result0572._envmap_matrix1[0].x;
+
+    _TMP1702.y = _result0572._envmap_matrix1[0].y;
+
+    _TMP1703.z = _result0572._envmap_matrix1[0].z;
+
+    _TMP143 = dot(vec3(float(_TMP1701.x), float(_TMP1702.y), float(_TMP1703.z)), vec3(float(_v1252.x), float(_v1252.y), float(_v1252.z)));
+
+    _r1252.x = float(_TMP143);
+
+    _TMP1704.x = _result0572._envmap_matrix1[1].x;
+
+    _TMP1705.y = _result0572._envmap_matrix1[1].y;
+
+    _TMP1706.z = _result0572._envmap_matrix1[1].z;
+
+    _TMP143 = dot(vec3(float(_TMP1704.x), float(_TMP1705.y), float(_TMP1706.z)), vec3(float(_v1252.x), float(_v1252.y), float(_v1252.z)));
+
+    _r1252.y = float(_TMP143);
+
+    _TMP1707.x = _result0572._envmap_matrix1[2].x;
+
+    _TMP1708.y = _result0572._envmap_matrix1[2].y;
+
+    _TMP1709.z = _result0572._envmap_matrix1[2].z;
+
+    _TMP143 = dot(vec3(float(_TMP1707.x), float(_TMP1708.y), float(_TMP1709.z)), vec3(float(_v1252.x), float(_v1252.y), float(_v1252.z)));
+
+    _r1252.z = float(_TMP143);
+
+    _envmap_coord1235 = vec3(float(_r1252.x), float(_r1252.y), float(_r1252.z));
+
+    _bias1260 = _roughness2*4.00000000E+000;
+
+    _c1263 = vec4(_envmap_coord1235.x, _envmap_coord1235.y, _envmap_coord1235.z, _bias1260);
+
+    _TMP1259 = texture(_texture_reflection, _c1263.xyz, _c1263.w);
+
+    _TMP135 = dot(this811._to_eye_direction, _attributes_surface2._es_normal1);
+
+    _TMP70 = min(1.00000000E+000, _TMP135);
+
+    _TMP1271 = max(0.00000000E+000, _TMP70);
+
+    _x1278 = -2.69000006E+000*_roughness2;
+
+    _TMP1277 = pow(2.71828198E+000, _x1278);
+
+    _x1282 = 1.00000000E+000 - _TMP1271;
+
+    _y1282 = 5.00000000E+000*_TMP1277;
+
+    _TMP137 = pow(_x1282, _y1282);
+
+    _TMP138 = pow(_roughness2, 1.50000000E+000);
+
+    _TMP90 = 2.02820804E-002 + 9.79717910E-001*(_TMP137/(1.00000000E+000 + 2.27000008E+001*_TMP138));
+
+    _fresnel_factor1235 = _texture_reflection_modulator*_TMP90;
+
+    _y1288 = 1.00000000E+000 - _roughness2;
+
+    _TMP1285 = pow(6.50000000E+003, _y1288);
+
+    _SPECULAR_NORMALIZATION1235 = _TMP1285*3.97999994E-002 + 2.78499991E-001;
+
+    _specular_surface1235 = (_TMP800.xyz*_attributes_surface2._specular2)*_SPECULAR_NORMALIZATION1235;
+
+    _TMP3031235 = _TMP1259.xyz + _specular_surface1235;
+
+    _reflection1229 = vec4(_TMP3031235.x, _TMP3031235.y, _TMP3031235.z, _fresnel_factor1235);
+
+    _a1307 = _TMP56 - cg_TexCoord2.xyz;
+
+    _b1307 = -_value0633;
+
+    _TMP42 = dot(_a1307, _b1307);
+
+    _bottom_depth_unbiased1229 = _TMP42;
+
+    _a1320 = _TMP56 - cg_TexCoord2.xyz;
+
+    _b1320 = -_value0633;
+
+    _TMP42 = dot(_a1320, _b1320);
+
+    _bottom_depth1229 = _TMP42 + _depth_bias1;
+
+    _v1328 = _TMP56 - cg_TexCoord2.xyz;
+
+    _TMP94 = dot(_v1328, _v1328);
+
+    _TMP139 = inversesqrt(_TMP94);
+
+    _TMP1327 = 1.00000000E+000/_TMP139;
+
+    _b1336 = _TMP1327 + _depth_bias1;
+
+    _bottom_distance1229 = max(0.00000000E+000, _b1336);
+
+    _x1343 = _bottom_depth_unbiased1229/1.00000001E-001;
+
+    _TMP70 = min(1.00000000E+000, _x1343);
+
+    _TMP1344 = max(0.00000000E+000, _TMP70);
+
+    _soaked_mix1338 = _TMP1344*_TMP1344*(3.00000000E+000 - 2.00000000E+000*_TMP1344);
+
+    _x1353 = _bottom_depth1229/1.00000001E-001;
+
+    _TMP70 = min(1.00000000E+000, _x1353);
+
+    _TMP1354 = max(0.00000000E+000, _TMP70);
+
+    _underwater_mix1338 = _TMP1354*_TMP1354*(3.00000000E+000 - 2.00000000E+000*_TMP1354);
+
+    _shallow_mix1338 = _soaked_mix1338 - _underwater_mix1338;
+
+    _bottom_depth_clamped1338 = max(0.00000000E+000, _bottom_depth1229);
+
+    _foam_color1338 = vec4( 0.00000000E+000, 0.00000000E+000, 0.00000000E+000, 0.00000000E+000);
+
+    if (cg_TexCoord2.w > 0.00000000E+000) {         _foam_foam_scramble_vect11338 = _value0633 - _attributes_surface2._es_normal1;
+
+        _uv_scale_rcp1375 = vec2(_water_data[7].x, _water_data[7].y);
+
+        _offset_uvs1375 = _value0391.xyxy + (_foam_foam_scramble_vect11338.xy*_uv_scale_rcp1375).xyxy*vec4( 3.49999994E-001, 3.49999994E-001, 2.50000000E-001, 2.50000000E-001);
+
+        _anim_time1377 = _water_data[12].z*2.00000000E+000 + _foam_foam_scramble_vect11338.z*4.00000000E+000;
+
+        _domain_scale1377 = _water_data[13].xy*vec2( 4.00000000E+000, 4.00000000E+000);
+
+        _TMP144 = fract(_offset_uvs1375.xy);
+
+        _TMP3061377[0] = vec2(float(_domain_scale1377.x), 0.00000000E+000);
+
+        _TMP3061377[1] = vec2(0.00000000E+000, float(_domain_scale1377.y));
+
+        _M1381[0] = vec2(float(_TMP3061377[0].x), float(_TMP3061377[0].y));
+
+        _M1381[1] = vec2(float(_TMP3061377[1].x), float(_TMP3061377[1].y));
+
+        _r1381.x = dot(_M1381[0], _TMP144);
+
+        _r1381.y = dot(_M1381[1], _TMP144);
+
+        _r1387.x = dot(vec2( 0.00000000E+000, 1.00000000E+000), _r1381);
+
+        _r1387.y = dot(vec2( 1.00000000E+000, 0.00000000E+000), _r1381);
+
+        _x1395 = _r1387/_domain_scale1377.xy;
+
+        _TMP158 = floor(_x1395);
+
+        _wrapped_coord1377 = _r1387 - _domain_scale1377.xy*_TMP158;
+
+        _cell_tile1377 = floor(_wrapped_coord1377);
+
+        _packed_cell_tile_x1377 = _cell_tile1377.xxxx + vec4( 0.00000000E+000, 1.00000000E+000, 0.00000000E+000, 1.00000000E+000);
+
+        _packed_cell_tile_y1377 = _cell_tile1377.yyyy + vec4( 0.00000000E+000, 0.00000000E+000, 1.00000000E+000, 1.00000000E+000);
+
+        _x1399 = vec4( 7.50000000E-001, 7.50000000E-001, 7.50000000E-001, 7.50000000E-001) + _packed_cell_tile_x1377;
+
+        _x1401 = _x1399/_domain_scale1377.xxxx;
+
+        _TMP159 = floor(_x1401);
+
+        _TMP147 = _x1399 - _domain_scale1377.xxxx*_TMP159;
+
+        _x1403 = vec4( 2.50000000E-001, 2.50000000E-001, 2.50000000E-001, 2.50000000E-001) + _packed_cell_tile_y1377;
+
+        _x1405 = _x1403/_domain_scale1377.yyyy;
+
+        _TMP159 = floor(_x1405);
+
+        _TMP148 = _x1403 - _domain_scale1377.yyyy*_TMP159;
+
+        _hash_seed1377 = _TMP147*_TMP148;
+
+        _x1407 = _hash_seed1377*vec4( 1.03100002E-001, 1.03100002E-001, 1.03100002E-001, 1.03100002E-001);
+
+        _p1377 = fract(_x1407);
+
+        _p1377 = _p1377*(_p1377 + vec4( 3.33300018E+001, 3.33300018E+001, 3.33300018E+001, 3.33300018E+001));
+
+        _p1377 = _p1377*(_p1377 + _p1377);
+
+        _TMP149 = fract(_p1377);
+
+        _packed_cell_hash_x1377 = _TMP149 - 5.00000000E-001;
+
+        _p1377 = _p1377*(_p1377 + _p1377);
+
+        _TMP150 = fract(_p1377);
+
+        _packed_cell_hash_y1377 = _TMP150 - 5.00000000E-001;
+
+        _x1413 = (_packed_cell_hash_x1377 + _packed_cell_hash_y1377 + vec4(_anim_time1377, _anim_time1377, _anim_time1377, _anim_time1377))*6.28318548E+000;
+
+        _TMP160 = sin(_x1413.x);
+
+        _TMP161 = sin(_x1413.y);
+
+        _TMP162 = sin(_x1413.z);
+
+        _TMP163 = sin(_x1413.w);
+
+        _TMP151 = vec4(_TMP160, _TMP161, _TMP162, _TMP163);
+
+        _jitter1377 = vec4( 2.50000000E-001, 2.50000000E-001, 2.50000000E-001, 2.50000000E-001)*_TMP151;
+
+        _TMP152 = _packed_cell_hash_x1377*_packed_cell_hash_x1377*_packed_cell_hash_x1377;
+
+        _val1425 = vec4(float((_packed_cell_hash_x1377.x > 0.00000000E+000)), float((_packed_cell_hash_x1377.y > 0.00000000E+000)), float((_packed_cell_hash_x1377.z > 0.00000000E+000)), float((_packed_cell_hash_x1377.w > 0.00000000E+000)));
+
+        _TMP153 = _val1425 - vec4(float((_packed_cell_hash_x1377.x < 0.00000000E+000)), float((_packed_cell_hash_x1377.y < 0.00000000E+000)), float((_packed_cell_hash_x1377.z < 0.00000000E+000)), float((_packed_cell_hash_x1377.w < 0.00000000E+000)));
+
+        _packed_cell_hash_x1377 = _TMP152 - _TMP153;
+
+        _TMP154 = _packed_cell_hash_y1377*_packed_cell_hash_y1377*_packed_cell_hash_y1377;
+
+        _val1429 = vec4(float((_packed_cell_hash_y1377.x > 0.00000000E+000)), float((_packed_cell_hash_y1377.y > 0.00000000E+000)), float((_packed_cell_hash_y1377.z > 0.00000000E+000)), float((_packed_cell_hash_y1377.w > 0.00000000E+000)));
+
+        _TMP155 = _val1429 - vec4(float((_packed_cell_hash_y1377.x < 0.00000000E+000)), float((_packed_cell_hash_y1377.y < 0.00000000E+000)), float((_packed_cell_hash_y1377.z < 0.00000000E+000)), float((_packed_cell_hash_y1377.w < 0.00000000E+000)));
+
+        _packed_cell_hash_y1377 = _TMP154 - _TMP155;
+
+        _delta_x1377 = _wrapped_coord1377.xxxx - (_packed_cell_tile_x1377 + _packed_cell_hash_x1377*_jitter1377);
+
+        _delta_y1377 = _wrapped_coord1377.yyyy - (_packed_cell_tile_y1377 + _packed_cell_hash_y1377*_jitter1377);
+
+        _TMP156 = _delta_x1377*_delta_x1377;
+
+        _TMP157 = _delta_y1377*_delta_y1377;
+
+        _dists_sqr1377 = _TMP156 + _TMP157;
+
+        _min01377 = min(_dists_sqr1377.xy, _dists_sqr1377.zw);
+
+        _TMP1376 = min(_min01377.x, _min01377.y);
+
+        _uv1439 = _offset_uvs1375.zw + 2.50000000E-001;
+
+        _anim_time1439 = _water_data[12].z*5.00000000E+000 + _TMP1376*5.00000000E-001;
+
+        _domain_scale1439 = _water_data[13].xy*vec2( 1.60000000E+001, 1.60000000E+001);
+
+        _TMP144 = fract(_uv1439);
+
+        _TMP3061439[0] = vec2(float(_domain_scale1439.x), 0.00000000E+000);
+
+        _TMP3061439[1] = vec2(0.00000000E+000, float(_domain_scale1439.y));
+
+        _M1443[0] = vec2(float(_TMP3061439[0].x), float(_TMP3061439[0].y));
+
+        _M1443[1] = vec2(float(_TMP3061439[1].x), float(_TMP3061439[1].y));
+
+        _r1443.x = dot(_M1443[0], _TMP144);
+
+        _r1443.y = dot(_M1443[1], _TMP144);
+
+        _r1449.x = dot(vec2( -1.00000000E+000, 1.00000000E+000), _r1443);
+
+        _r1449.y = dot(vec2( 1.00000000E+000, 1.00000000E+000), _r1443);
+
+        _x1457 = _r1449/_domain_scale1439.xy;
+
+        _TMP158 = floor(_x1457);
+
+        _wrapped_coord1439 = _r1449 - _domain_scale1439.xy*_TMP158;
+
+        _cell_tile1439 = floor(_wrapped_coord1439);
+
+        _packed_cell_tile_x1439 = _cell_tile1439.xxxx + vec4( 0.00000000E+000, 1.00000000E+000, 0.00000000E+000, 1.00000000E+000);
+
+        _packed_cell_tile_y1439 = _cell_tile1439.yyyy + vec4( 0.00000000E+000, 0.00000000E+000, 1.00000000E+000, 1.00000000E+000);
+
+        _x1461 = vec4( 7.50000000E-001, 7.50000000E-001, 7.50000000E-001, 7.50000000E-001) + _packed_cell_tile_x1439;
+
+        _x1463 = _x1461/_domain_scale1439.xxxx;
+
+        _TMP159 = floor(_x1463);
+
+        _TMP147 = _x1461 - _domain_scale1439.xxxx*_TMP159;
+
+        _x1465 = vec4( 2.50000000E-001, 2.50000000E-001, 2.50000000E-001, 2.50000000E-001) + _packed_cell_tile_y1439;
+
+        _x1467 = _x1465/_domain_scale1439.yyyy;
+
+        _TMP159 = floor(_x1467);
+
+        _TMP148 = _x1465 - _domain_scale1439.yyyy*_TMP159;
+
+        _hash_seed1439 = _TMP147*_TMP148;
+
+        _x1469 = _hash_seed1439*vec4( 1.03100002E-001, 1.03100002E-001, 1.03100002E-001, 1.03100002E-001);
+
+        _p1439 = fract(_x1469);
+
+        _p1439 = _p1439*(_p1439 + vec4( 3.33300018E+001, 3.33300018E+001, 3.33300018E+001, 3.33300018E+001));
+
+        _p1439 = _p1439*(_p1439 + _p1439);
+
+        _TMP149 = fract(_p1439);
+
+        _packed_cell_hash_x1439 = _TMP149 - 5.00000000E-001;
+
+        _p1439 = _p1439*(_p1439 + _p1439);
+
+        _TMP150 = fract(_p1439);
+
+        _packed_cell_hash_y1439 = _TMP150 - 5.00000000E-001;
+
+        _x1475 = (_packed_cell_hash_x1439 + _packed_cell_hash_y1439 + vec4(_anim_time1439, _anim_time1439, _anim_time1439, _anim_time1439))*6.28318548E+000;
+
+        _TMP160 = sin(_x1475.x);
+
+        _TMP161 = sin(_x1475.y);
+
+        _TMP162 = sin(_x1475.z);
+
+        _TMP163 = sin(_x1475.w);
+
+        _TMP151 = vec4(_TMP160, _TMP161, _TMP162, _TMP163);
+
+        _jitter1439 = vec4( 2.50000000E-001, 2.50000000E-001, 2.50000000E-001, 2.50000000E-001)*_TMP151;
+
+        _TMP152 = _packed_cell_hash_x1439*_packed_cell_hash_x1439*_packed_cell_hash_x1439;
+
+        _val1487 = vec4(float((_packed_cell_hash_x1439.x > 0.00000000E+000)), float((_packed_cell_hash_x1439.y > 0.00000000E+000)), float((_packed_cell_hash_x1439.z > 0.00000000E+000)), float((_packed_cell_hash_x1439.w > 0.00000000E+000)));
+
+        _TMP153 = _val1487 - vec4(float((_packed_cell_hash_x1439.x < 0.00000000E+000)), float((_packed_cell_hash_x1439.y < 0.00000000E+000)), float((_packed_cell_hash_x1439.z < 0.00000000E+000)), float((_packed_cell_hash_x1439.w < 0.00000000E+000)));
+
+        _packed_cell_hash_x1439 = _TMP152 - _TMP153;
+
+        _TMP154 = _packed_cell_hash_y1439*_packed_cell_hash_y1439*_packed_cell_hash_y1439;
+
+        _val1491 = vec4(float((_packed_cell_hash_y1439.x > 0.00000000E+000)), float((_packed_cell_hash_y1439.y > 0.00000000E+000)), float((_packed_cell_hash_y1439.z > 0.00000000E+000)), float((_packed_cell_hash_y1439.w > 0.00000000E+000)));
+
+        _TMP155 = _val1491 - vec4(float((_packed_cell_hash_y1439.x < 0.00000000E+000)), float((_packed_cell_hash_y1439.y < 0.00000000E+000)), float((_packed_cell_hash_y1439.z < 0.00000000E+000)), float((_packed_cell_hash_y1439.w < 0.00000000E+000)));
+
+        _packed_cell_hash_y1439 = _TMP154 - _TMP155;
+
+        _delta_x1439 = _wrapped_coord1439.xxxx - (_packed_cell_tile_x1439 + _packed_cell_hash_x1439*_jitter1439);
+
+        _delta_y1439 = _wrapped_coord1439.yyyy - (_packed_cell_tile_y1439 + _packed_cell_hash_y1439*_jitter1439);
+
+        _TMP156 = _delta_x1439*_delta_x1439;
+
+        _TMP157 = _delta_y1439*_delta_y1439;
+
+        _dists_sqr1439 = _TMP156 + _TMP157;
+
+        _min01439 = min(_dists_sqr1439.xy, _dists_sqr1439.zw);
+
+        _TMP1438 = min(_min01439.x, _min01439.y);
+
+        _foam_sample11338 = _TMP1376*5.00000000E-001 + _TMP1438*5.00000000E-001;
+
+        _foam_edge_depth_span11338 = min(cg_TexCoord2.w, 2.50000000E-001);
+
+        _x1505 = (_bottom_depth_clamped1338 - cg_TexCoord2.w)/(0.00000000E+000 - cg_TexCoord2.w);
+
+        _TMP70 = min(1.00000000E+000, _x1505);
+
+        _TMP1506 = max(0.00000000E+000, _TMP70);
+
+        _foam_mix11338 = _TMP1506*_TMP1506*(3.00000000E+000 - 2.00000000E+000*_TMP1506);
+
+        _b1513 = _foam_edge_depth_span11338*_foam_sample11338;
+
+        _TMP98 = max(9.99999975E-006, _b1513);
+
+        _x1517 = (_bottom_depth_clamped1338 - _TMP98)/(0.00000000E+000 - _TMP98);
+
+        _TMP70 = min(1.00000000E+000, _x1517);
+
+        _TMP1518 = max(0.00000000E+000, _TMP70);
+
+        _edge_foam_mix11338 = _TMP1518*_TMP1518*(3.00000000E+000 - 2.00000000E+000*_TMP1518);
+
+        _TMP101 = dot(_value0633, _attributes_surface2._es_normal1);
+
+        _TMP70 = min(1.00000000E+000, _TMP101);
+
+        _TMP1534 = max(0.00000000E+000, _TMP70);
+
+        _accumulation_highlight11338 = (1.00000000E+000 - _TMP1534)*4.00000000E+000;
+
+        _value1541 = _foam_mix11338*(_foam_sample11338 + _accumulation_highlight11338) + _edge_foam_mix11338;
+
+        _TMP103 = _value1541*_value1541*_value1541;
+
+        _x1543 = _TMP103*2.00000000E+000;
+
+        _TMP70 = min(1.00000000E+000, _x1543);
+
+        _TMP1544 = max(0.00000000E+000, _TMP70);
+
+        _x1551 = _soaked_mix1338 - _shallow_mix1338;
+
+        _TMP70 = min(1.00000000E+000, _x1551);
+
+        _TMP1552 = max(0.00000000E+000, _TMP70);
+
+        _foam_color1338.w = _TMP1544*_TMP1552;
+
+        _foam_color1338.xyz = _TMP783.xyz*vec3( 7.50000000E-001, 7.50000000E-001, 7.50000000E-001);
+
+    }     _full_scattered_color1338 = (_TMP783.xyz + _deferred_param0_data[2].xyz*2.50000000E-001)*cg_TexCoord0.xyz;
+
+    _bottom_smoothness1338 = dot(_attributes0987._specular2, vec3( 3.30000013E-001, 3.30000013E-001, 3.30000013E-001));
+
+    _wet_specular_boost1338 = _bottom_smoothness1338*_shallow_mix1338*4.00000000E+000;
+
+    _x1576 = 1.00000000E+000 - _bottom_smoothness1338;
+
+    _TMP70 = min(1.00000000E+000, _x1576);
+
+    _TMP1577 = max(0.00000000E+000, _TMP70);
+
+    _t1584 = _soaked_mix1338*_TMP1577;
+
+    _TMP112 = 1.00000000E+000 + _t1584*-4.49999988E-001;
+
+    _diffuse_bottom1338 = (_attributes0987._diffuse2*_TMP112)*_lighting0987._diffuse4;
+
+    _a1592 = 1.00000000E+000 + _wet_specular_boost1338;
+
+    _TMP115 = _a1592 + _underwater_mix1338*(5.00000000E-001 - _a1592);
+
+    _specular_bottom1338 = (_attributes0987._specular2*_TMP115)*_lighting0987._specular4;
+
+    _TMP71 = log2(1.00000001E-001);
+
+    _GLOBAL_ABSORPTION_RATE1338 = _TMP71/vec3( 2.50000000E+001, 1.00000000E+002, 2.00000000E+002);
+
+    _TMP118 = max(0.00000000E+000, _bottom_depth_clamped1338);
+
+    _x1606 = _GLOBAL_ABSORPTION_RATE1338*vec3(_TMP118, _TMP118, _TMP118);
+
+    _TMP140 = exp2(_x1606.x);
+
+    _TMP141 = exp2(_x1606.y);
+
+    _TMP142 = exp2(_x1606.z);
+
+    _TMP119 = vec3(_TMP140, _TMP141, _TMP142);
+
+    _full_refracted_color1338 = (_diffuse_bottom1338 + _specular_bottom1338)*_TMP119*cg_FrontColor.xyz;
+
+    _TMP71 = log2(1.00000001E-001);
+
+    _TMP121 = _TMP71/cg_TexCoord1.www;
+
+    _x1621 = _TMP121.x*_bottom_depth_clamped1338;
+
+    _TMP122 = exp2(_x1621);
+
+    _subsurface_absorbed_result1338 = _full_refracted_color1338*_TMP122;
+
+    _x1623 = _TMP121.x*_bottom_distance1229;
+
+    _TMP123 = exp2(_x1623);
+
+    _subsurface_scattered_result1338 = _full_scattered_color1338 + _TMP123*(_full_refracted_color1338 - _full_scattered_color1338);
+
+    _shore_color1338 = _diffuse_bottom1338 + _specular_bottom1338;
+
+    _TMP125 = _subsurface_absorbed_result1338 + cg_TexCoord0.w*(_subsurface_scattered_result1338 - _subsurface_absorbed_result1338);
+
+    _water_transmittance1338 = _shore_color1338 + _underwater_mix1338*(_TMP125 - _shore_color1338);
+
+    _x1637 = -cg_TexCoord2.z*4.99999989E-003;
+
+    _TMP70 = min(1.00000000E+000, _x1637);
+
+    _TMP1638 = max(0.00000000E+000, _TMP70);
+
+    _TMP127 = dot(_r1216, cg_TexCoord1.xyz);
+
+    _a1647 = _TMP127*4.00000000E+000;
+
+    _TMP128 = abs(_a1647);
+
+    _TMP70 = min(1.00000000E+000, _TMP128);
+
+    _TMP1650 = max(0.00000000E+000, _TMP70);
+
+    _TMP129 = 2.00000003E-001 + _TMP1638*3.00000012E-001;
+
+    _occlusion_intensity1338 = _TMP129*_TMP1650;
+
+    _TMP130 = dot(_es_world_up, this811._to_eye_direction);
+
+    _TMP70 = min(1.00000000E+000, _TMP130);
+
+    _TMP1662 = max(0.00000000E+000, _TMP70);
+
+    _b1669 = 1.00000000E+000 - _TMP1662;
+
+    _TMP132 = max(9.99999997E-007, _b1669);
+
+    _reflection_slope1338 = 1.00000000E+000/_TMP132;
+
+    _intersection_height1338 = _bottom_depth1229*_reflection_slope1338;
+
+    _x1675 = (_intersection_height1338 - 7.50000000E-001)/-6.00000024E-001;
+
+    _TMP70 = min(1.00000000E+000, _x1675);
+
+    _TMP1676 = max(0.00000000E+000, _TMP70);
+
+    _TMP133 = _TMP1676*_TMP1676*(3.00000000E+000 - 2.00000000E+000*_TMP1676);
+
+    _reflection_visibility1338 = 1.00000000E+000 - _TMP133*_occlusion_intensity1338;
+
+    _t1683 = _reflection1229.w*_underwater_mix1338*_reflection_visibility1338;
+
+    _water_sum1338 = _water_transmittance1338 + _t1683*(_reflection1229.xyz - _water_transmittance1338);
+
+    _TMP1337 = _water_sum1338 + _foam_color1338.w*(_foam_color1338.xyz - _water_sum1338);
+
+    _result1223._color6 = vec4(_TMP1337.x, _TMP1337.y, _TMP1337.z, 1.00000000E+000);
+
+    _o3._color6 = _result1223._color6;
+
+    cg_FragColor = _result1223._color6;
+
+}
+
+

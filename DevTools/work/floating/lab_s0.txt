@@ -1,0 +1,5 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/s0_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/s0_austria_unity.log)
+render.sh: site austria Unity exit 0 after 217 s
+   wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/s0_austria_ground.txt: fill floating 67353 m2 (3088 tris; above all terrain round it 22017 m2) of 1410095 m2; skirts hanging in air 57 segs / 3289 m2, into road clearance 0 segs of 59; road cells 41203 (covered 7503), clearance hits 2941; colliders 87070, undrawn 1851, undrawn over roads 374, dead items 148
+render.sh: images:
+  none

@@ -1,0 +1,21 @@
+22:22:45 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+22:22:48 loading 11 % Building roads
+22:22:50 loading 57 % Building junctions and yards
+22:22:52 loading 67 % Placing buildings and props
+22:22:54 loading 72 % Placing fences and barriers
+22:22:56 loading 72 % Placing signs and lamps
+22:22:58 loading 100 % Ready
+22:22:58 first build complete at 13 s
+22:23:18 settled for lamps site after 20 s: built 3294, queued 0, batching 0, plants 60024 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:23:19 lamps: truck scania.s_2016 index 14 built
+22:23:19 lamps: truck placed True at (-336.78, 9.04, -57.85)
+22:23:19 lamps: car /vehicle/ai/a3/ai.pmd - 1 lamp pieces lit the game's way (of 1 eut2.lamp pieces; overlays: left turn 1 front + 1 rear, right turn 1 front + 1 rear, brake 1, reverse 1; colours from /def/default_vehicle_lamp_setup.sii, x exposure 0.211)
+22:23:30 settled for lamps vehicles after 11 s: built 3294, queued 0, batching 0, plants 60024 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:23:30 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_truck_off.png (exposure 0.211)
+22:23:31 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_truck_left.png (exposure 0.211)
+22:23:31 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_truck_hazard.png (exposure 0.211)
+22:23:31 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_truck_rear_left_brake.png (exposure 0.211)
+22:23:31 lamps: truck 5 lamp pieces lit the game's way (of 5 eut2.lamp pieces; overlays: left turn 4 front + 1 rear, right turn 3 front + 1 rear, brake 1, reverse 1; colours from /def/vehicle/truck/scania.s_2016/lamp_setup.sii, x exposure 0.211)
+22:23:31 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_car_off.png (exposure 0.211)
+22:23:31 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_car_rear_left_brake.png (exposure 0.211)
+22:23:32 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/indicators/r2_lamps_car_front_left.png (exposure 0.211)

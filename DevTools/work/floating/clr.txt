@@ -1,0 +1,39 @@
+                        foreach (RaycastHit u in up)
+                        {
+                            if (u.distance > 4.75f || u.collider == h.collider) continue;
+                            string uk = KindOf(u.collider, out Transform uit);
+                            bool drawn = uk == "skirt" || uk == "fill" || Drawn(u.collider);
+
+                            // An undrawn surface with a drawn one within 0.6 m (a building's collision hull inside its walls) is backed.
+                            bool backed = drawn;
+
+                            if (!drawn)
+                            {
+                                foreach (Collider near in Physics.OverlapSphere(u.point, 0.6f, all, QueryTriggerInteraction.Ignore))
+                                {
+                                    if (near != u.collider && near != h.collider && Drawn(near)) { backed = true; break; }
+                                }
+                            }
+
+                            string what = null;
+                            float above = u.distance + 0.25f;
+
+                            if (uk == "terrain" || uk == "fill" || uk == "skirt" || uk == "terrain-inv") what = uk + (drawn ? "" : backed ? " (undrawn, backed)" : " (undrawn)");
+                            else if (!backed) what = "undrawn " + uk;
+
+                            if (what == null) continue;
+
+                            string key = what + (above < 0.6f ? " poking <0.6 m" : "") + (covered ? " in covered road" : " over open road");
+                            GsTotals.Bump(t.Clearance, key);
+
+                            if (!backed) GsTotals.Bump(t.UndrawnOverRoad, Pattern(u.collider, uk, uit));
+
+                            long cell = ((long)Mathf.FloorToInt(x / 20f) << 32) ^ (uint)Mathf.FloorToInt(z / 20f);
+
+                            if (cellClear.Add(cell))
+                            {
+                                GsTotals.Example(t.Examples, key, name + " " + G(centre, h.point) + ": " + PathOf(u.collider.transform, 3) + " " + above.ToString("0.0", I) + " m over " + PathOf(h.collider.transform, 2));
+                                GsTotals.Spot(t.ClearSpots, (4.75f - u.distance) + (covered ? 5f : 0f) + (above >= 0.6f && (uk == "terrain" || uk == "fill" || uk == "skirt") ? 10f : 0f),
+                                    name + " " + G(centre, h.point) + " " + key + ": " + PathOf(u.collider.transform, 3) + " " + above.ToString("0.0", I) + " m over " + PathOf(h.collider.transform, 2));
+                            }
+                        }

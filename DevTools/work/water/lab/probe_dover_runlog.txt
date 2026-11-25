@@ -1,0 +1,9 @@
+14:05:34 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/lab/probe gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+14:05:37 loading 11 % Building roads
+14:05:39 loading 57 % Building junctions and yards
+14:05:41 loading 67 % Placing buildings and props
+14:05:43 loading 72 % Placing fences and barriers
+14:05:45 loading 100 % Ready
+14:05:45 first build complete at 11 s
+14:06:15 settled for probe 485,-142,6,3 after 30 s: built 3180, queued 0, batching 0, plants 54544 (sides waiting 1), detail jobs 0, ground fill builds 1
+14:06:46 settled for probe 470,-160,6,3 after 31 s: built 3182, queued 0, batching 0, plants 54544 (sides waiting 1), detail jobs 0, ground fill builds 1

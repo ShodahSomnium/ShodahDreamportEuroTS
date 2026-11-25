@@ -1,0 +1,28 @@
+15:21:24 site austria centre (22147.0, 61.3, 15305.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/before_at gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+15:21:27 loading 5 % Reading the map
+15:21:29 loading 5 % Reading the map
+15:21:31 loading 5 % Reading the map
+15:21:33 loading 10 % Building roads
+15:21:35 loading 20 % Building roads
+15:21:37 loading 58 % Building junctions and yards
+15:21:39 loading 66 % Placing buildings and props
+15:21:41 loading 71 % Placing buildings and props
+15:21:43 loading 75 % Placing fences and barriers
+15:21:45 loading 75 % Placing fences and barriers
+15:21:47 loading 75 % Placing fences and barriers
+15:21:49 loading 75 % Placing fences and barriers
+15:21:51 loading 75 % Placing fences and barriers
+15:21:53 loading 75 % Placing fences and barriers
+15:21:55 loading 75 % Placing fences and barriers
+15:21:57 loading 100 % Ready
+15:21:57 first build complete at 33 s
+15:22:27 settled for shot a1 after 30 s: built 6035, queued 0, batching 0, plants 122684 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:22:35 settled for shot a1 (camera placed) after 8 s: built 6035, queued 0, batching 0, plants 122684 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:22:36 wrote shot a1
+15:23:07 settled for shot a2 after 31 s: built 6039, queued 0, batching 0, plants 122794 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:23:15 settled for shot a2 (camera placed) after 8 s: built 6039, queued 0, batching 0, plants 122794 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:23:15 wrote shot a2
+15:23:46 settled for shot a3 after 31 s: built 6372, queued 0, batching 0, plants 125176 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:23:54 settled for shot a3 (camera placed) after 8 s: built 6372, queued 0, batching 0, plants 125176 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:23:54 wrote shot a3
+15:24:25 settled for probe -37.2,-12.6,41.4,2.6,1 after 31 s: built 6483, queued 0, batching 0, plants 135798 (sides waiting 3), detail jobs 0, ground fill builds 1

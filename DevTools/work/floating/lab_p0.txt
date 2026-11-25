@@ -1,0 +1,4 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/p0_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/p0_austria_unity.log)
+render.sh: site austria Unity exit 0 after 233 s
+render.sh: images:
+  none

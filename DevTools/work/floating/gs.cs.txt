@@ -1,0 +1,545 @@
+
+    // ------------------------------------------------------------------ ground survey (2026-10-27: floating ground, tunnels, invisible colliders)
+
+    /// <summary>
+    /// RL_GROUND="name,gx,gz,r;..." (GAME coordinates, any site): after the stream and the ground fill settle round each point,
+    /// measures within r metres (a square): (A) ground-fill triangles floating over something (more than 3 m of air under
+    /// them) or more than 5 m above every terrain top 25 m round them; (B) terrain skirts hanging in the air (their foot 2 m
+    /// or more above anything) or hanging into a road's 5 m clearance; (C) terrain / fill / skirt / undrawn colliders inside
+    /// the 4.75 m clearance over every road and junction surface (RL_GROUND_GRID m grid, default 4; "covered" = something
+    /// drawn 4.75-80 m over the road: a tunnel, a mountain or a bridge); (D) every collider with nothing drawn on it, by kind
+    /// and name, and items whose colliders stand with no renderer at all. Writes &lt;prefix&gt;_&lt;site&gt;_ground.txt.
+    /// </summary>
+    IEnumerator GroundSurvey(string spec)
+    {
+        Vector3 centre = CentreFor(Site);
+        var report = new StringBuilder();
+        var totals = new GsTotals();
+        float grid = float.Parse(Environment.GetEnvironmentVariable("RL_GROUND_GRID") ?? "4", I);
+        report.AppendLine("ground survey, site " + Site + " centre game " + centre.ToString("0.0") + ", clearance grid " + grid.ToString("0.0", I) + " m");
+
+        foreach (string one in spec.Split(';'))
+        {
+            string[] f = one.Split(',');
+
+            if (f.Length < 4)
+            {
+                continue;
+            }
+
+            string name = f[0];
+            float gx = float.Parse(f[1], I), gz = float.Parse(f[2], I), r = float.Parse(f[3], I);
+            var at = new Vector3(gx - centre.x, 0f, centre.z - gz);
+            _focus.position = at;
+            yield return Settle("ground " + name, 30f, 300f);
+            yield return SettleFill("ground " + name, 150f);
+            Physics.SyncTransforms();
+
+            try
+            {
+                var pt = new GsTotals();
+                MeasureGround(name, at, r, grid, centre, pt);
+                report.AppendLine(pt.Line(name + " game (" + gx.ToString("0", I) + ", " + gz.ToString("0", I) + ") r " + r.ToString("0", I)));
+                totals.Add(pt);
+                Say("ground " + name + ": " + pt.Short());
+            }
+            catch (Exception e)
+            {
+                Say("ground " + name + " failed: " + e);
+                report.AppendLine(name + " FAILED " + e.Message);
+            }
+
+            File.WriteAllText(OutPrefix + "_" + Site + "_ground.txt", report + "\n" + totals.Full());
+        }
+
+        File.WriteAllText(OutPrefix + "_" + Site + "_ground.txt", report + "\n" + totals.Full());
+        Say("wrote ground survey " + OutPrefix + "_" + Site + "_ground.txt: " + totals.Short());
+        Finish(0);
+    }
+
+    /// <summary>Waits until the ground fill's tiles stop changing (their count and vertices) for 8 s.</summary>
+    IEnumerator SettleFill(string what, float maxSeconds)
+    {
+        float from = Time.realtimeSinceStartup, stable = from;
+        long last = -1;
+
+        while (Time.realtimeSinceStartup - from < maxSeconds)
+        {
+            yield return new WaitForSeconds(1f);
+            long sig = 0;
+            GameObject root = GameObject.Find("ground fill");
+
+            if (root != null)
+            {
+                foreach (MeshFilter mf in root.GetComponentsInChildren<MeshFilter>(false))
+                {
+                    if (mf.sharedMesh != null) sig = sig * 31 + mf.sharedMesh.vertexCount + 1;
+                }
+            }
+
+            if (sig != last)
+            {
+                last = sig;
+                stable = Time.realtimeSinceStartup;
+            }
+            else if (Time.realtimeSinceStartup - stable >= 8f)
+            {
+                Say("fill settled for " + what + " after " + (Time.realtimeSinceStartup - from).ToString("0", I) + " s");
+                yield break;
+            }
+        }
+
+        Say("fill NOT settled for " + what + " after " + maxSeconds + " s");
+    }
+
+    sealed class GsSpot
+    {
+        public float Score;
+        public string Text;
+    }
+
+    sealed class GsTotals
+    {
+        public double FillArea, FillFloatArea, FillAboveRingArea, SkirtArea, SkirtHangArea, SkirtRoadArea;
+        public int FillTris, FillFloatTris, SkirtSegs, SkirtHangSegs, SkirtRoadSegs, RoadCells, CoveredCells;
+        public readonly Dictionary<string, int> Clearance = new Dictionary<string, int>();
+        public readonly Dictionary<string, int> Undrawn = new Dictionary<string, int>();
+        public readonly Dictionary<string, int> UndrawnOverRoad = new Dictionary<string, int>();
+        public int DeadItems, Colliders, UndrawnColliders;
+        public readonly List<GsSpot> FillSpots = new List<GsSpot>(), SkirtSpots = new List<GsSpot>(), ClearSpots = new List<GsSpot>(), DeadSpots = new List<GsSpot>();
+
+        public static void Bump(Dictionary<string, int> d, string k, int n = 1)
+        {
+            d.TryGetValue(k, out int v);
+            d[k] = v + n;
+        }
+
+        public static void Spot(List<GsSpot> list, float score, string text)
+        {
+            list.Add(new GsSpot { Score = score, Text = text });
+
+            if (list.Count > 400)
+            {
+                list.Sort((a, b) => b.Score.CompareTo(a.Score));
+                list.RemoveRange(200, list.Count - 200);
+            }
+        }
+
+        public void Add(GsTotals o)
+        {
+            FillArea += o.FillArea; FillFloatArea += o.FillFloatArea; FillAboveRingArea += o.FillAboveRingArea; SkirtArea += o.SkirtArea; SkirtHangArea += o.SkirtHangArea; SkirtRoadArea += o.SkirtRoadArea;
+            FillTris += o.FillTris; FillFloatTris += o.FillFloatTris; SkirtSegs += o.SkirtSegs; SkirtHangSegs += o.SkirtHangSegs; SkirtRoadSegs += o.SkirtRoadSegs; RoadCells += o.RoadCells; CoveredCells += o.CoveredCells;
+            foreach (var kv in o.Clearance) Bump(Clearance, kv.Key, kv.Value);
+            foreach (var kv in o.Undrawn) Bump(Undrawn, kv.Key, kv.Value);
+            foreach (var kv in o.UndrawnOverRoad) Bump(UndrawnOverRoad, kv.Key, kv.Value);
+            DeadItems += o.DeadItems; Colliders += o.Colliders; UndrawnColliders += o.UndrawnColliders;
+            foreach (GsSpot s in o.FillSpots) Spot(FillSpots, s.Score, s.Text);
+            foreach (GsSpot s in o.SkirtSpots) Spot(SkirtSpots, s.Score, s.Text);
+            foreach (GsSpot s in o.ClearSpots) Spot(ClearSpots, s.Score, s.Text);
+            foreach (GsSpot s in o.DeadSpots) Spot(DeadSpots, s.Score, s.Text);
+        }
+
+        static string Dict(Dictionary<string, int> d, int max)
+        {
+            var l = new List<KeyValuePair<string, int>>(d);
+            l.Sort((a, b) => b.Value.CompareTo(a.Value));
+            var s = new StringBuilder();
+            for (int i = 0; i < l.Count && i < max; i++) s.Append(i == 0 ? "" : "; ").Append(l[i].Key + " x" + l[i].Value);
+            return s.ToString();
+        }
+
+        static int Sum(Dictionary<string, int> d)
+        {
+            int n = 0;
+            foreach (var kv in d) n += kv.Value;
+            return n;
+        }
+
+        public string Short()
+        {
+            return "fill floating " + FillFloatArea.ToString("0", I) + " m2 (" + FillFloatTris + " tris; above all terrain round it " + FillAboveRingArea.ToString("0", I) + " m2) of " + FillArea.ToString("0", I) +
+                   " m2; skirts hanging in air " + SkirtHangSegs + " segs / " + SkirtHangArea.ToString("0", I) + " m2, into road clearance " + SkirtRoadSegs + " segs of " + SkirtSegs +
+                   "; road cells " + RoadCells + " (covered " + CoveredCells + "), clearance hits " + Sum(Clearance) + "; colliders " + Colliders + ", undrawn " + UndrawnColliders + ", undrawn over roads " + Sum(UndrawnOverRoad) + ", dead items " + DeadItems;
+        }
+
+        public string Line(string head)
+        {
+            return head + ": " + Short() + "\n    clearance: " + Dict(Clearance, 12) + "\n    undrawn over roads: " + Dict(UndrawnOverRoad, 12);
+        }
+
+        public string Full()
+        {
+            var s = new StringBuilder("TOTALS: " + Short() + "\n");
+            s.AppendLine("  clearance over roads by what: " + Dict(Clearance, 40));
+            s.AppendLine("  undrawn colliders over roads by kind/name: " + Dict(UndrawnOverRoad, 40));
+            s.AppendLine("  undrawn colliders by kind/name: " + Dict(Undrawn, 60));
+            foreach (var pair in new[] { new KeyValuePair<string, List<GsSpot>>("floating fill", FillSpots), new KeyValuePair<string, List<GsSpot>>("skirts", SkirtSpots),
+                                         new KeyValuePair<string, List<GsSpot>>("road clearance", ClearSpots), new KeyValuePair<string, List<GsSpot>>("dead items", DeadSpots) })
+            {
+                pair.Value.Sort((a, b) => b.Score.CompareTo(a.Score));
+                s.AppendLine("  worst " + pair.Key + ":");
+                for (int i = 0; i < pair.Value.Count && i < 30; i++) s.AppendLine("    " + pair.Value[i].Text);
+            }
+            return s.ToString();
+        }
+    }
+
+    const int LabShadowLayer = 30;
+
+    /// <summary>The map group (roads, terrain items, prefabs, models, runs, signs) a collider's object belongs to, and its item.</summary>
+    static string GroupOf(Transform t, out Transform item)
+    {
+        item = null;
+        Transform prev = null, prev2 = null;
+
+        for (Transform p = t; p != null; p = p.parent)
+        {
+            if (p.name == "Ets Map")
+            {
+                item = prev2;
+                return prev != null ? prev.name : "";
+            }
+
+            prev2 = prev;
+            prev = p;
+        }
+
+        return t.root != null ? t.root.name : "";
+    }
+
+    static string KindOf(Collider c, out Transform item)
+    {
+        item = null;
+
+        if (EtsGroundFill.IsFill(c)) return "fill";
+
+        string n = c.gameObject.name;
+
+        if (n == "LAB skirt") return "skirt";
+
+        string g = GroupOf(c.transform, out item);
+
+        if (n.StartsWith("terrain ", StringComparison.Ordinal) || n.StartsWith("prefab terrain ", StringComparison.Ordinal))
+        {
+            return n.Contains("invisible") || n.EndsWith(" inv", StringComparison.Ordinal) ? "terrain-inv" : "terrain";
+        }
+
+        if (g == "roads") return n.StartsWith("railing", StringComparison.Ordinal) ? "railing" : "road";
+        if (g == "prefabs") return "prefab";
+        if (g == "models") return "model";
+        if (g == "runs") return "run";
+        if (g == "signs") return "sign";
+        return "other:" + g;
+    }
+
+    static readonly Dictionary<int, bool> DrawnCache = new Dictionary<int, bool>();
+
+    /// <summary>Whether something is drawn where this collider is: its own renderer, or (a terrain flat stand-in) its blended twin.</summary>
+    static bool Drawn(Collider c)
+    {
+        int id = c.GetInstanceID();
+
+        if (DrawnCache.TryGetValue(id, out bool d)) return d;
+
+        Renderer r = c.GetComponent<Renderer>();
+        d = r != null && r.enabled && r.sharedMaterial != null && c.gameObject.activeInHierarchy;
+
+        if (!d && r != null && c.name.StartsWith("terrain ", StringComparison.Ordinal) && !c.name.Contains("invisible") && c.transform.parent != null)
+        {
+            MeshFilter mf = c.GetComponent<MeshFilter>();
+            int tris = mf != null && mf.sharedMesh != null ? (int)mf.sharedMesh.GetIndexCount(0) : -1;
+
+            foreach (Transform sib in c.transform.parent)
+            {
+                Renderer sr = sib.GetComponent<Renderer>();
+                MeshFilter sf = sib.GetComponent<MeshFilter>();
+
+                if (sr != null && sr.enabled && sf != null && sf.sharedMesh != null && (int)sf.sharedMesh.GetIndexCount(0) == tris)
+                {
+                    d = true;
+                    break;
+                }
+            }
+        }
+
+        DrawnCache[id] = d;
+        return d;
+    }
+
+    static string Pattern(Collider c, string kind, Transform item)
+    {
+        string n = System.Text.RegularExpressions.Regex.Replace(c.gameObject.name, "[0-9]+", "N");
+        string it = item != null ? item.name : "";
+        return kind + " " + (kind == "model" || kind == "prefab" || kind == "run" || kind == "sign" ? it + " / " : "") + n;
+    }
+
+    static string G(Vector3 centre, Vector3 p)
+    {
+        return "game (" + (centre.x + p.x).ToString("0", I) + ", " + (centre.y + p.y).ToString("0", I) + ", " + (centre.z - p.z).ToString("0", I) + ")";
+    }
+
+    static bool IsRoadSurface(RaycastHit h, string kind, Transform item)
+    {
+        if (h.normal.y < 0.8f) return false;
+        if (kind == "road") return true;
+
+        // A junction's lanes, yards and car parks: a prefab piece within 1.5 m of the prefab's own level (not a roof).
+        return kind == "prefab" && item != null && Mathf.Abs(item.InverseTransformPoint(h.point).y) < 1.5f;
+    }
+
+    void MeasureGround(string name, Vector3 at, float r, float step, Vector3 centre, GsTotals t)
+    {
+        DrawnCache.Clear();
+        int all = ~((1 << LabShadowLayer) | (1 << EtsLayers.Vehicle) | (1 << EtsLayers.Player) | (1 << EtsLayers.Ui) | (1 << EtsLayers.IgnoreRaycast));
+        int withSkirts = all | (1 << LabShadowLayer);
+        var shadows = new List<GameObject>();
+
+        // Lab-only colliders on the skirts (they have none in the world) so the rays see them.
+        foreach (MeshRenderer mr in FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None))
+        {
+            if (mr.gameObject.name != "terrain skirt" || !mr.enabled || !mr.gameObject.activeInHierarchy) continue;
+            Bounds b = mr.bounds;
+            if (b.max.x < at.x - r - 50f || b.min.x > at.x + r + 50f || b.max.z < at.z - r - 50f || b.min.z > at.z + r + 50f) continue;
+            MeshFilter mf = mr.GetComponent<MeshFilter>();
+            if (mf == null || mf.sharedMesh == null) continue;
+            var go = new GameObject("LAB skirt");
+            go.layer = LabShadowLayer;
+            go.transform.SetParent(mr.transform, false);
+            go.AddComponent<MeshCollider>().sharedMesh = mf.sharedMesh;
+            shadows.Add(go);
+        }
+
+        Physics.SyncTransforms();
+        bool back = Physics.queriesHitBackfaces;
+        Physics.queriesHitBackfaces = true;
+        var hits = new RaycastHit[64];
+
+        try
+        {
+            // (A) ground fill
+            GameObject fillRoot = GameObject.Find("ground fill");
+
+            if (fillRoot != null)
+            {
+                foreach (MeshFilter mf in fillRoot.GetComponentsInChildren<MeshFilter>(false))
+                {
+                    Mesh m = mf.sharedMesh;
+                    if (m == null || !m.isReadable) continue;
+                    Vector3[] v = m.vertices;
+                    int[] tri = m.triangles;
+                    Transform tt = mf.transform;
+
+                    for (int k = 0; k + 2 < tri.Length; k += 3)
+                    {
+                        Vector3 a = tt.TransformPoint(v[tri[k]]), b = tt.TransformPoint(v[tri[k + 1]]), c = tt.TransformPoint(v[tri[k + 2]]);
+                        Vector3 ctr = (a + b + c) / 3f;
+                        if (Mathf.Abs(ctr.x - at.x) > r || Mathf.Abs(ctr.z - at.z) > r) continue;
+                        float area = Vector3.Cross(b - a, c - a).magnitude * 0.5f;
+                        t.FillTris++;
+                        t.FillArea += area;
+
+                        // What is under it (not the fill itself).
+                        int n = Physics.RaycastNonAlloc(ctr + Vector3.down * 0.05f, Vector3.down, hits, 3000f, all, QueryTriggerInteraction.Ignore);
+                        float below = float.MinValue;
+                        Collider under = null;
+
+                        for (int q = 0; q < n; q++)
+                        {
+                            if (EtsGroundFill.IsFill(hits[q].collider)) continue;
+                            if (hits[q].point.y > below) { below = hits[q].point.y; under = hits[q].collider; }
+                        }
+
+                        float gap = under != null ? ctr.y - below : 0f;
+
+                        // The terrain round it (8 rays 25 m out): the highest terrain top in each.
+                        float ring = float.MinValue;
+                        int ringHits = 0;
+
+                        if (gap <= 3f)
+                        {
+                            for (int dir = 0; dir < 8; dir++)
+                            {
+                                float ang = dir * Mathf.PI / 4f;
+                                var o = new Vector3(ctr.x + Mathf.Cos(ang) * 25f, ctr.y + 1500f, ctr.z + Mathf.Sin(ang) * 25f);
+                                int nn = Physics.RaycastNonAlloc(o, Vector3.down, hits, 3000f, all, QueryTriggerInteraction.Ignore);
+                                float top = float.MinValue;
+
+                                for (int q = 0; q < nn; q++)
+                                {
+                                    string kk = KindOf(hits[q].collider, out _);
+                                    if ((kk == "terrain" || kk == "terrain-inv") && hits[q].point.y > top) top = hits[q].point.y;
+                                }
+
+                                if (top > float.MinValue) { ringHits++; ring = Mathf.Max(ring, top); }
+                            }
+                        }
+
+                        bool aboveRing = ringHits >= 3 && ctr.y > ring + 5f;
+
+                        if (gap > 3f || aboveRing)
+                        {
+                            t.FillFloatTris++;
+                            t.FillFloatArea += area;
+                            if (aboveRing) t.FillAboveRingArea += area;
+                            string uk = under != null ? KindOf(under, out _) + " " + PathOf(under.transform, 2) : "nothing";
+                            GsTotals.Spot(t.FillSpots, (gap > 3f ? gap : ctr.y - ring) * Mathf.Sqrt(area), name + " " + G(centre, ctr) + " fill " + mf.name + " area " + area.ToString("0", I) + " m2 " +
+                                                                            (gap > 3f ? "air under it " + gap.ToString("0.0", I) + " m over [" + uk + "]" : "above all terrain round it by " + (ctr.y - ring).ToString("0.0", I) + " m"));
+                        }
+                    }
+                }
+            }
+
+            // (B) skirts
+            foreach (GameObject go in shadows)
+            {
+                MeshFilter mf = go.transform.parent.GetComponent<MeshFilter>();
+                Vector3[] v = mf.sharedMesh.vertices;
+                Transform tt = mf.transform;
+
+                for (int k = 0; k + 3 < v.Length; k += 4)
+                {
+                    Vector3 a = tt.TransformPoint(v[k]), b = tt.TransformPoint(v[k + 1]), c = tt.TransformPoint(v[k + 2]), d = tt.TransformPoint(v[k + 3]);
+                    Vector3 top = (a + b) * 0.5f, bot = (c + d) * 0.5f;
+                    if (Mathf.Abs(top.x - at.x) > r || Mathf.Abs(top.z - at.z) > r) continue;
+                    float len = new Vector2(b.x - a.x, b.z - a.z).magnitude, hgt = top.y - bot.y, area = len * hgt;
+                    t.SkirtSegs++;
+                    t.SkirtArea += area;
+                    bool hang = !Physics.Raycast(bot + Vector3.up * 0.8f, Vector3.down, 2.8f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore);
+
+                    // A road or junction surface under the wall within 5 m of its foot.
+                    int n = Physics.RaycastNonAlloc(top + Vector3.up * 0.3f, Vector3.down, hits, hgt + 6f, all, QueryTriggerInteraction.Ignore);
+                    string road = null;
+                    float roadY = 0f;
+
+                    for (int q = 0; q < n; q++)
+                    {
+                        string kk = KindOf(hits[q].collider, out Transform it);
+
+                        if (IsRoadSurface(hits[q], kk, it) && hits[q].point.y < top.y - 0.1f && hits[q].point.y > bot.y - 5f)
+                        {
+                            road = PathOf(hits[q].collider.transform, 2);
+                            roadY = hits[q].point.y;
+                        }
+                    }
+
+                    if (hang)
+                    {
+                        t.SkirtHangSegs++;
+                        t.SkirtHangArea += area;
+                    }
+
+                    if (road != null)
+                    {
+                        t.SkirtRoadSegs++;
+                        t.SkirtRoadArea += area;
+                    }
+
+                    if (hang || road != null)
+                    {
+                        GsTotals.Spot(t.SkirtSpots, area + (road != null ? 1000f : 0f), name + " " + G(centre, top) + " skirt of " + PathOf(tt, 2) + " " + len.ToString("0.0", I) + " x " + hgt.ToString("0.0", I) + " m" +
+                                                                         (hang ? " HANGS (foot " + G(centre, bot) + " has nothing within 2 m under it)" : "") + (road != null ? " OVER ROAD " + road + " foot " + (bot.y - roadY).ToString("0.0", I) + " m above it" : ""));
+                    }
+                }
+            }
+
+            // (C) the 4.75 m clearance over every road and junction surface, on a grid
+            var cellClear = new HashSet<long>();
+
+            for (float z = at.z - r; z <= at.z + r; z += step)
+            {
+                for (float x = at.x - r; x <= at.x + r; x += step)
+                {
+                    int n = Physics.RaycastNonAlloc(new Vector3(x, 4000f, z), Vector3.down, hits, 8000f, all, QueryTriggerInteraction.Ignore);
+
+                    for (int q = 0; q < n; q++)
+                    {
+                        RaycastHit h = hits[q];
+                        string kind = KindOf(h.collider, out Transform item);
+                        if (!IsRoadSurface(h, kind, item)) continue;
+                        t.RoadCells++;
+                        Vector3 p = h.point + Vector3.up * 0.25f;
+
+                        // Covered: something drawn 4.75 to 80 m over the road (tunnel roof, mountain, bridge).
+                        bool covered = false;
+                        RaycastHit[] up = Physics.RaycastAll(p, Vector3.up, 80f, withSkirts, QueryTriggerInteraction.Ignore);
+
+                        foreach (RaycastHit u in up)
+                        {
+                            if (u.distance > 4.75f && u.collider.gameObject.layer != LabShadowLayer && Drawn(u.collider)) { covered = true; break; }
+                        }
+
+                        if (covered) t.CoveredCells++;
+
+                        foreach (RaycastHit u in up)
+                        {
+                            if (u.distance > 4.75f || u.collider == h.collider) continue;
+                            string uk = KindOf(u.collider, out Transform uit);
+                            bool drawn = uk == "skirt" || uk == "fill" || Drawn(u.collider);
+                            string what = null;
+
+                            if (uk == "terrain" || uk == "fill" || uk == "skirt" || uk == "terrain-inv") what = uk + (drawn ? "" : " (undrawn)");
+                            else if (!drawn) what = "undrawn " + uk;
+
+                            if (what == null) continue;
+
+                            string key = what + (covered ? " in covered road" : " over open road");
+                            GsTotals.Bump(t.Clearance, key);
+
+                            if (!drawn) GsTotals.Bump(t.UndrawnOverRoad, Pattern(u.collider, uk, uit));
+
+                            long cell = ((long)Mathf.FloorToInt(x / 20f) << 32) ^ (uint)Mathf.FloorToInt(z / 20f);
+
+                            if (cellClear.Add(cell))
+                            {
+                                GsTotals.Spot(t.ClearSpots, (4.75f - u.distance) + (covered ? 5f : 0f) + (uk == "terrain" || uk == "fill" || uk == "skirt" ? 10f : 0f),
+                                    name + " " + G(centre, h.point) + " " + key + ": " + PathOf(u.collider.transform, 3) + " " + u.distance.ToString("0.0", I) + " m over " + PathOf(h.collider.transform, 2));
+                            }
+                        }
+                    }
+                }
+            }
+
+            // (D) every collider round the point, drawn or not; items whose colliders stand with nothing drawn at all
+            var deadSeen = new HashSet<int>();
+
+            foreach (Collider c in Physics.OverlapBox(at, new Vector3(r, 4000f, r), Quaternion.identity, all, QueryTriggerInteraction.Ignore))
+            {
+                if (EtsGroundFill.IsFill(c)) continue;
+                string kind = KindOf(c, out Transform item);
+                if (kind.StartsWith("other:", StringComparison.Ordinal)) continue;
+                t.Colliders++;
+
+                if (!Drawn(c))
+                {
+                    t.UndrawnColliders++;
+                    GsTotals.Bump(t.Undrawn, Pattern(c, kind, item));
+                }
+
+                if (item != null && kind != "terrain" && kind != "terrain-inv" && deadSeen.Add(item.GetInstanceID()))
+                {
+                    bool any = false;
+
+                    foreach (Renderer rr in item.GetComponentsInChildren<Renderer>(false))
+                    {
+                        if (rr.enabled && rr.sharedMaterial != null) { any = true; break; }
+                    }
+
+                    if (!any)
+                    {
+                        t.DeadItems++;
+                        Bounds b = c.bounds;
+                        GsTotals.Spot(t.DeadSpots, b.size.magnitude, name + " " + G(centre, b.center) + " " + kind + " " + item.name + " colliders with nothing drawn, size " + b.size.ToString("0.0"));
+                    }
+                }
+            }
+        }
+        finally
+        {
+            Physics.queriesHitBackfaces = back;
+
+            foreach (GameObject go in shadows)
+            {
+                Destroy(go);
+            }
+        }
+    }

@@ -1,0 +1,100 @@
+== probe -37.2,-12.6,41.4,2.6,1
+  (-37.2, -12.6):  [Ets Map/roads/road ger13/vis 2 y 0.24 L0]
+  (-36.2, -12.4):  [Ets Map/roads/road ger13/vis 2 y 0.22 L0]
+  (-35.2, -12.2):  [Ets Map/roads/road ger13/vis 2 y 0.21 L0]
+  (-34.3, -12.0):  [Ets Map/roads/road ger13/vis 2 y 0.19 L0]
+  (-33.3, -11.8):  [Ets Map/roads/road ger13/vis 2 y 0.18 L0]
+  (-32.3, -11.7):  [Ets Map/roads/road ger13/vis 2 y 0.16 L0]
+  (-31.3, -11.5):  [Ets Map/roads/road ger13/vis 2 y 0.15 L0]
+  (-30.3, -11.3):  [Ets Map/roads/road ger13/vis 2 y 0.13 L0]
+  (-29.3, -11.1):  [Ets Map/roads/road ger13/vis 2 y 0.12 L0]
+  (-28.4, -10.9):  [Ets Map/roads/road ger13/vis 2 y 0.11 L0]
+  (-27.4, -10.7):  [Ets Map/roads/road ger13/vis 2 y 0.09 L0]
+  (-26.4, -10.5):  [Ets Map/roads/road ger13/vis 2 y 0.08 L0]
+  (-25.4, -10.3):  [Ets Map/roads/road ger13/vis 2 y 0.07 L0]
+  (-24.4, -10.1):  [Ets Map/roads/road ger13/vis 2 y 0.05 L0]
+  (-23.5, -9.9):  [Ets Map/roads/road ger13/vis 2 y 0.04 L0]
+  (-22.5, -9.8):  [Ets Map/roads/road ger13/vis 2 y 0.03 L0]
+  (-21.5, -9.6):  [Ets Map/roads/road ger13/vis 2 y 0.02 L0]
+  (-20.5, -9.4):  [Ets Map/roads/road ger13/vis 2 y 0.01 L0]
+  (-19.5, -9.2):  [Ets Map/roads/road ger13/vis 2 y -0.01 L0]
+  (-18.5, -9.0):  [Ets Map/roads/road ger13/vis 2 y -0.02 L0]
+  (-17.6, -8.8):  [Ets Map/roads/road ger13/vis 2 y -0.03 L0]
+  (-16.6, -8.6):  [Ets Map/roads/road ger13/vis 2 y -0.04 L0]
+  (-15.6, -8.4):  [Ets Map/roads/road ger13/vis 2 y -0.05 L0]
+  (-14.6, -8.2):  [Ets Map/roads/road ger13/vis 2 y -0.06 L0]
+  (-13.6, -8.0):  [Ets Map/roads/road ger13/vis 2 y -0.07 L0]
+  (-12.7, -7.9):  [Ets Map/roads/road ger13/vis 2 y -0.08 L0]
+  (-11.7, -7.7):  [Ets Map/roads/road ger13/vis 2 y -0.10 L0]
+  (-10.7, -7.5):  [Ets Map/roads/road ger13/vis 2 y -0.11 L0]
+  (-9.7, -7.3):  [Ets Map/roads/road ger13/vis 2 y -0.12 L0]
+  (-8.7, -7.1):  [Ets Map/roads/road ger13/vis 2 y -0.12 L0]
+  (-7.7, -6.9):  [Ets Map/roads/road ger13/vis 2 y -0.13 L0]
+  (-6.8, -6.7):  [Ets Map/roads/road ger13/vis 2 y -0.14 L0]
+  (-5.8, -6.5):  [Ets Map/roads/road ger13/vis 2 y -0.15 L0]
+  (-4.8, -6.3):  [Ets Map/roads/road ger13/vis 2 y -0.16 L0]
+  (-3.8, -6.1):  [Ets Map/roads/road ger13/vis 2 y -0.17 L0]
+  (-2.8, -6.0):  [Ets Map/roads/road ger13/vis 2 y -0.18 L0]
+  (-1.9, -5.8):  [Ets Map/roads/road ger13/vis 2 y -0.18 L0]
+  (-0.9, -5.6):  [Ets Map/roads/road ger13/vis 2 y -0.19 L0]
+  (0.1, -5.4):  [Ets Map/roads/road ger13/vis 2 y -0.20 L0]
+  (1.1, -5.2):  [Ets Map/roads/road ger13/vis 2 y -0.20 L0]
+  (2.1, -5.0):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.21 L0]
+  (3.1, -4.8):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.21 L0]
+  (4.0, -4.6):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.22 L0]
+  (5.0, -4.4):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.22 L0]
+  (6.0, -4.2):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.23 L0]
+  (7.0, -4.1):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.23 L0]
+  (8.0, -3.9):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.23 L0]
+  (8.9, -3.7):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (9.9, -3.5):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (10.9, -3.3):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (11.9, -3.1):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (12.9, -2.9):  [Ets Map/roads/road ger13/vis 2 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (13.9, -2.7):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (14.8, -2.5):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (15.8, -2.3):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (16.8, -2.2):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (17.8, -2.0):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (18.8, -1.8):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (19.7, -1.6):  [Ets Map/roads/road ger13/vis 2 y -0.24 L0]
+  (20.7, -1.4):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.23 L0]
+  (21.7, -1.2):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.23 L0]
+  (22.7, -1.0):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.23 L0]
+  (23.7, -0.8):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.22 L0]
+  (24.7, -0.6):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.22 L0]
+  (25.6, -0.4):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.21 L0]
+  (26.6, -0.3):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.20 L0]
+  (27.6, -0.1):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.20 L0]
+  (28.6, 0.1):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.19 L0]
+  (29.6, 0.3):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.18 L0]
+  (30.5, 0.5):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.17 L0]
+  (31.5, 0.7):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.16 L0]
+  (32.5, 0.9):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.15 L0]
+  (33.5, 1.1):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.14 L0]
+  (34.5, 1.3):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.13 L0]
+  (35.5, 1.5):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.12 L0]
+  (36.4, 1.6):  [Ets Map/roads/road ger17/vis 7 y 8.96 L0] [Ets Map/roads/road ger13/vis 2 y -0.11 L0]
+  (37.4, 1.8):  [Ets Map/roads/road ger13/vis 2 y -0.10 L0]
+  (38.4, 2.0):  [Ets Map/roads/road ger13/vis 2 y -0.08 L0]
+  (39.4, 2.2):  [Ets Map/roads/road ger13/vis 2 y -0.07 L0]
+  (40.4, 2.4):  [Ets Map/roads/road ger13/vis 2 y -0.05 L0]
+  (41.3, 2.6):  [Ets Map/roads/road ger13/vis 2 y -0.04 L0]
+  renderers over (2.1, -5.0):
+    Ets Map/roads/road ger13/terrain right dlc_balt_10 y -0.8..9.0 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: road ger13) 2 v 148 (not readable) colors False uv1 False
+    Ets Map/roads/road ger13/lines_full 8 y 9.0..9.0 mat /automat/67/672a03c6ba2f0402.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/special/lines_eu_01.tobj DXT5 mesh Combined Mesh (root: road ger13) v 3024 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/right decal_15m 2 y 9.0..9.0 mat /automat/d1/d1db8b7df91598de.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/road/road_template/ger/decal_ger_01.tobj DXT5 mesh Combined Mesh (root: road ger13) v 3024 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/lines_full 8 y -0.2..0.0 mat /automat/67/672a03c6ba2f0402.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/special/lines_eu_01.tobj DXT5 mesh Combined Mesh (root: road ger13) 3 v 224 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/right decal_15m 2 y -0.2..0.0 mat /automat/d1/d1db8b7df91598de.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/road/road_template/ger/decal_ger_01.tobj DXT5 mesh Combined Mesh (root: road ger13) 3 v 224 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/terrain right dlc_balt_10 [OFF] y -0.8..9.0 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh terrain right dlc_balt_10 v 104 colors False uv1 False
+    road ger13/railings/railing mod_ger_3 right 0/center15m 19 y 8.5..9.0 mat /automat/be/be1fbaadac4ef79f.mat / SomniumEuroTruck/Multi queue 2000 layer 0 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/tiled/concrete_gs_01.tobj DXT5 _MultMap=/material/tiled/concrete_over_01.tobj DXT5 mesh Combined Mesh (root: road ger13) v 3024 (not readable) colors True uv1 False
+    road ger13/railings/railing mod_ger_3 right 0/center15m 20 y 9.0..10.2 mat /automat/72/72f3c3d528cae84b.mat / Universal Render Pipeline/Lit queue 2450 cutoff 0.05 kw [_ALPHATEST_ON _ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/tiled/metal_alpha_01.tobj DXT5 mesh Combined Mesh (root: road ger13) v 3024 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/terrain right dlc_balt_10 + dlc_balt_53 y -0.8..9.0 mat terrain dlc_balt_10 + dlc_balt_53 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 _MultMap=/material/terrain/balt/grass_wild4_balt.tobj DXT5 mesh terrain right dlc_balt_10 + dlc_balt_53 v 104 colors True uv1 True
+    Ets Map/roads/road ger13/vis 2 y 9.0..9.0 mat /automat/d3/d3aef5fb94829cd7.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/road/road_template/ger/ger_01.tobj DXT5 mesh Combined Mesh (root: road ger13) v 3024 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/terrain right dlc_balt_10 [OFF] y -0.8..9.0 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh terrain right dlc_balt_10 v 104 colors False uv1 False
+    Ets Map/roads/road ger13/terrain right dlc_balt_54 y -0.8..9.0 mat /umatlib/legacy/terrain/balt/grass_sparse_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_sparse_balt.tobj DXT5 mesh terrain right dlc_balt_54 v 104 colors False uv1 False
+    road ger13/railings/railing dlc_it_13 left 1/center15m 6 y 7.1..8.6 mat /automat/be/be1fbaadac4ef79f.mat / SomniumEuroTruck/Multi queue 2000 layer 0 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/tiled/concrete_gs_01.tobj DXT5 _MultMap=/material/tiled/concrete_over_01.tobj DXT5 mesh Combined Mesh (root: road ger13) v 3024 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/terrain right dlc_balt_10 + dlc_balt_54 y -0.8..9.0 mat terrain dlc_balt_10 + dlc_balt_54 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 _MultMap=/material/terrain/balt/grass_sparse_balt.tobj DXT5 mesh terrain right dlc_balt_10 + dlc_balt_54 v 104 colors True uv1 True
+    Ets Map/roads/road ger13/vis 2 y -0.2..0.0 mat /automat/d3/d3aef5fb94829cd7.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/road/road_template/ger/ger_01.tobj DXT5 mesh Combined Mesh (root: road ger13) 3 v 224 (not readable) colors True uv1 False
+    Ets Map/roads/road ger13/terrain right invisible [OFF] y -0.8..9.0 mat none mesh terrain right invisible v 104 colors False uv1 False
+    Ets Map Viewer/ground fill/fill 0 -1 y -0.5..10.6 mat /material/terrain/grass_ger_main.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/grass_ger_main.tobj DXT5 mesh ground fill 0 -1 v 468 colors False uv1 False

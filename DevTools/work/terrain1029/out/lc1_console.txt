@@ -1,0 +1,12 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_austria_unity.log)
+render.sh: site austria Unity exit 0 after 146 s
+   wrote shot jO
+   wrote shot jV
+   wrote shot jW
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_shot_jO.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_shot_jO_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_shot_jV.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_shot_jV_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_shot_jW.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/lc1_shot_jW_void.png

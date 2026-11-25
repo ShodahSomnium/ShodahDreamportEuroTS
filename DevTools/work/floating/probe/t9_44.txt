@@ -1,0 +1,98 @@
+Can't find custom attr constructor image: D:\Dreamport\Euro Truck Simulator\Euro Truck Sim\DevTools\work\floating\probe\UnityEngine.CoreModule.dll mtoken: 0x0a0006a3 due to: Could not load file or assembly 'UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+terrain item sides 799, with >=3 vertices 15 m+ over a road/junction: 53
+bit 0: all 32 (4.0%)  over 2 (3.8%)
+bit 1: all 627 (78.5%)  over 27 (50.9%)
+bit 2: all 50 (6.3%)  over 4 (7.5%)
+bit 3: all 123 (15.4%)  over 0 (0.0%)
+bit 4: all 435 (54.4%)  over 34 (64.2%)
+bit 5: all 316 (39.5%)  over 10 (18.9%)
+bit 6: all 0 (0.0%)  over 0 (0.0%)
+bit 7: all 165 (20.7%)  over 0 (0.0%)
+bit 8: all 0 (0.0%)  over 0 (0.0%)
+bit 9: all 4 (0.5%)  over 0 (0.0%)
+bit 10: all 799 (100.0%)  over 53 (100.0%)
+bit 11: all 195 (24.4%)  over 10 (18.9%)
+bit 12: all 0 (0.0%)  over 0 (0.0%)
+bit 13: all 171 (21.4%)  over 8 (15.1%)
+bit 14: all 10 (1.3%)  over 0 (0.0%)
+bit 15: all 0 (0.0%)  over 0 (0.0%)
+bit 16: all 737 (92.2%)  over 50 (94.3%)
+bit 17: all 0 (0.0%)  over 0 (0.0%)
+bit 18: all 793 (99.2%)  over 53 (100.0%)
+bit 19: all 0 (0.0%)  over 0 (0.0%)
+bit 20: all 23 (2.9%)  over 2 (3.8%)
+bit 21: all 389 (48.7%)  over 17 (32.1%)
+bit 22: all 0 (0.0%)  over 0 (0.0%)
+bit 23: all 410 (51.3%)  over 23 (43.4%)
+bit 24: all 0 (0.0%)  over 0 (0.0%)
+bit 25: all 619 (77.5%)  over 33 (62.3%)
+bit 26: all 61 (7.6%)  over 8 (15.1%)
+bit 27: all 18 (2.3%)  over 0 (0.0%)
+bit 28: all 200 (25.0%)  over 18 (34.0%)
+bit 29: all 0 (0.0%)  over 0 (0.0%)
+bit 30: all 0 (0.0%)  over 0 (0.0%)
+bit 31: all 0 (0.0%)  over 0 (0.0%)
+terrain 42bf29e07a0f5ffc L sec 4,4 flags 12a50402 size 100 profile44*0.3 offs 0: 107/168 vertices >=15 m over a road/junction; worst at game (17072,65,18954) 22 m over road 42bf29e0ea4f600b
+terrain 42bf29e0b80f61ba L sec 4,4 flags 02a50402 size 100 profile44*0.3 offs 78: 103/204 vertices >=15 m over a road/junction; worst at game (17255,69,18878) 29 m over road 42bf29e06e0f61bb
+terrain 42bf29e0ae4f6168 L sec 4,4 flags 00052400 size 112 profile114*-0.4 offs 87: 71/136 vertices >=15 m over a road/junction; worst at game (17371,101,18272) 57 m over road 42bf29e0fe4f61a3
+terrain 42bf29e0b80f61ba R sec 4,4 flags 02a50402 size 50 profile39*1 offs 8: 63/187 vertices >=15 m over a road/junction; worst at game (17293,66,18921) 26 m over road 42bf29e0e48f6172
+terrain 42bf29e07a0f5ffc R sec 4,4 flags 12a50402 size 41 profile15*1.8 offs 18: 59/140 vertices >=15 m over a road/junction; worst at game (17037,65,18967) 21 m over road 42bf29e0ea4f600b
+terrain 42f33e5803450001 R sec 4,4 flags 00050410 size 256 profile114*-0.5 offs 138: 41/374 vertices >=15 m over a road/junction; worst at game (16303,110,17924) 60 m over road 42bf29e039cf58f2
+terrain 42bf29e071cf69ca L sec 4,4 flags 12a50422 size 100 profile60*0.3 offs 151: 37/156 vertices >=15 m over a road/junction; worst at game (18237,154,18337) 82 m over road 42bf29e0244f69f6
+terrain 42bf29e07f4f8db4 R sec 4,4 flags 12a50422 size 200 profile112*0.5 offs 71: 34/273 vertices >=15 m over a road/junction; worst at game (18950,122,17869) 36 m over road 42bf29e0cb0f8e3b
+terrain 42bf29e03c0f60b4 R sec 4,4 flags 02950401 size 18 profile103*8 offs 44: 28/253 vertices >=15 m over a road/junction; worst at game (16264,71,19199) 19 m over road 4401dc1039c50001
+terrain 42f34af47b450002 R sec 4,4 flags 00050410 size 128 profile114*-0.35 offs 250: 27/279 vertices >=15 m over a road/junction; worst at game (16549,157,17769) 109 m over road 42bf29e0bd8f57ca
+terrain 42bf29e03acf8fd4 L sec 4,4 flags 02050416 size 150 profile112*-0.3 offs 0: 26/192 vertices >=15 m over a road/junction; worst at game (19772,139,17757) 54 m over road 42bf29e017cf8fd3
+terrain 42bf29e0fd4f69fb L sec 4,4 flags 02a50c12 size 100 profile112*0.8 offs 78: 26/143 vertices >=15 m over a road/junction; worst at game (18199,135,18347) 64 m over road 42bf29e0244f69f6
+terrain 42f341bc6e850000 R sec 4,4 flags 00050410 size 160 profile114*-0.5 offs 4: 25/110 vertices >=15 m over a road/junction; worst at game (16809,114,18383) 78 m over road 42bf29e06e0f5d5e
+terrain 42bf29e0ec4f624d R sec 4,4 flags 12a50412 size 150 profile112*-0.8 offs 28: 24/192 vertices >=15 m over a road/junction; worst at game (17347,136,18283) 93 m over road 42bf29e0fe4f61a3
+terrain 42bf29e0818f5ebb L sec 4,4 flags 14042c10 size 144 profile114*-0.6 offs 125: 22/260 vertices >=15 m over a road/junction; worst at game (16783,131,17770) 88 m over road 42bf29e01ecf5d99
+terrain 42bf29e0e48f8fa0 L sec 4,4 flags 12050412 size 100 profile39*0 offs 119: 22/132 vertices >=15 m over a road/junction; worst at game (19526,117,17723) 31 m over road 42bf29e0858f8fbe
+terrain 42bf29e0218f61b9 L sec 4,4 flags 02050402 size 100 profile44*0.3 offs 52: 21/288 vertices >=15 m over a road/junction; worst at game (17255,68,18916) 28 m over road 42bf29e0e48f6172
+terrain 42bf29e03f8f5f70 R sec 4,4 flags 02950401 size 18 profile103*8 offs 43: 18/99 vertices >=15 m over a road/junction; worst at game (16267,71,19188) 19 m over road 4401dc1039c50001
+terrain 42cc788c7d6b0000 L sec 4,4 flags 02050432 size 27 profile31*1 offs 70: 17/160 vertices >=15 m over a road/junction; worst at game (18152,90,18390) 20 m over road 42bf29e0244f69f6
+terrain 42bf29e0e8cf69cb L sec 4,4 flags 16a50422 size 100 profile60*0.3 offs 61: 16/96 vertices >=15 m over a road/junction; worst at game (18236,154,18337) 82 m over road 42bf29e0244f69f6
+terrain 42bf29e0760f8fa4 R sec 4,4 flags 02050432 size 40 profile77*0.5 offs 32: 15/252 vertices >=15 m over a road/junction; worst at game (19455,101,17713) 15 m over road 42bf29e0858f8fbe
+terrain 42bf29e0ab0f5ff8 L sec 4,4 flags 06850410 size 200 profile63*0.2 offs 19: 13/132 vertices >=15 m over a road/junction; worst at game (17362,88,18925) 48 m over road 42bf29e0844f61bc
+terrain 42f33d6841c50001 R sec 4,4 flags 00050410 size 160 profile114*-0.6 offs 157: 13/209 vertices >=15 m over a road/junction; worst at game (16709,128,18154) 90 m over road 42bf29e04ccf5cfe
+terrain 42f33f7c3fc50001 R sec 4,4 flags 00050410 size 256 profile114*-0.5 offs 68: 13/357 vertices >=15 m over a road/junction; worst at game (15814,94,17907) 42 m over road 42bf29e0724f57d1
+terrain 42bf29e071cf69ca R sec 4,4 flags 12a50422 size 80 profile112*0.8 offs 117: 12/117 vertices >=15 m over a road/junction; worst at game (18310,111,18269) 37 m over road 42bf29e0d40f69c8
+terrain 42bf29e07a4f69be L sec 4,4 flags 02a50c12 size 100 profile112*0.8 offs 91: 11/176 vertices >=15 m over a road/junction; worst at game (18192,136,18333) 64 m over road 42bf29e08d0f69c6
+terrain 42bf29e0d54f8dbe R sec 4,4 flags 00250402 size 35 profile77*0.2 offs 54: 11/76 vertices >=15 m over a road/junction; worst at game (18878,102,17870) 16 m over road 42bf29e0cb0f8e3b
+terrain 4323e810f3850001 R sec 4,4 flags 00050414 size 256 profile114*-0.45 offs 153: 10/204 vertices >=15 m over a road/junction; worst at game (16065,181,17245) 130 m over road 42bf29e0afcf56ca
+terrain 42bf29e0480f5f72 R sec 4,4 flags 02050410 size 100 profile25*1 offs 72: 9/240 vertices >=15 m over a road/junction; worst at game (16184,99,19198) 46 m over road 42bf29e07b4f5eb7
+terrain 42bf29e025cf6176 L sec 4,4 flags 02850410 size 200 profile63*0.3 offs 0: 8/187 vertices >=15 m over a road/junction; worst at game (17362,105,19202) 75 m over road 42bf29e0918f6200
+terrain 42bf29e0b4cf8f9d R sec 4,4 flags 16a50c12 size 60 profile112*0.6 offs 65: 8/70 vertices >=15 m over a road/junction; worst at game (19518,123,17719) 37 m over road 42bf29e0858f8fbe
+terrain 42bf29e02b0f6251 L sec 4,4 flags 02850410 size 200 profile63*0.3 offs 0: 7/330 vertices >=15 m over a road/junction; worst at game (16817,97,19713) 42 m over road 42bf29e004cf67a3
+road 42bf29e0118f6aac L sec 4,4 flags 1b00007a size 27 profile16uk*0.6 offs 19: 7/464 vertices >=15 m over a road/junction; worst at game (17562,64,20017) 16 m over road 42bf29e0d30f6b03
+terrain 42bf29e03acf8fd4 R sec 4,4 flags 02050416 size 100 profile15*2 offs 3: 6/144 vertices >=15 m over a road/junction; worst at game (19928,104,17768) 21 m over road 42bf29e095cf8fd2
+terrain 42bf29e07a4f69be R sec 4,4 flags 02a50c12 size 20 profile112*1 offs 11: 6/48 vertices >=15 m over a road/junction; worst at game (18192,136,18333) 64 m over road 42bf29e08d0f69c6
+terrain 42f34af47b450002 L sec 4,4 flags 00050410 size 32 profile114*0.35 offs 48: 6/93 vertices >=15 m over a road/junction; worst at game (16305,102,17770) 71 m over road 42bf29e0d84f57c1
+terrain 42bf29e0218f61b9 R sec 4,4 flags 02050402 size 50 profile39*1 offs 2: 5/264 vertices >=15 m over a road/junction; worst at game (17293,66,18921) 26 m over road 42bf29e0e48f6172
+terrain 42bf29e0654f605d L sec 4,4 flags 00052410 size 96 profile114*-0.4 offs 46: 5/63 vertices >=15 m over a road/junction; worst at game (17330,93,18254) 50 m over road 42bf29e0fecf61e7
+terrain 42f34a24b5450000 R sec 4,4 flags 00050410 size 256 profile114*-0.3 offs 7: 5/51 vertices >=15 m over a road/junction; worst at game (16334,83,17902) 34 m over road 42bf29e083cf58fa
+terrain 42f3699007050001 R sec 4,4 flags 00050410 size 160 profile114*-0.2 offs 74: 5/253 vertices >=15 m over a road/junction; worst at game (15866,73,18079) 35 m over road 42bf29e03bcf57ed
+terrain 4323e58833850001 R sec 4,4 flags 00050410 size 256 profile114*-0.6 offs 272: 5/289 vertices >=15 m over a road/junction; worst at game (16065,181,17245) 130 m over road 42bf29e0afcf56ca
+terrain 42bf29e01c0f5cd4 L sec 4,4 flags 10052c10 size 192 profile114*-0.6 offs 156: 5/156 vertices >=15 m over a road/junction; worst at game (16211,173,18818) 123 m over road 42bf29e098cf5cd5
+terrain 42bf29e0298f61ce L sec 4,4 flags 02850410 size 200 profile63*0.5 offs 0: 4/209 vertices >=15 m over a road/junction; worst at game (17151,145,19600) 81 m over road 42bf29e02c4f67d7
+terrain 42bf29e04b0f5af6 L sec 4,4 flags 14042c10 size 112 profile114*-0.6 offs 31: 4/80 vertices >=15 m over a road/junction; worst at game (16783,131,17770) 88 m over road 42bf29e01ecf5d99
+terrain 42bf29e09b8f8fe5 L sec 4,4 flags 16050c26 size 200 profile112*-0.4 offs 238: 4/420 vertices >=15 m over a road/junction; worst at game (19827,120,18637) 26 m over road 42bf29e0ac8f8fe2
+terrain 42bf29e0dd4f5af5 L sec 4,4 flags 14042c20 size 160 profile114*-0.6 offs 35: 4/110 vertices >=15 m over a road/junction; worst at game (16737,140,17657) 93 m over road 42bf29e0128f5d01
+terrain 42bf29e0e8cf69cb R sec 4,4 flags 16a50422 size 57 profile112*0.8 offs 56: 4/56 vertices >=15 m over a road/junction; worst at game (18310,111,18269) 37 m over road 42bf29e0d40f69c8
+terrain 42bf29e0fd4f69fb R sec 4,4 flags 02a50c12 size 20 profile112*1 offs 0: 4/39 vertices >=15 m over a road/junction; worst at game (18199,135,18347) 64 m over road 42bf29e0244f69f6
+terrain 42bf29e07f8f5bc6 L sec 4,4 flags 10052410 size 144 profile114*-0.6 offs 125: 4/150 vertices >=15 m over a road/junction; worst at game (16252,117,18688) 67 m over road 42bf29e098cf5cd5
+terrain 42bf29e07b4f6171 L sec 4,4 flags 02850410 size 200 profile63*0.2 offs 0: 3/121 vertices >=15 m over a road/junction; worst at game (17362,88,18925) 48 m over road 42bf29e0844f61bc
+terrain 42bf29e0854f8ddf R sec 4,4 flags 12a50422 size 200 profile112*0.6 offs 59: 3/126 vertices >=15 m over a road/junction; worst at game (19035,110,17860) 25 m over road 42bf29e0cb0f8e3b
+terrain 42bf29e0d4cf5f6d R sec 4,4 flags 00050402 size 20 profile92*-0.8 offs 48: 3/80 vertices >=15 m over a road/junction; worst at game (16039,68,19162) 15 m over road 42bf29e07b4f5eb7
+terrain 42bf29e0e48f8fa0 R sec 4,4 flags 12050412 size 150 profile112*0.8 offs 166: 3/176 vertices >=15 m over a road/junction; worst at game (19472,104,17725) 18 m over road 42bf29e0858f8fbe
+terrain 42bf29e023cf5ff9 L sec 4,4 flags 00052410 size 176 profile114*-0.6 offs 112: 3/144 vertices >=15 m over a road/junction; worst at game (16855,180,18830) 138 m over road 42bf29e09ccf5e9c
+terrain 42bf29e00c4f61ad L sec 4,4 flags 02052402 size 112 profile114*-0.4 offs 46: 2/72 vertices >=15 m over a road/junction; worst at game (17374,101,18275) 57 m over road 42bf29e0fe4f61a3
+terrain 42bf29e0334f5f71 R sec 4,4 flags 02050401 size 18 profile103*8 offs 12: 2/55 vertices >=15 m over a road/junction; worst at game (16288,69,19180) 18 m over road 4401dc1039c50001
+terrain 42bf29e04b0f5af6 R sec 4,4 flags 14042c10 size 40 profile112*0.5 offs 15: 2/50 vertices >=15 m over a road/junction; worst at game (16664,63,17788) 20 m over road 42bf29e0574f5d07
+terrain 42bf29e0760f8fa4 L sec 4,4 flags 02050432 size 10 profile77*0.5 offs 0: 2/72 vertices >=15 m over a road/junction; worst at game (19469,101,17737) 15 m over road 42bf29e0858f8fbe
+terrain 42ccb5706b6b0001 R sec 4,4 flags 00050422 size 37 profile15*3 offs 50: 2/63 vertices >=15 m over a road/junction; worst at game (18152,90,18390) 20 m over road 42bf29e0244f69f6
+terrain 42f34af4acc50001 R sec 4,4 flags 00050410 size 128 profile114*-0.35 offs 133: 2/198 vertices >=15 m over a road/junction; worst at game (16613,150,17805) 108 m over road 42bf29e0574f5d07
+terrain 4323e9787bc50001 R sec 4,4 flags 00050414 size 256 profile114*-0.55 offs 0: 2/136 vertices >=15 m over a road/junction; worst at game (15879,135,17551) 85 m over road 42bf29e0e98f5787
+road 42bf29e0584f69b6 L sec 4,4 flags 3200000a size 200 profile60*0.2 offs 0: 2/224 vertices >=15 m over a road/junction; worst at game (18036,100,18056) 18 m over road 42bf29e03a0fe76b
+terrain 42bf29e0b1cf8da5 R sec 4,4 flags 12a56c22 size 100 profile112*0.7 offs 109: 1/165 vertices >=15 m over a road/junction; worst at game (18864,102,17873) 16 m over road 42bf29e0cb0f8e3b
+terrain 42bf29e0c10f5cd7 L sec 4,4 flags 02850410 size 100 profile63*0.2 offs 0: 1/96 vertices >=15 m over a road/junction; worst at game (16619,68,18605) 18 m over road 42bf29e0980f5cdd

@@ -1,0 +1,33 @@
+12:36:41 site austria centre (18020.0, 29.4, 21381.4) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/ap1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:36:44 loading 5 % Reading the map
+12:36:46 loading 5 % Reading the map
+12:36:48 loading 5 % Reading the map
+12:36:50 loading 12 % Building roads
+12:36:52 loading 55 % Building junctions and yards
+12:36:54 loading 59 % Building junctions and yards
+12:36:56 loading 68 % Placing buildings and props
+12:36:58 loading 69 % Placing fences and barriers
+12:37:00 loading 69 % Placing fences and barriers
+12:37:02 loading 69 % Placing fences and barriers
+12:37:04 loading 69 % Placing fences and barriers
+12:37:06 loading 69 % Placing fences and barriers
+12:37:08 loading 100 % Ready
+12:37:08 first build complete at 27 s
+12:37:43 settled for shot hillB after 35 s: built 4696, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:37:51 settled for shot hillB (camera placed) after 8 s: built 4696, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:37:52 wrote shot hillB
+12:38:23 settled for shot r1l after 31 s: built 5025, queued 0, batching 0, plants 239872 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:38:31 settled for shot r1l (camera placed) after 8 s: built 5025, queued 0, batching 0, plants 239872 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:38:31 wrote shot r1l
+12:39:02 settled for shot r3l after 31 s: built 5337, queued 0, batching 0, plants 246033 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:39:10 settled for shot r3l (camera placed) after 8 s: built 5337, queued 0, batching 0, plants 246033 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:39:11 wrote shot r3l
+12:39:41 settled for shot r7l after 31 s: built 5215, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:39:50 settled for shot r7l (camera placed) after 8 s: built 5215, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:39:50 wrote shot r7l
+12:40:21 settled for shot r8f after 31 s: built 5192, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:40:29 settled for shot r8f (camera placed) after 8 s: built 5192, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:40:29 wrote shot r8f
+12:41:00 settled for shot r8l after 31 s: built 5192, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:41:08 settled for shot r8l (camera placed) after 8 s: built 5192, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:41:09 wrote shot r8l

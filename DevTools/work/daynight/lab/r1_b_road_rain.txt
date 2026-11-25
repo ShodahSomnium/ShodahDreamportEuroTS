@@ -1,0 +1,17 @@
+13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 100 % bad (slot 4, rain 0.72, wet 0.59), exposure 0.218 (window 0.63 .. 1.21), sun 0.656, ambient 0.2248, fog 0.00371 from 12 m, lamps off
+10 panoramas held, 7 masks, 0 being read; stars in; 15 uploads (59.8 ms on the main thread in all)
+26 road/ground materials with a wet reflection, now at wetness 0.59
+0 night-only lamp surfaces, 13 street-lamp light pools, lamps off
+view b_road site dover centre game (-33391.4, 24.0, -7420.0)
+camera unity (-336.78, 11.48, -57.85) euler (3.0, 117.0, 0.0) fov(v) 60 near 0.1 far 1740.61 1920x1080 hdr True post on
+placement: ground (-336.78, 8.96, -57.85)
+fog True Linear 12-1541 density 0.002552 colour RGBA(0.227, 0.292, 0.332, 1.000)
+ambient Trilight sky RGBA(0.404, 0.459, 0.507, 1.000) equator RGBA(0.381, 0.433, 0.478, 1.000) ground RGBA(0.175, 0.203, 0.227, 1.000) intensity 1.00 probe DC 0.107/0.140/0.173
+sun Directional Light intensity 0.656 colour RGBA(0.982, 1.000, 0.979, 1.000) shadows Soft strength 1.00 forward (0.000, -0.863, 0.504) euler (59.7, 0.0, 0.0)
+skybox ets sky / SomniumEuroTruck/Sky reflection Skybox intensity 0.00
+climate Climate 'default' (/map/europe/sec-0009-0002.desc, 53.7 N 3.6 E) at 10:00 day 172: sun 44.8 deg up, azimuth 114; /def/climate/default/nice.sii default.nice.14 + default.nice.15 48 % slot 7 (weighted pick 0.529 of weights 3,3,3,1,0,3,3,3,3,3,3,3,1 (seed: centre -3339140/742000 cm, UTC day 20740)); exposure 0.1937 = target_gray 0.256 x adapted 0.755 in min_scale 0.556 .. max_scale 1.016 (centre 0.752) (the old albedo key: 0.0827); fog game exp2(-0.000892 x (d - 180 m)), vgradient 0.008 -> Unity linear 180-2631 m (exp fit 0.000541, exp2 fit 0.000595), colour RGBA(0.36, 0.49, 0.73, 1.00) (fog_color2 share 0.13); sun RGBA(3.25, 2.68, 2.01, 0.19) shadow 1.00; ambient RGBA(0.438, 0.611, 0.845, 0.194); sky x2.29 /asset/skybox/s_nice_07/s_nice07_08_35_g.tobj + /asset/skybox/s_nice_07/s_nice07_09_50_g.tobj; sun disc RGBA(5.00, 4.69, 4.10, 0.19) halo RGBA(1.19, 0.81, 0.52, 0.19); below the horizon RGBA(0.093, 0.181, 0.340, 0.194); curve target_gray 0.256 shoulder 1.27 contrast 0.311 saturation 1.071 bloom 0.096 (limit 26.3).
+post Look: post volume Neutral, exposure +0.0 EV over the climate's x0.1937, contrast 10.4 (file 0.311 x 0.33), saturation +7.1, bloom 0.096 threshold 0 clamp 5.10 quarter-res x3, colour balance none, no DOF/sunshafts/AO, weight 1 (EtsFlow's phase), layer 0 priority 100.
+volume 'Global Volume' global True priority 0 weight 1.00 layer 0: Bloom, ColorAdjustments
+volume 'Ets Post' global True priority 100 weight 1.00 layer 0: Tonemapping, ColorAdjustments, Bloom
+stream: built 3294, queued 0, batching 0, plants 60024 (sides waiting 0), detail jobs 0, ground fill builds 1
+lod bias 2, shadow distance (pipeline) 100 cascades 4 msaa 1 hdr True render scale 1

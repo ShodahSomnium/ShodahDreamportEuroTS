@@ -1,0 +1,380 @@
+country 0: roads 10647 bbox -60656,-63249 .. 66620,56024
+country 1: roads 5377 bbox -4628,11395 .. 24132,23836
+country 2: roads 4002 bbox -28348,-8041 .. -15222,3206
+country 3: roads 634 bbox 6344,-10043 .. 23888,12420
+country 4: roads 5231 bbox -52516,-5637 .. -9388,34475
+country 5: roads 18835 bbox -15556,-23983 .. 16294,22316
+country 6: roads 2448 bbox -16941,22655 .. 12985,56028
+country 7: roads 5060 bbox -24371,-16526 .. -10073,-2894
+country 8: roads 738 bbox 13847,-20909 .. 44027,2313
+country 9: roads 4414 bbox -19775,14468 .. -3561,26670
+country 10: roads 3370 bbox -60639,-55704 .. -31262,-5760
+country 11: roads 100 bbox 23174,11605 .. 27399,16410
+country 12: roads 663 bbox -17681,996 .. -14772,5213
+country 13: roads 135 bbox 23233,17542 .. 40437,28208
+country 17: roads 6 bbox 28324,31573 .. 30234,31895
+country 18: roads 79 bbox 47356,35266 .. 59481,51703
+country 19: roads 212 bbox 13635,23847 .. 31999,31193
+country 21: roads 122 bbox -2182,-24019 .. 7464,-21828
+country 23: roads 300 bbox 48082,-64037 .. 54734,-59980
+country 25: roads 185 bbox 46148,49467 .. 62078,55850
+country 30: roads 47 bbox 42554,-23735 .. 44061,-21767
+country 35: roads 229 bbox 4075,-55076 .. 8068,-52038
+country 37: roads 137 bbox 40250,23091 .. 47989,32812
+country 38: roads 151 bbox 53151,-62104 .. 67054,-37097
+country 40: roads 531 bbox 34587,26212 .. 48007,44589
+country 41: roads 322 bbox 10471,22095 .. 23223,30516
+country 42: roads 63 bbox -55823,34048 .. -52902,35451
+country 43: roads 337 bbox 19990,-56012 .. 24981,-51966
+country 44: roads 92 bbox 61510,50782 .. 64007,51951
+country 203: roads 113 bbox 44152,46808 .. 49151,53746
+city ? beograd 40444,30123
+city ? beograd 40799,28990
+city ? beograd 42086,30234
+city ? bitola 44083,52821
+city ? bitola 45069,52765
+city ? bitola 45081,52214
+city ? bitola 45488,52295
+city ? bonifacio -8470,52235
+city ? gavle 21907,-55810
+city ? gedser 5986,-22716
+city ? gedser 6271,-22020
+city ? genova -8032,35376
+city ? kaliningrad 40294,-23627
+city ? kavala 59265,51741
+city ? kavala 60123,51776
+city ? kirishi 64572,-56596
+city ? kirishi 65739,-56544
+city ? koper 11234,29437
+city ? kouvola 48776,-60429
+city ? kouvola 49864,-60659
+city ? kragujevac 45506,36171
+city ? lappeenranta 51045,-62215
+city ? lappeenranta 52721,-63252
+city ? lappeenranta 52870,-61911
+city ? lappeenranta 54038,-62407
+city ? ljubljana 12727,24280
+city ? ljubljana 14691,26743
+city ? ljubljana 15398,25945
+city ? luga 60046,-50065
+city ? luga 60140,-51165
+city ? maribor 18695,23190
+city ? nis 45138,43949
+city ? nis 45301,39644
+city ? nis 46230,40326
+city ? nis 46703,39660
+city ? novi_sad 35038,27512
+city ? olbia -7016,55216
+city ? olbia -8249,53172
+city ? osijek 31043,29642
+city ? osijek 31380,28699
+city ? oslo 4391,-53431
+city ? oslo 5623,-52559
+city ? parma -4452,32245
+city ? petersburg 60845,-56795
+city ? petersburg 61550,-54978
+city ? petersburg 61557,-57332
+city ? petersburg 62621,-57805
+city ? petersburg 63805,-58244
+city ? pskov 56422,-42888
+city ? pskov 56968,-44022
+city ? pskov 57568,-44983
+city ? pskov 58296,-44580
+city ? resita 43990,29135
+city ? rijeka 14366,30216
+city ? rijeka 15525,29257
+city ? sassari -10565,55552
+city ? sassari -11179,55319
+city ? sassari -11554,55189
+city ? sassari -12291,54584
+city ? skopje 45664,47198
+city ? suzzara -540,31465
+city ? szeged 35946,24458
+city ? szeged 36881,24546
+city ? uppsala 24017,-52176
+city ? v_novgorod 63988,-51857
+city ? volkhov 65065,-58514
+city ? volkhov 65920,-59662
+city ? volkhov 65984,-58634
+city ? vyborg 54465,-60242
+city ? vyborg 55548,-61386
+city ? werlte -9247,-12720
+city ? winsen 1267,-15051
+city austria graz 15598,17384
+city austria graz 17024,18361
+city austria graz 17818,21450
+city austria graz 17950,19204
+city austria graz 18665,20392
+city austria graz 18939,20984
+city austria innsbruck 1425,18968
+city austria innsbruck 2511,19583
+city austria klagenfurt 14047,23288
+city austria klagenfurt 15471,22650
+city austria klagenfurt 9432,20900
+city austria klagenfurt 9583,22516
+city austria linz 13636,13905
+city austria linz 14513,15085
+city austria linz 14833,13706
+city austria linz 16069,14794
+city austria salzburg 10586,19916
+city austria salzburg 7494,19209
+city austria salzburg 7538,18605
+city austria salzburg 9146,16020
+city austria salzburg 9345,15156
+city austria salzburg 9592,14541
+city austria wien 20505,11854
+city austria wien 20825,13966
+city austria wien 20951,16498
+city austria wien 22039,15952
+city belgium antwerp -21701,-5701
+city belgium antwerp -22864,-6199
+city belgium brussel -22100,-2435
+city belgium liege -17109,700
+city belgium liege -17144,-864
+city belgium liege -19721,1466
+city czech brno 20840,8062
+city czech brno 21976,9956
+city czech brno 22274,8945
+city czech prague 11051,2277
+city czech prague 14300,3959
+city czech prague 15578,1784
+city france calais -30340,-5006
+city france dijon -21000,17222
+city france dijon -22470,16636
+city france lille -26539,-2480
+city france lyon -21244,26426
+city france lyon -22226,25750
+city france lyon -22842,25798
+city france lyon -23878,25558
+city france lyon -24396,23895
+city france metz -16295,7444
+city france metz -17393,6803
+city france paris -27817,4838
+city france paris -29527,5130
+city france paris -30427,6866
+city france paris -32234,5002
+city france reims -21634,2991
+city france reims -22520,5514
+city france reims -23972,6067
+city france reims -24055,5660
+city france strasbourg -10787,11179
+city france strasbourg -14645,13298
+city germany berlin 10070,-9794
+city germany berlin 11229,-10046
+city germany berlin 11235,-11179
+city germany berlin 12725,-9846
+city germany bremen -2694,-13278
+city germany bremen -4911,-16802
+city germany bremen -5185,-14038
+city germany bremen -5492,-17060
+city germany dortmund -10883,-6399
+city germany dresden 10712,-2228
+city germany dresden 11635,-1862
+city germany duisburg -13802,-6487
+city germany duisburg -14135,-7937
+city germany dusseldorf -12387,-4351
+city germany dusseldorf -13577,-4619
+city germany erfurt 1612,-2941
+city germany erfurt 2824,-2033
+city germany frankfurt -5584,2497
+city germany frankfurt -7901,3289
+city germany frankfurt -8443,3658
+city germany frankfurt -8636,3360
+city germany hamburg -1690,-16356
+city germany hannover -146,-8881
+city germany hannover -1635,-10301
+city germany hannover -2004,-9085
+city germany hannover -741,-9611
+city germany kassel -2149,-3435
+city germany kassel -3420,-3747
+city germany kiel 1137,-21609
+city germany koln -12549,-2454
+city germany leipzig 4799,-4855
+city germany leipzig 6201,-3697
+city germany leipzig 6511,-4134
+city germany leipzig 7001,-3592
+city germany leipzig 7092,-4017
+city germany leipzig 7117,-2735
+city germany magdeburg 2799,-7426
+city germany magdeburg 4410,-9125
+city germany magdeburg 4449,-8186
+city germany mannheim -5853,7759
+city germany mannheim -6727,6890
+city germany mannheim -7840,6898
+city germany mannheim -7937,5981
+city germany munchen 2595,13185
+city germany munchen 3782,14627
+city germany munchen 3977,13229
+city germany nurnberg 1665,7848
+city germany nurnberg 1849,6499
+city germany nurnberg 2911,5422
+city germany nurnberg 512,4815
+city germany nurnberg 956,5099
+city germany osnabruck -7931,-9766
+city germany rostock 6555,-19033
+city germany rostock 7132,-20569
+city germany stuttgart -4637,10039
+city germany stuttgart -4725,11657
+city germany travemunde 3057,-19173
+city germany travemunde 4039,-18849
+city italy milano -5152,29546
+city italy milano -6816,29419
+city italy milano -7363,27551
+city italy milano -8390,28873
+city italy milano -9162,28286
+city italy torino -12338,29306
+city italy torino -12697,30912
+city italy trieste 10594,27547
+city italy trieste 12042,26905
+city italy trieste 12058,28024
+city italy venezia 5090,30059
+city italy verona -1332,27937
+city italy verona 39,29433
+city luxembourg luxembourg -16345,3645
+city luxembourg luxembourg -17033,2735
+city netherlands amsterdam -16785,-10959
+city netherlands amsterdam -18113,-11372
+city netherlands amsterdam -18618,-12203
+city netherlands amsterdam -18814,-11295
+city netherlands amsterdam -19042,-11328
+city netherlands eindhoven -16659,-6101
+city netherlands eindhoven -16867,-7094
+city netherlands eindhoven -17555,-6888
+city netherlands groningen -12662,-15721
+city netherlands groningen -13914,-15712
+city netherlands groningen -13929,-12367
+city netherlands groningen -15642,-15678
+city netherlands groningen -15707,-13467
+city netherlands rotterdam -18992,-9476
+city netherlands rotterdam -20186,-8930
+city netherlands rotterdam -22082,-9311
+city netherlands rotterdam -23639,-7653
+city poland poznan 22863,-9132
+city poland poznan 24082,-10230
+city poland szczecin 15053,-15070
+city poland wroclaw 22069,1327
+city poland wroclaw 22472,-664
+city poland wroclaw 23503,-1971
+city slovakia bratislava 24710,12104
+city slovakia bratislava 24823,14811
+city switzerland bern -11174,23663
+city switzerland bern -12304,20468
+city switzerland bern -13160,22643
+city switzerland bern -13721,19762
+city switzerland bern -16287,19727
+city switzerland geneve -16216,22254
+city switzerland geneve -17434,23839
+city switzerland geneve -18247,22934
+city switzerland geneve -18911,24031
+city switzerland zurich -4811,21025
+city switzerland zurich -8745,17623
+city switzerland zurich -9210,14787
+city switzerland zurich -9250,16253
+city switzerland zurich -9649,18544
+city uk aberdeen -38847,-55290
+city uk birmingham -45951,-20443
+city uk cambridge -36823,-16139
+city uk cardiff -53082,-16855
+city uk cardiff -54005,-14718
+city uk carlisle -45889,-39593
+city uk dover -32531,-7299
+city uk dover -33322,-7904
+city uk edinburgh -44901,-47240
+city uk felixstowe -31665,-13857
+city uk glasgow -49731,-51448
+city uk glasgow -50385,-48492
+city uk grimsby -36118,-26595
+city uk harwich -32722,-13001
+city uk hull -35762,-29076
+city uk liverpool -48269,-27850
+city uk liverpool -48872,-29112
+city uk london -39547,-11584
+city uk manchester -45549,-27835
+city uk newcastle -38348,-39559
+city uk newcastle -39778,-38808
+city uk plymouth -60041,-7902
+city uk sheffield -42689,-26708
+city uk sheffield -43388,-25348
+city uk southampton -46339,-7543
+city uk southampton -46953,-8080
+city uk swansea -56896,-16902
+look 5 ger road 1 tmpl 413.1 km
+look 5 ger hw 2 lanes one way tmpl 206.5 km
+look 0 ger road 1 tmpl 192.1 km
+look 5 ger hw exit one lane 179.7 km
+look 1 ger road 1 tmpl 149.2 km
+look 4 fr road 1 tmpl 145.1 km
+look 0 ger road 1 minim 145.0 km
+look 5 ger hw 3 lanes one way tmpl 123.4 km
+look 9 ger road 1 tmpl 112.1 km
+look 5 ger hw 2 lanes 2m offset tmpl 100.2 km
+look 10 Highway 3 lanes 2m offset 94.5 km
+look 5 ger road 2 narrow one way tmpl 93.1 km
+look 7 un 0-2 92.7 km
+look 1 ger hw 2 lanes one way tmpl 79.3 km
+look 5 ger hw 3 lanes 2m offset tmpl 77.5 km
+look 4 fr hw 2 lanes 2m offset tmpl 76.9 km
+look 10 Road 1 lane broken 76.3 km
+look 2 un 0-2 70.0 km
+look 6 it road 1 tmpl 65.4 km
+look 7 un 1-1 64.9 km
+look 9 ger hw 2 lanes one way tmpl 63.1 km
+look 10 City 2 lanes 1m offset 58.7 km
+look 4 fr hw exit one lane tmpl 55.6 km
+look 2 un 1-1 54.6 km
+look 10 Highway 2 lanes 2m offset 54.5 km
+look 0 Road 1 lane broken 53.0 km
+look 4 fr hw 2 lanes one way tmpl 52.3 km
+look 7 un sidewalk road 52.0 km
+look 0 rail blke AI 01 tmpl 51.8 km
+look 7 un 0-1 51.0 km
+look 10 Road 1 lane double 48.6 km
+look 5 rail blke double AI 01 wire tmpl 48.4 km
+look 2 un 0-1 47.1 km
+look 1 ger hw exit one lane 45.7 km
+look 5 rail blke AI 01 tmpl 44.3 km
+look 0 DO NOT USE ger road 1 minim village 1 43.3 km
+look 0 fr road 1 tmpl 41.7 km
+look 5 ger hw2 exit one lane tmpl 41.3 km
+look 0 rail blke double AI 01 tmpl 37.6 km
+look 0 it road 1 tmpl 37.5 km
+look 5 ger road 2 city narrow tmpl 36.1 km
+look 9 rail blke double AI 01 wire tmpl 34.4 km
+look 7 un 0-3 34.3 km
+look 5 rail blke double AI 01 tmpl 33.8 km
+look 5 ger hw3 exit one lane tmpl 32.7 km
+look 0 rail blke double AI 01 wire tmpl 31.4 km
+look 5 ger road 1 minim 30.9 km
+look 0 blkw road 1 minim tmpl 28.9 km
+look 1 ger road 1 minim 28.8 km
+look 10 Road broken no outer lanes 28.7 km
+look 2 un sidewalk road 27.9 km
+look 2 un 0-3 27.8 km
+look 8 Road 1 lane double 27.2 km
+look 7 un 1-1 rail 4m offset AI 26.2 km
+look 6 it hw 2 lanes 2m offset tmpl 25.8 km
+look 9 ger hw exit one lane 25.3 km
+look 5 ger exit one lane 24.1 km
+look 3 Highway 2 lanes 2m offset 23.6 km
+look 0 blke road 1 dirt minim tmpl 22.9 km
+look 8 Road 1 lane broken 22.8 km
+look 40 blkw road 1 tmpl 21.9 km
+look 5 ger road 3 tmpl one lane 21.9 km
+look 1 rail blke double AI 01 tmpl 21.8 km
+look 0 narrow way no lanes no traffic 21.0 km
+look 5 at road 2 city narrow tmpl 20.9 km
+look 0 it road 1 minim tmpl 20.8 km
+look 2 un 1-1 minim 20.8 km
+look 0 fr road 1 minim tmpl 20.8 km
+look 3 Road 1 lane broken 20.7 km
+look 7 un 1-1 minim 20.1 km
+look 1 ger hw 2 lanes 2m offset tmpl 19.6 km
+look 0 rail blkw temp 19.5 km
+look 0 Road 1 lane double 19.0 km
+look 1 ger road 2 narrow one way tmpl 18.9 km
+look 4 fr hw 3 lanes 2m offset tmpl 18.8 km
+look 9 ger road 1 minim 18.7 km
+look 9 ger hw 3 lanes one way tmpl 18.3 km
+look 0 blkw road 1 tmpl 18.3 km
+look 4 fr road 2 narrow tmpl 17.8 km
+look 4 fr hw2 exit one lane tmpl 17.6 km

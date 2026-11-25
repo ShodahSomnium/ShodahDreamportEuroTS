@@ -1,0 +1,19 @@
+12:26:05 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/out/pillar_b3 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:26:09 loading 8 % Reading the map
+12:26:11 loading 56 % Building junctions and yards
+12:26:13 loading 57 % Building junctions and yards
+12:26:15 loading 58 % Building junctions and yards
+12:26:17 loading 69 % Placing buildings and props
+12:26:19 loading 72 % Placing fences and barriers
+12:26:21 loading 72 % Placing fences and barriers
+12:26:23 loading 100 % Ready
+12:26:23 first build complete at 18 s
+12:26:53 settled for shot c1 after 30 s: built 3221, queued 0, batching 0, plants 57328 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:27:01 settled for shot c1 (camera placed) after 8 s: built 3221, queued 0, batching 0, plants 57328 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:27:02 wrote shot c1
+12:27:33 settled for shot c2 after 31 s: built 3222, queued 0, batching 0, plants 57328 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:27:41 settled for shot c2 (camera placed) after 8 s: built 3222, queued 0, batching 0, plants 57328 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:27:41 wrote shot c2
+12:28:12 settled for shot c3 after 31 s: built 3389, queued 0, batching 0, plants 58901 (sides waiting 1), detail jobs 0, ground fill builds 1
+12:28:20 settled for shot c3 (camera placed) after 8 s: built 3389, queued 0, batching 0, plants 58901 (sides waiting 1), detail jobs 0, ground fill builds 1
+12:28:20 wrote shot c3

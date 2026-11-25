@@ -1,0 +1,12 @@
+render.sh: site graz -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_graz_unity.log)
+render.sh: site graz Unity exit 0 after 152 s
+   wrote shot aerial
+   wrote shot cab150
+   wrote shot cab80
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_shot_aerial.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_shot_aerial_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_shot_cab150.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_shot_cab150_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_shot_cab80.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/after_shot_cab80_void.png

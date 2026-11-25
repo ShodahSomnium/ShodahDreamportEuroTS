@@ -1,0 +1,6 @@
+using System; using System.Linq; using SomniumSpace.Worlds.SomniumEuroTruck.Ets;
+static class P { static void Main(string[] a){ var fs=EtsFileSystem.Mount("E:/SteamLibrary/steamapps/common/Euro Truck Simulator 2 Demo", out _);
+ var fam=fs.ReadDefinitionFamily("/def/world","road_edge"); foreach(var n in a){ var u=fam.Units.FirstOrDefault(x=>x.Name.EndsWith("."+n)); if(u==null){Console.WriteLine(n+" none");continue;} string p=u.GetString("model",""); Console.WriteLine(n+" -> "+p);
+  var md=EtsModelData.Parse(fs.Read(p), fs.Read(p.Substring(0,p.Length-4)+".pmg"), p); Console.WriteLine($"  bounds x {md.BoundsMin[0]:0.00}..{md.BoundsMax[0]:0.00} y {md.BoundsMin[1]:0.00}..{md.BoundsMax[1]:0.00} z {md.BoundsMin[2]:0.00}..{md.BoundsMax[2]:0.00} parts {string.Join(",",md.Parts.Select(q=>q.Name))}"); }
+ var t="/road_template/ger/ger_hw_2_lanes_one_way.pmd"; var tm=EtsModelData.Parse(fs.Read(t), fs.Read(t.Replace(".pmd",".pmg")), t); Console.WriteLine($"template x {tm.BoundsMin[0]:0.00}..{tm.BoundsMax[0]:0.00} parts {string.Join(",",tm.Parts.Select(q=>q.Name))}");
+ foreach(var pc in tm.Pieces){ float x0=999,x1=-999; for(int i=0;i<pc.VertexCount;i++){ x0=Math.Min(x0,pc.Positions[i*3]); x1=Math.Max(x1,pc.Positions[i*3]); } Console.WriteLine($"  piece x {x0:0.00}..{x1:0.00} verts {pc.VertexCount}"); } } }

@@ -1,0 +1,12 @@
+{
+    "packages": [
+        {
+            "id": "bentlybro.bentlyweather",
+            "version": "1.0.0",
+            "bakedNamespace": "SomniumSpace.Worlds.SomniumEuroTruck.Pkg_bentlybro_bentlyweather",
+            "folder": "Assets/#User/SomniumEuroTruck/SomniPackages/bentlybro.bentlyweather",
+            "sourceNamespace": "SomniumSpace.Worlds.Bently.Weather",
+            "installedAt": "2026-09-22T13:51:45Z"
+        }
+    ]
+}

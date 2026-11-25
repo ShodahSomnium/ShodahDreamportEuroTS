@@ -1,0 +1,239 @@
+/material/road/alphalt_snow.mat:7: reflection: 1.0
+/material/road/arrows.mat:5: reflection: 1.0
+/material/road/asphalt.mat:6: reflection: 1.0
+/material/road/asphalt10.mat:6: reflection: 1.0
+/material/road/asphalt11.mat:6: reflection: 1.0
+/material/road/asphalt12.mat:6: reflection: 1.0
+/material/road/asphalt13.mat:6: reflection: 1.0
+/material/road/asphalt2.mat:6: reflection: 1.0
+/material/road/asphalt2_plates.mat:6: reflection: 1.0
+/material/road/asphalt2_plates_full.mat:6: reflection: 1.0
+/material/road/asphalt3.mat:6: reflection: 1.0
+/material/road/asphalt4.mat:6: reflection: 1.0
+/material/road/asphalt5.mat:6: reflection: 1.0
+/material/road/asphalt6.mat:6: reflection: 1.0
+/material/road/asphalt7.mat:6: reflection: 1.0
+/material/road/asphalt8.mat:6: reflection: 1.0
+/material/road/asphalt9.mat:7: reflection: 1.0
+/material/road/asphalt_ca_prefab_light.mat:6: reflection: 1.0
+/material/road/asphalt_dusty.mat:6: reflection: 0.6
+/material/road/asphalt_dusty2.mat:6: reflection: 0.6
+/material/road/asphalt_dusty_tiles.mat:6: reflection: 0.6
+/material/road/asphalt_fr.mat:6: reflection: 1.0
+/material/road/asphalt_ground_curb.mat:6: reflection: 1.0
+/material/road/asphalt_new_tiles.mat:6: reflection: 1.0
+/material/road/asphalt_nl_1.mat:6: reflection: 1.0
+/material/road/asphalt_old.mat:6: reflection: 1.0
+/material/road/crossshape_pavement.mat:7: reflection: 1.0
+/material/road/dark_c.mat:7: reflection: 1.0
+/material/road/dark_c2.mat:6: reflection: 1.0
+/material/road/dark_c3.mat:6: reflection: 1.0
+/material/road/demo_sidewalk01.mat:7: reflection: 1.0
+/material/road/ground_path1.mat:6: reflection: 0.3
+/material/road/ground_poland.mat:6: reflection: 0.3
+/material/road/hexagonal_pavement.mat:7: reflection: 1.0
+/material/road/hw_def_dk.mat:6: reflection: 1.5
+/material/road/hw_def_swe.mat:6: reflection: 1
+/material/road/hw_new_dk.mat:6: reflection: 1
+/material/road/kerb_asphalt.mat:7: reflection: 1.0
+/material/road/kerb_tile.mat:6: reflection: 0.4
+/material/road/old_city_road.mat:6: reflection: 1.0
+/material/road/reddish_pavement.mat:7: reflection: 1.0
+/material/road/rough_asphalt.mat:6: reflection: 1.0
+/material/road/rough_asphalt_02.mat:6: reflection: 1.0
+/material/road/rough_asphalt_03.mat:6: reflection: 1.0
+/material/road/rough_asphalt_dark.mat:6: reflection: 1.0
+/material/road/sidewalk.mat:7: reflection: 1.0
+/material/road/sidewalk_grassy.mat:7: reflection: 1.0
+/material/road/sidewalk_kerb.mat:6: reflection: 0.8
+/material/road/small_block_pavement.mat:8: reflection: 2.0
+/material/road/small_starblock_pavement.mat:7: reflection: 1.0
+/material/road/square_block_pavement.mat:7: reflection: 1.0
+/material/road/y_ground_path3.mat:6: reflection: 1.0
+/material/road/y_ground_path4.mat:6: reflection: 1.0
+/material/road/y_ground_path5.mat:6: reflection: 1.0
+/material/road/road_decal/sdc/road_markings_sdc.mat:6: reflection: 1.0
+/material/road/road_template/1_balt_asp_decal.mat:6: reflection: 1.0
+/material/road/road_template/2_balt_asp_decal.mat:6: reflection: 1.0
+/material/road/road_template/3_balt_asp_decal.mat:6: reflection: 1.0
+/material/road/road_template/4_balt_asp_decal.mat:6: reflection: 1.0
+/material/road/road_template/5_balt_asp_decal.mat:6: reflection: 1.0
+/material/road/road_template/6_balt_asp_decal.mat:6: reflection: 1.0
+/material/road/road_template/balt/1_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/2_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/3_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/4_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/5_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/6_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/decal_1_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/decal_2_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/decal_3_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/decal_4_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/decal_5_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/decal_6_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/dirt_1_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/dirt_2_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/dirt_3_balt.mat:6: reflection: 1.0
+/material/road/road_template/balt/village_road_balt.mat:6: reflection: 1.0
+/material/road/road_template/blke/1_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/2_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/3_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/4_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/blke_road_decal.mat:6: reflection: 1.0
+/material/road/road_template/blke/blke_road_decal_tr.mat:6: reflection: 1.0
+/material/road/road_template/blke/blke_road_sign_decal.mat:6: reflection: 1.0
+/material/road/road_template/blke/damaged_1_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/decal_1_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/decal_1_rough_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/decal_2_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/decal_2_rough_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/decal_3_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/decal_3_rough_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/dirt_1_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/dirt_2_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/dirt_3_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/overlay_1_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/overlay_2_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/overlay_3_blke.mat:6: reflection: 1.0
+/material/road/road_template/blke/track_blke.mat:6: reflection: 1.0
+/material/road/road_template/blkw/1_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/1_blkw_asphalt.mat:7: reflection : 0.0
+/material/road/road_template/blkw/2_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/2_blkw_asphalt.mat:7: reflection : 0.0
+/material/road/road_template/blkw/3_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/3_blkw_asphalt.mat:7: reflection : 0.0
+/material/road/road_template/blkw/4_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/4_blkw_asphalt.mat:7: reflection : 0.0
+/material/road/road_template/blkw/5_blkw.mat:7: reflection : 0.0
+/material/road/road_template/blkw/5_blkw_asphalt.mat:7: reflection : 0.0
+/material/road/road_template/blkw/6_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/7_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/8_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/blkw_drain_dirt_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/blkw_drain_new_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/blkw_drain_worn_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/blkw_island_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/blkw_stepped_curb_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_01.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_01_blkw_02.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_01_blkw_03.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_01_blkw_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_white.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_white_orange.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_white_red.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_yellow.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_yellow_black.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_yellow_blue.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_01_blkw_yellow_red.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_02_blkw_01.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_02_blkw_02.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_02_blkw_03.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_02_blkw_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/curb_03_blkw_01.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_03_blkw_02.mat:7: reflection : 0.0
+/material/road/road_template/blkw/curb_03_blkw_difspec.mat:7: reflection: 1.0
+/material/road/road_template/blkw/decal_1_blkw.mat:6: reflection: 1.0
+/material/road/road_template/blkw/decal_1_blkw_gen.mat:6: reflection: 1.0
+/material/road/road_template/blkw/decal_2_blkw.mat:6: reflection: 1.0
+/material/road/road_template/blkw/decal_3_blkw.mat:6: reflection: 1.0
+/material/road/road_template/blkw/decal_4_blkw.mat:6: reflection: 1.0
+/material/road/road_template/blkw/decal_dirt_2_blkw.mat:7: reflection : 0.0
+/material/road/road_template/blkw/decal_dirt_3_blkw.mat:7: reflection : 0.0
+/material/road/road_template/blkw/dirt_1_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/dirt_2_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/dirt_3_blkw.mat:7: reflection: 1.0
+/material/road/road_template/blkw/track_blkw.mat:7: reflection: 1.0
+/material/road/road_template/fr/brown_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/dark_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/decal_brown_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/decal_dark_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/decal_grained_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/decal_gray_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/drain_01.mat:6: reflection: 1.0
+/material/road/road_template/fr/grained_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/gray_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/gray_old_map_2_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/gray_old_map_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/red_shoulder_01_fr.mat:6: reflection: 1.0
+/material/road/road_template/fr/village_road_1.mat:6: reflection: 1.0
+/material/road/road_template/ger/curb_wide_01.mat:5: reflection : 1.0
+/material/road/road_template/ger/decal_ger_01.mat:6: reflection: 1.0
+/material/road/road_template/ger/decal_ger_02.mat:6: reflection: 1.0
+/material/road/road_template/ger/decal_ger_03.mat:6: reflection: 1.0
+/material/road/road_template/ger/decal_ger_04.mat:6: reflection: 1.0
+/material/road/road_template/ger/decal_ger_05.mat:6: reflection: 1.0
+/material/road/road_template/ger/dirt_1_ger.mat:7: reflection: 1.0
+/material/road/road_template/ger/dirt_2_ger.mat:7: reflection: 1.0
+/material/road/road_template/ger/dirt_3_ger.mat:7: reflection: 1.0
+/material/road/road_template/ger/ger_01.mat:6: reflection: 1.0
+/material/road/road_template/ger/ger_02.mat:6: reflection: 1.0
+/material/road/road_template/ger/ger_03.mat:6: reflection: 1.0
+/material/road/road_template/ger/ger_04.mat:6: reflection: 1.0
+/material/road/road_template/ger/ger_05.mat:6: reflection: 1.0
+/material/road/road_template/ger/village_road_ger.mat:6: reflection: 1.0
+/material/road/road_template/ibe/1_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/2_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/3_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/decal_1_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/decal_1_rough_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/decal_2_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/decal_2_rough_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/decal_3_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/decal_3_rough_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/dirt_1_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/dirt_2_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/dirt_3_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/overlay_1_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/overlay_2_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/overlay_3_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/road_decal_ibe.mat:6: reflection: 1.0
+/material/road/road_template/ibe/track_ibe.mat:6: reflection: 1.0
+/material/road/road_template/it/1_cors.mat:6: reflection: 1.0
+/material/road/road_template/it/1_it.mat:6: reflection: 1.0
+/material/road/road_template/it/2_it.mat:6: reflection: 1.0
+/material/road/road_template/it/3_it.mat:6: reflection: 1.0
+/material/road/road_template/it/4_it.mat:6: reflection: 1.0
+/material/road/road_template/it/5_it.mat:6: reflection: 1.0
+/material/road/road_template/it/decal_1_cors.mat:6: reflection: 1.0
+/material/road/road_template/it/decal_1_it.mat:6: reflection: 1.0
+/material/road/road_template/it/decal_2_it.mat:6: reflection: 1.0
+/material/road/road_template/it/decal_3_it.mat:6: reflection: 1.0
+/material/road/road_template/it/decal_4_it.mat:6: reflection: 1.0
+/material/road/road_template/it/decal_5_it.mat:6: reflection: 1.0
+/material/road/road_template/it/field_it.mat:6: reflection: 1.0
+/material/road/road_template/it/green_shoulder_01_it.mat:6: reflection: 1.0
+/material/road/road_template/it/red_shoulder_01_it.mat:6: reflection: 1.0
+/material/road/road_template/it/village_road_it.mat:6: reflection: 1.0
+/material/road/road_template/ru/road_decal_ru.mat:6: reflection: 1.0
+/material/road/road_template/sc/decal_def_dk.mat:6: reflection: 1.0
+/material/road/road_template/sc/decal_field_sc.mat:6: reflection: 1.0
+/material/road/road_template/sc/decal_sw_def_dk.mat:6: reflection: 1.0
+/material/road/road_template/sc/decal_sw_new_sc.mat:6: reflection: 1.0
+/material/road/road_template/sc/dirt_def_dk.mat:8: reflection: 1.3
+/material/road/road_template/sc/dirt_def_swe.mat:8: reflection: 1.3
+/material/road/road_template/sc/dirt_field_sc.mat:8: reflection: 3
+/material/road/road_template/sc/dirt_gray_dk.mat:8: reflection: 1.3
+/material/road/road_template/sc/dirt_light_gray.mat:8: reflection: 1.3
+/material/road/road_template/sc/dirt_new_sc.mat:8: reflection: 1.3
+/material/road/road_template/un/asp_new_01.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_01_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_01_tile.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_01_tile_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_02.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_02_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_02_tile.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_02_tile_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_new_03_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_red_01_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_rough_01_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_rough_02_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asp_rough_03_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asphalt_new_01_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asphalt_new_01_shoulder_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asphalt_new_01_shoulder_test_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/asphalt_new_01_shoulder_wide_test_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/track_gravel_new_01.mat:5: reflection : 1.0
+/material/road/road_template/un/dirt_roads/dirt_gravel_01_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/dirt_roads/dirt_gravel_02_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/dirt_roads/dirt_mud_01_difspec.mat:5: reflection : 1.0
+/material/road/road_template/un/dirt_roads/dirt_sand_01_difspec.mat:5: reflection : 1.0

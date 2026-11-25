@@ -1,0 +1,11 @@
+13:46:29 site prague centre (14501.1, 73.1, 3624.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/lab/find gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+13:46:32 loading 10 % Building roads
+13:46:34 loading 57 % Building junctions and yards
+13:46:36 loading 58 % Building junctions and yards
+13:46:38 loading 72 % Placing fences and barriers
+13:46:40 loading 100 % Ready
+13:46:40 first build complete at 11 s
+13:47:10 settled for shot top after 30 s: built 2549, queued 0, batching 0, plants 134924 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:47:18 settled for shot top (camera placed) after 8 s: built 2549, queued 0, batching 0, plants 134924 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:47:21 wrote shot top
+13:47:21 find water written

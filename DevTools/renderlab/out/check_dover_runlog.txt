@@ -1,0 +1,15 @@
+21:59:43 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/out/check gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+21:59:47 loading 8 % Reading the map
+21:59:49 loading 56 % Building junctions and yards
+21:59:51 loading 56 % Building junctions and yards
+21:59:53 loading 58 % Building junctions and yards
+21:59:55 loading 67 % Placing buildings and props
+21:59:57 loading 72 % Placing fences and barriers
+21:59:59 loading 100 % Ready
+21:59:59 first build complete at 16 s
+22:00:25 settled for a_yard after 26 s: built 3044, queued 0, batching 0, plants 56177 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:00:34 settled for a_yard (camera placed) after 9 s: built 3044, queued 0, batching 0, plants 56177 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:00:46 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/out/check_a_yard.png (ground (-16.00, -0.13, 40.00))
+22:01:12 settled for b_road after 26 s: built 3345, queued 0, batching 0, plants 60024 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:01:20 settled for b_road (camera placed) after 8 s: built 3345, queued 0, batching 0, plants 60024 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:01:20 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/out/check_b_road.png (ground (-336.78, 8.96, -57.85))

@@ -1,0 +1,113 @@
+        /// <summary>Invisible ("eut2.none") collision pieces dropped because they stand outside everything their model draws (2026-10-27).</summary>
+        public static int NoneCollidersDropped;
+
+        /// <summary>
+        /// The box (game frame) round every piece a model build will DRAW as a solid surface - not decals, shadow casters,
+        /// night-only or helper pieces - over the parts it will show. An invisible collision piece is kept only inside it
+        /// (0.5 m slack), or when the model draws nothing solid AND nothing at all (a pure invisible blocker).
+        /// </summary>
+        private sealed class NoneGuard
+        {
+            public bool Solid;
+            public bool AnyDrawn;
+            public Vector3 Min = new Vector3(float.MaxValue, float.MaxValue, float.MaxValue);
+            public Vector3 Max = new Vector3(float.MinValue, float.MinValue, float.MinValue);
+
+            public bool Allows(EtsModelPiece piece)
+            {
+                if (!AnyDrawn)
+                {
+                    return true;
+                }
+
+                if (!Solid || piece.Positions == null)
+                {
+                    return false;
+                }
+
+                const float Slack = 0.5f;
+                float[] p = piece.Positions;
+
+                for (int i = 0; i + 2 < p.Length; i += 3)
+                {
+                    if (p[i] < Min.x - Slack || p[i] > Max.x + Slack || p[i + 1] < Min.y - Slack || p[i + 1] > Max.y + Slack || p[i + 2] < Min.z - Slack || p[i + 2] > Max.z + Slack)
+                    {
+                        return false;
+                    }
+                }
+
+                return true;
+            }
+        }
+
+        private static NoneGuard DrawnExtent(EtsModelData model, Options options, List<int> variants, string[] lookMaterials, EtsMaterialCache materials)
+        {
+            var guard = new NoneGuard();
+
+            foreach (EtsModelPart part in model.Parts)
+            {
+                bool visible = variants.Count == 0;
+
+                foreach (int variant in variants)
+                {
+                    visible |= part.IsVisible(variant);
+                }
+
+                if (options.Parts != null)
+                {
+                    foreach (string forced in options.Parts)
+                    {
+                        visible |= forced == part.Name;
+                    }
+                }
+
+                if (options.OnlyParts != null)
+                {
+                    visible = false;
+
+                    foreach (string wanted in options.OnlyParts)
+                    {
+                        visible |= wanted == part.Name;
+                    }
+                }
+
+                if (!visible || part.Name == "coll")
+                {
+                    continue;
+                }
+
+                for (int p = part.PieceStart; p < part.PieceStart + part.PieceCount && p < model.Pieces.Length; p++)
+                {
+                    EtsModelPiece piece = model.Pieces[p];
+                    string matPath = piece.MaterialIndex < lookMaterials.Length ? lookMaterials[piece.MaterialIndex] : null;
+                    EtsMaterialDef def = materials?.GetDefinition(matPath);
+                    string effect = def?.Effect ?? string.Empty;
+
+                    if (effect.Length == 0 || effect.StartsWith("eut2.none", StringComparison.Ordinal) || def.EffectHas("shadowonly") || def.EffectHas("shadowmap") ||
+                        def.EffectHas("fakeshadow") || def.EffectHas(".night") || def.EffectHas("mlaaweight"))
+                    {
+                        continue;
+                    }
+
+                    guard.AnyDrawn = true;
+
+                    // A ground decal (a car park's painted shadows) is drawn, but it is no body for a collision box to stand in.
+                    if (def.EffectHas("decal") || piece.Positions == null)
+                    {
+                        continue;
+                    }
+
+                    guard.Solid = true;
+                    float[] q = piece.Positions;
+
+                    for (int i = 0; i + 2 < q.Length; i += 3)
+                    {
+                        guard.Min = Vector3.Min(guard.Min, new Vector3(q[i], q[i + 1], q[i + 2]));
+                        guard.Max = Vector3.Max(guard.Max, new Vector3(q[i], q[i + 1], q[i + 2]));
+                    }
+                }
+            }
+
+            return guard;
+        }
+

@@ -1,0 +1,21 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_austria_unity.log)
+render.sh: site austria Unity exit 0 after 268 s
+   wrote shot pr1
+   wrote shot pr2
+   wrote shot pr3
+   wrote shot prU
+   wrote shot s30f
+   wrote shot s30l
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_pr1.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_pr1_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_pr2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_pr2_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_pr3.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_pr3_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_prU.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_prU_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_s30f.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_s30f_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_s30l.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1_shot_s30l_void.png

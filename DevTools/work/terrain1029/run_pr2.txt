@@ -1,0 +1,9 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr2_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr2_austria_unity.log)
+render.sh: site austria Unity exit 0 after 107 s
+   wrote shot pr2
+   wrote shot prU
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr2_shot_pr2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr2_shot_pr2_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr2_shot_prU.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr2_shot_prU_void.png

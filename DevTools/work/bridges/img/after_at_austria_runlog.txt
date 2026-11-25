@@ -1,0 +1,24 @@
+15:26:39 site austria centre (22147.0, 61.3, 15305.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_at gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+15:26:42 loading 5 % Reading the map
+15:26:44 loading 5 % Reading the map
+15:26:46 loading 5 % Reading the map
+15:26:48 loading 10 % Building roads
+15:26:50 loading 62 % Building junctions and yards
+15:26:52 loading 71 % Placing buildings and props
+15:26:54 loading 75 % Placing fences and barriers
+15:26:56 loading 75 % Placing fences and barriers
+15:26:58 loading 75 % Placing fences and barriers
+15:27:00 loading 75 % Placing fences and barriers
+15:27:02 loading 75 % Placing fences and barriers
+15:27:04 loading 100 % Ready
+15:27:04 first build complete at 25 s
+15:27:34 settled for shot a1 after 30 s: built 6035, queued 0, batching 0, plants 122693 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:27:42 settled for shot a1 (camera placed) after 8 s: built 6035, queued 0, batching 0, plants 122693 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:27:43 wrote shot a1
+15:28:13 settled for shot a2 after 31 s: built 6039, queued 0, batching 0, plants 122803 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:28:21 settled for shot a2 (camera placed) after 8 s: built 6039, queued 0, batching 0, plants 122803 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:28:22 wrote shot a2
+15:28:53 settled for shot a3 after 31 s: built 6435, queued 0, batching 0, plants 125185 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:29:01 settled for shot a3 (camera placed) after 8 s: built 6435, queued 0, batching 0, plants 125185 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:29:01 wrote shot a3
+15:29:32 settled for probe -37.2,-12.6,41.4,2.6,1 after 31 s: built 6530, queued 0, batching 0, plants 133320 (sides waiting 2), detail jobs 0, ground fill builds 1

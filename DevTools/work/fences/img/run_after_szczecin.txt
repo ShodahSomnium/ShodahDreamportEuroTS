@@ -1,0 +1,19 @@
+render.sh: site szczecin -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_szczecin_unity.log)
+render.sh: site szczecin Unity exit 0 after 222 s
+   wrote shot sz_bank
+   wrote shot sz_hedge
+   wrote shot sz_pillar_brick
+   wrote shot sz_pillar_light
+   wrote shot sz_terrace
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_bank.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_bank_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_hedge.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_hedge_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_pillar_brick.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_pillar_brick_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_pillar_light.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_pillar_light_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_terrace.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_szczecin_shot_sz_terrace_void.png
+exit 0

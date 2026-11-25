@@ -1,0 +1,26 @@
+11:53:20 site austria centre (18020.0, 29.4, 21381.4) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/t1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+11:53:23 loading 5 % Reading the map
+11:53:25 loading 5 % Reading the map
+11:53:27 loading 5 % Reading the map
+11:53:29 loading 15 % Building roads
+11:53:31 loading 55 % Building junctions and yards
+11:53:33 loading 65 % Placing buildings and props
+11:53:35 loading 69 % Placing fences and barriers
+11:53:37 loading 69 % Placing fences and barriers
+11:53:39 loading 69 % Placing fences and barriers
+11:53:41 loading 69 % Placing fences and barriers
+11:53:43 loading 69 % Placing fences and barriers
+11:53:45 loading 100 % Ready
+11:53:45 first build complete at 25 s
+11:54:17 settled for shot tA after 31 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:54:25 settled for shot tA (camera placed) after 8 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:54:25 wrote shot tA
+11:54:56 settled for shot tB after 31 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:55:04 settled for shot tB (camera placed) after 8 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:55:05 wrote shot tB
+11:55:35 settled for shot tC after 31 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:55:43 settled for shot tC (camera placed) after 8 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:55:44 wrote shot tC
+11:56:15 settled for shot tD after 31 s: built 5250, queued 0, batching 0, plants 249978 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:56:23 settled for shot tD (camera placed) after 8 s: built 5250, queued 0, batching 0, plants 249978 (sides waiting 0), detail jobs 0, ground fill builds 1
+11:56:23 wrote shot tD

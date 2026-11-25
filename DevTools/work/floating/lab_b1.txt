@@ -1,0 +1,22 @@
+render.sh: another lab run holds D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/LOCK (pid 2788 out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/before_dover since 13:52:12); waiting...
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_austria_unity.log)
+render.sh: site austria Unity exit 0 after 283 s
+   wrote shot t1
+   wrote shot t2
+   wrote shot t3
+   wrote shot t4
+   wrote shot t5
+   wrote shot t6
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t1.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t1_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t2_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t3.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t3_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t4.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t4_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t5.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t5_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t6.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1_shot_t6_void.png

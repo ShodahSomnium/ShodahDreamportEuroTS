@@ -1,0 +1,63 @@
+FenceScanLab radius 400 m: 3707 renderers, 118612 fence/railing/run triangles, 329799 other triangles, 1061 ms
+overlapping coplanar same-facing pairs touching a run/railing: 3411 (1368.21 m2); within one item (joints): 1904 (357.99 m2); opposite-facing coplanar pairs: 2300
+by category:
+      583.927 m2     269 pairs  run x models
+      426.294 m2    1238 pairs  run x run
+      357.988 m2    1904 pairs  run (same item)
+by item kind (top 40), with the first place (unity x,y,z):
+      277.406 m2     137 pairs  cross: run:building bld_model.20/piece 0 | models:model 171/piece 0  @ (-296.2, -0.9, 12.4)
+      158.156 m2      35 pairs  same: run:building bld_model.17/piece 2  @ (363.5, 11.7, -50.7)
+      155.190 m2      61 pairs  cross: run:building bld_model.20/piece 2 | models:model 171/piece 0  @ (-293.2, -0.9, 17.2)
+      151.331 m2      71 pairs  cross: run:building bld_model.20/piece 1 | models:model 171/piece 0  @ (-291.3, -0.9, 13.3)
+      117.039 m2      17 pairs  cross: run:building bld_model.0/piece 4 | run:building bld_model.0/piece 2  @ (216.7, 9.8, 97.4)
+       75.777 m2      12 pairs  cross: run:building bld_model.0/piece 2 | run:building bld_model.0/piece 4  @ (194.5, 9.8, 225.8)
+       46.302 m2       8 pairs  same: run:building bld_model.159/piece 1  @ (-147.9, 9.5, -52.3)
+       38.796 m2      18 pairs  cross: run:building bld_model.20/piece 0 | run:building bld_model.20/piece 0  @ (-296.2, -0.9, 12.4)
+       37.613 m2     178 pairs  same: run:building bld_model.119/piece 9  @ (-13.2, 18.8, -251.6)
+       36.403 m2     260 pairs  cross: run:building bld_model.119/piece 0 | run:building bld_model.119/piece 0  @ (191.3, 18.8, -278.9)
+       35.312 m2      12 pairs  cross: run:building bld_model.20/piece 0 | run:building bld_model.20/piece 2  @ (-294.4, -0.9, 17.4)
+       27.713 m2      63 pairs  cross: run:building bld_model.17/piece 5 | run:building bld_model.17/piece 0  @ (391.7, 11.7, -43.8)
+       26.466 m2     114 pairs  same: run:building bld_model.119/piece 0  @ (-76.3, 18.8, 144.0)
+       23.168 m2       8 pairs  same: run:building bld_model.159/piece 7  @ (-152.0, 9.5, -51.9)
+       18.551 m2      10 pairs  cross: run:building bld_model.20/piece 1 | run:building bld_model.20/piece 0  @ (-291.3, -0.9, 13.3)
+       16.151 m2      98 pairs  cross: run:building bld_model.119/piece 9 | run:building bld_model.119/piece 0  @ (38.6, 18.8, -259.0)
+       16.138 m2       7 pairs  cross: run:building bld_model.20/piece 1 | run:building bld_model.20/piece 2  @ (-291.0, -0.9, 15.6)
+       11.778 m2      30 pairs  same: run:building bld_model.51/piece 4  @ (-231.7, 1.4, -109.5)
+       11.678 m2     100 pairs  cross: run:building bld_model.119/piece 0 | run:building bld_model.119/piece 9  @ (118.1, 18.8, -263.8)
+        9.793 m2       4 pairs  cross: run:building bld_model.159/piece 7 | run:building bld_model.159/piece 4  @ (-127.3, 3.5, -57.2)
+        9.116 m2       4 pairs  cross: run:building bld_model.20/piece 2 | run:building bld_model.20/piece 0  @ (-291.4, -0.9, 11.6)
+        6.221 m2      11 pairs  same: run:building bld_model.0/piece 0  @ (208.0, 10.8, 246.1)
+        4.959 m2     182 pairs  same: run:building bld_model.44/piece 11  @ (-334.1, -0.3, 67.2)
+        4.269 m2      12 pairs  same: run:building bld_model.52/piece 2  @ (-127.6, 0.4, 2.4)
+        4.244 m2       9 pairs  same: run:building bld_model.51/piece 2  @ (-287.8, 0.9, -109.7)
+        4.166 m2       7 pairs  same: run:building bld_model.0/piece 4  @ (222.6, 9.8, 95.7)
+        3.313 m2     121 pairs  same: run:building bld_model.44/piece 8  @ (121.4, -0.4, 101.0)
+        2.740 m2      90 pairs  same: run:building bld_model.119/piece 1  @ (-81.4, 18.1, 144.9)
+        2.733 m2      80 pairs  same: run:building bld_model.119/piece 10  @ (-110.6, 18.2, -69.7)
+        2.596 m2      85 pairs  same: run:building bld_model.44/piece 1  @ (144.7, -3.4, -124.0)
+        2.481 m2       2 pairs  same: run:building bld_model.13/piece 4  @ (329.8, 9.8, 45.1)
+        2.330 m2      41 pairs  cross: run:building bld_model.11/piece 5 | run:building bld_model.11/piece 5  @ (-19.1, 10.8, 203.0)
+        2.200 m2       4 pairs  same: run:building bld_model.13/piece 0  @ (256.9, 9.8, 100.4)
+        2.008 m2     162 pairs  cross: run:building bld_model.44/piece 1 | run:building bld_model.44/piece 1  @ (174.8, -0.4, -88.2)
+        1.734 m2     200 pairs  same: run:building bld_model.44/piece 13  @ (-334.1, 0.1, 66.7)
+        1.657 m2      36 pairs  same: run:building bld_model.44/piece 0  @ (-338.2, 0.1, 66.6)
+        1.626 m2       3 pairs  cross: run:building bld_model.1/piece 6 | run:building bld_model.1/piece 6  @ (-90.9, 2.0, 92.1)
+        1.501 m2      40 pairs  same: run:building bld_model.44/piece 12  @ (160.1, 0.2, -120.1)
+        1.416 m2      36 pairs  same: run:building bld_model.44/piece 7  @ (214.2, 0.6, -119.9)
+        1.405 m2       7 pairs  same: run:building bld_model.20/piece 1  @ (-293.4, -0.9, 24.8)
+worst 10 m cells (unity x, z):
+      315.679 m2 at x -300..-290, z 10..20
+      106.756 m2 at x -300..-290, z 20..30
+      104.415 m2 at x 270..280, z 300..310
+       99.363 m2 at x -300..-290, z 0..10
+       61.623 m2 at x 140..150, z 110..120
+       55.372 m2 at x -290..-280, z -10..0
+       48.818 m2 at x -290..-280, z 30..40
+       42.982 m2 at x 360..370, z -50..-40
+       38.961 m2 at x 350..360, z -50..-40
+       35.337 m2 at x -150..-140, z -60..-50
+       33.249 m2 at x 30..40, z -360..-350
+       32.449 m2 at x -310..-300, z 10..20
+       30.984 m2 at x 0..10, z -400..-390
+       26.086 m2 at x -310..-300, z 20..30
+       23.833 m2 at x -310..-300, z 0..10

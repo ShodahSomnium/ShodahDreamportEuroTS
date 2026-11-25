@@ -1,0 +1,19 @@
+00:30:25 site austria centre (-46097.8, 35.7, -20220.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/bh2 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+00:30:28 loading 55 % Building junctions and yards
+00:30:30 loading 58 % Building junctions and yards
+00:30:32 loading 66 % Placing buildings and props
+00:30:34 loading 71 % Placing fences and barriers
+00:30:36 loading 100 % Ready
+00:30:36 first build complete at 11 s
+00:31:06 settled for shot hA after 30 s: built 2260, queued 0, batching 0, plants 92988 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:31:14 settled for shot hA (camera placed) after 8 s: built 2260, queued 0, batching 0, plants 92988 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:31:15 wrote shot hA
+00:31:46 settled for shot hB after 31 s: built 2285, queued 0, batching 0, plants 96148 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:31:54 settled for shot hB (camera placed) after 8 s: built 2285, queued 0, batching 0, plants 96148 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:31:54 wrote shot hB
+00:32:25 settled for shot hC after 31 s: built 2306, queued 0, batching 0, plants 98305 (sides waiting 1), detail jobs 0, ground fill builds 1
+00:32:33 settled for shot hC (camera placed) after 8 s: built 2306, queued 0, batching 0, plants 98305 (sides waiting 1), detail jobs 0, ground fill builds 1
+00:32:33 wrote shot hC
+00:33:04 settled for shot hD after 31 s: built 2348, queued 0, batching 0, plants 99945 (sides waiting 2), detail jobs 0, ground fill builds 1
+00:33:12 settled for shot hD (camera placed) after 8 s: built 2348, queued 0, batching 0, plants 99945 (sides waiting 2), detail jobs 0, ground fill builds 1
+00:33:12 wrote shot hD

@@ -1,0 +1,27 @@
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_dover_unity.log)
+render.sh: site dover Unity exit 0 after 162 s
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_dawn.png (04:45 sun 1.1 deg (sun light), default.nice.09 + default.nice.10 18 % slot 7, weather 0 % bad (slot 8, rain 0.00, wet 0.00), exposure 26.531 (window 45.73 .. 135.35), sun 4.149, ambient 0.6145, fog 0.00195 from 92 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_dusk.png (21:30 sun -0.6 deg (sun light), default.nice.28 + default.nice.27 86 % slot 7, weather 0 % bad (slot 3, rain 0.00, wet 0.00), exposure 37.964 (window 62.06 .. 196.69), sun 3.056, ambient 0.3438, fog 0.00211 from 77 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_night.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 0 % bad (slot 9, rain 0.00, wet 0.00), exposure 227.504 (window 352.97 .. 1261.64), sun 0.010, ambient 0.0949, fog 0.00300 from 43 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_nightrain.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 100 % bad (slot 4, rain 0.71, wet 0.59), exposure 227.094 (window 362.95 .. 1261.64), sun 0.007, ambient 0.0948, fog 0.00371 from 12 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_noon.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 0 % bad (slot 4, rain 0.00, wet 0.00), exposure 0.131 (window 0.42 .. 0.89), sun 2.788, ambient 0.6970, fog 0.00089 from 180 m, lamps off)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_rain.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 100 % bad (slot 4, rain 0.72, wet 0.59), exposure 0.218 (window 0.63 .. 1.21), sun 0.656, ambient 0.2248, fog 0.00371 from 12 m, lamps off)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_dawn.png (04:45 sun 1.1 deg (sun light), default.nice.09 + default.nice.10 18 % slot 7, weather 0 % bad (slot 8, rain 0.00, wet 0.00), exposure 26.531 (window 45.73 .. 135.35), sun 4.149, ambient 0.6145, fog 0.00195 from 92 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_dusk.png (21:30 sun -0.6 deg (sun light), default.nice.28 + default.nice.27 86 % slot 7, weather 0 % bad (slot 3, rain 0.00, wet 0.00), exposure 37.964 (window 62.06 .. 196.69), sun 3.056, ambient 0.3438, fog 0.00211 from 77 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_night.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 0 % bad (slot 9, rain 0.00, wet 0.00), exposure 227.504 (window 352.97 .. 1261.64), sun 0.010, ambient 0.0949, fog 0.00300 from 43 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_nightrain.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 100 % bad (slot 4, rain 0.71, wet 0.59), exposure 227.094 (window 362.95 .. 1261.64), sun 0.007, ambient 0.0948, fog 0.00371 from 12 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_noon.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 0 % bad (slot 4, rain 0.00, wet 0.00), exposure 0.131 (window 0.42 .. 0.89), sun 2.788, ambient 0.6970, fog 0.00089 from 180 m, lamps off)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_rain.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 100 % bad (slot 4, rain 0.72, wet 0.59), exposure 0.218 (window 0.63 .. 1.21), sun 0.656, ambient 0.2248, fog 0.00371 from 12 m, lamps off)
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_dawn.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_dusk.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_night.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_nightrain.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_noon.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_b_road_rain.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_dawn.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_dusk.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_night.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_nightrain.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_noon.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r1_c_sky_rain.png

@@ -1,0 +1,20 @@
+14:14:11 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/before2_dover gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+14:14:14 loading 10 % Building roads
+14:14:16 loading 57 % Building junctions and yards
+14:14:18 loading 66 % Placing buildings and props
+14:14:20 loading 72 % Placing fences and barriers
+14:14:22 loading 72 % Placing fences and barriers
+14:14:24 loading 100 % Ready
+14:14:24 first build complete at 13 s
+14:14:54 settled for shot d_sea2 after 30 s: built 3195, queued 0, batching 0, plants 55769 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:15:02 settled for shot d_sea2 (camera placed) after 8 s: built 3195, queued 0, batching 0, plants 55769 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:15:04 wrote shot d_sea2
+14:15:34 settled for shot d_harbour after 31 s: built 3198, queued 0, batching 0, plants 55769 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:15:42 settled for shot d_harbour (camera placed) after 8 s: built 3198, queued 0, batching 0, plants 55769 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:15:43 wrote shot d_harbour
+14:16:14 settled for shot g_a20 after 31 s: built 3004, queued 0, batching 0, plants 63487 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:16:22 settled for shot g_a20 (camera placed) after 8 s: built 3004, queued 0, batching 0, plants 63487 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:16:22 wrote shot g_a20
+14:16:53 settled for shot g_a20r after 31 s: built 3004, queued 0, batching 0, plants 63487 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:17:01 settled for shot g_a20r (camera placed) after 8 s: built 3004, queued 0, batching 0, plants 63487 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:17:01 wrote shot g_a20r

@@ -1,0 +1,11 @@
+45 points of 1.4 x 1.4 km along the motorways
+(39 at least 1.5 km apart on every Austrian motorway road ("ger hw ..." looks, country 1), 6 on Swiss ones; DevTools/work/floating/route45.txt;
+the 53-point run crashed the editor at the 46th in the "before" run), before -> after:
+fill floating (3+ m of air under it, or 5+ m over all terrain 25 m round it) 1,011,882 -> 166,798 m2 (fill drawn
+19.2 -> 16.3 km2); fill over all terrain round it 82,416 -> 40,495 m2; skirt segments hanging in the air 177,629 -> 0
+(of 199,133); skirt segments over a road 1,691 -> 85; cells (16 m2) with an UNDRAWN collider 0.25-4.75 m over a road
+1,252 -> 302 (inv terrain 1,139 -> 247; parked-vehicle proxies 13 -> 0; the rest railing collision strips, the game's own);
+items whose colliders stand with nothing drawn 1,432 -> 1,068 (left: invisible walls, collbox blockers, flat plates).
+Files: DevTools/work/floating/lab/RB_austria_ground.txt (before), RA2_austria_ground.txt (after); compare with
+DevTools/work/floating/cmp.sh. Worst spots left: fill 170-190 m over the mountain models by (2708, 178, 21067) and
+(9408, 235, 18067) where the model is under the cell's middle but not its corners.

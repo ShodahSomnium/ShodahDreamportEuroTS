@@ -1,0 +1,32 @@
+14:00:48 site austria centre (16900.0, 40.0, 18300.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+14:00:51 loading 8 % Reading the map
+14:00:53 loading 8 % Reading the map
+14:00:55 loading 8 % Reading the map
+14:00:58 loading 11 % Building roads
+14:01:00 loading 48 % Building terrain
+14:01:02 loading 67 % Placing buildings and props
+14:01:04 loading 70 % Placing buildings and props
+14:01:06 loading 71 % Placing fences and barriers
+14:01:08 loading 71 % Placing fences and barriers
+14:01:10 loading 71 % Placing fences and barriers
+14:01:12 loading 71 % Placing fences and barriers
+14:01:14 loading 100 % Ready
+14:01:14 first build complete at 25 s
+14:01:44 settled for shot t1 after 30 s: built 5227, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:01:52 settled for shot t1 (camera placed) after 8 s: built 5227, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:01:53 wrote shot t1
+14:02:23 settled for shot t2 after 31 s: built 5227, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:02:31 settled for shot t2 (camera placed) after 8 s: built 5227, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:02:32 wrote shot t2
+14:03:03 settled for shot t3 after 31 s: built 5318, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:03:11 settled for shot t3 (camera placed) after 8 s: built 5318, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:03:11 wrote shot t3
+14:03:42 settled for shot t4 after 31 s: built 5319, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:03:50 settled for shot t4 (camera placed) after 8 s: built 5319, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:03:51 wrote shot t4
+14:04:21 settled for shot t5 after 31 s: built 5462, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:04:29 settled for shot t5 (camera placed) after 8 s: built 5462, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:04:30 wrote shot t5
+14:05:01 settled for shot t6 after 31 s: built 5462, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:05:09 settled for shot t6 (camera placed) after 8 s: built 5462, queued 0, batching 0, plants 249998 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:05:09 wrote shot t6

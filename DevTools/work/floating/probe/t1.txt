@@ -1,0 +1,92 @@
+roads 64580 tunnel-ish 0
+bit 0: Flags all 4230 tunnel 0   RoadFlags all 6523 tunnel 0
+bit 1: Flags all 51811 tunnel 0   RoadFlags all 64 tunnel 0
+bit 2: Flags all 4660 tunnel 0   RoadFlags all 645 tunnel 0
+bit 3: Flags all 51706 tunnel 0   RoadFlags all 13196 tunnel 0
+bit 4: Flags all 3874 tunnel 0   RoadFlags all 8 tunnel 0
+bit 5: Flags all 5227 tunnel 0   RoadFlags all 152 tunnel 0
+bit 6: Flags all 5426 tunnel 0   RoadFlags all 338 tunnel 0
+bit 7: Flags all 6685 tunnel 0   RoadFlags all 51209 tunnel 0
+bit 8: Flags all 3692 tunnel 0   RoadFlags all 0 tunnel 0
+bit 9: Flags all 2745 tunnel 0   RoadFlags all 0 tunnel 0
+bit 10: Flags all 6997 tunnel 0   RoadFlags all 0 tunnel 0
+bit 11: Flags all 2709 tunnel 0   RoadFlags all 0 tunnel 0
+bit 12: Flags all 2415 tunnel 0   RoadFlags all 0 tunnel 0
+bit 13: Flags all 2359 tunnel 0   RoadFlags all 0 tunnel 0
+bit 14: Flags all 1631 tunnel 0   RoadFlags all 0 tunnel 0
+bit 15: Flags all 4083 tunnel 0   RoadFlags all 0 tunnel 0
+bit 16: Flags all 276 tunnel 0   RoadFlags all 200 tunnel 0
+bit 17: Flags all 344 tunnel 0   RoadFlags all 50783 tunnel 0
+bit 18: Flags all 1083 tunnel 0   RoadFlags all 238 tunnel 0
+bit 19: Flags all 1572 tunnel 0   RoadFlags all 6 tunnel 0
+bit 20: Flags all 3884 tunnel 0   RoadFlags all 343 tunnel 0
+bit 21: Flags all 5106 tunnel 0   RoadFlags all 1 tunnel 0
+bit 22: Flags all 11095 tunnel 0   RoadFlags all 7798 tunnel 0
+bit 23: Flags all 20061 tunnel 0   RoadFlags all 8007 tunnel 0
+bit 24: Flags all 25323 tunnel 0   RoadFlags all 2432 tunnel 0
+bit 25: Flags all 33186 tunnel 0   RoadFlags all 1504 tunnel 0
+bit 26: Flags all 1435 tunnel 0   RoadFlags all 1215 tunnel 0
+bit 27: Flags all 51272 tunnel 0   RoadFlags all 253 tunnel 0
+bit 28: Flags all 8041 tunnel 0   RoadFlags all 302 tunnel 0
+bit 29: Flags all 7934 tunnel 0   RoadFlags all 1176 tunnel 0
+bit 30: Flags all 564 tunnel 0   RoadFlags all 170 tunnel 0
+bit 31: Flags all 0 tunnel 0   RoadFlags all 332 tunnel 0
+4542  cutplane   e.g. 2935de06602ed7 sec 0,0 kdop 232,-500,731,593,-822 .. 1590,500,2786,2077,-25
+187  model dlc_balt_228 /model2/tunnel/tunnel_shadow_cylinder.pmd   e.g. 4aed380825ec0b7f sec 0,1
+173  model blkw_4f008 /model2/props/road/tunnel_vent_01_blkw.pmd   e.g. 5d05e8d07a9b034f sec 1,-14
+119  model dlc_it_89 /model2/tunnel/portal_hw_exit_01_it.pmd   e.g. 573123a6c60f1980 sec 0,3
+109  model dlc_it_221 /model2/tunnel/portal_tunnel_hw_2_lanes_one_way_it.pmd   e.g. 80a006aa3ad005b sec 0,6
+61  model ibe_23006 /model2/tunnel/ibe_tunnel_signs.pmd   e.g. 5d05e8d0159b00c3 sec 1,-14
+49  model 0f006 /asset/tunnel/tunnel_shadow_01_eu.pmd   e.g. 605c93c12c9f0001 sec 0,1
+48  model dlc_no_619 /model2/tunnel/portal_hw_2_lanes_1way_sc.pmd   e.g. 42bf29dc7c0f2230 sec 0,4
+42  model dlc_no_620 /model2/tunnel/portal_hw_exit_sc.pmd   e.g. 3109a05ff850000 sec 1,-14
+38  model 54 /model/tunnel/entrance_simple.pmd   e.g. 4cd14de45326beb9 sec 3,-4
+22  model 379ul /model/sign/traffic/blkw/blkw_digital_tunnel_sign_small.pmd   e.g. 4ec0d2bc509b0001 sec 2,6
+9  model poc_3r002 /model2/tunnel/tunnel_01_poc.pmd   e.g. 5b366328b5450001 sec -4,0
+8  model mod_ger_15 /model2/tunnel/portal_tunnel_hw_2_lanes_one_way_01_ger.pmd   e.g. 2d2c361c420d0001 sec 0,2
+8  model 53 /model/tunnel/entrance_large.pmd   e.g. 2935e733c0781d sec 4,0
+8  model dlc_it_403 /model2/tunnel/portal_tunnel_hw_2_lanes_2m_offset_it.pmd   e.g. 85500c383230001 sec -2,8
+8  model poc_3r001 /model2/tunnel/tunnel_02_poc.pmd   e.g. 59e4e899ba410000 sec -7,-2
+6  model ibe_0m006 /model2/walls/wall_stone_tunnel_end_01_ibe.pmd   e.g. 42bf29dcfe0f319d sec 1,4
+6  model greece_0v003 /model2/tunnel/tunnel_entrance_02_gr.pmd   e.g. 5b50dcd0be020001 sec -4,-3
+6  model dlc_fr_220 /model2/landmark/tunnel_paris_02_start_fr.pmd   e.g. 5d0737176250001 sec -8,0
+4  model mod_ger_13 /model2/tunnel/portal_tunnel_jena_01_ger.pmd   e.g. 2b6bf794b04d0001 sec 0,-1
+4  model shr_19016 /asset/rock/limonite/rock_limonite_01_tunnel_02.pmd   e.g. 4a12bcdc7606563c sec 3,7
+4  model lux_0t009 /model2/landmark/lu/grouft_tunnel_entrance_02_lux.pmd   e.g. 5ea76d7c169a0001 sec -4,0
+3  model ibe_1x047 /model2/rock/ibe_roadcliffrock_tunnel_1.pmd   e.g. 4a12bcd01ac6b4b6 sec 3,7
+3  model at_0x003 /model2/landmark/at/vosendorf_tunnel_at.pmd   e.g. 42bf29e0094fb7b0 sec 5,3
+3  model lux_0t008 /model2/landmark/lu/grouft_tunnel_entrance_01_lux.pmd   e.g. 5d0c640389910001 sec -4,0
+2  model at_0u008 /model2/landmark/at/bosruck_tunnel_at.pmd   e.g. 42bf29e01e8f1e2f sec 3,4
+2  prefab ch_2x002 /prefab2/tollgate/tollgate_bernard_tunnel_01_ch.ppd   e.g. 4e411320324ff84c sec -4,6
+2  model ibe_1p00w /model2/rock/ibe_rock_1e_regular_tunnel_entrance.pmd   e.g. 4e4113206b0fb933 sec -5,6
+2  model lux_65000 /model2/landmark/nl/amsterdam/amsterdam_tunnel_01_lux.pmd   e.g. 5a338b2d5e020001 sec -5,-3
+2  model lux_0u008 /model2/landmark/nl/amsterdam/amsterdam_tunnel_portal_01_lux.pmd   e.g. 5e2d5a1823820001 sec -5,-4
+2  model ch_0s000 /model2/landmark/fr/lyon_tunnel_01_ch.pmd   e.g. 5036520f9c910000 sec -6,6
+2  model dlc_it_288 /model2/tunnel/portal_tunnel_hw_3_lanes_one_way_01_it.pmd   e.g. 33fe69085e8608c6 sec -14,8
+1  model blkw_10000 /model2/landmark/at/karawanken_tunnel_entrance_02_blkw.pmd   e.g. 4c2851fc8bb00001 sec 2,5
+1  model blkw_01017 /model2/landmark/si/karawanken_tunnel_entrance_01_blkw.pmd   e.g. 4c285dd872f00001 sec 2,6
+1  model mod_ger_1 /model2/landmark/chemnitz_tunnel_01_ger.pmd   e.g. 5731ab89ba0fe05e sec 2,-1
+1  model rus_2x00f /prefab2/border_crossing/terechova/border_terechova_tunnel_ru_rus.pmd   e.g. 41afcb08de87048a sec 14,-10
+1  model at_0v007 /model2/landmark/at/pfander_tunnel_at.pmd   e.g. 4365a90431ab0001 sec -1,4
+1  model mod_ger_14 /model2/tunnel/portal_tunnel_elb_02_ger.pmd   e.g. 4cd14de405e603a2 sec -1,-5
+1  model mod_ger_10 /model2/tunnel/portal_tunnel_elb_01_ger.pmd   e.g. 4cd14de491e605b6 sec -1,-5
+1  model mod_ger_12 /model2/tunnel/portal_tunnel_elb_03_ger.pmd   e.g. 4cd14de4e5e603f8 sec -1,-5
+1  model ch_2m003 /model2/landmark/ch/viamala_tunnel_01_ch.pmd   e.g. 4e41131ccc0f1fd0 sec -2,5
+1  model ch_0y001 /model2/landmark/ch/airolo_tunnel_entrance_ch.pmd   e.g. 4e41131c338f2832 sec -3,5
+1  model ch_25002 /model2/landmark/ch/goschenen_tunnel_entrance_ch.pmd   e.g. 4e4113200e8f015f sec -3,5
+1  model shr_19008 /asset/rock/limonite/rock_limonite_01_tunnel_01.pmd   e.g. 4f77e7eb6d9a0001 sec -3,7
+1  model ch_2l000 /model2/landmark/ch/entreves_tunnel_01_ch.pmd   e.g. 50a4ed65d5110001 sec -4,6
+1  model lux_5x003 /model2/landmark/nl/groningen_tunnel_01_lux.pmd   e.g. 5d06242313910001 sec -4,-4
+1  model ch_3r002 /model2/landmark/fr/montblanc_tunnel_entrance_01_fr.pmd   e.g. 4e411320618fc927 sec -5,6
+1  model ch_4o001 /model2/landmark/fr/montblanc_tunnel_entrance_02_fr.pmd   e.g. 4e411320d4cfcd6c sec -5,6
+1  model ch_3g001 /model2/landmark/ch/geneve_parking_01_tunnel_ch.pmd   e.g. 4f34493efd910001 sec -5,6
+1  model lux_65005 /model2/landmark/be/antwerp_tunnel_01_lux.pmd   e.g. 5c6df95eaa330001 sec -6,-2
+1  prefab lux_5q000 /prefab2/tollgate/tollgate_westerschelde_tunnel_lux.ppd   e.g. 5a0a87ca86110001 sec -6,-2
+1  prefab lux_5q001 /prefab2/tollgate/tollgate_liefkenshoek_tunnel_lux.ppd   e.g. 5a43832be6330001 sec -6,-2
+1  model lux_11002 /model2/landmark/nl/rotterdam_tunnel_01_lux.pmd   e.g. 5a4533ebe3b30001 sec -6,-3
+1  model lux_6s002 /model2/landmark/nl/rotterdam/rotterdam_tunnel_02_lux.pmd   e.g. 5ae2b77652330001 sec -6,-3
+1  model 693 /model/panorama/lyon/tunnel_2.pmd   e.g. 40c8c8048e4f22ef sec -7,6
+1  prefab 199 /prefab/eurotunnel/platform.ppd   e.g. 2935de5320880e sec -8,-1
+1  model dlc_fr_297 /model2/landmark/paris/tunnel_paris_04_end_fr.pmd   e.g. 645ec2434f50000 sec -9,1
+1  prefab 202 /prefab/eurotunnel/platform_uk.ppd   e.g. 2935de84a0b5f8 sec -10,-2
+1  model 339uk /model/panorama/birmingham/rotunda.pmd   e.g. 2935e9ae20a523 sec -12,-5

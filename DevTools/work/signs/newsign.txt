@@ -1,0 +1,38 @@
+                            if (templateLength > 0)
+                            {
+                                if (q + 8 > limit) return null;
+                                uint first = U32(b, q);
+                                if (first != 0) { StatFirstNonZero++; }
+                                q += 4;
+                                int overrides = (int)U32(b, q);
+                                if (overrides < 0 || overrides > 256) { StatBadCount++; return null; }
+                                q += 4;
+                                for (int i = 0; i < overrides; i++)
+                                {
+                                    if (q + 16 > limit) return null;
+                                    int attributes = (int)U32(b, q + 12);
+                                    if (attributes < 0 || attributes > 64) { StatBadAttr++; return null; }
+                                    string ov = "ov id " + U32(b, q) + " area " + U64(b, q + 4).ToString("x");
+                                    q += 16;
+                                    for (int a = 0; a < attributes; a++)
+                                    {
+                                        if (q + 6 > limit) return null;
+                                        int kind = BitConverter.ToUInt16(b, q);
+                                        uint index = U32(b, q + 2);
+                                        q += 6;
+                                        string val;
+                                        switch (kind)
+                                        {
+                                            case 1: val = b[q].ToString(); q += 1; break;
+                                            case 2: case 3: val = "u" + U32(b, q); q += 4; break;
+                                            case 4: val = "f" + F32(b, q).ToString("0.####"); q += 4; break;
+                                            case 5: { if (q + 8 > limit) return null; ulong text = U64(b, q); if (text > 4096) return null; val = "\"" + System.Text.Encoding.UTF8.GetString(b, q + 8, (int)text) + "\""; q += 8 + (int)text; break; }
+                                            case 6: val = "t" + EtsToken.Decode(U64(b, q)) + "/" + U64(b, q).ToString("x"); q += 8; break;
+                                            default: StatBadKind++; return null;
+                                        }
+                                        ov += " [" + kind + ":" + index + "=" + val + "]";
+                                    }
+                                    OvLog.Add(ov);
+                                }
+                                if (ScanHeader(b, q, SectorX * SectorSize, SectorZ * SectorSize, limit) == q || q == limit) StatEndOk++; else StatEndBad++;
+                            }

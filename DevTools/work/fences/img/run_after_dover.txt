@@ -1,0 +1,22 @@
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_dover_unity.log)
+render.sh: site dover Unity exit 0 after 268 s
+   wrote shot dv_admin_roof
+   wrote shot dv_antinoise
+   wrote shot dv_fence_concrete
+   wrote shot dv_fence_metal
+   wrote shot dv_fence_metal2
+   wrote shot dv_hedge
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_admin_roof.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_admin_roof_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_antinoise.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_antinoise_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_fence_concrete.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_fence_concrete_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_fence_metal.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_fence_metal2.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_fence_metal2_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_fence_metal_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_hedge.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_dover_shot_dv_hedge_void.png
+exit 0

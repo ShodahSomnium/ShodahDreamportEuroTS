@@ -1,0 +1,4 @@
+render.sh: site austria -> DevTools/work/terrain1029/out/sd1_*.png (log DevTools/work/terrain1029/out/sd1_austria_unity.log)
+render.sh: site austria Unity exit 127 after 883 s
+render.sh: images:
+  none

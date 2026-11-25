@@ -1,0 +1,35 @@
+render.sh: another lab run holds D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/LOCK (pid 5207 out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/before2_dover since 14:13:54); waiting...
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_austria_unity.log)
+render.sh: site austria Unity exit 0 after 612 s
+   wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_austria_ground.txt: fill floating 67624 m2 (3138 tris; above all terrain round it 22286 m2) of 1408437 m2; skirts hanging in air 22727 segs / 3620585 m2, into road clearance 300 segs of 24047; road cells 41203 (covered 7983), clearance hits 434; colliders 86254, undrawn 1237, undrawn over roads 218, dead items 111
+   wrote shot cab80
+   wrote shot g90
+   wrote shot m0
+   wrote shot m270
+   wrote shot t3
+   wrote shot t5
+   wrote shot ts0
+   wrote shot ts180
+   wrote shot tw0
+   wrote shot tw180
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_cab80.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_cab80_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_g90.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_g90_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_m0.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_m0_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_m270.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_m270_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_t3.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_t3_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_t5.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_t5_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_ts0.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_ts0_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_ts180.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_ts180_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_tw0.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_tw0_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_tw180.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B_shot_tw180_void.png

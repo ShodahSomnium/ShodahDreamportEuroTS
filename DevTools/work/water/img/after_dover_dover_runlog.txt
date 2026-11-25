@@ -1,0 +1,17 @@
+13:58:10 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/after_dover gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+13:58:13 loading 10 % Building roads
+13:58:15 loading 57 % Building junctions and yards
+13:58:17 loading 65 % Placing buildings and props
+13:58:19 loading 72 % Placing fences and barriers
+13:58:21 loading 72 % Placing fences and barriers
+13:58:23 loading 100 % Ready
+13:58:23 first build complete at 13 s
+13:58:53 settled for shot d_sea1 after 30 s: built 3301, queued 0, batching 0, plants 58455 (sides waiting 2), detail jobs 0, ground fill builds 1
+13:59:01 settled for shot d_sea1 (camera placed) after 8 s: built 3301, queued 0, batching 0, plants 58455 (sides waiting 2), detail jobs 0, ground fill builds 1
+13:59:02 wrote shot d_sea1
+13:59:32 settled for shot d_sea2 after 31 s: built 3196, queued 0, batching 0, plants 55858 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:59:40 settled for shot d_sea2 (camera placed) after 8 s: built 3196, queued 0, batching 0, plants 55858 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:59:41 wrote shot d_sea2
+14:00:12 settled for shot d_seatop after 31 s: built 3195, queued 0, batching 0, plants 56064 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:00:20 settled for shot d_seatop (camera placed) after 8 s: built 3195, queued 0, batching 0, plants 56064 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:00:20 wrote shot d_seatop

@@ -1,0 +1,6 @@
+Assets\#User\SomniumEuroTruck\Ets\EtsClimate.cs(433,30): error CS0103: The name 'ClockMinutes' does not exist in the current context
+Assets\#User\SomniumEuroTruck\Ets\EtsClimate.cs(433,52): error CS0103: The name 'ClockMinutes' does not exist in the current context
+Assets\#User\SomniumEuroTruck\Ets\EtsClimate.cs(826,31): error CS0103: The name 'LightDirection' does not exist in the current context
+Assets\#User\SomniumEuroTruck\Ets\EtsClimate.cs(867,30): error CS0103: The name 'DirectionalAmbientQuiet' does not exist in the current context
+Assets\#User\SomniumEuroTruck\Ets\EtsClimate.cs(892,36): error CS0103: The name 'AmbientNearId' does not exist in the current context
+Assets\#User\SomniumEuroTruck\Ets\EtsClimate.cs(893,36): error CS0103: The name 'FogSunDirId' does not exist in the current context

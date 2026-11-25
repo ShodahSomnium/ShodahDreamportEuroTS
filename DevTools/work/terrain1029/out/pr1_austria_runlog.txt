@@ -1,0 +1,25 @@
+23:13:00 site austria centre (-46097.8, 35.7, -20220.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/pr1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+23:13:04 loading 11 % Building roads
+23:13:06 loading 57 % Building junctions and yards
+23:13:08 loading 66 % Placing buildings and props
+23:13:10 loading 72 % Placing fences and barriers
+23:13:12 loading 100 % Ready
+23:13:12 first build complete at 11 s
+23:13:42 settled for shot pr1 after 30 s: built 2298, queued 0, batching 0, plants 92272 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:13:50 settled for shot pr1 (camera placed) after 8 s: built 2298, queued 0, batching 0, plants 92272 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:13:50 wrote shot pr1
+23:14:21 settled for shot pr2 after 31 s: built 2334, queued 0, batching 0, plants 92871 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:14:29 settled for shot pr2 (camera placed) after 8 s: built 2334, queued 0, batching 0, plants 92871 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:14:29 wrote shot pr2
+23:15:00 settled for shot pr3 after 31 s: built 2335, queued 0, batching 0, plants 92871 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:15:08 settled for shot pr3 (camera placed) after 8 s: built 2335, queued 0, batching 0, plants 92871 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:15:09 wrote shot pr3
+23:15:39 settled for shot prU after 31 s: built 2339, queued 0, batching 0, plants 92871 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:15:47 settled for shot prU (camera placed) after 8 s: built 2339, queued 0, batching 0, plants 92871 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:15:48 wrote shot prU
+23:16:18 settled for shot s30f after 31 s: built 2233, queued 0, batching 0, plants 90567 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:16:26 settled for shot s30f (camera placed) after 8 s: built 2233, queued 0, batching 0, plants 90567 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:16:27 wrote shot s30f
+23:16:57 settled for shot s30l after 31 s: built 2233, queued 0, batching 0, plants 90567 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:17:05 settled for shot s30l (camera placed) after 8 s: built 2233, queued 0, batching 0, plants 90567 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:17:06 wrote shot s30l

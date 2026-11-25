@@ -1,0 +1,7 @@
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_dover_unity.log)
+render.sh: site dover Unity exit 0 after 227 s
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_traffic_mw_away.png
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_traffic_mw_oncoming.png
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_traffic_mw_away.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/traffic/img/t2_traffic_mw_oncoming.png

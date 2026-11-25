@@ -1,0 +1,12 @@
+13:47:37 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/lab/find gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+13:47:41 loading 10 % Building roads
+13:47:43 loading 57 % Building junctions and yards
+13:47:45 loading 66 % Placing buildings and props
+13:47:47 loading 72 % Placing fences and barriers
+13:47:49 loading 72 % Placing fences and barriers
+13:47:51 loading 100 % Ready
+13:47:51 first build complete at 13 s
+13:48:21 settled for shot top after 30 s: built 2958, queued 0, batching 0, plants 55975 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:48:29 settled for shot top (camera placed) after 8 s: built 2958, queued 0, batching 0, plants 55975 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:48:30 wrote shot top
+13:48:30 find water written

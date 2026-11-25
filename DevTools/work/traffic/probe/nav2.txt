@@ -1,0 +1,76 @@
+5429 descriptors
+/prefab2/depot/sugar_beet_factory/sugar_beet_factory_01_lux.ppd
+/prefab2/depot/dusseldorf_airport/dusseldorf_airport_cargo_01_de.ppd
+/prefab2/cross_temp/greece/blkw_r2_t_r2_one_way_t.ppd
+/prefab2/fork_temp/greece/blkw_hw4_one_lane_split_2_one_way_hw2_one_way.ppd
+/prefab2/fork_temp/greece/blkw_r2_plus_1_t_r1.ppd
+/prefab2/cross_temp/greece/blkw_roundabout_patra_port.ppd
+/prefab2/fork_temp/greece/blkw_r3_one_way_exit_r1_one_way.ppd
+/prefab2/fork_temp/greece/blkw_r2_r3_merge_tight_bend_tmpl.ppd
+/prefab2/fork_temp/greece/blkw_r2_one_way_joint_left_mirrored.ppd
+/prefab2/cross_temp/greece/blkw_roundabout_heraklion.ppd
+/prefab2/cross_temp/greece/blkw_r2_narrow_to_r1_oneway_in_x_r1_to_r1_oneway_out_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_one_way_to_r2_one_way_x_r1_one_way_out_tmpl.ppd
+/prefab2/fork_temp/greece/blkw_hw1_one_way_r2_one_way_fork_r2_1_no_offset_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_one_way_x_r1_left_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_narrow_short_t_r1_one_way_in.ppd
+/prefab2/cross_temp/greece/blkw_r1_narrow_short_t_r1_one_way_out.ppd
+/prefab2/fork_temp/greece/blkw_1lane_r1_oneway_joint_short_straight_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_x_r1_r2_t_round.ppd
+/prefab2/fork_temp/greece/blkw_hw2_exit_double_left_short_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_t_r2_one_way_exit_no_boundary.ppd
+/prefab2/cross_temp/greece/blkw_hw1_no_offset_x_r1_t_enter_tmpl.ppd
+/prefab2/fork_temp/greece/blkw_hw1_no_offset_split_r1_one_way_exit.ppd
+/prefab2/fork_temp/greece/blkw_fork_hw1_no_offset_x_r2.ppd
+/prefab2/fork_temp/greece/blkw_fork_hw1_no_offset_x_hw2_2m_offset.ppd
+/prefab2/cross_temp/greece/blkw_hw1_no_offset_x_r1_y_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_narrow_t_r1_minim_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r2_narrow_to_r1_t_r1_tmpl.ppd
+/prefab2/cross_temp/greece/blkw_r1_exit_narrow_no_boundary.ppd
+/prefab2/depot/copenhagen_airport_cargo/copenhagen_airport_cargo_01_poc.ppd
+/prefab2/cross_temp/ger/ger_r1_plus_1_to_r2_no_offset_tshape_tmpl.ppd
+/prefab2/fork_temp/ger/ger_r2_no_offset_to_r2-1_no_offset_tmpl.ppd
+/prefab2/fork_temp/ger/ger_r2_tram_to_r2_no_offset_turn.ppd
+/prefab2/cross_temp/ger/ger_r2_no_offset_tram_x_r1_minim.ppd
+/prefab2/fork_temp/ger/ger_road1_hw_split_tmpl_v02.ppd
+/prefab2/cross_temp/ger/ger_r2_x_r2_no_offset_brandenburg_gate.ppd
+/prefab2/cross_temp/ger/ger_r2_no_offset_tram_x_r2_to_r1_roundabout.ppd
+/prefab2/fork_temp/ger/ger_hw2_exit_double_mirrored_v02.ppd
+/prefab2/fork_temp/ger/ger_hw2_oneway_split_to_r2_oneway_and_r2_oneway.ppd
+/prefab2/cross_temp/ger/ger_r2_no_offset_x_r2_y.ppd
+/prefab2/cross_temp/ger/ger_r2_no_offset_x_r2_no_offset_y.ppd
+5429 parsed, 60111 curves
+0:0 1:0 2:1129 3:4752 4:4565 5:58720 6:57614 7:0 8:0 9:0 10:0 11:0 12:0 13:575 14:838 15:193 16:3443 17:6991 18:13845 19:10540 20:0 21:0 22:0 23:0 24:0 25:0 26:0 27:0 28:0 29:0 30:0 31:0 
+42282  b7-12:0 b14-15:0 n16:0 n20:0 b24+:0
+6520  b7-12:0 b14-15:0 n16:12 n20:0 b24+:0
+3314  b7-12:0 b14-15:0 n16:6 n20:0 b24+:0
+1769  b7-12:0 b14-15:0 n16:4 n20:0 b24+:0
+1613  b7-12:0 b14-15:0 n16:10 n20:0 b24+:0
+1423  b7-12:0 b14-15:0 n16:5 n20:0 b24+:0
+1361  b7-12:0 b14-15:0 n16:11 n20:0 b24+:0
+319  b7-12:0 b14-15:1 n16:0 n20:0 b24+:0
+264  b7-12:0 b14-15:0 n16:15 n20:0 b24+:0
+208  b7-12:0 b14-15:0 n16:8 n20:0 b24+:0
+143  b7-12:0 b14-15:1 n16:10 n20:0 b24+:0
+139  b7-12:0 b14-15:2 n16:12 n20:0 b24+:0
+104  b7-12:0 b14-15:0 n16:3 n20:0 b24+:0
+98  b7-12:0 b14-15:1 n16:12 n20:0 b24+:0
+98  b7-12:0 b14-15:0 n16:1 n20:0 b24+:0
+84  b7-12:0 b14-15:1 n16:6 n20:0 b24+:0
+81  b7-12:0 b14-15:1 n16:4 n20:0 b24+:0
+73  b7-12:0 b14-15:0 n16:13 n20:0 b24+:0
+57  b7-12:0 b14-15:1 n16:11 n20:0 b24+:0
+43  b7-12:0 b14-15:2 n16:0 n20:0 b24+:0
+33  b7-12:0 b14-15:1 n16:5 n20:0 b24+:0
+26  b7-12:0 b14-15:0 n16:14 n20:0 b24+:0
+13  b7-12:0 b14-15:0 n16:9 n20:0 b24+:0
+12  b7-12:0 b14-15:1 n16:8 n20:0 b24+:0
+9  b7-12:0 b14-15:0 n16:7 n20:0 b24+:0
+6  b7-12:0 b14-15:2 n16:6 n20:0 b24+:0
+5  b7-12:0 b14-15:0 n16:2 n20:0 b24+:0
+4  b7-12:0 b14-15:1 n16:9 n20:0 b24+:0
+3  b7-12:0 b14-15:1 n16:15 n20:0 b24+:0
+3  b7-12:0 b14-15:2 n16:8 n20:0 b24+:0
+2  b7-12:0 b14-15:3 n16:12 n20:0 b24+:0
+1  b7-12:0 b14-15:1 n16:3 n20:0 b24+:0
+1  b7-12:0 b14-15:1 n16:14 n20:0 b24+:0

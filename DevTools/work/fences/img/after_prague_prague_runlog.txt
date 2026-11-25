@@ -1,0 +1,18 @@
+22:49:37 site prague centre (14501.1, 73.1, 3624.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+22:49:40 loading 11 % Building roads
+22:49:42 loading 58 % Building junctions and yards
+22:49:44 loading 72 % Placing buildings and props
+22:49:46 loading 100 % Ready
+22:49:46 first build complete at 9 s
+22:50:16 settled for shot pr_pillar_brick after 30 s: built 2740, queued 0, batching 0, plants 141234 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:50:24 settled for shot pr_pillar_brick (camera placed) after 8 s: built 2740, queued 0, batching 0, plants 141234 (sides waiting 2), detail jobs 0, ground fill builds 1
+22:50:25 wrote shot pr_pillar_brick
+22:50:56 settled for shot pr_pillar_plaster after 31 s: built 2758, queued 0, batching 0, plants 141318 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:51:04 settled for shot pr_pillar_plaster (camera placed) after 8 s: built 2758, queued 0, batching 0, plants 141318 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:51:04 wrote shot pr_pillar_plaster
+22:51:35 settled for shot pr_hedge after 31 s: built 2890, queued 0, batching 0, plants 147900 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:51:43 settled for shot pr_hedge (camera placed) after 8 s: built 2890, queued 0, batching 0, plants 147900 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:51:43 wrote shot pr_hedge
+22:52:14 settled for shot pr_anti_noise after 31 s: built 2890, queued 0, batching 0, plants 147900 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:52:22 settled for shot pr_anti_noise (camera placed) after 8 s: built 2890, queued 0, batching 0, plants 147900 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:52:22 wrote shot pr_anti_noise

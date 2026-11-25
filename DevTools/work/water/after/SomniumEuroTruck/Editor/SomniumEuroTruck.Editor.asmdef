@@ -1,0 +1,22 @@
+{
+    "name": "SomniumEuroTruck.Editor",
+    "rootNamespace": "SomniumSpace.Worlds.SomniumEuroTruck.EditorTools",
+    "references": [
+        "SomniumEuroTruck",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "SomniumSpace.Network",
+        "Fusion.Unity"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

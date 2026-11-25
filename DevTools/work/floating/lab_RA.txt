@@ -1,0 +1,6 @@
+render.sh: another lab run holds D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/LOCK (pid 6264 out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RB since 14:43:22); waiting...
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RA_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RA_austria_unity.log)
+render.sh: site austria Unity exit 0 after 2531 s
+   wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RA_austria_ground.txt: fill floating 1543032 m2 (32886 tris; above all terrain round it 47777 m2) of 21552350 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 99 segs of 22872; road cells 447993 (covered 48763), clearance hits 12058; colliders 782725, undrawn 12145, undrawn over roads 372, dead items 1319
+render.sh: images:
+  none

@@ -1,0 +1,14 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_austria_unity.log)
+render.sh: site austria Unity exit 0 after 223 s
+   wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_austria_ground.txt: fill floating 18 m2 (2 tris; above all terrain round it 0 m2) of 3082 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 2; road cells 709 (covered 6), clearance hits 1; colliders 746, undrawn 16, undrawn over roads 0, dead items 0
+   wrote shot r8f
+   wrote shot r8l
+   wrote shot slip
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_shot_r8f.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_shot_r8f_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_shot_r8l.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_shot_r8l_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_shot_slip.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/b1_shot_slip_void.png
+exit 0

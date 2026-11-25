@@ -1,0 +1,46 @@
+shot_pr2: 0 hole px of 486656 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+  pick pr2@940,300 (ray (236.1, 2.6, 33.9) dir (0.820, 0.057, -0.570)): 10 renderers
+    17 m  Ets Map Viewer/ground fill/fill 1 0 | /material/terrain/grass_ger_main.mat | bounds (375, 2, 100) size (250, 7, 200) no tri
+    31 m  road look27/detail road models/detail road model Pillar M90 steel bridge/vis/piece 0 | /automat/90/900cbc9efb4bfaea.mat vcol | bounds (276, -11, 3) size (36, 44, 27) TRI 39.4
+    64 m  runs/building bld_model.66/center/center/piece 9 | /automat/20/207d5e3f4884a1e4.mat | bounds (292, 3, 0) size (7, 8, 7) no tri
+    71 m  runs/building bld_model.66/center/center/piece 9 | /automat/20/207d5e3f4884a1e4.mat | bounds (298, 3, -6) size (7, 8, 7) no tri
+    79 m  runs/building bld_model.66/center/center/piece 9 | /automat/20/207d5e3f4884a1e4.mat | bounds (304, 3, -12) size (7, 8, 7) no tri
+    79 m  runs/building bld_model.66/center/center/piece 10 | /automat/c4/c486fa8e409bb776.mat | bounds (304, 8, -12) size (6, 1, 6) no tri
+    94 m  runs/building bld_model.66/start/start/piece 1 | /automat/c4/c486fa8e409bb776.mat | bounds (314, 8, -20) size (1, 1, 1) TRI 94.6
+    113 m  roads/road look27/railings/railing 10uk left 0/center15m 13 | /automat/b0/b0235548f5594918.mat | bounds (269, 11, -2) size (135, 4, 190) no tri
+    141 m  Ets Map/models/model 276/vis/piece 0 | /automat/1d/1defd5782bce28aa.mat | bounds (407, 7, -22) size (110, 18, 49) no tri
+    321 m  Ets Map/prefabs/prefab 203/a_vis/piece 2 | /automat/3b/3bd252e6381ce270.mat | bounds (510, 13, -197) size (174, 26, 96) no tri
+shot_prU: 8 hole px of 921600 below the horizon (0.001 %); sampled 1: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 1, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+      void cells: unity (239, 10) game (-45859, -20230) 2 m x1 y 58.7 near []
+  pick prU@930,660 (ray (240.0, 59.9, 10.0) dir (0.314, -0.949, -0.014)): 19 renderers
+    46 m  roads/road look27/railings/railing 10uk left 0/center15m 11 | /automat/da/da1d022edec73fad.mat | bounds (269, 14, -2) size (134, 3, 189) no tri
+    46 m  roads/road look27/railings/railing 10uk left 0/center15m 15 | /automat/56/56445fe554d3b385.mat | bounds (269, 14, -2) size (134, 3, 189) no tri
+    50 m  roads/road look27/railings/railing 10uk left 0/center15m 13 | /automat/b0/b0235548f5594918.mat | bounds (269, 11, -2) size (135, 4, 190) TRI 53.5
+    50 m  Ets Map Viewer/Ets Map/roads/road look27/legacy lines | /material/road/lines.mat | bounds (267, 13, -1) size (94, 0, 170) no tri
+    50 m  Ets Map Viewer/Ets Map/roads/road look27/legacy asphalt | /material/road/asphalt.mat | bounds (271, 13, -3) size (104, 0, 175) no tri
+    50 m  Ets Map Viewer/Ets Map/roads/road look27/legacy edge sill | /material/road/asphalt.mat | bounds (275, 13, -5) size (95, 0, 170) no tri
+    50 m  Ets Map Viewer/Ets Map/roads/road look27/legacy edge sill | /material/road/asphalt.mat | bounds (266, 13, 0) size (95, 0, 170) no tri
+    57 m  Ets Map Viewer/ground fill/fill 1 0 | /material/terrain/grass_ger_main.mat | bounds (375, 2, 100) size (250, 7, 200) no tri
+    58 m  road look27/detail road models/detail road model Pillar M90 steel bridge/vis/piece 0 | /automat/90/900cbc9efb4bfaea.mat vcol | bounds (276, -11, 3) size (36, 44, 27) TRI 71.7
+    63 m  roads/road look8/railings/railing 61 left 0/center15m 9 | /automat/15/159e69f11263859e.mat | bounds (269, 0, -3) size (39, 1, 38) no tri
+    63 m  roads/road look8/railings/railing 0 right 0/center15m 7 | /automat/f1/f1e027fd73a3d80f.mat | bounds (276, 0, 5) size (38, 1, 37) no tri
+    63 m  Ets Map Viewer/Ets Map/roads/road look8/sidewalk | /material/road/small_block_pavement.mat | bounds (279, 0, 9) size (43, 0, 43) no tri
+    63 m  Ets Map Viewer/Ets Map/roads/road look8/kerb | /material/road/kerb_tile.mat | bounds (276, 0, 5) size (39, 0, 38) no tri
+    64 m  road look8/detail road models/detail road model lamp poland tshape/part1/street lamp pool | ets street lamp pool | bounds (249, -1, 13) size (34, 0, 34) TRI 63.7
+    64 m  Ets Map Viewer/Ets Map/roads/road look8/legacy lines | /material/road/lines.mat | bounds (269, -1, -3) size (44, 0, 44) no tri
+    64 m  Ets Map Viewer/Ets Map/roads/road look8/legacy asphalt | /material/road/asphalt.mat | bounds (270, -1, -3) size (51, 0, 52) TRI 63.7
+    64 m  Ets Map Viewer/Ets Map/roads/road look8/median 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (269, -1, -3) size (40, 0, 39) no tri
+    64 m  road look8/detail road models/detail road model lamp poland tshape/part1/street lamp pool | ets street lamp pool | bounds (252, -1, 17) size (34, 0, 34) TRI 63.8
+    84 m  roads/road look27/railings/railing 10uk left 0/center15m 12 | /automat/e3/e332d77f6b107a2d.mat | bounds (269, -20, -2) size (191, 0, 221) TRI 84.4
+  pick prU@1240,230 (ray (240.1, 59.9, 10.1) dir (0.446, -0.694, 0.565)): 11 renderers
+    63 m  roads/road look27/railings/railing 10uk left 0/center15m 11 | /automat/da/da1d022edec73fad.mat | bounds (269, 14, -2) size (134, 3, 189) TRI 63.3
+    63 m  roads/road look27/railings/railing 10uk left 0/center15m 15 | /automat/56/56445fe554d3b385.mat | bounds (269, 14, -2) size (134, 3, 189) TRI 63.3
+    68 m  roads/road look27/railings/railing 10uk left 0/center15m 13 | /automat/b0/b0235548f5594918.mat | bounds (269, 11, -2) size (135, 4, 190) TRI 67.9
+    68 m  Ets Map Viewer/Ets Map/roads/road look27/legacy lines | /material/road/lines.mat | bounds (267, 13, -1) size (94, 0, 170) no tri
+    68 m  Ets Map Viewer/Ets Map/roads/road look27/legacy asphalt | /material/road/asphalt.mat | bounds (271, 13, -3) size (104, 0, 175) no tri
+    68 m  Ets Map Viewer/Ets Map/roads/road look27/legacy edge sill | /material/road/asphalt.mat | bounds (275, 13, -5) size (95, 0, 170) no tri
+    68 m  Ets Map Viewer/Ets Map/roads/road look27/legacy edge sill | /material/road/asphalt.mat | bounds (266, 13, 0) size (95, 0, 170) no tri
+    78 m  Ets Map Viewer/ground fill/fill 1 0 | /material/terrain/grass_ger_main.mat | bounds (375, 2, 100) size (250, 7, 200) no tri
+    87 m  Ets Map Viewer/Ets Map/roads/road look8/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (317, 0, 53) size (109, 0, 121) no tri
+    87 m  Ets Map Viewer/Ets Map/roads/road look8/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (277, 0, 92) size (104, 0, 123) TRI 86.9
+    115 m  roads/road look27/railings/railing 10uk left 0/center15m 12 | /automat/e3/e332d77f6b107a2d.mat | bounds (269, -20, -2) size (191, 0, 221) TRI 115.5

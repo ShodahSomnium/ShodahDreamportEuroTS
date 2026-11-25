@@ -1,0 +1,1 @@
+                    _wKnown[k] = GroundAt((gx0 + wi) * Cell, (gz0 + wj) * Cell, top, out _wHeight[k], out _wSeed[k], out _wLow[k]);

@@ -1,0 +1,5 @@
+prague: lanes 2026 in 2 sectors, 321 ms
+  prepare 17 ms
+  300 s: steps mean 0.072 ms, p99.9 0.721, max after 2 s 5.22 ms; cars max 28, stopped share 21.3%
+  spawned 96, removed far 63 stuck 7 deadend 0 lost 0; junction waits 31945, entered unheld 0
+  tractor boxes overlapping (0.3 m in): 0 pairs, 0 pair-seconds

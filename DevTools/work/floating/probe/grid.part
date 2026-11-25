@@ -1,0 +1,15 @@
+  static float[] Floats(List<string> v){ var r=new float[v.Count]; for(int i=0;i<v.Count;i++){ var p=EtsSiiValue.ParseFloats(v[i]); r[i]=p.Length>0?p[0]:0f; } return r; }
+  static readonly float[] DefaultSteps = { 1, 1, 1, 2, 6, 6, 10, 10, 10, 20, 40, 50, 50, 50, 100, 100 };
+  // The side's ground grid as EtsTerrainBuilder.BuildSide lays it (profile rows, columns, vertex-tool records; no transition blend).
+  static Vector3[] Grid(EtsTerrainSide side, bool left, float startOffset, int defaultCols, Vector3 p0, Vector3 t0, Vector3 p1, Vector3 t1, Vector3 origin, float lift, out List<float> lateral, out int rows, out int cols){
+    float[] steps=DefaultSteps, heights=null; var prof=win.Map.TerrainProfile(side.ProfileToken);
+    if(prof!=null){ var s=Floats(prof.GetArray("step")); var h=Floats(prof.GetArray("height")); if(s.Length>0) steps=s; if(h.Length>0) heights=h; }
+    lateral=new List<float>{0f}; var height=new List<float>{0f}; float cum=0f;
+    for(int i=0; cum<side.Size-0.001f && i<512; i++){ float step=steps[Math.Min(i,steps.Length-1)]; float next=cum+step; float h0=heights!=null&&heights.Length>0?heights[Math.Min(i,heights.Length-1)]:0f; float h1=heights!=null&&heights.Length>0?heights[Math.Min(i+1,heights.Length-1)]:h0;
+      if(next>side.Size){ float f=(side.Size-cum)/step; lateral.Add(side.Size); height.Add(Mathf.Lerp(h0,h1,f)*side.Coefficient); break; } lateral.Add(next); height.Add(h1*side.Coefficient); cum=next; }
+    var quads=side.Quads; cols = quads!=null && quads.Cols>0 ? quads.Cols : defaultCols; rows=lateral.Count-1; if(quads!=null && quads.Rows>0 && quads.Rows<rows) rows=quads.Rows;
+    if(rows<=0||cols<=0) return null; float sign=left?-1f:1f; int stride=cols+1; var v=new Vector3[(rows+1)*stride];
+    for(int j=0;j<=cols;j++){ float s=(float)j/cols; Vector3 pt=Hermite(p0,t0,p1,t1,s), fw=Tangent(p0,t0,p1,t1,s); fw.y=0; if(fw.sqrMagnitude<1e-6f){ fw=p1-p0; fw.y=0; } fw.Normalize(); Vector3 r=Vector3.Cross(Vector3.up,fw).normalized*sign;
+      for(int i=0;i<=rows;i++) v[i*stride+j]=pt+r*(startOffset+lateral[i])+Vector3.up*(height[i]+lift); }
+    if(quads!=null && quads.OffsetCount>0) for(int k=0;k<quads.OffsetCount;k++){ int c=(int)quads.Offsets[k*5], rr=(int)quads.Offsets[k*5+1]; if(rr<=rows && c<=cols) v[rr*stride+c]=origin+new Vector3(quads.Offsets[k*5+2],quads.Offsets[k*5+3],-quads.Offsets[k*5+4]); }
+    return v; }

@@ -1,0 +1,13 @@
+prague: lanes 2042 in 2 sectors, 346 ms
+  lanes by country: czech 2042
+    112 road lanes within 1.5 km: czech expressway urban car 50 truck 50 bus 50 km/h
+    90 road lanes within 1.5 km: czech motorway car 130 truck 80 bus 130 km/h
+    40 road lanes within 1.5 km: czech expressway car 110 truck 80 bus 110 km/h
+    30 road lanes within 1.5 km: czech local_road urban car 50 truck 50 bus 50 km/h
+    22 road lanes within 1.5 km: czech local_road car 90 truck 80 bus 90 km/h
+  start mix czech (id 3): 170 vehicles, 67 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  prepare 791 ms
+  300 s: steps mean 0.088 ms, p99.9 0.829, max after 2 s 5.19 ms; cars max 30, stopped share 26.2%
+  spawned 101, removed far 66 stuck 11 deadend 0 lost 0; junction waits 49933, entered unheld 0, priority give-ways 1452; by kind 74 car, 2 police, 2 truck_light, 6 truck_medium, 0 truck_heavy, 13 truck, 4 bus, trailers 13
+  tractor boxes overlapping (0.3 m in): 0 pairs, 0 pair-seconds
+  on the road at the end: 5 truck, 16 car, 2 truck_medium, 1 bus; examples: scania.r_2016.nrm_4x2+scs_brick_r 0 km/h back 13.5 m; daf.2021.xg_6x2+scs_chemt 0 km/h back 11.2 m; daily.tow.eu.car2 44 km/h back 4.0 m; daf.2021.xf_4x2+scs_logs 0 km/h back 13.7 m; tourliner_p 20 km/h back 6.0 m; man.tgx_euro6.ef3_xlx_6x24+scs_gosck20 30 km/h back 11.3 m; daily.tow.eu.car 47 km/h back 3.8 m; mercedes.actros_2014.gs_6x2+scs_box.dry_van.default 0 km/h back 14.5 m

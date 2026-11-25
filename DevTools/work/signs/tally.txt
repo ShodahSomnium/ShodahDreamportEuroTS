@@ -1,0 +1,193 @@
+overrides matched 58349 unmatched 168 signs without template 0; templates indexed 12053 boards 12540
+Frame 1:4  x1
+      1  <- frm col16777215 op0
+Frame 3:0  x50
+      11027200  <- frm col16777215 op0
+      16777215  <- frm col11027200 op0
+      0  <- frm col12734208 op0
+      0  <- frm col12734208 op0
+      0  <- frm col12734208 op1
+      0  <- frm col12734208 op0
+Frame 4:1  x5120
+      1  <- frm col16777215 op0
+      1  <- frm col5996288 op0
+      1  <- frm col16777215 op0
+      1  <- frm col5996288 op0
+      1  <- frm col16777215 op0
+      1  <- frm col16777215 op0
+Frame 4:3  x3
+      1  <- frm col16777215 op0
+      1  <- frm col16777215 op0
+      1  <- frm col16777215 op0
+Image 1:4  x94
+      1  <- img idx0 col0 op1 hfFalse
+      0  <- img idx0 col0 op0 hfTrue
+      1  <- img idx0 col0 op0 hfFalse
+      0  <- img idx0 col0 op0 hfTrue
+      0  <- img idx0 col0 op0 hfTrue
+      0  <- img idx0 col0 op0 hfTrue
+Image 1:5  x18
+      1  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op1 hfFalse
+Image 3:1  x1
+      4294967295  <- img idx2 colnil op1 hfFalse
+Image 3:2  x101
+      52479  <- img idx0 col16777215 op1 hfFalse
+      0  <- img idx0 colnil op0 hfFalse
+      52479  <- img idx0 col16777215 op1 hfTrue
+      0  <- img idx0 colnil op0 hfFalse
+      52479  <- img idx0 col16777215 op1 hfTrue
+      0  <- img idx0 colnil op0 hfFalse
+Image 4:3  x10222
+      0  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op0 hfFalse
+      0  <- img idx0 col0 op1 hfFalse
+      1  <- img idx0 col0 op0 hfFalse
+      0  <- img idx0 col0 op1 hfTrue
+      1  <- img idx0 col0 op0 hfFalse
+Image 5:0  x1413
+      /def/sign/atlas/junction_de.sii  <- img idx0 colnil op1 hfFalse
+      /def/sign/atlas/junction_de.sii  <- img idx0 colnil op1 hfFalse
+      /def/sign/atlas/junction_de.sii  <- img idx0 colnil op1 hfFalse
+      /def/sign/atlas/junction_de.sii  <- img idx0 colnil op1 hfFalse
+      /def/sign/atlas/junction_de.sii  <- img idx0 colnil op1 hfFalse
+      /def/sign/atlas/junction_de.sii  <- img idx0 colnil op1 hfFalse
+Mileage 1:104  x10
+      1  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+      1  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.35 colnil op0 ha0 va1 ls0.2 lt-0.02 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.35 colnil op0 ha0 va1 ls0.2 lt-0.02 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.35 colnil op0 ha0 va1 ls0.2 lt-0.02 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.35 colnil op0 ha0 va1 ls0.2 lt-0.02 tg'' dname v-1 suFalse upFalse
+Mileage 2:5  x3
+      2  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+      2  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+      2  <- txt 'XX' sz0.6 colnil op1 ha0 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+Mileage 2:6  x4
+      1  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      3  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      2  <- txt 'XXXXX' sz0.6 colnil op1 ha0 va2 ls0.2 lt0 tg'' dname v-1 suFalse upFalse
+      2  <- txt 'XXXXX' sz0.6 colnil op1 ha0 va0 ls0.2 lt0 tg'' dname v-1 suFalse upFalse
+Mileage 3:102  x272
+      1  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      1  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      1  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      1  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.525 colnil op0 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+Mileage 4:2  x1108
+      0.55  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.55  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.55  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      0.55  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.55  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.51  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+Mileage 4:4  x750
+      0  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.525 colnil op0 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.525 colnil op0 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      1  <- txt 'XXXXX' sz0.525 colnil op0 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+Mileage 4:7  x4
+      1  <- txt 'XXXXX' sz0.75 colnil op1 ha0 va1 ls0.2 lt0.02 tg'hu_debrecen' dname v-1 suFalse upFalse
+      0  <- txt 'XXXXX' sz0.6 colnil op1 ha0 va1 ls-0.1 lt0.02 tg'' dname v0 suFalse upFalse
+      0  <- txt 'XXXXX' sz0.55 colnil op1 ha0 va1 ls0.2 lt0.03 tg'' dname v-1 suFalse upFalse
+      0  <- txt 'XXXXX' sz0.55 colnil op1 ha0 va1 ls0.2 lt0.03 tg'' dname v-1 suFalse upFalse
+Mileage 4:8  x938
+      0.02  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.02  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      0.02  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      0.03  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.03  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      0.03  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+Mileage 5:0  x2402
+      Leipzig  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      Dresden  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      364  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      218  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      255  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      Berlin  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+Mileage 5:1  x303
+      /font/sign/at_nx.font  <- txt 'XXXXX' sz0.55 colnil op1 ha0 va1 ls0.2 lt0 tg'' dname v-1 suFalse upFalse
+      /font/sign/at_nx.font  <- txt 'XXXXX' sz0.55 colnil op1 ha0 va1 ls0.2 lt0 tg'' dname v-1 suFalse upFalse
+      /font/sign/at_nx.font  <- txt 'XXXXX' sz0.55 colnil op1 ha0 va1 ls0.2 lt0 tg'' dname v-1 suFalse upFalse
+      /font/sign/at_nx.font  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+      /font/sign/at_nx.font  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+      /font/sign/at_nx.font  <- txt 'XX' sz0.55 colnil op1 ha2 va1 ls0.2 lt0 tg'' ddistance v-1 suFalse upFalse
+Mileage 6:100  x2410
+      de_leipzig  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      de_dresden  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+      de_berlin  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      de_leipzig  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      de_dresden  <- txt 'XX' sz0.525 colnil op1 ha2 va1 ls0 lt0 tg'' ddistance v-1 suFalse upFalse
+      de_berlin  <- txt 'XXXXX' sz0.525 colnil op1 ha0 va1 ls0 lt0 tg'' dname v-1 suFalse upFalse
+Text 2:5  x1616
+      2  <- txt 'XXXXXX' sz0.3 colnil op1 ha0 va1 ls-0.075 lt0
+      2  <- txt 'XXXXXX' sz0.3 colnil op1 ha2 va1 ls-0.075 lt0
+      2  <- txt 'XXXXXX' sz0.3 colnil op1 ha0 va1 ls-0.075 lt0
+      2  <- txt 'XXXXXX' sz0.3 colnil op1 ha2 va1 ls-0.075 lt0
+      2  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha0 va1 ls0.2 lt0
+      2  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha0 va1 ls0.2 lt0
+Text 2:6  x1019
+      3  <- txt 'Stadt' sz0.2 col0 op1 ha1 va1 ls0.2 lt0
+      3  <- txt 'Stadt' sz0.2 col0 op1 ha1 va1 ls0.2 lt0
+      3  <- txt 'Stadt' sz0.2 col0 op1 ha1 va1 ls0.2 lt0
+      3  <- txt 'Stadt' sz0.2 col0 op1 ha1 va1 ls0.2 lt0
+      1  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha1 va1 ls0.2 lt0
+      3  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha1 va1 ls0.2 lt0
+Text 3:3  x1073
+      0  <- txt '0' sz0.2 col16777215 op0 ha1 va1 ls0.2 lt0
+      0  <- txt '0' sz0.2 col16777215 op0 ha1 va1 ls0.2 lt0
+      16777215  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0  <- txt '0' sz0.2 col16777215 op0 ha1 va1 ls0.2 lt0
+      0  <- txt '0' sz0.2 col16777215 op0 ha1 va1 ls0.2 lt0
+      0  <- txt '0' sz0.2 col16777215 op0 ha1 va1 ls0.2 lt0
+Text 4:2  x8416
+      0.5  <- txt 'XXXXXXXXXXX' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      0.275  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0.275  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0.275  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0.275  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0.25  <- txt 'XXXXXX' sz0.3 colnil op1 ha0 va1 ls-0.075 lt0
+Text 4:3  x1
+      0  <- txt 'A3' sz0.6 colnil op1 ha1 va1 ls0.2 lt0
+Text 4:4  x17072
+      1  <- txt 'XXXXXXXX' sz0.35 col0 op0 ha0 va1 ls0.2 lt0
+      0  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      1  <- txt 'XXXXXXXX' sz0.35 col0 op0 ha0 va1 ls0.2 lt0
+      0  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+Text 4:7  x925
+      -0.1  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha0 va1 ls0.2 lt0.02
+      1  <- txt 'XXXXXXXX' sz0.6 colnil op0 ha1 va1 ls0.2 lt0
+      1  <- txt 'XXXXXXXX' sz0.6 colnil op0 ha1 va1 ls0.2 lt0
+      0  <- txt 'XXXXXXXX' sz0.5 colnil op1 ha1 va1 ls0.2 lt0.02
+      0  <- txt '0' sz0.2 colnil op1 ha1 va1 ls0.2 lt0
+      1  <- txt 'E 00' sz0.45 col16777215 op0 ha1 va1 ls0.2 lt0
+Text 4:8  x7962
+      -0.01  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      -0.01  <- txt 'XXXXXXXX' sz0.3 col0 op1 ha0 va1 ls0.2 lt0
+      0  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha0 va1 ls0.2 lt0.02
+      0  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha0 va1 ls0.2 lt0.02
+      0.01  <- txt 'Garmisch-<br>Partenkirchen' sz0.2 col0 op0 ha1 va1 ls-0.05 lt0
+      0.01  <- txt 'Garmisch-<br>Partenkirchen' sz0.2 col0 op0 ha1 va1 ls-0.05 lt0
+Text 5:0  x27458
+      Erfurt-Gispersleben  <- txt 'XXXXXXXXXXX' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      2800 m  <- txt '1000 m' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      10  <- txt '0' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      Kreuz Erfurt  <- txt 'XXXXXXXXXXX' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      12  <- txt '0' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      Nrnberg  <- txt 'XXXXXXXX' sz0.6 colnil op1 ha1 va1 ls0.2 lt0
+Text 5:1  x3162
+      /font/sign/de_s.font  <- txt 'XXXXXXXXXXX' sz0.55 colnil op1 ha1 va1 ls0.2 lt0
+      /font/sign/de_s.font  <- txt 'XXXXXXXX' sz0.35 col0 op0 ha0 va1 ls0.2 lt0
+      /font/sign/de_s.font  <- txt 'XXXXXXXX' sz0.35 col0 op0 ha0 va1 ls0.2 lt0
+      /font/sign/de_s.font  <- txt 'XXXXXXXX' sz0.35 col0 op0 ha0 va1 ls0.2 lt0
+      /font/sign/de_n.font  <- txt 'XXX<br>XXX' sz0.2 col0 op0 ha1 va1 ls-0.05 lt0
+      /font/sign/de_n.font  <- txt 'XXX<br>XXX' sz0.2 col0 op0 ha1 va1 ls-0.05 lt0

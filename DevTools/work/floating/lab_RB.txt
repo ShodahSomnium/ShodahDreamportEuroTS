@@ -1,0 +1,8 @@
+render.sh: another lab run holds D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/LOCK (pid 5234 out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/B since 14:22:16); waiting...
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RB_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RB_austria_unity.log)
+      0 [main] bash 6264 dofork: child -1 - forked process 56932 died unexpectedly, retry 0, exit code 0xC0000142, errno 11
+render.sh: fork: retry: Resource temporarily unavailable
+render.sh: line 86:  8368 Segmentation fault      RL_SITE="$SITE" RL_OUT="$OUT" RL_VIEWS="${RL_VIEWS:-}" RL_FOV="${RL_FOV:-60}" RL_TIMEOUT="${RL_TIMEOUT:-1500}" RL_NOPOST="${RL_NOPOST:-0}" "$UNITY" -batchmode -projectPath "$PROJ" -executeMethod RenderLabEditor.Go -logFile "$LOG"
+render.sh: site austria Unity exit 139 after 2181 s
+render.sh: images:
+  none

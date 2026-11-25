@@ -1,0 +1,15 @@
+Can't find custom attr constructor image: D:\Dreamport\Euro Truck Simulator\Euro Truck Sim\DevTools\work\bridges\probe\UnityEngine.CoreModule.dll mtoken: 0x0a0006a3 due to: Could not load file or assembly 'UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+20/282 sectors 11s hits 30
+40/282 sectors 24s hits 109
+60/282 sectors 34s hits 153
+80/282 sectors 46s hits 455
+100/282 sectors 70s hits 818
+120/282 sectors 124s hits 1507
+140/282 sectors 169s hits 1985
+160/282 sectors 209s hits 2610
+180/282 sectors 245s hits 3050
+200/282 sectors 279s hits 3339
+220/282 sectors 310s hits 3812
+240/282 sectors 336s hits 4124
+260/282 sectors 353s hits 4359
+280/282 sectors 371s hits 4555

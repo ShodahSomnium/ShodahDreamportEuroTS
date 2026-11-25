@@ -1,0 +1,169 @@
+
+        // ------------------------------------------------------------------ invisible ground off the roads (2026-10-27)
+
+        /// <summary>An "inv" brush piece (terrain strip or prefab corner) whose collider waits for the map's road footprints.</summary>
+        private sealed class InvisiblePiece
+        {
+            public EtsMap Map;
+            public GameObject Piece;
+            public Mesh Mesh;
+            public Vector3 CentreGame;
+            public float Since;
+        }
+
+        private static readonly List<InvisiblePiece> PendingInvisible = new List<InvisiblePiece>();
+        private static float _invisiblePumpAt;
+        private static bool _invisibleLogged;
+
+        /// <summary>Invisible ground triangles left without collision because they lie on or over a road or junction surface, and pieces cooked.</summary>
+        public static int InvisibleTrianglesOffRoad, InvisiblePiecesCooked;
+
+        /// <summary>A road or junction surface this far or less under an invisible ground triangle (or up to InvisibleUnder over it) takes its collision away.</summary>
+        public const float InvisibleOverRoad = 5f, InvisibleUnder = 0.25f;
+
+        /// <summary>
+        /// "inv" quads are /material/terrain/invis.mat (eut2.none, substance road): ground the truck drives on but nobody sees -
+        /// under the dirt decals round the bay they are the only ground there is, so they keep their collision. But the mappers
+        /// also paint inv wherever a strip pokes through a road or a viaduct deck, to hide it: render-lab survey 2026-10-27, 4
+        /// squares of 1.4 km round Knoten St. Michael and the A9 viaduct by Graz - 218 cells of 16 m2 over roads with an
+        /// invisible terrain surface 0.3-4.75 m above the asphalt (terrain items 'profile112 right invisible' 0.3-3.6 m over
+        /// the A9's lanes, ger11), i.e. invisible kerbs and walls on the motorway. Those triangles get no collision: a triangle
+        /// whose middle stands within InvisibleOverRoad over (or InvisibleUnder under) a road or junction surface of the map's
+        /// own footprints (EtsRoadClearance: computed from the map data, so it does not matter which streams in first). The
+        /// collider is cooked once every road that can reach the piece is known; until then the piece has none.
+        /// </summary>
+        private static void DeferInvisible(EtsMap map, GameObject piece, Mesh mesh, Vector3 centreGame)
+        {
+            if (map == null || EtsVegetationBuilder.Clearance(map) == null)
+            {
+                Mesh solid = CollisionMesh(mesh);
+
+                if (solid != null)
+                {
+                    piece.AddComponent<MeshCollider>().sharedMesh = solid;
+                }
+
+                return;
+            }
+
+            PendingInvisible.Add(new InvisiblePiece { Map = map, Piece = piece, Mesh = mesh, CentreGame = centreGame, Since = Time.unscaledTime });
+        }
+
+        /// <summary>The same for a prefab corner's inv piece (EtsPrefabTerrainBuilder: world vertices).</summary>
+        public static void DeferInvisiblePrefab(EtsMap map, GameObject piece, Mesh mesh, Vector3 centreGame)
+        {
+            DeferInvisible(map, piece, mesh, centreGame);
+        }
+
+        /// <summary>
+        /// Main thread, a few times a second (EtsGroundFill's loop): cooks the colliders of the waiting invisible pieces whose
+        /// footprints are known, within about <paramref name="budgetMs"/>.
+        /// </summary>
+        public static void PumpInvisible(float budgetMs)
+        {
+            if (PendingInvisible.Count == 0 || Time.unscaledTime - _invisiblePumpAt < 0.25f)
+            {
+                return;
+            }
+
+            _invisiblePumpAt = Time.unscaledTime;
+            var clock = System.Diagnostics.Stopwatch.StartNew();
+            EtsRoadClearance.Registry clearance = null;
+
+            for (int i = PendingInvisible.Count - 1; i >= 0 && clock.Elapsed.TotalMilliseconds < budgetMs; i--)
+            {
+                InvisiblePiece p = PendingInvisible[i];
+
+                if (p.Piece == null || p.Mesh == null)
+                {
+                    PendingInvisible.RemoveAt(i);
+                    continue;
+                }
+
+                if (clearance == null)
+                {
+                    clearance = EtsVegetationBuilder.Clearance(p.Map);
+
+                    if (clearance == null)
+                    {
+                        return;
+                    }
+
+                    clearance.Tick();
+                }
+
+                // The piece's vertices in the map's frame: the strip's own space (its parents stand at the map origin), or
+                // the world for a prefab corner (SetParent(parent, true) under the same origin).
+                Transform space = p.Piece.transform;
+                Bounds b = p.Mesh.bounds;
+                Vector3 lo = EtsVegetationBuilder.ToClearance(space.TransformPoint(b.min), p.CentreGame);
+                Vector3 hi = EtsVegetationBuilder.ToClearance(space.TransformPoint(b.max), p.CentreGame);
+
+                if (!clearance.Ensure(Mathf.Min(lo.x, hi.x), Mathf.Min(lo.z, hi.z), Mathf.Max(lo.x, hi.x), Mathf.Max(lo.z, hi.z)))
+                {
+                    continue;
+                }
+
+                PendingInvisible.RemoveAt(i);
+                Vector3[] v = p.Mesh.vertices;
+                int[] tri = p.Mesh.triangles;
+                var kept = new List<int>(tri.Length);
+
+                for (int k = 0; k + 2 < tri.Length; k += 3)
+                {
+                    Vector3 c = space.TransformPoint((v[tri[k]] + v[tri[k + 1]] + v[tri[k + 2]]) / 3f);
+                    Vector3 u = EtsVegetationBuilder.ToClearance(c, p.CentreGame);
+
+                    if (clearance.Blocked(u.x, u.y, u.z, 0f, out EtsRoadClearance.Hit hit))
+                    {
+                        float rise = hit.SurfaceY - u.y;
+
+                        if (rise > -InvisibleOverRoad && rise < InvisibleUnder)
+                        {
+                            InvisibleTrianglesOffRoad++;
+                            continue;
+                        }
+                    }
+
+                    kept.Add(tri[k]);
+                    kept.Add(tri[k + 1]);
+                    kept.Add(tri[k + 2]);
+                }
+
+                if (kept.Count == 0)
+                {
+                    continue;
+                }
+
+                Mesh source = p.Mesh;
+
+                if (kept.Count < tri.Length)
+                {
+                    source = new Mesh { name = p.Mesh.name + " off the roads", indexFormat = p.Mesh.indexFormat };
+                    source.vertices = v;
+                    source.triangles = kept.ToArray();
+                    source.RecalculateBounds();
+                }
+
+                Mesh solid = CollisionMesh(source);
+
+                if (solid != null)
+                {
+                    p.Piece.AddComponent<MeshCollider>().sharedMesh = solid;
+                    InvisiblePiecesCooked++;
+                }
+
+                if (source != p.Mesh && source != solid)
+                {
+                    UnityEngine.Object.Destroy(source);
+                }
+            }
+
+            if (!_invisibleLogged && InvisiblePiecesCooked > 0)
+            {
+                _invisibleLogged = true;
+                Debug.Log("[SomniumEuroTruck] Terrain: invisible ground ('inv' brush) gets its collision once the map's road footprints are known; " +
+                          InvisibleTrianglesOffRoad + " of its triangles so far lie on or within " + InvisibleOverRoad.ToString("0") +
+                          " m over a road or junction surface and stay without (invisible kerbs and walls on the lanes, 2026-10-27).");
+            }
+        }

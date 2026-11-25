@@ -1,0 +1,12 @@
+498	depth 8.5	at game (6124.3, 32.8, -8827.7)	item 2797968c928d0001	railing.dlc_no_3	end15m
+497	depth 8.5	at game (6119.3, 32.9, -8807.4)	item 2797968c928d0001	railing.dlc_no_3	start15m
+273	depth 5.3	at game (-23508.7, 43.0, 25362.7)	item 40c8c80413cf2562	railing.dlc_no_9	start15m
+240	depth 6.2	at game (-30878.4, 13.4, -3521.3)	item 06dd08e19f230079	railing.dlc_no_6	start15m
+240	depth 6.2	at game (-26486.9, 24.4, 330.8)	item 06dd660904430079	railing.dlc_no_6	start15m
+240	depth 6.2	at game (-26483.1, 34.7, 13799.3)	item 06dbf7d186090079	railing.dlc_no_6	start15m
+240	depth 6.2	at game (-19382.8, 35.3, 18805.3)	item 06dbf3e2b1860079	railing.dlc_no_6	start15m
+240	depth 6.2	at game (-17885.4, 46.9, 11614.6)	item 06dc203ef8360079	railing.dlc_no_6	start15m
+240	depth 6.2	at game (-13200.8, 43.0, 15578.2)	item 06daaf75b7e60079	railing.dlc_no_6	start15m
+239	depth 6.2	at game (-20707.8, 35.0, 15650.9)	item 06dbc57af7760079	railing.dlc_no_6	start15m
+238	depth 6.2	at game (-27836.5, 9.9, -2521.1)	item 06dd2b44d8530079	railing.dlc_no_6	start15m
+238	depth 6.2	at game (-20453.3, 34.9, 17073.0)	item 06da766480860079	railing.dlc_no_6	start15m

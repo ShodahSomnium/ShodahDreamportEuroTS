@@ -1,0 +1,414 @@
+ground survey, site austria centre game (16900.0, 40.0, 18300.0), clearance grid 4.0 m
+at1 game (1273, 19630) r 700: fill floating 1190 m2 (49 tris; above all terrain round it 178 m2) of 46550 m2; skirts hanging in air 4737 segs / 841241 m2, into road clearance 64 segs of 5072; road cells 9111 (covered 2948), clearance hits 2175; colliders 13753, undrawn 347, undrawn over roads 0, dead items 23
+    clearance: terrain over open road x1772; terrain poking <0.6 m over open road x201; terrain in covered road x197; terrain poking <0.6 m in covered road x5
+    undrawn over roads: 
+at2 game (3747, 19734) r 700: fill floating 22745 m2 (1538 tris; above all terrain round it 749 m2) of 370505 m2; skirts hanging in air 1870 segs / 515613 m2, into road clearance 58 segs of 4667; road cells 10721 (covered 644), clearance hits 219; colliders 27388, undrawn 481, undrawn over roads 1, dead items 44
+    clearance: terrain over open road x185; terrain poking <0.6 m over open road x26; terrain in covered road x7; undrawn prefab in covered road x1
+    undrawn over roads: prefab prefab at_0j008b / piece N x1
+at3 game (2881, 21748) r 700: fill floating 29792 m2 (740 tris; above all terrain round it 1004 m2) of 629462 m2; skirts hanging in air 2796 segs / 570514 m2, into road clearance 14 segs of 3169; road cells 10299 (covered 195), clearance hits 162; colliders 10370, undrawn 215, undrawn over roads 101, dead items 21
+    clearance: terrain-inv (undrawn) over open road x97; terrain poking <0.6 m over open road x33; terrain over open road x17; terrain-inv (undrawn, backed) over open road x11; terrain-inv (undrawn) poking <0.6 m over open road x4
+    undrawn over roads: terrain-inv terrain right invisible x101
+at4 game (5070, 17207) r 700: fill floating 10783 m2 (792 tris; above all terrain round it 0 m2) of 247090 m2; skirts hanging in air 2006 segs / 748155 m2, into road clearance 10 segs of 2125; road cells 5769 (covered 299), clearance hits 53; colliders 7120, undrawn 133, undrawn over roads 33, dead items 2
+    clearance: terrain-inv (undrawn) over open road x21; terrain poking <0.6 m over open road x10; terrain over open road x7; undrawn railing over open road x4; undrawn railing poking <0.6 m over open road x4; terrain-inv (undrawn) poking <0.6 m over open road x2; undrawn railing in covered road x1; undrawn railing poking <0.6 m in covered road x1; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; terrain poking <0.6 m in covered road x1; terrain-inv (undrawn, backed) over open road x1
+    undrawn over roads: terrain-inv terrain left invisible x16; railing railing collision N x10; terrain-inv terrain right invisible x7
+at5 game (7839, 16185) r 700: fill floating 2838 m2 (125 tris; above all terrain round it 2563 m2) of 458807 m2; skirts hanging in air 3953 segs / 716658 m2, into road clearance 26 segs of 4315; road cells 7310 (covered 183), clearance hits 28; colliders 11665, undrawn 235, undrawn over roads 0, dead items 65
+    clearance: terrain over open road x24; terrain poking <0.6 m over open road x4
+    undrawn over roads: 
+at6 game (10756, 14070) r 700: fill floating 77663 m2 (957 tris; above all terrain round it 1440 m2) of 785002 m2; skirts hanging in air 1270 segs / 305667 m2, into road clearance 22 segs of 1387; road cells 3175 (covered 624), clearance hits 24; colliders 3561, undrawn 21, undrawn over roads 22, dead items 2
+    clearance: undrawn railing in covered road x12; undrawn railing over open road x5; undrawn railing poking <0.6 m in covered road x3; undrawn railing poking <0.6 m over open road x2; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; terrain poking <0.6 m over open road x1
+    undrawn over roads: railing railing collision N x22
+at7 game (10461, 15679) r 700: fill floating 1411 m2 (67 tris; above all terrain round it 879 m2) of 416434 m2; skirts hanging in air 4879 segs / 832906 m2, into road clearance 49 segs of 5604; road cells 7170 (covered 836), clearance hits 406; colliders 13028, undrawn 262, undrawn over roads 1, dead items 9
+    clearance: terrain over open road x313; terrain poking <0.6 m over open road x72; terrain in covered road x13; terrain poking <0.6 m in covered road x7; undrawn railing poking <0.6 m over open road x1
+    undrawn over roads: railing railing collision N x1
+at8 game (11951, 15272) r 700: fill floating 1235 m2 (70 tris; above all terrain round it 826 m2) of 578336 m2; skirts hanging in air 3201 segs / 631938 m2, into road clearance 18 segs of 3429; road cells 7661 (covered 267), clearance hits 11; colliders 11516, undrawn 166, undrawn over roads 2, dead items 32
+    clearance: terrain over open road x6; terrain poking <0.6 m over open road x2; terrain-inv (undrawn) over open road x2; fill in covered road x1
+    undrawn over roads: terrain-inv prefab terrain inv x2
+at9 game (9127, 14985) r 700: fill floating 1656 m2 (166 tris; above all terrain round it 1145 m2) of 277343 m2; skirts hanging in air 7791 segs / 1083622 m2, into road clearance 135 segs of 9000; road cells 20488 (covered 2377), clearance hits 236; colliders 37412, undrawn 644, undrawn over roads 101, dead items 80
+    clearance: terrain-inv (undrawn) over open road x83; terrain over open road x59; terrain-inv (undrawn, backed) poking <0.6 m over open road x35; terrain-inv (undrawn, backed) over open road x19; terrain-inv (undrawn) in covered road x12; terrain poking <0.6 m over open road x10; terrain in covered road x7; terrain-inv (undrawn) poking <0.6 m over open road x4; terrain poking <0.6 m in covered road x3; terrain-inv (undrawn) poking <0.6 m in covered road x1; fill poking <0.6 m in covered road x1; undrawn prefab poking <0.6 m over open road x1
+    undrawn over roads: terrain-inv terrain left invisible x66; terrain-inv terrain right invisible x34; prefab prefab dlc_it_170 / piece N x1
+at10 game (10580, 18928) r 700: fill floating 67557 m2 (1987 tris; above all terrain round it 242 m2) of 400259 m2; skirts hanging in air 4266 segs / 772729 m2, into road clearance 61 segs of 4483; road cells 7819 (covered 528), clearance hits 34; colliders 8196, undrawn 145, undrawn over roads 29, dead items 1
+    clearance: terrain-inv (undrawn) over open road x16; terrain-inv (undrawn) in covered road x13; terrain-inv (undrawn, backed) in covered road x3; fill in covered road x1; fill poking <0.6 m over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x19; terrain-inv terrain left invisible x10
+at11 game (10013, 17426) r 700: fill floating 27285 m2 (1125 tris; above all terrain round it 7516 m2) of 360714 m2; skirts hanging in air 3302 segs / 565420 m2, into road clearance 41 segs of 3595; road cells 3896 (covered 657), clearance hits 29; colliders 7691, undrawn 96, undrawn over roads 20, dead items 3
+    clearance: terrain-inv (undrawn) over open road x11; terrain-inv (undrawn) in covered road x7; terrain-inv (undrawn, backed) over open road x5; terrain over open road x2; terrain-inv (undrawn) poking <0.6 m over open road x2; terrain-inv (undrawn, backed) poking <0.6 m over open road x2
+    undrawn over roads: terrain-inv terrain right invisible x20
+at12 game (11066, 22397) r 700: fill floating 4694 m2 (416 tris; above all terrain round it 1934 m2) of 176987 m2; skirts hanging in air 5262 segs / 895860 m2, into road clearance 40 segs of 6165; road cells 7796 (covered 523), clearance hits 89; colliders 21301, undrawn 296, undrawn over roads 12, dead items 25
+    clearance: terrain over open road x61; terrain-inv (undrawn) over open road x11; terrain poking <0.6 m over open road x9; terrain in covered road x4; fill poking <0.6 m over open road x1; fill poking <0.6 m in covered road x1; terrain-inv (undrawn) poking <0.6 m over open road x1; fill in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x12
+at13 game (10461, 20870) r 700: fill floating 12757 m2 (733 tris; above all terrain round it 569 m2) of 137563 m2; skirts hanging in air 5099 segs / 932513 m2, into road clearance 32 segs of 5330; road cells 8418 (covered 2098), clearance hits 28; colliders 13734, undrawn 438, undrawn over roads 9, dead items 52
+    clearance: terrain over open road x8; terrain-inv (undrawn) poking <0.6 m over open road x7; terrain in covered road x7; terrain poking <0.6 m over open road x3; terrain-inv (undrawn) over open road x1; terrain-inv (undrawn, backed) in covered road x1; terrain-inv (undrawn) in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x8; terrain-inv terrain left invisible x1
+at14 game (10223, 23829) r 700: fill floating 69615 m2 (1957 tris; above all terrain round it 4704 m2) of 574834 m2; skirts hanging in air 3119 segs / 568729 m2, into road clearance 40 segs of 5636; road cells 5699 (covered 1017), clearance hits 131; colliders 12015, undrawn 299, undrawn over roads 46, dead items 68
+    clearance: terrain over open road x64; undrawn railing in covered road x30; terrain in covered road x13; undrawn railing over open road x9; undrawn railing poking <0.6 m in covered road x5; terrain poking <0.6 m over open road x4; terrain poking <0.6 m in covered road x2; fill in covered road x1; fill over open road x1; terrain-inv (undrawn) poking <0.6 m over open road x1; terrain-inv (undrawn) over open road x1
+    undrawn over roads: railing railing collision N x44; terrain-inv terrain right invisible x2
+at15 game (14540, 13551) r 700: fill floating 1724 m2 (100 tris; above all terrain round it 318 m2) of 109470 m2; skirts hanging in air 7637 segs / 1019621 m2, into road clearance 135 segs of 8283; road cells 17361 (covered 3277), clearance hits 1058; colliders 41209, undrawn 1108, undrawn over roads 18, dead items 64
+    clearance: terrain over open road x803; terrain in covered road x168; terrain poking <0.6 m over open road x63; undrawn prefab over open road x5; terrain-inv (undrawn) in covered road x5; terrain-inv (undrawn) poking <0.6 m over open road x4; terrain-inv (undrawn) over open road x4; terrain poking <0.6 m in covered road x3; fill in covered road x1; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; terrain-inv (undrawn, backed) over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x13; prefab prefab at_0j00d / piece N x5
+at16 game (13438, 15878) r 700: fill floating 24703 m2 (318 tris; above all terrain round it 2162 m2) of 384257 m2; skirts hanging in air 3640 segs / 661969 m2, into road clearance 48 segs of 3866; road cells 5919 (covered 617), clearance hits 57; colliders 10313, undrawn 231, undrawn over roads 15, dead items 42
+    clearance: terrain over open road x38; terrain-inv (undrawn) in covered road x10; undrawn model over open road x4; terrain-inv (undrawn, backed) in covered road x2; terrain poking <0.6 m in covered road x1; terrain poking <0.6 m over open road x1; terrain-inv (undrawn) over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x11; model model 1097 / piece N x2; model model scene_44a / piece N x1; model model scene_67 / piece N x1
+at17 game (15175, 14976) r 700: fill floating 429 m2 (36 tris; above all terrain round it 44 m2) of 404813 m2; skirts hanging in air 5275 segs / 813094 m2, into road clearance 30 segs of 5747; road cells 12240 (covered 186), clearance hits 181; colliders 16007, undrawn 519, undrawn over roads 60, dead items 72
+    clearance: terrain over open road x84; terrain-inv (undrawn) over open road x59; terrain poking <0.6 m over open road x32; terrain-inv (undrawn, backed) over open road x3; terrain poking <0.6 m in covered road x1; terrain-inv (undrawn) poking <0.6 m over open road x1; fill over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x40; terrain-inv terrain left invisible x20
+at18 game (13122, 12995) r 700: fill floating 120 m2 (5 tris; above all terrain round it 0 m2) of 392324 m2; skirts hanging in air 3134 segs / 599299 m2, into road clearance 35 segs of 3369; road cells 7105 (covered 192), clearance hits 8; colliders 14662, undrawn 453, undrawn over roads 0, dead items 8
+    clearance: terrain over open road x5; terrain poking <0.6 m over open road x2; fill in covered road x1
+    undrawn over roads: 
+at19 game (12057, 19607) r 700: fill floating 1236 m2 (74 tris; above all terrain round it 1155 m2) of 1055672 m2; skirts hanging in air 1323 segs / 283827 m2, into road clearance 3 segs of 1406; road cells 5866 (covered 244), clearance hits 2; colliders 3759, undrawn 25, undrawn over roads 0, dead items 0
+    clearance: fill over open road x2
+    undrawn over roads: 
+at20 game (15593, 18684) r 700: fill floating 16870 m2 (778 tris; above all terrain round it 1252 m2) of 136064 m2; skirts hanging in air 8874 segs / 1202709 m2, into road clearance 70 segs of 9366; road cells 15887 (covered 2787), clearance hits 123; colliders 40103, undrawn 459, undrawn over roads 5, dead items 69
+    clearance: terrain over open road x76; terrain poking <0.6 m over open road x22; terrain in covered road x15; terrain-inv (undrawn) over open road x5; terrain-inv (undrawn, backed) in covered road x1; fill in covered road x1; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; terrain-inv (undrawn, backed) over open road x1; terrain poking <0.6 m in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x5
+at21 game (14333, 17822) r 700: fill floating 7467 m2 (263 tris; above all terrain round it 5718 m2) of 276157 m2; skirts hanging in air 2749 segs / 688454 m2, into road clearance 13 segs of 2952; road cells 7332 (covered 1384), clearance hits 49; colliders 10488, undrawn 121, undrawn over roads 37, dead items 10
+    clearance: terrain-inv (undrawn) in covered road x20; terrain-inv (undrawn) over open road x13; terrain in covered road x9; terrain-inv (undrawn) poking <0.6 m over open road x2; terrain-inv (undrawn) poking <0.6 m in covered road x2; terrain-inv (undrawn, backed) over open road x1; terrain-inv (undrawn, backed) in covered road x1; terrain poking <0.6 m in covered road x1
+    undrawn over roads: terrain-inv terrain left invisible x26; terrain-inv terrain right invisible x11
+at22 game (15508, 22007) r 700: fill floating 1519 m2 (105 tris; above all terrain round it 1193 m2) of 396656 m2; skirts hanging in air 4178 segs / 617936 m2, into road clearance 62 segs of 4604; road cells 7742 (covered 1046), clearance hits 187; colliders 13054, undrawn 273, undrawn over roads 71, dead items 32
+    clearance: terrain over open road x76; terrain-inv (undrawn) over open road x61; terrain poking <0.6 m over open road x20; terrain in covered road x14; terrain-inv (undrawn) in covered road x9; terrain-inv (undrawn, backed) over open road x5; terrain-inv (undrawn, backed) poking <0.6 m in covered road x1; terrain-inv (undrawn) poking <0.6 m in covered road x1
+    undrawn over roads: terrain-inv terrain left invisible x67; terrain-inv terrain right invisible x4
+at23 game (13512, 22189) r 700: fill floating 1264 m2 (47 tris; above all terrain round it 638 m2) of 831005 m2; skirts hanging in air 2681 segs / 451239 m2, into road clearance 9 segs of 3097; road cells 7271 (covered 553), clearance hits 92; colliders 4563, undrawn 69, undrawn over roads 13, dead items 6
+    clearance: terrain over open road x65; terrain-inv (undrawn) in covered road x11; terrain poking <0.6 m over open road x10; terrain-inv (undrawn) poking <0.6 m in covered road x2; terrain poking <0.6 m in covered road x1; terrain-inv (undrawn, backed) in covered road x1; terrain-inv (undrawn, backed) poking <0.6 m in covered road x1; terrain-inv (undrawn, backed) poking <0.6 m over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x12; terrain-inv terrain left invisible x1
+at24 game (19390, 14405) r 700: fill floating 198 m2 (22 tris; above all terrain round it 54 m2) of 666678 m2; skirts hanging in air 3195 segs / 620048 m2, into road clearance 35 segs of 3320; road cells 9351 (covered 321), clearance hits 50; colliders 11648, undrawn 178, undrawn over roads 20, dead items 18
+    clearance: terrain poking <0.6 m over open road x19; terrain-inv (undrawn) over open road x16; terrain in covered road x5; terrain-inv (undrawn) poking <0.6 m over open road x3; terrain over open road x3; terrain-inv (undrawn, backed) poking <0.6 m over open road x2; undrawn model in covered road x1; terrain poking <0.6 m in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x15; terrain-inv terrain left invisible x4; model model dlc_fr_268 / piece N x1
+at25 game (17203, 14540) r 700: fill floating 1604 m2 (116 tris; above all terrain round it 409 m2) of 586078 m2; skirts hanging in air 2402 segs / 515304 m2, into road clearance 0 segs of 2590; road cells 6615 (covered 155), clearance hits 9; colliders 4284, undrawn 16, undrawn over roads 0, dead items 0
+    clearance: terrain in covered road x8; terrain poking <0.6 m in covered road x1
+    undrawn over roads: 
+at26 game (18377, 18204) r 700: fill floating 7786 m2 (153 tris; above all terrain round it 7481 m2) of 393129 m2; skirts hanging in air 2610 segs / 530489 m2, into road clearance 73 segs of 2742; road cells 5999 (covered 949), clearance hits 95; colliders 5826, undrawn 113, undrawn over roads 77, dead items 2
+    clearance: terrain-inv (undrawn) over open road x55; terrain-inv (undrawn) in covered road x12; terrain-inv (undrawn) poking <0.6 m over open road x9; terrain-inv (undrawn, backed) poking <0.6 m over open road x7; terrain-inv (undrawn, backed) over open road x5; terrain in covered road x3; terrain over open road x2; terrain-inv (undrawn) poking <0.6 m in covered road x1; terrain-inv (undrawn, backed) in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x74; terrain-inv terrain left invisible x3
+at27 game (17614, 19722) r 700: fill floating 34145 m2 (1000 tris; above all terrain round it 5619 m2) of 301042 m2; skirts hanging in air 7873 segs / 1102753 m2, into road clearance 87 segs of 8729; road cells 8555 (covered 1665), clearance hits 186; colliders 13548, undrawn 313, undrawn over roads 83, dead items 56
+    clearance: terrain-inv (undrawn) over open road x75; terrain over open road x67; terrain poking <0.6 m over open road x14; terrain-inv (undrawn, backed) over open road x14; terrain-inv (undrawn) in covered road x7; terrain in covered road x4; terrain-inv (undrawn, backed) poking <0.6 m over open road x3; terrain-inv (undrawn, backed) in covered road x1; terrain-inv (undrawn) poking <0.6 m over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x76; terrain-inv terrain left invisible x7
+at28 game (19877, 17766) r 700: fill floating 9130 m2 (572 tris; above all terrain round it 6647 m2) of 551376 m2; skirts hanging in air 1645 segs / 409346 m2, into road clearance 23 segs of 1786; road cells 5042 (covered 854), clearance hits 57; colliders 6466, undrawn 130, undrawn over roads 37, dead items 0
+    clearance: terrain-inv (undrawn) over open road x30; terrain over open road x16; terrain-inv (undrawn) poking <0.6 m over open road x5; terrain-inv (undrawn) in covered road x2; terrain-inv (undrawn, backed) over open road x1; terrain poking <0.6 m over open road x1; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; fill in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x34; terrain-inv terrain left invisible x3
+at29 game (19317, 21182) r 700: fill floating 2544 m2 (82 tris; above all terrain round it 489 m2) of 569383 m2; skirts hanging in air 4489 segs / 681447 m2, into road clearance 3 segs of 4758; road cells 11766 (covered 700), clearance hits 40; colliders 21532, undrawn 416, undrawn over roads 32, dead items 66
+    clearance: terrain-inv (undrawn) over open road x10; terrain-inv (undrawn) in covered road x9; undrawn railing over open road x8; terrain-inv (undrawn, backed) over open road x4; terrain-inv (undrawn, backed) in covered road x3; undrawn railing poking <0.6 m over open road x2; terrain-inv (undrawn) poking <0.6 m over open road x2; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; undrawn model over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x21; railing railing collision N x10; model model blke_0j003 / piece N x1
+at30 game (17118, 21382) r 700: fill floating 2122 m2 (83 tris; above all terrain round it 0 m2) of 282629 m2; skirts hanging in air 5331 segs / 773726 m2, into road clearance 7 segs of 5914; road cells 7826 (covered 316), clearance hits 105; colliders 16133, undrawn 276, undrawn over roads 24, dead items 16
+    clearance: terrain over open road x53; terrain poking <0.6 m over open road x25; terrain-inv (undrawn) over open road x14; terrain-inv (undrawn) poking <0.6 m over open road x9; terrain-inv (undrawn, backed) poking <0.6 m over open road x2; undrawn prefab poking <0.6 m over open road x1; fill poking <0.6 m in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x12; terrain-inv terrain left invisible x11; prefab prefab dlc_it_170 / piece N x1
+at31 game (22238, 11644) r 700: fill floating 4812 m2 (138 tris; above all terrain round it 0 m2) of 413285 m2; skirts hanging in air 2051 segs / 515643 m2, into road clearance 13 segs of 2181; road cells 3625 (covered 56), clearance hits 63; colliders 3577, undrawn 43, undrawn over roads 0, dead items 4
+    clearance: terrain over open road x63
+    undrawn over roads: 
+at32 game (21615, 15447) r 700: fill floating 602 m2 (29 tris; above all terrain round it 316 m2) of 399873 m2; skirts hanging in air 6121 segs / 972208 m2, into road clearance 49 segs of 6572; road cells 17054 (covered 1344), clearance hits 103; colliders 42526, undrawn 349, undrawn over roads 21, dead items 28
+    clearance: terrain over open road x64; terrain-inv (undrawn) over open road x17; terrain poking <0.6 m over open road x9; terrain in covered road x6; terrain-inv (undrawn) poking <0.6 m over open road x4; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; terrain-inv (undrawn, backed) over open road x1; terrain poking <0.6 m in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x21
+at33 game (22439, 13580) r 700: fill floating 2488 m2 (152 tris; above all terrain round it 842 m2) of 109317 m2; skirts hanging in air 4935 segs / 987199 m2, into road clearance 13 segs of 5274; road cells 13727 (covered 524), clearance hits 231; colliders 26171, undrawn 302, undrawn over roads 5, dead items 23
+    clearance: terrain over open road x153; terrain poking <0.6 m over open road x72; terrain-inv (undrawn) over open road x4; fill over open road x1; terrain-inv (undrawn) poking <0.6 m over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x5
+at34 game (20747, 12647) r 700: fill floating 725 m2 (37 tris; above all terrain round it 369 m2) of 667984 m2; skirts hanging in air 2418 segs / 456012 m2, into road clearance 8 segs of 2482; road cells 6186 (covered 520), clearance hits 6; colliders 10673, undrawn 248, undrawn over roads 3, dead items 35
+    clearance: terrain-inv (undrawn) poking <0.6 m over open road x3; terrain-inv (undrawn, backed) poking <0.6 m over open road x2; terrain over open road x1
+    undrawn over roads: terrain-inv terrain left invisible x3
+at35 game (23946, 16326) r 700: fill floating 2029 m2 (150 tris; above all terrain round it 791 m2) of 214198 m2; skirts hanging in air 3021 segs / 609934 m2, into road clearance 0 segs of 3475; road cells 6608 (covered 156), clearance hits 82; colliders 6951, undrawn 142, undrawn over roads 13, dead items 16
+    clearance: terrain over open road x61; terrain-inv (undrawn) poking <0.6 m over open road x10; terrain poking <0.6 m over open road x6; terrain-inv (undrawn) over open road x3; terrain-inv (undrawn, backed) poking <0.6 m over open road x2
+    undrawn over roads: terrain-inv terrain left invisible x12; terrain-inv terrain right invisible x1
+at36 game (21512, 17018) r 700: fill floating 250 m2 (21 tris; above all terrain round it 0 m2) of 66003 m2; skirts hanging in air 5851 segs / 986641 m2, into road clearance 45 segs of 6327; road cells 17171 (covered 913), clearance hits 144; colliders 21119, undrawn 381, undrawn over roads 6, dead items 63
+    clearance: terrain over open road x99; terrain poking <0.6 m over open road x38; undrawn model over open road x6; fill in covered road x1
+    undrawn over roads: model model 1097 / piece N x6
+at37 game (21465, 19850) r 700: fill floating 2409 m2 (76 tris; above all terrain round it 1834 m2) of 725883 m2; skirts hanging in air 3685 segs / 666891 m2, into road clearance 26 segs of 4115; road cells 5110 (covered 128), clearance hits 24; colliders 11591, undrawn 196, undrawn over roads 12, dead items 45
+    clearance: terrain poking <0.6 m over open road x6; terrain-inv (undrawn) poking <0.6 m over open road x5; terrain-inv (undrawn) over open road x5; terrain over open road x3; terrain-inv (undrawn, backed) poking <0.6 m over open road x3; undrawn model over open road x2
+    undrawn over roads: terrain-inv terrain right invisible x10; model model 1097 / piece N x2
+at38 game (-3293, 19790) r 700: fill floating 5374 m2 (227 tris; above all terrain round it 5011 m2) of 172630 m2; skirts hanging in air 4035 segs / 872380 m2, into road clearance 14 segs of 4875; road cells 5501 (covered 1426), clearance hits 199; colliders 12393, undrawn 153, undrawn over roads 33, dead items 18
+    clearance: terrain poking <0.6 m over open road x84; terrain over open road x72; terrain-inv (undrawn) in covered road x12; terrain-inv (undrawn) over open road x11; terrain-inv (undrawn) poking <0.6 m over open road x9; terrain in covered road x4; terrain-inv (undrawn, backed) over open road x2; terrain-inv (undrawn, backed) in covered road x2; terrain poking <0.6 m in covered road x1; terrain-inv (undrawn, backed) poking <0.6 m over open road x1; undrawn model over open road x1
+    undrawn over roads: terrain-inv terrain left invisible x24; terrain-inv terrain right invisible x8; model model 1097 / piece N x1
+at39 game (-3492, 17676) r 700: fill floating 99858 m2 (1732 tris; above all terrain round it 3939 m2) of 552676 m2; skirts hanging in air 3223 segs / 674364 m2, into road clearance 48 segs of 3656; road cells 4812 (covered 1189), clearance hits 45; colliders 13366, undrawn 216, undrawn over roads 4, dead items 83
+    clearance: terrain over open road x23; terrain poking <0.6 m over open road x15; terrain-inv (undrawn) poking <0.6 m in covered road x2; terrain-inv (undrawn, backed) in covered road x2; terrain-inv (undrawn) in covered road x2; terrain in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x4
+ch40 game (-5528, 18034) r 700: fill floating 3224 m2 (215 tris; above all terrain round it 3173 m2) of 549266 m2; skirts hanging in air 2322 segs / 525196 m2, into road clearance 19 segs of 2464; road cells 5781 (covered 66), clearance hits 34; colliders 8128, undrawn 123, undrawn over roads 24, dead items 12
+    clearance: terrain-inv (undrawn) over open road x15; terrain-inv (undrawn) in covered road x7; terrain over open road x7; terrain-inv (undrawn, backed) over open road x2; terrain-inv (undrawn) poking <0.6 m over open road x2; terrain poking <0.6 m over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x23; terrain-inv terrain left invisible x1
+ch41 game (-7961, 23101) r 700: fill floating 88247 m2 (2266 tris; above all terrain round it 1240 m2) of 351372 m2; skirts hanging in air 3392 segs / 633967 m2, into road clearance 51 segs of 3917; road cells 6272 (covered 959), clearance hits 93; colliders 17681, undrawn 240, undrawn over roads 70, dead items 12
+    clearance: terrain-inv (undrawn) poking <0.6 m over open road x46; terrain-inv (undrawn) over open road x18; terrain poking <0.6 m over open road x12; terrain over open road x7; terrain-inv (undrawn) in covered road x6; terrain-inv (undrawn, backed) poking <0.6 m over open road x2; terrain poking <0.6 m in covered road x1; terrain in covered road x1
+    undrawn over roads: terrain-inv terrain right invisible x66; terrain-inv terrain left invisible x4
+ch42 game (-7299, 26357) r 700: fill floating 49320 m2 (1362 tris; above all terrain round it 6637 m2) of 517026 m2; skirts hanging in air 2014 segs / 447787 m2, into road clearance 23 segs of 2614; road cells 5173 (covered 1252), clearance hits 130; colliders 18809, undrawn 298, undrawn over roads 49, dead items 5
+    clearance: terrain over open road x45; terrain-inv (undrawn) over open road x29; terrain in covered road x13; terrain poking <0.6 m over open road x11; terrain-inv (undrawn) poking <0.6 m over open road x11; terrain-inv (undrawn) in covered road x7; terrain-inv (undrawn, backed) in covered road x5; terrain poking <0.6 m in covered road x4; terrain-inv (undrawn) poking <0.6 m in covered road x2; terrain-inv (undrawn, backed) poking <0.6 m over open road x2; terrain-inv (undrawn, backed) over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x48; terrain-inv terrain left invisible x1
+ch43 game (-9799, 14659) r 700: fill floating 282087 m2 (5278 tris; above all terrain round it 0 m2) of 463623 m2; skirts hanging in air 1185 segs / 240494 m2, into road clearance 8 segs of 1189; road cells 3591 (covered 174), clearance hits 120; colliders 12330, undrawn 41, undrawn over roads 12, dead items 6
+    clearance: terrain-inv (undrawn, backed) poking <0.6 m over open road x37; terrain over open road x34; terrain poking <0.6 m over open road x32; terrain-inv (undrawn) over open road x10; terrain-inv (undrawn, backed) over open road x3; fill poking <0.6 m over open road x2; terrain-inv (undrawn) poking <0.6 m over open road x2
+    undrawn over roads: terrain-inv terrain right invisible x12
+ch44 game (-9939, 17964) r 700: fill floating 12692 m2 (1296 tris; above all terrain round it 745 m2) of 159441 m2; skirts hanging in air 5705 segs / 889650 m2, into road clearance 58 segs of 5951; road cells 15745 (covered 3277), clearance hits 2173; colliders 31876, undrawn 643, undrawn over roads 130, dead items 63
+    clearance: terrain over open road x1981; terrain-inv (undrawn) over open road x77; terrain-inv (undrawn) poking <0.6 m in covered road x26; terrain poking <0.6 m over open road x25; terrain-inv (undrawn) in covered road x19; terrain poking <0.6 m in covered road x16; terrain-inv (undrawn) poking <0.6 m over open road x8; terrain in covered road x7; terrain-inv (undrawn, backed) over open road x5; terrain-inv (undrawn, backed) poking <0.6 m over open road x4; fill poking <0.6 m over open road x2; fill over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x102; terrain-inv terrain left invisible x28
+ch45 game (-11446, 21043) r 700: fill floating 13683 m2 (508 tris; above all terrain round it 591 m2) of 995169 m2; skirts hanging in air 7084 segs / 730312 m2, into road clearance 73 segs of 7535; road cells 8754 (covered 557), clearance hits 92; colliders 44295, undrawn 1048, undrawn over roads 1, dead items 131
+    clearance: terrain over open road x65; terrain poking <0.6 m over open road x19; terrain in covered road x6; undrawn prefab poking <0.6 m over open road x1; fill in covered road x1
+    undrawn over roads: prefab prefab dlc_blke_177 / piece N x1
+
+TOTALS: fill floating 1011879 m2 (27963 tris; above all terrain round it 82414 m2) of 19154365 m2; skirts hanging in air 177629 segs / 31161505 m2, into road clearance 1691 segs of 199133; road cells 382319 (covered 40983), clearance hits 9463; colliders 713831, undrawn 12901, undrawn over roads 1252, dead items 1432
+  clearance over roads by what: terrain over open road x6484; terrain poking <0.6 m over open road x914; terrain-inv (undrawn) over open road x775; terrain in covered road x512; terrain-inv (undrawn) in covered road x171; terrain-inv (undrawn) poking <0.6 m over open road x158; terrain-inv (undrawn, backed) poking <0.6 m over open road x112; terrain-inv (undrawn, backed) over open road x85; terrain poking <0.6 m in covered road x51; undrawn railing in covered road x43; terrain-inv (undrawn) poking <0.6 m in covered road x37; undrawn railing over open road x26; terrain-inv (undrawn, backed) in covered road x24; undrawn model over open road x14; fill in covered road x10; undrawn railing poking <0.6 m over open road x9; undrawn railing poking <0.6 m in covered road x9; fill poking <0.6 m over open road x6; fill over open road x6; undrawn prefab over open road x5; fill poking <0.6 m in covered road x4; terrain-inv (undrawn, backed) poking <0.6 m in covered road x3; undrawn prefab poking <0.6 m over open road x3; undrawn prefab in covered road x1; undrawn model in covered road x1
+  undrawn colliders over roads by kind/name: terrain-inv terrain right invisible x831; terrain-inv terrain left invisible x308; railing railing collision N x87; model model 1097 / piece N x11; prefab prefab at_0j00d / piece N x5; terrain-inv prefab terrain inv x2; prefab prefab dlc_it_170 / piece N x2; prefab prefab at_0j008b / piece N x1; model model scene_44a / piece N x1; model model scene_67 / piece N x1; model model dlc_fr_268 / piece N x1; model model blke_0j003 / piece N x1; prefab prefab dlc_blke_177 / piece N x1
+  undrawn colliders by kind/name: run building bld_model.30 / piece N x2969; terrain-inv terrain right invisible x1932; run curve blke_0f002 / piece N x1777; terrain-inv terrain left invisible x1225; railing railing collision N x464; model model 9998 / piece N x307; model model 1097 / piece N x239; run curve at_34001 / piece N x229; model model ibe_1x031 / piece N x126; terrain-inv prefab terrain inv x117; run curve dlc_blke_18 / piece N x95; run curve de_2m001 (poles) / piece N x94; model model ibe_1x005 / piece N x90; prefab prefab mod_ger_67 / piece N x82; terrain-inv terrain patch invisible x76; model model at_2m005 / piece N x70; run curve blke_87 / piece N x68; model model at_2n001 / piece N x66; model model at_0t99j / piece N x62; model model ibe_1x003 / piece N x56; model model at_0m001 / piece N x53; model model ibe_09014 / piece N x47; model model at_2m00d / piece N x43; run curve 5 / piece N x41; run curve rus_1200a / piece N x40; model model at_12002 / piece N x39; run curve dlc_blke_101 / piece N x38; model model at_2m00c / piece N x38; model model at_2m002 / piece N x38; prefab prefab mod_ger_45 / piece N x37; run curve 0m00c / piece N x36; model model ch_43002 / piece N x34; model model wy_1p00b / piece N x34; model model at_2t004 / piece N x32; model model ibe_1x004 / piece N x30; model model at_2m00b / piece N x30; model model ibe_1x006 / piece N x30; model model at_12001 / piece N x30; model model at_2m003 / piece N x30; run curve de_3v002 (poles) / piece N x29; model model at_2n002 / piece N x29; model model ibe_29 / piece N x28; run curve at_01002 / piece N x27; run curve 3g003 / piece N x27; prefab prefab at_2i02y / piece N x26; model model 0700i / piece N x26; run curve rus_1200g / piece N x25; model model at_2m00a / piece N x24; run curve blkw_43002 / piece N x24; model model at_21001 / piece N x24; run curve de_01002 / piece N x23; run curve ibe_12005 / piece N x23; prefab prefab mod_ger_47 / piece N x22; prefab prefab at_07001 / piece N x22; run curve dlc_blke_17 / piece N x20; model model ibe_0c004 / piece N x19; model model scene_44a / piece N x19; model model dlc_no_222 / piece N x19; run curve blkw_43001 / piece N x18; run curve ibe_14005 / piece N x18
+  examples of terrain over open road:
+    at1 game (1133, 6, 20122): Ets Map/roads/road blke33/terrain right dlc_balt_10 1.3 m over roads/road blke33/median 95
+    at1 game (1225, 14, 20002): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 4.8 m over roads/road ger1/vis 24
+    at1 game (1225, 14, 19998): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 4.6 m over roads/road ger1/vis 24
+    at1 game (1225, 15, 19978): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 3.4 m over roads/road ger1/vis 24
+    at1 game (1225, 16, 19958): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 2.2 m over roads/road ger1/vis 24
+    at1 game (1229, 17, 19938): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 1.1 m over roads/road ger1/vis 24
+  examples of terrain poking <0.6 m over open road:
+    at1 game (1141, 6, 20122): Ets Map/roads/road blke33/terrain right dlc_balt_10 0.4 m over roads/road blke33/median 95
+    at1 game (1125, 6, 20110): Ets Map/roads/road blke33/terrain left dlc_balt_10 0.4 m over roads/road blke33/median 95
+    at1 game (1561, 16, 19842): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 0.3 m over roads/road ger23/vis 13
+    at1 game (1561, 15, 19838): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 0.4 m over roads/road ger23/vis 13
+    at1 game (1349, 19, 19810): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 0.3 m over prefab at_2i016/vis/piece 5
+    at1 game (1337, 19, 19798): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 0.3 m over roads/road ger2/vis 0
+  examples of terrain in covered road:
+    at1 game (1217, 10, 19618): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 4.8 m over roads/road ger2/vis 0
+    at1 game (1221, 10, 19602): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 4.9 m over roads/road ger13/vis 2
+    at1 game (1197, 10, 19598): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 3.1 m over prefab mod_ger_17/vis/piece 12
+    at1 game (1201, 10, 19598): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 3.5 m over prefab mod_ger_17/vis/piece 12
+    at1 game (1221, 10, 19598): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 4.8 m over roads/road ger13/vis 2
+    at1 game (1373, 14, 19590): Ets Map/terrain items/terrain profile65/terrain left at_19 4.8 m over roads/road ger2/vis 0
+  examples of terrain poking <0.6 m in covered road:
+    at1 game (1173, 10, 19578): Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 0.3 m over roads/road ger17/vis 7
+    at4 game (5142, 9, 17031): Ets Map/terrain items/terrain profile0/terrain left dlc_balt_10 0.4 m over roads/road ger4/vis 1
+    at7 game (9837, 28, 15931): Ets Map/roads/road ger1/terrain right ibe_37 0.3 m over roads/road ger32/left vis 11
+    at7 game (9841, 28, 15931): Ets Map/roads/road ger1/terrain right ibe_37 0.3 m over roads/road ger32/left vis 11
+    at7 game (9849, 51, 15151): Ets Map/roads/road blke_40/terrain right 0 0.4 m over prefab at_07002/part1/piece 19
+    at9 game (9527, 38, 15017): Ets Map/roads/road ger1/terrain left dlc_balt_10 0.6 m over roads/road ger1/left vis_3_b_15 6
+  examples of undrawn prefab in covered road:
+    at2 game (3199, 4, 19510): prefabs/prefab at_0j008b/collpart1/piece 6 1.5 m over prefab at_0j008b/part1/piece 9
+  examples of terrain-inv (undrawn) over open road:
+    at3 game (2917, 95, 22276): Ets Map/roads/road ger1/terrain right invisible 1.2 m over roads/road ger17/vis 7
+    at3 game (3057, 101, 22184): Ets Map/roads/road ger4/terrain right invisible 1.6 m over roads/road blke33/median 175
+    at3 game (3061, 101, 22184): Ets Map/roads/road ger4/terrain right invisible 1.0 m over roads/road blke33/median 175
+    at3 game (3061, 101, 22180): Ets Map/roads/road ger4/terrain right invisible 2.2 m over roads/road blke33/median 175
+    at3 game (2937, 87, 21848): Ets Map/roads/road ger1/terrain right invisible 0.7 m over prefab mod_ger_20/tran_1/piece 10
+    at3 game (2933, 87, 21840): Ets Map/roads/road ger1/terrain right invisible 1.7 m over roads/road ger11/left vis 1
+  examples of terrain-inv (undrawn) poking <0.6 m over open road:
+    at3 game (2917, 87, 21780): Ets Map/roads/road blke33/terrain right invisible 0.6 m over roads/road ger11/left vis 1
+    at4 game (4738, 16, 17891): Ets Map/roads/road ger11/terrain left invisible 0.3 m over roads/road ger4/vis 1
+    at11 game (10273, 68, 17858): Ets Map/terrain items/terrain profile31/terrain right invisible 0.6 m over roads/road ger13/vis 2
+    at12 game (11198, 16, 22337): Ets Map/terrain items/terrain profile88/terrain right invisible 0.3 m over roads/road ger13/vis 2
+    at13 game (10017, 18, 20758): Ets Map/terrain items/terrain profile31/terrain right invisible 0.4 m over roads/road ger1/vis 24
+    at13 game (10021, 17, 20758): Ets Map/terrain items/terrain profile31/terrain right invisible 0.4 m over roads/road ger1/vis 24
+  examples of undrawn railing over open road:
+    at4 game (4770, 14, 17907): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.7 m over roads/road ger11/median dlc_balt_46
+    at4 game (4774, 14, 17755): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.9 m over roads/road ger11/median dlc_balt_46
+    at4 game (4850, 14, 17603): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.7 m over roads/road ger11/median dlc_balt_46
+    at4 game (4994, 14, 17371): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 1.0 m over roads/road ger11/median dlc_balt_46
+    at6 game (11392, 56, 14210): road ger12/railings/railing 36 left 0/railing collision 8 2.6 m over roads/road ger12/median 6
+    at6 game (11416, 56, 14206): road ger12/railings/railing 36 left 0/railing collision 8 0.8 m over roads/road ger12/median 6
+  examples of undrawn railing poking <0.6 m over open road:
+    at4 game (4770, 14, 17771): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.3 m over roads/road ger11/median dlc_balt_46
+    at4 game (4862, 14, 17587): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.6 m over roads/road ger11/median dlc_balt_46
+    at4 game (5018, 14, 17319): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.3 m over roads/road ger11/median dlc_balt_46
+    at4 game (5042, 14, 17267): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.4 m over roads/road ger11/median dlc_balt_46
+    at6 game (11424, 56, 14214): road ger12/railings/railing 36 left 0/railing collision 8 0.4 m over roads/road ger12/median 6
+    at6 game (11136, 56, 14174): road ger12/railings/railing 36 left 0/railing collision 8 0.6 m over roads/road ger12/median dlc_balt_36
+  examples of undrawn railing in covered road:
+    at4 game (4938, 14, 17479): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.7 m over roads/road ger11/median dlc_balt_46
+    at6 game (11356, 56, 14206): road ger12/railings/railing 36 left 0/railing collision 8 1.6 m over roads/road ger12/median 6
+    at6 game (11344, 56, 14198): road ger12/railings/railing 36 left 0/railing collision 8 2.1 m over roads/road ger12/median 6
+    at6 game (11252, 56, 14194): road ger12/railings/railing 36 left 0/railing collision 8 3.0 m over roads/road ger12/median 6
+    at6 game (11216, 56, 14190): road ger12/railings/railing 36 left 0/railing collision 8 1.8 m over roads/road ger12/median dlc_balt_36
+    at6 game (11276, 56, 14190): road ger12/railings/railing 36 left 0/railing collision 8 0.7 m over roads/road ger12/median 6
+  examples of undrawn railing poking <0.6 m in covered road:
+    at4 game (4954, 14, 17451): road ger11/railings/railing dlc_balt_3 right 0/railing collision 10 0.6 m over roads/road ger11/median dlc_balt_46
+    at6 game (11284, 56, 14198): road ger12/railings/railing 36 left 0/railing collision 8 0.6 m over roads/road ger12/median 6
+    at6 game (11312, 56, 14194): road ger12/railings/railing 36 left 0/railing collision 8 0.3 m over roads/road ger12/median 6
+    at6 game (11108, 56, 14178): road ger12/railings/railing 36 left 0/railing collision 8 0.3 m over roads/road ger12/median dlc_balt_36
+    at14 game (9679, 21, 24185): road template39/railings/railing 106 left 0/railing collision 18 0.4 m over roads/road template39/median 172
+    at14 game (9783, 21, 23973): road template39/railings/railing 106 left 0/railing collision 18 0.5 m over roads/road template39/median 115
+  examples of terrain-inv (undrawn, backed) poking <0.6 m over open road:
+    at4 game (5182, 7, 17055): Ets Map/roads/road ger11/terrain right invisible 0.5 m over roads/road ger4/vis 1
+    at6 game (10480, 57, 13422): Ets Map/terrain items/terrain profile15/terrain left invisible 0.3 m over roads/road blke_40/vis 1
+    at9 game (8751, 30, 15633): Ets Map/roads/road ger1/terrain left invisible 0.3 m over prefab at_0j00a/part1/piece 18
+    at9 game (8519, 36, 15397): Ets Map/roads/road ger1/terrain left invisible 0.3 m over roads/road ger5/vis 1
+    at11 game (10281, 68, 17858): Ets Map/terrain items/terrain profile31/terrain right invisible 0.4 m over roads/road ger13/vis 2
+    at11 game (10005, 67, 17426): Ets Map/roads/road ger13/terrain left invisible 0.4 m over roads/road ger13/vis 2
+  examples of fill in covered road:
+    at8 game (12339, 68, 15100): Ets Map Viewer/ground fill/fill -19 12 2.8 m over roads/road ger2/vis 0
+    at10 game (10788, 78, 19100): Ets Map Viewer/ground fill/fill -25 -4 3.9 m over roads/road ger2/vis 0
+    at12 game (11214, 5, 22325): Ets Map Viewer/ground fill/fill -23 -17 3.5 m over roads/road ger13/vis 2
+    at14 game (9679, 21, 24133): Ets Map Viewer/ground fill/fill -29 -24 0.7 m over roads/road template39/left vis 1
+    at15 game (15052, 62, 13263): Ets Map Viewer/ground fill/fill -8 20 4.8 m over roads/road ger13/vis 2
+    at18 game (13274, 53, 13159): Ets Map Viewer/ground fill/fill -15 20 4.7 m over roads/road ger13/vis 2
+  examples of terrain-inv (undrawn, backed) over open road:
+    at9 game (8747, 30, 15597): Ets Map/roads/road ger1/terrain left invisible 0.8 m over prefab at_0j00a/part1/piece 18
+    at9 game (8623, 48, 15141): Ets Map/terrain items/terrain profile15/terrain right invisible 4.0 m over roads/road ger14/right vis 1
+    at9 game (8719, 50, 15089): Ets Map/terrain items/terrain profile15/terrain right invisible 3.0 m over roads/road ger14/right vis 1
+    at9 game (9507, 38, 15061): Ets Map/roads/road ger1/terrain left invisible 2.2 m over roads/road ger1/left vis_3_b_15 6
+    at9 game (9519, 38, 15037): Ets Map/roads/road ger1/terrain left invisible 2.0 m over roads/road ger1/left vis_3_b_15 6
+    at11 game (10213, 68, 17858): Ets Map/terrain items/terrain profile31/terrain right invisible 2.0 m over roads/road ger13/vis 2
+  examples of terrain-inv (undrawn) poking <0.6 m in covered road:
+    at9 game (9535, 24, 15485): Ets Map/terrain items/terrain profile113/terrain right invisible 0.6 m over roads/road ger1/vis 24
+    at21 game (14417, 54, 17898): Ets Map/terrain items/terrain profile0/terrain left invisible 0.5 m over roads/road ger11/right vis 1
+    at39 game (-3232, 47, 18376): Ets Map/terrain items/terrain profile15/terrain right invisible 0.5 m over roads/road ger13/vis 2
+    at39 game (-3252, 46, 18372): Ets Map/terrain items/terrain profile15/terrain right invisible 0.5 m over roads/road ger13/vis 2
+    ch44 game (-9823, 46, 18304): Ets Map/terrain items/terrain profile122/terrain right invisible 0.3 m over roads/road ger2/vis 0
+    ch44 game (-9823, 46, 18300): Ets Map/terrain items/terrain profile122/terrain right invisible 0.3 m over roads/road ger2/vis 0
+  examples of terrain-inv (undrawn) in covered road:
+    at9 game (9543, 24, 15481): Ets Map/terrain items/terrain profile113/terrain right invisible 0.9 m over roads/road ger1/vis 24
+    at9 game (8715, 50, 15077): Ets Map/terrain items/terrain profile15/terrain right invisible 4.4 m over roads/road ger14/right vis 1
+    at9 game (9807, 38, 14413): Ets Map/roads/road blke33/terrain left invisible 2.2 m over roads/road ger1/vis 24
+    at10 game (10448, 81, 18748): Ets Map/terrain items/terrain profile112/terrain left invisible 3.2 m over roads/road ger13/vis 2
+    at10 game (10448, 80, 18692): Ets Map/terrain items/terrain profile112/terrain right invisible 0.9 m over roads/road ger16/vis 13
+    at10 game (10400, 79, 18676): Ets Map/terrain items/terrain profile112/terrain right invisible 0.8 m over roads/road ger13/vis 2
+  examples of fill poking <0.6 m in covered road:
+    at9 game (9323, 40, 14905): Ets Map Viewer/ground fill/fill -31 13 0.3 m over roads/road ger23/vis 13
+    at12 game (11178, 16, 22345): Ets Map Viewer/ground fill/fill -23 -17 0.3 m over roads/road ger13/vis 2
+    at30 game (17778, 28, 21026): Ets Map Viewer/ground fill/fill 3 -11 0.5 m over roads/road ger17/vis 7
+    ch44 game (-9647, 36, 17696): Ets Map Viewer/ground fill/fill -107 2 0.3 m over roads/road ger2/vis 0
+  examples of undrawn prefab poking <0.6 m over open road:
+    at9 game (9687, 38, 14665): prefabs/prefab dlc_it_170/collpart3/piece 0 0.3 m over prefab dlc_it_170/part3/piece 10
+    at30 game (17674, 30, 21470): prefabs/prefab dlc_it_170/collpart3/piece 0 0.3 m over prefab dlc_it_170/part3/piece 18
+    ch45 game (-11786, 39, 20923): prefabs/prefab dlc_blke_177/collpart1/piece 4 0.3 m over prefab dlc_blke_177/part1/piece 24
+  examples of fill poking <0.6 m over open road:
+    at10 game (10824, 79, 19096): Ets Map Viewer/ground fill/fill -25 -4 0.5 m over roads/road ger2/vis 0
+    at12 game (10522, 7, 23077): Ets Map Viewer/ground fill/fill -26 -20 0.3 m over roads/road blke34/vis 2
+    ch43 game (-9267, 55, 14775): Ets Map Viewer/ground fill/fill -105 14 0.3 m over prefab at_0j001b/collpart1/piece 3
+    ch44 game (-9567, 40, 18600): Ets Map Viewer/ground fill/fill -106 -2 0.4 m over prefab at_0j004/collpart1/piece 0
+  examples of terrain-inv (undrawn, backed) in covered road:
+    at10 game (10460, 81, 18748): Ets Map/terrain items/terrain profile112/terrain left invisible 3.4 m over prefab mod_ger_27/vis/piece 15
+    at13 game (10929, 36, 20578): Ets Map/terrain items/terrain profile65/terrain left invisible 4.8 m over roads/road ger11/right vis 1
+    at16 game (13182, 51, 15458): Ets Map/terrain items/terrain profile39/terrain right invisible 0.9 m over roads/road ger11/median dlc_balt_36
+    at20 game (16293, 52, 19208): Ets Map/terrain items/terrain profile25/terrain right invisible 3.4 m over roads/road ger11/right vis 1
+    at23 game (14004, 9, 22245): Ets Map/terrain items/terrain profile31/terrain right invisible 4.2 m over roads/road ger16/vis 13
+    at38 game (-3557, 42, 19326): Ets Map/terrain items/terrain profile31/terrain left invisible 4.3 m over roads/road ger13/vis 2
+  examples of fill over open road:
+    at14 game (9727, 21, 24029): Ets Map Viewer/ground fill/fill -29 -23 1.5 m over roads/road template39/left vis 1
+    at19 game (12237, 80, 19547): Ets Map Viewer/ground fill/fill -19 -5 2.1 m over roads/road ger13/vis 2
+    at19 game (12241, 80, 19547): Ets Map Viewer/ground fill/fill -19 -5 2.1 m over roads/road ger13/vis 2
+    at33 game (21775, 58, 14220): Ets Map Viewer/ground fill/fill 19 16 0.9 m over roads/road ger2/vis 0
+  examples of undrawn prefab over open road:
+    at15 game (14120, 48, 14223): prefabs/prefab at_0j00d/collpart1/piece 13 1.4 m over prefab at_0j00d/part1/piece 14
+    at15 game (14140, 48, 14223): prefabs/prefab at_0j00d/collpart1/piece 13 4.4 m over prefab at_0j00d/part1/piece 14
+    at15 game (14120, 48, 14219): prefabs/prefab at_0j00d/collpart1/piece 13 1.5 m over prefab at_0j00d/part1/piece 14
+  examples of undrawn model over open road:
+    at16 game (13426, 50, 15946): models/model scene_44a/mesh/piece 0 4.1 m over roads/road blke_40/vis 1
+    at16 game (13458, 51, 15846): models/model 1097/mesh/piece 0 1.3 m over roads/road blke_40/vis 1
+    at16 game (13454, 51, 15838): models/model 1097/mesh/piece 0 1.3 m over roads/road blke_40/vis 1
+    at16 game (13446, 51, 15818): models/model scene_67/defaultpart/piece 0 3.6 m over roads/road blke_40/vis 1
+    at29 game (19025, 30, 21094): models/model blke_0j003/mesh/piece 0 3.2 m over roads/road ger1/vis 24
+    at36 game (21440, 59, 17070): models/model 1097/mesh/piece 0 1.3 m over roads/road blke_40/vis 1
+  examples of terrain-inv (undrawn, backed) poking <0.6 m in covered road:
+    at23 game (14000, 9, 22237): Ets Map/terrain items/terrain profile31/terrain right invisible 0.5 m over roads/road ger16/vis 13
+    ch44 game (-10379, 32, 17688): Ets Map/terrain items/terrain profile121/terrain right invisible 0.4 m over roads/road ger1/vis 24
+  examples of undrawn model in covered road:
+    at24 game (19450, 56, 14681): models/model dlc_fr_268/collpart2/piece 0 5.0 m over roads/road blke27/vis 2
+  worst floating fill:
+    at3 game (2708, 178, 21067) fill fill -57 -12 area 354 m2 air under it 182.7 m over [model model 1151/default1/piece 0]
+    at11 game (9408, 239, 18067) fill fill -30 0 area 316 m2 air under it 192.5 m over [model model at_2d002/part1/piece 0]
+    at11 game (9417, 237, 18058) fill fill -30 0 area 316 m2 air under it 191.4 m over [model model at_2d002/part1/piece 0]
+    at3 game (2683, 178, 21067) fill fill -57 -12 area 346 m2 air under it 182.6 m over [model model 1151/default1/piece 0]
+    at3 game (2733, 175, 21067) fill fill -57 -12 area 349 m2 air under it 179.2 m over [model model 1151/default1/piece 0]
+    at3 game (2692, 175, 21058) fill fill -57 -12 area 351 m2 air under it 175.6 m over [model model 1151/default1/piece 0]
+    at3 game (2658, 174, 21067) fill fill -57 -12 area 338 m2 air under it 178.9 m over [model model 1151/default1/piece 0]
+    at3 game (2758, 172, 21067) fill fill -57 -12 area 343 m2 air under it 176.1 m over [model model 1151/default1/piece 0]
+    at3 game (2667, 173, 21058) fill fill -57 -12 area 346 m2 air under it 174.1 m over [model model 1151/default1/piece 0]
+    at3 game (2717, 173, 21058) fill fill -57 -12 area 349 m2 air under it 173.1 m over [model model 1151/default1/piece 0]
+    at3 game (2783, 167, 21067) fill fill -57 -12 area 347 m2 air under it 171.6 m over [model model 1151/default1/piece 0]
+    at3 game (2742, 170, 21058) fill fill -57 -12 area 340 m2 air under it 172.0 m over [model model 1151/default1/piece 0]
+    at3 game (2767, 166, 21058) fill fill -57 -12 area 349 m2 air under it 169.4 m over [model model 1151/default1/piece 0]
+    at3 game (2633, 168, 21067) fill fill -58 -12 area 335 m2 air under it 172.7 m over [model model 1151/default1/piece 0]
+    at3 game (2642, 168, 21058) fill fill -58 -12 area 336 m2 air under it 171.7 m over [model model 1151/default1/piece 0]
+    at3 game (2808, 163, 21067) fill fill -57 -12 area 336 m2 air under it 167.9 m over [model model 1151/default1/piece 0]
+    at3 game (2792, 163, 21058) fill fill -57 -12 area 327 m2 air under it 165.8 m over [model model 1151/default1/piece 0]
+    at3 game (2833, 158, 21067) fill fill -57 -12 area 330 m2 air under it 162.6 m over [model model 1151/default1/piece 0]
+    at3 game (2817, 159, 21058) fill fill -57 -12 area 330 m2 air under it 161.9 m over [model model 1151/default1/piece 0]
+    at3 game (2858, 155, 21067) fill fill -57 -12 area 321 m2 air under it 159.4 m over [model model 1151/default1/piece 0]
+    at3 game (2842, 156, 21058) fill fill -57 -12 area 313 m2 air under it 158.9 m over [model model 1151/default1/piece 0]
+    at3 game (2867, 153, 21058) fill fill -57 -12 area 319 m2 air under it 156.3 m over [model model 1151/default1/piece 0]
+    at3 game (2883, 150, 21067) fill fill -57 -12 area 318 m2 air under it 154.4 m over [model model 1151/default1/piece 0]
+    at3 game (2892, 150, 21058) fill fill -57 -12 area 319 m2 air under it 153.7 m over [model model 1151/default1/piece 0]
+    at3 game (2908, 147, 21067) fill fill -56 -12 area 325 m2 air under it 151.7 m over [model model 1151/default1/piece 0]
+    at3 game (2917, 146, 21058) fill fill -56 -12 area 332 m2 air under it 150.1 m over [model model 1151/default1/piece 0]
+    at3 game (2933, 141, 21067) fill fill -56 -12 area 319 m2 air under it 145.4 m over [model model 1151/default1/piece 0]
+    at3 game (2942, 140, 21058) fill fill -56 -12 area 319 m2 air under it 143.7 m over [model model 1151/default1/piece 0]
+    at3 game (2958, 136, 21067) fill fill -56 -12 area 319 m2 air under it 140.6 m over [model model 1151/default1/piece 0]
+    at3 game (2967, 136, 21058) fill fill -56 -12 area 317 m2 air under it 138.3 m over [model model 1151/default1/piece 0]
+  worst skirts:
+    at21 game (14334, 261, 17393) skirt of terrain items/terrain profile112/terrain skirt 308.8 x 68.1 m HANGS (foot game (14334, 193, 17393) has nothing within 2 m under it)
+    at38 game (-3724, 189, 19500) skirt of terrain items/terrain profile112/terrain skirt 290.4 x 56.3 m HANGS (foot game (-3724, 133, 19500) has nothing within 2 m under it)
+    at4 game (4500, 89, 17395) skirt of terrain items/terrain profile114/terrain skirt 202.7 x 72.3 m HANGS (foot game (4500, 17, 17395) has nothing within 2 m under it)
+    at4 game (4466, 79, 17549) skirt of terrain items/terrain profile114/terrain skirt 192.0 x 74.9 m HANGS (foot game (4466, 4, 17549) has nothing within 2 m under it)
+    at4 game (4466, 79, 17549) skirt of terrain items/terrain profile114/terrain skirt 192.0 x 74.9 m HANGS (foot game (4466, 4, 17549) has nothing within 2 m under it)
+    at4 game (4477, 70, 17848) skirt of terrain items/terrain profile114/terrain skirt 233.5 x 60.4 m HANGS (foot game (4477, 10, 17848) has nothing within 2 m under it)
+    at4 game (4477, 70, 17848) skirt of terrain items/terrain profile114/terrain skirt 233.5 x 60.4 m HANGS (foot game (4477, 10, 17848) has nothing within 2 m under it)
+    at4 game (4472, 84, 17466) skirt of terrain items/terrain profile114/terrain skirt 209.3 x 66.3 m HANGS (foot game (4472, 18, 17466) has nothing within 2 m under it)
+    at4 game (4472, 84, 17466) skirt of terrain items/terrain profile114/terrain skirt 209.3 x 66.3 m HANGS (foot game (4472, 18, 17466) has nothing within 2 m under it)
+    at21 game (14083, 158, 17143) skirt of terrain items/terrain profile112/terrain skirt 233.1 x 53.6 m HANGS (foot game (14083, 105, 17143) has nothing within 2 m under it)
+    at4 game (4460, 58, 17696) skirt of terrain items/terrain profile114/terrain skirt 226.0 x 48.1 m HANGS (foot game (4460, 10, 17696) has nothing within 2 m under it)
+    at4 game (4460, 58, 17696) skirt of terrain items/terrain profile114/terrain skirt 226.0 x 48.1 m HANGS (foot game (4460, 10, 17696) has nothing within 2 m under it)
+    at38 game (-3670, 196, 19519) skirt of terrain items/terrain profile112/terrain skirt 215.1 x 48.9 m HANGS (foot game (-3670, 147, 19519) has nothing within 2 m under it)
+    at38 game (-3670, 196, 19519) skirt of terrain items/terrain profile112/terrain skirt 215.1 x 48.9 m HANGS (foot game (-3670, 147, 19519) has nothing within 2 m under it)
+    at38 game (-3905, 224, 19669) skirt of terrain items/terrain profile112/terrain skirt 158.7 x 56.3 m HANGS (foot game (-3905, 168, 19669) has nothing within 2 m under it)
+    at4 game (4407, 174, 17126) skirt of terrain items/terrain profile114/terrain skirt 122.3 x 68.4 m HANGS (foot game (4407, 105, 17126) has nothing within 2 m under it)
+    at4 game (5030, 92, 17473) skirt of terrain items/terrain profile114/terrain skirt 122.3 x 68.4 m HANGS (foot game (5030, 24, 17473) has nothing within 2 m under it)
+    at4 game (4407, 174, 17126) skirt of terrain items/terrain profile114/terrain skirt 122.3 x 68.4 m HANGS (foot game (4407, 105, 17126) has nothing within 2 m under it)
+    at4 game (5030, 92, 17473) skirt of terrain items/terrain profile114/terrain skirt 122.3 x 68.4 m HANGS (foot game (5030, 24, 17473) has nothing within 2 m under it)
+    at2 game (3310, 132, 19358) skirt of terrain items/terrain profile87/terrain skirt 160.3 x 48.9 m HANGS (foot game (3310, 84, 19358) has nothing within 2 m under it)
+    at7 game (9939, 102, 16227) skirt of terrain items/terrain profile112/terrain skirt 300.7 x 21.9 m HANGS (foot game (9939, 80, 16227) has nothing within 2 m under it)
+    at15 game (14999, 46, 13855) skirt of terrain items/bezier patch/terrain skirt 321.7 x 20.0 m HANGS (foot game (14999, 26, 13855) has nothing within 2 m under it)
+    at15 game (14680, 46, 13841) skirt of terrain items/bezier patch/terrain skirt 317.4 x 20.0 m HANGS (foot game (14680, 26, 13841) has nothing within 2 m under it)
+    at20 game (15687, 165, 19377) skirt of roads/road ger1/terrain skirt 121.8 x 52.1 m HANGS (foot game (15687, 113, 19377) has nothing within 2 m under it)
+    at20 game (15687, 165, 19377) skirt of roads/road ger1/terrain skirt 121.8 x 52.1 m HANGS (foot game (15687, 113, 19377) has nothing within 2 m under it)
+    at28 game (20025, 40, 17704) skirt of roads/road ger1/terrain skirt 121.3 x 52.1 m HANGS (foot game (20025, -12, 17704) has nothing within 2 m under it)
+    at21 game (14279, 131, 17127) skirt of terrain items/terrain profile112/terrain skirt 238.1 x 26.1 m HANGS (foot game (14279, 105, 17127) has nothing within 2 m under it)
+    at4 game (5085, 32, 17735) skirt of terrain items/terrain profile114/terrain skirt 127.4 x 47.0 m HANGS (foot game (5085, -15, 17735) has nothing within 2 m under it)
+    at4 game (4462, 114, 17388) skirt of terrain items/terrain profile114/terrain skirt 127.4 x 47.0 m HANGS (foot game (4462, 67, 17388) has nothing within 2 m under it)
+    at4 game (5086, 32, 17733) skirt of terrain items/terrain profile114/terrain skirt 126.9 x 47.2 m HANGS (foot game (5086, -15, 17733) has nothing within 2 m under it)
+  worst road clearance:
+    at1 game (1181, 10, 19558) terrain in covered road: Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 0.6 m over roads/road ger17/vis 7
+    ch41 game (-8241, 121, 22445) terrain in covered road: Ets Map/terrain items/terrain profile112/terrain right at_28 0.6 m over roads/road ger1/vis 24
+    ch42 game (-7263, 37, 26285) terrain in covered road: Ets Map/roads/road blke33b/terrain left 168 0.6 m over roads/road blke33b/median dlc_fr_77
+    at14 game (9679, 21, 24133) fill in covered road: Ets Map Viewer/ground fill/fill -29 -24 0.7 m over roads/road template39/left vis 1
+    ch45 game (-11418, 40, 20655) fill in covered road: Ets Map Viewer/ground fill/fill -114 -10 0.7 m over roads/road tram42/vis_def 0
+    at14 game (9815, 21, 23937) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain right at_08 0.8 m over roads/road template39/median 115
+    at13 game (10861, 36, 20326) terrain in covered road: Ets Map/terrain items/terrain profile112/terrain right dlc_balt_32 0.8 m over roads/road ger1/vis 24
+    at15 game (14792, 72, 13699) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 0.8 m over prefab at_0j004/part1/piece 22
+    ch42 game (-7463, 31, 25753) terrain in covered road: Ets Map/roads/road blke33b/terrain right dlc_balt_10 0.8 m over roads/road blke33b/median dlc_fr_77
+    at15 game (14792, 72, 13719) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 0.9 m over prefab at_0j004/part1/piece 22
+    at25 game (17543, 57, 13940) terrain in covered road: Ets Map/terrain items/terrain profile16uk/terrain right dlc_balt_14 0.9 m over roads/road blke33/right vis 2
+    at21 game (14685, 49, 18090) terrain in covered road: Ets Map/terrain items/terrain profile92/terrain right blke_7 0.9 m over roads/road blke33/left vis 2
+    at38 game (-2597, 46, 20286) terrain in covered road: Ets Map/terrain items/terrain profile31/terrain right dlc_balt_10 0.9 m over roads/road ger9/vis 11
+    at1 game (1177, 10, 19586) terrain in covered road: Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 1.0 m over prefab mod_ger_17/vis/piece 12
+    ch42 game (-7423, 59, 26617) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain left blke_8 1.0 m over roads/road template64/vis 1
+    ch42 game (-7419, 59, 26617) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain right blke_8 1.0 m over roads/road template64/vis 1
+    ch42 game (-7435, 59, 26629) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain right blke_22 1.0 m over roads/road template64/vis 1
+    at1 game (1181, 10, 19578) terrain in covered road: Ets Map/terrain items/bezier patch/terrain patch dlc_balt_4 1.1 m over prefab mod_ger_17/vis/piece 13
+    at14 game (9823, 21, 23945) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain right at_08 1.2 m over roads/road template39/right vis 1
+    at12 game (11182, 16, 22353) terrain in covered road: Ets Map/terrain items/terrain profile88/terrain right dlc_balt_10 1.2 m over roads/road ger13/vis 2
+    at24 game (19042, 51, 14201) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain left dlc_balt_10 1.2 m over roads/road blke33/median blke_16
+    at7 game (9853, 51, 15139) terrain in covered road: Ets Map/roads/road blke_40/terrain left 0 1.4 m over prefab at_07002/part1/piece 19
+    at20 game (16237, 50, 18712) terrain in covered road: Ets Map/terrain items/terrain profile0/terrain left at_07 1.5 m over roads/road ger4/vis 1
+    at15 game (14568, 48, 13739) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 1.8 m over roads/road blke33/median 175
+    ch44 game (-10495, 37, 17780) terrain in covered road: Ets Map/terrain items/terrain profile122/terrain left dlc_balt_5 1.9 m over roads/road ger2/vis 0
+    at15 game (14580, 48, 13739) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 2.0 m over roads/road blke33/median 175
+    at15 game (14576, 48, 13747) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 2.0 m over roads/road blke33/median 175
+    at2 game (3423, 5, 19494) terrain in covered road: Ets Map/terrain items/terrain profile87/terrain left at_19 2.1 m over roads/road ger1/vis 24
+    at15 game (14592, 48, 13759) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 2.3 m over roads/road blke33/median 175
+    at15 game (14596, 48, 13763) terrain in covered road: Ets Map/roads/road ger1/terrain right dlc_balt_10 2.3 m over roads/road blke33/median 175
+  worst dead items:
+    at12 game (10926, 15, 22904) model model dlc_it_385 colliders with nothing drawn, size (41.4, 4.9, 41.9)
+    at8 game (12381, 78, 14574) model model dlc_no_470 colliders with nothing drawn, size (40.4, 2.3, 40.5)
+    at3 game (3110, 99, 22462) prefab prefab 2i04o colliders with nothing drawn, size (39.3, 0.0, 31.1)
+    at12 game (10712, 21, 22361) model model dlc_no_470 colliders with nothing drawn, size (29.9, 2.3, 30.1)
+    at3 game (3023, 99, 22417) prefab prefab 2i04m colliders with nothing drawn, size (19.1, 0.3, 18.0)
+    ch44 game (-9632, 41, 18506) prefab prefab 2i04n colliders with nothing drawn, size (17.3, 0.0, 18.6)
+    ch44 game (-9668, 41, 18506) prefab prefab 14bvb colliders with nothing drawn, size (18.5, 0.0, 17.2)
+    at37 game (21406, 21, 19888) model model scene_44a colliders with nothing drawn, size (15.4, 4.0, 18.4)
+    at35 game (23805, 56, 16113) model model scene_44a colliders with nothing drawn, size (18.6, 4.0, 15.1)
+    at35 game (23789, 56, 16114) model model scene_44a colliders with nothing drawn, size (18.6, 4.0, 15.1)
+    at35 game (23772, 56, 16111) model model scene_44a colliders with nothing drawn, size (18.6, 4.0, 15.1)
+    at35 game (23779, 56, 16070) model model scene_44a colliders with nothing drawn, size (18.8, 4.0, 14.9)
+    at35 game (23761, 56, 16068) model model scene_44a colliders with nothing drawn, size (18.8, 4.0, 14.9)
+    at35 game (23807, 56, 16071) model model scene_44a colliders with nothing drawn, size (18.8, 4.0, 14.9)
+    at17 game (14878, 59, 14716) model model scene_44a colliders with nothing drawn, size (19.2, 4.0, 14.2)
+    at17 game (14837, 59, 14764) model model scene_44a colliders with nothing drawn, size (14.1, 4.0, 19.3)
+    at17 game (14863, 59, 14769) model model scene_44a colliders with nothing drawn, size (14.1, 4.0, 19.3)
+    at17 game (14850, 59, 14738) model model scene_44a colliders with nothing drawn, size (14.1, 4.0, 19.3)
+    at39 game (-3601, 39, 17314) model model ibe_0c004 colliders with nothing drawn, size (17.1, 0.0, 16.9)
+    at39 game (-3628, 39, 17308) model model ibe_0c004 colliders with nothing drawn, size (17.1, 0.0, 16.9)
+    at39 game (-3627, 39, 17325) model model ibe_0c004 colliders with nothing drawn, size (17.1, 0.0, 16.9)
+    at39 game (-3600, 39, 17329) model model ibe_0c004 colliders with nothing drawn, size (17.1, 0.0, 16.9)
+    at39 game (-3601, 39, 17324) model model ibe_0c004 colliders with nothing drawn, size (17.1, 0.0, 16.9)
+    at39 game (-3627, 39, 17319) model model ibe_0c004 colliders with nothing drawn, size (17.1, 0.0, 16.9)
+    at39 game (-3531, 39, 17350) model model ibe_0c004 colliders with nothing drawn, size (17.0, 0.0, 17.0)
+    at39 game (-3530, 39, 17359) model model ibe_0c004 colliders with nothing drawn, size (17.0, 0.0, 17.0)
+    at39 game (-3535, 39, 17390) model model ibe_0c004 colliders with nothing drawn, size (17.2, 0.0, 16.8)
+    at39 game (-3534, 39, 17409) model model ibe_0c004 colliders with nothing drawn, size (17.5, 0.0, 16.5)
+    at39 game (-3535, 39, 17396) model model ibe_0c004 colliders with nothing drawn, size (17.5, 0.0, 16.5)
+    at29 game (19020, 31, 21086) model model blke_0j003 colliders with nothing drawn, size (14.0, 3.1, 19.3)

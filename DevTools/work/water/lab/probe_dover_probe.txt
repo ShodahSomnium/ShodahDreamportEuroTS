@@ -1,0 +1,63 @@
+== probe 485,-142,6,3
+  (479.0, -148.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (482.0, -148.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (485.0, -148.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (488.0, -148.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (491.0, -148.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (479.0, -145.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (482.0, -145.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (485.0, -145.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (488.0, -145.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (491.0, -145.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (479.0, -142.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (482.0, -142.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (485.0, -142.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (488.0, -142.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (491.0, -142.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (479.0, -139.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (482.0, -139.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (485.0, -139.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (488.0, -139.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (491.0, -139.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (479.0, -136.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (482.0, -136.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (485.0, -136.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (488.0, -136.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (491.0, -136.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  renderers over (485.0, -142.0):
+    Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.6..-5.6 mat /umatlib/legacy/terrain/water/water_ocean.mat / SomniumEuroTruck/Multi queue 2000 layer 7 cutoff 0.40 kw [] _BaseMap=/material/terrain/water/waves_lake.tobj BC5 _MultMap=/material/terrain/water/waves_lake.tobj BC5 mesh Combined Mesh (root: terrain profile34uk) v 220 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile34uk/terrain skirt y -25.6..-5.6 mat /umatlib/legacy/terrain/water/water_ocean.mat / SomniumEuroTruck/Multi queue 2000 layer 7 cutoff 0.40 kw [] _BaseMap=/material/terrain/water/waves_lake.tobj BC5 _MultMap=/material/terrain/water/waves_lake.tobj BC5 mesh Combined Mesh (root: terrain profile34uk) v 220 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.6..-5.6 mat /umatlib/legacy/terrain/water/water_ocean.mat / SomniumEuroTruck/Multi queue 2000 layer 7 cutoff 0.40 kw [] _BaseMap=/material/terrain/water/waves_lake.tobj BC5 _MultMap=/material/terrain/water/waves_lake.tobj BC5 mesh Combined Mesh (root: terrain profile34uk) v 172 (not readable) colors False uv1 False
+    building bld_model.92/start/start/piece 2 y -5.6..-5.6 mat /automat/b5/b5173adb0f246784.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/effects/water_foam_01_shadow_difopa.tobj DXT5 mesh Combined Mesh (root: building bld_model.92) v 24 (not readable) colors True uv1 True
+    life eagles.pmd/model/lod0/piece 0 y 22.8..74.0 mat /automat/4b/4b97e74e0b57ea20.mat / Universal Render Pipeline/Lit queue 2450 cutoff 0.05 kw [_ALPHATEST_ON _ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/model/mover/eagle.tobj DXT5
+== probe 470,-160,6,3
+  (464.0, -166.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (467.0, -166.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (470.0, -166.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (473.0, -166.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (476.0, -166.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (464.0, -163.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (467.0, -163.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (470.0, -163.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (473.0, -163.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (476.0, -163.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (464.0, -160.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (467.0, -160.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (470.0, -160.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (473.0, -160.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (476.0, -160.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (464.0, -157.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (467.0, -157.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (470.0, -157.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (473.0, -157.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (476.0, -157.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (464.0, -154.0):  [building bld_model.92/end/end/piece 1 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (467.0, -154.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (470.0, -154.0):  [building bld_model.92/start/start/piece 2 y -5.55 L23] [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (473.0, -154.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  (476.0, -154.0):  [Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.60 L0]
+  renderers over (470.0, -160.0):
+    Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.6..-5.6 mat /umatlib/legacy/terrain/water/water_ocean.mat / SomniumEuroTruck/Multi queue 2000 layer 7 cutoff 0.40 kw [] _BaseMap=/material/terrain/water/waves_lake.tobj BC5 _MultMap=/material/terrain/water/waves_lake.tobj BC5 mesh Combined Mesh (root: terrain profile34uk) v 220 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile34uk/terrain skirt y -25.6..-5.6 mat /umatlib/legacy/terrain/water/water_ocean.mat / SomniumEuroTruck/Multi queue 2000 layer 7 cutoff 0.40 kw [] _BaseMap=/material/terrain/water/waves_lake.tobj BC5 _MultMap=/material/terrain/water/waves_lake.tobj BC5 mesh Combined Mesh (root: terrain profile34uk) v 220 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile34uk/terrain right 8 y -5.6..-5.6 mat /umatlib/legacy/terrain/water/water_ocean.mat / SomniumEuroTruck/Multi queue 2000 layer 7 cutoff 0.40 kw [] _BaseMap=/material/terrain/water/waves_lake.tobj BC5 _MultMap=/material/terrain/water/waves_lake.tobj BC5 mesh Combined Mesh (root: terrain profile34uk) v 172 (not readable) colors False uv1 False
+    life eagles.pmd/model/lod0/piece 0 y 22.8..74.0 mat /automat/4b/4b97e74e0b57ea20.mat / Universal Render Pipeline/Lit queue 2450 cutoff 0.05 kw [_ALPHATEST_ON _ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/model/mover/eagle.tobj DXT5

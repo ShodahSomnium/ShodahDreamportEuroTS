@@ -1,0 +1,5 @@
+shot_sz_pillar_brick: 0 hole px of 534462 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+shot_sz_bank: 0 hole px of 910080 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+shot_sz_hedge: 0 hole px of 534462 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+shot_sz_terrace: 0 hole px of 910080 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+shot_sz_pillar_light: 0 hole px of 534462 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0

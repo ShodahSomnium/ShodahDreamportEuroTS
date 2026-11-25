@@ -1,0 +1,11 @@
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_dover_unity.log)
+render.sh: site dover Unity exit 0 after 121 s
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_a_yard_night.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 0 % bad (slot 9, rain 0.00, wet 0.00), exposure 227.504 (window 352.97 .. 1261.64), sun 0.010, ambient 0.0949, fog 0.00300 from 43 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_a_yard_nightrain.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 100 % bad (slot 4, rain 0.71, wet 0.59), exposure 227.094 (window 362.95 .. 1261.64), sun 0.007, ambient 0.0948, fog 0.00371 from 12 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_b_road_night.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 0 % bad (slot 9, rain 0.00, wet 0.00), exposure 227.504 (window 352.97 .. 1261.64), sun 0.010, ambient 0.0949, fog 0.00300 from 43 m, lamps on)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_b_road_nightrain.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 100 % bad (slot 4, rain 0.71, wet 0.59), exposure 227.094 (window 362.95 .. 1261.64), sun 0.007, ambient 0.0948, fog 0.00371 from 12 m, lamps on)
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_a_yard_night.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_a_yard_nightrain.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_b_road_night.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r6_b_road_nightrain.png

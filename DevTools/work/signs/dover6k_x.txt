@@ -1,0 +1,713 @@
+98 m (-33336.4,22.9,-7339.3) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l
+98 m (-33336.7,22.9,-7501.9) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_south_l
+114 m (-33368.4,22.9,-7308.6) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_south_l
+133 m (-33441.5,22.9,-7296.6) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_ferries
+136 m (-33449.5,22.9,-7296.6) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_south_l
+141 m (-33305.4,22.9,-7308.6) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_ferries
+142 m (-33305.3,22.9,-7533.1) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_0=uk_dover_b city2_0=uk_ferry_b
+155 m (-33336.5,22.9,-7565.0) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l
+296 m (-33122.4,23.1,-7296.8) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_south_l
+302 m (-33110.3,22.9,-7529.3) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_0=uk_dover_b city2_0=uk_ferry_b
+303 m (-33114.4,23.1,-7296.8) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_ferries
+305 m (-33110.3,22.9,-7537.3) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_londn_bl
+359 m (-33349.1,22.9,-7776.8) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_south_l
+367 m (-33349.1,22.9,-7784.8) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l
+454 m (-33110.2,22.9,-7776.7) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_0=uk_dover_b city2_0=uk_ferry_b
+461 m (-33110.2,22.9,-7784.7) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_londn_bl
+648 m (-32744.3,31.9,-7379.5) BOARDS 892uk board tall straight right green uk [/model/sign/navigation/board_tall_straight_right_g_uk.pmd] look= | city1_0=uk_londn_l city2_0=uk_ferries
+813 m (-32578.5,33.4,-7419.9) BOARDS 892uk board tall straight right green uk [/model/sign/navigation/board_tall_straight_right_g_uk.pmd] look= | city1_0=uk_londn_l city2_0=uk_ferries
+839 m (-34172.6,46.2,-7115.2) BOARDS 884 crossroad_countdown_green_3_uk [/model/sign/traffic/uk/crossroad_countdown_green_3_uk.pmd] look= | city1_0=london city2_0=dover road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+892 m (-32499.8,33.3,-7448.6) BOARDS 891uk board tall straight left green uk [/model/sign/navigation/board_tall_straight_left_g_uk.pmd] look= | city1_0=uk_ferries city2_0=uk_dover_l
+905 m (-33773.8,52.4,-8240.5) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_ferry_b
+908 m (-33779.8,52.4,-8240.5) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l
+922 m (-34258.5,47.2,-7107.7) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_south_l city2_0=uk_plym_l city1_1=uk_dover_l city2_1=uk_londn_l
+928 m (-34266.3,47.2,-7110.5) BOARDS 883 crossroad_countdown_green_2_uk [/model/sign/traffic/uk/crossroad_countdown_green_2_uk.pmd] look= | city1_0=london city2_0=dover road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+995 m (-33941.3,57.8,-8249.1) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l city2_0=uk_felix_l city1_1=uk_dover_l city2_1=uk_south_l
+1022 m (-34362.6,49.4,-7100.2) BOARDS 882 crossroad_countdown_green_1_uk [/model/sign/traffic/uk/crossroad_countdown_green_1_uk.pmd] look= | city1_0=london city2_0=dover road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+1045 m (-33736.7,55.4,-8406.2) BOARDS 893uk sr left right uk [/model/sign/navigation/sr_left_right_uk.pmd] look= | city1_2=uk_dover_bl city2_2=uk_londn_bl
+1059 m (-32335.3,29.1,-7497.8) BOARDS 891uk board tall straight left green uk [/model/sign/navigation/board_tall_straight_left_g_uk.pmd] look= | city1_0=uk_ferries city2_0=uk_dover_l
+1105 m (-34454.1,51.1,-7117.1) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a20
+1107 m (-34451.2,51.1,-7101.0) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a20
+1149 m (-34494.2,50.7,-7095.8) BOARDS 151uk 3lane highway exit green uk [/model/sign/navigation/3hw_crs_exit_g_uk.pmd] look= | city1_0=dover city2_0=london road_1=uk_a20 city1_1=southampton city2_1=plymouth
+1211 m (-34178.5,56.2,-8340.4) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l city2_0=uk_felix_l city1_1=uk_dover_l city2_1=uk_south_l
+1243 m (-32427.1,47.2,-8204.8) BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1244 m (-32432.7,47.2,-8213.1) BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1245 m (-32438.3,47.2,-8221.4) BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1246 m (-32443.9,47.2,-8229.7) BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1247 m (-32449.5,47.2,-8238.0) BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1249 m (-32455.1,47.2,-8246.3) BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1253 m (-32406.4,47.1,-8194.0) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a20
+1302 m (-34247.4,54.9,-8401.4) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a2
+1310 m (-34241.0,54.9,-8416.5) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a2
+1337 m (-34707.9,57.4,-7184.3) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_dover_l
+1340 m (-34706.1,58.2,-7161.8) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_dover_l
+1341 m (-34720.0,56.1,-7237.4) BOARDS 981uk sr green straight left uk [/model/sign/navigation/sr_green_straight_left_uk.pmd] look= | city1_0=uk_south_bl city2_0=uk_dover_l road_1=uk_a20 city1_1=uk_plym_bl
+1359 m (-34727.4,57.5,-7169.7) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_londn_bl
+1360 m (-34726.8,57.5,-7164.0) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_0=uk_south_bl city2_0=uk_plym_bl
+1365 m (-34726.3,58.6,-7136.5) BOARDS 900uk sr green straight right uk [/model/sign/navigation/sr_green_straight_right_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_dover_l road_1=uk_a20 city1_1=uk_londn_bl
+1382 m (-34731.9,49.1,-7084.1) BOARDS 151uk 3lane highway exit green uk [/model/sign/navigation/3hw_crs_exit_g_uk.pmd] look= | city1_0=dover city2_0=london road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+1386 m (-34710.8,56.8,-6995.9) BOARDS juncright Junction arrows RIGHT [/model/sign/traffic/junction_arrows_right.pmd] look= | city2_1=vjnm3c7i
+1393 m (-34723.2,56.6,-7012.6) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_londn_bl
+1397 m (-34720.6,56.5,-6990.6) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_south_l
+1439 m (-32649.9,45.5,-8652.7) BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1501 m (-34496.2,61.0,-8436.4) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_1=uk_south_bl
+1501 m (-34538.1,59.9,-8388.9) BOARDS 981uk sr green straight left uk [/model/sign/navigation/sr_green_straight_left_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_londn_l road_1=uk_a2 city1_1=uk_ferry_b
+1503 m (-34493.7,61.0,-8441.5) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_dover_bl
+1510 m (-34477.3,62.0,-8469.9) BOARDS 900uk sr green straight right uk [/model/sign/navigation/sr_green_straight_right_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_londn_l road_1=uk_a2 city1_1=uk_south_bl
+1513 m (-34443.3,52.9,-8506.9) BOARDS 151uk 3lane highway exit green uk [/model/sign/navigation/3hw_crs_exit_g_uk.pmd] look= | city1_0=dover city2_0=southampton road_1=uk_a2 city1_1=london city2_1=felixtowe
+1519 m (-32669.5,43.9,-8756.2) BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1520 m (-34520.7,61.4,-8437.4) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l
+1523 m (-34508.5,62.0,-8454.8) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_londn_l
+1547 m (-34415.9,62.1,-8579.6) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_dover_l
+1548 m (-34475.8,52.9,-8525.0) BOARDS 151uk 3lane highway exit green uk [/model/sign/navigation/3hw_crs_exit_g_uk.pmd] look= | city1_0=dover city2_0=southampton road_1=uk_a2 city1_1=dover city2_1=uk_ferry
+1554 m (-34403.6,61.1,-8598.8) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a2 city1_0=uk_dover_l
+1555 m (-34446.5,62.1,-8562.9) BOARDS 900uk sr green straight right uk [/model/sign/navigation/sr_green_straight_right_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_dover_l road_1=uk_a2 city1_1=uk_ferry_b
+1567 m (-34428.0,60.9,-8595.6) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_south_bl
+1570 m (-34425.5,60.9,-8600.9) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_1=uk_dover_bl
+1585 m (-34377.0,59.6,-8660.7) BOARDS 981uk sr green straight left uk [/model/sign/navigation/sr_green_straight_left_uk.pmd] look= | city1_0=uk_dover_bl city2_0=uk_dover_l road_1=uk_a2 city1_1=uk_south_bl
+1604 m (-34955.2,51.2,-7064.2) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a20
+1605 m (-34952.5,51.2,-7049.0) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a20
+1605 m (-34960.2,51.2,-7080.7) BOARDS 882 crossroad_countdown_green_1_uk [/model/sign/traffic/uk/crossroad_countdown_green_1_uk.pmd] look= | city1_0=london city2_0=dover road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+1608 m (-32865.0,43.8,-8939.9) BOARDS 428 Main road right uk [/model/sign/traffic/main_road_right.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1609 m (-34376.6,58.8,-8691.7) BOARDS 439 steep descend uk [/model/sign/traffic/steep_descend.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1621 m (-32899.5,43.8,-8964.2) BOARDS 432 no overtaking uk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1622 m (-32859.3,43.8,-8951.9) BOARDS 431 no limits uk [/model/sign/traffic/no_limits.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1633 m (-32963.8,50.8,-8996.0) BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1634 m (-32894.8,43.9,-8976.7) BOARDS 427 Main road left uk [/model/sign/traffic/main_road_left.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1674 m (-35026.8,51.2,-7064.8) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=dover city2_0=uk_ferry city1_1=uk_dover_l city2_1=uk_londn_l
+1700 m (-35050.7,51.1,-7050.9) BOARDS 883 crossroad_countdown_green_2_uk [/model/sign/traffic/uk/crossroad_countdown_green_2_uk.pmd] look= | city1_0=london city2_0=dover road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+1729 m (-34194.5,70.9,-8951.5) BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1749 m (-33032.1,51.9,-9131.8) BOARDS 431 no limits uk [/model/sign/traffic/no_limits.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1750 m (-33018.8,51.8,-9130.2) BOARDS 432 no overtaking uk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+1771 m (-34187.9,68.6,-9001.7) BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1781 m (-34697.7,54.9,-8631.0) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a2
+1787 m (-35126.1,50.8,-6992.6) BOARDS 884 crossroad_countdown_green_3_uk [/model/sign/traffic/uk/crossroad_countdown_green_3_uk.pmd] look= | city1_0=london city2_0=dover road_1=uk_a20 city1_1=dover city2_1=uk_ferry
+1787 m (-34691.0,54.9,-8646.0) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a2
+1820 m (-33009.3,52.7,-9199.0) BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1868 m (-34750.3,55.0,-8701.3) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=dover city2_0=uk_ferry city1_1=uk_dover_l city2_1=uk_south_l
+1902 m (-33011.2,53.6,-9283.8) BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1916 m (-35229.9,49.4,-6882.2) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=dover city2_0=uk_ferry city1_1=uk_dover_l city2_1=uk_londn_l
+1973 m (-34196.5,58.3,-9220.9) BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+1998 m (-33050.0,51.8,-9388.6) BOARDS 432 no overtaking uk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+2004 m (-33037.2,51.8,-9392.5) BOARDS 431 no limits uk [/model/sign/traffic/no_limits.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+2037 m (-33842.9,50.1,-9405.8) BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+2079 m (-33834.6,50.4,-9451.6) BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+2082 m (-33298.1,51.8,-9500.0) BOARDS 431 no limits uk [/model/sign/traffic/no_limits.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+2095 m (-33294.2,51.7,-9512.9) BOARDS 432 no overtaking uk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=uk_m8 city1_0=edinburg city2_0=newcastle road_1=uk_m8 city1_1=glasgow city2_1=carlisle
+2108 m (-33716.1,55.0,-9502.3) BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+2112 m (-33202.3,47.8,-9523.1) BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+2218 m (-35114.5,53.5,-8817.2) BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd] look= | city1_0=uk_serv_b city2_0=uk_1_2m_b
+2242 m (-35112.8,53.5,-8856.3) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a2 city1_0=dover city2_0=uk_ferry city1_1=uk_dover_l city2_1=uk_south_l
+2625 m (-35953.4,43.4,-6847.5) BOARDS 1044uk board straight right green uk [/model/sign/navigation/board_straight_right_g_uk.pmd] look= | road_0=uk_a259 city1_0=uk_south_l city2_0=uk_plym_l city1_1=uk_tunnel city2_1=uk_tunnel_l
+2733 m (-36058.3,43.4,-6823.1) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a20
+2788 m (-35624.7,57.5,-9088.4) BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd] look= | city1_0=uk_serv_b city2_0=uk_200y_b
+2791 m (-36111.7,43.4,-6795.5) BOARDS 892uk board tall straight right green uk [/model/sign/navigation/board_tall_straight_right_g_uk.pmd] look= | city1_0=uk_south_l city2_0=uk_tunnel
+2843 m (-36164.9,42.9,-6797.0) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_0=uk_tunnel_b city2_0=uk_tunnel_lb
+2845 m (-36158.9,42.9,-6761.4) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_dover_l
+2851 m (-36164.4,42.9,-6759.0) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a259 city1_0=uk_south_l
+2866 m (-36186.9,42.9,-6787.3) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_0=uk_tunnel_b city2_0=uk_tunnel_lb
+2909 m (-36221.3,43.4,-6746.7) BOARDS 891uk board tall straight left green uk [/model/sign/navigation/board_tall_straight_left_g_uk.pmd] look= | city1_0=uk_tunnel city2_0=uk_dover_l
+3001 m (-35821.6,60.5,-9180.3) BOARDS 1012uk hw services exit white uk [/model/sign/navigation/hw_serv_exit_w_uk.pmd] look= | city1_0=uk_serv_b
+3067 m (-36362.7,43.4,-6658.1) BOARDS 410 lamp poland [/model/lamp/lamp_poland.pmd] look= | city1_0=uk_tunnel city2_0=uk_dover_l
+3087 m (-35923.7,60.5,-9185.4) BOARDS 1011uk hw services arrow white uk [/model/sign/navigation/hw_serv_arrow_w_uk.pmd] look= | city1_0=uk_serv_b
+3100 m (-36394.5,43.4,-6650.7) BOARDS 892uk board tall straight right green uk [/model/sign/navigation/board_tall_straight_right_g_uk.pmd] look= | city1_0=uk_south_l city2_0=uk_tunnel
+3115 m (-35962.1,66.0,-9179.6) TEMPLATE 1117 Gas Big Price UK [/model/sign/gas/gas_big_price.pmd] tpl=sign_templ.665 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36363500000000
+3127 m (-36414.4,43.4,-6620.6) BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd] look= | city1_0=uk_serv_b city2_0=uk_200y_b
+3149 m (-36434.3,42.9,-6608.2) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_dover_l
+3153 m (-36447.0,42.9,-6642.0) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_0=uk_tunnel_b city2_0=uk_tunnel_lb
+3155 m (-36439.2,42.9,-6604.7) BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd] look= | road_0=uk_a259 city1_0=uk_south_l
+3176 m (-36466.7,42.9,-6628.2) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_0=uk_tunnel_b city2_0=uk_tunnel_lb
+3213 m (-36492.8,43.4,-6581.9) BOARDS 891uk board tall straight left green uk [/model/sign/navigation/board_tall_straight_left_g_uk.pmd] look= | city1_0=uk_tunnel city2_0=uk_dover_l
+3267 m (-36536.5,43.4,-6536.1) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a259
+3286 m (-36134.9,66.0,-9228.9) TEMPLATE 1117 Gas Big Price UK [/model/sign/gas/gas_big_price.pmd] tpl=sign_templ.665 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36363500000000
+3347 m (-36213.9,60.5,-9218.2) BOARDS 1011uk hw services arrow white uk [/model/sign/navigation/hw_serv_arrow_w_uk.pmd] look= | city1_0=uk_serv_b
+3395 m (-36660.7,42.5,-6504.5) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a20 city1_0=uk_dover_l city1_1=uk_tunnel city2_1=uk_tunnel_l
+3414 m (-36673.6,47.9,-6482.3) TEMPLATE 98uk Price UK [/model/sign/gas/price.pmd] tpl=sign_templ.663 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36363300000000
+3415 m (-36300.1,60.5,-9210.2) BOARDS 1012uk hw services exit white uk [/model/sign/navigation/hw_serv_exit_w_uk.pmd] look= | city1_0=uk_serv_b
+3446 m (-36361.5,60.4,-9166.6) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m2
+3457 m (-36365.1,60.4,-9182.7) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m2
+3461 m (-36371.0,60.3,-9181.4) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a2
+3473 m (-36374.8,60.3,-9197.4) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a2
+3571 m (-36513.3,60.3,-9154.1) BOARDS 1010uk hw services distance uk [/model/sign/navigation/hw_serv_dist_uk.pmd] look= | city1_0=uk_services city2_0=uk_200y
+3704 m (-30431.8,10.5,-5193.0) TEMPLATE 1535 crs sr fr [/model/sign/navigation/fr/crs_sr_fr.pmd] tpl=sign_templ.634 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36333400000000
+3715 m (-36955.9,42.5,-6373.6) BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd] look= | city1_0=uk_serv_b city2_0=uk_200y_b
+3723 m (-30346.5,10.7,-5278.0) TEMPLATE 1709 sr right green fr [/model/sign/navigation/fr/sr_right_green_fr.pmd] tpl=sign_templ.629 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36323900000000
+3770 m (-30254.9,10.6,-5327.5) TEMPLATE 1545 sr right fr [/model/sign/navigation/fr/sr_right_fr.pmd] tpl=sign_templ.391 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393100000000
+3832 m (-30309.8,10.7,-5142.8) TEMPLATE 1545 sr right fr [/model/sign/navigation/fr/sr_right_fr.pmd] tpl=sign_templ.391 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393100000000
+3858 m (-30292.0,10.9,-5123.4) BOARDS 1050 calais_enter [/model/sign/city_limits/france_enter_exit.pmd] look= | road_0=fr_a43 city1_0=fr_lyon_w city2_0=fr_dijon_w road_1=fr_e70 city1_1=fr_geneve_w city2_1=fr_bern_w road_2=fr_a41
+3894 m (-30252.0,10.8,-5116.7) BOARDS 1051 calais_exit [/model/sign/city_limits/france_enter_exit.pmd] look= | road_0=fr_a43 city1_0=fr_lyon_w city2_0=fr_dijon_w road_1=fr_e70 city1_1=fr_geneve_w city2_1=fr_bern_w road_2=fr_a41
+3907 m (-30128.4,13.3,-5270.8) TEMPLATE 1535 crs sr fr [/model/sign/navigation/fr/crs_sr_fr.pmd] tpl=sign_templ.633 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36333300000000
+3908 m (-30266.3,11.2,-5073.5) TEMPLATE 1535 crs sr fr [/model/sign/navigation/fr/crs_sr_fr.pmd] tpl=sign_templ.632 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36333200000000
+3917 m (-30172.7,10.7,-5188.2) TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.398 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393800000000
+3947 m (-30108.0,21.0,-5229.5) TEMPLATE 1789 1lane europe green white 1 big 1 big fr [/model/sign/navigation/fr/1lane_europe_green_white_fr.pmd] tpl=sign_templ.070mm look= |
+    tail 10000000000000007369676E5F74656D706C2E3037306D6D00000000
+4090 m (-29946.5,16.5,-5215.9) TEMPLATE 1700 2lane double white double fr [/model/sign/navigation/fr/2lane_double_white_double_fr.pmd] tpl=sign_templ.631 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36333100000000
+4556 m (-30687.3,13.8,-3753.8) TEMPLATE 1740 2lane highway double 2 white green fr [/model/sign/navigation/fr/2lane_highway_double_white_green_fr.pmd] tpl=sign_templ.492 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34393200000000
+4575 m (-30933.3,19.3,-3561.4) TEMPLATE 1678 sr left blue fr [/model/sign/navigation/fr/sr_left_blue_fr.pmd] tpl=sign_templ.412 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34313200000000
+4595 m (-29720.3,12.2,-4657.3) BOARDS 1050 calais_enter [/model/sign/city_limits/france_enter_exit.pmd] look= | road_0=fr_a43 city1_0=fr_lyon_w city2_0=fr_dijon_w road_1=fr_e70 city1_1=fr_geneve_w city2_1=fr_bern_w road_2=fr_a41
+4595 m (-30924.4,19.3,-3543.7) TEMPLATE 1710 sr left green fr [/model/sign/navigation/fr/sr_left_green_fr.pmd] tpl=sign_templ.485 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34383500000000
+4601 m (-29721.4,12.0,-4644.5) BOARDS 1051 calais_exit [/model/sign/city_limits/france_enter_exit.pmd] look= | road_0=fr_a43 city1_0=fr_lyon_w city2_0=fr_dijon_w road_1=fr_e70 city1_1=fr_geneve_w city2_1=fr_bern_w road_2=fr_a41
+4654 m (-30423.5,19.0,-3835.2) TEMPLATE 1740 2lane highway double 2 white green fr [/model/sign/navigation/fr/2lane_highway_double_white_green_fr.pmd] tpl=sign_templ.492 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34393200000000
+4665 m (-29644.8,12.0,-4640.7) TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.398 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393800000000
+4715 m (-30976.0,13.4,-3370.3) TEMPLATE 1740 2lane highway double 2 white green fr [/model/sign/navigation/fr/2lane_highway_double_white_green_fr.pmd] tpl=sign_templ.492 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34393200000000
+4752 m (-30783.5,19.0,-3447.4) TEMPLATE 1710 sr left green fr [/model/sign/navigation/fr/sr_left_green_fr.pmd] tpl=sign_templ.485 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34383500000000
+4769 m (-30757.9,19.0,-3444.2) TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.398 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393800000000
+4800 m (-29590.8,17.4,-4488.6) TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.562 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35363200000000
+4802 m (-37811.3,61.6,-9298.2) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=southampton road_1=uk_m2 city1_1=felixtowe city2_1=london
+4814 m (-30720.1,18.9,-3415.2) TEMPLATE 1678 sr left blue fr [/model/sign/navigation/fr/sr_left_blue_fr.pmd] tpl=sign_templ.412 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34313200000000
+4816 m (-30734.8,18.9,-3402.4) TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.398 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393800000000
+4826 m (-31133.0,17.9,-3155.0) TEMPLATE 1740 2lane highway double 2 white green fr [/model/sign/navigation/fr/2lane_highway_double_white_green_fr.pmd] tpl=sign_templ.492 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34393200000000
+4862 m (-31181.3,19.0,-3089.0) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4866 m (-31187.7,19.0,-3082.0) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4867 m (-29591.2,13.4,-4379.6) TEMPLATE 1664 highway exit double white fr [/model/sign/navigation/fr/highway_exit_double_white_fr.pmd] tpl=sign_templ.443 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34343300000000
+4869 m (-31194.7,19.0,-3074.3) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4873 m (-31201.9,19.0,-3066.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4877 m (-31208.4,19.0,-3059.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4879 m (-31179.8,19.0,-3071.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4880 m (-31215.6,19.0,-3051.7) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4882 m (-31186.9,19.0,-3063.7) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4883 m (-31222.5,19.0,-3044.7) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4885 m (-31193.3,19.0,-3057.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4887 m (-31229.6,19.0,-3037.6) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4887 m (-37881.5,61.2,-9349.8) BOARDS 1010uk hw services distance uk [/model/sign/navigation/hw_serv_dist_uk.pmd] look= | city1_0=uk_services city2_0=uk_1m
+4888 m (-31199.6,19.0,-3050.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4892 m (-31204.8,19.0,-3044.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4894 m (-31211.2,19.0,-3038.0) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4897 m (-31343.1,18.8,-2972.2) TEMPLATE 1668 hw toll single fr [/model/sign/navigation/fr/hw_toll_single_fr.pmd] tpl=sign_templ.387 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33383700000000
+4898 m (-31218.4,19.0,-3030.9) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4901 m (-31227.0,19.0,-3023.1) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4904 m (-31234.9,19.0,-3015.7) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4907 m (-31242.3,19.0,-3008.5) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4910 m (-31249.0,19.0,-3002.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4913 m (-31256.7,19.0,-2995.4) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+4917 m (-31263.4,19.0,-2987.2) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=fr_a16 city1_0=fr_paris_w city2_0=fr_dijon_w road_1=fr_e402 city1_1=fr_calais_w city2_1=fr_lille_w road_2=fr_a16
+5040 m (-29620.7,10.3,-4075.3) TEMPLATE 1674 hw toll far white fr [/model/sign/navigation/fr/hw_toll_far_white_fr.pmd] tpl=sign_templ.409 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34303900000000
+5087 m (-38089.4,58.5,-9371.1) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=southampton road_1=uk_m2 city1_1=felixtowe city2_1=london
+5140 m (-30095.1,20.0,-3475.9) TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.511 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35313100000000
+5170 m (-31482.7,19.6,-2615.0) TEMPLATE 1668 hw toll single fr [/model/sign/navigation/fr/hw_toll_single_fr.pmd] tpl=sign_templ.387 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33383700000000
+5193 m (-29542.4,11.6,-3934.3) TEMPLATE 1582 2lane highway double 1 b 1 fr [/model/sign/navigation/fr/2lane_highway_double_fr.pmd] tpl=sign_templ.535 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333500000000
+5225 m (-38218.6,56.0,-9420.5) TEMPLATE 149vt board 6line blue uk [/model/sign/navigation/board_6line_blue_uk.pmd] tpl=sign_templ.0700r look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307200000000
+5258 m (-33059.1,34.5,-12667.8) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a120 city1_0=uk_felix_l
+5279 m (-33005.9,34.5,-12684.4) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_ferry_b city1_2=uk_ferry_l
+5286 m (-37852.9,68.6,-10255.1) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m2 city1_0=dover road_1=uk_m25 city1_1=london city2_1=southampton
+5295 m (-29925.0,12.5,-3417.1) TEMPLATE 149we board hw blue 2additional fr [/model/sign/navigation/fr/board_hw_blue_2additional_fr.pmd] tpl=sign_templ.0d00o look= |
+    tail 10000000000000007369676E5F74656D706C2E306430306F00000000
+5297 m (-32783.9,35.7,-12681.7) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5298 m (-32900.7,35.7,-12695.2) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5307 m (-33633.9,43.6,-12721.6) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5314 m (-33642.0,43.9,-12727.9) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5314 m (-32952.1,35.7,-12716.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5316 m (-33025.5,34.5,-12723.2) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a120 city1_0=uk_ferries
+5316 m (-33627.5,43.6,-12731.0) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5320 m (-33650.2,44.1,-12733.6) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5322 m (-33635.8,43.9,-12736.7) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5326 m (-33657.8,44.1,-12738.8) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5329 m (-33644.0,44.1,-12743.0) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5335 m (-33652.0,44.1,-12748.5) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5343 m (-32917.4,35.7,-12741.5) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5354 m (-38035.0,64.0,-10085.5) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m2 city1_0=dover road_1=uk_m25 city1_1=london city2_1=southampton
+5360 m (-38325.2,55.3,-9514.4) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m2
+5369 m (-38341.0,55.3,-9499.9) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=southampton road_1=uk_m2 city1_1=felixtowe city2_1=london
+5372 m (-38343.3,55.3,-9503.6) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m2
+5374 m (-32752.3,35.7,-12756.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5375 m (-29569.6,10.5,-3640.1) TEMPLATE 1582 2lane highway double 1 b 1 fr [/model/sign/navigation/fr/2lane_highway_double_fr.pmd] tpl=sign_templ.535 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333500000000
+5376 m (-29552.3,11.4,-3656.8) TEMPLATE 1546 sr str fr [/model/sign/navigation/fr/sr_str_fr.pmd] tpl=sign_templ.606 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36303600000000
+5379 m (-33069.7,34.8,-12789.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5400 m (-29598.3,7.5,-3576.8) TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.551 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35353100000000
+5402 m (-29599.3,7.4,-3572.3) TEMPLATE 1678 sr left blue fr [/model/sign/navigation/fr/sr_left_blue_fr.pmd] tpl=sign_templ.412 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34313200000000
+5407 m (-32882.5,35.7,-12802.5) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5427 m (-29595.4,6.2,-3540.9) TEMPLATE 1545 sr right fr [/model/sign/navigation/fr/sr_right_fr.pmd] tpl=sign_templ.391 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393100000000
+5428 m (-29737.6,16.8,-3405.7) TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.511 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35313100000000
+5433 m (-32726.4,35.7,-12811.7) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5433 m (-29577.2,6.4,-3550.4) TEMPLATE 1731 sr left green white 2 fr [/model/sign/navigation/fr/sr_left_green_white_2_fr.pmd] tpl=sign_templ.487 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34383700000000
+5435 m (-32871.0,35.7,-12830.2) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5442 m (-38224.7,64.4,-9922.0) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m2 city1_0=dover road_1=uk_m25 city1_1=london city2_1=southampton
+5448 m (-38232.9,64.4,-9917.2) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m25
+5450 m (-36313.2,64.9,-12020.8) TEMPLATE 98uk Price UK [/model/sign/gas/price.pmd] tpl=sign_templ.663 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36363300000000
+5451 m (-33065.4,34.9,-12860.8) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5455 m (-38406.9,55.3,-9565.2) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m25
+5457 m (-38247.9,64.4,-9908.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5457 m (-36573.9,64.0,-11853.2) BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd] look= | city1_0=uk_serv_b city2_0=uk_200y_b
+5462 m (-29588.6,5.0,-3499.1) TEMPLATE 1546 sr str fr [/model/sign/navigation/fr/sr_str_fr.pmd] tpl=sign_templ.606 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36303600000000
+5463 m (-36692.0,60.5,-11772.9) BOARDS 153uk 3lane highway straight exit green uk [/model/sign/navigation/3hw_straight_exit_g_uk.pmd] look= | road_0=uk_m25 city1_0=dover city2_0=southampton road_1=uk_m25 city1_1=london city2_1=cambridge
+5465 m (-38243.5,64.4,-9935.3) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m25
+5468 m (-29632.2,4.3,-3449.8) TEMPLATE 1675 sr str 3 bl bl wh fr [/model/sign/navigation/fr/sr_str_3_bl_bl_wh_fr.pmd] tpl=sign_templ.404 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34303400000000
+5472 m (-38290.7,63.9,-9856.3) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m2
+5479 m (-36364.8,64.9,-12021.9) TEMPLATE 98uk Price UK [/model/sign/gas/price.pmd] tpl=sign_templ.663 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36363300000000
+5482 m (-29619.3,4.3,-3441.7) TEMPLATE 1675 sr str 3 bl bl wh fr [/model/sign/navigation/fr/sr_str_3_bl_bl_wh_fr.pmd] tpl=sign_templ.404 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34303400000000
+5483 m (-29619.1,4.3,-3441.1) TEMPLATE 1675 sr str 3 bl bl wh fr [/model/sign/navigation/fr/sr_str_3_bl_bl_wh_fr.pmd] tpl=sign_templ.404 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34303400000000
+5484 m (-38291.2,64.4,-9883.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5498 m (-32866.8,35.7,-12893.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5504 m (-29647.7,4.4,-3384.8) TEMPLATE 1546 sr str fr [/model/sign/navigation/fr/sr_str_fr.pmd] tpl=sign_templ.606 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36303600000000
+5507 m (-29571.4,17.4,-3452.8) TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.511 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35313100000000
+5508 m (-29610.5,4.4,-3414.3) TEMPLATE 1675 sr str 3 bl bl wh fr [/model/sign/navigation/fr/sr_str_3_bl_bl_wh_fr.pmd] tpl=sign_templ.404 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34303400000000
+5512 m (-36110.0,56.7,-12214.5) BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd] look= | city1_0=uk_serv_b city2_0=uk_200y_b
+5512 m (-38334.5,64.4,-9858.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5514 m (-36120.5,56.7,-12211.2) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a12
+5520 m (-38422.9,55.2,-9690.0) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m25
+5521 m (-29570.1,17.4,-3434.9) TEMPLATE 1572 highway straight 3 fr [/model/sign/navigation/fr/highway_straight_fr.pmd] tpl=sign_templ.539 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333900000000
+5526 m (-37444.9,63.0,-11176.4) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_w_a12 city1_0=felixtowe road_1=uk_m25 city1_1=london city2_1=cambridge
+5529 m (-33960.1,44.3,-12919.2) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_felix_l city2_0=uk_camb_l road_1=uk_a12 city1_1=uk_londn_l city2_1=uk_dover_l
+5532 m (-32866.5,35.7,-12926.9) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5534 m (-36127.5,56.7,-12230.5) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a12
+5536 m (-36137.4,56.7,-12226.5) BOARDS 152uk 3lane highway straight green uk [/model/sign/navigation/3hw_straight_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_harwich city2_0=felixtowe
+5539 m (-29661.5,5.4,-3325.6) TEMPLATE 1544 sr left fr [/model/sign/navigation/fr/sr_left_fr.pmd] tpl=sign_templ.401 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34303100000000
+5540 m (-38377.8,64.9,-9833.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5543 m (-33073.3,35.5,-12953.6) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5545 m (-29642.8,5.1,-3334.6) TEMPLATE 1545 sr right fr [/model/sign/navigation/fr/sr_right_fr.pmd] tpl=sign_templ.391 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393100000000
+5565 m (-31525.3,15.7,-2177.7) BOARDS 632 toll_fr_fr [/model/sign/traffic/fr/toll_fr.pmd] look= | road_0=fr_n104 road_1=fr_e15 city1_1=fr_calais_w city2_1=fr_paris_w road_2=fr_a16
+5568 m (-38421.1,64.4,-9808.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5569 m (-31510.3,15.7,-2177.9) BOARDS 632 toll_fr_fr [/model/sign/traffic/fr/toll_fr.pmd] look= | road_0=fr_n104 road_1=fr_e15 city1_1=fr_calais_w city2_1=fr_paris_w road_2=fr_a16
+5571 m (-29638.6,6.0,-3302.4) TEMPLATE 1678 sr left blue fr [/model/sign/navigation/fr/sr_left_blue_fr.pmd] tpl=sign_templ.412 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34313200000000
+5572 m (-29639.1,6.1,-3300.4) TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.398 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393800000000
+5573 m (-35029.1,44.5,-12747.3) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_felix_l city2_0=uk_camb_l road_1=uk_a120 city1_1=uk_harwich city2_1=uk_ferry
+5580 m (-38419.7,62.9,-9839.6) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m2
+5592 m (-29585.0,7.3,-3323.3) TEMPLATE 1709 sr right green fr [/model/sign/navigation/fr/sr_right_green_fr.pmd] tpl=sign_templ.521 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35323100000000
+5593 m (-32737.7,35.7,-12974.9) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5594 m (-38460.1,64.4,-9786.0) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m2 city1_0=dover road_1=uk_m25 city1_1=felixtowe city2_1=cambridge
+5597 m (-38464.4,64.4,-9783.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5597 m (-38482.8,55.6,-9745.2) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=felixtowe road_1=uk_m2 city1_1=london
+5602 m (-29667.4,9.0,-3234.4) TEMPLATE 1582 2lane highway double 1 b 1 fr [/model/sign/navigation/fr/2lane_highway_double_fr.pmd] tpl=sign_templ.535 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333500000000
+5609 m (-34221.0,43.2,-12967.7) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_felix_l city2_0=uk_camb_l road_1=uk_a12 city1_1=uk_londn_l city2_1=uk_dover_l
+5611 m (-33073.6,35.7,-13021.6) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5621 m (-36927.1,60.1,-11790.3) BOARDS 153uk 3lane highway straight exit green uk [/model/sign/navigation/3hw_straight_exit_g_uk.pmd] look= | road_0=uk_m25 city1_0=dover city2_0=southampton road_1=uk_m25 city1_1=london city2_1=cambridge
+5622 m (-32865.7,35.7,-13017.0) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5625 m (-38507.7,64.4,-9758.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5636 m (-38506.8,55.6,-9786.8) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=southampton road_1=uk_m2 city1_1=dover
+5637 m (-32714.7,35.7,-13016.2) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5640 m (-38529.4,64.4,-9746.0) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=london road_1=uk_m25 city1_1=southampton city2_1=cardiff
+5641 m (-28471.4,7.6,-4660.1) TEMPLATE 1538 gas exit fr [/model/sign/navigation/fr/gas_exit_fr.pmd] tpl=sign_templ.396 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393600000000
+5655 m (-38551.0,64.4,-9733.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5655 m (-38568.7,63.3,-9694.9) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m2
+5662 m (-32736.2,35.7,-13044.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5663 m (-34838.0,46.5,-12895.5) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_felix_l city2_0=uk_camb_l road_1=uk_a120 city1_1=uk_harwich city2_1=uk_ferry
+5666 m (-28325.7,8.9,-4882.8) TEMPLATE 1537 gas exit far fr [/model/sign/navigation/fr/gas_exit_far_fr.pmd] tpl=sign_templ.532 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333200000000
+5666 m (-37357.8,68.4,-11466.5) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_w_a12 city1_0=felixtowe road_1=uk_m25 city1_1=london city2_1=cambridge
+5669 m (-33073.4,35.7,-13080.2) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5673 m (-32932.7,35.7,-13074.6) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5682 m (-32845.7,35.7,-13076.1) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5684 m (-38594.3,64.4,-9708.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5688 m (-34493.3,39.2,-13000.7) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_felix_l city2_0=uk_camb_l road_1=uk_a12 city1_1=uk_londn_l city2_1=uk_dover_l
+5702 m (-29331.2,11.5,-3417.1) TEMPLATE 1712 highway exit triple white green green fr [/model/sign/navigation/fr/highway_exit_triple_white_green_green_fr.pmd] tpl=sign_templ.526 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35323600000000
+5702 m (-33019.1,35.0,-13110.1) BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd] look= | road_0=uk_a120 city1_0=uk_felix_l
+5703 m (-34482.5,38.1,-13017.7) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a120
+5708 m (-34738.0,47.3,-12967.3) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a12
+5711 m (-32733.8,35.7,-13092.8) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5713 m (-37347.2,68.5,-11541.6) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m25
+5714 m (-38637.6,64.4,-9683.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5714 m (-38566.2,55.1,-9842.3) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m25
+5714 m (-34473.8,38.1,-13030.4) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a120
+5717 m (-38657.0,64.4,-9646.9) BOARDS 1010uk hw services distance uk [/model/sign/navigation/hw_serv_dist_uk.pmd] look= | city1_0=uk_services city2_0=uk_1_2m
+5720 m (-34750.6,47.3,-12976.1) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a12
+5722 m (-28545.7,7.6,-4376.6) TEMPLATE 1538 gas exit fr [/model/sign/navigation/fr/gas_exit_fr.pmd] tpl=sign_templ.396 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393600000000
+5724 m (-37367.3,68.5,-11538.0) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m25
+5726 m (-32714.7,35.7,-13106.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5730 m (-32888.3,35.7,-13128.3) BOARDS 890 two_way_traffic_ahead_uk [/model/sign/traffic/uk/two_way_traffic_ahead_uk.pmd] look= | road_0=uk_a120 city1_0=uk_ferries
+5731 m (-32886.1,35.7,-13128.3) BOARDS 885 drive_on_left_side_uk [/model/sign/traffic/uk/drive_on_left_side_uk.pmd] look= | road_0=uk_a120 city1_0=uk_ferries
+5735 m (-32775.9,35.7,-13122.0) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_1=uk_felix_bl
+5740 m (-32994.4,35.0,-13146.7) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_1=uk_ferry_b
+5744 m (-38681.0,64.4,-9658.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5748 m (-32900.8,35.5,-13147.4) BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd] look= | city1_1=uk_ferry_b
+5750 m (-32803.8,35.5,-13140.2) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5751 m (-32795.3,35.5,-13140.3) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5752 m (-32872.2,35.0,-13148.3) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_ferry_b
+5752 m (-32786.5,35.5,-13140.2) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5753 m (-32777.3,35.5,-13140.3) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5754 m (-32768.9,35.5,-13140.1) BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5754 m (-32784.8,35.0,-13141.8) BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd] look= | city1_1=uk_ferry_b
+5754 m (-38968.0,42.6,-6000.4) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a259
+5764 m (-37179.5,59.4,-11764.5) BOARDS 153uk 3lane highway straight exit green uk [/model/sign/navigation/3hw_straight_exit_g_uk.pmd] look= | road_0=uk_m25 city1_0=dover city2_0=southampton road_1=uk_m25 city1_1=london city2_1=cambridge
+5765 m (-38974.4,42.8,-5984.5) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a27
+5766 m (-38977.0,42.6,-5988.0) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a259
+5767 m (-38699.0,63.9,-9675.8) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m2
+5771 m (-34574.8,39.1,-13068.0) BOARDS 983uk road_nr exit green uk [/model/sign/navigation/sr_exit_g_uk.pmd] look= | road_0=uk_a12
+5773 m (-33074.6,35.5,-13184.7) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5774 m (-28619.2,6.6,-4169.8) TEMPLATE 1712 highway exit triple white green green fr [/model/sign/navigation/fr/highway_exit_triple_white_green_green_fr.pmd] tpl=sign_templ.526 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35323600000000
+5774 m (-29186.5,12.3,-3463.1) TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.511 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35313100000000
+5774 m (-38724.3,64.4,-9633.5) BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5776 m (-37202.2,59.3,-11760.5) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a12
+5776 m (-38983.5,42.8,-5972.1) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a27
+5778 m (-33020.0,35.5,-13186.2) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5781 m (-32965.1,35.5,-13185.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5782 m (-38748.2,64.4,-9595.4) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m25
+5786 m (-38585.3,55.4,-9970.0) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_m25
+5794 m (-37205.8,59.3,-11780.8) BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd] look= | road_0=uk_a12
+5798 m (-38758.7,64.4,-9613.6) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m25
+5803 m (-38765.0,64.4,-9610.0) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m2 city1_0=london road_1=uk_m25 city1_1=dover city2_1=felixtowe
+5804 m (-28586.1,6.6,-4165.1) TEMPLATE 149we board hw blue 2additional fr [/model/sign/navigation/fr/board_hw_blue_2additional_fr.pmd] tpl=sign_templ.0d00o look= |
+    tail 10000000000000007369676E5F74656D706C2E306430306F00000000
+5810 m (-34703.5,47.3,-13080.1) BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd] look= | road_0=uk_a12 city1_0=uk_felix_l city2_0=uk_camb_l road_1=uk_a120 city1_1=uk_harwich city2_1=uk_ferry
+5812 m (-32633.2,34.6,-13182.3) BOARDS 213 port lamp [/model/lamp/port_lamp.pmd] look= | road_0=uk_a2 city1_0=london city2_0=felixtowe road_1=uk_a2 city1_1=southampton city2_1=plymouth
+5815 m (-37298.5,60.1,-11726.7) BOARDS 983uk road_nr exit green uk [/model/sign/navigation/sr_exit_g_uk.pmd] look= | road_0=uk_m25
+5828 m (-28754.6,4.5,-3890.1) TEMPLATE 1712 highway exit triple white green green fr [/model/sign/navigation/fr/highway_exit_triple_white_green_green_fr.pmd] tpl=sign_templ.526 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35323600000000
+5835 m (-29055.2,11.8,-3515.1) TEMPLATE 1571 highway straight 2 fr [/model/sign/navigation/fr/highway_straight_fr.pmd] tpl=sign_templ.425 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34323500000000
+5837 m (-28626.5,4.7,-4049.3) TEMPLATE 1537 gas exit far fr [/model/sign/navigation/fr/gas_exit_far_fr.pmd] tpl=sign_templ.532 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333200000000
+5848 m (-28736.6,4.3,-3879.7) TEMPLATE 1571 highway straight 2 fr [/model/sign/navigation/fr/highway_straight_fr.pmd] tpl=sign_templ.425 look= |
+    tail 0E000000000000007369676E5F74656D706C2E34323500000000
+5854 m (-31508.2,15.7,-1877.2) BOARDS 632 toll_fr_fr [/model/sign/traffic/fr/toll_fr.pmd] look= | road_0=fr_n104 road_1=fr_e15 city1_1=fr_calais_w city2_1=fr_paris_w road_2=fr_a16
+5854 m (-29045.1,11.8,-3498.0) TEMPLATE 1712 highway exit triple white green green fr [/model/sign/navigation/fr/highway_exit_triple_white_green_green_fr.pmd] tpl=sign_templ.526 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35323600000000
+5855 m (-29647.2,15.0,-2918.5) TEMPLATE 1582 2lane highway double 1 b 1 fr [/model/sign/navigation/fr/2lane_highway_double_fr.pmd] tpl=sign_templ.535 look= |
+    tail 0E000000000000007369676E5F74656D706C2E35333500000000
+5859 m (-31493.3,15.7,-1877.2) BOARDS 632 toll_fr_fr [/model/sign/traffic/fr/toll_fr.pmd] look= | road_0=fr_n104 road_1=fr_e15 city1_1=fr_calais_w city2_1=fr_paris_w road_2=fr_a16
+5867 m (-38646.7,55.3,-10029.0) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m2
+5872 m (-38649.6,55.3,-10033.8) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_m25 city1_0=felixtowe road_1=uk_m2 city1_1=dover city2_1=southampton
+5879 m (-38664.7,55.3,-10018.3) BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd] look= | road_0=uk_m2
+5909 m (-37405.7,68.5,-11755.5) BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd] look= | road_0=uk_w_a12 city1_0=felixtowe road_1=uk_m25 city1_1=london city2_1=cambridge
+5914 m (-34608.6,46.8,-13207.8) BOARDS 983uk road_nr exit green uk [/model/sign/navigation/sr_exit_g_uk.pmd] look= | road_0=uk_a120
+5933 m (-34555.5,46.8,-13238.0) BOARDS 983uk road_nr exit green uk [/model/sign/navigation/sr_exit_g_uk.pmd] look= | road_0=uk_a120
+5964 m (-37430.0,68.0,-11808.8) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_w_a12
+5974 m (-31520.4,20.9,-1747.0) TEMPLATE 1537 gas exit far fr [/model/sign/navigation/fr/gas_exit_far_fr.pmd] tpl=sign_templ.395 look= |
+    tail 0E000000000000007369676E5F74656D706C2E33393500000000
+5999 m (-37411.3,68.0,-11872.6) BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd] look= | road_0=uk_w_a12
+   3 BOARDS 1010uk hw services distance uk [/model/sign/navigation/hw_serv_dist_uk.pmd]
+   2 BOARDS 1011uk hw services arrow white uk [/model/sign/navigation/hw_serv_arrow_w_uk.pmd]
+   2 BOARDS 1012uk hw services exit white uk [/model/sign/navigation/hw_serv_exit_w_uk.pmd]
+   6 BOARDS 1013uk hw services distance white uk [/model/sign/navigation/hw_serv_dist_w_uk.pmd]
+   1 BOARDS 1044uk board straight right green uk [/model/sign/navigation/board_straight_right_g_uk.pmd]
+   2 BOARDS 1050 calais_enter [/model/sign/city_limits/france_enter_exit.pmd]
+   2 BOARDS 1051 calais_exit [/model/sign/city_limits/france_enter_exit.pmd]
+  15 BOARDS 149uk 3lane highway straight exit uk [/model/sign/navigation/3hw_straight_exit_uk.pmd]
+   4 BOARDS 151uk 3lane highway exit green uk [/model/sign/navigation/3hw_crs_exit_g_uk.pmd]
+   1 BOARDS 152uk 3lane highway straight green uk [/model/sign/navigation/3hw_straight_g_uk.pmd]
+   3 BOARDS 153uk 3lane highway straight exit green uk [/model/sign/navigation/3hw_straight_exit_g_uk.pmd]
+  14 BOARDS 154uk board straight left green uk [/model/sign/navigation/board_straight_left_g_uk.pmd]
+  27 BOARDS 213 port lamp [/model/lamp/port_lamp.pmd]
+   6 BOARDS 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd]
+  34 BOARDS 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd]
+   1 BOARDS 410 lamp poland [/model/lamp/lamp_poland.pmd]
+  12 BOARDS 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd]
+   6 BOARDS 415 bend left uk [/model/sign/traffic/bend_left.pmd]
+   6 BOARDS 416 bend right uk [/model/sign/traffic/bend_right.pmd]
+   1 BOARDS 427 Main road left uk [/model/sign/traffic/main_road_left.pmd]
+   1 BOARDS 428 Main road right uk [/model/sign/traffic/main_road_right.pmd]
+   4 BOARDS 431 no limits uk [/model/sign/traffic/no_limits.pmd]
+   4 BOARDS 432 no overtaking uk [/model/sign/traffic/no_overtaking.pmd]
+   1 BOARDS 439 steep descend uk [/model/sign/traffic/steep_descend.pmd]
+   4 BOARDS 632 toll_fr_fr [/model/sign/traffic/fr/toll_fr.pmd]
+   2 BOARDS 882 crossroad_countdown_green_1_uk [/model/sign/traffic/uk/crossroad_countdown_green_1_uk.pmd]
+   2 BOARDS 883 crossroad_countdown_green_2_uk [/model/sign/traffic/uk/crossroad_countdown_green_2_uk.pmd]
+   2 BOARDS 884 crossroad_countdown_green_3_uk [/model/sign/traffic/uk/crossroad_countdown_green_3_uk.pmd]
+   1 BOARDS 885 drive_on_left_side_uk [/model/sign/traffic/uk/drive_on_left_side_uk.pmd]
+   1 BOARDS 890 two_way_traffic_ahead_uk [/model/sign/traffic/uk/two_way_traffic_ahead_uk.pmd]
+   4 BOARDS 891uk board tall straight left green uk [/model/sign/navigation/board_tall_straight_left_g_uk.pmd]
+   4 BOARDS 892uk board tall straight right green uk [/model/sign/navigation/board_tall_straight_right_g_uk.pmd]
+   1 BOARDS 893uk sr left right uk [/model/sign/navigation/sr_left_right_uk.pmd]
+  12 BOARDS 897uk sr left uk [/model/sign/navigation/sr_left_uk.pmd]
+  11 BOARDS 898uk sr right uk [/model/sign/navigation/sr_right_uk.pmd]
+   3 BOARDS 900uk sr green straight right uk [/model/sign/navigation/sr_green_straight_right_uk.pmd]
+  10 BOARDS 903uk road_nr exit uk [/model/sign/navigation/sr_exit_uk.pmd]
+  12 BOARDS 904uk hw mark blue uk [/model/sign/navigation/hw_mark_uk.pmd]
+  25 BOARDS 905uk hw mark green uk [/model/sign/navigation/hw_mark_g_uk.pmd]
+  16 BOARDS 979uk sr highway left green uk [/model/sign/navigation/sr_hw_left_g_uk.pmd]
+  10 BOARDS 980uk sr highway right green uk [/model/sign/navigation/sr_hw_right_g_uk.pmd]
+   3 BOARDS 981uk sr green straight left uk [/model/sign/navigation/sr_green_straight_left_uk.pmd]
+   4 BOARDS 983uk road_nr exit green uk [/model/sign/navigation/sr_exit_g_uk.pmd]
+   1 BOARDS juncright Junction arrows RIGHT [/model/sign/traffic/junction_arrows_right.pmd]
+   1 plain 0v022 entrance sign lkw at [/model2/sign/company_logos/lkw/entrance_sign_lkw_at.pmd]
+   1 plain 0v023 arrow left lkw at [/model2/sign/company_logos/lkw/arrow_left_lkw_at.pmd]
+   2 plain 0v024 arrow right lkw at [/model2/sign/company_logos/lkw/arrow_right_lkw_at.pmd]
+   1 plain 0v02v arrow right stokes at [/model2/sign/company_logos/stokes/arrow_right_stokes_at.pmd]
+   1 plain 0v036 entrance sign stokes at [/model2/sign/company_logos/stokes/entrance_sign_stokes_at.pmd]
+  27 plain 1000 reflective post UK green [/model/sign/reflective_post_uk_green.pmd]
+   2 plain 1045 Speedcamera hw fr [/model/speedcamera/speedcamera_hw_fr.pmd]
+   4 plain 104uk Dover enter [/model/sign/traffic/city_enter_down.pmd]
+   1 plain 1073 harwitch_enter_exit [/model/sign/city_limits/england_enter_exit.pmd]
+   2 plain 1086 Speedcamera hw uk [/model/speedcamera/speedcamera_hw_uk.pmd]
+  42 plain 11 gas station lamp [/model/lamp/gas_st_lamp.pmd]
+  24 plain 1104 speedlimit 50 uk [/model/sign/traffic/speedlimit_50_uk.pmd]
+   8 plain 1105 lowering 2 lanes to 1 - left side [/model/sign/traffic/2_lanes_to_1_right.pmd]
+  10 plain 1130 Speedcamera hw uk 2 [/model/speedcamera/speedcamera_hw_uk2.pmd]
+   4 plain 1133uk speedcamera sign - uk2 end [/model/sign/speedcamera/speedcamera_sign_uk2_end.pmd]
+  14 plain 1135uk speedcamera sign 30mph - uk2 [/model/sign/speedcamera/speedcamera_sign30_uk2.pmd]
+   1 plain 116 interior decal lamp no flare [/model/lamp/lamp_decal_no_flare.pmd]
+   1 plain 1187 turn left ahead uk [/model/sign/traffic/uk/turn_left_ahead_uk.pmd]
+   2 plain 140 direction Euroacres [/model/sign/traffic/euroacres.pmd]
+   2 plain 143 direction Euroacres right [/model/sign/traffic/euroacres_right.pmd]
+  76 plain 15 sellplan lamp single [/model/lamp/sellplan_lamp_single.pmd]
+   8 plain 1554 arrow left fr [/model/sign/traffic/fr/arrow_left_fr.pmd]
+  10 plain 1555 arrow right fr [/model/sign/traffic/fr/arrow_right_fr.pmd]
+   7 plain 1567 go right fr [/model/sign/traffic/fr/go_right_fr.pmd]
+   2 plain 1568 round fr [/model/sign/traffic/fr/round_fr.pmd]
+   4 plain 1569 right round fr [/model/sign/traffic/fr/right_round_fr.pmd]
+  22 plain 1573 road block cone [/model/sign/misc/road_block_cone_01.pmd]
+  23 plain 16 warehouse_grey lamp [/model/lamp/warehouse_grey_lamp.pmd]
+   1 plain 160 no turn left de [/model/sign/traffic/no_turn_left.pmd]
+   1 plain 161 no turn right de [/model/sign/traffic/no_turn_right.pmd]
+   6 plain 162 turn right de [/model/sign/traffic/de/turn_right_de.pmd]
+   3 plain 1622 speedlimit 30 hw fr [/model/sign/traffic/fr/speedlimit_30_hw_fr.pmd]
+   3 plain 1623 speedlimit 50 hw fr [/model/sign/traffic/fr/speedlimit_50_hw_fr.pmd]
+   7 plain 1624 speedlimit 70 hw fr [/model/sign/traffic/fr/speedlimit_70_hw_fr.pmd]
+   4 plain 1625 speedlimit 80 hw fr [/model/sign/traffic/fr/speedlimit_80_hw_fr.pmd]
+   5 plain 1626 speedlimit 110 hw fr [/model/sign/traffic/fr/speedlimit_110_hw_fr.pmd]
+  10 plain 1628 give road hw fr [/model/sign/traffic/fr/give_road_hw_fr.pmd]
+   1 plain 1643 pedestrians fr [/model/sign/traffic/fr/pedestrians_fr.pmd]
+   4 plain 1645 traffic signals fr [/model/sign/traffic/fr/traffic_signals_fr.pmd]
+   2 plain 1680 narrow fr [/model/sign/traffic/fr/narrow_fr.pmd]
+   3 plain 1686 motorway start fr [/model/sign/traffic/fr/motorway_start_fr.pmd]
+   2 plain 1687 motorway end fr [/model/sign/traffic/fr/motorway_end_fr.pmd]
+   8 plain 17 sellplan lamp decal [/model/lamp/sellplan_lamp.pmd]
+   2 plain 1723 narrow hw far fr [/model/sign/traffic/fr/narrow_hw_far_fr.pmd]
+   2 plain 1792 roadwork traffic fr [/model/sign/traffic/fr/roadwork_traffic_fr.pmd]
+   2 plain 1798 speedbump_fr [/model/sign/traffic/fr/speedbump_fr.pmd]
+   8 plain 1847 speedlimit 90 hw fr [/model/sign/traffic/fr/speedlimit_90_hw_fr.pmd]
+   1 plain 1r004 arrow right nbfc de [/model2/sign/company_logos/nbfc/arrow_right_nbfc_de.pmd]
+   1 plain 1r006 entrance sign nbfc de [/model2/sign/company_logos/nbfc/entrance_sign_nbfc_de.pmd]
+   2 plain 202 Stokes logo [/prefab/tradeaux_warehouse/stokes_logo.pmd]
+   1 plain 212 pallete [/model/sign/pallete.pmd]
+  51 plain 213 port lamp [/model/lamp/port_lamp.pmd]
+  49 plain 219uk reflective post UK [/model/sign/reflective_post_uk.pmd]
+   2 plain 226 flare lamp decal verysmall [/model/lamp/flare_decal_verysmall.pmd]
+   1 plain 227 garage lamp decal [/model/lamp/garage_lamp.pmd]
+   2 plain 24 no_entry de [/model/sign/traffic/de/no_entry_de.pmd]
+   2 plain 244 Give road at [/model/sign/traffic/give_road_at.pmd]
+   4 plain 247 Main road at [/model/sign/traffic/main_road_at.pmd]
+   2 plain 248 Main road end at [/model/sign/traffic/main_road_end_at.pmd]
+  17 plain 27uk speed limit 60 mph [/model/sign/traffic/speedlimit_60.pmd]
+   3 plain 285 Trashbin blue [/model/sign/misc/trash_bin_blue.pmd]
+   3 plain 286 Trashbin yellow [/model/sign/misc/trash_bin_yellow.pmd]
+  26 plain 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd]
+  26 plain 297 tollgate lamp [/model/lamp/tollgate_lamp.pmd]
+  18 plain 299 Pillar square_concave [/model/pillar/square_concave.pmd]
+   2 plain 2i07g highway start fr [/model/sign/traffic/fr/highway_start_fr.pmd]
+   1 plain 30 Barrel gray red [/model/sign/barrels/barrel_gray_darkred.pmd]
+   9 plain 301 Pillar t_long [/model/pillar/t_long.pmd]
+   6 plain 302 banch_01_white [/model/sign/misc/banch_01_wite.pmd]
+   6 plain 305 banch_01_red [/model/sign/misc/banch_01_red.pmd]
+   1 plain 31 Barrel red darkgray [/model/sign/barrels/barrel_red_darkgray.pmd]
+   1 plain 32 Barrel red gray [/model/sign/barrels/barrel_red_gray.pmd]
+   3 plain 33 Barrel yellow blue [/model/sign/barrels/barrel_yellow_blue.pmd]
+   2 plain 35 stop de [/model/sign/traffic/de/stop_de.pmd]
+   1 plain 38 Barrel yellow gray [/model/sign/barrels/barrel_yellow_gray.pmd]
+  11 plain 403 Traffic barrier light [/model/sign/misc/traffic_barrier_light.pmd]
+   3 plain 404 go right here [/model/sign/traffic/go_right_here.pmd]
+   3 plain 408 lamp t-shaped france belgium [/model/lamp/lamp_tshp_frbel.pmd]
+   3 plain 409 lamp curved france belgium [/model/lamp/lamp_curve_frbel.pmd]
+  40 plain 410 lamp poland [/model/lamp/lamp_poland.pmd]
+  35 plain 411 lamp poland tshape [/model/lamp/lamp_poland_tshape.pmd]
+   8 plain 415 bend left uk [/model/sign/traffic/bend_left.pmd]
+  10 plain 416 bend right uk [/model/sign/traffic/bend_right.pmd]
+   2 plain 418 bend road right uk [/model/sign/traffic/bend_road_right.pmd]
+   1 plain 419 fuel uk [/model/sign/traffic/fuel.pmd]
+   3 plain 420 fuel_left uk [/model/sign/traffic/fuel_left.pmd]
+  48 plain 421 give_road uk [/model/sign/traffic/give_road.pmd]
+   9 plain 422 highway_end uk [/model/sign/traffic/highway_end.pmd]
+  14 plain 423 highway_start uk [/model/sign/traffic/highway_start.pmd]
+   2 plain 424 hill road uk [/model/sign/traffic/hill_road.pmd]
+   5 plain 427 Main road left uk [/model/sign/traffic/main_road_left.pmd]
+   5 plain 428 Main road right uk [/model/sign/traffic/main_road_right.pmd]
+   4 plain 429 narrowing road uk [/model/sign/traffic/narrowing_road.pmd]
+   7 plain 430 no_entry uk [/model/sign/traffic/no_entry.pmd]
+  12 plain 431 no limits uk [/model/sign/traffic/no_limits.pmd]
+  10 plain 432 no overtaking uk [/model/sign/traffic/no_overtaking.pmd]
+  35 plain 433 no_parking uk [/model/sign/traffic/no_parking.pmd]
+  13 plain 434 no_stoping uk [/model/sign/traffic/no_stoping.pmd]
+   4 plain 435 no turn left uk [/model/sign/traffic/no_turn_left.pmd]
+   2 plain 436 no turn right uk [/model/sign/traffic/no_turn_right.pmd]
+   2 plain 440 stop uk [/model/sign/traffic/stop.pmd]
+   7 plain 443 turn right uk [/model/sign/traffic/turn_right.pmd]
+   5 plain 461 speedcamera sign - fr [/model/sign/speedcamera/speedcamera_sign_fr.pmd]
+  10 plain 467 speedcamera sign - uk [/model/sign/speedcamera/speedcamera_sign_uk.pmd]
+  24 plain 468 gas big trash bin [/model/sign/gas/gas_big_trash.pmd]
+  12 plain 469 gas big banch [/model/sign/gas/gas_big_banch.pmd]
+   3 plain 476 Gas Big Goods A [/model/sign/gas/gas_goods_a.pmd]
+   3 plain 477 Gas Big Goods B [/model/sign/gas/gas_goods_b.pmd]
+   2 plain 479 parking for truck de [/model/sign/traffic/parking_truck.pmd]
+   2 plain 482 speedlimit 30 de [/model/sign/traffic/speedlimit_30_de.pmd]
+   2 plain 483 fuel for truck uk [/model/sign/traffic/fuel_truck_uk.pmd]
+   1 plain 484 parking left uk [/model/sign/traffic/parking_left_uk.pmd]
+   1 plain 485 fuel right uk [/model/sign/traffic/fuel_right_uk.pmd]
+   4 plain 486 parking for car uk [/model/sign/traffic/parking_car_uk.pmd]
+   7 plain 487 parking for truck uk [/model/sign/traffic/parking_truck_uk.pmd]
+   5 plain 596 traffic_signals uk [/model/sign/traffic/traffic_signals.pmd]
+  15 plain 597 speedlimit_50_fr [/model/sign/traffic/speedlimit_50_at.pmd]
+  10 plain 598 speedlimit_80_fr [/model/sign/traffic/speedlimit_90_at.pmd]
+  12 plain 599 speedlimit_30_fr [/model/sign/traffic/fr/speedlimit_30_fr.pmd]
+   2 plain 6 Box [/model/sign/box.pmd]
+  40 plain 600 no_entry_fr [/model/sign/traffic/no_entry_at.pmd]
+  12 plain 602 no_parking_fr [/model/sign/traffic/no_parking_at.pmd]
+   3 plain 603 no_stopping_fr [/model/sign/traffic/no_stopping_at.pmd]
+   2 plain 604 speedlimit_70_fr [/model/sign/traffic/fr/speedlimit_70_fr.pmd]
+   1 plain 606 turn_left_fr [/model/sign/traffic/turn_left_at.pmd]
+   6 plain 609 hw_start_fr [/model/sign/traffic/fr/highway_start_fr.pmd]
+  33 plain 610 give_road_fr [/model/sign/traffic/fr/give_road_fr.pmd]
+   1 plain 611 bend_road_left_fr [/model/sign/traffic/bend_road_left_at.pmd]
+   5 plain 614 bend_left_fr [/model/sign/traffic/bend_left_at.pmd]
+   5 plain 615 bend_right_fr [/model/sign/traffic/bend_right_at.pmd]
+   8 plain 618 hw_end_fr [/model/sign/traffic/fr/highway_end_fr.pmd]
+   2 plain 621 main_road_left_right_fr [/model/sign/traffic/fr/main_road_left_right_fr.pmd]
+   8 plain 626 speedlimit_110_fr [/model/sign/traffic/fr/speedlimit_110_fr.pmd]
+   1 plain 627 stop_fr [/model/sign/traffic/stop_at.pmd]
+  16 plain 628 main_road_fr [/model/sign/traffic/main_road_at.pmd]
+   7 plain 629 main_road_end_fr [/model/sign/traffic/main_road_end_at.pmd]
+   6 plain 631 parking_fr [/model/sign/traffic/parking_at.pmd]
+   8 plain 635 no_turn_left_fr [/model/sign/traffic/no_turn_left_at.pmd]
+   5 plain 636 no_turn_right_fr [/model/sign/traffic/no_turn_right_at.pmd]
+   2 plain 638 dangerous turn fr [/model/sign/traffic/fr/dangerous_turn_fr.pmd]
+  12 plain 639 dangerous turn left fr [/model/sign/traffic/fr/dangerous_turn_left_fr.pmd]
+   4 plain 640 dangerous turn right fr [/model/sign/traffic/fr/dangerous_turn_right_fr.pmd]
+  11 plain 641 crossroad barrier fr [/model/sign/traffic/fr/barrier_fr.pmd]
+   2 plain 642 no overtaking fr [/model/sign/traffic/fr/no_overtaking_fr.pmd]
+  23 plain 660 sellplan lamp no light [/model/lamp/sellplan_lamp_no_light.pmd]
+   3 plain 661 dangerous turn right uk [/model/sign/traffic/dangerous_turn_r_uk.pmd]
+  95 plain 662 reflective post scot [/model/sign/reflective_post_scot.pmd]
+  11 plain 663 dangerous turn left uk [/model/sign/traffic/dangerous_turn_l_uk.pmd]
+   1 plain 72 Tradeaux gate [/prefab/tradeaux_warehouse/tradeaux_gate.pmd]
+   2 plain 73 Warehouse large grey gate [/prefab/warehouse_grey/warehouse_large_grey_gate.pmd]
+   2 plain 75 LKWLog logo [/prefab/warehouse_grey/lkwlog_logo.pmd]
+   1 plain 757 Border Fr [/model/sign/traffic/border_fr.pmd]
+   1 plain 758 Border speed fr [/model/sign/traffic/border_speed_fr.pmd]
+   1 plain 77 NBFC logo [/prefab/nbfc/nbfc_logo.pmd]
+   1 plain 83 Euroacres logo [/prefab/farm/euroacres_logo.pmd]
+   1 plain 87 bend road left de [/model/sign/traffic/de/bend_road_left_de.pmd]
+   6 plain 879 crossroad_countdown_blue_1_uk [/model/sign/traffic/uk/crossroad_countdown_blue_1_uk.pmd]
+   5 plain 880 crossroad_countdown_blue_2_uk [/model/sign/traffic/uk/crossroad_countdown_blue_2_uk.pmd]
+   5 plain 881 crossroad_countdown_blue_3_uk [/model/sign/traffic/uk/crossroad_countdown_blue_3_uk.pmd]
+   7 plain 882 crossroad_countdown_green_1_uk [/model/sign/traffic/uk/crossroad_countdown_green_1_uk.pmd]
+   7 plain 883 crossroad_countdown_green_2_uk [/model/sign/traffic/uk/crossroad_countdown_green_2_uk.pmd]
+   6 plain 884 crossroad_countdown_green_3_uk [/model/sign/traffic/uk/crossroad_countdown_green_3_uk.pmd]
+   3 plain 885 drive_on_left_side_uk [/model/sign/traffic/uk/drive_on_left_side_uk.pmd]
+   2 plain 889 level_crossing_uk [/model/sign/traffic/uk/level_crossing_uk.pmd]
+   2 plain 890 two_way_traffic_ahead_uk [/model/sign/traffic/uk/two_way_traffic_ahead_uk.pmd]
+  21 plain 92uk speedlimit 30 mph [/model/sign/traffic/speedlimit_30.pmd]
+   4 plain at_2t002 trash bin large 01 at [/model2/props/street/trash_bin_large_01_at.pmd]
+   1 plain dlc_blke_456 pass_both_arrows_truck_car_bg [/model/sign/traffic/bg/pass_both_arrows_truck_car_bg.pmd]
+   4 plain dlc_fr_10 electrobox_02_fr [/model2/props/street/electrobox_02_fr.pmd]
+   2 plain dlc_fr_11 electrobox_03_fr [/model2/props/street/electrobox_03_fr.pmd]
+   2 plain dlc_fr_14 electrobox_06_fr [/model2/props/street/electrobox_06_fr.pmd]
+  31 plain dlc_fr_15 lamp short fr 01 [/model2/lamp/lamp_short_fr_01_fr.pmd]
+  14 plain dlc_fr_17 lamp long curved fr 01 [/model2/lamp/lamp_long_curved_fr_01_fr.pmd]
+  23 plain dlc_fr_18 lamp port fr 01 [/model2/lamp/lamp_port_fr_01_fr.pmd]
+   7 plain dlc_fr_21 lamp fr 01 [/model2/lamp/lamp_fr_01_fr.pmd]
+   2 plain dlc_fr_212 toll gate static close fr [/model2/barrier/animated/toll_gate_static_close_fr.pmd]
+   4 plain dlc_fr_213 toll gate static open fr [/model2/barrier/animated/toll_gate_static_open_fr.pmd]
+   3 plain dlc_fr_217 lamp long curved fr 01 blue [/model2/lamp/lamp_long_curved_fr_01_blue_fr.pmd]
+  52 plain dlc_fr_219 traffic cone 01 fr [/model2/sign/traffic_cone_01_fr.pmd]
+   2 plain dlc_fr_22 trashbin_big_green fr  [/model2/props/street/trashbin_big_green_fr.pmd]
+   1 plain dlc_fr_25 trashbin_big_orange fr  [/model2/props/street/trashbin_big_orange_fr.pmd]
+   2 plain dlc_fr_26 trashbin_small_black fr  [/model2/props/street/trashbin_small_black_fr.pmd]
+   2 plain dlc_fr_29 trashbin small orange fr  [/model2/props/street/trashbin_small_orange_fr.pmd]
+  44 plain dlc_fr_3 lamp t shape fr 01 [/model2/lamp/lamp_t_shape_fr_01_fr.pmd]
+   1 plain dlc_fr_30 trashbin small white fr  [/model2/props/street/trashbin_small_white_fr.pmd]
+   2 plain dlc_fr_35 trashbin small black_02 fr  [/model2/props/street/trashbin_small_black_02_fr.pmd]
+   6 plain dlc_fr_37 trashbin_big_white fr  [/model2/props/street/trashbin_big_white_fr.pmd]
+   1 plain dlc_fr_38 trashbin_big_white_green fr  [/model2/props/street/trashbin_big_white_green_fr.pmd]
+   1 plain dlc_fr_39 trashbin_big_gray_blue fr  [/model2/props/street/trashbin_big_gray_blue_fr.pmd]
+   2 plain dlc_fr_40 trashbin small green fr  [/model2/props/street/trashbin_small_green_fr.pmd]
+   2 plain dlc_fr_9 electrobox_01_fr [/model2/props/street/electrobox_01_fr.pmd]
+  18 plain dlc_no_0 lamp 01 scan [/model2/lamp/lamp_01_sc.pmd]
+   3 plain dlc_no_104 advertising_board_01 [/model2/props/street/advertising_board_01.pmd]
+   1 plain dlc_no_105 advertising_board_02 [/model2/props/street/advertising_board_02.pmd]
+   1 plain dlc_no_120 garbage_container_02green [/model2/props/street/garbage_container_02green_sc.pmd]
+   1 plain dlc_no_121 garbage_container_02red [/model2/props/street/garbage_container_02red_sc.pmd]
+  22 plain dlc_no_200 bench 03 [/model2/props/street/bench_03.pmd]
+   2 plain dlc_no_213 logo man arrow left [/model2/sign/truck_company_logos/man/arrow_left_sc.pmd]
+   1 plain dlc_no_214 logo man arrow right [/model2/sign/truck_company_logos/man/arrow_right_sc.pmd]
+   1 plain dlc_no_215 logo man arrow up [/model2/sign/truck_company_logos/man/arrow_up_sc.pmd]
+   1 plain dlc_no_216 logo man entrance sign [/model2/sign/truck_company_logos/man/entrance_sign_sc.pmd]
+   7 plain dlc_no_262 Pillar box 01 lowbase sc [/model2/pillar/box_01_lowbase.pmd]
+  27 plain dlc_no_89 Pillar cylinder 01 sc [/model2/pillar/cylinder_01.pmd]
+  16 plain dlc_no_94 lamp 08 port scan [/model2/lamp/lamp_08_port_sc.pmd]
+   7 plain greece_24000 lamp 02 gr [/model2/lamp/lamp_02_gr.pmd]
+   2 plain ibe_0u004 lamp 04 ibe [/model2/lamp/lamp_04_ibe.pmd]
+   2 plain juncright Junction arrows RIGHT [/model/sign/traffic/junction_arrows_right.pmd]
+   1 plain lux_2p000 border sign dutch be [/model/sign/traffic/be/traffic_signs_big_be.pmd]
+   1 plain lux_2p001 border speed be [/model/sign/traffic/be/traffic_signs_big_be_1.pmd]
+   4 plain poc_2400k lamp t shape 03 poc [/model2/lamp/lamp_t_shape_03_poc.pmd]
+  17 plain poc_3m00s lamp 21 poc [/model2/lamp/lamp_21_poc.pmd]
+   5 plain rus_2t001 trash bin metal 01 rus [/model2/props/street/trash_bin_metal_01_rus.pmd]
+   2 TEMPLATE 1117 Gas Big Price UK [/model/sign/gas/gas_big_price.pmd] tpl=sign_templ.665
+   1 TEMPLATE 149vt board 6line blue uk [/model/sign/navigation/board_6line_blue_uk.pmd] tpl=sign_templ.0700r
+   2 TEMPLATE 149we board hw blue 2additional fr [/model/sign/navigation/fr/board_hw_blue_2additional_fr.pmd] tpl=sign_templ.0d00o
+   1 TEMPLATE 1535 crs sr fr [/model/sign/navigation/fr/crs_sr_fr.pmd] tpl=sign_templ.632
+   1 TEMPLATE 1535 crs sr fr [/model/sign/navigation/fr/crs_sr_fr.pmd] tpl=sign_templ.633
+   1 TEMPLATE 1535 crs sr fr [/model/sign/navigation/fr/crs_sr_fr.pmd] tpl=sign_templ.634
+   1 TEMPLATE 1537 gas exit far fr [/model/sign/navigation/fr/gas_exit_far_fr.pmd] tpl=sign_templ.395
+   2 TEMPLATE 1537 gas exit far fr [/model/sign/navigation/fr/gas_exit_far_fr.pmd] tpl=sign_templ.532
+   2 TEMPLATE 1538 gas exit fr [/model/sign/navigation/fr/gas_exit_fr.pmd] tpl=sign_templ.396
+   1 TEMPLATE 1544 sr left fr [/model/sign/navigation/fr/sr_left_fr.pmd] tpl=sign_templ.401
+   4 TEMPLATE 1545 sr right fr [/model/sign/navigation/fr/sr_right_fr.pmd] tpl=sign_templ.391
+   3 TEMPLATE 1546 sr str fr [/model/sign/navigation/fr/sr_str_fr.pmd] tpl=sign_templ.606
+   2 TEMPLATE 1571 highway straight 2 fr [/model/sign/navigation/fr/highway_straight_fr.pmd] tpl=sign_templ.425
+   1 TEMPLATE 1572 highway straight 3 fr [/model/sign/navigation/fr/highway_straight_fr.pmd] tpl=sign_templ.539
+   4 TEMPLATE 1582 2lane highway double 1 b 1 fr [/model/sign/navigation/fr/2lane_highway_double_fr.pmd] tpl=sign_templ.535
+   1 TEMPLATE 1664 highway exit double white fr [/model/sign/navigation/fr/highway_exit_double_white_fr.pmd] tpl=sign_templ.443
+   2 TEMPLATE 1668 hw toll single fr [/model/sign/navigation/fr/hw_toll_single_fr.pmd] tpl=sign_templ.387
+   5 TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.398
+   1 TEMPLATE 1672 sr right blue fr [/model/sign/navigation/fr/sr_right_blue_fr.pmd] tpl=sign_templ.551
+   1 TEMPLATE 1674 hw toll far white fr [/model/sign/navigation/fr/hw_toll_far_white_fr.pmd] tpl=sign_templ.409
+   4 TEMPLATE 1675 sr str 3 bl bl wh fr [/model/sign/navigation/fr/sr_str_3_bl_bl_wh_fr.pmd] tpl=sign_templ.404
+   4 TEMPLATE 1678 sr left blue fr [/model/sign/navigation/fr/sr_left_blue_fr.pmd] tpl=sign_templ.412
+   4 TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.511
+   1 TEMPLATE 1697 highway exit triple white green white fr [/model/sign/navigation/fr/highway_exit_triple_white_green_white_fr.pmd] tpl=sign_templ.562
+   1 TEMPLATE 1700 2lane double white double fr [/model/sign/navigation/fr/2lane_double_white_double_fr.pmd] tpl=sign_templ.631
+   1 TEMPLATE 1709 sr right green fr [/model/sign/navigation/fr/sr_right_green_fr.pmd] tpl=sign_templ.521
+   1 TEMPLATE 1709 sr right green fr [/model/sign/navigation/fr/sr_right_green_fr.pmd] tpl=sign_templ.629
+   2 TEMPLATE 1710 sr left green fr [/model/sign/navigation/fr/sr_left_green_fr.pmd] tpl=sign_templ.485
+   4 TEMPLATE 1712 highway exit triple white green green fr [/model/sign/navigation/fr/highway_exit_triple_white_green_green_fr.pmd] tpl=sign_templ.526
+   1 TEMPLATE 1731 sr left green white 2 fr [/model/sign/navigation/fr/sr_left_green_white_2_fr.pmd] tpl=sign_templ.487
+   4 TEMPLATE 1740 2lane highway double 2 white green fr [/model/sign/navigation/fr/2lane_highway_double_white_green_fr.pmd] tpl=sign_templ.492
+   1 TEMPLATE 1789 1lane europe green white 1 big 1 big fr [/model/sign/navigation/fr/1lane_europe_green_white_fr.pmd] tpl=sign_templ.070mm
+   3 TEMPLATE 98uk Price UK [/model/sign/gas/price.pmd] tpl=sign_templ.663

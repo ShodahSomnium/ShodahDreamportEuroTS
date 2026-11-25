@@ -1,0 +1,2759 @@
+=== /ui/truck_service.sii
+SiiNunit
+{
+ui_blend_window : _nameless.0066cf561 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.0066cf560
+ clip_children: false
+ keep_aspect: center
+ user_string_data: ""
+ first_direction_focus_id: 0
+ fitting: false
+ my_children: 15
+ my_children[0]: _nameless.0066cf5611
+ my_children[1]: _nameless._.neytopaycart
+ my_children[2]: _nameless._.checkout
+ my_children[3]: _nameless._.warning.group
+ my_children[4]: _nameless._.truck.accessories
+ my_children[5]: _nameless._.trailer.accessories
+ my_children[6]: _nameless._.trailer.info
+ my_children[7]: _nameless._.truck.info
+ my_children[8]: _nameless.1c5.9b50
+ my_children[9]: _nameless.1da.56c0
+ my_children[10]: _nameless._.bcg
+ my_children[11]: _nameless.231.5800
+ my_children[12]: _nameless._.money
+ my_children[13]: _nameless._.exit.button
+ my_children[14]: _nameless._.title.group
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+truck_service_hdl : _nameless.0066cf560 {
+ window_link: _nameless.0066cf561
+}
+
+ui::text_common : _nameless.0066cf5611 {
+ value: "@@clr_white@@|@@total@@"
+ look_template: txt.normal.color.left
+ text: ""
+ coords_l: 1004
+ coords_r: 1201
+ coords_t: 137
+ coords_b: 117
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless._.neytopaycart {
+ value: ""
+ look_template: txt.normal.color.right
+ text: ""
+ coords_l: 1225
+ coords_r: 1363
+ coords_t: 137
+ coords_b: 117
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 960
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::button_common : _nameless._.checkout {
+ value: "@@repair@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 995
+ coords_r: 1425
+ coords_t: 57
+ coords_b: 27
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1000
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::group : _nameless._.warning.group {
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless._.warning.text
+ my_children[1]: _nameless.2f2.3c20
+ my_children[2]: _nameless._.warning.bcg
+ coords_l: 324
+ coords_r: 990
+ coords_t: 76
+ coords_b: 7
+ area_l: 324
+ area_r: 990
+ area_t: 76
+ area_b: 7
+ id: 300
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless._.warning.text {
+ value: "@@truck_diag_warning@@"
+ look_template: txt.emph.left
+ text: ""
+ coords_l: 428
+ coords_r: 933
+ coords_t: 62
+ coords_b: 20
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 301
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.warning.group
+}
+
+ui::text_common : _nameless.2f2.3c20 {
+ value: "<img src=/material/ui/icon/attention_round.mat color=@@clr_sel@@>"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 379
+ coords_r: 421
+ coords_t: 62
+ coords_b: 20
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 302
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.warning.group
+}
+
+ui::text_common : _nameless._.warning.bcg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 367
+ coords_r: 947
+ coords_t: 76
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.warning.group
+}
+
+ui::group : _nameless._.truck.accessories {
+ fitting: true
+ my_children: 18
+ my_children[0]: _nameless.2d3.6d20
+ my_children[1]: _nameless.2d3.2d60
+ my_children[2]: _nameless.2d3.9020
+ my_children[3]: _nameless.2d3.6e60
+ my_children[4]: _nameless.2d3.7680
+ my_children[5]: _nameless.3dc.b870
+ my_children[6]: _nameless.3dc.c0f0
+ my_children[7]: _nameless.3dc.c310
+ my_children[8]: _nameless.3dc.c420
+ my_children[9]: _nameless.358.4040
+ my_children[10]: _nameless.358.6ce0
+ my_children[11]: _nameless.2d9.4d60
+ my_children[12]: _nameless.3dc.d410
+ my_children[13]: _nameless.307.46f0
+ my_children[14]: _nameless.3dc.c750
+ my_children[15]: _nameless.3dc.d300
+ my_children[16]: _nameless.3d5.6dd0
+ my_children[17]: _nameless._.truck.tooltip.trigger
+ coords_l: 997
+ coords_r: 1446
+ coords_t: 830
+ coords_b: 480
+ area_l: 997
+ area_r: 1446
+ area_t: 830
+ area_b: 480
+ id: 600
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::group : _nameless.2d3.6d20 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless._.engine.icon
+ my_children[1]: _nameless.3dc.c641
+ my_children[2]: _nameless.3d4.c880
+ my_children[3]: _nameless.3f6.a6c0
+ my_children[4]: _nameless.398.e970
+ my_children[5]: _nameless.307.3f70
+ my_children[6]: _nameless.307.4570
+ my_children[7]: _nameless.3f6.b490
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 672
+ coords_b: 640
+ area_l: 1007
+ area_r: 1413
+ area_t: 672
+ area_b: 640
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless._.engine.icon {
+ text: "<img src=/material/ui/truck_service/engine.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 672
+ coords_b: 640
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 80
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::text_common : _nameless.3dc.c641 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 666
+ coords_b: 646
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 800
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::text_common : _nameless.3d4.c880 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 666
+ coords_b: 646
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 820
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::text_common : _nameless.3f6.a6c0 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 670
+ coords_b: 642
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::button_common : _nameless.398.e970 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 667
+ coords_b: 645
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 840
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::button_common : _nameless.307.3f70 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 667
+ coords_b: 645
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 860
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::button_common : _nameless.307.4570 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 667
+ coords_b: 645
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 880
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::text_common : _nameless.3f6.b490 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 666
+ coords_b: 646
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 900
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6d20
+}
+
+ui::group : _nameless.2d3.2d60 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless._.transmission.icon
+ my_children[1]: _nameless.307.fb90
+ my_children[2]: _nameless.307.cde0
+ my_children[3]: _nameless.307.c340
+ my_children[4]: _nameless.407.b940
+ my_children[5]: _nameless.407.bac0
+ my_children[6]: _nameless.407.bc40
+ my_children[7]: _nameless.307.c120
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 632
+ coords_b: 600
+ area_l: 1007
+ area_r: 1413
+ area_t: 632
+ area_b: 600
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless._.transmission.icon {
+ text: "<img src=/material/ui/truck_service/transmission.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 632
+ coords_b: 600
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 81
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::text_common : _nameless.307.fb90 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 626
+ coords_b: 606
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 801
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::text_common : _nameless.307.cde0 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 626
+ coords_b: 606
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 821
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::text_common : _nameless.307.c340 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 630
+ coords_b: 602
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::button_common : _nameless.407.b940 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 627
+ coords_b: 605
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 841
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::button_common : _nameless.407.bac0 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 627
+ coords_b: 605
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 861
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::button_common : _nameless.407.bc40 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 627
+ coords_b: 605
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 881
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::text_common : _nameless.307.c120 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 626
+ coords_b: 606
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 901
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.2d60
+}
+
+ui::group : _nameless.2d3.9020 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless._.chassis
+ my_children[1]: _nameless.307.e760
+ my_children[2]: _nameless.307.d660
+ my_children[3]: _nameless.307.d000
+ my_children[4]: _nameless.407.b4c0
+ my_children[5]: _nameless.398.f3f0
+ my_children[6]: _nameless.398.e1f0
+ my_children[7]: _nameless.307.fa80
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 592
+ coords_b: 560
+ area_l: 1007
+ area_r: 1413
+ area_t: 592
+ area_b: 560
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless._.chassis {
+ text: "<img src=/material/ui/truck_service/chassis.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 592
+ coords_b: 560
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 82
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::text_common : _nameless.307.e760 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 586
+ coords_b: 566
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 802
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::text_common : _nameless.307.d660 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 586
+ coords_b: 566
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 822
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::text_common : _nameless.307.d000 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 590
+ coords_b: 562
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::button_common : _nameless.407.b4c0 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 587
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 842
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::button_common : _nameless.398.f3f0 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 587
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 862
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::button_common : _nameless.398.e1f0 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 587
+ coords_b: 565
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 882
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::text_common : _nameless.307.fa80 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 586
+ coords_b: 566
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 902
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.9020
+}
+
+ui::group : _nameless.2d3.6e60 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless._.cabin.icon
+ my_children[1]: _nameless.307.c450
+ my_children[2]: _nameless.307.d110
+ my_children[3]: _nameless.307.f200
+ my_children[4]: _nameless.3d5.8150
+ my_children[5]: _nameless.3d5.82d0
+ my_children[6]: _nameless.3d5.79d0
+ my_children[7]: _nameless.307.c560
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 552
+ coords_b: 520
+ area_l: 1007
+ area_r: 1413
+ area_t: 552
+ area_b: 520
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless._.cabin.icon {
+ text: "<img src=/material/ui/truck_service/cabin.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 552
+ coords_b: 520
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 83
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::text_common : _nameless.307.c450 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 546
+ coords_b: 526
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 803
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::text_common : _nameless.307.d110 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 546
+ coords_b: 526
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 823
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::text_common : _nameless.307.f200 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 550
+ coords_b: 522
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::button_common : _nameless.3d5.8150 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 547
+ coords_b: 525
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 843
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::button_common : _nameless.3d5.82d0 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 547
+ coords_b: 525
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 863
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::button_common : _nameless.3d5.79d0 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 547
+ coords_b: 525
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 883
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::text_common : _nameless.307.c560 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 546
+ coords_b: 526
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 903
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.6e60
+}
+
+ui::group : _nameless.2d3.7680 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless._.wheels.icon
+ my_children[1]: _nameless.307.e870
+ my_children[2]: _nameless.307.f860
+ my_children[3]: _nameless.307.dbb0
+ my_children[4]: _nameless.398.ef70
+ my_children[5]: _nameless.398.e370
+ my_children[6]: _nameless.307.37f0
+ my_children[7]: _nameless.307.ddd0
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 512
+ coords_b: 480
+ area_l: 1007
+ area_r: 1413
+ area_t: 512
+ area_b: 480
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless._.wheels.icon {
+ text: "<img src=/material/ui/truck_service/wheels.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 512
+ coords_b: 480
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 84
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::text_common : _nameless.307.e870 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 506
+ coords_b: 486
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 804
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::text_common : _nameless.307.f860 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 506
+ coords_b: 486
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 824
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::text_common : _nameless.307.dbb0 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 510
+ coords_b: 482
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::button_common : _nameless.398.ef70 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 507
+ coords_b: 485
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 844
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::button_common : _nameless.398.e370 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 507
+ coords_b: 485
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 864
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::button_common : _nameless.307.37f0 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 507
+ coords_b: 485
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 884
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::text_common : _nameless.307.ddd0 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 506
+ coords_b: 486
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 904
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.2d3.7680
+}
+
+ui::text_common : _nameless.3dc.b870 {
+ value: "@@wear_unfixable@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1046
+ coords_r: 1143
+ coords_t: 708
+ coords_b: 682
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.3dc.c0f0 {
+ value: "@@wear@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1139
+ coords_r: 1236
+ coords_t: 708
+ coords_b: 682
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.3dc.c310 {
+ value: "@@truck_diag_action@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1252
+ coords_r: 1349
+ coords_t: 708
+ coords_b: 682
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.3dc.c420 {
+ value: "@@truck_diag_cost@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1349
+ coords_r: 1446
+ coords_t: 708
+ coords_b: 682
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.358.4040 {
+ value: "@@clr_bg_dark@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 830
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.358.6ce0 {
+ value: "@@vehicle_service_vehicle_t@@"
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 825
+ coords_b: 805
+ area_l: 5
+ area_r: 5
+ area_t: 24
+ area_b: 24
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless.2d9.4d60 {
+ text: "<img src=/material/ui/truck_service/truck.mat>"
+ coords_l: 1012
+ coords_r: 1073
+ coords_t: 815
+ coords_b: 754
+ area_l: 5
+ area_r: 5
+ area_t: 21
+ area_b: 21
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.3dc.d410 {
+ value: "50|50|50|157|56%"
+ look_template: txt.truck_srvc.bar
+ text: ""
+ coords_l: 1087
+ coords_r: 1393
+ coords_t: 795
+ coords_b: 771
+ area_l: 5
+ area_r: 5
+ area_t: 21
+ area_b: 21
+ id: 610
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::button_common : _nameless.307.46f0 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox.repair
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1178
+ coords_r: 1208
+ coords_t: 755
+ coords_b: 725
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 630
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.3dc.c750 {
+ value: "@@truck_service_repair_all@@"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 1040
+ coords_r: 1170
+ coords_t: 765
+ coords_b: 715
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text_common : _nameless.3dc.d300 {
+ value: "@@truck_service_replace_all@@"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 1224
+ coords_r: 1354
+ coords_t: 765
+ coords_b: 715
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::button_common : _nameless.3d5.6dd0 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox.replace
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1362
+ coords_r: 1392
+ coords_t: 755
+ coords_b: 725
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 640
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::text : _nameless._.truck.tooltip.trigger {
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 830
+ coords_b: 710
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 620
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.accessories
+}
+
+ui::group : _nameless._.trailer.accessories {
+ fitting: true
+ my_children: 16
+ my_children[0]: _nameless.2dc.7180
+ my_children[1]: _nameless.2dc.3e80
+ my_children[2]: _nameless.35b.7160
+ my_children[3]: _nameless.2dc.64c0
+ my_children[4]: _nameless.2dc.62a0
+ my_children[5]: _nameless.35b.e100
+ my_children[6]: _nameless.2dc.3b50
+ my_children[7]: _nameless.35b.ee80
+ my_children[8]: _nameless.29c.21b0
+ my_children[9]: _nameless.29c.04f0
+ my_children[10]: _nameless.29c.1e90
+ my_children[11]: _nameless.326.9e50
+ my_children[12]: _nameless.335.d450
+ my_children[13]: _nameless.3cc.1c40
+ my_children[14]: _nameless.3cc.3290
+ my_children[15]: _nameless._.trailer.tooltip.trigger
+ coords_l: 997
+ coords_r: 1446
+ coords_t: 450
+ coords_b: 179
+ area_l: 997
+ area_r: 1446
+ area_t: 450
+ area_b: 179
+ id: 700
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless.2dc.7180 {
+ value: "@@clr_bg_dark@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 450
+ coords_b: 329
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.2dc.3e80 {
+ value: "@@truck_service_trailer_t@@"
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 442
+ coords_b: 422
+ area_l: 5
+ area_r: 5
+ area_t: 9
+ area_b: 9
+ id: 0
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text : _nameless.35b.7160 {
+ text: "<img src=/material/ui/truck_service/trailer.mat>"
+ coords_l: 1012
+ coords_r: 1073
+ coords_t: 435
+ coords_b: 374
+ area_l: 5
+ area_r: 5
+ area_t: 9
+ area_b: 9
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.2dc.64c0 {
+ value: "50|50|50|50|50|6%"
+ look_template: txt.truck_srvc.bar
+ text: ""
+ coords_l: 1087
+ coords_r: 1393
+ coords_t: 415
+ coords_b: 391
+ area_l: 5
+ area_r: 5
+ area_t: 9
+ area_b: 9
+ id: 710
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.2dc.62a0 {
+ value: "@@truck_service_repair_all@@"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 1040
+ coords_r: 1170
+ coords_t: 382
+ coords_b: 332
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::button_common : _nameless.35b.e100 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox.repair
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1178
+ coords_r: 1208
+ coords_t: 372
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 730
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.2dc.3b50 {
+ value: "@@truck_service_replace_all@@"
+ look_template: txt.normal.right
+ text: ""
+ coords_l: 1224
+ coords_r: 1354
+ coords_t: 382
+ coords_b: 332
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::button_common : _nameless.35b.ee80 {
+ value: ""
+ value2: ""
+ look_template: btn.checkbox.replace
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: check
+ coords_l: 1362
+ coords_r: 1392
+ coords_t: 372
+ coords_b: 342
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 740
+ layer: 10
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::group : _nameless.29c.21b0 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless.2fa.aaf0
+ my_children[1]: _nameless.2dc.5090
+ my_children[2]: _nameless.2dc.3820
+ my_children[3]: _nameless.2dc.5800
+ my_children[4]: _nameless.2f7.d470
+ my_children[5]: _nameless.2f7.e070
+ my_children[6]: _nameless.2f7.e370
+ my_children[7]: _nameless.2dc.6900
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 291
+ coords_b: 259
+ area_l: 1007
+ area_r: 1413
+ area_t: 291
+ area_b: 259
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text : _nameless.2fa.aaf0 {
+ text: "<img src=/material/ui/truck_service/body.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 291
+ coords_b: 259
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 85
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::text_common : _nameless.2dc.5090 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 285
+ coords_b: 265
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 805
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::text_common : _nameless.2dc.3820 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 285
+ coords_b: 265
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 825
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::text_common : _nameless.2dc.5800 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 289
+ coords_b: 261
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::button_common : _nameless.2f7.d470 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 286
+ coords_b: 264
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 845
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::button_common : _nameless.2f7.e070 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 286
+ coords_b: 264
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 865
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::button_common : _nameless.2f7.e370 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 286
+ coords_b: 264
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 885
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::text_common : _nameless.2dc.6900 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 285
+ coords_b: 265
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 905
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.21b0
+}
+
+ui::group : _nameless.29c.04f0 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless.2fa.9fb0
+ my_children[1]: _nameless.2dc.3930
+ my_children[2]: _nameless.2dc.5910
+ my_children[3]: _nameless.2dc.67f0
+ my_children[4]: _nameless.2f7.d2f0
+ my_children[5]: _nameless.2f7.da70
+ my_children[6]: _nameless.2f7.d770
+ my_children[7]: _nameless.2dc.5c40
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 251
+ coords_b: 219
+ area_l: 1007
+ area_r: 1413
+ area_t: 251
+ area_b: 219
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text : _nameless.2fa.9fb0 {
+ text: "<img src=/material/ui/truck_service/chassis.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 251
+ coords_b: 219
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 86
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::text_common : _nameless.2dc.3930 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 245
+ coords_b: 225
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 806
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::text_common : _nameless.2dc.5910 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 245
+ coords_b: 225
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 826
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::text_common : _nameless.2dc.67f0 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 249
+ coords_b: 221
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::button_common : _nameless.2f7.d2f0 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 246
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 846
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::button_common : _nameless.2f7.da70 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 246
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 866
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::button_common : _nameless.2f7.d770 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 246
+ coords_b: 224
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 886
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::text_common : _nameless.2dc.5c40 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 245
+ coords_b: 225
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 906
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.04f0
+}
+
+ui::group : _nameless.29c.1e90 {
+ fitting: true
+ my_children: 8
+ my_children[0]: _nameless.2fa.b090
+ my_children[1]: _nameless.2dc.3d70
+ my_children[2]: _nameless.2dc.4700
+ my_children[3]: _nameless.2dc.5d50
+ my_children[4]: _nameless.2e1.b7a0
+ my_children[5]: _nameless.2e1.b320
+ my_children[6]: _nameless.2e1.a2a0
+ my_children[7]: _nameless.2dc.44e0
+ coords_l: 1007
+ coords_r: 1413
+ coords_t: 211
+ coords_b: 179
+ area_l: 1007
+ area_r: 1413
+ area_t: 211
+ area_b: 179
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text : _nameless.2fa.b090 {
+ text: "<img src=/material/ui/truck_service/wheels.mat>"
+ coords_l: 1007
+ coords_r: 1039
+ coords_t: 211
+ coords_b: 179
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 87
+ layer: 5
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::text_common : _nameless.2dc.3d70 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1047
+ coords_r: 1145
+ coords_t: 205
+ coords_b: 185
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 807
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::text_common : _nameless.2dc.4700 {
+ value: ""
+ look_template: txt.normal.white.center
+ text: ""
+ coords_l: 1139
+ coords_r: 1237
+ coords_t: 205
+ coords_b: 185
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 827
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::text_common : _nameless.2dc.5d50 {
+ value: FF393939
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 1265
+ coords_r: 1337
+ coords_t: 209
+ coords_b: 181
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::button_common : _nameless.2e1.b7a0 {
+ value: no_action
+ value2: no_action
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1268
+ coords_r: 1290
+ coords_t: 206
+ coords_b: 184
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 847
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::button_common : _nameless.2e1.b320 {
+ value: repair
+ value2: repair
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1290
+ coords_r: 1312
+ coords_t: 206
+ coords_b: 184
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 867
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::button_common : _nameless.2e1.a2a0 {
+ value: replace
+ value2: replace
+ look_template: btn.truck_srvc.action
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: radio
+ coords_l: 1312
+ coords_r: 1334
+ coords_t: 206
+ coords_b: 184
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 887
+ layer: 6
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::text_common : _nameless.2dc.44e0 {
+ value: ""
+ look_template: txt.normal.white.right
+ text: ""
+ coords_l: 1342
+ coords_r: 1413
+ coords_t: 205
+ coords_b: 185
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 907
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.29c.1e90
+}
+
+ui::text_common : _nameless.326.9e50 {
+ value: "@@wear_unfixable@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1046
+ coords_r: 1143
+ coords_t: 328
+ coords_b: 302
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.335.d450 {
+ value: "@@wear@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1139
+ coords_r: 1236
+ coords_t: 328
+ coords_b: 302
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.3cc.1c40 {
+ value: "@@truck_diag_action@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1252
+ coords_r: 1349
+ coords_t: 328
+ coords_b: 302
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text_common : _nameless.3cc.3290 {
+ value: "@@truck_diag_cost@@"
+ look_template: txt.emph
+ text: ""
+ coords_l: 1349
+ coords_r: 1446
+ coords_t: 328
+ coords_b: 302
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::text : _nameless._.trailer.tooltip.trigger {
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 450
+ coords_b: 329
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 720
+ layer: 7
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.accessories
+}
+
+ui::group : _nameless._.trailer.info {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.trailer.info.name
+ my_children[1]: _nameless._.trailer.info.values
+ my_children[2]: _nameless.3e8.e840
+ my_children[3]: _nameless._.trailer.info.bcg
+ coords_l: 7
+ coords_r: 327
+ coords_t: 528
+ coords_b: 250
+ area_l: 7
+ area_r: 327
+ area_t: 528
+ area_b: 250
+ id: 200
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless._.trailer.info.name {
+ value: "@@clr_white@@|Curtainsider Single (SCS)"
+ look_template: txt.normal.bold.color.center
+ text: ""
+ coords_l: 17
+ coords_r: 317
+ coords_t: 517
+ coords_b: 496
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 210
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.info
+}
+
+ui::text_common : _nameless._.trailer.info.values {
+ value: "Single|\r\nCurtainsider|\r\n13.62 m|\r\n2.48 m|\r\n2.65 m|\r\n6,160 kg|\r\n3|\r\n1|\r\n0|\r\n13.70 m|\r\n<img src=/material/ui/truck_service/stars.mat left=p21 right=p55.4 color=@@clr_sel@@><img src=/material/ui/truck_service/stars.mat left=p55.4 right=p107 color=@@clr_white@@>\r\n"
+ look_template: txt.truck_srvc.trailer_info
+ text: ""
+ coords_l: 27
+ coords_r: 307
+ coords_t: 487
+ coords_b: 281
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 220
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.info
+}
+
+ui::button_common : _nameless.3e8.e840 {
+ value: "@@truck_diag_request_restoration@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 27
+ coords_r: 307
+ coords_t: 251
+ coords_b: 221
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 230
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.info
+}
+
+ui::text_common : _nameless._.trailer.info.bcg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 7
+ coords_r: 327
+ coords_t: 528
+ coords_b: 211
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 240
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.trailer.info
+}
+
+ui::group : _nameless._.truck.info {
+ fitting: false
+ my_children: 4
+ my_children[0]: _nameless._.truck.info.values
+ my_children[1]: _nameless._.truck.info.name
+ my_children[2]: _nameless.3f3.9850
+ my_children[3]: _nameless._.truck.info.bcg
+ coords_l: 7
+ coords_r: 327
+ coords_t: 850
+ coords_b: 549
+ area_l: 7
+ area_r: 327
+ area_t: 850
+ area_b: 549
+ id: 100
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless._.truck.info.values {
+ value: "R-series|\r\n4x2|\r\nR Topline|\r\nRight|\r\n540 HP (420 kW)|\r\n2,550 Nm|\r\n9 speed|\r\n800 l|\r\n1,000 km|\r\n<img src=/material/ui/truck_service/stars.mat left=p21 right=p55.4 color=@@clr_sel@@><img src=/material/ui/truck_service/stars.mat left=p55.4 right=p107 color=@@clr_white@@>\r\n"
+ look_template: txt.truck_srvc.truck_info
+ text: ""
+ coords_l: 27
+ coords_r: 307
+ coords_t: 810
+ coords_b: 604
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 120
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.info
+}
+
+ui::text_common : _nameless._.truck.info.name {
+ value: "@@clr_white@@|MAN TGX EfficientLine"
+ look_template: txt.normal.bold.color.center
+ text: ""
+ coords_l: 17
+ coords_r: 317
+ coords_t: 840
+ coords_b: 819
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 110
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.info
+}
+
+ui::button_common : _nameless.3f3.9850 {
+ value: "@@truck_diag_request_restoration@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 27
+ coords_r: 307
+ coords_t: 574
+ coords_b: 544
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 130
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.info
+}
+
+ui::text_common : _nameless._.truck.info.bcg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 7
+ coords_r: 327
+ coords_t: 850
+ coords_b: 534
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 140
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.truck.info
+}
+
+ui::button_common : _nameless.1c5.9b50 {
+ value: ""
+ value2: ""
+ look_template: btn.help.icon
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 1381
+ coords_r: 1413
+ coords_t: 144
+ coords_b: 112
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 970
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::button_common : _nameless.1da.56c0 {
+ value: "@@truck_diag_recommend_repairs@@"
+ value2: ""
+ look_template: btn.normal
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 995
+ coords_r: 1425
+ coords_t: 95
+ coords_b: 65
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 1010
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless._.bcg {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 987
+ coords_r: 1433
+ coords_t: 850
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless.231.5800 {
+ value: "@@clr_bg_dark@@"
+ look_template: txt.background.flat
+ text: ""
+ coords_l: 997
+ coords_r: 1423
+ coords_t: 153
+ coords_b: 103
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::group : _nameless._.money {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless.3f9.a970
+ my_children[1]: _nameless.465.cec0
+ coords_l: 987
+ coords_r: 1433
+ coords_t: 893
+ coords_b: 853
+ area_l: 987
+ area_r: 1433
+ area_t: 893
+ area_b: 853
+ id: 0
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless.3f9.a970 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 987
+ coords_r: 1433
+ coords_t: 893
+ coords_b: 853
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.money
+}
+
+ui::text_common : _nameless.465.cec0 {
+ value: "\xe2\x82\xac 22 563,-"
+ look_template: txt.normal.center
+ text: ""
+ coords_l: 987
+ coords_r: 1433
+ coords_t: 893
+ coords_b: 853
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 11
+ layer: 4
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.money
+}
+
+ui::button_common : _nameless._.exit.button {
+ value: leave
+ value2: leave
+ look_template: btn.truck_sw.large
+ n_pml: ""
+ s_pml: ""
+ s2_pml: ""
+ d_pml: ""
+ p_pml: ""
+ button_type: normal
+ coords_l: 7
+ coords_r: 71
+ coords_t: 71
+ coords_b: 7
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 20
+ layer: 1
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::group : _nameless._.title.group {
+ fitting: false
+ my_children: 2
+ my_children[0]: _nameless._.title
+ my_children[1]: _nameless.4d8.2000
+ coords_l: 7
+ coords_r: 327
+ coords_t: 893
+ coords_b: 853
+ area_l: 7
+ area_r: 327
+ area_t: 893
+ area_b: 853
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless.0066cf561
+}
+
+ui::text_common : _nameless._.title {
+ value: "@@truck_service_t@@"
+ look_template: txt.title.center
+ text: ""
+ coords_l: 7
+ coords_r: 327
+ coords_t: 893
+ coords_b: 853
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 10
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.title.group
+}
+
+ui::text_common : _nameless.4d8.2000 {
+ value: "@@clr_bg_main@@"
+ look_template: txt.window.bcg_rect4
+ text: ""
+ coords_l: 7
+ coords_r: 327
+ coords_t: 893
+ coords_b: 853
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.title.group
+}
+
+}
+

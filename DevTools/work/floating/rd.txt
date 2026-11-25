@@ -1,0 +1,19 @@
+                    string road = null;
+                    float roadY = 0f;
+
+                    for (int f3 = 0; f3 < 3 && road == null; f3++)
+                    {
+                        Vector3 over = Vector3.Lerp(a, b, f3 == 0 ? 0.1f : f3 == 1 ? 0.5f : 0.9f);
+                        int n = Physics.RaycastNonAlloc(over + Vector3.up * 0.3f, Vector3.down, hits, hgt + 6f, all, QueryTriggerInteraction.Ignore);
+
+                        for (int q = 0; q < n; q++)
+                        {
+                            string kk = KindOf(hits[q].collider, out Transform it);
+
+                            if (IsRoadSurface(hits[q], kk, it) && hits[q].point.y < over.y - 0.1f && hits[q].point.y > bot.y - 5f)
+                            {
+                                road = PathOf(hits[q].collider.transform, 2);
+                                roadY = hits[q].point.y;
+                            }
+                        }
+                    }

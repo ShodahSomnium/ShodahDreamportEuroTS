@@ -1,0 +1,39 @@
+render.sh: site austria -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_austria_unity.log)
+render.sh: site austria Unity exit 0 after 535 s
+   wrote shot g0
+   wrote shot g180
+   wrote shot g270
+   wrote shot g90
+   wrote shot m0
+   wrote shot m180
+   wrote shot m270
+   wrote shot m90
+   wrote shot w0
+   wrote shot w180
+   wrote shot w270
+   wrote shot w90
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g0.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g0_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g180.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g180_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g270.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g270_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g90.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_g90_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m0.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m0_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m180.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m180_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m270.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m270_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m90.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_m90_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w0.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w0_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w180.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w180_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w270.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w270_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w90.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0_shot_w90_void.png

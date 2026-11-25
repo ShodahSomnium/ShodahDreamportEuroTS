@@ -1,0 +1,36 @@
+22:50:00 site austria centre (18020.0, 29.4, 21381.4) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a2 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+22:50:03 loading 5 % Reading the map
+22:50:05 loading 5 % Reading the map
+22:50:07 loading 5 % Reading the map
+22:50:09 loading 10 % Building roads
+22:50:11 loading 19 % Building roads
+22:50:13 loading 55 % Building junctions and yards
+22:50:15 loading 59 % Building junctions and yards
+22:50:17 loading 65 % Placing buildings and props
+22:50:19 loading 69 % Placing buildings and props
+22:50:21 loading 69 % Placing fences and barriers
+22:50:23 loading 69 % Placing fences and barriers
+22:50:25 loading 69 % Placing fences and barriers
+22:50:27 loading 69 % Placing fences and barriers
+22:50:29 loading 69 % Placing fences and barriers
+22:50:31 loading 69 % Placing signs and lamps
+22:50:33 loading 100 % Ready
+22:50:33 first build complete at 33 s
+22:51:04 settled for shot r3f after 30 s: built 5083, queued 0, batching 0, plants 211252 (sides waiting 4), detail jobs 0, ground fill builds 1
+22:51:12 settled for shot r3f (camera placed) after 8 s: built 5083, queued 0, batching 0, plants 211252 (sides waiting 4), detail jobs 0, ground fill builds 1
+22:51:13 wrote shot r3f
+22:51:44 settled for shot r4f after 31 s: built 5576, queued 0, batching 0, plants 240221 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:51:52 settled for shot r4f (camera placed) after 8 s: built 5576, queued 0, batching 0, plants 240221 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:51:52 wrote shot r4f
+22:52:23 settled for shot r8l after 31 s: built 5198, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:52:31 settled for shot r8l (camera placed) after 8 s: built 5198, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:52:31 wrote shot r8l
+22:53:02 settled for shot hillA after 31 s: built 5198, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:53:10 settled for shot hillA (camera placed) after 8 s: built 5198, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:53:11 wrote shot hillA
+22:53:42 settled for shot hillB after 31 s: built 5169, queued 0, batching 0, plants 248334 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:53:50 settled for shot hillB (camera placed) after 8 s: built 5169, queued 0, batching 0, plants 248334 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:53:51 wrote shot hillB
+22:54:21 settled for shot hillC after 31 s: built 5169, queued 0, batching 0, plants 248334 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:54:29 settled for shot hillC (camera placed) after 8 s: built 5169, queued 0, batching 0, plants 248334 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:54:30 wrote shot hillC

@@ -1,0 +1,94 @@
+Can't find custom attr constructor image: D:\Dreamport\Euro Truck Simulator\Euro Truck Sim\DevTools\work\floating\probe\UnityEngine.CoreModule.dll mtoken: 0x0a0006a3 due to: Could not load file or assembly 'UnityEngine.SharedInternalsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
+roads 5393, covered (60%+ of centreline under terrain 6-150 m above) 254
+bit 0: Flags all 136 (2.5%) covered 9 (3.5%)   RoadFlags all 409 (7.6%) covered 8 (3.1%)
+bit 1: Flags all 4744 (88.0%) covered 226 (89.0%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 2: Flags all 150 (2.8%) covered 7 (2.8%)   RoadFlags all 194 (3.6%) covered 58 (22.8%)
+bit 3: Flags all 4742 (87.9%) covered 232 (91.3%)   RoadFlags all 476 (8.8%) covered 10 (3.9%)
+bit 4: Flags all 289 (5.4%) covered 18 (7.1%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 5: Flags all 627 (11.6%) covered 13 (5.1%)   RoadFlags all 13 (0.2%) covered 0 (0.0%)
+bit 6: Flags all 794 (14.7%) covered 24 (9.4%)   RoadFlags all 18 (0.3%) covered 0 (0.0%)
+bit 7: Flags all 592 (11.0%) covered 35 (13.8%)   RoadFlags all 4736 (87.8%) covered 234 (92.1%)
+bit 8: Flags all 102 (1.9%) covered 0 (0.0%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 9: Flags all 92 (1.7%) covered 0 (0.0%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 10: Flags all 174 (3.2%) covered 2 (0.8%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 11: Flags all 412 (7.6%) covered 7 (2.8%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 12: Flags all 211 (3.9%) covered 6 (2.4%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 13: Flags all 182 (3.4%) covered 8 (3.1%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 14: Flags all 176 (3.3%) covered 2 (0.8%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 15: Flags all 0 (0.0%) covered 0 (0.0%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 16: Flags all 49 (0.9%) covered 6 (2.4%)   RoadFlags all 18 (0.3%) covered 14 (5.5%)
+bit 17: Flags all 12 (0.2%) covered 0 (0.0%)   RoadFlags all 4614 (85.6%) covered 234 (92.1%)
+bit 18: Flags all 47 (0.9%) covered 0 (0.0%)   RoadFlags all 5 (0.1%) covered 1 (0.4%)
+bit 19: Flags all 5 (0.1%) covered 0 (0.0%)   RoadFlags all 0 (0.0%) covered 0 (0.0%)
+bit 20: Flags all 178 (3.3%) covered 8 (3.1%)   RoadFlags all 10 (0.2%) covered 1 (0.4%)
+bit 21: Flags all 196 (3.6%) covered 7 (2.8%)   RoadFlags all 1 (0.0%) covered 0 (0.0%)
+bit 22: Flags all 712 (13.2%) covered 38 (15.0%)   RoadFlags all 216 (4.0%) covered 63 (24.8%)
+bit 23: Flags all 1107 (20.5%) covered 53 (20.9%)   RoadFlags all 328 (6.1%) covered 65 (25.6%)
+bit 24: Flags all 2225 (41.3%) covered 123 (48.4%)   RoadFlags all 81 (1.5%) covered 6 (2.4%)
+bit 25: Flags all 2797 (51.9%) covered 126 (49.6%)   RoadFlags all 84 (1.6%) covered 1 (0.4%)
+bit 26: Flags all 65 (1.2%) covered 0 (0.0%)   RoadFlags all 553 (10.3%) covered 41 (16.1%)
+bit 27: Flags all 4237 (78.6%) covered 179 (70.5%)   RoadFlags all 30 (0.6%) covered 4 (1.6%)
+bit 28: Flags all 684 (12.7%) covered 39 (15.4%)   RoadFlags all 60 (1.1%) covered 0 (0.0%)
+bit 29: Flags all 648 (12.0%) covered 33 (13.0%)   RoadFlags all 82 (1.5%) covered 2 (0.8%)
+bit 30: Flags all 2 (0.0%) covered 0 (0.0%)   RoadFlags all 11 (0.2%) covered 0 (0.0%)
+bit 31: Flags all 0 (0.0%) covered 0 (0.0%)   RoadFlags all 5 (0.1%) covered 3 (1.2%)
+42bf29dc028f640c 8666,25,15933 len 100 11/11 flags 0080008a rf 00c20080 look at road 2 city narrow tmpl
+42bf29dc08cf7152 9696,24,15482 len 257 22/26 flags 3ac0000a rf 80020081 look rail blke double AI 01 tmpl
+42bf29dc0c0f7567 9668,29,15901 len 9 3/3 flags 0980000a rf 08020080 look ger road 1 plus 2 tmpl
+42bf29dc128f7857 11248,56,14190 len 216 18/22 flags 08200402 rf 00c30008 look ger hw 2 lanes 5m offset tmpl
+42bf29dc1e4f7d2f 9833,28,15929 len 47 5/5 flags 0b00000a rf 04020080 look at road 2 no offset tmpl
+42bf29dc280f726c 9744,30,15714 len 96 10/10 flags 0b80000a rf 04020080 look ger road 1 tmpl
+42bf29dc288f7215 9683,24,15492 len 272 28/28 flags 32c0000a rf 00020080 look rail blke double AI 01 tmpl
+42bf29dc2dcf7851 11413,56,14209 len 166 11/17 flags 38000400 rf 00c1000c look ger hw 2 lanes 5m offset tmpl
+42bf29dc33cf7533 9439,24,15827 len 93 8/10 flags 0b80000a rf 04020080 look ger road 1 tmpl
+42bf29dc390f7456 9660,30,15857 len 48 5/5 flags 0980000a rf 04020080 look ger road 1 plus 1 tmpl
+42bf29dc408f655e 8610,48,15130 len 134 10/14 flags 0800080a rf 00c20088 look ger hw 3 lanes 2m offset tmpl
+42bf29dc598f70f3 9705,27,15591 len 162 16/17 flags 0bc0000a rf 04020080 look ger road 1 tmpl
+42bf29dc738f7318 9786,30,15810 len 86 9/9 flags 0b80000a rf 04020080 look ger road 1 tmpl
+42bf29dc8b0f7156 9842,24,15694 len 257 26/26 flags 3ac0000a rf 80020081 look rail blke double AI 01 tmpl
+42bf29dc8b4f715c 9757,30,15692 len 115 12/12 flags 1bc0000a rf 04020081 look ger road 1 tmpl
+42bf29dc8c8f6d1a 9857,37,14412 len 81 6/9 flags 0b00000a rf 04020080 look ger road 1 tmpl
+42bf29dcaf8f7cfe 9830,28,15933 len 131 11/14 flags 0b00000a rf 04020080 look ger road 1 tmpl
+42bf29dcb8cf73c6 9550,32,15601 len 146 12/15 flags 0980000a rf 04020080 look at road 2 no offset tmpl
+42bf29dcc6cf7f08 9439,26,16002 len 44 4/5 flags 0980000a rf 04c20080 look at road 2 city narrow tmpl
+42bf29dcd1cf7d2a 9833,28,15976 len 63 7/7 flags 0b00000a rf 04020080 look at road 2 no offset tmpl
+42bf29dc028f8a2a 8608,23,19700 len 65 7/7 flags 3200084a rf 00020008 look ger road 1 tmpl
+42bf29dc0e8f5934 10274,68,17859 len 288 28/29 flags 000000ca rf 00c20080 look ger hw 2 lanes one way tmpl
+42bf29dc298f5cce 9324,32,16589 len 122 12/13 flags 2a80000a rf 04020084 look ger road 1 tmpl
+42bf29dc3c8f5cab 9016,32,16604 len 51 6/6 flags 09c0000a rf 04020080 look ger road 1 tmpl
+42bf29dc40cf7d2b 9798,28,16022 len 69 7/7 flags 0b80000a rf 04020080 look at road 2 no offset tmpl
+42bf29dc4a8f8202 11386,74,19575 len 70 7/7 flags 0a00000a rf 00020080 look ger hw exit one lane
+42bf29dc528f7e3c 9864,25,16357 len 271 28/28 flags 3ac0000a rf 00020080 look ger road 1 minim
+42bf29dc7c0f5ccd 9300,31,16704 len 129 13/13 flags 0b80000a rf 04020084 look ger road 1 tmpl
+42bf29dc828f7d8d 9703,28,16023 len 15 3/3 flags 0980000a rf 04020080 look at road 2 no offset tmpl
+42bf29dc848f5a05 10471,81,18740 len 110 11/12 flags 000000ca rf 00c20080 look ger hw 3 lanes one way tmpl
+42bf29dc87cf59d5 10412,79,18682 len 81 9/9 flags 0000004a rf 00c20080 look ger hw 2 lanes one way tmpl
+42bf29dc994f5976 10277,69,18295 len 101 11/11 flags 000000ca rf 00c20084 look ger hw 2 lanes one way tmpl
+42bf29dca68f5973 10266,68,18195 len 188 19/19 flags 000000ca rf 00c20084 look ger hw 2 lanes one way tmpl
+42bf29dcaecf64da 9464,25,16436 len 389 38/39 flags 02c04002 rf 00020080 look ger road 1 minim
+42bf29dcb1cf7d9e 9714,28,16066 len 87 9/9 flags 0b80000a rf 04020080 look at road 2 no offset tmpl
+42bf29dccd4f5961 10230,68,18014 len 177 17/18 flags 000000ca rf 00c20084 look ger hw 2 lanes one way tmpl
+42bf29dcd90f5974 10230,68,18191 len 113 12/12 flags 000000ca rf 00c20084 look ger hw 2 lanes one way tmpl
+42bf29dcf60f5b9e 10150,67,17606 len 268 27/27 flags 000000ca rf 00c20080 look ger hw 2 lanes one way tmpl
+42bf29dc0c0f854b 11005,48,20394 len 217 22/22 flags 0800085a rf 00c0000c look ger hw 2 lanes 2m offset tmpl
+42bf29dc178fb448 11904,-14,22442 len 232 24/24 flags 0300000a rf 00020081 look ger road 1 tmpl
+42bf29dc194f89d4 8660,68,20608 len 49 4/5 flags 3240000a rf 00020080 look ger road 1 minim
+42bf29dc1a0f84fb 9994,99,20217 len 54 6/6 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dc1b8f84fe 9989,100,20221 len 7 3/3 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dc1f0f8590 10881,36,20387 len 66 6/7 flags 3a00080a rf 00000009 look ger road 1 tmpl
+42bf29dc22cf84ff 9944,106,20211 len 26 3/3 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dc270f89d6 8715,63,20478 len 83 7/9 flags 3240000a rf 00020080 look ger road 1 minim
+42bf29dc31cf9f7d 8143,70,22878 len 47 4/5 flags 090008fa rf 00420008 look ger road 1 tmpl
+42bf29dc324f84c9 9994,92,20163 len 39 4/4 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dc4e0fb4ca 11150,5,22307 len 124 10/13 flags 0000300a rf 00c30080 look ger hw 2 lanes one way tmpl
+42bf29dc594f8cfd 8991,75,20888 len 62 6/7 flags 3a40000a rf 00020084 look ger road 1 minim
+42bf29dc6c8f84bb 9963,105,20197 len 13 3/3 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dc728fb447 11896,-14,22456 len 208 21/21 flags 3300400a rf 00020080 look rail blke double AI 01 tmpl
+42bf29dc828f8541 9905,90,20135 len 16 3/3 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dc904f84fc 9982,101,20216 len 9 3/3 flags 0300000a rf 00020084 look ger road 1 minim
+42bf29dca0cf89d3 8640,73,20607 len 10 3/3 flags 3340000a rf 00020080 look ger road 1 minim
+42bf29dca20f8508 11127,59,20224 len 211 19/22 flags 0800080a rf 00c00008 look ger hw 2 lanes 2m offset tmpl
+42bf29dcb2cf89d2 8647,80,20566 len 42 5/5 flags 3340000a rf 00020080 look ger road 1 minim
+42bf29dcb6cfa049 9771,21,23987 len 172 18/18 flags 0800000a rf 00c10004 look it hw 2 lanes 2m offset tmpl
+42bf29dcb8cf89d9 8643,71,20615 len 21 2/3 flags 3340000a rf 00020080 look ger road 1 minim
+42bf29dccb4f84ba 9971,92,20171 len 65 7/7 flags 0300000a rf 00020084 look ger road 1 minim

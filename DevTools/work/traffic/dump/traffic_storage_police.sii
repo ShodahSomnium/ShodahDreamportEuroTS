@@ -1,0 +1,57 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+@include "ai/audi_a6_police.sui"
+@include "ai/jaguar_xf_police.sui"
+@include "ai/passat_cc_police.sui"
+@include "ai/mondeo_2009_police.sui"
+@include "ai/focus_2009_police.sui"
+@include "ai/megane_police.sui"
+@include "ai/skoda_octavia_iii_police.sui"
+@include "ai/alfa_romeo_159_police.sui"
+@include "ai/kia_ceed_combi_police.sui"
+@include "ai/volvo_xc70_police.sui"
+@include "ai/vw_touran_police.sui"
+@include "ai/passat_2014_police.sui"
+
+@include "ai/superb_iii_police.sui"
+@include "ai/laguna_police.sui"
+@include "ai/huracan_police.sui"
+
+@include "ai/bgeed_police.sui"
+@include "ai/toyco_police.sui"
+@include "ai/galon_police.sui"
+
+@include "ai/transporter_t6_police.sui"
+
+@include "ai/captur_police.sui"
+@include "ai/qashqai_police.sui"
+@include "ai/ortiz_combi_police.sui"
+
+@include "ai/ava_469_police.sui"
+@include "ai/crafter_police.sui"
+@include "ai/granta_pol_ru.sui"
+@include "ai/duster_police.sui"
+
+@include "ai/stepron_premium_23_police.sui"
+@include "ai/betrude_m5_22_police.sui"
+
+@include "ai/ixcent_pickup_midclass_24_police.sui"
+@include "ai/proseld_suv_midclass_24_police.sui"
+
+@include "ai/valiant_17_police.sui"
+
+@include "ai/betrude_suv_luxury_25_police.sui"
+@include "ai/adeques_subcompact_2022_police.sui" 
+
+
+}
+
+

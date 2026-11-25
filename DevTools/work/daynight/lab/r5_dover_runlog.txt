@@ -1,0 +1,20 @@
+12:34:48 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:34:51 loading 10 % Building roads
+12:34:53 loading 57 % Building junctions and yards
+12:34:55 loading 66 % Placing buildings and props
+12:34:57 loading 72 % Placing fences and barriers
+12:34:59 loading 72 % Placing fences and barriers
+12:35:01 loading 100 % Ready
+12:35:01 first build complete at 13 s
+12:35:26 settled for a_yard after 25 s: built 3298, queued 0, batching 0, plants 57721 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:35:34 settled for a_yard (camera placed) after 8 s: built 3298, queued 0, batching 0, plants 57721 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:35:39 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_a_yard_night.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 0 % bad (slot 9, rain 0.00, wet 0.00), exposure 227.504 (window 352.97 .. 1261.64), sun 0.010, ambient 0.0949, fog 0.00300 from 43 m, lamps on)
+12:35:45 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_a_yard_dusk.png (21:30 sun -0.6 deg (sun light), default.nice.28 + default.nice.27 86 % slot 7, weather 0 % bad (slot 3, rain 0.00, wet 0.00), exposure 37.964 (window 62.06 .. 196.69), sun 3.056, ambient 0.3438, fog 0.00211 from 77 m, lamps on)
+12:35:50 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_a_yard_rain.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 100 % bad (slot 4, rain 0.72, wet 0.59), exposure 0.218 (window 0.63 .. 1.21), sun 0.656, ambient 0.2248, fog 0.00371 from 12 m, lamps off)
+12:35:55 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_a_yard_noon.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 0 % bad (slot 4, rain 0.00, wet 0.00), exposure 0.131 (window 0.42 .. 0.89), sun 2.788, ambient 0.6970, fog 0.00089 from 180 m, lamps off)
+12:36:21 settled for b_road after 26 s: built 3502, queued 0, batching 0, plants 60110 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:36:29 settled for b_road (camera placed) after 8 s: built 3502, queued 0, batching 0, plants 60110 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:36:34 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_b_road_night.png (23:00 sun -8.6 deg (moon light), default.nice.30 + default.nice.29 47 % slot 7, weather 0 % bad (slot 9, rain 0.00, wet 0.00), exposure 227.504 (window 352.97 .. 1261.64), sun 0.010, ambient 0.0949, fog 0.00300 from 43 m, lamps on)
+12:36:39 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_b_road_dusk.png (21:30 sun -0.6 deg (sun light), default.nice.28 + default.nice.27 86 % slot 7, weather 0 % bad (slot 3, rain 0.00, wet 0.00), exposure 37.964 (window 62.06 .. 196.69), sun 3.056, ambient 0.3438, fog 0.00211 from 77 m, lamps on)
+12:36:44 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_b_road_rain.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 100 % bad (slot 4, rain 0.72, wet 0.59), exposure 0.218 (window 0.63 .. 1.21), sun 0.656, ambient 0.2248, fog 0.00371 from 12 m, lamps off)
+12:36:50 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r5_b_road_noon.png (13:00 sun 59.7 deg (sun light), default.nice.21 + default.nice.20 65 % slot 7, weather 0 % bad (slot 4, rain 0.00, wet 0.00), exposure 0.131 (window 0.42 .. 0.89), sun 2.788, ambient 0.6970, fog 0.00089 from 180 m, lamps off)

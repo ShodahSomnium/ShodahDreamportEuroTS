@@ -1,0 +1,300 @@
+== probe 0,0,-700,0,20
+  (0.0, 0.0):  [Ets Map/roads/road ger9/terrain left dlc_balt_11 y -1.16 L0 renderer-off]
+  (-20.0, 0.0):  [Ets Map/roads/road ger9/vis 11 y -1.60 L0] [Ets Map Viewer/ground fill/fill -1 0 y -1.98 L0]
+  (-40.0, 0.0):  [Ets Map/roads/road ger1/vis 24 y 1.00 L0]
+  (-60.0, 0.0):  [models/model dlc_no_438/a1/piece 1 y 1.02 L0] [curve 2/center1/center1/piece 2 y 1.00 L23] [Ets Map/roads/road ger1/vis 24 y 1.00 L0]
+  (-80.0, 0.0):  [Ets Map/terrain items/terrain profile104/terrain right dlc_balt_42 y 1.01 L0] [Ets Map/roads/road ger1/terrain right invisible y 1.00 L0 renderer-off]
+  (-100.0, 0.0):  [Ets Map/roads/road ger1/terrain right dlc_balt_42 y 0.85 L0]
+  (-120.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 84.59 L0] [models/model dlc_no_438/b1/piece 2 y 0.83 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y 0.50 L0]
+  (-140.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 74.19 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y 0.22 L0]
+  (-160.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 61.16 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_46 y -0.11 L0]
+  (-180.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 47.03 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -0.44 L0 renderer-off]
+  (-200.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 34.30 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -0.63 L0] [models/model dlc_no_438/a1/piece 1 y -0.98 L0]
+  (-220.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 23.10 L0] [models/model dlc_no_438/b1/piece 2 y -0.98 L0] [models/model dlc_no_438/vis/piece 0 y -0.98 L0] [curve 29/center1a/center1a/piece 5 y -0.98 L23] [Ets Map/roads/road ger1/terrain right blke_7 y -1.00 L0]
+  (-240.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 14.65 L0] [models/model dlc_no_438/b1/piece 2 y -0.98 L0] [models/model dlc_no_438/b1/piece 2 y -0.98 L0] [models/model dlc_no_438/vis/piece 0 y -0.98 L0] [Ets Map/roads/road ger1/terrain right blke_7 y -1.00 L0]
+  (-260.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 4.99 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -0.98 L0] [models/model dlc_no_438/vis/piece 0 y -0.98 L0]
+  (-280.0, 0.0):  [models/model at_0m001/collpart3/piece 31 y 3.79 L23 no-renderer] [models/model at_0m001/part3/piece 57 y 3.70 L23] [models/model at_0m001/part3/piece 55 y 3.51 FACES DOWN L23] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -1.00 L0] [Ets Map/terrain items/terrain profile114/terrain right at_08 y -5.81 L0]
+  (-300.0, 0.0):  [prefabs/prefab mod_ger_69/decal/piece 10 y -0.98 L0] [prefabs/prefab mod_ger_69/coll_base/piece 9 y -1.00 L0 no-renderer] [prefabs/prefab mod_ger_69/vis/piece 12 y -1.00 L0]
+  (-320.0, 0.0):  [Ets Map/roads/road ger1/terrain right dlc_balt_10 y -1.01 L0]
+  (-340.0, 0.0):  [models/model dlc_no_438/a1/piece 1 y -0.90 L0] [Ets Map/roads/road ger1/terrain right blke_7 y -1.03 L0]
+  (-360.0, 0.0):  [models/model dlc_no_438/b1/piece 2 y -0.87 L0] [Ets Map/roads/road ger1/vis 24 y -0.99 L0]
+  (-380.0, 0.0):  [models/model dlc_no_438/vis/piece 0 y -0.85 L0] [Ets Map/roads/road ger1/vis 24 y -0.95 L0]
+  (-400.0, 0.0):  [models/model dlc_no_438/b1/piece 2 y -0.58 L0] [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -0.90 L0] [models/model dlc_no_438/a1/piece 1 y -0.90 L0]
+  (-420.0, 0.0):  [models/model at_0v009/collpart1/piece 0 y 2.67 L23 no-renderer] [models/model at_0v009/part1/piece 4 y 2.61 L23] [models/model at_0v009/part1/piece 3 y 2.55 L23] [models/model dlc_no_702/white/piece 8 y 1.43 L23] [models/model dlc_no_702/vis/piece 6 y -0.53 FACES DOWN L23] [models/model dlc_no_438/b1/piece 2 y -0.78 L0] [Ets Map/roads/road ger1/terrain left dlc_fr_71 y -0.80 L0]
+  (-440.0, 0.0):  [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -0.66 L0] [models/model dlc_no_438/vis/piece 0 y -0.67 L0]
+  (-460.0, 0.0):  [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -0.47 L0 renderer-off]
+  (-480.0, 0.0):  [Ets Map/roads/road ger1/terrain left dlc_balt_50 y -0.19 L0]
+  (-500.0, 0.0):  [Ets Map/prefabs/prefab mod_ger_45/prefab terrain dlc_balt_10 y 0.15 L0]
+  (-520.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 2.15 L0]
+  (-540.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 4.35 L0]
+  (-560.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 6.37 L0]
+  (-580.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 7.35 L0]
+  (-600.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 7.92 L0 renderer-off]
+  (-620.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 7.68 L0 renderer-off]
+  (-640.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 6.67 L0 renderer-off]
+  (-660.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain left dlc_balt_10 y 4.56 L0]
+  (-680.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain right dlc_balt_9 y 3.53 L0]
+  (-700.0, 0.0):  [Ets Map/terrain items/terrain profile65/terrain right dlc_balt_9 y 2.31 L0]
+  renderers over (-350.0, 0.0):
+    detail road models/detail road model lamp 03 de/part1/street lamp pool y -0.9..-0.9 mat ets street lamp pool / SomniumEuroTruck/Decal queue 2910 kw [] _BaseMap=ets street lamp pool RGBA32 mesh street lamp pool v 4 colors True uv1 False
+    Ets Map/roads/road ger1/vis 24 y -1.0..-0.9 mat /automat/48/4870d2387e78c3c2.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/road/road_template/ger/ger_02.tobj DXT5 mesh Combined Mesh (root: road ger1) 3 v 144 (not readable) colors True uv1 False
+    Ets Map/roads/road ger1/terrain skirt y -21.8..-0.9 mat /umatlib/legacy/terrain/asphalt_parklot_base_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/asphalt_parklot_base.tobj DXT5 mesh Combined Mesh (root: road ger1) 2 v 249 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain right at_08 y -9.3..101.5 mat /umatlib/legacy/terrain/austria/grass_forest_sparse_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_forest_sparse_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) v 353 (not readable) colors False uv1 False
+    models/model dlc_no_438/b1/piece 2 y -1.3..-0.6 mat /automat/60/60bec8969712f8b5.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/special/decal_ground_01.tobj DXT5 mesh Combined Mesh (root: model dlc_no_438) v 108 (not readable) colors True uv1 True
+    Ets Map/roads/road ger1/terrain skirt y -22.3..-1.0 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: road ger1) 4 v 522 (not readable) colors False uv1 False
+    Ets Map Viewer/grass cells/grass -11,-1 #2 y -2.8..4.9 mat /automat/ba/ba95c51a31d0b941.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/grass_1.tobj DXT5 mesh grass -11,-1 #2 v 552 colors True uv1 True
+    models/model dlc_no_438/a1/piece 1 y -1.2..-0.6 mat /automat/60/60bec8969712f8b5.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/special/decal_ground_01.tobj DXT5 mesh Combined Mesh (root: model dlc_no_438) v 108 (not readable) colors True uv1 True
+    Ets Map/roads/road ger1/terrain left dlc_balt_10 y -1.0..-0.2 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: road ger1) 4 v 522 (not readable) colors False uv1 False
+    Ets Map/roads/road ger1/terrain left dlc_balt_10 + dlc_balt_46 y -1.0..-0.2 mat terrain dlc_balt_10 + dlc_balt_46 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 _MultMap=/material/terrain/balt/grass_flowers_yellow1_balt.tobj DXT5 mesh terrain left dlc_balt_10 + dlc_balt_46 v 209 colors True uv1 True
+    Ets Map/roads/road ger1/terrain skirt y -21.0..-0.2 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: road ger1) 4 v 522 (not readable) colors False uv1 False
+    Ets Map/roads/road ger1/terrain right blke_7 + dlc_balt_10 y -2.3..-0.4 mat terrain blke_7 + dlc_balt_10 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/asphalt_parklot_base.tobj DXT5 _MultMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh terrain right blke_7 + dlc_balt_10 v 209 colors True uv1 True
+    Ets Map/roads/road ger1/terrain right blke_7 y -1.7..-0.9 mat /umatlib/legacy/terrain/asphalt_parklot_base_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/asphalt_parklot_base.tobj DXT5 mesh Combined Mesh (root: road ger1) 2 v 249 (not readable) colors False uv1 False
+    Ets Map/roads/road ger1/terrain right dlc_balt_10 y -2.3..-0.4 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: road ger1) 4 v 522 (not readable) colors False uv1 False
+    Ets Map/roads/road ger1/terrain left dlc_balt_10 [OFF] y -1.0..-0.2 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh terrain left dlc_balt_10 v 209 colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain skirt y -25.7..101.5 mat /umatlib/legacy/terrain/austria/grass_forest_sparse_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_forest_sparse_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) v 353 (not readable) colors False uv1 False
+    Ets Map/roads/road ger1/terrain right blke_7 [OFF] y -2.3..-0.4 mat /umatlib/legacy/terrain/asphalt_parklot_base_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/asphalt_parklot_base.tobj DXT5 mesh terrain right blke_7 v 209 colors False uv1 False
+    Ets Map/roads/road ger1/left decal_15m 2 y -1.0..-0.9 mat /automat/22/2276a03b2bc4e74d.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/road/road_template/ger/decal_ger_02.tobj DXT5 mesh Combined Mesh (root: road ger1) 3 v 144 (not readable) colors True uv1 False
+    detail road models/detail road model lamp 03 de/part1/street lamp pool y -0.9..-0.9 mat ets street lamp pool / SomniumEuroTruck/Decal queue 2910 kw [] _BaseMap=ets street lamp pool RGBA32 mesh street lamp pool v 4 colors True uv1 False
+== probe 0,150,-700,150,20
+  (0.0, 150.0):  [models/model dlc_no_438/vis/piece 0 y 1.02 L0] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y 0.82 L0]
+  (-20.0, 150.0):  [models/model dlc_no_438/vis/piece 0 y 1.02 L0] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -0.94 L0]
+  (-40.0, 150.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -1.42 L0]
+  (-60.0, 150.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -1.72 L0]
+  (-80.0, 150.0):  [Ets Map/terrain items/terrain profile0/terrain right 92 y -1.57 L0 renderer-off]
+  (-100.0, 150.0):  [Ets Map/terrain items/terrain profile0/terrain right 92 y -1.67 L0 renderer-off]
+  (-120.0, 150.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -1.95 L0]
+  (-140.0, 150.0):  [models/model at_2000d/part1/piece 0 y 5.75 L23] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -2.13 L0]
+  (-160.0, 150.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -2.05 L0]
+  (-180.0, 150.0):  [Ets Map/roads/road ger1/terrain right dlc_balt_10 y -1.56 L0]
+  (-200.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 89.19 L0] [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -1.55 L0]
+  (-220.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 85.24 L0] [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -1.58 L0]
+  (-240.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 78.78 L0] [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -1.63 L0]
+  (-260.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 69.18 L0] [Ets Map/roads/road ger1/terrain left dlc_balt_10 y -1.33 L0]
+  (-280.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 58.42 L0] [Ets Map/terrain items/terrain profile65/terrain right ru_18 y 7.12 L0] [Ets Map/roads/road ger1/terrain left blke_7 y -1.00 L0]
+  (-300.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 47.73 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_12 y -2.09 L0]
+  (-320.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 39.45 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_12 y -3.66 L0]
+  (-340.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 34.68 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_12 y -3.60 L0]
+  (-360.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 30.14 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_12 y -6.37 L0] [building bld_model.dlc_fr_232/start/start/piece 0 y -7.74 L23]
+  (-380.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 26.24 L0] [building bld_model.dlc_fr_232/start/start/piece 0 y -7.87 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-400.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 24.10 L0] [building bld_model.dlc_fr_232/start/start/piece 0 y -7.88 L23] [building bld_model.dlc_fr_232/start/start/piece 0 y -7.89 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-420.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 23.49 L0] [building bld_model.dlc_fr_232/end/end/piece 1 y -7.87 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-440.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 22.35 L0] [Ets Map/terrain items/terrain profile53/terrain left dlc_balt_13 y -6.00 L0] [building bld_model.dlc_fr_232/end/end/piece 1 y -7.85 L23]
+  (-460.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 20.35 L0] [Ets Map/terrain items/terrain profile53/terrain left dlc_balt_13 y -7.13 L0 renderer-off] [building bld_model.dlc_fr_232/start/start/piece 0 y -7.83 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-480.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 19.10 L0] [building bld_model.dlc_fr_232/end/end/piece 1 y -7.87 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-500.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 18.44 L0] [building bld_model.dlc_fr_232/end/end/piece 1 y -7.88 L23] [building bld_model.dlc_fr_232/end/end/piece 1 y -7.88 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-520.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 17.42 L0] [building bld_model.dlc_fr_232/end/end/piece 1 y -7.87 L23] [curve 2t004/center1/center1/piece 0 y -7.95 L23] [Ets Map/terrain items/terrain profile53/terrain left dlc_balt_25 y -8.13 L0]
+  (-540.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 17.12 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_12 y -4.16 L0 renderer-off]
+  (-560.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 15.95 L0] [Ets Map/roads/road ger4/terrain right dlc_balt_10 y -1.79 L0]
+  (-580.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 15.55 L0] [Ets Map/terrain items/terrain profile30/terrain right dlc_balt_10 y -0.37 L0]
+  (-600.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 15.28 L0] [Ets Map/roads/road ger4/terrain right dlc_balt_12 y 1.50 L0 renderer-off]
+  (-620.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 16.60 L0] [Ets Map/roads/road ger4/terrain right dlc_balt_12 y 2.46 L0 renderer-off]
+  (-640.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 18.03 L0 renderer-off] [Ets Map/roads/road ger4/vis 1 y 3.68 L0]
+  (-660.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_19 y 19.55 L0] [Ets Map/roads/road ger4/terrain left dlc_balt_10 y 4.65 L0]
+  (-680.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 21.14 L0 renderer-off] [Ets Map/roads/road ger4/terrain left dlc_fr_78 y 6.22 L0]
+  (-700.0, 150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 22.78 L0] [Ets Map/terrain items/terrain profile30/terrain right dlc_fr_78 y 6.42 L0]
+  renderers over (-350.0, 150.0):
+    building bld_model.dlc_fr_232/start/start/piece 0 y -7.9..-7.7 mat /automat/06/06dd764b8b98d1d8.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/model2/water/soil_stones2_water_fr.tobj DXT5 mesh Combined Mesh (root: building bld_model.dlc_fr_232) v 18 (not readable) colors True uv1 True
+    Ets Map/terrain items/terrain profile114/terrain right at_08 y -9.3..101.5 mat /umatlib/legacy/terrain/austria/grass_forest_sparse_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_forest_sparse_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) v 353 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile53/terrain skirt y -29.4..-6.0 mat /umatlib/legacy/terrain/balt/grass_brush_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_brush_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile53) v 420 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile53/terrain skirt y -27.0..-3.0 mat /umatlib/legacy/terrain/balt/grass_brush_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_brush_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile53) v 420 (not readable) colors False uv1 False
+    Ets Map Viewer/ground fill/fill -2 0 y -9.3..68.0 mat /material/terrain/grass_ger_main.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/grass_ger_main.tobj DXT5 mesh ground fill -2 0 v 27 colors False uv1 False
+    Ets Map/terrain items/terrain profile53/terrain left dlc_balt_12 y -9.4..-6.0 mat /umatlib/legacy/terrain/balt/grass_brush_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_brush_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile53) v 420 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile53/terrain right invisible [OFF] y -7.0..-0.5 mat none mesh terrain right invisible v 176 colors False uv1 False
+    Ets Map/terrain items/terrain profile53/terrain right dlc_balt_12 y -7.0..-0.5 mat /umatlib/legacy/terrain/balt/grass_brush_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_brush_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile53) v 420 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain skirt y -25.7..101.5 mat /umatlib/legacy/terrain/austria/grass_forest_sparse_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_forest_sparse_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) v 353 (not readable) colors False uv1 False
+== probe 0,-150,-700,-150,20
+  (0.0, -150.0):  [prefabs/prefab mod_ger_108/vis/piece 10 y 5.00 L0]
+  (-20.0, -150.0):  [Ets Map/roads/road ger13/terrain right dlc_balt_11 y 4.94 L0]
+  (-40.0, -150.0):  [Ets Map/roads/road ger13/vis 2 y 5.00 L0]
+  (-60.0, -150.0):  [Ets Map/roads/road ger13/vis 2 y 5.00 L0]
+  (-80.0, -150.0):  [Ets Map/roads/road ger13/vis 2 y 5.00 L0] [Ets Map Viewer/ground fill/fill -1 -1 y 4.70 L0]
+  (-100.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 70.16 L0] [Ets Map/roads/road ger13/vis 2 y 5.00 L0] [Ets Map/terrain items/bezier patch/terrain patch ru_23 y 3.58 L0]
+  (-120.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 60.20 L0] [Ets Map/roads/road ger16/vis 13 y 5.00 L0] [Ets Map/terrain items/bezier patch/terrain patch ru_23 y 3.58 L0]
+  (-140.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 50.34 L0] [Ets Map/roads/road ger16/vis 13 y 5.00 L0] [Ets Map/terrain items/bezier patch/terrain patch ru_23 y 3.58 L0] [Ets Map/terrain items/terrain profile115/terrain left blke_43 y -2.90 L0]
+  (-160.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 40.48 L0] [Ets Map/roads/road ger16/vis 13 y 5.00 L0] [Ets Map/terrain items/bezier patch/terrain patch ru_23 y 3.58 L0] [Ets Map/roads/road ger2/vis 0 y -3.50 L0]
+  (-180.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 30.63 L0] [Ets Map/terrain items/terrain profile115/terrain right dlc_balt_11 y 0.29 L0]
+  (-200.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 20.78 L0] [Ets Map/terrain items/terrain profile115/terrain right dlc_balt_11 y 4.09 L0]
+  (-220.0, -150.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 10.94 L0] [Ets Map/terrain items/terrain profile95/terrain right dlc_balt_11 y 4.09 L0]
+  (-240.0, -150.0):  [Ets Map/terrain items/terrain profile95/terrain right dlc_balt_11 y 4.09 L0] [Ets Map/terrain items/terrain profile114/terrain right at_08 y 1.10 L0]
+  (-260.0, -150.0):  [Ets Map/terrain items/terrain profile95/terrain right dlc_balt_11 y 4.28 L0]
+  (-280.0, -150.0):  [Ets Map/terrain items/terrain profile95/terrain right dlc_balt_11 y 2.95 L0] [Ets Map Viewer/ground fill/fill -2 -1 y 2.55 L0]
+  (-300.0, -150.0):  [Ets Map/roads/road ger2/terrain left dlc_balt_11 y 2.73 L0]
+  (-320.0, -150.0):  [Ets Map/roads/road ger2/terrain left dlc_balt_42 y 2.80 L0] [Ets Map Viewer/ground fill/fill -2 -1 y 2.55 L0]
+  (-340.0, -150.0):  [Ets Map/roads/road ger2/vis 0 y 3.13 L0] [Ets Map Viewer/ground fill/fill -2 -1 y 2.66 L0]
+  (-360.0, -150.0):  [Ets Map/roads/road ger4/terrain right dlc_balt_50 y 4.74 L0]
+  (-380.0, -150.0):  [Ets Map/roads/road ger4/terrain right dlc_balt_50 y 6.06 L0]
+  (-400.0, -150.0):  [Ets Map/roads/road ger4/vis 1 y 7.85 L0]
+  (-420.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_26 y 13.50 L0 renderer-off]
+  (-440.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain right 186 y 22.07 L0]
+  (-460.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 29.16 L0 renderer-off]
+  (-480.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 33.28 L0]
+  (-500.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 34.22 L0]
+  (-520.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 34.36 L0]
+  (-540.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 33.84 L0]
+  (-560.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 32.58 L0]
+  (-580.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left 186 y 30.36 L0 renderer-off]
+  (-600.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 26.91 L0]
+  (-620.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 22.67 L0 renderer-off]
+  (-640.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 16.82 L0]
+  (-660.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_13 y 11.29 L0 renderer-off]
+  (-680.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_26 y 4.73 L0]
+  (-700.0, -150.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_26 y -0.29 L0]
+  renderers over (-350.0, -150.0):
+    Ets Map Viewer/grass cells/grass -11,-5 #2 y 0.9..5.9 mat /automat/ba/ba95c51a31d0b941.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/grass_1.tobj DXT5 mesh grass -11,-5 #2 v 188 colors True uv1 True
+    Ets Map/roads/road ger4/terrain right dlc_balt_50 [OFF] y 3.8..8.0 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh terrain right dlc_balt_50 v 171 colors False uv1 False
+    Ets Map Viewer/ground fill/fill -2 -1 y -3.4..19.0 mat /material/terrain/grass_ger_main.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/grass_ger_main.tobj DXT5 mesh ground fill -2 -1 v 708 colors False uv1 False
+    Ets Map/roads/road ger4/terrain right dlc_balt_50 + 119 y 3.8..8.0 mat terrain dlc_balt_50 + 119 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 _MultMap=/material/terrain/grass_dry_tall_sc.tobj DXT5 mesh terrain right dlc_balt_50 + 119 v 171 colors True uv1 True
+    Ets Map/terrain items/terrain profile115/terrain skirt y -19.8..3.3 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile115) v 454 (not readable) colors False uv1 False
+    Ets Map/roads/road ger4/terrain skirt y -16.0..4.9 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: road ger4) 2 v 211 (not readable) colors False uv1 False
+    Ets Map Viewer/grass cells/grass -11,-5 #0 y 1.0..5.8 mat /automat/ad/ad880ca1662fd27c.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/grass_1.tobj DXT5 mesh grass -11,-5 #0 v 592 colors True uv1 True
+    Ets Map/roads/road ger2/terrain skirt y -19.8..3.3 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: road ger2) 3 v 146 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile115/terrain right dlc_balt_50 y 0.6..4.9 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile115) v 454 (not readable) colors False uv1 False
+    Ets Map/roads/road ger4/terrain right dlc_balt_50 y 3.8..8.0 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: road ger4) 2 v 211 (not readable) colors False uv1 False
+    Ets Map/roads/road ger2/terrain right dlc_balt_50 y 0.2..3.6 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: road ger2) 3 v 146 (not readable) colors False uv1 False
+    Ets Map/roads/road ger2/right decal_15m 2 y 0.4..3.5 mat /automat/ad/ad897e805a09bc4d.mat / SomniumEuroTruck/Decal queue 2900 kw [] _BaseMap=/material/road/road_template/ger/decal_ger_04.tobj DXT5 mesh Combined Mesh (root: road ger2) 2 v 216 (not readable) colors True uv1 False
+    Ets Map Viewer/grass cells/grass -11,-5 #3 y 0.6..6.2 mat /automat/a9/a98c4853c5970f41.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/flowers_3.tobj DXT5 mesh grass -11,-5 #3 v 240 colors True uv1 True
+    Ets Map/terrain items/terrain profile115/terrain left dlc_balt_50 y 0.2..3.6 mat /umatlib/legacy/terrain/balt/grass_flowers1_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_flowers1_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile115) v 454 (not readable) colors False uv1 False
+== probe -150,0,-150,900,25
+  (-150.0, 0.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 67.71 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y 0.06 L0]
+  (-150.0, 25.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 77.03 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -0.39 L0]
+  (-150.0, 50.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 82.20 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -0.84 L0]
+  (-150.0, 75.0):  [Ets Map/terrain items/terrain profile114/terrain right at_08 y 83.47 L0] [Ets Map/roads/road ger1/terrain right dlc_balt_42 y -1.11 L0]
+  (-150.0, 100.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -1.73 L0]
+  (-150.0, 125.0):  [curve 25/cen_sml/cen_sml/piece 10 y -0.15 L23] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -1.73 L0]
+  (-150.0, 150.0):  [models/model at_2000d/part1/piece 0 y 7.09 L23] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -2.21 L0]
+  (-150.0, 175.0):  [Ets Map/terrain items/terrain profile30/terrain right dlc_balt_12 y -2.78 L0]
+  (-150.0, 200.0):  [curve 2t004/center1/center1/piece 0 y -7.95 L23] [Ets Map/terrain items/terrain profile30/terrain left dlc_balt_12 y -8.90 L0] [Ets Map Viewer/ground fill/fill -1 0 y -9.20 L0]
+  (-150.0, 225.0):  [Ets Map Viewer/ground fill/fill -1 0 y -7.24 L0] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (-150.0, 250.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (-150.0, 275.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_13 y 0.18 L0]
+  (-150.0, 300.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_13 y 10.96 L0]
+  (-150.0, 325.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 22.38 L0 renderer-off] [Ets Map/terrain items/terrain profile53/terrain right invisible y -6.00 L0 renderer-off]
+  (-150.0, 350.0):  [Ets Map/terrain items/terrain profile114/terrain right at_07 y 67.52 L0] [Ets Map/terrain items/terrain profile112/terrain left at_13 y 32.84 L0 renderer-off]
+  (-150.0, 375.0):  [Ets Map/terrain items/terrain profile114/terrain right at_07 y 76.19 L0] [Ets Map/terrain items/terrain profile112/terrain left at_13 y 42.25 L0 renderer-off]
+  (-150.0, 400.0):  [Ets Map/terrain items/terrain profile114/terrain right at_07 y 85.36 L0] [Ets Map/terrain items/terrain profile112/terrain left at_19 y 51.01 L0]
+  (-150.0, 425.0):  [Ets Map/terrain items/terrain profile114/terrain right at_07 y 95.70 L0 renderer-off] [Ets Map/terrain items/terrain profile112/terrain left at_19 y 58.68 L0 renderer-off]
+  (-150.0, 450.0):  [Ets Map/terrain items/terrain profile114/terrain right at_19 y 109.89 L0] [Ets Map/terrain items/terrain profile112/terrain left at_19 y 61.76 L0]
+  (-150.0, 475.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 63.84 L0]
+  (-150.0, 500.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 66.88 L0]
+  (-150.0, 525.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 71.33 L0] [Ets Map/roads/road ger1/vis 24 y 3.09 L0]
+  (-150.0, 550.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 77.24 L0 renderer-off]
+  (-150.0, 575.0):  [Ets Map/terrain items/terrain profile112/terrain left at_09 y 81.98 L0]
+  (-150.0, 600.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 85.52 L0 renderer-off]
+  (-150.0, 625.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 90.24 L0]
+  (-150.0, 650.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 95.16 L0] [Ets Map/roads/road blke33/median blke_22 y 6.08 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (-150.0, 675.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 88.86 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (-150.0, 700.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 85.66 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (-150.0, 725.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 74.29 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (-150.0, 750.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 59.06 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (-150.0, 775.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 46.49 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.82 L0]
+  (-150.0, 800.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_32 y 34.45 L0] [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.27 L0]
+  (-150.0, 825.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_32 y 22.72 L0]
+  (-150.0, 850.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_32 y 11.40 L0]
+  (-150.0, 875.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_32 y 0.69 L0]
+  (-150.0, 900.0):  [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_32 y -8.07 L0] [Ets Map Viewer/ground fill/fill -1 3 y -8.37 L0]
+  renderers over (-150.0, 450.0):
+    Ets Map/terrain items/terrain profile114/terrain skirt y 81.0..123.4 mat /umatlib/legacy/terrain/austria/grass_forest_dense_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/austria/grass_forest_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) 3 v 464 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain skirt y 84.5..118.4 mat /umatlib/legacy/terrain/austria/grass_dense_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) 3 v 464 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain right at_07 [OFF] y 62.9..124.1 mat /umatlib/legacy/terrain/austria/grass_forest_dense_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/austria/grass_forest_dense_far_at.tobj DXT5 mesh terrain right at_07 v 198 colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain right at_19 y 74.3..118.4 mat /umatlib/legacy/terrain/austria/grass_dense_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) 3 v 464 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile112/terrain left at_19 y 40.0..94.1 mat /umatlib/legacy/terrain/austria/grass_dense_far_at_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile112) 3 v 338 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain right at_07 [OFF] y 62.9..124.1 mat /umatlib/legacy/terrain/austria/grass_forest_dense_far_at_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/austria/grass_forest_dense_far_at.tobj DXT5 mesh terrain right at_07 v 198 colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain right at_08 + at_19 y 62.9..124.1 mat terrain at_08 + at_19 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/austria/grass_forest_sparse_far_at.tobj DXT5 _MultMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh terrain right at_08 + at_19 v 198 colors True uv1 True
+    Ets Map/terrain items/terrain profile114/terrain right at_08 [OFF] y 62.9..124.1 mat /umatlib/legacy/terrain/austria/grass_forest_sparse_far_at_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_forest_sparse_far_at.tobj DXT5 mesh terrain right at_08 v 198 colors False uv1 False
+    Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 [OFF] y 20.2..94.1 mat /umatlib/legacy/terrain/balt/wildfield1_mid_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/wildfield1_mid_balt.tobj DXT5 mesh terrain left dlc_balt_13 v 80 colors False uv1 False
+    Ets Map/terrain items/terrain profile112/terrain skirt y 0.2..81.7 mat /umatlib/legacy/terrain/balt/wildfield1_mid_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/wildfield1_mid_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile112) 3 v 338 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 + at_19 y 21.1..81.7 mat terrain dlc_balt_13 + at_19 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/wildfield1_mid_balt.tobj DXT5 _MultMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile112) 2 v 210 (not readable) colors True uv1 True
+    Ets Map/terrain items/terrain profile112/terrain left at_19 [OFF] y 20.2..94.1 mat /umatlib/legacy/terrain/austria/grass_dense_far_at_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh terrain left at_19 v 80 colors False uv1 False
+    Ets Map/terrain items/terrain profile114/terrain right at_07 + at_19 y 68.5..120.2 mat terrain at_07 + at_19 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/austria/grass_forest_dense_far_at.tobj DXT5 _MultMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile114) 2 v 396 (not readable) colors True uv1 True
+    Ets Map/terrain items/terrain profile112/terrain skirt y 29.0..94.1 mat /umatlib/legacy/terrain/austria/grass_dense_far_at_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/austria/grass_dense_far_at.tobj DXT5 mesh Combined Mesh (root: terrain profile112) 3 v 338 (not readable) colors False uv1 False
+== probe 100,0,100,900,25
+  (100.0, 0.0):  [prefabs/prefab dlc_fr_24/part4/piece 25 y 0.52 L0] [prefabs/prefab dlc_fr_24/part4/piece 8 y 0.50 L0] [prefabs/prefab dlc_fr_24/collpart4/piece 5 y 0.50 L0 no-renderer]
+  (100.0, 25.0):  [Ets Map/roads/road ger4/terrain right dlc_balt_50 y 0.47 L0]
+  (100.0, 50.0):  [Ets Map/roads/road ger8/left vis 13 y 1.00 L0]
+  (100.0, 75.0):  [Ets Map/roads/road ger1/terrain left dlc_fr_71 y 1.00 L0 renderer-off] [curve 2/center1s/center1s/piece 9 y 1.00 L23]
+  (100.0, 100.0):  [Ets Map/roads/road ger1/terrain right blke_7 y 1.00 L0]
+  (100.0, 125.0):  [prefabs/prefab at_07002/collpart1/piece 16 y 7.94 L0 no-renderer] [prefabs/prefab at_07002/part1/piece 23 y 7.72 L0] [Ets Map/roads/road ger1/terrain right blke_7 y 1.00 L0]
+  (100.0, 150.0):  [models/model at_0700l/part2/piece 75 y 5.57 L23] [Ets Map/roads/road ger1/terrain right blke_7 y 1.00 L0]
+  (100.0, 175.0):  [models/model at_2m002/part2_c4/piece 8 y 5.93 L23] [models/model at_2m002/collpart1/piece 4 y 5.91 L23 no-renderer] [Ets Map/terrain items/terrain profile113/terrain right dlc_balt_10 y 1.00 L0]
+  (100.0, 200.0):  [models/model at_20008/part1/piece 0 y 6.88 L23] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_10 y -0.84 L0]
+  (100.0, 225.0):  [Ets Map/terrain items/terrain profile30/terrain right dlc_balt_12 y -5.55 L0] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (100.0, 250.0):  [Ets Map Viewer/ground fill/fill 0 0 y -5.80 L0] [Ets Map Viewer/ground fill/fill 0 1 y -5.80 L0] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (100.0, 275.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 300.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 325.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 350.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 375.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 400.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -4.70 L0]
+  (100.0, 425.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -2.69 L0]
+  (100.0, 450.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -2.99 L0]
+  (100.0, 475.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -4.40 L0]
+  (100.0, 500.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -4.70 L0]
+  (100.0, 525.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -4.47 L0]
+  (100.0, 550.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -4.22 L0]
+  (100.0, 575.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -4.65 L0]
+  (100.0, 600.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.36 L0]
+  (100.0, 625.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.79 L0]
+  (100.0, 650.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.95 L0]
+  (100.0, 675.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 700.0):  [Ets Map Viewer/ground fill/fill 0 2 y -6.20 L0] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (100.0, 725.0):  [Ets Map Viewer/ground fill/fill 0 2 y -6.10 L0] [curve 2t004/center1/center1/piece 0 y -7.95 L23]
+  (100.0, 750.0):  [Ets Map Viewer/ground fill/fill 0 2 y -6.10 L0] [curve 2t004/center1/center1/piece 0 y -7.95 L23] [Ets Map Viewer/ground fill/fill 0 3 y -8.69 L0]
+  (100.0, 775.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.00 L0]
+  (100.0, 800.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.80 L0]
+  (100.0, 825.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -5.24 L0]
+  (100.0, 850.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -3.83 L0]
+  (100.0, 875.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -2.47 L0]
+  (100.0, 900.0):  [Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -1.39 L0]
+  renderers over (100.0, 450.0):
+    Ets Map Viewer/ground fill/fill 0 1 y -9.6..-1.9 mat /material/terrain/grass_ger_main.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/grass_ger_main.tobj DXT5 mesh ground fill 0 1 v 933 colors False uv1 False
+    Ets Map/terrain items/terrain profile53/terrain right dlc_balt_13 y -6.0..-2.0 mat /umatlib/legacy/terrain/balt/wildfield1_mid_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/wildfield1_mid_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile53) v 360 (not readable) colors False uv1 False
+== probe 0,0,0,-700,25
+  (0.0, 0.0):  [Ets Map/roads/road ger9/terrain left dlc_balt_11 y -1.16 L0 renderer-off]
+  (0.0, -25.0):  [Ets Map/roads/road ger4/vis 1 y -0.51 L0]
+  (0.0, -50.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_50 y 0.34 L0]
+  (0.0, -75.0):  [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_11 y 0.40 L0 renderer-off]
+  (0.0, -100.0):  [Ets Map/roads/road ger4/terrain left dlc_balt_50 y -1.00 L0]
+  (0.0, -125.0):  [Ets Map/roads/road ger4/terrain right dlc_balt_50 y -1.71 L0]
+  (0.0, -150.0):  [prefabs/prefab mod_ger_108/vis/piece 10 y 5.00 L0]
+  (0.0, -175.0):  [prefabs/prefab mod_ger_28/vis/piece 16 y 5.00 L0]
+  (0.0, -200.0):  [Ets Map/terrain items/terrain profile113/terrain right dlc_balt_10 y 5.00 L0 renderer-off]
+  (0.0, -225.0):  [Ets Map/terrain items/terrain profile113/terrain left dlc_balt_11 y 2.90 L0]
+  (0.0, -250.0):  [Ets Map/roads/road ger4/terrain left invisible y 3.40 FACES DOWN L0 renderer-off] [Ets Map/terrain items/terrain profile0/terrain right dlc_balt_50 y 3.37 L0] [Ets Map Viewer/ground fill/fill -1 -2 y 3.07 L0]
+  (0.0, -275.0):  [Ets Map/roads/road ger4/terrain left dlc_balt_50 y 6.94 L0] [Ets Map Viewer/ground fill/fill -1 -2 y 6.38 L0]
+  (0.0, -300.0):  [Ets Map/terrain items/terrain profile103/terrain right dlc_balt_50 y 9.47 L0] [Ets Map/roads/road ger4/terrain left dlc_fr_71 y 7.00 L0]
+  (0.0, -325.0):  [Ets Map/terrain items/terrain profile103/terrain right dlc_balt_10 y 14.43 L0]
+  (0.0, -350.0):  [Ets Map/terrain items/terrain profile103/terrain left dlc_balt_10 y 18.78 L0] [Ets Map/terrain items/terrain profile112/terrain right dlc_balt_13 y 16.63 L0]
+  (0.0, -375.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 30.59 L0]
+  (0.0, -400.0):  [Ets Map/terrain items/terrain profile112/terrain left dlc_balt_13 y 46.41 L0 renderer-off] [Ets Map/terrain items/terrain profile0/terrain left at_07 y 18.23 L0]
+  (0.0, -425.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 62.98 L0] [Ets Map/terrain items/terrain profile0/terrain left at_07 y 10.61 L0]
+  (0.0, -450.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 79.77 L0] [Ets Map/terrain items/terrain profile0/terrain left at_07 y 6.57 L0] [Ets Map/roads/road ger4/terrain right dlc_balt_32 y 2.32 L0]
+  (0.0, -475.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 97.50 L0] [Ets Map/roads/road ger4/terrain right dlc_balt_32 y 1.81 L0] [Ets Map/terrain items/terrain profile0/terrain left at_07 y -0.57 L0]
+  (0.0, -500.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 117.73 L0] [Ets Map/roads/road ger4/terrain right dlc_balt_32 y 1.12 L0]
+  (0.0, -525.0):  [Ets Map/terrain items/terrain profile112/terrain left at_19 y 136.92 L0] [Ets Map/prefabs/prefab mod_ger_42/prefab terrain dlc_balt_26 y 5.79 L0]
+  (0.0, -550.0):  [Ets Map/roads/road ger4/terrain left dlc_balt_26 y 0.47 L0]
+  (0.0, -575.0):  [Ets Map/roads/road ger4/vis 1 y -2.77 L0]
+  (0.0, -600.0):  [Ets Map/roads/road ger4/terrain right dlc_balt_26 y -4.23 L0]
+  (0.0, -625.0):  [Ets Map/roads/road ger4/terrain right dlc_balt_26 y -2.42 L0]
+  (0.0, -650.0):  [Ets Map/roads/road ger13/terrain right dlc_balt_26 y 2.17 L0]
+  (0.0, -675.0):  [Ets Map/roads/road ger13/terrain right dlc_balt_26 y 5.19 L0]
+  (0.0, -700.0):  [Ets Map/roads/road ger13/vis 2 y 5.36 L0] [Ets Map/roads/road ger4/terrain right invisible y 3.86 L0 renderer-off]
+  renderers over (0.0, -350.0):
+    Ets Map Viewer/grass cells/grass 0,-11 #2 y 11.9..20.9 mat /automat/ba/ba95c51a31d0b941.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/grass_1.tobj DXT5 mesh grass 0,-11 #2 v 500 colors True uv1 True
+    Ets Map Viewer/grass cells/grass -1,-11 #28 y 9.7..21.1 mat /automat/83/834734138f0cc71c.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/model2/vegetation/grass/grass_mid.tobj DXT5 mesh grass -1,-11 #28 v 368 colors True uv1 True
+    Ets Map/terrain items/terrain profile103/terrain right dlc_balt_10 [OFF] y 5.7..16.3 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh terrain right dlc_balt_10 v 208 colors False uv1 False
+    Ets Map Viewer/grass cells/grass 0,-11 #4 y 17.8..20.5 mat /automat/77/77a50520a4fda679.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/grass_1.tobj DXT5 mesh grass 0,-11 #4 v 4 colors True uv1 True
+    Ets Map Viewer/grass cells/grass -1,-11 #2 y 10.5..21.1 mat /automat/ba/ba95c51a31d0b941.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/asset/vegetation/grass/grass_1.tobj DXT5 mesh grass -1,-11 #2 v 1740 colors True uv1 True
+    Ets Map/terrain items/terrain profile103/terrain left ibe_19 y 14.0..16.8 mat /umatlib/legacy/terrain/iberia/soil_stones1_ibe_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/iberia/soil_stones1_ibe.tobj DXT5 mesh Combined Mesh (root: terrain profile103) 2 v 377 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile103/terrain left dlc_balt_10 y 14.7..25.5 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile103) 3 v 669 (not readable) colors False uv1 False
+    Ets Map Viewer/grass cells/grass -1,-12 #28 y 9.7..39.9 mat /automat/83/834734138f0cc71c.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/model2/vegetation/grass/grass_mid.tobj DXT5 mesh grass -1,-12 #28 v 3244 colors True uv1 True
+    Ets Map/terrain items/terrain profile103/terrain left ibe_19 [OFF] y 14.0..25.5 mat /umatlib/legacy/terrain/iberia/soil_stones1_ibe_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/iberia/soil_stones1_ibe.tobj DXT5 mesh terrain left ibe_19 v 169 colors False uv1 False
+    Ets Map/terrain items/terrain profile103/terrain skirt y 0.6..25.5 mat /umatlib/legacy/terrain/balt/grass_green_balt_height.mat / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile103) 3 v 669 (not readable) colors False uv1 False
+    Ets Map Viewer/grass cells/grass 0,-11 #28 y 13.8..21.3 mat /automat/83/834734138f0cc71c.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/model2/vegetation/grass/grass_mid.tobj DXT5 mesh grass 0,-11 #28 v 216 colors True uv1 True
+    Ets Map Viewer/grass cells/grass 0,-12 #28 y 13.4..42.5 mat /automat/83/834734138f0cc71c.mat (grass cells) / SomniumEuroTruck/Leaves queue 2450 cutoff 0.05 kw [] _BaseMap=/model2/vegetation/grass/grass_mid.tobj DXT5 mesh grass 0,-12 #28 v 3824 colors True uv1 True
+    Ets Map/terrain items/terrain profile103/terrain left dlc_balt_10 + ibe_19 y 14.5..17.0 mat terrain dlc_balt_10 + ibe_19 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 _MultMap=/material/terrain/iberia/soil_stones1_ibe.tobj DXT5 mesh Combined Mesh (root: terrain profile103) v 377 (not readable) colors True uv1 True
+    Ets Map/terrain items/terrain profile112/terrain skirt y -10.7..17.6 mat /umatlib/legacy/terrain/balt/wildfield1_mid_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/wildfield1_mid_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile112) 2 v 476 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile112/terrain right dlc_balt_13 y 9.3..20.2 mat /umatlib/legacy/terrain/balt/wildfield1_mid_balt_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/wildfield1_mid_balt.tobj DXT5 mesh Combined Mesh (root: terrain profile112) 2 v 476 (not readable) colors False uv1 False
+    Ets Map/terrain items/terrain profile103/terrain right dlc_fr_34 y 5.7..16.3 mat /umatlib/legacy/terrain/field_rape_tall_512_fr_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/field_rape_tall_512_fr.tobj DXT5 mesh terrain right dlc_fr_34 v 208 colors False uv1 False
+    Ets Map/terrain items/terrain profile103/terrain right dlc_balt_10 + dlc_fr_71 y 5.7..16.3 mat terrain dlc_balt_10 + dlc_fr_71 / SomniumEuroTruck/Multi queue 2000 layer 3 cutoff 0.40 kw [_ENVIRONMENTREFLECTIONS_OFF] _BaseMap=/material/terrain/balt/grass_green_balt.tobj DXT5 _MultMap=/material/terrain/soil_gravel_fr.tobj DXT5 mesh terrain right dlc_balt_10 + dlc_fr_71 v 208 colors True uv1 True
+    Ets Map/terrain items/terrain profile103/terrain right ibe_19 [OFF] y 5.7..16.3 mat /umatlib/legacy/terrain/iberia/soil_stones1_ibe_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/iberia/soil_stones1_ibe.tobj DXT5 mesh terrain right ibe_19 v 208 colors False uv1 False
+    Ets Map/terrain items/terrain profile103/terrain right ibe_19 y 13.6..16.3 mat /umatlib/legacy/terrain/iberia/soil_stones1_ibe_height.mat tinted / Universal Render Pipeline/Lit queue 2000 cutoff 0.50 kw [_ENVIRONMENTREFLECTIONS_OFF _NORMALMAP] _BaseMap=/material/terrain/iberia/soil_stones1_ibe.tobj DXT5 mesh Combined Mesh (root: terrain profile103) 2 v 377 (not readable) colors False uv1 False

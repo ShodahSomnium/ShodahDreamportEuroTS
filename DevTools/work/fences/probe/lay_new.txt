@@ -1,0 +1,62 @@
+    public static Dictionary<int, double[]> KRigid = new Dictionary<int, double[]>(), KBent = new Dictionary<int, double[]>();
+    public static Dictionary<int, EtsMapItem> Items = new Dictionary<int, EtsMapItem>();
+    public static Dictionary<int, double> Turn = new Dictionary<int, double>();
+
+    static void Grow(Dictionary<int, double[]> k, int id, D3 u)
+    {
+        double x = u.x + centre.x, y = u.y, z = -(u.z + centre.z);
+        if (!k.TryGetValue(id, out var b)) { b = new double[10]; for (int i = 0; i < 5; i++) { b[i] = 1e18; b[i + 5] = -1e18; } k[id] = b; }
+        double[] v = { x, y, z, (x + z) / 2, (x - z) / 2 };
+        for (int i = 0; i < 5; i++) { b[i] = Math.Min(b[i], v[i]); b[i + 5] = Math.Max(b[i + 5], v[i]); }
+    }
+
+    static void Lay(EtsModelData m, EtsMapNode start, EtsMapNode end, float length, float stretch, float[] heights, float step, string centrePart, string first, string last, float scale, bool roundUp, int id, string tag)
+    {
+        float span = stretch > 0.01f && stretch < 50f ? stretch : 1f;
+        float raw = length / (step * span);
+        int count = Math.Max(1, roundUp ? (int)Math.Ceiling(raw - 0.001f) : (int)Math.Round(raw, MidpointRounding.ToEven));
+        if (count > 200) count = 200;
+        float spacing = length / count;
+        float along = spacing / (step * span);
+        Lib.Path(start, end, length, centre, out D3[] pts, out double[] arc, out D3 p0, out D3 p1);
+        { var f0 = (pts[1] - pts[0]).Norm; var f1 = (pts[pts.Length - 1] - pts[pts.Length - 2]).Norm; Turn[id] = Math.Acos(Math.Max(-1, Math.Min(1, f0.x * f1.x + f0.z * f1.z))) * 180 / Math.PI; }
+        for (int i = 0; i < count; i++)
+        {
+            string part = centrePart;
+            if (i == 0 && first != null) part = first;
+            else if (i == count - 1 && last != null && count > 1) part = last;
+            var pp = Lib.Part(m, part);
+            if (pp == null) continue;
+            Lib.ZRange(m, part, out float zMin, out float zMax);
+            double mid = 0.5 * (zMin + zMax);
+            double h = heights != null && i < heights.Length ? heights[i] : 0;
+            Lib.AtArc(pts, arc, (i + 0.5) * spacing, p1 - p0, out D3 point, out D3 fwd);
+            point = point - fwd * (mid * scale * along);
+            point.y += h;
+            Lib.Look(fwd * -1, out D3 X, out D3 Y, out D3 Z);
+            int g = group++;
+            for (int q = pp.PieceStart; q < pp.PieceStart + pp.PieceCount && q < m.Pieces.Length; q++)
+            {
+                var piece = m.Pieces[q]; var P = piece.Positions;
+                bool drawn = Lib.Drawn(m, piece);
+                var R = new D3[piece.VertexCount]; var B = new D3[piece.VertexCount];
+                for (int v = 0; v < piece.VertexCount; v++)
+                {
+                    double x = P[v * 3], y = P[v * 3 + 1], zg = P[v * 3 + 2];
+                    R[v] = point + X * (x * scale) + Y * (y * scale) + Z * (-zg * scale * along);
+                    // bent: the vertex rides the path at its own distance, in the frame there
+                    double d = (i + 0.5) * spacing + (zg - mid) * scale * along;
+                    double total = arc[arc.Length - 1];
+                    Lib.AtArc(pts, arc, d, p1 - p0, out D3 bp, out D3 bf);
+                    if (d < 0) bp = bp + bf * d; else if (d > total) bp = bp + bf * (d - total);
+                    Lib.Look(bf * -1, out D3 bX, out D3 bY, out D3 bZ);
+                    B[v] = bp + bX * (x * scale) + bY * (y * scale); B[v].y += h;
+                    Grow(KRigid, id, R[v]); Grow(KBent, id, B[v]);
+                }
+                if (!drawn) continue;
+                var V = Variant == "bend" ? B : R;
+                for (int t = 0; t + 2 < piece.Indices.Length; t += 3)
+                    Lib.AddTri(tris, V[piece.Indices[t]], V[piece.Indices[t + 1]], V[piece.Indices[t + 2]], g, id, tag);
+            }
+        }
+    }

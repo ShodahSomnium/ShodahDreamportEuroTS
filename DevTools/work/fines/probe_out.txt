@@ -1,0 +1,103 @@
+police_data from file: True; hookup units 3; camera fine 200, level factor 0/5/10/20: 0.2/0.6/1/1
+camera model scan: 63 sign models with a speedcam locator, 1017 ms
+
+== Dover (game -33391.4, -7420): 25 speed camera locators within 8 km; 1936 speed-rule signs in the 33 sectors read
+     399 m  ( -33788.9,   -7386.1)  sign.1086 [speedcamera_hw_uk.pmd] ml1 speedcam.20 dir (0.99,0.17)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+     724 m  ( -33547.2,   -8127.0)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-0.76,-0.65)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+     788 m  ( -34123.2,   -7126.4)  sign.1086 [speedcamera_hw_uk.pmd] ml1 speedcam.20 dir (-0.99,0.15)  limit 30 mph (48.3 km/h) - uk, expressway, sign limit_30; fires at >= 53.1 km/h
+     819 m  ( -33605.1,   -8210.8)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.72,0.69)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+    4293 m  ( -37308.6,   -9177.8)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.98,0.20)  no lane into it
+    4369 m  ( -37404.0,   -9148.6)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-0.98,-0.21)  no lane into it
+    4575 m  ( -29612.1,   -4842.0)  sign.1045 [speedcamera_hw_fr.pmd] ml1 speedcam.r dir (-0.02,1.00)  limit 90 km/h (90 km/h) - france, motorway, urban, sign limit_110; fires at >= 99.0 km/h
+    4589 m  ( -29595.6,   -4841.6)  sign.1045 [speedcamera_hw_fr.pmd] ml2 speedcam.r dir (0.02,-1.00)  limit 70 km/h (70 km/h) - france, motorway, urban, sign limit_70; fires at >= 77.0 km/h
+    5300 m  ( -29926.8,   -3408.8)  sign.1045 [speedcamera_hw_fr.pmd] ml2 speedcam.r dir (-1.00,0.00)  limit 80 km/h (80 km/h) - france, motorway, sign limit_80; fires at >= 88.0 km/h
+    5313 m  ( -29926.8,   -3392.3)  sign.1045 [speedcamera_hw_fr.pmd] ml1 speedcam.r dir (1.00,0.00)  limit 80 km/h (80 km/h) - france, motorway, sign limit_80; fires at >= 88.0 km/h
+    5318 m  ( -37597.5,  -10673.9)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-0.62,0.78)  limit 60 mph (96.6 km/h) - uk, motorway, sign motorway_st; fires at >= 106.2 km/h
+    5351 m  ( -37598.7,  -10726.2)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.61,-0.80)  limit 60 mph (96.6 km/h) - uk, motorway, sign motorway_st; fires at >= 106.2 km/h
+    5376 m  ( -35357.0,  -12423.9)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-1.00,-0.08)  limit 50 mph (80.5 km/h) - uk, motorway, sign limit_50; fires at >= 88.5 km/h
+    5439 m  ( -35168.2,  -12560.3)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.38,-0.93)  limit 50 mph (80.5 km/h) - uk, motorway, sign limit_50; fires at >= 88.5 km/h
+    5527 m  ( -33008.7,  -12933.6)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.01,-1.00)  limit 30 mph (48.3 km/h) - uk, expressway, sign limit_30; fires at >= 53.1 km/h
+    5582 m  ( -32994.1,  -12987.4)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.02,1.00)  limit 30 mph (48.3 km/h) - uk, expressway, sign limit_30; fires at >= 53.1 km/h
+    6743 m  ( -39449.5,  -10380.8)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-0.95,-0.31)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+    7025 m  ( -39693.0,  -10524.4)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.88,0.48)  limit 30 mph (48.3 km/h) - uk, expressway, sign limit_30; fires at >= 53.1 km/h
+    7066 m  ( -31626.3,  -14262.3)  sign.1086 [speedcamera_hw_uk.pmd] ml1 speedcam.20 dir (-0.06,1.00)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+    7162 m  ( -40537.9,   -6942.9)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-0.99,-0.11)  limit 60 mph (96.6 km/h) - uk, motorway, no limit sign passed; fires at >= 106.2 km/h
+    7185 m  ( -31867.4,  -14441.7)  sign.1086 [speedcamera_hw_uk.pmd] ml1 speedcam.20 dir (-1.00,-0.08)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+    7530 m  ( -40140.7,  -10760.0)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (-0.08,1.00)  limit 60 mph (96.6 km/h) - uk, expressway, no limit sign passed; fires at >= 106.2 km/h
+    7554 m  ( -40139.6,  -10815.3)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.00,-1.00)  limit 30 mph (48.3 km/h) - uk, expressway, urban, sign limit_30; fires at >= 53.1 km/h
+    7609 m  ( -40979.8,   -6863.1)  sign.1130 [speedcamera_hw_uk2.pmd] ml1 speedcam.r dir (0.88,-0.48)  limit 50 mph (80.5 km/h) - uk, motorway, sign limit_50; fires at >= 88.5 km/h
+    7656 m  ( -38900.8,  -12735.9)  sign.1086 [speedcamera_hw_uk.pmd] ml1 speedcam.20 dir (1.00,-0.04)  limit 50 mph (80.5 km/h) - uk, motorway, sign limit_50; fires at >= 88.5 km/h
+
+== Prague (game 14501, 3625): 11 speed camera locators within 8 km; 2608 speed-rule signs in the 48 sectors read
+     706 m  (  13795.2,    3597.0)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (-1.00,0.06)  limit 80 km/h (80 km/h) - czech, expressway, urban, sign limit_80; fires at >= 88.0 km/h
+    1039 m  (  13462.1,    3614.1)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (0.95,-0.31)  limit 80 km/h (80 km/h) - czech, motorway, urban, sign limit_80; fires at >= 88.0 km/h
+    1359 m  (  14692.9,    4970.1)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (0.97,-0.26)  limit 80 km/h (80 km/h) - czech, motorway, sign limit_80; fires at >= 88.0 km/h
+    1475 m  (  14119.0,    5050.0)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (-0.97,-0.24)  limit 80 km/h (80 km/h) - czech, motorway, sign limit_80; fires at >= 88.0 km/h
+    2951 m  (  12947.7,    1115.6)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (0.13,-0.99)  limit 80 km/h (80 km/h) - czech, motorway, sign limit_80; fires at >= 88.0 km/h
+    3562 m  (  12801.5,     494.8)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (0.11,0.99)  limit 80 km/h (80 km/h) - czech, motorway, sign limit_80; fires at >= 88.0 km/h
+    5059 m  (  10001.9,    5939.5)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (0.85,0.52)  limit 80 km/h (80 km/h) - czech, motorway, no limit sign passed; fires at >= 88.0 km/h
+    5091 m  (   9936.5,    5880.7)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (-0.90,-0.43)  limit 80 km/h (80 km/h) - czech, motorway, sign limit_80; fires at >= 88.0 km/h
+    6547 m  (  16911.6,   -2461.7)  sign.1084 [speedcamera_hw_pl.pmd] ml1 speedcam.20 dir (-0.06,-1.00)  no lane into it
+    7606 m  (   7271.2,    5988.9)  sign.1011 [speedcamera_hw_cz.pmd] ml1 speedcam.20 dir (-0.96,0.29)  limit 80 km/h (80 km/h) - germany, motorway, sign motorway_end; fires at >= 88.0 km/h
+    7880 m  (   7020.1,    6100.2)  sign.1012 [speedcamera_hw_de.pmd] ml1 speedcam.20 dir (0.94,-0.33)  limit 80 km/h (80 km/h) - germany, motorway, sign motorway_end; fires at >= 88.0 km/h
+
+== Szczecin (game 14994, -15235): 33 speed camera locators within 8 km; 1790 speed-rule signs in the 34 sectors read
+    5475 m  (  17810.7,  -10540.3)  sign.1084 [speedcamera_hw_pl.pmd] ml1 speedcam.20 dir (-0.53,-0.85)  no lane into it
+    5596 m  (  17911.8,  -10460.1)  sign.1084 [speedcamera_hw_pl.pmd] ml1 speedcam.20 dir (0.53,0.85)  no lane into it
+    6750 m  (  10659.9,  -10060.1)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.99,0.14)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    6886 m  (  10507.0,  -10012.1)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,-0.07)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    6903 m  (  10258.7,  -10212.7)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.95,-0.31)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7074 m  (   8853.1,  -11724.2)  sign.blke_428a [speedcamera_hw_tr.pmd] ml1 speedcam.20 dir (1.00,0.00)  no lane into it
+    7097 m  (  10024.3,  -10168.1)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.00,-1.00)  limit 50 km/h (50 km/h) - germany, local_road, urban, no limit sign passed; fires at >= 55.0 km/h
+    7125 m  (   9997.5,  -10154.9)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-1.00,0.00)  limit 50 km/h (50 km/h) - germany, local_road, urban, no limit sign passed; fires at >= 55.0 km/h
+    7135 m  (  10011.7,  -10127.7)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.00,1.00)  limit 50 km/h (50 km/h) - germany, local_road, urban, sign motorway_end; fires at >= 55.0 km/h
+    7223 m  (  10024.7,   -9993.3)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.00,-1.00)  limit 50 km/h (50 km/h) - germany, local_road, urban, no limit sign passed; fires at >= 55.0 km/h
+    7245 m  (  10035.5,   -9952.0)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7365 m  (   9833.0,   -9981.0)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7377 m  (   9844.8,   -9952.4)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7420 m  (   9743.9,   -9992.1)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.01,-1.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7439 m  (   9756.5,   -9952.5)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7456 m  (   9704.6,   -9980.7)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7472 m  (   9719.0,   -9943.1)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.00,1.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7521 m  (   9610.0,   -9983.3)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7525 m  (   9748.0,   -9839.8)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.01,-1.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, sign motorway_end; fires at >= 55.0 km/h
+    7553 m  (  10843.8,   -8924.4)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.99,0.17)  limit 50 km/h (50 km/h) - germany, expressway, urban, sign motorway_end; fires at >= 55.0 km/h
+    7562 m  (   9706.1,   -9829.9)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.32,0.95)  limit 40 km/h (40 km/h) - germany, slow_road, urban, sign limit_40; fires at >= 44.0 km/h
+    7571 m  (   9572.2,   -9951.2)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7611 m  (   9477.1,   -9991.4)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.89,-0.46)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7620 m  (   9501.8,   -9953.6)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,0.00)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7685 m  (   9635.4,   -9725.9)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.74,0.67)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7728 m  (   9545.8,   -9754.0)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.70,-0.72)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7733 m  (   9430.8,   -9863.7)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.52,0.86)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7756 m  (   9614.8,   -9647.9)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (0.74,0.67)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7762 m  (   9577.0,   -9676.4)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.74,0.67)  no lane into it
+    7807 m  (  10515.5,   -8840.2)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (1.00,-0.07)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7907 m  (   9467.1,   -9580.6)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.76,-0.65)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7944 m  (   9450.6,   -9544.2)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.67,0.74)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+    7978 m  (  10280.5,   -8798.6)  sign.ch_37007 [speed_camera_ch.pmd] ml2 speedcam.20 dir (-0.93,0.36)  limit 50 km/h (50 km/h) - germany, expressway, urban, no limit sign passed; fires at >= 55.0 km/h
+
+== Simulation: driving the lanes into sign.1011 ml1 at (13795.2, 3597.0)
+    70.0 km/h (limit 80): 0 offence(s); wrong way 0; no fine
+    80.0 km/h (limit 80): 0 offence(s); wrong way 0; no fine
+    87.2 km/h (limit 80): 0 offence(s); wrong way 0; no fine
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+    88.1 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 8.1 km/h, level 0/5/10/20: 40/140/200/200 EUR; text: Speeding offence.<color value=FF03B0FA><br>-?200
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+    89.9 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 9.9 km/h, level 0/5/10/20: 40/140/200/200 EUR; text: Speeding offence.<color value=FF03B0FA><br>-?200
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+    90.0 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 10.0 km/h, level 0/5/10/20: 40/140/200/200 EUR; text: Speeding offence.<color value=FF03B0FA><br>-?200
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+   100.0 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 20.0 km/h, level 0/5/10/20: 160/440/720/720 EUR; text: Speeding offence.<color value=FF03B0FA> (+20 km/h)<br>-?720
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+   110.0 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 30.0 km/h, level 0/5/10/20: 280/800/1340/1340 EUR; text: Speeding offence.<color value=FF03B0FA> (+30 km/h)<br>-?1,340
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+   140.0 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 60.0 km/h, level 0/5/10/20: 500/1520/2500/2500 EUR; text: Speeding offence.<color value=FF03B0FA> (+60 km/h)<br>-?2,500
+      offence at (13455.6, 3617.0) cam 1567d24d97038b1 ml1
+      offence at (13801.5, 3596.5) cam 1567d2440d036a9 ml1
+   180.0 km/h (limit 80): 2 offence(s); wrong way 0; FINED, overspeed 100.0 km/h, level 0/5/10/20: 500/1520/2500/2500 EUR; text: Speeding offence.<color value=FF03B0FA> (+100 km/h)<br>-?2,500

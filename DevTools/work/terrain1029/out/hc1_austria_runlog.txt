@@ -1,0 +1,40 @@
+23:33:56 site austria centre (-46097.8, 35.7, -20220.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/hc1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+23:33:59 loading 35 % Building terrain
+23:34:01 loading 58 % Building junctions and yards
+23:34:03 loading 66 % Placing buildings and props
+23:34:05 loading 71 % Placing fences and barriers
+23:34:07 loading 100 % Ready
+23:34:07 first build complete at 11 s
+23:34:37 settled for shot s28fc after 30 s: built 2393, queued 0, batching 0, plants 89785 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:34:45 settled for shot s28fc (camera placed) after 8 s: built 2393, queued 0, batching 0, plants 89785 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:34:46 wrote shot s28fc
+23:35:16 settled for shot s29fc after 31 s: built 2363, queued 0, batching 0, plants 93892 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:35:24 settled for shot s29fc (camera placed) after 8 s: built 2363, queued 0, batching 0, plants 93892 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:35:25 wrote shot s29fc
+23:35:55 settled for shot s30fc after 31 s: built 2321, queued 0, batching 0, plants 96030 (sides waiting 3), detail jobs 0, ground fill builds 1
+23:36:03 settled for shot s30fc (camera placed) after 8 s: built 2321, queued 0, batching 0, plants 96030 (sides waiting 3), detail jobs 0, ground fill builds 1
+23:36:04 wrote shot s30fc
+23:36:35 settled for shot s31fc after 31 s: built 2297, queued 0, batching 0, plants 93172 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:36:43 settled for shot s31fc (camera placed) after 8 s: built 2297, queued 0, batching 0, plants 93172 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:36:43 wrote shot s31fc
+23:37:14 settled for shot s32fc after 31 s: built 2248, queued 0, batching 0, plants 94717 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:37:22 settled for shot s32fc (camera placed) after 8 s: built 2248, queued 0, batching 0, plants 94717 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:37:22 wrote shot s32fc
+23:37:53 settled for shot s33fc after 31 s: built 2376, queued 0, batching 0, plants 96389 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:38:01 settled for shot s33fc (camera placed) after 8 s: built 2376, queued 0, batching 0, plants 96389 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:38:01 wrote shot s33fc
+23:38:32 settled for shot s34fc after 31 s: built 2434, queued 0, batching 0, plants 95092 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:38:40 settled for shot s34fc (camera placed) after 8 s: built 2434, queued 0, batching 0, plants 95092 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:38:40 wrote shot s34fc
+23:39:11 settled for shot s35fc after 31 s: built 2424, queued 0, batching 0, plants 96440 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:39:19 settled for shot s35fc (camera placed) after 8 s: built 2424, queued 0, batching 0, plants 96440 (sides waiting 2), detail jobs 0, ground fill builds 1
+23:39:20 wrote shot s35fc
+23:39:50 settled for shot s36fc after 31 s: built 2348, queued 0, batching 0, plants 97558 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:39:58 settled for shot s36fc (camera placed) after 8 s: built 2348, queued 0, batching 0, plants 97558 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:39:59 wrote shot s36fc
+23:40:29 settled for shot s37fc after 31 s: built 2196, queued 0, batching 0, plants 102031 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:40:37 settled for shot s37fc (camera placed) after 8 s: built 2196, queued 0, batching 0, plants 102031 (sides waiting 1), detail jobs 0, ground fill builds 1
+23:40:38 wrote shot s37fc
+23:41:09 settled for shot s38fc after 31 s: built 1936, queued 0, batching 0, plants 101909 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:41:17 settled for shot s38fc (camera placed) after 8 s: built 1936, queued 0, batching 0, plants 101909 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:41:17 wrote shot s38fc

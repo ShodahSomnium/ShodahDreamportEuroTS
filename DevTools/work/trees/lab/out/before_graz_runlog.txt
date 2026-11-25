@@ -1,0 +1,17 @@
+16:37:00 site graz centre (19425.6, 85.8, 17738.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/trees/lab/out/before gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+16:37:03 loading 5 % Reading the map
+16:37:05 loading 10 % Building roads
+16:37:07 loading 65 % Placing buildings and props
+16:37:09 loading 66 % Placing buildings and props
+16:37:11 loading 69 % Placing fences and barriers
+16:37:13 loading 100 % Ready
+16:37:13 first build complete at 13 s
+16:37:43 settled for shot cab150 after 30 s: built 2160, queued 0, batching 0, plants 214206 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:37:51 settled for shot cab150 (camera placed) after 8 s: built 2160, queued 0, batching 0, plants 214206 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:37:52 wrote shot cab150
+16:38:23 settled for shot cab80 after 31 s: built 2258, queued 0, batching 0, plants 222764 (sides waiting 5), detail jobs 0, ground fill builds 1
+16:38:31 settled for shot cab80 (camera placed) after 8 s: built 2258, queued 0, batching 0, plants 222764 (sides waiting 5), detail jobs 0, ground fill builds 1
+16:38:32 wrote shot cab80
+16:39:02 settled for shot aerial after 31 s: built 2361, queued 0, batching 0, plants 225987 (sides waiting 20), detail jobs 0, ground fill builds 1
+16:39:10 settled for shot aerial (camera placed) after 8 s: built 2361, queued 0, batching 0, plants 225987 (sides waiting 20), detail jobs 0, ground fill builds 1
+16:39:11 wrote shot aerial

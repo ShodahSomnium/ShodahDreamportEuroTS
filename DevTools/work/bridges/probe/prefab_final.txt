@@ -1,0 +1,37 @@
+bridges probe b1: lane band inset 0.3 m, rise 0.5..4.5 m, prefab lane +-2 m; 61 s
+TOTAL prefab: 35 of 16681 instances stand in a lane
+prefab	hits 305	depth 2.3	rise 0.5	at game (-11964.9, 54.8, 16681.4)	item 4e411320bfcf2d9b	into road 4e411320748f2dc4	prefab.ch_2x001 /prefab2/border_crossing/generic/border_gate_02_ch.pmd variant default origin 0
+prefab	hits 209	depth 4.5	rise 0.5	at game (-31674.2, 39.8, -14675.9)	item 002935de5300b4c8	into road 002935de2790a1eb	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 173	depth 2.0	rise 0.5	at game (-22535.1, 6.1, -9651.7)	item 58ad58ca11330001	into prefab 58b4051844b30001	prefab.ferry_47001 /prefab2/ports/ferry_large_01_gr.pmd variant rampback origin 0
+prefab	hits 137	depth 4.5	rise 0.6	at game (23216.2, 0.2, -1067.2)	item 002935dedc1088b3	into road 002935de13a03509	prefab.197 /prefab/bridge/sikorskiego.pmd variant default origin 1
+prefab	hits 128	depth 4.3	rise 0.5	at game (-53744.5, 25.9, -14149.5)	item 002935dea2d0a689	into road 002935ded550a68f	prefab.88uk /prefab/bridge/stone_bridge_uk.pmd variant default origin 1
+prefab	hits 125	depth 1.8	rise 2.3	at game (-15080.9, 35.7, -12896.0)	item 5b54fcca18aa0001	into road 592cfebcf2400001	prefab.lux_4f003 /prefab2/bridge/drawbridge_vollenhoverbrug_01_lux.pmd variant default origin 1
+prefab	hits 114	depth 1.8	rise 0.7	at game (-36704.9, 84.8, -26250.0)	item 002935de2100b28b	into road 002935de7250b286	prefab.62uk /prefab/bridge/bridge_small2_uk.pmd variant default origin 0
+prefab	hits 98	depth 5.2	rise 0.6	at game (-12440.1, 33.9, 20000.8)	item 62d0f0b13d9f0001	into road 4e411320050f6dca	prefab.1bus /prefab2/bus_station/type_01/bus_station_01_bus.pmd variant asphalt origin 0
+prefab	hits 87	depth 5.1	rise 0.6	at game (1320.3, 35.3, 25006.8)	item 002935de25c07cee	into road 002935deb3307ce6	prefab.87 /prefab/bridge/highway_bridge_2_2.pmd variant default origin 1
+prefab	hits 62	depth 2.9	rise 0.6	at game (-39783.4, 98.1, -55344.2)	item 002935de1b20a339	into road 002935decb00a336	prefab.61uk /prefab/bridge/bridge_small_uk.pmd variant default origin 0
+prefab	hits 45	depth 1.6	rise 0.7	at game (-39410.8, 94.7, -55444.6)	item 002935deaae0b4bc	into road 002935deaba0a344	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 35	depth 3.7	rise 0.5	at game (15275.8, 59.8, -15264.0)	item 002935de9af03288	into road 002935de51903265	prefab.53 /prefab/bridge/bridge_short.pmd variant default origin 1
+prefab	hits 34	depth 3.2	rise 0.6	at game (22814.0, -2.4, -8987.5)	item 002935decd9032ef	into road 002935dedf2032f1	prefab.53 /prefab/bridge/bridge_short.pmd variant default origin 1
+prefab	hits 29	depth 3.4	rise 0.5	at game (15275.5, 59.6, -15259.9)	item 002935de30603283	into road 002935de51903265	prefab.53 /prefab/bridge/bridge_short.pmd variant default origin 1
+prefab	hits 44	depth 1.2	rise 1.2	at game (-46945.5, 58.6, -8137.4)	item 002935de9930b4ca	into road 002935de73009cc6	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 24	depth 1.9	rise 1.2	at game (-17446.3, 35.4, 6832.3)	item 06d1577551860001	into road 002935de88a0635f	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 1
+prefab	hits 17	depth 2.3	rise 4.1	at game (6368.6, 16.7, -20841.7)	item 4cd14de44b66b6e3	into road 4cd14de4dd66b6df	prefab.dlc_no_39 /prefab2/ports/ferry1_sc.pmd variant default origin 0
+prefab	hits 26	depth 1.1	rise 1.2	at game (-46220.4, 80.1, -28189.4)	item 002935dedd30b4c5	into road 002935de4030b4c3	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 16	depth 1.7	rise 0.6	at game (22774.1, -2.6, -9248.1)	item 002935deb350334a	into prefab 002935de5710337e	prefab.29 /prefab/sellplan/sellplan.pmd variant default origin 0
+prefab	hits 14	depth 1.9	rise 0.5	at game (13970.4, 76.6, 3734.6)	item 002935ded1c04d31	into prefab 002935de53604d49	prefab.29 /prefab/sellplan/sellplan.pmd variant default origin 1
+prefab	hits 12	depth 2.7	rise 0.5	at game (-45345.6, 59.9, -9812.3)	item 002935dee380a869	into road 002935ded530a867	prefab.65uk /prefab/bridge/highway_bridge_uk.pmd variant default origin 1
+prefab	hits 21	depth 1.1	rise 1.2	at game (-45582.4, 39.9, -20071.1)	item 002935de4b90b4c7	into road 002935dee8e0a127	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 21	depth 1.1	rise 1.2	at game (24659.9, 73.5, 12094.0)	item 002935de4400c2a2	into road 002935de4d90c29e	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 8	depth 3.8	rise 0.7	at game (-39788.9, 116.6, -38335.8)	item 002935def250b0a0	into road 002935de1df0b09b	prefab.66uk /prefab/bridge/bridge_short_uk.pmd variant default origin 0
+prefab	hits 8	depth 2.0	rise 0.6	at game (-39606.0, 107.4, -38800.4)	item 002935debda0b023	into prefab 002935de04e0b011	prefab.29 /prefab/sellplan/sellplan.pmd variant default origin 0
+prefab	hits 15	depth 0.8	rise 1.2	at game (24082.1, 5.4, -10177.3)	item 002935df0850f295	into prefab 002935dfeb40f232	prefab.203 /prefab/sawmill/sawmill_02.pmd variant default origin 0
+prefab	hits 12	depth 0.9	rise 0.8	at game (-56856.7, 4.9, -16801.6)	item 002935ded820995b	into prefab 002935de1c009963	prefab.29 /prefab/sellplan/sellplan.pmd variant default origin 0
+prefab	hits 6	depth 1.0	rise 0.5	at game (-39202.8, 56.9, -11748.3)	item 002935dee4809b48	into prefab 002935deaae09b4b	prefab.29 /prefab/sellplan/sellplan.pmd variant default origin 0
+prefab	hits 4	depth 1.2	rise 0.6	at game (14811.1, 73.6, 3834.5)	item 002935de71604de2	into prefab 002935de8d504ddb	prefab.dealer25 /prefab2/truck_dealer/renault/renault_truck_dealer_big_01.pmd variant cz origin 1
+prefab	hits 9	depth 0.5	rise 0.8	at game (-5539.4, 46.3, 3199.2)	item 49ce0de4c24f2e08	into road 49ce0de483cf2e06	prefab.dlc_balt_227 /prefab2/oil_storage/oil_storage_balt.pmd variant de_ns_oil origin 0
+prefab	hits 7	depth 0.6	rise 0.7	at game (-10886.3, 36.4, 11444.4)	item 002935de47c043ee	into road 002935dec9304402	prefab.33 /prefab/warehouse_small/warehouse_small.pmd variant default origin 0
+prefab	hits 4	depth 1.0	rise 0.7	at game (-46183.8, 59.3, -7607.3)	item 002935de3f209cf1	into prefab 002935dee0309cfc	prefab.29 /prefab/sellplan/sellplan.pmd variant default origin 0
+prefab	hits 2	depth 3.5	rise 0.5	at game (8782.0, 32.9, -819.1)	item 5731ab8be78fe147	into road 5731ab8bb60fe14d	prefab.ch_4202k /prefab2/fork_temp/ger/ger_hw3_fork_tmpl_v02.pmd variant default origin 1
+prefab	hits 5	depth 0.6	rise 0.7	at game (-16196.2, 50.8, 7575.9)	item 002935de136063e1	into road 002935de5d8063e6	prefab.33 /prefab/warehouse_small/warehouse_small.pmd variant default origin 0
+prefab	hits 2	depth 0.3	rise 2.5	at game (-45293.6, 91.4, -47121.6)	item 002935de9b50a43d	into road 002935de5140a3d8	prefab.65uk /prefab/bridge/highway_bridge_uk.pmd variant default origin 0

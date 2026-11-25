@@ -1,0 +1,20 @@
+          foreach(var rl in r.Railings){ var u=win.Map.Railing(rl.Model); var path=u?.GetString("model_desc",null); if(string.IsNullOrEmpty(path)) continue; var m=Model(path); if(m==null) continue;
+            var setM=RSet(m, r.Length>=10f?new[]{"15m","5m"}:new[]{"5m","15m"}); if(setM==null) continue;
+            bool inverted=rl.Left?r.LeftRailingInverted:r.RightRailingInverted, centreOnly=rl.Left?r.LeftRailingCenterOnly:r.RightRailingCenterOnly, dbl=rl.Left?r.LeftRailingDoubleSided:r.RightRailingDoubleSided;
+            float lateral=rl.Left?-(roadOffset+rl.Offset):(roadOffset+rl.Offset); bool turned=rl.Left!=inverted;
+            string whyS, whyE; Continues(s,r,r.StartNode,rl.Model,out whyS); Continues(s,r,r.EndNode,rl.Model,out whyE);
+            string railLook=u.GetString("look_name","default");
+            for(int rule=0;rule<RailRules;rule++){ int capRule=rule<5?rule:0; bool small=rule==5; var setC=small?(RSet(m,new[]{"5m"})??setM):setM;
+              bool capStart=!centreOnly&&CapRule(capRule,s,r,r.StartNode,rl), capEnd=!centreOnly&&CapRule(capRule,s,r,r.EndNode,rl); string rn=" [cap rule "+rule+"]";
+              for(int copy=0;copy<(dbl?2:1);copy++){ bool tr=copy==0?turned:!turned;
+                int firstCap=tr?setC.end:setC.start, lastCap=tr?setC.start:setC.end; bool cs=capStart&&firstCap>=0, ce=capEnd&&lastCap>=0;
+                // nominal layout: [start cap] centre x k [end cap], stretched to the road's length
+                float capLen=setC.len; float rest=r.Length-(cs?capLen:0)-(ce?capLen:0); int k=Math.Max(0,(int)Math.Round(rest/setM.len, MidpointRounding.AwayFromZero));
+                if(!small){ int repeats=Math.Max(1,(int)Math.Round(r.Length/setM.len, MidpointRounding.AwayFromZero)); k=repeats-(cs?1:0); if(ce&&k>=1) k--; else ce=false; }
+                float total=(cs?capLen:0)+(ce?capLen:0)+k*setM.len; if(total<0.5f) continue; float stretch=r.Length/total;
+                var runs=new List<(int part,float sStart,float sLen,float at,string tag)>(); float pos0=0f;
+                if(cs){ runs.Add((firstCap,setC.sliceStart,setC.len,pos0,"cap at start node")); pos0+=capLen; } for(int i=0;i<k;i++){ runs.Add((setM.center,setM.sliceStart,setM.len,pos0,"centre")); pos0+=setM.len; } if(ce){ runs.Add((lastCap,setC.sliceStart,setC.len,pos0,"cap at end node")); }
+                int idx=0; foreach(var run in runs){ idx++; if(run.tag=="centre"&&rule>0) continue; var pts=PartSamples(path,m,run.part,railLook); if(pts.Length==0) continue; float side=tr?-1f:1f, zEnd=2f*run.sStart+run.sLen;
+                  string cat=run.tag=="centre"?"railing centre":"railing cap (start/end part)"+rn; Count(cat);
+                  var res=TestSolid(near,pts,lp=>{ float x=lp.x*side+lateral, y=lp.y, zu=-lp.z; if(tr) zu=zEnd-zu; float along=(run.at+(zu-run.sStart))*stretch; float sp=Mathf.Clamp01(along/r.Length); var pt=H(p0,t0,p1,t1,sp); var fw=HT(p0,t0,p1,t1,sp).normalized; var rt=Vector3.Cross(Vector3.up,fw).normalized; var up=Vector3.Cross(fw,rt).normalized; return pt+rt*x+up*y; }, r.Uid);
+                  Report(res,cat,$"railing.{rl.Name} {path} part {m.Parts[run.part].Name} {run.tag} piece {idx}/{runs.Count} {(rl.Left?"L":"R")}{rl.Slot} off {rl.Offset} {(inverted?"inverted ":"")}{(centreOnly?"centreOnly ":"")}{(dbl?"double ":"")}{(copy==1?"twin ":"")}len {r.Length:0.0} look {r.Look}{(r.HighPoly?" highpoly":"")}; start node: {whyS}; end node: {whyE}",r.Uid,null); } } } } } }

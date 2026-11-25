@@ -1,0 +1,90 @@
+SiiNunit
+{
+ui_blend_only_window : _nameless._.window {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ clip_children: true
+ window_handler: null
+ keep_aspect: center
+ fitting: false
+ my_children: 3
+ my_children[0]: _nameless.01f671ef1
+ my_children[1]: _nameless._.steering
+ my_children[2]: _nameless._.pedals
+ coords_l: 0
+ coords_r: 1440
+ coords_t: 900
+ coords_b: 0
+ area_l: 0
+ area_r: 1440
+ area_t: 900
+ area_b: 0
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: null
+}
+
+ui::text : _nameless.01f671ef1 {
+ text: "<img src=/material/ui/hud/mouse_ctrl_background.mat>"
+ coords_l: 463
+ coords_r: 977
+ coords_t: 142
+ coords_b: &41600008
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 0
+ layer: 0
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.window
+}
+
+ui_gauge : _nameless._.steering {
+ min: -70
+ max: 63
+ value_min: 0
+ value_max: 2
+ value: 1
+ material: "/material/ui/hud/mouse_ctrl_pointer.mat"
+ xref_pos: 0
+ yref_pos: 145
+ off_x: 0
+ off_y: 0
+ smooth_move: false
+ coords_l: 463
+ coords_r: 977
+ coords_t: 134
+ coords_b: -195
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 910
+ layer: 2
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.window
+}
+
+ui::text : _nameless._.pedals {
+ text: ""
+ coords_l: 715
+ coords_r: 725
+ coords_t: 94
+ coords_b: 19
+ area_l: 1
+ area_r: 0
+ area_t: 0
+ area_b: 1
+ id: 920
+ layer: 3
+ tab: -1
+ pointer: -1
+ my_parent: _nameless._.window
+}
+
+}

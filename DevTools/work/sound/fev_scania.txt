@@ -1,0 +1,187 @@
+PARAM 600d4c03-97ae-4d28-aa54-b7f4a8af80c1 play floats: 0 1 1 0
+PARAM 93de0145-afa2-4842-aab6-1681f4037ba8 load floats: 0 1 0 0
+PARAM fbd74a59-8f9c-48b6-b47b-dac1822600a7 rpm floats: 350 3000 350 0
+PARAM 7d2d6975-11fa-459e-993d-a746fc05d769 turbo floats: 0 1 0 0
+PARAM 023c977f-11bf-406a-8c7e-46f7385b8934 brake floats: 0 1 0 0
+PARAM 5a169aa0-9eb3-4e2c-9ca3-2dcfe682929b rpm floats: 350 3000 350 0
+PARAM cde80dac-ec13-40c6-85bb-e964fcebe08f load floats: 0 1 0 0
+PARAM 038840ba-a174-4b52-9668-4be43a9b2371 Event Cone Angle floats: 0 180 0 0
+PARAM b7be28e4-c94f-418f-a202-e84aa864ef77 play floats: 0 1 1 0
+EVENT event:/engine/start_bad timeline 4cf2e435-133a-49f6-a8df-70f1b0cb581e bus bf091c61 2ff9b8d6
+EVENT event:/engine/turbo timeline 3d0a47b4-fecd-466d-975b-9e1be3f1e04d bus b8c3e18f f7e2ca47
+EVENT event:/engine/exhaust timeline 46090a21-8daa-46b9-bf50-a3b11fab410f bus 975dd08e 2b832f92
+EVENT event:/engine/engine timeline 48586852-f5a2-4f71-84ea-9886070f8583 bus ce4ba443 55e987d9
+LAYOUT 6479a118-b2e4-02de-1355-96a5d9566ed0 on parameter:/engine/play: 0 instruments [] 0 controllers
+LAYOUT 306d8c2e-eb11-07ae-1e33-895f9a36eac4 on parameter:/engine/play: 0 instruments [] 0 controllers
+LAYOUT d04fc946-dadf-0803-273f-350b4ba9a2d6 on parameter:/Event Cone Angle: 0 instruments [] 3 controllers
+LAYOUT 944e594c-7434-008d-138e-3842fe27fcee on parameter:/Event Cone Angle: 0 instruments [] 3 controllers
+LAYOUT 5a2e145a-3953-0b19-005d-9ac238573f10 on parameter:/exhaust/load: 0 instruments [] 1 controllers
+LAYOUT 89d1135c-e518-0d7d-2df4-532097b0133c on parameter:/engine/rpm: 16 instruments [inst(wav#2:r450_ebrake_4), inst(wav#16:r450_loaded_13), inst(wav#23:r450_loaded_35), inst(wav#4:r450_unloaded_08), inst(wav#6:r450_unloaded_09), inst(wav#10:r450_unloaded_06), inst(wav#21:r450_loaded_52), inst(wav#18:r450_unloaded_01), inst(wav#5:r450_ebrake_7), inst(wav#13:r450_unloaded_04), inst(wav#15:r450_loaded_48), inst(wav#23:r450_loaded_35), inst(wav#8:r450_loaded_16), inst(wav#18:r450_unloaded_01), inst(wav#3:r450_unloaded_03), inst(wav#9:r450_ebrake_5)] 29 controllers
+LAYOUT 845be470-832a-0d73-2a59-2af108c926c2 on parameter:/Event Cone Angle: 0 instruments [] 3 controllers
+LAYOUT d1fb1e83-6a14-033b-3d29-381849690893 on parameter:/engine/brake: 0 instruments [] 1 controllers
+LAYOUT 6c1153af-5adc-0369-319d-a967469adf38 on parameter:/exhaust/rpm: 7 instruments [inst(wav#20:r450_exhaust_05), inst(wav#22:r450_exhaust_06), inst(wav#17:r450_exhaust_07), inst(wav#0:r450_exhaust_08), inst(wav#7:r450_exhaust_02), inst(wav#7:r450_exhaust_02), inst(wav#19:r450_exhaust_03)] 13 controllers
+LAYOUT 401988b9-d409-0b13-1be1-686e8531fa0f on parameter:/engine/load: 0 instruments [] 3 controllers
+LAYOUT fafecdbf-33a4-03bf-250c-c653ce57d2da on parameter:/engine/turbo: 1 instruments [inst(wav#11:turbo_ext)] 1 controllers
+LAYOUT 9928e8ca-adc7-0e9d-1683-8a506f3fe74e on parameter:/Event Cone Angle: 0 instruments [] 3 controllers
+LAYOUT f7cb55f5-42ee-06f7-2fb2-c4526c135f5e on parameter:/exhaust/play: 0 instruments [] 0 controllers
+INST 03d92b6f 130B tl=timeline f16=4.5 f20=0 i24=0 i28=0 f36=100 f40..0,0,0,0 p56=00000000 f72=1 f76=0 out=b05ee946
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+     ctrl prop 4 axis timeline pts (0,1 s0.25) (0,0)
+INST inst(wav#2:r450_ebrake_4) 162B tl=00000000 f16=-3 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1220 f76=0 out=331ac807
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 ec 51 38 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 af 43 00 00 e1 44
+     cond parameter:/engine/rpm 5220 [350 .. 1800]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1400,1 s0.25) (1800,0)
+INST inst(wav#12:r450_stop) 130B tl=timeline f16=0 f20=0 i24=0 i28=0 f36=100 f40..0,0,0,0 p56=00000000 f72=1 f76=0 out=68a63e6d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 7a d5 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+     ctrl prop 4 axis timeline pts (0,0 s-0.25) (0,1)
+     ctrl prop 4 axis timeline pts (0,1 s0.25) (0,0)
+INST inst(wav#16:r450_loaded_13) 162B tl=00000000 f16=1.5 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=700 f76=0 out=caf9916d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 49 e1 3a 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 80 22 44 00 00 96 44
+     cond parameter:/engine/rpm 5220 [650 .. 1200]
+     ctrl prop 4 axis parameter:/engine/rpm pts (976.37,1 s0.25) (1200,0)
+     ctrl prop 4 axis parameter:/engine/rpm pts (650,0 s-0.25) (976.37,1)
+INST inst(wav#20:r450_exhaust_05) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=1300 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 49 e1 3a 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 52 00 00 00 00 48 44 00 80 a2 44
+     cond parameter:/exhaust/rpm 5220 [800 .. 1300]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (800,0 s-0.25) (1000,1)
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (1050,1 s0.25) (1300,0)
+INST inst(wav#22:r450_exhaust_06) 162B tl=00000000 f16=3 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=1500 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 5d 8f 42 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 52 00 00 00 40 83 44 00 80 ed 44
+     cond parameter:/exhaust/rpm 5220 [1050 .. 1900]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (1050,0 s-0.25) (1300,1)
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (1600,1 s0.25) (1900,0)
+INST inst(wav#17:r450_exhaust_07) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=1480 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 01 00 40 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 52 00 00 00 00 c8 44 00 c0 0f 45
+     cond parameter:/exhaust/rpm 5220 [1600 .. 2300]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (1994.05,1 s0.25) (2300,0)
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (1600,0 s-0.25) (1900,1)
+INST inst(wav#23:r450_loaded_35) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=500 f76=0 out=caf9916d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 5d 8f 62 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 af 43 00 00 fa 43
+     cond parameter:/engine/rpm 5220 [350 .. 500]
+     ctrl prop 4 axis parameter:/engine/rpm pts (450,1 s0.25) (500,0)
+INST inst(wav#4:r450_unloaded_08) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1675 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 a5 70 3d 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 c8 44 00 00 fa 44
+     cond parameter:/engine/rpm 5220 [1600 .. 2000]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1600,0 s-0.25) (1800,1)
+     ctrl prop 4 axis parameter:/engine/rpm pts (1800,1 s0.25) (2000,0)
+INST inst(wav#0:r450_exhaust_08) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=1560 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 49 e1 3a 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 50 00 00 a2 41 f9 44 00 80 3b 45
+     cond parameter:/exhaust/rpm 5020 [1994.051 .. 3000]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (1994.05,0 s-0.25) (2300,1)
+INST inst(wav#6:r450_unloaded_09) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1920 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 2a 5c 4f 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 50 00 00 00 00 e1 44 00 80 3b 45
+     cond parameter:/engine/rpm 5020 [1800 .. 3000]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1800,0 s-0.25) (2000,1)
+INST inst(wav#10:r450_unloaded_06) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1620 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 9a 99 39 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 80 89 44 00 00 e1 44
+     cond parameter:/engine/rpm 5220 [1100 .. 1800]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1100,0 s-0.25) (1350,1)
+     ctrl prop 4 axis parameter:/engine/rpm pts (1600,1 s0.25) (1800,0)
+INST inst(wav#21:r450_loaded_52) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1940 f76=0 out=caf9916d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 d7 a3 50 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 50 00 00 c8 0b de 44 00 80 3b 45
+     cond parameter:/engine/rpm 5020 [1776.368 .. 3000]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1776.37,0 s-0.25) (2200,1)
+INST inst(wav#18:r450_unloaded_01) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=620 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 00 00 80 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 af 43 00 00 fa 43
+     cond parameter:/engine/rpm 5220 [350 .. 500]
+INST inst(wav#5:r450_ebrake_7) 162B tl=00000000 f16=-2.5 f20=-1.2 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=3000 f76=0 out=331ac807
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 2a 5c 4f 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 50 00 00 00 20 00 45 00 80 3b 45
+     cond parameter:/engine/rpm 5020 [2050 .. 3000]
+     ctrl prop 4 axis parameter:/engine/rpm pts (2050,0 s-0.25) (2400,1)
+INST inst(wav#13:r450_unloaded_04) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1100 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 5d 8f 42 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 9d 1d 52 44 00 c0 a8 44
+     cond parameter:/engine/rpm 5220 [840.4627 .. 1350]
+     ctrl prop 4 axis parameter:/engine/rpm pts (840.46,0 s-0.25) (976.37,1)
+     ctrl prop 4 axis parameter:/engine/rpm pts (1100,1 s0.25) (1350,0)
+INST inst(wav#14:r450_start) 130B tl=timeline f16=0 f20=0 i24=0 i28=0 f36=100 f40..0,0,0,0 p56=00000000 f72=1 f76=0 out=68a63e6d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 c0 5d 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+     ctrl prop 4 axis timeline pts (0,1 s0.25) (0,0)
+INST inst(wav#1:r450_bad_start) 130B tl=00000000 f16=0 f20=0 i24=0 i28=0 f36=100 f40..0,0,0,0 p56=00000000 f72=1 f76=0 out=00000000
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+INST inst(wav#7:r450_exhaust_02) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=780 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 e2 7a 34 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 52 00 00 00 00 e1 43 00 80 3b 44
+     cond parameter:/exhaust/rpm 5220 [450 .. 750]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (450,0 s-0.25) (550,1)
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (600,1 s0.25) (750,0)
+INST inst(wav#15:r450_loaded_48) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1280 f76=0 out=caf9916d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 34 33 33 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 90 17 74 44 c8 0b de 44
+     cond parameter:/engine/rpm 5220 [976.3682 .. 1776.368]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1350,1 s0.25) (1776.37,0)
+     ctrl prop 4 axis parameter:/engine/rpm pts (976.37,0 s-0.25) (1200,1)
+INST inst(wav#23:r450_loaded_35) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=580 f76=0 out=caf9916d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 ec 51 38 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 e1 43 90 17 74 44
+     cond parameter:/engine/rpm 5220 [450 .. 976.3682]
+     ctrl prop 4 axis parameter:/engine/rpm pts (450,0 s-0.25) (500,1)
+     ctrl prop 4 axis parameter:/engine/rpm pts (650,1 s0.25) (976.37,0)
+INST inst(wav#11:turbo_ext) 162B tl=00000000 f16=2 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/turbo f72=0.645 f76=0 out=92b03818
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 a5 70 3d 3f 20 00 00 00 11 00 00 00 75 69 2d 7d fa 11 9e 45 99 3d a7 46 fc 05 d7 69 20 50 00 00 00 00 00 00 00 00 80 3f
+     cond parameter:/engine/turbo 5020 [0 .. 1]
+INST inst(wav#7:r450_exhaust_02) 162B tl=00000000 f16=0 f20=-1.2 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=1200 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 b9 1e 65 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 52 00 00 00 00 af 43 00 80 09 44
+     cond parameter:/exhaust/rpm 5220 [350 .. 550]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (450,1 s0.25) (550,0)
+INST inst(wav#8:r450_loaded_16) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=1640 f76=0 out=caf9916d
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 0b d7 43 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 c0 a8 44 00 80 09 45
+     cond parameter:/engine/rpm 5220 [1350 .. 2200]
+     ctrl prop 4 axis parameter:/engine/rpm pts (1776.37,1 s0.25) (2200,0)
+     ctrl prop 4 axis parameter:/engine/rpm pts (1350,0 s-0.25) (1776.37,1)
+INST inst(wav#18:r450_unloaded_01) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=500 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 e2 7a 54 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 fa 43 00 80 3b 44
+     cond parameter:/engine/rpm 5220 [500 .. 750]
+     ctrl prop 4 axis parameter:/engine/rpm pts (600,1 s0.25) (750,0)
+INST inst(wav#3:r450_unloaded_03) 162B tl=00000000 f16=0 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=700 f76=0 out=0b94647c
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 49 e1 3a 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 16 44 90 17 74 44
+     cond parameter:/engine/rpm 5220 [600 .. 976.3682]
+     ctrl prop 4 axis parameter:/engine/rpm pts (600,0 s-0.25) (750,1)
+     ctrl prop 4 axis parameter:/engine/rpm pts (840.46,1 s0.25) (976.37,0)
+INST inst(wav#9:r450_ebrake_5) 162B tl=00000000 f16=-4.5 f20=-2 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/engine/rpm f72=2660 f76=0 out=331ac807
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 53 b8 3e 3f 20 00 00 00 11 00 00 00 a0 9a 16 5a b3 9e 2c 4e 9c a3 2d cf e6 82 92 9b 20 52 00 00 00 00 af 44 00 00 16 45
+     cond parameter:/engine/rpm 5220 [1400 .. 2400]
+     ctrl prop 4 axis parameter:/engine/rpm pts (2050,1 s0.25) (2400,0)
+     ctrl prop 4 axis parameter:/engine/rpm pts (1400,0 s-0.25) (1800,1)
+INST inst(wav#19:r450_exhaust_03) 162B tl=00000000 f16=1.5 f20=0 i24=-1 i28=1 f36=100 f40..0,0,0,0 p56=parameter:/exhaust/rpm f72=780 f76=0 out=0ec25858
+     tail: 02 00 00 00 ff ff ff ff 02 00 00 00 00 00 00 00 00 00 00 00 e2 7a 34 3f 20 00 00 00 11 00 00 00 59 4a d7 fb 9c 8f b6 48 b4 7b da c1 82 26 00 a7 20 52 00 00 00 00 16 44 00 00 7a 44
+     cond parameter:/exhaust/rpm 5220 [600 .. 1000]
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (800,1 s0.25) (1000,0)
+     ctrl prop 4 axis parameter:/exhaust/rpm pts (600,0 s-0.25) (700,1)
+CTRL owner 7f016e5d prop 1000 axis parameter:/Event Cone Angle pts (0,-2 s0.5 t1) (180,3)
+CTRL owner 03d92b6f prop 4 axis timeline pts (0,1 s0.25) (0,0)
+CTRL owner b93c4c8d prop 1000 axis parameter:/Event Cone Angle pts (0,-2 s0.5 t1) (180,-8)
+CTRL owner c012042b prop 1000 axis parameter:/Event Cone Angle pts (0,-2 s0.5 t1) (180,3)
+CTRL owner 92b03818 prop 0 axis parameter:/engine/turbo pts (0.15,-42 s1 t1) (0.54,-8) (1,-8)
+CTRL owner 92b03818 prop 0 axis timeline pts (0,-42 s0.5 t1) (0,0 s0.5 t1) (0,0 s0.5 t1) (0,-42)
+CTRL owner b93c4c8d prop 1002 axis parameter:/Event Cone Angle pts (0,0 s0.32) (60,0 s0.31) (180,-6)
+CTRL owner 4582c7aa prop 0 axis parameter:/engine/rpm pts (350,-14) (393.95,-12 s1 t1) (1501.41,-9)
+CTRL owner f24bcb9e prop 1001 axis parameter:/Event Cone Angle pts (0,-8.5 s0.32) (40.93,-8.5 s0.09) (180,-16.5)
+CTRL owner 0ec25858 prop 0 axis parameter:/exhaust/load pts (0,-14 s0.56 t1) (0.35,-14 s0.5 t1) (1,2)
+CTRL owner f24bcb9e prop 1000 axis parameter:/Event Cone Angle pts (0,-9) (180,-7)
+CTRL owner 0b94647c prop 0 axis parameter:/engine/load pts (0.05,-3 s1) (0.8,-3 s0.5 t1)
+CTRL owner 331ac807 prop 0 axis parameter:/engine/brake pts (0,-42 s0.59 t1) (0.21,-1) (1,3)
+CTRL owner caf9916d prop 0 axis timeline pts (0,-42 s0.5 t1) (0,0) (0,0 s0.5 t1) (0,-42)
+CTRL owner c012042b prop 1001 axis parameter:/Event Cone Angle pts (0,0 s0.32) (40.93,0 s0.09) (170,2)
+CTRL owner 4582c7aa prop 0 axis parameter:/engine/load pts (0,0 s1 t1) (0.1,-42)
+CTRL owner c012042b prop 1002 axis parameter:/Event Cone Angle pts (0,0 s0.32) (60,0 s0.31) (180,0)
+CTRL owner 0b94647c prop 0 axis timeline pts (0,-42 s0.5 t1) (0,-1) (0,-1 s0.5 t1) (0,-42)
+CTRL owner b93c4c8d prop 1001 axis parameter:/Event Cone Angle pts (0,0 s0.32) (40.93,0 s0.09) (180,-5)
+CTRL owner caf9916d prop 0 axis parameter:/engine/load pts (0.06,-42 s0.47 t1) (0.3,-13) (1,0)
+CTRL owner caf9916d prop 0 axis parameter:/engine/rpm pts (2000,0)
+CTRL owner 331ac807 prop 0 axis parameter:/engine/rpm pts (650,-42 s0.5 t1) (1100,-4) (2400,0)
+CTRL owner 46eaad16 prop 34 axis parameter:/engine/rpm pts (500,0.4 s0.5 t1) (1499.08,4.2)
+CTRL owner 0ec25858 prop 0 axis timeline pts (0,-42 s0.5 t1) (0,-4) (0,-4 s0.5 t1) (0,-42) (0,-42)
+CTRL owner f24bcb9e prop 1002 axis parameter:/Event Cone Angle pts (0,-13.5 s0.32) (60,-13.5 s0.31) (180,-20.7)
+CTRL owner 68a63e6d prop 0 axis timeline pts (0,0) (0,-1) (0,-1) (0,-3 s0.24 t1) (0,-42)
+CTRL owner 0ec25858 prop 0 axis parameter:/exhaust/rpm pts (350,0)
+CTRL owner 7f016e5d prop 1002 axis parameter:/Event Cone Angle pts (0,0 s0.32) (60,0 s0.31) (180,0)
+CTRL owner 4582c7aa prop 0 axis timeline pts (0,-42 s1 t1) (0,-4) (0,-4 s0.61 t1) (0,-42)
+CTRL owner 7f016e5d prop 1001 axis parameter:/Event Cone Angle pts (0,0 s0.32) (40.93,0 s0.09) (170,2)
+CTRL owner 0b94647c prop 0 axis parameter:/engine/rpm pts (356.59,-9 s-1) (402.74,-10 s1 t1) (2400,3)
+TLNB /PROJ/TLNS/TMLN 46090a21 46b98daa b1a350bf 0f41ab1f 00010001 00020000 895b001a 71173537 e8954fbb 2c51b184 d7a009cc 00000000 000012c0
+TRNB /PROJ/TLNS/TMLN/TRNS/TRAN 1de84dba 42b57146 e19a53b2 b1ba7723 3537895b 4fbb7117 b184e895 09cc2c51 00000000 00000000 00000020 00000011 600d4c03 4d2897ae f4b754aa c180afa8 00005020 00000000 3f19999a 00000000 00000000 42c80000 00000001
+TRNB /PROJ/TLNS/TMLN/TRNS/TRAN 3222d9a2 00e4298c 192cde0c 17c8906d 3537895b 4fbb7117 b184e895 09cc2c51 0000ea60 0000ea60 00000020 00000011 600d4c03 4d2897ae f4b754aa c180afa8 00005020 3dc28f5d 3f800000 00000000 00000000 42c80000 00000002
+TLNB /PROJ/TLNS/TMLN 4cf2e435 49f6133a f170dfa8 1e58cbb0 00030001 2b6f0018 d09903d9 ac914330 40ccc3b0 00002bf0 00c00000 00000003 00010000
+TLNB /PROJ/TLNS/TMLN 48586852 4f71f5a2 8698ea84 83850f07 00180003 9b5287ea 423334c1 391d67ac bfaa5050 00032640 00002580 00180005 8fc89d0b 4a4229dd 364d56bc d66caace 00012c00 0001ed43 48198a63 4babe5e0 c6a59ca7 1d3b789b 00000000 00011940 00020000 dd66001a 7f8de06c 16b7477a 67a2cda8 1940d149 00000001 000012c0
+TRNB /PROJ/TLNS/TMLN/TRNS/TRAN e7798d9f 08252716 6500202e cf4ddb9e e06cdd66 477a7f8d cda816b7 d14967a2 00012c00 00012c00 00000020 00000011 b7be28e4 418fc94f 4ae802a2 77ef64a8 00005020 3dccccce 3f800000 00000000 00000000 42c80000 00000002
+TRNB /PROJ/TLNS/TMLN/TRNS/TRAN 6f804d25 4271d2de cc59fab1 de3972f4 e06cdd66 477a7f8d cda816b7 d14967a2 00000000 00000000 00000020 00000011 b7be28e4 418fc94f 4ae802a2 77ef64a8 00005020 00000000 3f1851ec 00000000 00000000 42c80000 00000001
+TLNB /PROJ/TLNS/TMLN 3d0a47b4 466dfecd 1b9e5b97 4de0f1e3 00180003 182cae23 496101dd 2d5e0c94 aa8958fa 00032640 00005dc0 00000001 001a0002 68fbdae5 45f80b61 d640439b 26454202 00011940 12c00000 00010000
+TRNB /PROJ/TLNS/TMLN/TRNS/TRAN d62df27e 4aadb599 8afdab8c 479ff6d6 68fbdae5 45f80b61 d640439b 26454202 00000000 00000000 00000020 00000011 b7be28e4 418fc94f 4ae802a2 77ef64a8 00005020 00000000 3f1851ec 00000000 00000000 42c80000 00000001
+TRNB /PROJ/TLNS/TMLN/TRNS/TRAN 6fee8a1c 0aa753fa 7ee87502 3841fe3e 68fbdae5 45f80b61 d640439b 26454202 00012c00 00012c00 00000020 00000011 b7be28e4 418fc94f 4ae802a2 77ef64a8 00005020 3dccccce 3f800000 00000000 00000000 42c80000 00000002

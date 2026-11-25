@@ -1,0 +1,43 @@
+21:24:06 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/out/sound gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+21:24:09 loading 8 % Reading the map
+21:24:11 loading 56 % Building junctions and yards
+21:24:13 loading 58 % Building junctions and yards
+21:24:15 loading 72 % Placing fences and barriers
+21:24:17 loading 72 % Placing fences and barriers
+21:24:19 loading 100 % Ready
+21:24:19 first build complete at 13 s
+21:24:19 audio: output 48000 Hz, Stereo, speaker mode Stereo
+21:24:30 settled for audio hq after 11 s: built 2958, queued 0, batching 0, plants 56000 (sides waiting 0), detail jobs 0, ground fill builds 1
+21:24:35 audio one-shots: /sound/truck/air_horn_default.bank#horn_air/default played; /sound/truck/noise.bank#noise/suspension_noise played; /sound/truck/interior_noise.bank#interior/noise played; /sound/collisions/collisions.bank#collisions/crash_metal played; /sound/trailer/trailer_brace.bank#trailer/brace_down played; /sound/trailer/trailer_noises.bank#trailer_noises/default_susp_noise played; /sound/ui/ui.bank#click played; /sound/world/weather.bank#weather/thunder played; /sound/traffic/effects.bank#effects/truck_effects_gear played; 
+21:24:35 audio hq t+5 s: listener rms 0.00000, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 5
+21:24:40 audio hq t+10 s: listener rms 0.03277, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 4
+21:24:45 audio hq t+15 s: listener rms 0.10910, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:24:50 audio hq t+20 s: listener rms 0.20889, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:24:55 audio hq t+25 s: listener rms 0.03230, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:25:00 audio hq t+30 s: listener rms 0.07242, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:25:05 audio hq t+35 s: listener rms 0.02002, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:25:10 audio hq t+40 s: listener rms 0.01495, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:25:15 audio hq t+45 s: listener rms 0.01340, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:25:20 audio hq t+50 s: listener rms 0.10714, game clips 45 (29.2 MB), streams 4 (13.5 MB packets), sources playing 2
+21:25:30 settled for audio birds after 10 s: built 2967, queued 0, batching 0, plants 56000 (sides waiting 0), detail jobs 0, ground fill builds 1
+21:25:35 audio one-shots: /sound/truck/air_horn_default.bank#horn_air/default played; /sound/truck/noise.bank#noise/suspension_noise played; /sound/truck/interior_noise.bank#interior/noise played; /sound/collisions/collisions.bank#collisions/crash_metal played; /sound/trailer/trailer_brace.bank#trailer/brace_down played; /sound/trailer/trailer_noises.bank#trailer_noises/default_susp_noise played; /sound/ui/ui.bank#click played; /sound/world/weather.bank#weather/thunder played; /sound/traffic/effects.bank#effects/truck_effects_gear played; 
+21:25:35 audio birds t+5 s: listener rms 0.03782, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 5
+21:25:40 audio birds t+10 s: listener rms 0.03634, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 4
+21:25:45 audio birds t+15 s: listener rms 0.03117, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 3
+21:25:50 audio birds t+20 s: listener rms 0.06049, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 4
+21:25:55 audio birds t+25 s: listener rms 0.10716, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 3
+21:26:00 audio birds t+30 s: listener rms 0.07292, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 3
+21:26:05 audio birds t+35 s: listener rms 0.01739, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 3
+21:26:10 audio birds t+40 s: listener rms 0.05971, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 4
+21:26:15 audio birds t+45 s: listener rms 0.03715, game clips 56 (31.0 MB), streams 4 (13.5 MB packets), sources playing 4
+21:26:25 settled for audio forest after 10 s: built 3369, queued 0, batching 0, plants 61137 (sides waiting 0), detail jobs 0, ground fill builds 1
+21:26:30 audio one-shots: /sound/truck/air_horn_default.bank#horn_air/default played; /sound/truck/noise.bank#noise/suspension_noise played; /sound/truck/interior_noise.bank#interior/noise played; /sound/collisions/collisions.bank#collisions/crash_metal played; /sound/trailer/trailer_brace.bank#trailer/brace_down played; /sound/trailer/trailer_noises.bank#trailer_noises/default_susp_noise played; /sound/ui/ui.bank#click played; /sound/world/weather.bank#weather/thunder played; /sound/traffic/effects.bank#effects/truck_effects_gear played; 
+21:26:30 audio forest t+5 s: listener rms 0.04105, game clips 76 (39.2 MB), streams 5 (16.7 MB packets), sources playing 6
+21:26:35 audio forest t+10 s: listener rms 0.06924, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 2
+21:26:40 audio forest t+15 s: listener rms 0.09621, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 1
+21:26:45 audio forest t+20 s: listener rms 0.08625, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 3
+21:26:50 audio forest t+25 s: listener rms 0.02575, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 2
+21:26:55 audio forest t+30 s: listener rms 0.02511, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 1
+21:27:00 audio forest t+35 s: listener rms 0.05782, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 2
+21:27:05 audio forest t+40 s: listener rms 0.05459, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 3
+21:27:10 audio forest t+45 s: listener rms 0.00393, game clips 76 (39.2 MB), streams 3 (10.7 MB packets), sources playing 2

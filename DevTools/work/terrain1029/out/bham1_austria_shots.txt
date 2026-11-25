@@ -1,0 +1,24 @@
+shot_b1: 0 hole px of 514560 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+  pick b1@640,560 (ray (-117.0, 1.8, 209.9) dir (0.000, -0.371, -0.929)): 8 renderers
+    -7 m  Ets Map Viewer/ground fill/fill -1 0 | /material/terrain/grass_ger_main.mat | bounds (-140, 0, 123) size (221, 8, 246) TRI 6.4
+    4 m  Ets Map/prefabs/prefab 217/vis/piece 8 | /automat/b8/b8e7e2e715641dcf.mat | bounds (-119, 0, 184) size (117, 1, 117) no tri
+    4 m  Ets Map/prefabs/prefab 217/vis/piece 4 | /automat/98/98c47f3da93ec817.mat | bounds (-119, 0, 184) size (117, 1, 117) no tri
+    6 m  Ets Map/prefabs/prefab 217/vis/piece 6 | /automat/40/404b1f1c4b026008.mat | bounds (-119, -1, 184) size (117, 0, 117) no tri
+    6 m  Ets Map/prefabs/prefab 217/vis/piece 3 | /automat/fb/fb929dea395d1e70.mat vao | bounds (-119, -1, 184) size (117, 0, 117) no tri
+    6 m  Ets Map/prefabs/prefab 217/vis/piece 0 | /automat/ee/ee2604fa847b9a1d.mat | bounds (-119, -1, 184) size (117, 0, 117) no tri
+    7 m  Ets Map/prefabs/prefab 217/vis/piece 5 | /automat/46/46a693ae091e0484.mat | bounds (-119, -1, 184) size (117, 0, 117) TRI 6.7
+    7 m  Ets Map/prefabs/prefab 217/vis/piece 1 | /automat/64/6424af56da2a137b.mat | bounds (-119, -1, 184) size (99, 0, 99) no tri
+  pick b1@400,520 (ray (-117.0, 1.8, 209.9) dir (0.269, -0.304, -0.914)): 8 renderers
+    -9 m  Ets Map Viewer/ground fill/fill -1 0 | /material/terrain/grass_ger_main.mat | bounds (-140, 0, 123) size (221, 8, 246) TRI 7.9
+    5 m  Ets Map/prefabs/prefab 217/vis/piece 8 | /automat/b8/b8e7e2e715641dcf.mat | bounds (-119, 0, 184) size (117, 1, 117) no tri
+    5 m  Ets Map/prefabs/prefab 217/vis/piece 4 | /automat/98/98c47f3da93ec817.mat | bounds (-119, 0, 184) size (117, 1, 117) no tri
+    7 m  Ets Map/prefabs/prefab 217/vis/piece 6 | /automat/40/404b1f1c4b026008.mat | bounds (-119, -1, 184) size (117, 0, 117) no tri
+    7 m  Ets Map/prefabs/prefab 217/vis/piece 3 | /automat/fb/fb929dea395d1e70.mat vao | bounds (-119, -1, 184) size (117, 0, 117) no tri
+    8 m  Ets Map/prefabs/prefab 217/vis/piece 0 | /automat/ee/ee2604fa847b9a1d.mat | bounds (-119, -1, 184) size (117, 0, 117) no tri
+    8 m  Ets Map/prefabs/prefab 217/vis/piece 5 | /automat/46/46a693ae091e0484.mat | bounds (-119, -1, 184) size (117, 0, 117) TRI 8.2
+    8 m  Ets Map/prefabs/prefab 217/vis/piece 1 | /automat/64/6424af56da2a137b.mat | bounds (-119, -1, 184) size (99, 0, 99) no tri
+shot_b2: 0 hole px of 514560 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+shot_bup: 0 hole px of 921600 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+  pick bup@640,360 (ray (-110.0, 69.9, 150.0) dir (0.000, -0.940, -0.342)): 2 renderers
+    70 m  Ets Map Viewer/ground fill/fill -1 0 | /material/terrain/grass_ger_main.mat | bounds (-140, 0, 123) size (221, 8, 246) TRI 75.4
+    75 m  Ets Map Viewer/Ets Map/roads/road look8/legacy asphalt | /material/road/asphalt.mat | bounds (-119, -1, 109) size (21, 0, 31) TRI 75.1

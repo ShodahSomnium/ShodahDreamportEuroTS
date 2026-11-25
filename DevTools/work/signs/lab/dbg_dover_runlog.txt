@@ -1,0 +1,14 @@
+20:25:07 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/signs/lab/dbg gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+20:25:10 loading 8 % Reading the map
+20:25:12 loading 56 % Building junctions and yards
+20:25:14 loading 58 % Building junctions and yards
+20:25:16 loading 72 % Placing fences and barriers
+20:25:18 loading 72 % Placing fences and barriers
+20:25:20 loading 100 % Ready
+20:25:20 first build complete at 13 s
+20:25:50 settled for shot big922 after 30 s: built 3045, queued 0, batching 0, plants 60983 (sides waiting 8), detail jobs 0, ground fill builds 1
+20:25:58 settled for shot big922 (camera placed) after 8 s: built 3045, queued 0, batching 0, plants 60983 (sides waiting 8), detail jobs 0, ground fill builds 1
+20:25:59 wrote shot big922
+20:26:30 settled for shot tall648 after 31 s: built 2951, queued 0, batching 0, plants 55570 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:26:38 settled for shot tall648 (camera placed) after 8 s: built 2951, queued 0, batching 0, plants 55570 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:26:38 wrote shot tall648

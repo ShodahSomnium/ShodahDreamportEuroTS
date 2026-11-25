@@ -1,0 +1,19 @@
+20:32:22 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/signs/lab/exp gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+20:32:25 loading 8 % Reading the map
+20:32:27 loading 56 % Building junctions and yards
+20:32:30 loading 57 % Building junctions and yards
+20:32:32 loading 65 % Placing buildings and props
+20:32:34 loading 70 % Placing buildings and props
+20:32:36 loading 72 % Placing fences and barriers
+20:32:38 loading 72 % Placing fences and barriers
+20:32:40 loading 100 % Ready
+20:32:40 first build complete at 18 s
+20:33:10 settled for shot tallnear after 30 s: built 3103, queued 0, batching 0, plants 55794 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:33:18 settled for shot tallnear (camera placed) after 8 s: built 3103, queued 0, batching 0, plants 55794 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:33:19 wrote shot tallnear
+20:33:49 settled for shot bignear after 31 s: built 3021, queued 0, batching 0, plants 63336 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:33:57 settled for shot bignear (camera placed) after 8 s: built 3021, queued 0, batching 0, plants 63336 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:33:58 wrote shot bignear
+20:34:29 settled for shot hq98 after 31 s: built 3271, queued 0, batching 0, plants 61358 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:34:37 settled for shot hq98 (camera placed) after 8 s: built 3271, queued 0, batching 0, plants 61358 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:34:37 wrote shot hq98

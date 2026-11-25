@@ -1,0 +1,323 @@
+sectors 282, road+terrain sides with trees 80133, plants 27385729
+footprints: 1439231 segments from 64580 roads + 16681 prefabs (0 skipped)
+BEFORE (no map rule): plants standing inside a road/prefab footprint (2D, any height): 455123  = own road 27522, another road 398336, prefab lane 25128, prefab spot 4137
+   of which the old hard-surface ray could catch (surface -0.25..+3 m of the foot, IF that road was built before the side planted): 130749; never caught even fully streamed: 324374
+AFTER (EtsRoadClearance, window -8..+22 m): kept out 327442; left standing inside a footprint: 127681 = 104947 with the road >= 8 m BELOW the foot (tunnel / ground high over a cutting) + 22734 with the deck >= 22 m ABOVE it (tall viaduct)
+
+WORST 100 m cells (plants in a footprint; 'miss' = not catchable by the old ray):
+  game (-19750, -10450)  1842 plants, miss 1842: terrain 5abd45bb4db30001 L -> road 574dfa1f3c910149 rise 5.6
+  game (-19650, -10550)  1079 plants, miss 1079: terrain 5abd45bb4db30001 L -> road 5c7dd775c9820001 rise -1.8
+  game (-19550, -10350)  1179 plants, miss 917: terrain 5abd45bb25b30000 L -> road 582b24ff0f820000 rise 6.6
+  game (-18550, -9450)  914 plants, miss 914: terrain 574dcc160311002b R -> road 57b53ba896330001 rise -1.0
+  game (-6150, -13850)  847 plants, miss 823: road 27673970e70d0023 R ger2 -> road 54ce15874f8f0000 rise 6.2
+  game (-2250, -2850)  817 plants, miss 817: terrain 54ce3600040f0f27 L -> road 54ce36013c8f0f40 rise 5.4
+  game (-12950, 23850)  786 plants, miss 786: terrain 4e41132420cf0837 L -> road 4e41132413cf083d rise -34.6
+  game (-19050, -9850)  753 plants, miss 753: terrain 5abd4096db330001 L -> road 574dcc175e91032c rise 9.5
+  game (-20750, -5450)  757 plants, miss 751: terrain 59b0b84750b30001 L -> prefab lane 574dededc0110031 rise 0.0
+  game (-18650, -9450)  730 plants, miss 730: terrain 574dcc14221101de R -> road 574dcc161e1101cf rise -1.0
+  game (-7550, 25650)  709 plants, miss 709: terrain 4e41131c080f17f7 R -> road 4e41131cd5cf1812 rise -158.5
+  game (-18850, -9850)  719 plants, miss 701: terrain 5cdc2bd831330000 R -> road 574dcc15061102fc rise 8.8
+  game (-20950, -6050)  693 plants, miss 692: road 574dededf39101ab R un04 -> road 5b2ab75da6b30001 rise 9.9
+  game (-19550, -10250)  687 plants, miss 684: terrain 5abd45bb25b30000 L -> road 5b8fb13d0b020000 rise 6.4
+  game (-19850, -10450)  682 plants, miss 682: terrain 5abd45bb4db30001 L -> road 582ae82044820001 rise -2.9
+  game (-4950, -16850)  672 plants, miss 672: terrain 54ce1588b08f1da2 L -> prefab spot 54ce1589ac8f202c rise 10.7
+  game (-20850, -6050)  722 plants, miss 651: terrain 5b26e7f4c0b30001 L -> road 5b2abf0c60b30001 rise 2.9
+  game (-19250, -9950)  649 plants, miss 649: terrain 5abd3fb1ab330000 L -> road 574dcc144e91033f rise 9.7
+  game (-21350, -6150)  621 plants, miss 621: terrain 6061263b85330001 R -> prefab lane 574dedecc21101c3 rise -4.8
+  game (-7250, 26350)  605 plants, miss 605: terrain 4e41131ce3cf16c8 R -> road 4e9b603ce5a50001 rise -31.1
+  game (-18450, -9550)  596 plants, miss 596: terrain 574dcc160311002b R -> road 574dcc1731110213 rise 6.8
+  game (-18950, -9850)  585 plants, miss 585: terrain 5abd4096db330001 L -> road 574dcc172b91031c rise 9.4
+  game (-2350, -2850)  579 plants, miss 579: terrain 54ce3600040f0f27 L -> road 54ce36013c8f0f40 rise 9.2
+  game (-9250, 19950)  554 plants, miss 553: terrain 4e4113200b0f0623 L -> road 4e411320b14f060e rise -14.2
+  game (-19650, -10450)  687 plants, miss 551: terrain 5abd45bb25b30000 L -> road 574dfa1e44110160 rise 3.2
+  game (-20950, -9650)  550 plants, miss 550: terrain 58893df5b5b30000 R -> road 574dcc1570110774 rise -12.8
+  game (-18250, -10050)  567 plants, miss 533: road 574dcc1501910006 R un03 -> OWN road 574dcc1501910006 rise 0.0
+  game (-20850, -5550)  542 plants, miss 533: terrain 59b0c3f66d330002 R -> road 574dedeeb511004c rise -0.3
+  game (-20950, -9750)  525 plants, miss 525: terrain 58893df5b5b30000 R -> road 574dcc1417910776 rise -11.6
+  game (-20750, -6050)  869 plants, miss 510: terrain 5b26e7f4c0b30001 L -> road 5b2abf0c60b30001 rise 1.8
+  game (18150, 18350)  506 plants, miss 506: terrain 42bf29e07a4f69be R -> road 42bf29e08d0f69c6 rise -57.6
+  game (-20950, -9150)  496 plants, miss 496: terrain 5a6d1f99cc330000 L -> road 574dcc17791107a5 rise -25.2
+  game (-12850, 23850)  495 plants, miss 495: terrain 4e4113242d8f03a9 L -> road 4e411324238f03aa rise -29.7
+  game (-9150, 19950)  500 plants, miss 486: terrain 4e4113200b0f0623 L -> road 4e4113201b0f0654 rise -26.8
+  game (7150, -3850)  480 plants, miss 480: terrain 5731ab88118f0869 R -> prefab lane 5731ab8ba88fbefb rise 3.8
+  game (-18850, -9550)  745 plants, miss 477: road 574dcc17b4110240 R unrdai -> OWN road 574dcc17b4110240 rise 0.0
+  game (15450, -2450)  471 plants, miss 471: terrain 2935e2002023c9 R -> road 2935de165037d1 rise -42.5
+  game (-19750, -10550)  470 plants, miss 470: terrain 5abd45bb4db30001 L -> road 574dcc14401107d0 rise -3.0
+  game (-14550, 24250)  476 plants, miss 469: terrain 509a7db1d1380001 L -> road 4e411320518ff592 rise 4.1
+  game (14050, 29550)  475 plants, miss 466: terrain 4a12bccc01c61657 R -> road 4a12bccc89c60d1c rise 7.6
+
+MOTORWAY cells (plants on a motorway carriageway of ANOTHER item, kept out by the new rule):
+  game (-2250, -2850)  817: terrain 54ce3600040f0f27 L -> ger14 "ger hw 3 lanes 2m offset tmpl" 54ce36013c8f0f40 rise 5.4 at -2240,-2831 y 86.0
+  game (-2350, -2850)  579: terrain 54ce3600040f0f27 L -> ger14 "ger hw 3 lanes 2m offset tmpl" 54ce36013c8f0f40 rise 9.2 at -2313,-2851 y 83.7
+  game (-6150, -13850)  486: road 54ce1585638f0002 R ger23 -> ger13 "ger hw 2 lanes one way tmpl" 2767397038cd0003 rise -6.3 at -6120,-13812 y 32.0
+  game (-8150, 21450)  466: road 4e41132021cf00ec L ger22 -> ger2 "ger hw exit one lane" 4e4113205e0f0098 rise 0.3 at -8164,21416 y 38.1
+  game (-4850, -16250)  360: terrain 54ce1589f98f1e7f L -> ger11 "ger hw 2 lanes 2m offset tmpl" 54ce158a9c8f167d rise 5.7 at -4860,-16220 y 2.3
+  game (-2450, -2850)  360: terrain 54ce3600040f0f27 L -> ger14 "ger hw 3 lanes 2m offset tmpl" 2b427984b5430000 rise 7.6 at -2470,-2823 y 82.8
+  game (-8150, 21550)  338: road 4e4113207bcf0118 R ger22 -> ger2 "ger hw exit one lane" 4e411320b40f0126 rise 8.8 at -8146,21573 y 33.2
+  game (-2150, -2850)  309: terrain 54ce3600a78f0be1 L -> ger14 "ger hw 3 lanes 2m offset tmpl" 54ce36013c8f0f40 rise 4.3 at -2179,-2862 y 85.0
+  game (9850, -8050)  300: road 5731ab8bdf8f0e8c R ger1 -> ger14 "ger hw 3 lanes 2m offset tmpl" 5731ab8b028f0e26 rise 8.1 at 9888,-8042 y 33.3
+  game (-10450, -4050)  294: road 616f25d8fe860004 L ger24 -> ger14 "ger hw 3 lanes 2m offset tmpl" 616f24a659860002 rise 16.0 at -10496,-4023 y 54.1
+  game (5450, -8950)  280: terrain 54ce4bde1e8f0085 R -> ger14 "ger hw 3 lanes 2m offset tmpl" 54ce4bdc0f8f0145 rise 14.5 at 5493,-8985 y 17.0
+  game (50, -10250)  263: road 456b66b077ac396a L ger2 -> ger2 "ger hw exit one lane" 456b66b008ac396e rise 0.0 at 71,-10251 y 32.3
+  game (19450, 17750)  262: terrain 42bf29e0b4cf8f9d R -> ger11 "ger hw 2 lanes 2m offset tmpl" 42bf29e0d0cf8f41 rise 12.7 at 19444,17719 y 73.1
+  game (-15750, 30750)  260: terrain 4e702bac796b0001 L -> template38 "it hw 2 lanes one way tmpl" 4e411320bfcfc28d rise 8.4 at -15787,30746 y 24.4
+  game (9750, -8050)  251: road 5731ab8a090f0dbf R ger1 -> ger14 "ger hw 3 lanes 2m offset tmpl" 5731ab88270f0da3 rise 7.2 at 9704,-8014 y 33.5
+  game (-14250, 23450)  245: terrain 4e411320598ff36f R -> ger17 "ger hw2 exit one lane tmpl" 4e411320be0ff000 rise 11.9 at -14277,23440 y 40.0
+  game (-8250, 21550)  224: road 4e4113207bcf0118 L ger22 -> ger2 "ger hw exit one lane" 4e41132048cf00e5 rise 1.3 at -8217,21527 y 41.9
+  game (-950, -7950)  217: road 456b66b02dac2066 L ger32 -> ger13 "ger hw 2 lanes one way tmpl" 456b66b0fdec205b rise -6.1 at -914,-7919 y 30.6
+  game (-14050, 23550)  207: road 4e411320668ff158 R ger13 -> ger2 "ger hw exit one lane" 4e411320978ff1b4 rise 9.4 at -14067,23580 y 52.7
+  game (-4650, -17050)  206: terrain 54ce158a5d0f2390 L -> ger2 "ger hw exit one lane" 54ce15895a0f22ba rise -6.7 at -4627,-17028 y 10.0
+  game (-7950, 13650)  204: terrain 393d97e011250001 R -> ger11 "ger hw 2 lanes 2m offset tmpl" 392e8fbc66e50001 rise 2.8 at -7941,13628 y 24.7
+  game (-9650, 18850)  201: terrain 4e411320078f5195 L -> ger13 "ger hw 2 lanes one way tmpl" 4e4113205fcf5175 rise -6.1 at -9694,18805 y 55.0
+  game (-8950, 16550)  200: road 4e41132093cf1047 R blke33b -> ger13 "ger hw 2 lanes one way tmpl" 4e4113208c0f130a rise 2.2 at -8934,16534 y 46.7
+  game (-9650, -7250)  199: terrain 4e20e168b1cf25e6 R -> ger2 "ger hw exit one lane" 4e20e1683a0f25df rise 15.2 at -9693,-7208 y 32.4
+  game (-15450, 30050)  197: terrain 4e411320978fc271 R -> template38 "it hw 2 lanes one way tmpl" 4e4113204b8fc441 rise 11.7 at -15456,30059 y 30.4
+  game (16150, 21550)  196: terrain 42bf29e0794f109f L -> ger13 "ger hw 2 lanes one way tmpl" 42bf29e0b28f792a rise 16.7 at 16154,21565 y -8.2
+  game (-150, -10450)  193: road 456b66b011ac3653 L ger2 -> ger2 "ger hw exit one lane" 456b66b03dac364e rise -0.1 at -107,-10490 y 22.7
+  game (-8150, 21350)  191: road 4e41132021cf00ec L ger22 -> ger2 "ger hw exit one lane" 4e4113205e0f0098 rise 0.0 at -8120,21349 y 36.9
+  game (-150, -10050)  190: road 456b66b0696c0f69 L ger9 -> ger16 "ger hw 3 lanes one way tmpl" 456b66b06e2c0fa3 rise -0.2 at -114,-10013 y 23.0
+  game (-14350, 23350)  189: terrain 4e411320598ff36f L -> ger17 "ger hw2 exit one lane tmpl" 4e4113209d0feffc rise 9.8 at -14332,23367 y 42.1
+  game (-14150, 23550)  184: road 4e411320668ff158 R ger13 -> ger2 "ger hw exit one lane" 4e4113206f0ff156 rise 1.4 at -14154,23542 y 52.1
+  game (-15650, 30250)  184: terrain 4e411320798fc275 R -> template38 "it hw 2 lanes one way tmpl" 4e4113201a0fc270 rise 0.3 at -15625,30233 y 43.6
+  game (-2050, -2850)  182: terrain 54ce3600a78f0be1 L -> ger14 "ger hw 3 lanes 2m offset tmpl" 54ce36013c8f0f40 rise -0.9 at -2085,-2845 y 85.8
+  game (3550, 11750)  180: road 2935de0cc00b4b R ger11 -> ger14 "ger hw 3 lanes 2m offset tmpl" 2935de1ad0067c rise 8.3 at 3523,11764 y 40.4
+  game (-4850, -16150)  179: terrain 54ce158a070f1d9c L -> ger11 "ger hw 2 lanes 2m offset tmpl" 54ce158a9c8f167d rise -0.3 at -4888,-16141 y 10.0
+  game (-2550, -2750)  175: terrain 54ce3600040f0f27 L -> ger14 "ger hw 3 lanes 2m offset tmpl" 2b427984b5430000 rise 2.3 at -2540,-2778 y 85.0
+  game (-9250, -3150)  174: road 4e20e164a0cf3599 R ger2 -> ger2 "ger hw exit one lane" 4e20e16487cf359a rise 1.6 at -9273,-3165 y 60.9
+  game (-19650, 27150)  172: road 4e4113202c4fb76a R template19 -> template18 "fr hw exit one lane tmpl" 4e411320410fb76b rise -2.4 at -19673,27113 y 33.1
+  game (-13550, 27350)  171: terrain 4e411324530f007e L -> template39 "it hw 2 lanes 2m offset tmpl" 4e411324a8cf00ad rise 4.6 at -13517,27371 y 69.0
+  game (-13550, 23650)  170: terrain 4e411320598ff36f R -> ger11 "ger hw 2 lanes 2m offset tmpl" 4e411320310ff37a rise 6.3 at -13525,23659 y 42.3
+
+Left standing by the height window, by what is below/above:
+    19253  below ger1 "ger road 1 tmpl"
+    13169  below ger13 "ger hw 2 lanes one way tmpl"
+     5737  below blke33b "rail blke double AI 01 wire tmpl"
+     4187  below ger11 "ger hw 2 lanes 2m offset tmpl"
+     4060  below un11 "un 1-1"
+     3770  below prefab lane
+     3352  below un02 "un 0-2"
+     3112  below ger4 "ger road 1 minim"
+     2743  above ger1 "ger road 1 tmpl"
+     2722  below ger12 "ger hw 2 lanes 5m offset tmpl"
+     2644  below blke33 "rail blke double AI 01 tmpl"
+     2295  below un03 "un 0-3"
+     2138  below template14 "fr hw 2 lanes one way tmpl"
+     1973  above un11 "un 1-1"
+     1955  above ger11 "ger hw 2 lanes 2m offset tmpl"
+     1769  below template38 "it hw 2 lanes one way tmpl"
+     1677  below blkw1 "blkw road 1 tmpl"
+     1596  below ger14 "ger hw 3 lanes 2m offset tmpl"
+     1557  below ger2 "ger hw exit one lane"
+     1442  below blke34 "rail blke AI 01 tmpl"
+     1368  above prefab lane
+     1331  below ger16 "ger hw 3 lanes one way tmpl"
+     1203  below blke31 "rail blke temp"
+     1154  below template39 "it hw 2 lanes 2m offset tmpl"
+     1149  below look8 "City 2 lanes 1m offset"
+     1069  below ger9 "ger road 2 narrow one way tmpl"
+     1034  below un22_2m "un 2-2 offset 2m"
+     1027  below look4 "Highway 3 lanes 5m offset"
+     1024  below unrdai "un 1-1 rail 4m offset AI"
+      992  below blkw1min "blkw road 1 minim tmpl"
+
+Left standing inside a footprint by the height window (first 200):
+  -54229.5,-15505.1 y 36.3 surface 24.0 rise -12.3 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54233.9,-15514.8 y 35.4 surface 24.0 rise -11.4 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54222.9,-15491.6 y 37.5 surface 24.0 rise -13.5 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54234.4,-15510.0 y 35.7 surface 24.0 rise -11.7 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54234.3,-15508.0 y 35.8 surface 24.0 rise -11.8 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54227.8,-15512.8 y 35.9 surface 24.0 rise -11.9 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54229.3,-15507.0 y 36.2 surface 24.0 rise -12.2 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54221.5,-15505.8 y 36.7 surface 24.0 rise -12.7 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54216.7,-15503.4 y 37.1 surface 24.0 rise -13.1 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54231.2,-15516.8 y 35.5 surface 24.0 rise -11.4 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54218.2,-15494.9 y 37.6 surface 24.0 rise -13.6 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54222.0,-15518.4 y 35.9 surface 24.0 rise -11.9 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54218.6,-15507.7 y 36.8 surface 24.0 rise -12.8 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54219.2,-15495.5 y 37.5 surface 24.0 rise -13.5 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54229.4,-15521.8 y 35.2 surface 24.0 rise -11.2 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54215.7,-15501.8 y 37.3 surface 24.0 rise -13.3 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54231.9,-15502.8 y 36.3 surface 24.0 rise -12.3 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54220.9,-15492.4 y 37.6 surface 24.0 rise -13.6 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54219.5,-15504.1 y 36.9 surface 24.0 rise -12.9 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54227.2,-15508.1 y 36.2 surface 24.0 rise -12.2 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54220.2,-15494.7 y 37.5 surface 24.0 rise -13.5 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54225.7,-15507.9 y 36.3 surface 24.0 rise -12.3 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54233.7,-15519.1 y 35.2 surface 24.0 rise -11.2 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54220.8,-15500.8 y 37.1 surface 24.0 rise -13.1 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54224.8,-15506.3 y 36.5 surface 24.0 rise -12.5 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54224.5,-15515.7 y 35.9 surface 24.0 rise -11.9 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54228.1,-15519.2 y 35.5 surface 24.0 rise -11.5 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54214.9,-15496.2 y 37.7 surface 24.0 rise -13.7 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54215.6,-15492.7 y 37.9 surface 24.0 rise -13.9 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54218.3,-15505.3 y 36.9 surface 24.0 rise -12.9 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54226.1,-15511.0 y 36.1 surface 24.0 rise -12.1 by prefab lane 2935de6220a653 from road 2935dea980a640 L look6
+  -54195.4,-15418.4 y 33.0 surface 24.0 rise -9.0 by prefab lane 2935de6220a653 from terrain 2935e985606660 R
+  -54181.2,-15419.3 y 32.9 surface 24.0 rise -8.9 by prefab lane 2935de6220a653 from terrain 2935e9c5d06647 R
+  -54180.1,-15416.8 y 32.1 surface 24.0 rise -8.1 by prefab lane 2935de6220a653 from terrain 2935e9c5d06647 R
+  -55932.2,35313.3 y 32.1 surface 20.0 rise -12.1 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 R
+  -55892.0,35306.8 y 36.8 surface 20.0 rise -16.8 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55923.1,35303.7 y 39.2 surface 20.0 rise -19.2 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55899.7,35308.7 y 38.7 surface 20.0 rise -18.7 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55919.0,35307.1 y 40.0 surface 20.0 rise -20.0 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55917.6,35305.9 y 39.7 surface 20.0 rise -19.7 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55882.9,35304.7 y 32.8 surface 20.0 rise -12.9 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55896.6,35304.5 y 36.9 surface 20.0 rise -16.9 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55910.1,35306.4 y 39.2 surface 20.0 rise -19.3 by road 2f4c0e08dcc601f2 from terrain 2f4c0e080f4601f8 L
+  -55395.3,34881.9 y 70.0 surface 23.0 rise -47.0 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55389.8,34881.1 y 71.1 surface 23.0 rise -48.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55390.6,34891.7 y 72.4 surface 23.0 rise -49.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55386.7,34886.7 y 72.6 surface 23.0 rise -49.6 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55390.9,34888.7 y 71.9 surface 23.0 rise -48.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55396.6,34891.3 y 70.9 surface 23.0 rise -47.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55389.3,34887.1 y 72.1 surface 23.0 rise -49.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55395.4,34878.6 y 69.3 surface 23.0 rise -46.3 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55396.6,34891.3 y 70.9 surface 23.0 rise -47.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55390.4,34886.8 y 71.8 surface 23.0 rise -48.8 by road 2f4c0e08af4600e7 from terrain 2f4c0e0811c600f4 L
+  -55441.6,34919.0 y 54.5 surface 23.0 rise -31.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55453.2,34946.8 y 34.7 surface 23.0 rise -11.7 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55450.0,34935.4 y 46.3 surface 23.0 rise -23.3 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55434.2,34919.9 y 57.0 surface 23.0 rise -33.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55445.9,34929.3 y 49.1 surface 23.0 rise -26.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55442.6,34923.9 y 52.2 surface 23.0 rise -29.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55435.0,34916.1 y 57.7 surface 23.0 rise -34.7 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55454.3,34945.0 y 35.2 surface 23.0 rise -12.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55451.5,34931.1 y 46.9 surface 23.0 rise -23.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55439.2,34927.5 y 52.8 surface 23.0 rise -29.8 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55453.8,34929.9 y 46.4 surface 23.0 rise -23.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55449.9,34930.0 y 47.7 surface 23.0 rise -24.7 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55436.5,34912.4 y 58.0 surface 23.0 rise -35.0 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55433.8,34918.1 y 57.6 surface 23.0 rise -34.6 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55445.0,34929.3 y 49.4 surface 23.0 rise -26.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55446.6,34921.4 y 50.9 surface 23.0 rise -27.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55456.5,34940.1 y 38.6 surface 23.0 rise -15.6 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55453.1,34937.8 y 42.9 surface 23.0 rise -19.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55453.0,34927.8 y 47.2 surface 23.0 rise -24.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55443.3,34919.0 y 53.5 surface 23.0 rise -30.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55454.8,34943.7 y 36.2 surface 23.0 rise -13.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55448.0,34935.6 y 46.8 surface 23.0 rise -23.8 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55446.2,34920.7 y 51.3 surface 23.0 rise -28.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55453.5,34930.0 y 46.5 surface 23.0 rise -23.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55446.7,34924.1 y 50.2 surface 23.0 rise -27.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55433.4,34907.6 y 59.8 surface 23.0 rise -36.8 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55439.6,34924.9 y 53.5 surface 23.0 rise -30.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 R
+  -55402.7,34891.9 y 74.0 surface 23.0 rise -51.0 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55413.1,34901.1 y 66.7 surface 23.0 rise -43.7 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55421.5,34911.6 y 61.2 surface 23.0 rise -38.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55402.3,34891.9 y 74.3 surface 23.0 rise -51.3 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55411.6,34890.6 y 69.6 surface 23.0 rise -46.6 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55413.0,34896.6 y 67.9 surface 23.0 rise -44.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55404.8,34893.8 y 72.5 surface 23.0 rise -49.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55429.6,34907.9 y 60.2 surface 23.0 rise -37.2 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55414.0,34889.2 y 68.6 surface 23.0 rise -45.6 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55415.9,34894.8 y 67.0 surface 23.0 rise -44.0 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55389.0,34891.1 y 80.7 surface 23.0 rise -57.7 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55402.9,34890.0 y 74.4 surface 23.0 rise -51.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55404.1,34895.1 y 72.4 surface 23.0 rise -49.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55398.7,34892.1 y 76.1 surface 23.0 rise -53.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55397.8,34891.2 y 77.1 surface 23.0 rise -54.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55392.1,34893.0 y 78.4 surface 23.0 rise -55.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55396.5,34891.3 y 77.7 surface 23.0 rise -54.7 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55395.3,34891.8 y 78.4 surface 23.0 rise -55.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55412.1,34899.6 y 67.5 surface 23.0 rise -44.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55400.4,34890.5 y 75.9 surface 23.0 rise -52.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55419.5,34909.9 y 62.2 surface 23.0 rise -39.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55401.1,34890.5 y 75.4 surface 23.0 rise -52.4 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55407.2,34889.3 y 71.9 surface 23.0 rise -48.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55415.4,34895.4 y 67.1 surface 23.0 rise -44.1 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55431.4,34904.0 y 60.5 surface 23.0 rise -37.5 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55425.7,34913.6 y 59.8 surface 23.0 rise -36.8 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55396.4,34891.7 y 77.9 surface 23.0 rise -54.9 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55399.4,34891.0 y 76.3 surface 23.0 rise -53.3 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -55394.4,34892.2 y 77.8 surface 23.0 rise -54.8 by road 2f4c0e08af4600e7 from terrain 2f4c0e08590600f5 L
+  -48724.2,-45535.8 y 154.1 surface 134.5 rise -19.7 by road 2935dea8d09587 from road 2935defc50944a L look3
+  -48910.7,-29026.9 y 100.6 surface 77.5 rise -23.1 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48894.0,-29015.1 y 94.0 surface 77.5 rise -16.5 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48896.3,-29015.6 y 95.1 surface 77.5 rise -17.6 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48896.7,-29002.7 y 95.6 surface 77.5 rise -18.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48898.1,-29027.2 y 95.7 surface 77.5 rise -18.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48903.3,-29009.2 y 98.7 surface 77.5 rise -21.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48902.9,-29021.7 y 98.1 surface 77.5 rise -20.7 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48895.7,-29028.8 y 94.5 surface 77.5 rise -17.0 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48910.1,-29013.4 y 100.6 surface 77.5 rise -23.1 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48893.9,-29010.0 y 94.1 surface 77.5 rise -16.6 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48900.8,-29028.4 y 97.0 surface 77.5 rise -19.5 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48893.6,-29020.5 y 93.7 surface 77.5 rise -16.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48893.4,-29009.4 y 93.8 surface 77.5 rise -16.3 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48898.1,-29029.3 y 95.7 surface 77.5 rise -18.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48891.0,-29010.6 y 92.6 surface 77.5 rise -15.1 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48892.9,-29008.4 y 93.6 surface 77.5 rise -16.1 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48893.2,-29020.8 y 93.5 surface 77.5 rise -16.0 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48901.4,-29011.8 y 97.6 surface 77.5 rise -20.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48900.3,-29003.3 y 97.4 surface 77.5 rise -19.9 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48894.3,-29031.4 y 93.8 surface 77.5 rise -16.3 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48894.8,-29003.8 y 94.7 surface 77.5 rise -17.2 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48900.4,-29031.5 y 96.7 surface 77.5 rise -19.3 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48892.6,-29010.8 y 93.4 surface 77.5 rise -15.9 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48907.7,-29031.8 y 100.1 surface 77.5 rise -22.6 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48893.8,-29011.2 y 94.0 surface 77.5 rise -16.5 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48910.5,-29031.1 y 100.5 surface 77.5 rise -23.1 by road 2935dec7109def from terrain 2935e50d10f014 R
+  -48893.1,-28863.4 y 95.8 surface 71.1 rise -24.7 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48872.7,-28884.1 y 92.1 surface 71.1 rise -21.1 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48890.7,-28868.7 y 96.0 surface 71.1 rise -25.0 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48894.5,-28860.9 y 95.9 surface 71.1 rise -24.8 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48898.1,-28862.0 y 97.7 surface 71.1 rise -26.6 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48871.3,-28886.0 y 91.9 surface 71.1 rise -20.9 by road 2935de90109df5 from terrain 2935e53890f01f R
+  -48888.0,-28872.3 y 95.7 surface 71.1 rise -24.7 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48886.7,-28872.1 y 95.2 surface 71.1 rise -24.1 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48895.6,-28862.4 y 96.7 surface 71.1 rise -25.6 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48871.8,-28888.0 y 92.6 surface 71.1 rise -21.6 by road 2935de90109df5 from terrain 2935e53890f01f R
+  -48884.6,-28861.6 y 91.7 surface 71.1 rise -20.7 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48882.1,-28874.9 y 93.9 surface 71.1 rise -22.8 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48880.4,-28875.7 y 93.4 surface 71.1 rise -22.3 by road 2935de36109df7 from terrain 2935e53890f01f R
+  -48960.3,-28783.9 y 101.6 surface 71.1 rise -30.5 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48955.4,-28770.4 y 99.5 surface 71.1 rise -28.4 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48895.5,-28852.9 y 94.5 surface 71.1 rise -23.5 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48906.9,-28853.7 y 99.6 surface 71.1 rise -28.5 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48901.3,-28847.3 y 95.7 surface 71.1 rise -24.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48910.0,-28851.9 y 100.2 surface 71.1 rise -29.1 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48915.1,-28840.8 y 100.1 surface 71.1 rise -29.0 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48970.8,-28778.0 y 102.5 surface 71.1 rise -31.4 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48971.7,-28775.1 y 102.4 surface 71.1 rise -31.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48902.5,-28836.4 y 93.7 surface 71.1 rise -22.6 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48949.4,-28789.0 y 100.6 surface 71.1 rise -29.5 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48918.1,-28812.8 y 94.6 surface 71.1 rise -23.5 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48951.1,-28803.3 y 101.9 surface 71.1 rise -30.8 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48935.8,-28822.1 y 101.4 surface 71.1 rise -30.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48976.6,-28777.0 y 103.2 surface 71.1 rise -32.1 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48976.0,-28773.6 y 102.8 surface 71.1 rise -31.8 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48910.4,-28840.3 y 98.0 surface 71.1 rise -26.9 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48919.8,-28810.4 y 94.7 surface 71.1 rise -23.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48927.3,-28828.7 y 100.8 surface 71.1 rise -29.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48928.3,-28813.1 y 98.9 surface 71.1 rise -27.9 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48892.8,-28846.1 y 91.8 surface 71.1 rise -20.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48931.3,-28829.7 y 101.4 surface 71.1 rise -30.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48933.0,-28818.6 y 100.7 surface 71.1 rise -29.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48929.8,-28809.3 y 98.7 surface 71.1 rise -27.6 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48946.7,-28808.5 y 101.7 surface 71.1 rise -30.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48937.5,-28815.4 y 101.1 surface 71.1 rise -30.0 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48965.6,-28789.7 y 102.7 surface 71.1 rise -31.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48912.5,-28844.9 y 100.0 surface 71.1 rise -28.9 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48937.2,-28791.8 y 97.3 surface 71.1 rise -26.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48908.3,-28824.8 y 93.4 surface 71.1 rise -22.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48944.7,-28807.1 y 101.4 surface 71.1 rise -30.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48921.4,-28831.0 y 100.2 surface 71.1 rise -29.1 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48911.5,-28844.1 y 99.3 surface 71.1 rise -28.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48941.9,-28787.5 y 98.2 surface 71.1 rise -27.1 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48960.7,-28781.7 y 101.5 surface 71.1 rise -30.4 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48892.0,-28855.0 y 93.5 surface 71.1 rise -22.4 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48943.5,-28786.9 y 98.7 surface 71.1 rise -27.7 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48962.7,-28775.2 y 101.2 surface 71.1 rise -30.1 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48937.9,-28803.3 y 100.2 surface 71.1 rise -29.1 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48904.0,-28853.4 y 98.3 surface 71.1 rise -27.2 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48964.4,-28764.7 y 100.6 surface 71.1 rise -29.5 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48927.6,-28810.1 y 97.9 surface 71.1 rise -26.9 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48911.4,-28847.4 y 100.0 surface 71.1 rise -29.0 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48923.4,-28813.9 y 97.1 surface 71.1 rise -26.0 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48943.9,-28781.4 y 97.5 surface 71.1 rise -26.4 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48953.0,-28783.9 y 100.6 surface 71.1 rise -29.6 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48899.5,-28834.1 y 91.9 surface 71.1 rise -20.8 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48923.4,-28810.9 y 96.3 surface 71.1 rise -25.3 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48895.7,-28853.0 y 94.6 surface 71.1 rise -23.6 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48937.3,-28804.9 y 100.2 surface 71.1 rise -29.2 by road 2935de36109df7 from terrain 2935e561c0f086 R
+  -48953.6,-28782.4 y 100.6 surface 71.1 rise -29.5 by road 2935de36109df7 from terrain 2935e561c0f086 R

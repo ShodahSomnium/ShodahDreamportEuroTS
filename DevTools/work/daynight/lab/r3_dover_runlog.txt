@@ -1,0 +1,21 @@
+12:28:10 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:28:13 loading 10 % Building roads
+12:28:15 loading 57 % Building junctions and yards
+12:28:17 loading 65 % Placing buildings and props
+12:28:19 loading 72 % Placing fences and barriers
+12:28:21 loading 72 % Placing fences and barriers
+12:28:23 loading 100 % Ready
+12:28:23 first build complete at 13 s
+12:28:43 settled for lamps site after 20 s: built 3294, queued 0, batching 0, plants 60021 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:28:44 lamps: truck scania.s_2016 index 14 built
+12:28:44 lamps: truck placed True at (-336.78, 9.04, -57.85)
+12:28:44 lamps: car /vehicle/ai/a3/ai.pmd - 1 lamp pieces lit the game's way (of 1 eut2.lamp pieces; overlays: left turn 1 front + 1 rear, right turn 1 front + 1 rear, brake 1, reverse 1, low beam 1, high beam 1, positional 2, daytime 0; colours from /def/default_vehicle_lamp_setup.sii, x exposure 227.504)
+12:28:55 settled for lamps vehicles after 11 s: built 3294, queued 0, batching 0, plants 60021 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:28:56 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_truck_off.png (exposure 227.504)
+12:28:56 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_truck_left.png (exposure 227.504)
+12:28:57 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_truck_hazard.png (exposure 227.504)
+12:28:57 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_truck_rear_left_brake.png (exposure 227.504)
+12:28:57 lamps: truck 5 lamp pieces lit the game's way (of 5 eut2.lamp pieces; overlays: left turn 4 front + 1 rear, right turn 3 front + 1 rear, brake 1, reverse 1, low beam 4, high beam 4, positional 6, daytime 1; colours from /def/vehicle/truck/scania.s_2016/lamp_setup.sii, x exposure 227.504)
+12:28:57 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_car_off.png (exposure 227.504)
+12:28:57 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_car_rear_left_brake.png (exposure 227.504)
+12:28:57 wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r3_lamps_car_front_left.png (exposure 227.504)

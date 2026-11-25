@@ -1,0 +1,128 @@
+shot_s32fc: 13058 hole px of 570880 below the horizon (2.287 %); sampled 1440: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 1413, 100-400 27, 400-1200 0, 1200-2150 0, beyond 0
+      void cells: unity (890, 825) game (-45208, -21045) 81 m x360 y 17.1 near [roads/road look3/terrain right 2 | prefabs/prefab 4uk/prefab terrain 2] over it {prefabs/prefab 4uk/prefab terrain 2 y 3..21 q2000 vis | prefab 4uk/vis/piece 9 y 2..13 L4 q2001 vis | roads/road look3/terrain right 2 y 8..50 q2000 vis | roads/road look3/terrain right 2 + 39 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 4 y 2..14 L0 q2000 vis | prefab 4uk/vis/piece 0 y 2..13 q2900 vis | roads/road look3/terrain right 2 + 42 y 8..50 L3 q2000 vis | roads/road look3/terrain right 2 OFF y 8..50 q2000 NOTVIS | end/end/piece 2 y 13..18 L0 q2000 vis | roads/road look3/terrain right 2 + 47 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 6 y 2..13 L4 q2001 vis | roads/road look3/terrain right 2 + 35 y 8..50 L3 q2000 vis} ray [nothing]; unity (891, 830) game (-45206, -21050) 79 m x210 y 16.8 near [roads/road look3/terrain right 2 | prefabs/prefab 4uk/prefab terrain 2] over it {prefabs/prefab 4uk/prefab terrain 2 y 3..21 q2000 vis | prefab 4uk/vis/piece 9 y 2..13 L4 q2001 vis | roads/road look3/terrain right 2 y 8..50 q2000 vis | roads/road look3/terrain right 2 + 39 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 4 y 2..14 L0 q2000 vis | prefab 4uk/vis/piece 0 y 2..13 q2900 vis | roads/road look3/terrain right 2 + 42 y 8..50 L3 q2000 vis | roads/road look3/terrain right 2 OFF y 8..50 q2000 NOTVIS | roads/road look3/terrain right 2 + 47 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 6 y 2..13 L4 q2001 vis | roads/road look3/terrain right 2 + 35 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 8 y 2..13 q2000 vis} ray [nothing]; unity (886, 819) game (-45212, -21039) 85 m x204 y 18.1 near [prefabs/prefab 4uk/prefab terrain 2 | roads/road look3/terrain right 2] over it {prefabs/prefab 4uk/prefab terrain 2 y 3..21 q2000 vis | prefab 4uk/vis/piece 9 y 2..13 L4 q2001 vis | roads/road look3/terrain right 2 y 8..50 q2000 vis | roads/road look3/terrain right 2 + 39 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 4 y 2..14 L0 q2000 vis | prefab 4uk/vis/piece 0 y 2..13 q2900 vis | roads/road look3/terrain right 2 + 42 y 8..50 L3 q2000 vis | roads/road look3/terrain right 2 OFF y 8..50 q2000 NOTVIS | roads/road look3/terrain right 2 + 47 y 8..50 L3 q2000 vis | prefab 4uk/vis/piece 6 y 2..13 L4 q2001 vis | roads/road look3/terrain right 2 + 35 y 8..50 L3 q2000 vis | Ets Map Viewer/ground fill/fill 3 3 y 10..48 q2000 vis} ray [nothing]; unity (896, 837) game (-45202, -21057) 75 m x158 y 13.9 near [roads/road look3/terrain right 2 | prefabs/prefab 4uk/prefab terrain 2]; unity (892, 843) game (-45206, -21063) 79 m x76 y 12.8 near [roads/road look3/terrain right 2 | prefabs/prefab 4uk/prefab terrain 2]; unity (891, 837) game (-45207, -21057) 79 m x74 y 15.6 near [roads/road look3/terrain right 2 | prefabs/prefab 4uk/prefab terrain 2]; unity (894, 833) game (-45204, -21053) 78 m x71 y 14.8 near [roads/road look3/terrain right 2 | prefabs/prefab 4uk/prefab terrain 2]; unity (885, 831) game (-45213, -21051) 85 m x66 y 18.7 near [roads/road look3/terrain right 2]; unity (884, 815) game (-45214, -21035) 88 m x55 y 18.7 near [Ets Map Viewer/ground fill/fill 3 3 | prefabs/prefab 4uk/prefab terrain 2 | roads/road look3/terrain right 2]; unity (879, 832) game (-45219, -21052) 91 m x36 y 19.2 near [roads/road look3/terrain right 2]
+  pick s32fc@125,325 (ray (971.9, 23.6, 828.0) dir (-0.995, -0.071, 0.073)): 35 renderers
+    -395 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (1149, 31, 926) size (431, 55, 343) no tri
+    39 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (940, 12, 793) size (120, 18, 144) no tri
+    42 m  Ets Map Viewer/grass cells/grass 28,25 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (912, 16, 816) size (36, 12, 36) no tri
+    42 m  Ets Map Viewer/grass cells/grass 28,25 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (912, 16, 816) size (35, 12, 36) no tri
+    43 m  Ets Map Viewer/ground fill/fill 3 3 | /material/terrain/grass_ger_main.mat | bounds (840, 29, 815) size (179, 38, 129) no tri
+    49 m  Ets Map Viewer/grass cells/grass 28,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (912, 14, 848) size (35, 12, 36) no tri
+    53 m  Ets Map Viewer/grass cells/grass 28,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (912, 14, 848) size (36, 11, 36) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 47 | terrain 2 + 47 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    74 m  Ets Map Viewer/grass cells/grass 27,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    74 m  Ets Map Viewer/grass cells/grass 27,25 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 19, 816) size (36, 16, 36) no tri
+    74 m  Ets Map Viewer/grass cells/grass 27,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    74 m  Ets Map Viewer/grass cells/grass 27,25 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 19, 816) size (36, 16, 36) no tri
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    222 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+  pick s32fc@225,330 (ray (971.9, 23.6, 828.0) dir (-0.983, -0.082, 0.163)): 19 renderers
+    -400 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (1149, 31, 926) size (431, 55, 343) no tri
+    34 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (940, 12, 793) size (120, 18, 144) no tri
+    43 m  Ets Map Viewer/ground fill/fill 3 3 | /material/terrain/grass_ger_main.mat | bounds (840, 29, 815) size (179, 38, 129) no tri
+    44 m  Ets Map Viewer/grass cells/grass 28,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (912, 14, 848) size (35, 12, 36) no tri
+    46 m  Ets Map Viewer/grass cells/grass 28,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (912, 14, 848) size (36, 11, 36) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) TRI 82.6
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 47 | terrain 2 + 47 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    75 m  Ets Map Viewer/grass cells/grass 27,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    75 m  Ets Map Viewer/grass cells/grass 27,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    110 m  runs/building bld_model.111uk/center/center/piece 7 | /automat/2e/2e1458312544c3b4.mat vao | bounds (859, 15, 845) size (10, 2, 5) no tri
+  pick s32fc@310,362 (ray (971.9, 23.6, 828.0) dir (-0.961, -0.132, 0.243)): 23 renderers
+    -259 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (1149, 31, 926) size (431, 55, 343) no tri
+    21 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (940, 12, 793) size (120, 18, 144) no tri
+    44 m  Ets Map Viewer/grass cells/grass 28,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (912, 14, 848) size (36, 11, 36) no tri
+    44 m  Ets Map Viewer/ground fill/fill 3 3 | /material/terrain/grass_ger_main.mat | bounds (840, 29, 815) size (179, 38, 129) no tri
+    45 m  Ets Map Viewer/grass cells/grass 28,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (912, 14, 848) size (35, 12, 36) no tri
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) TRI 78.5
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 47 | terrain 2 + 47 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    61 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    73 m  Ets Map/prefabs/prefab 4uk/vis/piece 4 | /automat/8a/8a087cfc7e8506b4.mat vao | bounds (1045, 8, 801) size (345, 12, 313) no tri
+    77 m  Ets Map Viewer/grass cells/grass 27,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    77 m  Ets Map Viewer/grass cells/grass 27,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    79 m  Ets Map/prefabs/prefab 4uk/vis/piece 9 | /automat/0a/0a87124361916ea8.mat | bounds (1047, 8, 805) size (355, 11, 324) no tri
+    80 m  Ets Map/prefabs/prefab 4uk/vis/piece 6 | /automat/41/41be99880bdd41bb.mat | bounds (1047, 8, 805) size (355, 11, 323) no tri
+    80 m  Ets Map/prefabs/prefab 4uk/vis/piece 0 | /automat/ee/ee2604fa847b9a1d.mat | bounds (1045, 8, 802) size (351, 11, 317) no tri
+    81 m  Ets Map/prefabs/prefab 4uk/vis/piece 8 | /automat/83/838a6c5bb467df32.mat vcol | bounds (1057, 8, 823) size (335, 11, 289) no tri
+  pick s32fc@60,300 (ray (971.9, 23.6, 828.0) dir (-0.999, -0.036, 0.021)): 20 renderers
+    -393 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (1149, 31, 926) size (431, 55, 343) no tri
+    43 m  Ets Map Viewer/ground fill/fill 3 3 | /material/terrain/grass_ger_main.mat | bounds (840, 29, 815) size (179, 38, 129) no tri
+    48 m  Ets Map Viewer/grass cells/grass 28,25 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (912, 16, 816) size (36, 12, 36) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 47 | terrain 2 + 47 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri
+    58 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    60 m  Ets Map Viewer/grass cells/grass 28,25 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (912, 16, 816) size (35, 12, 36) no tri
+    74 m  Ets Map Viewer/grass cells/grass 27,25 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 19, 816) size (36, 16, 36) no tri
+    74 m  Ets Map Viewer/grass cells/grass 27,25 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 19, 816) size (36, 16, 36) no tri
+    77 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (940, 12, 793) size (120, 18, 144) no tri
+    94 m  Ets Map Viewer/grass cells/grass 27,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    95 m  Ets Map Viewer/grass cells/grass 27,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+  pick s32fc@200,300 (ray (971.9, 23.6, 828.0) dir (-0.989, -0.039, 0.143)): 29 renderers
+    -397 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (1149, 31, 926) size (431, 55, 343) no tri
+    43 m  Ets Map Viewer/ground fill/fill 3 3 | /material/terrain/grass_ger_main.mat | bounds (840, 29, 815) size (179, 38, 129) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) TRI 94.2 [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 47 | terrain 2 + 47 | bounds (779, 29, 844) size (269, 42, 230) TRI 94.2
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (779, 29, 844) size (269, 42, 230) no tri [OFF]
+    59 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (779, 29, 844) size (269, 42, 230) no tri
+    71 m  Ets Map Viewer/Ets Map/prefabs/prefab 4uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (940, 12, 793) size (120, 18, 144) no tri
+    75 m  Ets Map Viewer/grass cells/grass 27,26 #1 | /automat/48/48da70e6d1e0afab.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    75 m  Ets Map Viewer/grass cells/grass 27,26 #0 | /automat/e1/e1b4d4bb1fcd83b4.mat (grass cells) | bounds (880, 17, 848) size (36, 16, 36) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 39 | terrain 2 + 39 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 17 | terrain 2 + 17 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 42 | terrain 2 + 42 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 47 | terrain 2 + 47 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (626, 27, 977) size (251, 42, 265) no tri [OFF]
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 35 | terrain 2 + 35 | bounds (626, 27, 977) size (251, 42, 265) no tri
+    223 m  Ets Map Viewer/Ets Map/roads/road look3/terrain right 2 + 1 | terrain 2 + 1 | bounds (626, 27, 977) size (251, 42, 265) no tri

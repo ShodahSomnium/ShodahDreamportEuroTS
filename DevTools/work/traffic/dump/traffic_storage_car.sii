@@ -1,0 +1,140 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+@include "ai/a3.sui"
+@include "ai/accord.sui"
+@include "ai/audi_a6.sui"
+@include "ai/bmw5.sui"
+@include "ai/clio.sui"
+@include "ai/mercedes_ce.sui"
+#@include "ai/xc90.sui"
+@include "ai/astra.sui"
+@include "ai/fabia.sui"
+@include "ai/golf.sui"
+
+@include "ai/seat.sui"
+@include "ai/punto.sui"
+@include "ai/mondeo.sui"
+@include "ai/qashqai.sui"
+@include "ai/jaguar_xf.sui"
+@include "ai/lancer_x.sui"
+@include "ai/passat_cc.sui"
+@include "ai/citroen_c4.sui"
+@include "ai/mazda_3.sui"
+@include "ai/megane.sui"
+@include "ai/mini.sui"
+@include "ai/mondeo_2009.sui"
+@include "ai/octavia_2009.sui"
+@include "ai/peugeot_407.sui"
+@include "ai/range_rover.sui"
+@include "ai/focus_2009.sui"
+@include "ai/kia_ceed.sui"
+
+@include "ai/xc60.sui"
+
+#Asset Flip from ATS
+@include "ai/heimdall_suv_premium_24.sui"
+
+# Added from dlc_fr
+
+@include "ai/tourer.sui"
+@include "ai/p3008.sui"
+@include "ai/talisman.sui"
+@include "ai/duck.sui"
+@include "ai/ford_smax.sui"
+@include "ai/passat_2014.sui"
+
+@include "ai/captur.sui"
+@include "ai/peugeot_208.sui"
+@include "ai/c3.sui"
+
+@include "ai/skoda_octavia_iii.sui"
+@include "ai/alfa_romeo_159.sui"
+@include "ai/kia_ceed_combi.sui"
+@include "ai/volvo_xc70.sui"
+@include "ai/vw_touran.sui"
+
+
+
+# Added from dlc_it
+
+@include "ai/mazda_cx3.sui"
+
+
+@include "ai/panda.sui"
+@include "ai/giulietta.sui"
+@include "ai/500l.sui"
+@include "ai/renegade.sui"
+@include "ai/ypsilon.sui"
+
+@include "ai/santafe.sui"
+@include "ai/huracan.sui"
+@include "ai/mustang_2015.sui"
+
+# Added from dlc_scenes
+
+# Added from dlc_balt
+@include "ai/riva.sui"
+@include "ai/niva.sui"
+@include "ai/superb_iii.sui"
+@include "ai/aleko.sui"
+
+@include "ai/duster.sui"
+@include "ai/granta.sui"
+@include "ai/laguna.sui"
+@include "ai/l_119.sui"
+@include "ai/a80.sui"
+@include "ai/majestic_a_2018.sui"
+
+@include "ai/bgeed.sui"
+@include "ai/sand.sui"
+@include "ai/toyco.sui"
+@include "ai/galon.sui"
+
+@include "ai/ortiz_combi.sui"
+
+@include "ai/ava_469.sui"
+@include "ai/majestic_suv_luxury_22.sui"
+@include "ai/voltse.sui"
+
+@include "ai/scout_fav.sui"
+
+@include "ai/betrude_m5_22.sui"
+@include "ai/stepron_premium_23.sui"
+@include "ai/voltison_model_s_23.sui"
+
+@include "ai/hoddlen_hatchback_basic_24.sui"
+
+# Balkan West
+
+@include "ai/zastava.sui"
+@include "ai/mendward_x124_85.sui"
+@include "ai/mendward_ew_02.sui"
+@include "ai/voyflen_mk2_92.sui"
+
+# Germany rework
+@include "ai/adeques_subcompact_2022.sui"
+
+
+@include "ai/matumbia_pickup_midclass_95.sui"
+@include "ai/proseld_suv_midclass_24.sui"
+@include "ai/ixcent_pickup_midclass_24.sui"
+
+# Polar Circle
+@include "ai/valiant_suv_luxury_24.sui"
+@include "ai/valiant_17.sui"
+@include "ai/superb_iii_taxi.sui"
+@include "ai/tunient_suv_premium_25.sui"
+
+# Benelux Rework
+@include "ai/betrude_suv_luxury_25.sui"
+
+
+}

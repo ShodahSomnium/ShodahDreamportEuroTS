@@ -1,0 +1,13 @@
+ground survey, site austria centre game (-46097.8, 35.7, -20220.0), clearance grid 4.0 m
+junc game (-45848, -22120) r 80: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 0 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 0; road cells 168 (covered 0), clearance hits 0; colliders 10, undrawn 0, undrawn over roads 0, dead items 0
+    clearance: 
+    undrawn over roads: 
+
+TOTALS: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 0 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 0; road cells 168 (covered 0), clearance hits 0; colliders 10, undrawn 0, undrawn over roads 0, dead items 0
+  clearance over roads by what: 
+  undrawn colliders over roads by kind/name: 
+  undrawn colliders by kind/name: 
+  worst floating fill:
+  worst skirts:
+  worst road clearance:
+  worst dead items:

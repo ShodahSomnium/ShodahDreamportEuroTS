@@ -1,0 +1,304 @@
+road.un01      'un 0-1' /road_template/un/un_0-1_highway.pmd x -4.95..0.67 off 0 div False -> half 4.95  gapL 0.00 gapR 4.28
+road.un02      'un 0-2' /road_template/un/un_0-2_local.pmd x -4.95..5.11 off 0 div False -> half 5.11  gapL 0.16 gapR 0.00
+road.un02_tdai 'un 0-2 tram' /road_template/un/un_0-2_tram.pmd x -0.25..4.75 off 0 div False -> half 4.75  gapL 4.50 gapR 0.00
+road.lh02_tdai 'lh 0-2 tram' /road_template/un/lh_0-2_tram.pmd x -4.75..0.25 off 0 div False -> half 4.75  gapL 0.00 gapR 4.50
+road.un03      'un 0-3' /road_template/un/un_0-3_local.pmd x -9.53..5.11 off 0 div False -> half 9.53  gapL 0.00 gapR 4.41
+road.un03_tdai 'un 0-3 tram' /road_template/un/un_0-3_tram.pmd x -4.75..4.75 off 0 div False -> half 4.75  gapL 0.00 gapR 0.00
+road.lh03_tdai 'lh 0-3 tram' /road_template/un/lh_0-3_tram.pmd x -9.25..0.25 off 0 div False -> half 9.25  gapL 0.00 gapR 9.00
+road.un04      'un 0-4' /road_template/un/un_0-4_local.pmd x -10.48..10.47 off 0 div False -> half 10.48  gapL 0.00 gapR 0.01
+road.un05      'un 0-5' /road_template/un/un_0-5_local.pmd x -13.93..9.61 off 0 div False -> half 13.93  gapL 0.00 gapR 4.32
+road.un11      'un 1-1' /road_template/un/un_1-1_local.pmd x -4.97..4.95 off 0 div False -> half 4.97  gapL 0.00 gapR 0.02
+road.un11spec  '(DO NOT USE) un 1-1 special' /road_template/un/un_1-1_local_special.pmd x -4.75..4.75 off 0 div False -> half 4.75  gapL 0.00 gapR 0.00
+road.un11_bridge 'un 1-1 bridge' /road_template/un/un_1-1_local_special.pmd x -4.75..4.75 off 0 div False -> half 4.75  gapL 0.00 gapR 0.00
+road.un11_2m   'un 1-1 offset 2m' /road_template/un/un_0-1_highway.pmd x -4.95..0.67 off 5.75 div True -> half 6.42  gapL 0.00 gapR 0.00
+road.un11_nar  'un 1-1 narrow' /road_template/un/un_1-1_narrow.pmd x -4.50..4.33 off 0 div False -> half 4.50  gapL 0.00 gapR 0.17
+road.un11_nar_d 'un 1-1 narrow dirt' /road_template/un/un_1-1_dirt_narrow.pmd x -3.75..3.75 off 0 div False -> half 3.75  gapL 0.00 gapR 0.00
+road.un11_min  'un 1-1 minim' /road_template/un/un_1-1_minim.pmd x -2.98..2.76 off 0 div False -> half 2.98  gapL 0.00 gapR 0.22
+road.un11_min_d 'un 1-1 minim dirt' /road_template/un/un_1-1_dirt_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.un11_spec '(DO NOT USE) un 1-1 special' /road_template/un/un_1-1_special.pmd x -2.50..2.50 off 0 div False -> half 2.50  gapL 0.00 gapR 0.00
+road.un11_sw   'un sidewalk road' /road_template/un/un_1-1_sidewalk.pmd x -1.95..1.68 off 0 div False -> half 1.95  gapL 0.00 gapR 0.27
+road.un101     'un 1-0-1' /road_template/un/un_1-0-1_local.pmd x -7.36..7.28 off 0 div False -> half 7.36  gapL 0.00 gapR 0.09
+road.un21      'un 2-1' /road_template/un/un_2-1_local.pmd x -9.47..5.19 off 0 div False -> half 9.47  gapL 0.00 gapR 4.28
+road.un12      'un 1-2' /road_template/un/un_1-2_local.pmd x -4.89..9.35 off 0 div False -> half 9.35  gapL 4.46 gapR 0.00
+road.un22      'un 2-2' /road_template/un/un_2-2_local.pmd x -9.44..9.39 off 0 div False -> half 9.44  gapL 0.00 gapR 0.05
+road.un22_2m   'un 2-2 offset 2m' /road_template/un/un_0-2_local.pmd x -4.95..5.11 off 5.75 div True -> half 10.86  gapL 0.00 gapR 0.00
+road.un22_4m   'un 2-2 offset 4m' /road_template/un/un_0-2_local.pmd x -4.95..5.11 off 6.75 div True -> half 11.86  gapL 0.00 gapR 0.00
+road.un22_10m  'un 2-2 offset 10m' /road_template/un/un_0-2_local.pmd x -4.95..5.11 off 9.75 div True -> half 14.86  gapL 0.00 gapR 0.00
+road.un33_2m   'un 3-3 offset 2m' /road_template/un/un_0-3_local.pmd x -9.53..5.11 off 10.25 div True -> half 15.36  gapL 0.00 gapR 0.00
+road.un33_4m   'un 3-3 offset 4m' /road_template/un/un_0-3_local.pmd x -9.53..5.11 off 11.25 div True -> half 16.36  gapL 0.00 gapR 0.00
+road.un33_10m  'un 3-3 offset 10m' /road_template/un/un_0-3_local.pmd x -9.53..5.11 off 14.25 div True -> half 19.36  gapL 0.00 gapR 0.00
+road.un44_2m   'un 4-4 offset 2m' /road_template/un/un_0-4_local.pmd x -10.48..10.47 off 10.25 div True -> half 20.72  gapL 0.00 gapR 0.00
+road.unr       'un 0-1 rail' /road_template/un/un_rail.pmd x -4.01..-1.49 off 0 div False -> half 4.01  gapL 0.00 gapR 5.50
+road.unrd      'un 1-1 rail 4m offset' /road_template/un/un_rail.pmd x -4.01..-1.49 off 5.748 div True -> half 4.26  gapL 0.00 gapR 0.00
+road.unrai     'un 0-1 rail AI' /road_template/un/un_rail.pmd x -4.01..-1.49 off 0 div False -> half 4.01  gapL 0.00 gapR 5.50
+road.unrdai    'un 1-1 rail 4m offset AI' /road_template/un/un_rail.pmd x -4.01..-1.49 off 5.748 div True -> half 4.26  gapL 0.00 gapR 0.00
+road.untdai    'un 1-1 rail tram 2m offset' /road_template/un/un_1-1_tram_rail.pmd x -1.65..1.00 off 2.25 div True -> half 3.25  gapL 0.00 gapR 0.00
+road.untai     'un 0-1 rail tram' /road_template/un/un_0-1_tram_rail.pmd x -2.00..1.00 off 0 div False -> half 2.00  gapL 0.00 gapR 1.00
+road.un11_min_in 'invis road 1 minim' /road_template/invis/un_invis_road.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.un11_nar_in 'invis road 1 narrow' /road_template/invis/un_invis_road.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.un22_tdai 'un 2-2 tram' /road_template/un/un_0-2_tram.pmd x -0.25..4.75 off 4.5 div True -> half 9.25  gapL 0.00 gapR 0.00
+road.un33_tdai 'un 3-3 tram' /road_template/un/un_0-3_tram.pmd x -4.75..4.75 off 9 div True -> half 13.75  gapL 0.00 gapR 0.00
+road.un03test  'un 0-3 overlay test DO NOT USE' /road_template/un/un_0-3_test.pmd x -9.54..4.93 off 0 div False -> half 9.54  gapL 0.00 gapR 4.61
+road.template0 '*Road 1 city minim scan temp' /road_template/sc/road_1_city_minim_scan.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.template1 '*Road 1 scan temp' /road_template/sc/road_1_scan.pmd x -5.50..5.50 off 0 div False -> half 5.50  gapL 0.00 gapR 0.00
+road.template2 '*Road 1 city narrow scan temp' /road_template/sc/road_1_city_narrow_scan.pmd x -5.25..5.27 off 0 div False -> half 5.27  gapL 0.02 gapR 0.00
+road.template3 '*Road 1 plus 2 temp' /road_template/sc/road_plus_2.pmd x -1.70..9.15 off 0.85 div True -> half 10.00  gapL 0.00 gapR 0.00
+road.template4 '*Road 2 plus 1 temp' /road_template/sc/road_1_plus.pmd x 0.00..4.65 off 0.85 div True -> half 5.50  gapL 0.00 gapR 0.00
+road.template5 '*Road 2 city narrow scan temp' /road_template/sc/road_2_city_narrow_scan.pmd x -0.01..9.50 off 1 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.template6 '*Road 2 city narrow np scan temp' /road_template/sc/road_2_city_narrow_np_scan.pmd x -0.02..9.00 off 1 div True -> half 10.00  gapL 0.00 gapR 0.00
+road.template7 '*Road 1 city enter scan temp' /road_template/sc/road_1_city_enter_scan.pmd x -5.01..5.01 off 0 div False -> half 5.01  gapL 0.00 gapR 0.00
+road.template8 '*Road sidewalk scan temp' /road_template/sc/sidewalk_road_scan.pmd x -1.45..1.45 off 0 div False -> half 1.45  gapL 0.00 gapR 0.00
+road.template9 '*Hw exit temp' /road_template/hw_exit.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.template9a '*Exit temp' /road_template/hw_exit.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.template10 '*Hw2 exit one way temp' /road_template/hw2_exit_one_way.pmd x -9.14..8.00 off 0 div False -> half 9.14  gapL 0.00 gapR 1.14
+road.template11 'rail1 temp' /road_template/rail1.pmd x -5.25..0.75 off 0 div False -> half 5.25  gapL 0.00 gapR 4.50
+road.template12 'rail double temp' /road_template/rail1_double.pmd x -0.75..5.25 off 1 div True -> half 6.25  gapL 0.00 gapR 0.00
+road.template13 '*Road 2 city narrow np hw scan temp' /road_template/sc/road_2_city_narrow_np_scan.pmd x -0.02..9.00 off 1 div True -> half 10.00  gapL 0.00 gapR 0.00
+road.fr1       'fr road 2 narrow one way tmpl' /road_template/fr/fr_road_2_narrow_one_way.pmd x -4.75..4.76 off 0 div False -> half 4.76  gapL 0.01 gapR 0.00
+road.template14 'fr hw 2 lanes one way tmpl' /road_template/fr/fr_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.template14b 'fr hw 2 lanes one way playeronly tmpl' /road_template/fr/fr_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.template15 'fr hw 2 lanes 2m offset tmpl' /road_template/fr/fr_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 2 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.template16 'fr hw 3 lanes one way tmpl' /road_template/fr/fr_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.template17 'fr hw 3 lanes 2m offset tmpl' /road_template/fr/fr_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 2 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.template18 'fr hw exit one lane tmpl' /road_template/fr/fr_exit_one_lane.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.template18a 'fr exit one lane tmpl' /road_template/fr/fr_exit_one_lane.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.template19 'fr hw2 exit one lane tmpl' /road_template/fr/fr_hw2_exit_one_lane.pmd x -9.14..8.00 off 0 div False -> half 9.14  gapL 0.00 gapR 1.14
+road.template20 'fr hw3 exit one lane tmpl' /road_template/fr/fr_hw3_exit_one_lane.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.template21 'fr road1 hw 1m offset tmpl' /road_template/fr/fr_exit_one_lane.pmd x -5.50..2.98 off 6.5 div True -> half 9.48  gapL 0.00 gapR 0.00
+road.template22 'fr road 1 tmpl' /road_template/fr/fr_road_1_narrow.pmd x -5.25..5.27 off 0 div False -> half 5.27  gapL 0.02 gapR 0.00
+road.template23 'fr hw exit one lane tmpl' /road_template/fr/fr_hw_exit_one_lane.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.template26 'fr road 1 minim tmpl' /road_template/fr/fr_road_1_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.template27 'fr road 1 enter tmpl' /road_template/fr/fr_road_1_enter.pmd x -5.01..5.01 off 0 div False -> half 5.01  gapL 0.00 gapR 0.00
+road.template28 'fr road 2 narrow tmpl' /road_template/fr/fr_road_2_narrow.pmd x -0.01..9.50 off 1 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.template29 'fr gas road 1 tmpl' /road_template/fr/fr_gas_road_1.pmd x -5.53..1.00 off 0 div False -> half 5.53  gapL 0.00 gapR 4.53
+road.template30 'fr hw 2 lanes 5m offset tmpl' /road_template/fr/fr_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.template32 'fr road 1 one way tmpl' /road_template/fr/fr_road_1_one_way.pmd x -2.62..2.63 off 0 div False -> half 2.63  gapL 0.00 gapR 0.00
+road.template33 'fr tram 1' /road_template/fr/fr_tram_1.pmd x 0.00..2.52 off 0.8 div True -> half 3.32  gapL 0.00 gapR 0.00
+road.template34 'fr road 1 minim village 1 tmpl' /road_template/fr/fr_road_1_minim_village_1.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.template37 'fr sidewalk road tmpl' /road_template/fr/fr_sidewalk_road.pmd x -1.45..1.45 off 0 div False -> half 1.45  gapL 0.00 gapR 0.00
+road.template98 'rail double AI 01 tmpl' /road_template/rail1_double.pmd x -0.75..5.25 off 1 div True -> half 6.25  gapL 0.00 gapR 0.00
+road.template98b 'rail double AI 01 high speed tmpl' /road_template/rail1_double.pmd x -0.75..5.25 off 1 div True -> half 6.25  gapL 0.00 gapR 0.00
+road.template99 'rail AI 01 tmpl' /road_template/rail1.pmd x -5.25..0.75 off 0 div False -> half 5.25  gapL 0.00 gapR 4.50
+road.template36 'fr hw 2 lanes one way2 tmpl' /road_template/fr/fr_hw_2_lanes_one_way2.pmd x -8.00..4.50 off 0 div False -> half 8.00  gapL 0.00 gapR 3.50
+road.template994 'fr hw 3 lanes one way br 30 tmpl' /road_template/fr/fr_hw_3_lanes_one_way_br_30.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.template38 'it hw 2 lanes one way tmpl' /road_template/it/it_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.template1b 'it hw 2 lanes one way playeronly tmpl' /road_template/it/it_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.template39 'it hw 2 lanes 2m offset tmpl' /road_template/it/it_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 2 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.template40 'it hw 3 lanes one way tmpl' /road_template/it/it_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.template41 'it hw 3 lanes 2m offset tmpl' /road_template/it/it_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 2 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.template42 'it hw exit one lane tmpl' /road_template/it/it_exit_one_lane.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.template42a 'it exit one lane tmpl' /road_template/it/it_exit_one_lane.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.template43 'it hw2 exit one lane tmpl' /road_template/it/it_hw2_exit_one_lane.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.template44 'it hw3 exit one lane tmpl' /road_template/it/it_hw3_exit_one_lane.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.template45 'it road1 hw 1m offset tmpl' /road_template/it/it_exit_one_lane2.pmd x -5.50..2.98 off 6.5 div True -> half 9.48  gapL 0.00 gapR 0.00
+road.template46 'it road 1 tmpl' /road_template/it/it_road_1.pmd x -5.25..5.27 off 0 div False -> half 5.27  gapL 0.02 gapR 0.00
+road.template48 'it road 1 minim tmpl' /road_template/it/it_road_1_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.template49 'it road 1 enter tmpl' /road_template/it/it_road_1_enter.pmd x -5.01..5.01 off 0 div False -> half 5.01  gapL 0.00 gapR 0.00
+road.template50 'it road 2 narrow tmpl' /road_template/it/it_road_2.pmd x -0.01..9.50 off 1 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.template51 'it gas road 1 tmpl' /road_template/it/it_gas_road_1.pmd x -5.53..1.00 off 0 div False -> half 5.53  gapL 0.00 gapR 4.53
+road.template52 'it hw 2 lanes 5m offset tmpl' /road_template/it/it_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.template53 'it road 1 one way tmpl' /road_template/it/it_road_1_one_way.pmd x -2.62..2.63 off 0 div False -> half 2.63  gapL 0.00 gapR 0.00
+road.template54 'it tram 1' /road_template/it/it_tram_1.pmd x 0.00..2.52 off 0.8 div True -> half 3.32  gapL 0.00 gapR 0.00
+road.template55 'it road 1 minim village 1 tmpl' /road_template/it/it_road_1_minim_village_1.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.template56 'it sidewalk road tmpl' /road_template/it/it_sidewalk_road.pmd x -1.45..1.45 off 0 div False -> half 1.45  gapL 0.00 gapR 0.00
+road.template57 'it hw 3 lanes one way br 15 tmpl' /road_template/it/it_hw_3_lanes_one_way_br_15.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.template58 'it hw 3 lanes 5m offset tmpl' /road_template/it/it_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 5 div True -> half 22.00  gapL 0.00 gapR 0.00
+road.template59 'it road 2 narrow one way tmpl' /road_template/it/it_road_2_1.pmd x -4.76..4.75 off 0 div False -> half 4.76  gapL 0.00 gapR 0.01
+road.template60 'it road 2 city narrow tmpl' /road_template/it/it_road_2.pmd x -0.01..9.50 off 1 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.template61 'it rail AI 01 tmpl' /road_template/it/it_rail_01_tmpl.pmd x -1.43..1.44 off 0 div False -> half 1.44  gapL 0.01 gapR 0.00
+road.template62 'it rail double AI high speed tmpl' /road_template/it/it_rail_01_double_tmpl.pmd x 0.82..3.68 off 1 div True -> half 4.68  gapL 0.00 gapR 0.00
+road.template62a 'it rail double AI tmpl' /road_template/it/it_rail_01_double_tmpl.pmd x 0.82..3.68 off 1 div True -> half 4.68  gapL 0.00 gapR 0.00
+road.template63 'it road 1 far tmpl' /road_template/it/it_road_1_far.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.balt6     'balt hw 1 lanes one way tmpl' /road_template/balt/balt_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.balt6_exp 'balt EXPRESSWAY 1 lanes one way tmpl' /road_template/balt/balt_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.balt10    'balt road 1 tmpl' /road_template/balt/balt_road_1.pmd x -6.09..6.09 off 0 div False -> half 6.09  gapL 0.00 gapR 0.00
+road.balt11    'balt road 1 minim tmpl' /road_template/balt/balt_road_1_minim.pmd x -3.24..3.24 off 0 div False -> half 3.24  gapL 0.00 gapR 0.00
+road.balt14    'balt gas road 1 tmpl' /road_template/balt/balt_gas_road_1.pmd x -5.53..1.00 off 0 div False -> half 5.53  gapL 0.00 gapR 4.53
+road.balt32    'balt road 1 plus 1 tmpl' /road_template/balt/balt_road_1_plus_1.pmd x -7.13..7.13 off 0 div False -> half 7.13  gapL 0.00 gapR 0.00
+road.balt36    'balt road 1 exits tmpl' /road_template/balt/balt_road_1_exits_tmpl.pmd x -9.86..9.89 off 0 div False -> half 9.89  gapL 0.02 gapR 0.00
+road.balt37    'balt road 1 plus 2 tmpl' /road_template/balt/balt_road_1_plus_2.pmd x -4.75..9.50 off 0 div False -> half 9.50  gapL 4.75 gapR 0.00
+road.balt38    'balt road 1 dirt minim tmpl' /road_template/balt/balt_road_1_minim_dirt.pmd x -2.45..2.40 off 0 div False -> half 2.45  gapL 0.00 gapR 0.05
+road.balt43    'balt road 1 dirt tmpl' /road_template/balt/balt_road_1_dirt.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.balt44    'balt road 1 tmpl far' /road_template/balt/balt_road_1_far.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.ger1      'ger road 1 tmpl' /road_template/ger/ger_road_1.pmd x -5.25..5.27 off 0 div False -> half 5.27  gapL 0.02 gapR 0.00
+road.ger2      'ger hw exit one lane' /road_template/ger/ger_exit_one_lane.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.ger2a     'ger exit one lane' /road_template/ger/ger_exit_one_lane.pmd x -5.50..2.98 off 0 div False -> half 5.50  gapL 0.00 gapR 2.52
+road.ger3      'ger road 1 enter' /road_template/ger/ger_road_1_enter.pmd x -5.01..5.01 off 0 div False -> half 5.01  gapL 0.00 gapR 0.00
+road.ger4      'ger road 1 minim' /road_template/ger/ger_road_1_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.ger5      'ger road 1 one way' /road_template/ger/ger_road_1_one_way.pmd x -2.62..2.63 off 0 div False -> half 2.63  gapL 0.00 gapR 0.00
+road.ger6      'DO NOT USE ger road 1 minim village 1' /road_template/ger/ger_road_1_minim_village_1.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.ger7      'ger road 2 city narrow tmpl' /road_template/ger/ger_road_2.pmd x -0.01..9.50 off 1 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.ger8      'ger road 2 narrow tmpl' /road_template/ger/ger_road_2.pmd x -0.01..9.50 off 1 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.ger9      'ger road 2 narrow one way tmpl' /road_template/ger/ger_road_2_1.pmd x -4.76..4.75 off 0 div False -> half 4.76  gapL 0.00 gapR 0.01
+road.ger10     'ger gas road 1 tmpl' /road_template/ger/ger_gas_road_1.pmd x -5.53..1.00 off 0 div False -> half 5.53  gapL 0.00 gapR 4.53
+road.ger11     'ger hw 2 lanes 2m offset tmpl' /road_template/ger/ger_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 2 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.ger12     'ger hw 2 lanes 5m offset tmpl' /road_template/ger/ger_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.ger13     'ger hw 2 lanes one way tmpl' /road_template/ger/ger_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.ger14     'ger hw 3 lanes 2m offset tmpl' /road_template/ger/ger_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 2 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.ger15     'ger hw 3 lanes 5m offset tmpl' /road_template/ger/ger_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 5 div True -> half 22.00  gapL 0.00 gapR 0.00
+road.ger16     'ger hw 3 lanes one way tmpl' /road_template/ger/ger_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.ger17     'ger hw2 exit one lane tmpl' /road_template/ger/ger_hw2_exit_one_lane.pmd x -9.14..8.00 off 0 div False -> half 9.14  gapL 0.00 gapR 1.14
+road.ger18     'ger hw3 exit one lane tmpl' /road_template/ger/ger_hw3_exit_one_lane.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.ger19     'ger hw4 one lane tmpl' /road_template/ger/ger_hw4_one_lane.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.ger20     'ger road 3' /road_template/ger/ger_road_3.pmd x -9.82..4.75 off 10.5 div True -> half 15.25  gapL 0.00 gapR 0.00
+road.ger22     'ger road1 hw 1m offset tmpl' /road_template/ger/ger_exit_one_lane2.pmd x -5.50..2.98 off 6.5 div True -> half 9.48  gapL 0.00 gapR 0.00
+road.ger23     'ger road 3 tmpl one lane' /road_template/ger/ger_road_3.pmd x -9.82..4.75 off 0 div False -> half 9.82  gapL 0.00 gapR 5.07
+road.ger23b    'ger road 3 tmpl one lane tram' /road_template/ger/ger_road_3_tram.pmd x -13.15..8.40 off 0 div False -> half 13.15  gapL 0.00 gapR 4.75
+road.ger24     'ger road 2 plus 1 tmpl' /road_template/ger/ger_road_2_plus_1.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.ger25     'ger road 1 plus 2 tmpl' /road_template/ger/ger_road_1_plus_2.pmd x -4.75..9.50 off 0 div False -> half 9.50  gapL 4.75 gapR 0.00
+road.ger26     'ger road 1 plus 1 tmpl' /road_template/ger/ger_road_1_plus_1.pmd x -7.13..7.13 off 0 div False -> half 7.13  gapL 0.00 gapR 0.00
+road.ger27     'road 2 plus 3 tmpl offset 1m' /road_template/ger/ger_road_2_1.pmd x -4.76..4.75 off 8.5 div True -> half 13.25  gapL 0.00 gapR 0.00
+road.ger28     'ger hw5 one lane tmpl' /road_template/ger/ger_hw5_one_lane.pmd x -13.50..12.50 off 0 div False -> half 13.50  gapL 0.00 gapR 1.00
+road.ger29     'ger road 2 no offset tmpl' /road_template/ger/ger_road_2.pmd x -0.01..9.50 off 0 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.ger30     'ger road 2 no offset tram tmpl' /road_template/ger/ger_road_2_tram.pmd x -4.76..4.75 off 4.75 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.ger31     'at road 2 city narrow tmpl' /road_template/ger/ger_road_2_1.pmd x -4.76..4.75 off 5.75 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.ger32     'at road 2 no offset tmpl' /road_template/ger/ger_road_2_1.pmd x -4.76..4.75 off 4.75 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.balt12    'balt road 1 enter tmpl' /road_template/balt/balt_road_1_enter.pmd x -5.01..5.01 off 0 div False -> half 5.01  gapL 0.00 gapR 0.00
+road.balt16    'balt road 1 one way tmpl' /road_template/balt/balt_road_1_one_way.pmd x -4.87..0.38 off 0 div False -> half 4.87  gapL 0.00 gapR 4.50
+road.blke5     'blke hw 2 lanes one way tmpl' /road_template/blke/blke_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.blke5_l   'blke hw 2 lanes one way city tmpl' /road_template/blke/blke_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.blke6     'blke hw 2 lanes 2m offset tmpl' /road_template/blke/blke_hw_2_lanes_one_way.pmd x -4.50..8.00 off 6.5 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.blke6_l   'blke hw 2 lanes 2m offset city tmpl' /road_template/blke/blke_hw_2_lanes_one_way.pmd x -4.50..8.00 off 6.5 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.blke8     'blke hw 3 lanes one way tmpl' /road_template/blke/blke_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.blke8_l   'blke hw 3 lanes one way city tmpl' /road_template/blke/blke_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.blke14    'blke road 1 tmpl ro' /road_template/blke/blke_road_1_ro.pmd x -5.43..5.27 off 0 div False -> half 5.43  gapL 0.00 gapR 0.17
+road.blke15    'blke road 1 minim tmpl' /road_template/blke/blke_road_1_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.blke16    'blke road 2 narrow tmpl' /road_template/blke/blke_road_2.pmd x -4.92..4.75 off 5.75 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.blke17    'blke road 2 city narrow tmpl' /road_template/blke/blke_road_2.pmd x -4.92..4.75 off 5.75 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.blke23    'blke road 1 damaged tmpl' /road_template/blke/blke_road_1_damaged.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.blke24    'blke road 2 narrow one way tmpl' /road_template/blke/blke_road_2.pmd x -4.92..4.75 off 0 div False -> half 4.92  gapL 0.00 gapR 0.17
+road.blke27    'blke road 1 dirt minim tmpl' /road_template/blke/blke_road_1_minim_dirt.pmd x -2.45..2.40 off 0 div False -> half 2.45  gapL 0.00 gapR 0.05
+road.blke30    'blke road 1 enter tmpl' /road_template/blke/blke_road_1_enter.pmd x -5.01..5.01 off 0 div False -> half 5.01  gapL 0.00 gapR 0.00
+road.blke34    'rail blke AI 01 tmpl' /road_template/blke/rail_blke.pmd x -4.12..-1.38 off 0 div False -> half 4.12  gapL 0.00 gapR 5.50
+road.blke34w   'rail blke AI 01 wire tmpl' /road_template/blke/rail_blke.pmd x -4.12..-1.38 off 0 div False -> half 4.12  gapL 0.00 gapR 5.50
+road.blke36    'blke road 1 one way tmpl' /road_template/blke/blke_road_1_one_way.pmd x -5.14..0.38 off 0 div False -> half 5.14  gapL 0.00 gapR 4.76
+road.blke40    'invis road 1' /road_template/blke/invis_road.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.balt19    'balt sidewalk road tmpl' /road_template/balt/balt_sidewalk_road.pmd x -1.45..1.45 off 0 div False -> half 1.45  gapL 0.00 gapR 0.00
+road.tram42    'balt tram 1 one rail' /road_template/balt/balt_tram_1.pmd x -1.65..0.65 off 0 div False -> half 1.65  gapL 0.00 gapR 1.00
+road.blke33    'rail blke double AI 01 tmpl' /road_template/blke/rail_blke.pmd x -4.12..-1.38 off 5.748 div True -> half 4.37  gapL 0.00 gapR 0.00
+road.blke1     'blke hw 1 lanes one way tmpl' /road_template/blke/blke_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.blke1a    'blke hw 1 lanes one way city tmpl' /road_template/blke/blke_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.blke_40   'invis road 1 one way' /road_template/blke/invis_road.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.ibe32     'rail ibe temp' /road_template/ibe/rail_ibe.pmd x -4.12..-1.38 off 0 div False -> half 4.12  gapL 0.00 gapR 5.50
+road.ibe1      'ibe hw 1 lanes one way tmpl' /road_template/ibe/ibe_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.ibe1b     'ibe hw 1 lanes one way city tmpl' /road_template/ibe/ibe_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.ibe5      'ibe hw 2 lanes one way tmpl' /road_template/ibe/ibe_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.ibe6      'ibe hw 2 lanes 2m offset tmpl' /road_template/ibe/ibe_hw_2_lanes_one_way.pmd x -4.50..8.00 off 6.5 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.ibe8      'ibe hw 3 lanes one way tmpl' /road_template/ibe/ibe_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.ibe14     'ibe road 1 tmpl' /road_template/ibe/ibe_road_1.pmd x -5.43..5.27 off 0 div False -> half 5.43  gapL 0.00 gapR 0.17
+road.ibe15     'ibe road 1 one way tmpl' /road_template/ibe/ibe_road_1_one_way.pmd x -4.88..0.38 off 0 div False -> half 4.88  gapL 0.00 gapR 4.50
+road.ibe16     'ibe road 1 minim tmpl' /road_template/ibe/ibe_road_1_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.ibe22     'ibe road 2 plus 1 tmpl' /road_template/ibe/ibe_road_2_plus_1.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.ibe24     'ibe road 1 plus 1' /road_template/ibe/ibe_road_1_plus_1.pmd x -7.13..7.13 off 0 div False -> half 7.13  gapL 0.00 gapR 0.00
+road.blke21    'blke tram 1 one rail' /road_template/blke/blke_tram_1.pmd x -1.65..0.65 off 0 div False -> half 1.65  gapL 0.00 gapR 1.00
+road.blke31    'rail blke temp' /road_template/blke/rail_blke.pmd x -4.12..-1.38 off 0 div False -> half 4.12  gapL 0.00 gapR 5.50
+road.blke33b   'rail blke double AI 01 wire tmpl' /road_template/blke/rail_blke.pmd x -4.12..-1.38 off 5.748 div True -> half 4.37  gapL 0.00 gapR 0.00
+road.blke1f    'blke hw 1 lanes one way tmpl far' /road_template/blke/blke_hw_1_lanes_one_way_far.pmd x -5.50..2.50 off 0 div False -> half 5.50  gapL 0.00 gapR 3.00
+road.blke2     'blke hw 1 lanes 1m offset tmpl' /road_template/blke/blke_hw_1_lanes_one_way.pmd x -5.53..2.50 off 6.5 div True -> half 9.00  gapL 0.00 gapR 0.00
+road.blke3     'blke hw 1 lanes 5m offset tmpl' /road_template/blke/blke_hw_1_lanes_one_way.pmd x -5.53..2.50 off 9.5 div True -> half 12.00  gapL 0.00 gapR 0.00
+road.blke5f    'blke hw 2 lanes one way tmpl far' /road_template/blke/blke_hw_2_lanes_one_way_far.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.blke7     'blke hw 2 lanes 5m offset tmpl' /road_template/blke/blke_hw_2_lanes_one_way.pmd x -4.50..8.00 off 9.5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.blke9     'blke hw 3 lanes 2m offset tmpl' /road_template/blke/blke_hw_3_lanes_one_way.pmd x -9.00..8.00 off 11 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.blke10    'blke hw 3 lanes 5m offset tmpl' /road_template/blke/blke_hw_3_lanes_one_way.pmd x -9.00..8.00 off 14 div True -> half 22.00  gapL 0.00 gapR 0.00
+road.blke11    'blke hw 4 lanes one way tmpl' /road_template/blke/blke_hw_4_lanes_one_way.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.blke12    'blke hw 4 lanes 2m offset tmpl' /road_template/blke/blke_hw_4_lanes_one_way.pmd x -9.00..12.50 off 11 div True -> half 23.50  gapL 0.00 gapR 0.00
+road.blke13    'blke hw 4 lanes 5m offset tmpl' /road_template/blke/blke_hw_4_lanes_one_way.pmd x -9.00..12.50 off 14 div True -> half 26.50  gapL 0.00 gapR 0.00
+road.blke14f   'blke road 1 tmpl far' /road_template/blke/blke_road_1_far.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.blke14b   'blke road 1 tmpl bg' /road_template/blke/blke_road_1_bg.pmd x -5.31..5.27 off 0 div False -> half 5.31  gapL 0.00 gapR 0.04
+road.blke14c   'blke road 1 tmpl tr' /road_template/blke/blke_road_1_tr.pmd x -5.43..5.27 off 0 div False -> half 5.43  gapL 0.00 gapR 0.17
+road.blke14cf  'blke road 1 tmpl tr far' /road_template/blke/blke_road_1_tr_far.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.blke18    'blke road 2 tram' /road_template/blke/blke_road_2.pmd x -4.92..4.75 off 8 div True -> half 12.75  gapL 0.00 gapR 0.00
+road.blke18b   'blke road 2 tram no AI tram lines' /road_template/blke/blke_road_2.pmd x -4.92..4.75 off 8 div True -> half 12.75  gapL 0.00 gapR 0.00
+road.blke19    'blke tram 1' /road_template/blke/blke_tram_1.pmd x -1.65..0.65 off 2.25 div True -> half 2.90  gapL 0.00 gapR 0.00
+road.blke20    'blke road 1 tram' /road_template/blke/blke_road_1_tram.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.blke22    'blke road 2 plus 1 tmpl' /road_template/blke/blke_road_2_plus_1.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.blke24f   'blke road 2 narrow one way tmpl far' /road_template/blke/blke_road_2_far.pmd x -4.75..4.75 off 0 div False -> half 4.75  gapL 0.00 gapR 0.00
+road.blke25    'blke road 1 plus 1' /road_template/blke/blke_road_1_plus_1.pmd x -7.13..7.13 off 0 div False -> half 7.13  gapL 0.00 gapR 0.00
+road.blke26    'blke road 1 plus 2' /road_template/blke/blke_road_1_plus_2.pmd x -4.78..9.62 off 0 div False -> half 9.62  gapL 4.84 gapR 0.00
+road.blke28    'blke road dirt center' /road_template/blke/blke_road_1_minim_dirt_center.pmd x -0.90..0.90 off 1.5 div True -> half 2.40  gapL 0.00 gapR 0.00
+road.blke29    'blke road 3 tmpl' /road_template/blke/blke_road_3.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.blke35    'blke road 2 no offset tmpl' /road_template/blke/blke_road_2.pmd x -4.92..4.75 off 4.75 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.blke36f   'blke road 1 one way tmpl far' /road_template/blke/blke_road_1_one_way_far.pmd x -4.87..0.37 off 0 div False -> half 4.87  gapL 0.00 gapR 4.50
+road.blke37    'blke road 2 no offset tram tmpl' /road_template/blke/blke_road_2_tram.pmd x -4.76..4.75 off 4.75 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.blke37b   'blke road 2 no offset tram no AI tram lines' /road_template/blke/blke_road_2_tram.pmd x -4.76..4.75 off 4.75 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.blke39    'blke road 3 bus one way tmpl' /road_template/blke/blke_road_3_bus.pmd x -4.25..14.73 off 0 div False -> half 14.73  gapL 10.48 gapR 0.00
+road.blke41    'invis road 2 one way' /road_template/blke/invis_road.pmd x -5.25..5.25 off 0 div False -> half 5.25  gapL 0.00 gapR 0.00
+road.balt17    'balt tram 1' /road_template/balt/balt_tram_1.pmd x -1.65..0.65 off 2.25 div True -> half 2.90  gapL 0.00 gapR 0.00
+road.template64 '(DO NOT USE) invis road 2 one way tmpl' /road_template/invis_road_2_one_way.pmd x -4.75..4.75 off 0 div False -> half 4.75  gapL 0.00 gapR 0.00
+road.template65 '(DO NOT USE) invis rail' /road_template/invis_rail.pmd x -4.01..-1.49 off 0 div False -> half 4.01  gapL 0.00 gapR 5.50
+road.at1       'at road 1 one way' /road_template/at/at_road_1_one_way.pmd x -4.87..0.38 off 0 div False -> half 4.87  gapL 0.00 gapR 4.50
+road.balt3     'balt hw 2 lanes 2m offset tmpl' /road_template/balt/balt_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 2 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.balt3_exp 'balt EXPRESSWAY 2 lanes 2m offset tmpl' /road_template/balt/balt_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 2 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.balt5     'balt hw 3 lanes 2m offset tmpl' /road_template/balt/balt_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 2 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.balt7     'balt hw 3 lanes one way tmpl' /road_template/balt/balt_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.balt7_exp 'balt EXPRESSWAY 3 lanes one way tmpl' /road_template/balt/balt_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.balt8     'balt hw5 exit one lane tmpl' /road_template/balt/balt_hw5_exit_one_lane.pmd x -13.50..12.50 off 0 div False -> half 13.50  gapL 0.00 gapR 1.00
+road.balt9_exp 'balt EXPRESSWAY road1 hw 1m offset tmpl' /road_template/balt/balt_exit_one_lane2.pmd x -5.50..2.98 off 6.5 div True -> half 9.48  gapL 0.00 gapR 0.00
+road.balt13    'balt road 2 narrow tmpl' /road_template/balt/balt_road_2.pmd x -0.52..9.88 off 1 div True -> half 10.88  gapL 0.00 gapR 0.00
+road.balt41    'balt road 2 narrow no offset tmpl' /road_template/balt/balt_road_2.pmd x -0.52..9.88 off 0 div True -> half 9.88  gapL 0.00 gapR 0.00
+road.balt22    'balt road 2 narrow one way tmpl' /road_template/balt/balt_road_2_1.pmd x -4.76..4.75 off 0 div False -> half 4.76  gapL 0.00 gapR 0.01
+road.balt23    'balt road 2 city narrow tmpl' /road_template/balt/balt_road_2.pmd x -0.52..9.88 off 1 div True -> half 10.88  gapL 0.00 gapR 0.00
+road.balt29    'balt hw 4 lanes one way tmpl' /road_template/balt/balt_hw_4_lanes_one_way.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.balt30    'balt hw 4 lanes 2m offset tmpl' /road_template/balt/balt_hw_4_lanes_two_way.pmd x 0.00..21.50 off 2 div True -> half 23.50  gapL 0.00 gapR 0.00
+road.balt33    'balt road 2 plus 1 tmpl' /road_template/balt/balt_road_2_plus_1.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.balt34    'balt road 3 one way tmpl' /road_template/balt/balt_road_3.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.balt42    'balt road 3 tmpl' /road_template/balt/balt_road_3.pmd x -9.50..4.75 off 10.5 div True -> half 15.25  gapL 0.00 gapR 0.00
+road.balt35    'balt hw 2 lanes one way tmpl' /road_template/balt/balt_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.balt35_exp 'balt EXPRESSWAY 2 lanes one way tmpl' /road_template/balt/balt_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.balt39    'balt road dirt center' /road_template/balt/balt_road_1_minim_dirt_center.pmd x -0.90..0.90 off 1.5 div True -> half 2.40  gapL 0.00 gapR 0.00
+road.balt5_exp 'balt EXPRESSWAY hw 3 lanes 2m offset tmpl' /road_template/balt/balt_hw_3_lanes_two_ways.pmd x -0.01..17.00 off 2 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.balt8_exp 'balt EXPRESSWAY hw5 exit one lane tmpl' /road_template/balt/balt_hw5_exit_one_lane.pmd x -13.50..12.50 off 0 div False -> half 13.50  gapL 0.00 gapR 1.00
+road.balt9     'balt road1 hw 1m offset tmpl' /road_template/balt/balt_exit_one_lane2.pmd x -5.50..2.98 off 6.5 div True -> half 9.48  gapL 0.00 gapR 0.00
+road.balt15    'balt hw 2 lanes 5m offset tmpl' /road_template/balt/balt_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.balt15_exp 'balt EXPRESSWAY hw 2 lanes 5m offset tmpl' /road_template/balt/balt_hw_2_lanes_two_ways.pmd x 0.00..12.50 off 5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.balt27    'balt hw 1 lanes 2m offset tmpl' /road_template/balt/balt_hw_1_lanes_two_ways.pmd x -0.03..8.00 off 2 div True -> half 10.00  gapL 0.00 gapR 0.00
+road.balt29_exp 'balt EXPRESSWAY hw 4 lanes one way tmpl' /road_template/balt/balt_hw_4_lanes_one_way.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.balt30_exp 'balt EXPRESSWAY hw 4 lanes 2m offset tmpl' /road_template/balt/balt_hw_4_lanes_two_way.pmd x 0.00..21.50 off 2 div True -> half 23.50  gapL 0.00 gapR 0.00
+road.tram41    'balt road 2 tram' /road_template/balt/balt_road_2.pmd x -0.52..9.88 off 3.25 div True -> half 13.13  gapL 0.00 gapR 0.00
+road.tram43    'balt road 2 city narrow tram offset tmpl' /road_template/balt/balt_road_2.pmd x -0.52..9.88 off 3.25 div True -> half 13.13  gapL 0.00 gapR 0.00
+road.blkw1ow   'blkw road 1 one way tmpl' /road_template/blkw/blkw_road_1_one_way.pmd x -4.88..0.38 off 0 div False -> half 4.88  gapL 0.00 gapR 4.50
+road.blkw1min  'blkw road 1 minim tmpl' /road_template/blkw/blkw_road_1_minim.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.blkw1md   'blkw road 1 minim dirt tmpl' /road_template/blkw/blkw_road_1_minim_dirt.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.blkw1mdc  'blkw road 1 minim dirt center tmpl' /road_template/blkw/blkw_road_1_minim_dirt_center.pmd x -0.90..0.90 off 1.5 div True -> half 2.40  gapL 0.00 gapR 0.00
+road.blkw1p1   'blkw road 1 plus 1' /road_template/blkw/blkw_road_1_plus_1.pmd x -7.13..7.13 off 0 div False -> half 7.13  gapL 0.00 gapR 0.00
+road.blkw1p2   'blkw road 1 plus 2' /road_template/blkw/blkw_road_1_plus_2.pmd x -4.75..9.61 off 0 div False -> half 9.61  gapL 4.86 gapR 0.00
+road.blkw2     'blkw road 2 narrow tmpl' /road_template/blkw/blkw_road_2.pmd x -4.92..4.75 off 5.75 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.blkw2ow   'blkw road 2 one way tmpl' /road_template/blkw/blkw_road_2.pmd x -4.92..4.75 off 0 div False -> half 4.92  gapL 0.00 gapR 0.17
+road.blkw2c    'blkw road 2 city tmpl' /road_template/blkw/blkw_road_2.pmd x -4.92..4.75 off 5.75 div True -> half 10.50  gapL 0.00 gapR 0.00
+road.blkw2no   'blkw road 2 no offset tmpl' /road_template/blkw/blkw_road_2.pmd x -4.92..4.75 off 4.75 div True -> half 9.50  gapL 0.00 gapR 0.00
+road.blkw2p1   'blkw road 2 plus 1 tmpl' /road_template/blkw/blkw_road_2_plus_1.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.blkw3ow   'blkw road 3 one way tmpl' /road_template/blkw/blkw_road_3.pmd x -9.50..4.75 off 0 div False -> half 9.50  gapL 0.00 gapR 4.75
+road.blkwhw11  'blkw hw 1 1m offset tmpl' /road_template/blkw/blkw_hw_1_lanes_one_way.pmd x -5.53..2.50 off 6.5 div True -> half 9.00  gapL 0.00 gapR 0.00
+road.blkwhw1no 'blkw hw 1 no offset tmpl' /road_template/blkw/blkw_hw_1_lanes_one_way.pmd x -5.53..2.50 off 5.5 div True -> half 8.00  gapL 0.00 gapR 0.00
+road.blkwhw2   'blkw hw2 one way tmpl' /road_template/blkw/blkw_hw_2_lanes_one_way.pmd x -4.50..8.00 off 0 div False -> half 8.00  gapL 3.50 gapR 0.00
+road.blkwhw22  'blkw hw2 2m offset tmpl' /road_template/blkw/blkw_hw_2_lanes_one_way.pmd x -4.50..8.00 off 6.5 div True -> half 14.50  gapL 0.00 gapR 0.00
+road.blkwhw3   'blkw hw3 one way tmpl' /road_template/blkw/blkw_hw_3_lanes_one_way.pmd x -9.00..8.00 off 0 div False -> half 9.00  gapL 0.00 gapR 1.00
+road.blkwhw32  'blkw hw3 2m offset tmpl' /road_template/blkw/blkw_hw_3_lanes_one_way.pmd x -9.00..8.00 off 11 div True -> half 19.00  gapL 0.00 gapR 0.00
+road.blkwhw4   'blkw hw4 one lane tmpl' /road_template/blkw/blkw_hw_4_lanes_one_way.pmd x -9.00..12.50 off 0 div False -> half 12.50  gapL 3.50 gapR 0.00
+road.blkwr     'rail blkw temp' /road_template/blkw/rail_blkw.pmd x -4.12..-1.38 off 0 div False -> half 4.12  gapL 0.00 gapR 5.50
+road.blkwrd    'rail blkw double temp 1m offset' /road_template/blkw/rail_blkw.pmd x -4.12..-1.38 off 4.76 div True -> half 3.38  gapL 0.00 gapR 0.00
+road.blkw1ai   'rail blkw double AI 1m offset' /road_template/blkw/rail_blkw.pmd x -4.12..-1.38 off 4.76 div True -> half 3.38  gapL 0.00 gapR 0.00
+road.blkwrd2   'rail blkw double temp 2m offset' /road_template/blkw/rail_blkw.pmd x -4.12..-1.38 off 5.748 div True -> half 4.37  gapL 0.00 gapR 0.00
+road.blkwrai   'rail blkw AI 01 tmpl' /road_template/blkw/rail_blkw.pmd x -4.12..-1.38 off 0 div False -> half 4.12  gapL 0.00 gapR 5.50
+road.blkwaid   'rail blkw double AI 01 tmpl' /road_template/blkw/rail_blkw.pmd x -4.12..-1.38 off 5.748 div True -> half 4.37  gapL 0.00 gapR 0.00
+road.blkw1n    'blkw road 1 narrow tmpl' /road_template/blkw/blkw_road_1_narrow.pmd x -3.80..3.82 off 0 div False -> half 3.82  gapL 0.02 gapR 0.00
+road.blkw1     'blkw road 1 tmpl' /road_template/blkw/blkw_road_1.pmd x -5.43..5.27 off 0 div False -> half 5.43  gapL 0.00 gapR 0.17
+road.blkw2p1no 'blkw road 2-1 no offset tmpl' /road_template/blkw/blkw_road_2_1_no_offset.pmd x -9.51..9.55 off 0 div False -> half 9.55  gapL 0.03 gapR 0.00
+road.blkw2p1p2 'blkw road 2 plus 1 plus 2' /road_template/blkw/blkw_road_2_plus_1_plus_2.pmd x -8.62..12.60 off 0 div False -> half 12.60  gapL 3.98 gapR 0.00
+road.blkw3     'blkw road 3 narrow tmpl' /road_template/blkw/blkw_road_3.pmd x -9.50..4.75 off 10.5 div True -> half 15.25  gapL 0.00 gapR 0.00
+road.blkwhw1   'blkw hw1 one way tmpl' /road_template/blkw/blkw_hw_1_lanes_one_way.pmd x -5.53..2.50 off 0 div False -> half 5.53  gapL 0.00 gapR 3.03
+road.blkwhw15  'blkw hw 1 5m offset tmpl' /road_template/blkw/blkw_hw_1_lanes_one_way.pmd x -5.53..2.50 off 9.5 div True -> half 12.00  gapL 0.00 gapR 0.00
+road.blkwhw25  'blkw hw2 5m offset tmpl' /road_template/blkw/blkw_hw_2_lanes_one_way.pmd x -4.50..8.00 off 9.5 div True -> half 17.50  gapL 0.00 gapR 0.00
+road.blkwhw35  'blkw hw3 5m offset tmpl' /road_template/blkw/blkw_hw_3_lanes_one_way.pmd x -9.00..8.00 off 14 div True -> half 22.00  gapL 0.00 gapR 0.00
+road.blkwhw42  'blkw hw4 2m offset tmpl' /road_template/blkw/blkw_hw_4_lanes_one_way.pmd x -9.00..12.50 off 11 div True -> half 23.50  gapL 0.00 gapR 0.00
+road.blkwhw45  'blkw hw4 5m offset tmpl' /road_template/blkw/blkw_hw_4_lanes_one_way.pmd x -9.00..12.50 off 14 div True -> half 26.50  gapL 0.00 gapR 0.00
+road.blke32    'rail blke double temp' /road_template/blke/rail_blke.pmd x -4.12..-1.38 off 4.76 div True -> half 3.38  gapL 0.00 gapR 0.00
+road.ger33     'ger tram 1' /road_template/ger/ger_tram_1.pmd x -1.65..1.00 off 2.25 div True -> half 3.25  gapL 0.00 gapR 0.00
+road.ger34     'ger r2 tram' /road_template/ger/ger_r2_tram.pmd x -0.15..9.50 off 3.25 div True -> half 12.75  gapL 0.00 gapR 0.00
+road.ger37     'ger r1 minim dirt' /road_template/ger/ger_r1_minim_dirt.pmd x -2.40..2.40 off 0 div False -> half 2.40  gapL 0.00 gapR 0.00
+road.ger39     'ger r1 minim dirt center' /road_template/ger/ger_r1_minim_dirt_center.pmd x -0.90..0.90 off 1.5 div True -> half 2.40  gapL 0.00 gapR 0.00
+road.ger35     'ger r2 tram offset' /road_template/ger/ger_r2_tram_offset.pmd x -0.01..9.50 off 3.25 div True -> half 12.75  gapL 0.00 gapR 0.00
+road.ger36     'ger tram 1 oneway' /road_template/ger/ger_tram_1_oneway.pmd x -2.00..1.00 off 0 div False -> half 2.00  gapL 0.00 gapR 1.00
+road.ger38     'ger road 2-1 no offset tmpl' /road_template/ger/ger_road_2_1_no_offset.pmd x -9.51..9.55 off 0 div False -> half 9.55  gapL 0.03 gapR 0.00
+road.template25 'fr road 2 plus 1 tmpl' /road_template/fr/fr_road_1_plus.pmd x -0.85..4.65 off 0.85 div True -> half 5.50  gapL 0.00 gapR 0.00
+templates 303, one-way lopsided 117

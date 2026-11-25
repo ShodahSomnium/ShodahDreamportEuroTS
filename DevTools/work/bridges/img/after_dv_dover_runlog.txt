@@ -1,0 +1,14 @@
+15:29:51 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/bridges/img/after_dv gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+15:29:54 loading 11 % Building roads
+15:29:56 loading 57 % Building junctions and yards
+15:29:58 loading 66 % Placing buildings and props
+15:30:00 loading 72 % Placing fences and barriers
+15:30:02 loading 72 % Placing fences and barriers
+15:30:04 loading 100 % Ready
+15:30:04 first build complete at 13 s
+15:30:34 settled for shot d1 after 30 s: built 3398, queued 0, batching 0, plants 57445 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:30:42 settled for shot d1 (camera placed) after 8 s: built 3398, queued 0, batching 0, plants 57445 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:30:43 wrote shot d1
+15:31:14 settled for shot d2 after 31 s: built 3405, queued 0, batching 0, plants 57445 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:31:22 settled for shot d2 (camera placed) after 8 s: built 3405, queued 0, batching 0, plants 57445 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:31:22 wrote shot d2

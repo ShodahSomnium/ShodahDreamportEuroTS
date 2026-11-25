@@ -1,0 +1,28 @@
+14:07:14 site austria centre (16900.0, 40.0, 18300.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/s0 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+14:07:17 loading 8 % Reading the map
+14:07:19 loading 8 % Reading the map
+14:07:21 loading 8 % Reading the map
+14:07:23 loading 8 % Reading the map
+14:07:26 loading 11 % Building roads
+14:07:28 loading 19 % Building roads
+14:07:30 loading 65 % Placing buildings and props
+14:07:32 loading 67 % Placing buildings and props
+14:07:34 loading 71 % Placing fences and barriers
+14:07:36 loading 71 % Placing fences and barriers
+14:07:38 loading 71 % Placing fences and barriers
+14:07:40 loading 71 % Placing fences and barriers
+14:07:42 loading 100 % Ready
+14:07:42 first build complete at 28 s
+14:08:12 settled for ground sm after 30 s: built 5160, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:08:21 fill settled for ground sm after 9 s
+14:08:22 ground sm: fill floating 29785 m2 (1035 tris; above all terrain round it 5987 m2) of 189423 m2; skirts hanging in air 12 segs / 869 m2, into road clearance 0 segs of 12; road cells 11297 (covered 2882), clearance hits 1475; colliders 22172, undrawn 496, undrawn over roads 127, dead items 42
+14:08:53 settled for ground sm2 after 31 s: built 5018, queued 0, batching 0, plants 246641 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:09:02 fill settled for ground sm2 after 9 s
+14:09:03 ground sm2: fill floating 14944 m2 (543 tris; above all terrain round it 2266 m2) of 407880 m2; skirts hanging in air 7 segs / 594 m2, into road clearance 0 segs of 7; road cells 7648 (covered 1813), clearance hits 1191; colliders 15501, undrawn 365, undrawn over roads 80, dead items 42
+14:09:34 settled for ground w after 31 s: built 6056, queued 0, batching 0, plants 221855 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:09:43 fill settled for ground w after 9 s
+14:09:45 ground w: fill floating 9718 m2 (686 tris; above all terrain round it 2082 m2) of 259908 m2; skirts hanging in air 35 segs / 1166 m2, into road clearance 0 segs of 36; road cells 17029 (covered 1546), clearance hits 107; colliders 41755, undrawn 727, undrawn over roads 63, dead items 62
+14:10:16 settled for ground graz after 31 s: built 2212, queued 0, batching 0, plants 214089 (sides waiting 0), detail jobs 0, ground fill builds 1
+14:10:25 fill settled for ground graz after 9 s
+14:10:26 ground graz: fill floating 12906 m2 (824 tris; above all terrain round it 11681 m2) of 552884 m2; skirts hanging in air 3 segs / 660 m2, into road clearance 0 segs of 4; road cells 5229 (covered 1262), clearance hits 168; colliders 7642, undrawn 263, undrawn over roads 104, dead items 2
+14:10:26 wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/s0_austria_ground.txt: fill floating 67353 m2 (3088 tris; above all terrain round it 22017 m2) of 1410095 m2; skirts hanging in air 57 segs / 3289 m2, into road clearance 0 segs of 59; road cells 41203 (covered 7503), clearance hits 2941; colliders 87070, undrawn 1851, undrawn over roads 374, dead items 148

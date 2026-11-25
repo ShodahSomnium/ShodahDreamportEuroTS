@@ -1,0 +1,16 @@
+render.sh: site prague -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_prague_unity.log)
+render.sh: site prague Unity exit 0 after 187 s
+   wrote shot pr_anti_noise
+   wrote shot pr_hedge
+   wrote shot pr_pillar_brick
+   wrote shot pr_pillar_plaster
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_anti_noise.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_anti_noise_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_hedge.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_hedge_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_pillar_brick.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_pillar_brick_void.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_pillar_plaster.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/after_prague_shot_pr_pillar_plaster_void.png
+exit 0

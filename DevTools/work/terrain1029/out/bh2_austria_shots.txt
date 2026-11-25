@@ -1,0 +1,30 @@
+shot_hA: 30 hole px of 514560 below the horizon (0.006 %); sampled 8: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 8, 1200-2150 0, beyond 0
+      void cells: unity (519, 1652) game (-45579, -21872) 438 m x3 y 6.9 near [roads/road look3/terrain left 2]; unity (526, 1652) game (-45572, -21872) 437 m x3 y 6.9 near [roads/road look3/terrain left 2]; unity (514, 1655) game (-45584, -21875) 443 m x1 y 6.8 near [roads/road look3/terrain left 2]; unity (530, 1653) game (-45568, -21873) 437 m x1 y 6.9 near [roads/road look3/terrain left 2]
+  pick hA@300,200 (ray (617.9, 16.0, 1225.1) dir (-0.646, 0.168, 0.745)): 2 renderers
+    -80 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (721, 23, 1405) size (406, 41, 564) no tri
+    -47 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (516, 7, 1194) size (265, 18, 282) no tri
+    physics: 0 colliders
+  pick hA@200,180 (ray (617.9, 16.0, 1225.1) dir (-0.712, 0.187, 0.677)): 2 renderers
+    -71 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (721, 23, 1405) size (406, 41, 564) no tri
+    -42 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (516, 7, 1194) size (265, 18, 282) no tri
+    physics: 0 colliders
+  pick hA@1000,190 (ray (618.0, 16.0, 1225.1) dir (0.070, 0.180, 0.981)): 2 renderers
+    -97 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (516, 7, 1194) size (265, 18, 282) no tri
+    -74 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (721, 23, 1405) size (406, 41, 564) no tri
+    physics: 0 colliders
+  pick hA@1150,170 (ray (618.0, 16.0, 1225.1) dir (0.205, 0.193, 0.960)): 2 renderers
+    -90 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (516, 7, 1194) size (265, 18, 282) no tri
+    -69 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (721, 23, 1405) size (406, 41, 564) no tri
+    physics: 0 colliders
+shot_hB: 24 hole px of 514560 below the horizon (0.005 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+  pick hB@300,200 (ray (599.9, 16.0, 1275.1) dir (-0.646, 0.168, 0.745)): 2 renderers
+    -80 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (721, 23, 1405) size (406, 41, 564) no tri
+    -74 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (516, 7, 1194) size (265, 18, 282) no tri
+    physics: 0 colliders
+  pick hB@1000,190 (ray (600.0, 16.0, 1275.1) dir (0.070, 0.180, 0.981)): 2 renderers
+    -97 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (516, 7, 1194) size (265, 18, 282) no tri
+    -74 m  Ets Map Viewer/Ets Map/prefabs/prefab 9uk/prefab terrain 2 | /umatlib/legacy/terrain/grass_main_height.mat | bounds (721, 23, 1405) size (406, 41, 564) no tri
+    physics: 0 colliders
+shot_hC: 0 hole px of 528640 below the horizon (0.000 %); sampled 0: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 0, 1200-2150 0, beyond 0
+shot_hD: 20 hole px of 514560 below the horizon (0.004 %); sampled 1: solid-but-undrawn 0, over invisible ground 0, nothing at <100 m 0, 100-400 0, 400-1200 1, 1200-2150 0, beyond 0
+      void cells: unity (526, 1663) game (-45572, -21883) 516 m x1 y 7.3 near [roads/road look3/terrain left 2]

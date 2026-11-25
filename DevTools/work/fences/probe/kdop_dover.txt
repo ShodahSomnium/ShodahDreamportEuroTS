@@ -1,0 +1,14 @@
+kdop
+type 2 kdop turn>=0: 1596 items; worst-axis residual median rigid 0.150 bent 0.065; p90 rigid 1.707 bent 1.094; bent closer on 635
+type 2 kdop turn>=10: 449 items; worst-axis residual median rigid 0.358 bent 0.101; p90 rigid 1.411 bent 0.914; bent closer on 338
+type 2 kdop turn>=30: 82 items; worst-axis residual median rigid 0.495 bent 0.087; p90 rigid 1.074 bent 0.319; bent closer on 80
+type 44 kdop turn>=0: 479 items; worst-axis residual median rigid 0.098 bent 0.089; p90 rigid 1.320 bent 1.320; bent closer on 89
+type 44 kdop turn>=10: 91 items; worst-axis residual median rigid 0.180 bent 0.087; p90 rigid 0.538 bent 0.467; bent closer on 64
+type 44 kdop turn>=30: 9 items; worst-axis residual median rigid 0.395 bent 0.278; p90 rigid 0.601 bent 0.398; bent closer on 7
+kdopcaps
+type 2 kdop turn>=0: 1596 items; worst-axis residual median rigid 0.094 bent 0.040; p90 rigid 0.524 bent 0.315; bent closer on 725
+type 2 kdop turn>=10: 449 items; worst-axis residual median rigid 0.238 bent 0.074; p90 rigid 0.690 bent 0.297; bent closer on 394
+type 2 kdop turn>=30: 82 items; worst-axis residual median rigid 0.326 bent 0.097; p90 rigid 0.811 bent 0.322; bent closer on 82
+type 44 kdop turn>=0: 479 items; worst-axis residual median rigid 0.063 bent 0.052; p90 rigid 0.281 bent 0.243; bent closer on 116
+type 44 kdop turn>=10: 91 items; worst-axis residual median rigid 0.156 bent 0.078; p90 rigid 0.458 bent 0.383; bent closer on 70
+type 44 kdop turn>=30: 9 items; worst-axis residual median rigid 0.408 bent 0.278; p90 rigid 0.601 bent 0.415; bent closer on 8

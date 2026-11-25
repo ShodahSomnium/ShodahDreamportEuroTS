@@ -1,0 +1,477 @@
+car	traffic.a3	own=- 	uk=0  po=0 fr=0 ge=2	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.accord	own=- 	uk=4  po=2 fr=0 	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.audi_a6	own=- 	uk=0 cz=0 po=0 fr=0 ge=2	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.bmw5	own=- 	uk=0 cz=0 po=0 fr=0 ge=3	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.bmw5.hook	own=0.01 	    	tags=expensive,common	max=80 mass=2000 trl=trailer.ai_car.ontour
+car	traffic.bmw5.boat.small	own=0.01 	    	tags=expensive,common	max=80 mass=2000 trl=trailer.ai_car.boat.small.01
+car	traffic.clio	own=- 	   fr=4 	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.mercedes_ce	own=- 	uk=0 cz=0 po=0 fr=0 ge=3	tags=cheap,common	max=180 mass=2000 trl=
+car	traffic.astra	own=- 	  po=6 fr=0 ge=2	tags=cheap,common	max=160 mass=1500 trl=
+car	traffic.fabia	own=0.01 	    	tags=cheap,common	max=160 mass=1500 trl=
+car	traffic.golf	own=- 	uk=4  po=4  ge=3	tags=cheap,common	max=160 mass=1500 trl=
+car	traffic.seat	own=- 	uk=0 cz=0 po=0  	tags=cheap	max=160 mass=1600 trl=
+car	traffic.punto	own=- 	uk=0 cz=0 po=4 fr=0 ge=0	tags=cheap,common	max=150 mass=1500 trl=
+car	traffic.mondeo	own=- 	   fr=0 	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.qashqai	own=- 	uk=2  po=4  ge=0	tags=cheap,common	max=150 mass=1800 trl=
+car	traffic.jaguar_xf	own=- 	uk=3 cz=0 po=0 fr=0 ge=0	tags=expensive,common	max=200 mass=2000 trl=
+car	traffic.lancer_x	own=- 	uk=0 cz=0 po=3 fr=0 ge=0	tags=expensive,common	max=180 mass=1600 trl=
+car	traffic.passat_cc	own=- 	uk=0 cz=0 po=0 fr=0 ge=2	tags=expensive,common	max=160 mass=1800 trl=
+car	traffic.citroen_c4	own=- 	uk=0 cz=0 po=0 fr=4 ge=0	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.mazda_3	own=- 	   fr=0 	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.megane	own=- 	uk=0 cz=0 po=0 fr=4 ge=0	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.mini	own=- 	uk=4  po=0.2 fr=3 ge=3	tags=cheap,common	max=140 mass=1600 trl=
+car	traffic.mondeo_2009	own=- 	  po=0 fr=0 	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.octavia_2009	own=- 	 cz=4 po=4 fr=0 	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.peugeot_407	own=- 	 cz=0 po=0 fr=4 ge=0	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.range_rover	own=- 	uk=3 cz=0 po=0 fr=0 ge=0	tags=expensive,common	max=150 mass=2200 trl=
+car	traffic.range_rover.hook	own=0.1 	    	tags=expensive,common	max=80 mass=2200 trl=trailer.ai_car.ontour
+car	traffic.focus_2009	own=- 	uk=4    	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.kia_ceed	own=- 	uk=2    ge=2	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.xc60	own=- 	    	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.heimdall.suv.premium_24	own=- 	    	tags=expensive,suv	max=240 mass=2600 trl=
+car	traffic.tourer	own=- 	uk=0 cz=0.2 po=0.5 fr=4 ge=0.2	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.p3008	own=- 	uk=0 cz=0.5 po=0.5 fr=4 ge=0	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.talisman	own=- 	uk=0.3 cz=0.3 po=0 fr=4 ge=0.5	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.duck	own=0 	uk=0 cz=0 po=0 fr=0.1 ge=0	tags=vintage,cheap	max=115 mass=900 trl=
+car	traffic.ford_smax	own=- 	    	tags=cheap,common	max=160 mass=1700 trl=
+car	traffic.ford_smax.hook	own=0.1 	    	tags=cheap,common	max=80 mass=1700 trl=trailer.ai_car.ontour
+car	traffic.passat_2014	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.passat_2014.hook	own=0.1 	    	tags=expensive,common	max=80 mass=2000 trl=trailer.ai_car.ontour
+car	traffic.captur	own=- 	uk=0   fr=3 ge=0	tags=cheap,common	max=160 mass=1200 trl=
+car	traffic.peugeot_208	own=- 	   fr=3 	tags=cheap,common	max=160 mass=1700 trl=
+car	traffic.c3	own=- 	   fr=3 	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.octavia_iii	own=- 	uk=2 cz=4 po=3 fr=1 ge=3	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.octavia_iii.hook	own=0.1 	    	tags=cheap,common	max=80 mass=1800 trl=trailer.ai_car.ontour
+car	traffic.a_romeo_159	own=- 	uk=0.2 cz=0.2 po=0.5 fr=0 ge=0	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.k_ceed_c	own=- 	uk=1 cz=2 po=3 fr=1 ge=0.5	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.volvo_xc70	own=- 	uk=2 cz=0.5 po=0.2 fr=0.2 ge=0.5	tags=expensive,common	max=160 mass=1800 trl=
+car	traffic.vw_touran	own=- 	uk=1 cz=1 po=1 fr=0.5 ge=3	tags=cheap,common	max=160 mass=1800 trl=
+car	traffic.vw_touran.hook	own=0.1 	    	tags=cheap,common	max=80 mass=1800 trl=trailer.ai_car.ontour
+car	traffic.mazda_cx3	own=1 	    	tags=cheap,common	max=140 mass=1600 trl=
+car	traffic.mazda_cx3.tuning_blk	own=0.01 	    	tags=luxury,expensive	max=160 mass=1600 trl=
+car	traffic.mazda_cx3.tuning_wht	own=0.01 VARIANT 	    	tags=luxury,expensive	max=160 mass=1600 trl=
+car	traffic.mazda_cx3.tuning_red	own=0.01 VARIANT 	    	tags=expensive	max=160 mass=1600 trl=
+car	traffic.mazda_cx3.tuning_gry	own=0.01 VARIANT 	    	tags=luxury,expensive	max=160 mass=1600 trl=
+car	traffic.panda	own=0 	    	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.giulietta	own=- 	    	tags=cheap,common	max=200 mass=2000 trl=
+car	traffic.500l	own=- 	    	tags=cheap,common	max=160 mass=2000 trl=
+car	traffic.renegade	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.ypsilon	own=0.05 	    	tags=cheap,common	max=160 mass=1700 trl=
+car	traffic.santafe	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.huracan	own=0.01 	    	tags=expensive	max=260 mass=2000 trl=
+car	traffic.mustang_2015	own=- 	    	tags=expensive	max=300 mass=1600 trl=
+car	traffic.mustang_conv	own=- VARIANT COND	    	tags=expensive	max=300 mass=1600 trl=
+car	traffic.riva_sedan	own=0 	    	tags=vintage,cheap	max=140 mass=1000 trl=
+car	traffic.riva_combi	own=- VARIANT 	    	tags=vintage,cheap	max=140 mass=1000 trl=
+car	traffic.niva	own=0 	    	tags=vintage,cheap	max=100 mass=1285 trl=
+car	traffic.superb.combi	own=1 	uk=3 cz=3 po=3 fr=0 ge=3	tags=expensive,common	max=160 mass=1500 trl=
+car	traffic.superb.liftback	own=1 VARIANT 	    	tags=expensive,common	max=160 mass=1400 trl=
+car	traffic.superb.hook	own=0.05 	    	tags=expensive,common	max=160 mass=1500 trl=trailer.ai_car.ontour
+car	traffic.aleko	own=0 	  po=0.01  	tags=cheap	max=100 mass=1285 trl=
+car	traffic.duster	own=- 	  po=2  	tags=cheap,common	max=140 mass=1300 trl=
+car	traffic.granta	own=0 	  po=0  	tags=cheap	max=140 mass=1300 trl=
+car	traffic.laguna	own=1 	uk=0   fr=3 ge=0	tags=cheap,common	max=180 mass=1500 trl=
+car	traffic.l_119	own=0 	    	tags=cheap	max=130 mass=1200 trl=
+car	traffic.a80	own=0.05 	  po=1  	tags=vintage,cheap	max=130 mass=1400 trl=
+car	traffic.majestic_a	own=- 	    	tags=expensive,common	max=140 mass=1600 trl=
+car	traffic.bgeed	own=- 	    	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.sand	own=- 	    	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.toyco	own=- 	    	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.galon	own=0.01 	    	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.ortiz_combi	own=- 	    	tags=expensive,common	max=180 mass=1600 trl=
+car	traffic.ava_469	own=0 	    	tags=cheap	max=160 mass=1800 trl=
+car	traffic.majestic.suv.luxury_22	own=- 	    	tags=expensive,common	max=240 mass=2600 trl=
+car	traffic.voltse	own=- 	    	tags=expensive,common,electric	max=160 mass=1600 trl=
+car	traffic.scout_fav	own=- 	 cz=4 po=4 fr=0 ge=0	tags=cheap,common	max=160 mass=1500 trl=
+car	traffic.betrude.m5_22.sedan	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.betrude.m5_22.combi	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.stepron.sedan.premium_23	own=- 	    	tags=common	max=160 mass=2000 trl=
+car	traffic.stepron.combi.premium_23	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.voltison.s_23.sedan	own=- 	    	tags=expensive,common	max=160 mass=2000 trl=
+car	traffic.hoddlen.hatchback.basic_24	own=1 	    	tags=cheap,common	max=180 mass=1400 trl=
+car	traffic.zastava	own=0 	    	tags=vintage,cheap	max=140 mass=1000 trl=
+car	traffic.zastava.rails	own=- VARIANT 	    	tags=vintage	max=140 mass=1000 trl=
+car	traffic.mendward.x_124	own=- 	    	tags=cheap	max=140 mass=1000 trl=
+car	traffic.mendward.x_124.spoiler	own=- VARIANT 	    	tags=cheap	max=140 mass=1000 trl=
+car	traffic.mendward.x_124.sport	own=- VARIANT 	    	tags=cheap	max=140 mass=1000 trl=
+car	traffic.mendward.ew_02.sedan	own=- 	    	tags=common	max=160 mass=2000 trl=
+car	traffic.mk2	own=0 	    	tags=cheap	max=140 mass=1000 trl=
+car	traffic.voyflen.mk2.tuner	own=- VARIANT 	    	tags=cheap	max=140 mass=1000 trl=
+car	traffic.voyflen.mk2.sport	own=- VARIANT 	    	tags=cheap	max=140 mass=1000 trl=
+car	traffic.adeques.subcompact.2023	own=- 	    	tags=cheap,common	max=160 mass=1600 trl=
+car	traffic.matumbia.pickup.midclass_95	own=0.01 	    	tags=cheap,common	max=100 mass=1500 trl=
+car	traffic.matumbia.pickup.midclass_95.backbody	own=0.01 VARIANT 	    	tags=cheap,common	max=100 mass=1500 trl=
+car	traffic.matumbia.pickup.midclass_95.bumper	own=0.01 VARIANT 	    	tags=cheap,common	max=100 mass=1500 trl=
+car	traffic.matumbia.pickup.midclass_95.frame1	own=0.01 VARIANT 	    	tags=cheap,common	max=100 mass=1500 trl=
+car	traffic.matumbia.pickup.midclass_95.frame2	own=0.01 VARIANT 	    	tags=cheap,common	max=100 mass=1500 trl=
+car	traffic.matumbia.pickup.midclass_95.horse_01	own=0.01 	    	tags=	max=80 mass=1500 trl=trailer.ai_car.horse_01
+car	traffic.proseld.suv.midclass_24	own=- 	    	tags=expensive,suv	max=240 mass=2600 trl=
+car	traffic.ixcent.pickup.midclass_24	own=- 	    	tags=expensive,common,pickup	max=240 mass=2600 trl=
+car	traffic.valiant.suv.luxury_24	own=1 	    	tags=	max=160 mass=2000 trl=
+car	traffic.valiant_17	own=1 	    	tags=common,expensive	max=130 mass=2000 trl=
+car	traffic.superb.taxi_fi_va	own=0 COND	    	tags=urban,taxi,context	max=160 mass=2000 trl=
+car	traffic.tunient.suv.premium_25	own=- 	    	tags=suv	max=240 mass=2600 trl=
+car	traffic.betrude.suv.luxury_25	own=1 	    	tags=expensive	max=160 mass=1600 trl=
+truck	traffic.daf.xf.scp_4x2a	own=0.4 	    	tags=	max=90 mass=7164 trl=truck_semi
+truck	traffic.daf.xf.scp_4x2b	own=0.4 	    	tags=	max=90 mass=7164 trl=truck_semi
+truck	traffic.daf.xf.scp_6x4	own=0.1 	    	tags=	max=90 mass=9831 trl=truck_semi
+truck	traffic.daf.xf.sc_6x4	own=0.05 	    	tags=	max=90 mass=9831 trl=truck_semi low
+truck	traffic.daf.xf_euro6.ssp_4x2	own=0.5 	    	tags=dealer	max=90 mass=7472 trl=truck_semi
+truck	traffic.daf.xf_euro6.sca_4x2	own=0.5 	    	tags=dealer	max=90 mass=7472 trl=truck_semi
+truck	traffic.daf.xf_euro6.ssp_6x4	own=0.1 	    	tags=	max=90 mass=7472 trl=truck_semi
+truck	traffic.daf.xf_euro6.sca_6x24	own=0.1 	    	tags=	max=90 mass=7472 trl=truck_semi
+truck	traffic.iveco.hiway.asp_6x4	own=0.1 	    	tags=dealer	max=90 mass=8429 trl=truck_semi
+truck	traffic.iveco.hiway.asp_6x24	own=0.1 	    	tags=dealer	max=90 mass=8429 trl=truck_semi
+truck	traffic.iveco.hiway.asp_4x2	own=0.5 	    	tags=dealer	max=90 mass=8429 trl=truck_semi
+truck	traffic.iveco.stralis.asp_4x2	own=0.1 	    	tags=	max=90 mass=7405 trl=truck_semi
+truck	traffic.iveco.stralis.asp_6x4	own=0.05 	    	tags=	max=90 mass=8310 trl=truck_semi
+truck	traffic.iveco.stralis.as_6x4	own=0.05 	    	tags=	max=90 mass=8310 trl=truck_semi low
+truck	traffic.man.tgx.xxl_4x2	own=0.3 	    	tags=	max=90 mass=7327 trl=truck_semi
+truck	traffic.man.tgx.xxl_6x4	own=0.05 	    	tags=	max=90 mass=9384 trl=truck_semi
+truck	traffic.man.tgx.xl_6x4	own=0.1 	    	tags=	max=90 mass=9384 trl=truck_semi low
+truck	traffic.man.tgx_euro6.xxl_4x2	own=0.4 	uk=0.2    	tags=	max=90 mass=7327 trl=truck_semi
+truck	traffic.man.tgx_euro6.xlx_6x24	own=0.1 	uk=1    	tags=dealer	max=90 mass=7327 trl=truck_semi
+truck	traffic.man.tgx_euro6.ef3_xxl_4x2	own=- 	    	tags=dealer	max=90 mass=7327 trl=truck_semi
+truck	traffic.man.tgx_euro6.ef3_xlx_6x24	own=- 	uk=0.2    	tags=dealer	max=90 mass=7327 trl=truck_semi
+truck	traffic.man.tgx_euro6.ef3_xxl_6x2	own=0.2 	    	tags=dealer	max=90 mass=7327 trl=truck_semi
+truck	traffic.mercedes.actros.ms_6x4	own=0.05 	    	tags=	max=90 mass=9516 trl=truck_semi
+truck	traffic.mercedes.actros.hr_6x24	own=0.05 	    	tags=	max=90 mass=9516 trl=truck_semi
+truck	traffic.mercedes.actros.ms_4x2	own=0.3 	    	tags=	max=90 mass=7599 trl=truck_semi
+truck	traffic.mercedes.actros.hr_4x2	own=0.3 	    	tags=	max=90 mass=7599 trl=truck_semi
+truck	traffic.mercedes.actros_2014.gs_4x2	own=- 	    	tags=dealer	max=90 mass=8298 trl=truck_semi
+truck	traffic.mercedes.actros_2014.st_4x2	own=- 	    	tags=dealer	max=90 mass=8298 trl=truck_semi
+truck	traffic.mercedes.actros_2014.gs_6x2	own=0.2 	    	tags=dealer	max=90 mass=8298 trl=truck_semi
+truck	traffic.mercedes.actros_2014.st_6x2	own=0.2 	    	tags=dealer	max=90 mass=8298 trl=truck_semi
+truck	traffic.renault.magnum.std_4x2	own=0.1 	    	tags=	max=90 mass=7240 trl=truck_semi
+truck	traffic.renault.magnum.std_6x2	own=0.01 	    	tags=	max=90 mass=7240 trl=truck_semi
+truck	traffic.renault.magnum.std_6x24	own=0.01 	    	tags=	max=90 mass=7240 trl=truck_semi
+truck	traffic.renault.premium.hr_4x2	own=0.1 	    	tags=	max=90 mass=7440 trl=truck_semi
+truck	traffic.renault.premium.nr_4x2	own=0.05 	    	tags=	max=90 mass=7440 trl=truck_semi low
+truck	traffic.renault.premium.hr_6x2	own=0.05 	    	tags=	max=90 mass=7440 trl=truck_semi
+truck	traffic.renault.t.std_hi_4x2	own=0.5 	    	tags=	max=90 mass=9463 trl=truck_semi
+truck	traffic.renault.t.std_slp_6x2	own=0.05 	    	tags=	max=90 mass=9463 trl=truck_semi low
+truck	traffic.renault.t.evo_hi_4x2	own=1 	    	tags=dealer	max=90 mass=9463 trl=truck_semi
+truck	traffic.renault.t.evo_hi_6x2	own=0.2 	    	tags=dealer	max=90 mass=9463 trl=truck_semi
+truck	traffic.renault.t.evo_slp_6x2	own=0.2 	    	tags=	max=90 mass=9463 trl=truck_semi low
+truck	traffic.scania.r.tl_4x2	own=0.5 	    	tags=	max=90 mass=7599 trl=truck_semi
+truck	traffic.scania.r.tl_6x4	own=0.1 	    	tags=	max=90 mass=8734 trl=truck_semi
+truck	traffic.scania.r.nr_6x4	own=0.1 	    	tags=	max=90 mass=7599 trl=truck_semi low
+truck	traffic.scania.streamline.tl_4x2	own=0.5 	    	tags=	max=90 mass=7165 trl=truck_semi
+truck	traffic.scania.streamline.hl_4x2	own=0.5 	    	tags=	max=90 mass=7165 trl=truck_semi
+truck	traffic.scania.streamline.hl_6x4	own=0.1 	    	tags=	max=90 mass=9000 trl=truck_semi
+truck	traffic.scania.s_2016.nrm_4x2	own=1 	    	tags=dealer	max=90 mass=7599 trl=truck_semi
+truck	traffic.scania.s_2016.nrm_6x2	own=0.2 	    	tags=dealer	max=90 mass=8728 trl=truck_semi
+truck	traffic.scania.r_2016.nrm_4x2	own=1 	    	tags=dealer	max=90 mass=7549 trl=truck_semi low
+truck	traffic.scania.r_2016.nrm_6x2	own=0.2 	    	tags=dealer	max=90 mass=8678 trl=truck_semi low
+truck	traffic.volvo.fh16.gtxl_4x2	own=0.5 	    	tags=	max=90 mass=7587 trl=truck_semi
+truck	traffic.volvo.fh16.gtxl_6x4	own=0.1 	    	tags=	max=90 mass=9463 trl=truck_semi
+truck	traffic.volvo.fh16.slp_6x4	own=0.1 	    	tags=	max=90 mass=9463 trl=truck_semi low
+truck	traffic.volvo.fh16_2012.gtxl_4x2	own=0.2 	uk=0.5    	tags=dealer	max=90 mass=7710 trl=truck_semi
+truck	traffic.volvo.fh16_2012.gtxl_6x2	own=0.2 	uk=1    	tags=dealer	max=90 mass=7710 trl=truck_semi
+truck	traffic.volvo.fh16_2012.slp_6x2	own=- 	    	tags=dealer	max=90 mass=7710 trl=truck_semi low
+truck_light	traffic.transit_16	own=0.3 	uk=0.3 cz=0.3 po=0.3 fr=0.3 ge=0.3	tags=van	max=120 mass=2800 trl=
+truck_light	traffic.transit_16.dhl	own=- VARIANT 	    	tags=van	max=150 mass=2800 trl=
+truck_light	traffic.transit_16.fedex	own=- VARIANT 	    	tags=van	max=150 mass=2800 trl=
+truck_light	traffic.transit_16.fox	own=- VARIANT 	    	tags=van	max=120 mass=3500 trl=
+truck_light	traffic.transit_16.cbn	own=- VARIANT 	    	tags=van	max=120 mass=3500 trl=
+truck_light	traffic.transit_16.fr	own=- VARIANT 	    	tags=van	max=120 mass=2800 trl=
+truck_light	traffic.transit_16.glass	own=- VARIANT 	    	tags=van	max=70 mass=3000 trl=
+truck_light	traffic.transit_16.ladder	own=- VARIANT 	    	tags=van	max=80 mass=3000 trl=
+truck_light	traffic.transit_16.ladder_2	own=- VARIANT 	    	tags=van	max=80 mass=3000 trl=
+truck_light	traffic.transit_16.cargo	own=- VARIANT 	    	tags=van	max=110 mass=3000 trl=
+truck_light	traffic.transit_16.trailer	own=0.1 	uk=0.05 cz=0.05 po=0.05 fr=0.05 ge=0.05	tags=	max=80 mass=3000 trl=trailer.a1_l_t
+truck_light	traffic.transport_t6	own=0.5 	    	tags=van	max=130 mass=2000 trl=
+truck_light	traffic.transport_t6.hook	own=0.05 	    	tags=	max=80 mass=2000 trl=trailer.ai_car.ontour
+truck_light	traffic.transport_t6.hook_ev	own=0.001 	    	tags=	max=80 mass=2000 trl=trailer.a1_l_t
+truck_light	traffic.transport_t6.gr_hw	own=0 COND	    	tags=van	max=130 mass=2000 trl=
+truck_light	traffic.transport_t6.cmp_rt	own=0 	    	tags=van	max=130 mass=2000 trl=
+truck_light	traffic.ducato.van	own=0.3 	    	tags=van	max=100 mass=3500 trl=
+truck_light	traffic.crafter	own=0.5 	    	tags=van	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_zi	own=0 	    ge=1	tags=	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_ma	own=0 VARIANT 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_ba	own=0 VARIANT 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_av	own=0 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_ra	own=0 VARIANT 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_sc	own=0 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.crafter.cmp_nt	own=0 VARIANT 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.ulja_452	own=0 	    	tags=vintage	max=80 mass=1500 trl=
+truck_light	traffic.hymer	own=0.3 	    	tags=caravan	max=160 mass=3500 trl=
+truck_light	traffic.larus	own=0.3 	    	tags=caravan	max=100 mass=3500 trl=
+truck_light	traffic.larus.rack	own=0.3 	    	tags=caravan	max=100 mass=3500 trl=
+truck_light	traffic.larus.roof	own=0.3 	    	tags=caravan	max=100 mass=3500 trl=
+truck_light	traffic.ixcent.pickup.midclass_24.camper	own=- 	    	tags=expensive,common,pickup	max=240 mass=2600 trl=
+truck_light	traffic.ixcent.pickup.midclass_24.camper_02	own=- 	    	tags=expensive,common,pickup	max=240 mass=2600 trl=
+truck_light	traffic.daily	own=0.3 	    	tags=	max=100 mass=3000 trl=
+truck_light	traffic.daily.box	own=0.3 VARIANT 	    	tags=	max=100 mass=6000 trl=
+truck_light	traffic.daily.curtain	own=0.3 VARIANT 	    	tags=	max=100 mass=4000 trl=
+truck_light	traffic.daily.load1	own=- VARIANT 	    	tags=	max=100 mass=6000 trl=
+truck_light	traffic.peugeotbo	own=0.1 	    	tags=	max=140 mass=2800 trl=
+truck_light	traffic.ducato	own=0.3 	uk=0.3 cz=0.3 po=0.3 fr=0.3 ge=0.4	tags=	max=100 mass=2000 trl=
+truck_light	traffic.ducato.box	own=0.3 	uk=0.5 cz=0.5 po=0.5 fr=0.5 ge=0.7	tags=	max=100 mass=4000 trl=
+truck_light	traffic.ducato.plat	own=0.2 	uk=0.05 cz=0.05 po=0.05 fr=0.05 ge=0.05	tags=	max=100 mass=4000 trl=
+truck_light	traffic.minibus	own=0 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.minibus.ur	own=0 	    ge=1	tags=	max=100 mass=3500 trl=
+truck_light	traffic.minibus.gr	own=0 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.minibus.blk	own=0 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.minibus.blk2	own=0 VARIANT 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.minibus.blk3	own=0 VARIANT 	    	tags=	max=100 mass=3500 trl=
+truck_light	traffic.minibus.vs	own=0 	    	tags=	max=100 mass=3500 trl=
+truck_medium	traffic.lowcab	own=- 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab.dryvan	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab.dryvan_lift	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_shutt	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_shutt.load1	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_shutt.load2	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_fbed.load1	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_fbed.load2	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_dump.lime	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_dump.gravel	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_dump.sand	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box	own=- 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_eu_01	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_eu_02	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_eu_03	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_eu_04	own=- VARIANT 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_ibe_01	own=- COND	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_ibe_02	own=- COND	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_ibe_03	own=- COND	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_ibe_04	own=- COND	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.r_gr	own=- COND	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.lowcab_box.d_vit	own=0 	    	tags=sm_truck	max=120 mass=8000 trl=
+truck_medium	traffic.skala	own=0 	    	tags=	max=85 mass=7300 trl=
+truck_medium	traffic.skala.cargo	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.tarp	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.cistern	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.tipper	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.timber	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.timb_l	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.cargo_old	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.tarp_old	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.cistern_old	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.tipper_old	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.timber_old	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.skala.timb_l_old	own=- VARIANT 	    	tags=	max=85 mass=11500 trl=
+truck_medium	traffic.daily.tow	own=0 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.car	own=0 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.car2	own=0 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.car3	own=0 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.eu	own=1 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.eu.car	own=1 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.eu.car2	own=1 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.uk	own=0 	    	tags=	max=100 mass=6000 trl=
+truck_medium	traffic.daily.tow.uk.car	own=0 	    	tags=	max=100 mass=6000 trl=
+truck_heavy	traffic.sem_crane	own=0.3 	    	tags=	max=70 mass=10000 trl=
+truck_heavy	traffic.sem_mixer	own=0.3 	    	tags=	max=80 mass=10000 trl=
+truck_heavy	traffic.sem_dumper	own=0.3 	    	tags=	max=80 mass=8000 trl=
+truck_heavy	traffic.fox_tipper	own=0.5 	    	tags=	max=80 mass=20000 trl=
+truck_heavy	traffic.fox_tank	own=- VARIANT 	    	tags=	max=80 mass=20000 trl=
+truck_heavy	traffic.lich_4331	own=0 	    	tags=	max=80 mass=20000 trl=
+bus	traffic.opalin	own=0.01 	    	tags=mini	max=100 mass=12000 trl=
+bus	traffic.opalin_p	own=- VARIANT 	    	tags=mini,passenger	max=100 mass=12000 trl=
+bus	traffic.opalin.tr	own=0 	    	tags=mini,passenger	max=100 mass=12000 trl=
+bus	traffic.opalin.tr_ed	own=- VARIANT COND	    	tags=mini,passenger	max=100 mass=12000 trl=
+bus	traffic.opalin.tr_td	own=- VARIANT COND	    	tags=mini,passenger	max=100 mass=12000 trl=
+bus	traffic.tourliner	own=0.01 	    	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner_p	own=- 	    	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.tourliner.de	own=0 	    ge=0.01	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner.de_p	own=0 	    ge=1	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.tourliner.gr	own=0 	    	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner.gr_p	own=0 	    	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.tourliner.gr_2	own=0 VARIANT 	    	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner.gr_2_p	own=0 VARIANT 	    	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.tourliner.gr_3	own=0 VARIANT 	    	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner.gr_3_p	own=0 VARIANT 	    	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.tourliner.blk	own=0 	    	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner.blk_p	own=0 	    	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.tourliner.nor	own=0.01 	    	tags=coach	max=100 mass=19700 trl=
+bus	traffic.tourliner.nor_p	own=0.1 	    	tags=coach,passenger	max=100 mass=22900 trl=
+bus	traffic.p_3204	own=0 	  po=0.2  	tags=mini	max=130 mass=1700 trl=
+bus	traffic.p_3204.pass	own=0 	  po=1  	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.pass2	own=- VARIANT 	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr	own=0 	    	tags=mini	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_ed0	own=0.01 VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_ed1	own=- VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_ed2	own=- VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_is0	own=0.01 VARIANT COND	    	tags=mini	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_is1	own=- VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_is2	own=- VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_td0	own=0.01 VARIANT COND	    	tags=mini	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_td1	own=- VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.tr_td2	own=- VARIANT COND	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.ru	own=0 	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.ru2	own=- VARIANT 	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204.ru3	own=- VARIANT 	    	tags=mini,passenger	max=130 mass=1700 trl=
+bus	traffic.p_3204_ba	own=0 	    	tags=mini,city,passenger	max=130 mass=1700 trl=
+bus	traffic.oldbus_wg_e	own=0 COND	    	tags=city	max=100 mass=18000 trl=
+bus	traffic.oldbus_wg_f	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_wg_m	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_mos_e	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_mos_f	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_mos_m	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_wb_e	own=0 COND	    	tags=city	max=100 mass=18000 trl=
+bus	traffic.oldbus_wb_f	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_wb_m	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_wr_e	own=0 COND	    	tags=city,city	max=100 mass=18000 trl=
+bus	traffic.oldbus_wr_f	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.oldbus_wr_m	own=0 COND	    	tags=city,passenger	max=100 mass=18000 trl=
+bus	traffic.bus_city25.nl_ei	own=0 COND	    	tags=passenger	max=80 mass=18000 trl=
+bus	traffic.bus_city25.nl_gg	own=0 COND	    	tags=passenger	max=80 mass=18000 trl=
+bus	traffic.bus_city25.be_aw	own=0 COND	    	tags=passenger	max=80 mass=18000 trl=
+police	traffic.audi_a6.pol_be	own=0 	    	tags=	max=160 mass=2000 trl=
+police	traffic.jaguar_xf.pol_uk	own=0 	uk=1    	tags=	max=200 mass=2000 trl=
+police	traffic.passat_cc.pol_de	own=0 	    ge=0.5	tags=	max=160 mass=1800 trl=
+police	traffic.passat_cc.pol_lu	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.mondeo_2009.pol_fi	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.focus_2009.pol_hu	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.focus_2009.pol_ru	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.megane.pol_fr_gen	own=0 	   fr=1 	tags=	max=160 mass=1800 trl=
+police	traffic.megane.pol_fr	own=- VARIANT COND	    	tags=	max=160 mass=1800 trl=
+police	traffic.octavia_iii.pol_cz	own=0 	 cz=1   	tags=	max=160 mass=1800 trl=
+police	traffic.octavia_iii.pol_lt	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.octavia_iii.pol_lt_old	own=- VARIANT 	    	tags=	max=160 mass=1800 trl=
+police	traffic.octavia_iii.pol_pt_lis	own=- COND	    	tags=pol_city	max=160 mass=1800 trl=
+police	traffic.octavia_iii.pol_ru_mo	own=- COND	    	tags=pol_city	max=160 mass=1800 trl=
+police	traffic.octavia_iii.pol_ru_yar	own=- COND	    	tags=pol_city	max=160 mass=1800 trl=
+police	traffic.a_romeo_159.pol_it_gen	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.a_romeo_159.pol_it	own=- COND	    	tags=	max=160 mass=1800 trl=
+police	traffic.k_ceed_c.pol_pl	own=0 	  po=1  	tags=	max=160 mass=1800 trl=
+police	traffic.k_ceed_c.pol_sk	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.volvo_xc70.pol_se	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.vw_touran.pol_at	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.vw_touran.pol_nl	own=0 	    	tags=	max=160 mass=1800 trl=
+police	traffic.passat_2014.pol_de	own=0 	    ge=0.5	tags=	max=160 mass=2000 trl=
+police	traffic.passat_2014.pol_dk	own=0 	    	tags=	max=160 mass=2000 trl=
+police	traffic.passat_2014.pol_no	own=0 	    	tags=	max=160 mass=2000 trl=
+police	traffic.passat_2014.cu_dk	own=0 	    	tags=customs	max=160 mass=2000 trl=
+police	traffic.superb.pol_ee	own=0 	    	tags=	max=160 mass=1500 trl=
+police	traffic.superb.pol_ee_old	own=0 VARIANT 	    	tags=customs	max=160 mass=1500 trl=
+police	traffic.superb.pol_pt_gnr	own=0 	    	tags=	max=160 mass=1500 trl=
+police	traffic.laguna.pol_lv_old	own=0 	    	tags=	max=180 mass=1500 trl=
+police	traffic.laguna.pol_lv	own=0 	    	tags=	max=180 mass=1500 trl=
+police	traffic.huracan.pol_it	own=0 COND	    	tags=highway	max=260 mass=2000 trl=
+police	traffic.bgeed.pol_bg	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.toyco.pol_tr	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.galon.pol_ro	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.transport_t6.pol_tr_cus	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.pol_bg_cus	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.pol_fi_cus	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.pol_pl_cus	own=0 	  po=1  	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.pol_lv_cus	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.ba_custom1	own=0 COND	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.ba_custom2	own=0 COND	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.sl_custom	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.transport_t6.fi	own=0 	    	tags=	max=130 mass=2000 trl=
+police	traffic.transport_t6.fi_cus2	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.captur.pol_pt_psp	own=0 COND	    	tags=	max=160 mass=1200 trl=
+police	traffic.qashqai.pol_es_es	own=- COND	    	tags=pol_city	max=150 mass=1800 trl=
+police	traffic.ortiz_combi.pol_es_es	own=0 	    	tags=	max=180 mass=1600 trl=
+police	traffic.ortiz_combi.pol_es_ca	own=- VARIANT COND	    	tags=	max=180 mass=1600 trl=
+police	traffic.ortiz_combi.pol_es_na	own=- VARIANT COND	    	tags=	max=180 mass=1600 trl=
+police	traffic.ortiz_combi.pol_es_ba	own=- VARIANT COND	    	tags=	max=180 mass=1600 trl=
+police	traffic.ava_469.pol_ru_cus	own=0 	    	tags=customs	max=160 mass=1800 trl=
+police	traffic.crafter.pol_lt_cus	own=0 	    	tags=customs	max=100 mass=3500 trl=
+police	traffic.granta.ru_nn	own=- COND	    	tags=pol_city	max=160 mass=1300 trl=
+police	traffic.duster.me	own=0 	    	tags=	max=140 mass=1300 trl=
+police	traffic.duster.mk	own=0 	    	tags=	max=140 mass=1300 trl=
+police	traffic.duster.ro_customs	own=0 	    	tags=customs	max=140 mass=1300 trl=
+police	traffic.duster.me_custom	own=0 	    	tags=customs	max=140 mass=1300 trl=
+police	traffic.duster.rs_custom	own=0 	    	tags=customs	max=140 mass=1300 trl=
+police	traffic.duster.al_custom	own=0 	    	tags=customs	max=140 mass=1300 trl=
+police	traffic.duster.xk_custom	own=0 	    	tags=customs	max=140 mass=1300 trl=
+police	traffic.stepron.sedan.premium_23.pol_al	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.sedan.premium_23.pol_ba	own=0 COND	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.sedan.premium_23.pol_xk	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.sedan.premium_23.mk_customs	own=0 	    	tags=customs	max=160 mass=1600 trl=
+police	traffic.stepron.sedan.premium_23.pol_rs	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.combi.premium_23.pol_ba	own=0 COND	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.combi.premium_23.pol_hr	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.combi.premium_23.hr_customs	own=0 	    	tags=customs	max=160 mass=1600 trl=
+police	traffic.combi.premium_23.pol_sl	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.stepron.combi.premium_23.pol_lu	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.combi.betrude_m5.22.pol_cz	own=0 	 cz=1   	tags=	max=160 mass=1600 trl=
+police	traffic.combi.betrude_m5.22.pol_de	own=0 	    ge=1	tags=	max=160 mass=1600 trl=
+police	traffic.combi.betrude_m5.22.pol_ch	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.combi.betrude_m5.22.pol_uk	own=0 	uk=1    	tags=customs	max=160 mass=1600 trl=
+police	traffic.ixcent.pickup.midclass_24.gr	own=0 	    	tags=customs	max=240 mass=2600 trl=
+police	traffic.proseld.suv.midclass_24.gr	own=0 	    	tags=	max=240 mass=2600 trl=
+police	traffic.valiant_17.se	own=0 	    	tags=	max=130 mass=2000 trl=
+police	traffic.valiant_17.cu_se	own=0 	    	tags=customs	max=130 mass=2000 trl=
+police	traffic.betrude.suv.luxury_25.nl	own=0 	    	tags=	max=160 mass=1600 trl=
+police	traffic.adeques.subcompact.bg	own=0 	    	tags=	max=160 mass=1600 trl=
+fire	traffic.t815.fr	own=0 	   fr=1 	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.it	own=0 	    	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.cz	own=0 	 cz=1   	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.sk	own=0 	    	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.de	own=0 	    ge=1	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.es	own=0 	    	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.pt	own=0 	    	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.fire_ru_yar	own=- COND	    	tags=pol_city	max=100 mass=25000 trl=
+fire	traffic.t815.fire_ru_nn	own=- COND	    	tags=pol_city	max=100 mass=25000 trl=
+fire	traffic.t815.tr	own=0 	    	tags=	max=100 mass=25000 trl=
+fire	traffic.t815.ba	own=0 	    	tags=	max=100 mass=25000 trl=
+fire	traffic.dagger.cz	own=0 	 cz=1   	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.de	own=0 	    ge=1	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.dk	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.ee	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.fi	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.fr	own=0 	   fr=1 	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.it	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.lv	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.no	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.ru	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.se	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.sk	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.es	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.pt	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.tr	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.at	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.ru_mo	own=- COND	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.al	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.xk	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.hr	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.me	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.rs	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.sl	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.mk	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.ch	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.gr	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.nl	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.be	own=0 	    	tags=	max=100 mass=13000 trl=
+fire	traffic.dagger.lu	own=0 	    	tags=	max=100 mass=13000 trl=
+medical	traffic.ducato.fr	own=0 	   fr=1 	tags=	max=100 mass=3500 trl=
+medical	traffic.ducato.it	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.ducato.uk	own=0 	uk=1    	tags=	max=100 mass=3500 trl=
+medical	traffic.ducato.xk	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.ducato.rs	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.ducato.mk	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.ducato.gr	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.cz	own=0 	 cz=1   	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.de	own=0 	    ge=1	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.sk	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.ru	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.lit	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.viln	own=- COND	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.fin	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.fin_hel	own=- COND	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.est	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.est_tall	own=- COND	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.lat	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.pt	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.es	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.at	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.sl	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.hr	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.de_de	own=0 	    ge=1	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.ch	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.dk	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.no	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.se	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.be	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.crafter.nl	own=0 	    	tags=	max=100 mass=3500 trl=
+medical	traffic.transit_2016.amb_tr	own=0 	    	tags=	max=120 mass=2800 trl=
+medical	traffic.transit_2016.amb_ru_yar	own=0 COND	    	tags=	max=120 mass=2800 trl=
+medical	traffic.transit_2016.amb_ru_mo	own=0 COND	    	tags=	max=120 mass=2800 trl=
+medical	traffic.transit_2016.amb_ru_nn	own=0 COND	    	tags=	max=120 mass=2800 trl=
+medical	traffic.transit_2016.al	own=0 	    	tags=	max=120 mass=2800 trl=
+medical	traffic.transit_2016.me	own=0 	    	tags=	max=120 mass=2800 trl=
+medical	traffic.transit_2016.ba	own=0 	    	tags=	max=120 mass=2800 trl=

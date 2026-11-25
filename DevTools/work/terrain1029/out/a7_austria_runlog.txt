@@ -1,0 +1,39 @@
+23:24:55 site austria centre (18020.0, 29.4, 21381.4) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a7 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+23:24:58 loading 5 % Reading the map
+23:25:00 loading 5 % Reading the map
+23:25:02 loading 5 % Reading the map
+23:25:04 loading 10 % Building roads
+23:25:06 loading 20 % Building roads
+23:25:08 loading 55 % Building junctions and yards
+23:25:10 loading 61 % Building junctions and yards
+23:25:12 loading 69 % Placing buildings and props
+23:25:14 loading 69 % Placing fences and barriers
+23:25:16 loading 69 % Placing fences and barriers
+23:25:18 loading 69 % Placing fences and barriers
+23:25:20 loading 69 % Placing fences and barriers
+23:25:22 loading 69 % Placing fences and barriers
+23:25:24 loading 69 % Placing fences and barriers
+23:25:26 loading 100 % Ready
+23:25:26 first build complete at 32 s
+23:26:02 settled for shot r7f after 36 s: built 4886, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:26:10 settled for shot r7f (camera placed) after 8 s: built 4886, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:26:11 wrote shot r7f
+23:26:42 settled for shot r8f after 31 s: built 5021, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:26:50 settled for shot r8f (camera placed) after 8 s: built 5021, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:26:51 wrote shot r8f
+23:27:21 settled for shot r8l after 31 s: built 5021, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:27:29 settled for shot r8l (camera placed) after 8 s: built 5021, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:27:30 wrote shot r8l
+23:28:01 settled for shot r8u after 31 s: built 5021, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:28:09 settled for shot r8u (camera placed) after 8 s: built 5021, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:28:10 wrote shot r8u
+23:28:40 settled for shot slip after 31 s: built 5029, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:28:48 settled for shot slip (camera placed) after 8 s: built 5029, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:28:49 wrote shot slip
+23:29:20 settled for ground g7 after 31 s: built 5181, queued 0, batching 0, plants 250000 (sides waiting 5), detail jobs 0, ground fill builds 1
+23:29:29 fill settled for ground g7 after 9 s
+23:29:29 ground g7: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 829 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 54; road cells 641 (covered 4), clearance hits 0; colliders 684, undrawn 11, undrawn over roads 0, dead items 1
+23:30:00 settled for ground g8 after 31 s: built 5156, queued 0, batching 0, plants 250000 (sides waiting 5), detail jobs 0, ground fill builds 1
+23:30:09 fill settled for ground g8 after 9 s
+23:30:09 ground g8: fill floating 18 m2 (2 tris; above all terrain round it 0 m2) of 3082 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 5; road cells 709 (covered 8), clearance hits 13; colliders 746, undrawn 16, undrawn over roads 4, dead items 0
+23:30:09 wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/a7_austria_ground.txt: fill floating 18 m2 (2 tris; above all terrain round it 0 m2) of 3910 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 59; road cells 1350 (covered 12), clearance hits 13; colliders 1430, undrawn 27, undrawn over roads 4, dead items 1

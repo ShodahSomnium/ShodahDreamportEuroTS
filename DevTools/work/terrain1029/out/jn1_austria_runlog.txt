@@ -1,0 +1,26 @@
+00:12:08 site austria centre (-46097.8, 35.7, -20220.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/jn1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+00:12:12 loading 14 % Building roads
+00:12:14 loading 58 % Building junctions and yards
+00:12:16 loading 66 % Placing buildings and props
+00:12:18 loading 71 % Placing fences and barriers
+00:12:20 loading 100 % Ready
+00:12:20 first build complete at 11 s
+00:12:50 settled for shot s32fc after 30 s: built 2125, queued 0, batching 0, plants 85471 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:12:58 settled for shot s32fc (camera placed) after 8 s: built 2125, queued 0, batching 0, plants 85471 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:12:59 wrote shot s32fc
+00:13:29 settled for shot jO after 31 s: built 1691, queued 0, batching 0, plants 99603 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:13:37 settled for shot jO (camera placed) after 8 s: built 1691, queued 0, batching 0, plants 99603 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:13:38 wrote shot jO
+00:14:08 settled for shot jP after 31 s: built 1700, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:14:16 settled for shot jP (camera placed) after 8 s: built 1700, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:14:17 wrote shot jP
+00:14:47 settled for shot jT after 31 s: built 1703, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:14:55 settled for shot jT (camera placed) after 8 s: built 1703, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:14:56 wrote shot jT
+00:15:27 settled for shot jU after 31 s: built 1792, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:15:35 settled for shot jU (camera placed) after 8 s: built 1792, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:15:35 wrote shot jU
+00:16:06 settled for ground junc after 31 s: built 1795, queued 0, batching 0, plants 98497 (sides waiting 0), detail jobs 0, ground fill builds 1
+00:16:15 fill settled for ground junc after 9 s
+00:16:15 ground junc: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 0 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 0; road cells 168 (covered 0), clearance hits 0; colliders 10, undrawn 0, undrawn over roads 0, dead items 0
+00:16:15 wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/jn1_austria_ground.txt: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 0 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 0; road cells 168 (covered 0), clearance hits 0; colliders 10, undrawn 0, undrawn over roads 0, dead items 0

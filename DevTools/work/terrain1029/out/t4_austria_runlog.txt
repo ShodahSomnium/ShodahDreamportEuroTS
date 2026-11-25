@@ -1,0 +1,23 @@
+12:07:36 site austria centre (18020.0, 29.4, 21381.4) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/t4 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:07:39 loading 5 % Reading the map
+12:07:41 loading 5 % Reading the map
+12:07:43 loading 5 % Reading the map
+12:07:45 loading 15 % Building roads
+12:07:47 loading 55 % Building junctions and yards
+12:07:49 loading 65 % Placing buildings and props
+12:07:51 loading 69 % Placing fences and barriers
+12:07:53 loading 69 % Placing fences and barriers
+12:07:55 loading 69 % Placing fences and barriers
+12:07:57 loading 69 % Placing fences and barriers
+12:07:59 loading 69 % Placing fences and barriers
+12:08:01 loading 100 % Ready
+12:08:01 first build complete at 25 s
+12:08:31 settled for shot tI after 30 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:08:39 settled for shot tI (camera placed) after 8 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:08:40 wrote shot tI
+12:09:11 settled for shot tE after 31 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:09:19 settled for shot tE (camera placed) after 8 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:09:19 wrote shot tE
+12:09:50 settled for shot tF after 31 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:09:58 settled for shot tF (camera placed) after 8 s: built 4866, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:09:58 wrote shot tF

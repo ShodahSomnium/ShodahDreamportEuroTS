@@ -1,0 +1,51 @@
+            // 2026-10-27 (floating ground): three rays along the edge, not one at its middle. Where the middle found nothing
+            // below, the wall used to hang SkirtDepth (20 m) into the air: the khaki panels standing over the forested slopes
+            // and beside the A9/S6 in the user's screenshots - now no wall. Where an end stood over a road, a yard, a tunnel
+            // portal or a model, the wall reached across it - now no wall either. Otherwise the wall hangs to the lowest
+            // terrain the rays found (an end over nothing takes the middle's).
+            bool middle = false;
+
+            for (int ray = 0; ray < 3; ray++)
+            {
+                Vector3 probe = Vector3.Lerp(wa, wb, ray == 0 ? 0.1f : ray == 1 ? 0.5f : 0.9f) + wo * 0.35f;
+                probe.y = Mathf.Max(wa.y, wb.y) + 0.3f;
+                int count = Physics.RaycastNonAlloc(probe, Vector3.down, SkirtHits, SkirtDepth + 1f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore);
+                float nearest = float.MaxValue;
+                RaycastHit below = default(RaycastHit);
+
+                for (int k = 0; k < count; k++)
+                {
+                    if (EtsGroundFill.IsFill(SkirtHits[k].collider) || SkirtHits[k].distance >= nearest)
+                    {
+                        continue;
+                    }
+
+                    nearest = SkirtHits[k].distance;
+                    below = SkirtHits[k];
+                }
+
+                if (nearest == float.MaxValue)
+                {
+                    continue;
+                }
+
+                string name = below.collider.gameObject.name;
+
+                // A road, a yard, a portal or a model below: no wall onto it.
+                if (!(name.StartsWith("terrain", StringComparison.Ordinal) || name.StartsWith("prefab terrain", StringComparison.Ordinal)))
+                {
+                    SkirtsNotNeeded++;
+                    return;
+                }
+
+                middle |= ray == 1;
+                needed |= top - below.point.y >= 0.4f;
+                bottom = Mathf.Min(bottom, below.point.y - 0.6f);
+            }
+
+            if (!middle)
+            {
+                // Nothing within SkirtDepth under the middle of the edge: a wall here would hang in the air.
+                SkirtsInAir++;
+                return;
+            }

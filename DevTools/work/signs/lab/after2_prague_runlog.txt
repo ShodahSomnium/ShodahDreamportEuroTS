@@ -1,0 +1,28 @@
+20:42:13 site prague centre (14501.1, 73.1, 3624.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/signs/lab/after2 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+20:42:16 loading 8 % Reading the map
+20:42:18 loading 57 % Building junctions and yards
+20:42:20 loading 58 % Building junctions and yards
+20:42:22 loading 72 % Placing fences and barriers
+20:42:24 loading 100 % Ready
+20:42:24 first build complete at 12 s
+20:42:55 settled for shot phw79 after 30 s: built 2651, queued 0, batching 0, plants 135192 (sides waiting 1), detail jobs 0, ground fill builds 1
+20:43:03 settled for shot phw79 (camera placed) after 8 s: built 2651, queued 0, batching 0, plants 135192 (sides waiting 1), detail jobs 0, ground fill builds 1
+20:43:03 wrote shot phw79
+20:43:34 settled for shot pstr119 after 31 s: built 2689, queued 0, batching 0, plants 140607 (sides waiting 1), detail jobs 0, ground fill builds 1
+20:43:42 settled for shot pstr119 (camera placed) after 8 s: built 2689, queued 0, batching 0, plants 140607 (sides waiting 1), detail jobs 0, ground fill builds 1
+20:43:43 wrote shot pstr119
+20:44:13 settled for shot pcity283 after 31 s: built 2918, queued 0, batching 0, plants 148644 (sides waiting 6), detail jobs 0, ground fill builds 1
+20:44:21 settled for shot pcity283 (camera placed) after 8 s: built 2918, queued 0, batching 0, plants 148644 (sides waiting 6), detail jobs 0, ground fill builds 1
+20:44:22 wrote shot pcity283
+20:44:52 settled for shot psr302 after 31 s: built 2919, queued 0, batching 0, plants 148795 (sides waiting 4), detail jobs 0, ground fill builds 1
+20:45:00 settled for shot psr302 (camera placed) after 8 s: built 2919, queued 0, batching 0, plants 148795 (sides waiting 4), detail jobs 0, ground fill builds 1
+20:45:01 wrote shot psr302
+20:45:32 settled for shot pdist601 after 31 s: built 2787, queued 0, batching 0, plants 143649 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:45:40 settled for shot pdist601 (camera placed) after 8 s: built 2787, queued 0, batching 0, plants 143649 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:45:40 wrote shot pdist601
+20:46:11 settled for shot pdist701 after 31 s: built 2777, queued 0, batching 0, plants 145359 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:46:19 settled for shot pdist701 (camera placed) after 8 s: built 2777, queued 0, batching 0, plants 145359 (sides waiting 0), detail jobs 0, ground fill builds 1
+20:46:19 wrote shot pdist701
+20:46:50 settled for shot pgas967 after 31 s: built 2932, queued 0, batching 0, plants 136802 (sides waiting 4), detail jobs 0, ground fill builds 1
+20:46:58 settled for shot pgas967 (camera placed) after 8 s: built 2932, queued 0, batching 0, plants 136802 (sides waiting 4), detail jobs 0, ground fill builds 1
+20:46:58 wrote shot pgas967

@@ -1,0 +1,18 @@
+13:55:01 site prague centre (14501.1, 73.1, 3624.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/after_prague gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+13:55:04 loading 11 % Building roads
+13:55:07 loading 58 % Building junctions and yards
+13:55:09 loading 71 % Placing buildings and props
+13:55:11 loading 100 % Ready
+13:55:11 first build complete at 9 s
+13:55:41 settled for shot p_river1 after 30 s: built 2078, queued 0, batching 0, plants 116086 (sides waiting 23), detail jobs 0, ground fill builds 1
+13:55:49 settled for shot p_river1 (camera placed) after 8 s: built 2078, queued 0, batching 0, plants 116086 (sides waiting 23), detail jobs 0, ground fill builds 1
+13:55:51 wrote shot p_river1
+13:56:22 settled for shot p_river2 after 31 s: built 2081, queued 0, batching 0, plants 119883 (sides waiting 8), detail jobs 0, ground fill builds 1
+13:56:30 settled for shot p_river2 (camera placed) after 8 s: built 2081, queued 0, batching 0, plants 119883 (sides waiting 8), detail jobs 0, ground fill builds 1
+13:56:31 wrote shot p_river2
+13:57:01 settled for shot p_river3 after 31 s: built 2283, queued 0, batching 0, plants 151098 (sides waiting 1), detail jobs 0, ground fill builds 1
+13:57:09 settled for shot p_river3 (camera placed) after 8 s: built 2283, queued 0, batching 0, plants 151098 (sides waiting 1), detail jobs 0, ground fill builds 1
+13:57:10 wrote shot p_river3
+13:57:40 settled for shot p_top after 31 s: built 2020, queued 0, batching 0, plants 121828 (sides waiting 1), detail jobs 0, ground fill builds 1
+13:57:48 settled for shot p_top (camera placed) after 8 s: built 2020, queued 0, batching 0, plants 121828 (sides waiting 1), detail jobs 0, ground fill builds 1
+13:57:49 wrote shot p_top

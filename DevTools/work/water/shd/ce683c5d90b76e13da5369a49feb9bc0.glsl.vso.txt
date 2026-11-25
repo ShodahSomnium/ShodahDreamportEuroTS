@@ -1,0 +1,1368 @@
+SHDO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>
+
+
+
+8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+x
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sheet_geom
+sheet_xfade
+transform0_data
+color
+ATTR3
+normal
+ATTR1
+position
+ATTR0
+tex_coord_0
+ATTR8
+cbuffer0
+#version 330
+
+#extension GL_ARB_separate_shader_objects : require
+
+struct lighting_factors_t {
+
+    float _ambient;
+
+    float _diffuse1;
+
+    float _specular1;
+
+    float _shadow;
+
+};
+
+struct tex2d_float_t {
+
+    sampler2D _samp;
+
+};
+
+struct tex2d_float4_t {
+
+    sampler2D _samp1;
+
+};
+
+struct tex2d_uint4_t {
+
+    usampler2D _samp2;
+
+};
+
+struct tex2d_cmp_t {
+
+    sampler2D _samp3;
+
+};
+
+struct tex2darray_cmp_t {
+
+    sampler2DArray _samp4;
+
+};
+
+struct texcube_float4_t {
+
+    samplerCube _samp5;
+
+};
+
+struct buffer_float4_t {
+
+    samplerBuffer _samp6;
+
+};
+
+struct buffer_uint4_t {
+
+    usamplerBuffer _samp7;
+
+};
+
+struct quad_parameters_t {
+
+    vec4 _quad_to_texture;
+
+    vec4 _texture_sizes[8];
+
+};
+
+struct vertex_in_tmp_t {
+
+    vec4 _position2;
+
+    vec4 _color1;
+
+    vec4 _tex_coord_01;
+
+    vec4 _tex_coord_1;
+
+    vec4 _tex_coord_2;
+
+    vec4 _tex_coord_3;
+
+    uvec4 _factor;
+
+    vec4 _packed_tangents1;
+
+    vec3 _normal1;
+
+    vec2 _normal_map_tex_coord;
+
+};
+
+struct geom_vertex_in_t {
+
+    vec4 _position3;
+
+};
+
+struct quad_vertex_in_t {
+
+    vec4 _quad_position;
+
+};
+
+struct vattr_unpack_t {
+
+    vec4 _tex_0sb_1sb;
+
+    vec4 _tex_2sb_3sb;
+
+    vec4 _tex_4sb_5sb;
+
+    vec4 _tex_6sb_7sb;
+
+};
+
+struct deferred_param0_cb_t {
+
+    vec4 _normalized_to_texture;
+
+    vec4 _viewport_size;
+
+    vec3 _additional_ambient_color;
+
+};
+
+struct deferred_param1_cb_t {
+
+    vec4 _fog_density;
+
+    vec3 _fog_color;
+
+    vec3 _fog_color2;
+
+    vec3 _fog_color2_direction_es;
+
+    float _fog_gradient;
+
+    vec4 _fog_gradient_plane_es;
+
+};
+
+struct deferred_parameters_t {
+
+    vec4 _normalized_to_texture1;
+
+    vec4 _viewport_coord_to_es_ray;
+
+    vec4 _viewport_size1;
+
+    vec3 _additional_ambient_color1;
+
+    vec4 _fog_density1;
+
+    vec3 _fog_color1;
+
+    vec3 _fog_color21;
+
+    vec3 _fog_color2_direction_es1;
+
+    vec4 _fog_gradient_plane_es1;
+
+    float _fog_gradient1;
+
+    float _fog_mask_mix_factor;
+
+    vec4 _fog_es_to_mask_matrix[4];
+
+    vec4 _fog_mask_distances;
+
+    vec4 _input_texture_size;
+
+    vec4 _range_def;
+
+    vec4 _histogram_params[2];
+
+    vec4 _eye_adapt_factors[2];
+
+    vec2 _low_intensity_factors;
+
+    vec3 _low_intensity_color;
+
+    vec4 _tonemap_params[6];
+
+    vec3 _bloom_params;
+
+    vec2 _dof_range;
+
+    vec4 _color_correction;
+
+    vec2 _distortion;
+
+    float _distortion_blur;
+
+    float _drr_strength;
+
+    vec4 _filter_offsets[7];
+
+    vec4 _filter_weights[4];
+
+    vec4 _envmap_matrix[4];
+
+    vec4 _reflection_from_scene;
+
+    vec2 _reflection_texture_params;
+
+    vec4 _reflection_from_eye[4];
+
+    vec4 _reflection_plane;
+
+    vec3 _reflection_strengths;
+
+    vec3 _sunshaft_color;
+
+    vec4 _sunshaft_params;
+
+    vec2 _sunshaft_sun_position;
+
+    vec2 _sunshaft_area_clamp;
+
+    vec4 _debug_fparam;
+
+    uvec4 _debug_uparam;
+
+    vec4 _ao_apply_params;
+
+    uvec4 _light_list_uparam;
+
+    vec4 _light_list_fparam;
+
+    vec2 _interleaved_fragment_layer_setup;
+
+};
+
+struct noperspective2_t {
+
+    vec3 _data;
+
+};
+
+struct screen_info_t {
+
+    vec2 _scene_texture_uv;
+
+    vec2 _screen_position;
+
+};
+
+struct screen_vertex_out_tmp_t {
+
+    vec4 _position4;
+
+    screen_info_t _screen_info;
+
+};
+
+struct quad_vertex_out_t {
+
+    vec4 _position5;
+
+    vec4 _tex_interp_0;
+
+};
+
+struct geom_vertex_out_t {
+
+    vec4 _position6;
+
+    noperspective2_t _packed_screen_info;
+
+};
+
+struct deferred_attributes_t {
+
+    vec3 _es_position2;
+
+    vec3 _es_normal;
+
+    vec3 _diffuse2;
+
+    vec3 _specular2;
+
+    float _specular_power;
+
+    uint _bit_mask;
+
+    uint _specular_mix1;
+
+    vec3 _emittance;
+
+    float _ambient1;
+
+    float _shadow_strength;
+
+    float _shadow_offset;
+
+    float _reflection_strength;
+
+    float _opacity;
+
+    vec2 _sampling_uv;
+
+    vec3 _to_eye_direction;
+
+    vec3 _deinterleaved_top_es_position;
+
+};
+
+struct gbuffer_out_t {
+
+    vec4 _rt0;
+
+    vec4 _rt1;
+
+    vec4 _rt2;
+
+    uvec4 _rt3;
+
+};
+
+struct gbuffer_in_t {
+
+    tex2d_float4_t _rt01;
+
+    tex2d_float4_t _rt11;
+
+    tex2d_float4_t _rt21;
+
+    tex2d_uint4_t _rt31;
+
+};
+
+struct distance_attenuation_t {
+
+    float _linear_attenuation_scale;
+
+    float _linear_attenuation_bias;
+
+    float _attenuation_range_recip;
+
+};
+
+struct gobo_set_t {
+
+    uint _count;
+
+    vec4 _origin_f0[15];
+
+    vec4 _axis0_f1[15];
+
+    vec4 _axis1_f2[15];
+
+};
+
+struct deferred_light_t {
+
+    vec3 _es_position3;
+
+    vec3 _es_direction;
+
+    vec4 _es_world_plane;
+
+    float _ambient_directionality;
+
+    vec4 _es_clip_plane1;
+
+    vec3 _aurora_es_direction;
+
+    vec3 _aurora_diffuse;
+
+    distance_attenuation_t _attenuation;
+
+    vec2 _spot_falloff;
+
+    vec4 _ambient_environment;
+
+    vec3 _diffuse3;
+
+    vec3 _specular3;
+
+    tex2d_float4_t _texture_rgba;
+
+    tex2d_float_t _texture_r_0;
+
+    tex2d_float_t _texture_r_1;
+
+    tex2d_cmp_t _texture_cmp;
+
+    tex2darray_cmp_t _texarray_cmp;
+
+    vec4 _projection_matrix[4];
+
+    vec4 _projection_weights;
+
+    vec4 _simple_projection_mtx[4];
+
+    vec4 _generic_data[2];
+
+    vec4 _generic_matrix[8];
+
+    vec4 _smap_proj_ortho_mtx[15];
+
+    vec4 _smap_texture_size;
+
+    vec4 _smap2_texture_size;
+
+    float _smap2_texel_radius;
+
+    vec2 _smap_scene_fadeout;
+
+    vec2 _smap_light_fadeout;
+
+    float _smap_strength;
+
+    gobo_set_t _interior_gobo_set;
+
+    vec4 _llist_data[960];
+
+};
+
+struct spot_light_shape_t {
+
+    bool _use_invsqr_attenuation;
+
+    bool _use_forward_distance;
+
+    vec3 _es_position4;
+
+    distance_attenuation_t _distance_attenuation;
+
+    vec2 _spot_falloff1;
+
+    vec3 _es_direction1;
+
+};
+
+struct omni_light_shape_t {
+
+    bool _use_invsqr_attenuation1;
+
+    vec3 _es_position5;
+
+    distance_attenuation_t _distance_attenuation1;
+
+};
+
+struct tex2d_float4_set_t {
+
+    tex2d_float4_t _element0;
+
+    tex2d_float4_t _element1;
+
+    tex2d_float4_t _element2;
+
+    tex2d_float4_t _element3;
+
+    tex2d_float4_t _element4;
+
+    tex2d_float4_t _element5;
+
+    tex2d_float4_t _element6;
+
+    tex2d_float4_t _element7;
+
+};
+
+struct proj_light_shape_t {
+
+    bool _use_invsqr_attenuation2;
+
+    vec3 _es_position6;
+
+    distance_attenuation_t _distance_attenuation2;
+
+    uint _texture_index;
+
+    vec4 _projection_matrix1[4];
+
+};
+
+struct deferred_lighting_t {
+
+    vec3 _diffuse4;
+
+    vec3 _specular4;
+
+    float _envmap_strength;
+
+};
+
+struct lbuffer_out_t {
+
+    vec4 _diffuse5;
+
+    vec4 _specular5;
+
+};
+
+struct lbuffer_in_t {
+
+    tex2d_float4_t _diffuse_lighting1;
+
+    tex2d_float4_t _specular_lighting1;
+
+};
+
+struct vertex_out_tmp_t {
+
+    vec4 _scr_position;
+
+    vec3 _es_position7;
+
+    vec3 _es_normal1;
+
+    vec3 _es_tangent;
+
+    vec3 _es_bitangent1;
+
+    vec2 _normal_map_tex_coord1;
+
+    vec4 _color2;
+
+    uvec4 _factor1;
+
+    float _aux0;
+
+    float _aux1;
+
+    float _aux2;
+
+    float _aux3;
+
+    vec4 _tex_coord_02;
+
+    vec4 _tex_coord_11;
+
+    vec4 _tex_coord_21;
+
+    vec4 _tex_coord_31;
+
+    vec4 _tex_coord_4;
+
+};
+
+struct post_vertex_out_tmp_t {
+
+    screen_info_t _screen_info1;
+
+    vertex_out_tmp_t _vertex_out;
+
+};
+
+struct fragment_attribute_evaluator_i {
+
+    int dummy;
+
+};
+
+struct normal_evaluator_i {
+
+    int dummy;
+
+};
+
+struct normal_modulator_i {
+
+    int dummy;
+
+};
+
+struct light_factors_evaluator_i {
+
+    int dummy;
+
+};
+
+struct light_color_evaluator_i {
+
+    int dummy;
+
+};
+
+struct lighting_evaluator_i {
+
+    int dummy;
+
+};
+
+struct fog_evaluator_i {
+
+    int dummy;
+
+};
+
+struct envmap_evaluator_i {
+
+    int dummy;
+
+};
+
+struct alpha_value_evaluator_i {
+
+    int dummy;
+
+};
+
+struct post_composition_evaluator_i {
+
+    int dummy;
+
+};
+
+struct empty_attribute_evaluator_t {
+
+    int dummy;
+
+};
+
+struct empty_normal_modulator_t {
+
+    int dummy;
+
+};
+
+struct default_light_color_evaluator_t {
+
+    int dummy;
+
+};
+
+struct no_light_lighting_evaluator_t {
+
+    int dummy;
+
+};
+
+struct threshold_map_t {
+
+    float _frame_idx1;
+
+    vec2 _fragment_coords;
+
+};
+
+struct vertex_skin_t {
+
+    uvec4 _bone_index;
+
+    vec4 _bone_weight;
+
+};
+
+struct transform0_cb_t {
+
+    vec4 _mv_matrix[4];
+
+    vec4 _mvp_matrix[4];
+
+    vec4 _mvp_matrix_uncorrected[4];
+
+    vec4 _unpack_tex_0sb_1sb;
+
+};
+
+struct placement_instance_t {
+
+    uvec4 _data0;
+
+    vec4 _data1;
+
+};
+
+struct transform_t {
+
+    vec4 _mvp_matrix1[4];
+
+    vec4 _mv_matrix1[4];
+
+    vec4 _p_matrix[4];
+
+    vec4 _p_matrix_uncorrected[4];
+
+    vec4 _mvp_matrix_uncorrected1[4];
+
+    vec4 _correction_matrix[4];
+
+    vec4 _camera_offset;
+
+};
+
+struct planar_texgen_t {
+
+    vec4 _gen_x;
+
+    vec4 _gen_y;
+
+};
+
+struct no_envmap_evaluator_t {
+
+    int dummy;
+
+};
+
+struct default_envmap_evaluator_t {
+
+    float _envmap_strength1;
+
+    vec4 _envmap_matrix1[4];
+
+    float _fresnel_f0;
+
+    float _fresnel_scale;
+
+    int _fresnel_type;
+
+    bool _lod_0_used;
+
+    bool _fov_hack_used;
+
+    vec3 _envmap_multiplier;
+
+    texcube_float4_t _envmap_texture;
+
+};
+
+struct no_fog_evaluator_t {
+
+    int dummy;
+
+};
+
+struct exp2_plane_fog_evaluator_t {
+
+    vec3 _color3;
+
+    float _density;
+
+};
+
+struct exp2_radial_fog_evaluator_t {
+
+    vec3 _color4;
+
+    float _density_sq;
+
+};
+
+struct complex_fog_evaluator_t {
+
+    vec3 _color5;
+
+    vec3 _color21;
+
+    vec3 _color2_direction_es;
+
+    vec4 _gradient_plane_es;
+
+    float _gradient;
+
+    float _density1;
+
+    float _offset;
+
+};
+
+struct envmap_post_evaluator_t {
+
+    vec4 _envmap_matrix2[4];
+
+    float _fresnel_f01;
+
+    float _fresnel_scale1;
+
+    int _fresnel_type1;
+
+    bool _fov_hack_used1;
+
+    vec3 _envmap_multiplier1;
+
+    float _envmap_strength_multiplier;
+
+    texcube_float4_t _texture_reflection;
+
+};
+
+struct opaque_alpha_evaluator_t {
+
+    int dummy;
+
+};
+
+struct texture_alpha_evaluator_t {
+
+    tex2d_float4_t _texture_base1;
+
+};
+
+struct texture_vcol_alpha_evaluator_t {
+
+    tex2d_float4_t _texture_base2;
+
+};
+
+struct vertex_normal_evaluator_t {
+
+    int dummy;
+
+};
+
+struct bc5_ts_normal_evaluator_uv0_t {
+
+    tex2d_float4_t _texture_nmap;
+
+};
+
+struct bc5_ts_normal_evaluator_uvnmap_t {
+
+    tex2d_float4_t _texture_nmap1;
+
+};
+
+struct rg_unorm_ts_normal_evaluator_uv0_t {
+
+    tex2d_float4_t _texture_nmap2;
+
+};
+
+struct rg_unorm_ts_normal_evaluator_uvnmap_t {
+
+    tex2d_float4_t _texture_nmap3;
+
+};
+
+struct shadowmap_out_t {
+
+    int dummy;
+
+};
+
+struct post_composition_out_t {
+
+    vec4 _color6;
+
+};
+
+struct fwd_light_cb_t {
+
+    vec4 _ambient_env;
+
+    vec3 _sun_es_direction;
+
+    vec3 _sun_diffuse;
+
+    vec3 _sun_specular;
+
+};
+
+struct fwd_truck_light_cb_t {
+
+    vec3 _tl_es_position;
+
+    float _tl_range_inv;
+
+    vec3 _tl_es_direction;
+
+    float _tl_reflective_rdivd_to_pixel;
+
+    vec3 _tl_diffuse;
+
+    vec3 _tl_specular;
+
+    vec4 _tl_left_mtx[4];
+
+    vec4 _tl_right_mtx[4];
+
+};
+
+struct material0_cb_t {
+
+    vec3 _diffuse6;
+
+    float _ambient2;
+
+    vec4 _specular6;
+
+    vec2 _reflections;
+
+    vec2 _alpha_to_weight_factors;
+
+    uint _tag;
+
+};
+
+struct material1_cb_t {
+
+    vec4 _envmap_matrix3[4];
+
+    vec3 _environment;
+
+    vec4 _fresnel;
+
+};
+
+struct forward_lighting_samplers_t {
+
+    tex2d_float4_t _tl_proj_texture;
+
+};
+
+struct prebuilt_light_data_t {
+
+    vec3 _to_light_offset1;
+
+    float _light_distance;
+
+    vec3 _to_light_direction;
+
+};
+
+struct directional_light_factors_evaluator_t {
+
+    int dummy;
+
+};
+
+struct gobo_t {
+
+    vec3 _origin;
+
+    vec3 _x_axis;
+
+    vec3 _y_axis;
+
+    vec3 _param;
+
+};
+
+struct sun_light_factors_evaluator_t {
+
+    int dummy;
+
+};
+
+struct light_list_factors_evaluator_t {
+
+    int dummy;
+
+};
+
+struct forward_lighting_evaluator_t {
+
+    vec4 _ambient_environment1;
+
+    deferred_light_t _sun_light;
+
+};
+
+struct pnct_vertex_in_t {
+
+    vec4 _position1;
+
+    vec3 _normal;
+
+    vec4 _color;
+
+    vec4 _tex_coord_0;
+
+};
+
+struct pncat4_vertex_out_t {
+
+    vec4 _position7;
+
+    vec4 _color7;
+
+    vec4 _tex_interp_01;
+
+    vec4 _tex_interp_1;
+
+    vec3 _tex_interp_2;
+
+};
+
+struct shadow_pncat4_vertex_out_t {
+
+    vec4 _position8;
+
+};
+
+struct attribute_evaluator_t {
+
+    tex2d_float4_t _texture_base3;
+
+    vec3 _diffuse_color;
+
+    vec3 _specular_color;
+
+    float _specular_power1;
+
+    float _ambient3;
+
+    vec2 _reflections1;
+
+    uint _material_tag;
+
+};
+
+pncat4_vertex_out_t _result2;
+
+vec4 _value0185;
+
+vec4 _r0206;
+
+vec4 _r0225;
+
+vec3 _r0242;
+
+vec2 _frame00294;
+
+vec2 _frame10294;
+
+vec2 _uv00294;
+
+vec2 _uv10294;
+
+float _v10296;
+
+float _v00296;
+
+float _x0298;
+
+float _v10300;
+
+float _v00300;
+
+float _x0302;
+
+vec4 _value0305;
+
+pncat4_vertex_out_t this308;
+
+layout(location = 0) in vec4 ATTR0;
+
+layout(location = 1) in vec4 ATTR1;
+
+layout(location = 3) in vec4 ATTR3;
+
+layout(location = 8) in vec4 ATTR8;
+
+layout(std140) uniform cbuffer0 {
+
+ vec2 _sheet_geom1;
+
+ vec3 _sheet_xfade1;
+
+ vec4 _transform0_data[13];
+
+};
+
+layout(location = 8) out vec4 cg_FrontColor;
+
+layout(location = 1) out vec4 cg_TexCoord1;
+
+layout(location = 0) out vec4 cg_TexCoord0;
+
+layout(location = 2) out vec4 cg_TexCoord2;
+
+out gl_PerVertex {
+
+	vec4 gl_Position;
+
+};
+
+ void main()
+
+{
+
+    _value0185 = ATTR8*_transform0_data[12].x + _transform0_data[12].y;
+
+    _r0206.x = dot(_transform0_data[4], ATTR0);
+
+    _r0206.y = dot(_transform0_data[5], ATTR0);
+
+    _r0206.z = dot(_transform0_data[6], ATTR0);
+
+    _r0206.w = dot(_transform0_data[7], ATTR0);
+
+    _r0225.x = dot(_transform0_data[0], ATTR0);
+
+    _r0225.y = dot(_transform0_data[1], ATTR0);
+
+    _r0225.z = dot(_transform0_data[2], ATTR0);
+
+    _r0242.x = dot(_transform0_data[0].xyz, ATTR1.xyz);
+
+    _r0242.y = dot(_transform0_data[1].xyz, ATTR1.xyz);
+
+    _r0242.z = dot(_transform0_data[2].xyz, ATTR1.xyz);
+
+    _x0298 = _sheet_xfade1.x*2.44140625E-004;
+
+    _v10296 = floor(_x0298);
+
+    _v00296 = _sheet_xfade1.x - 4.09600000E+003*_v10296;
+
+    _frame00294 = vec2(_v00296, _v10296);
+
+    _x0302 = _sheet_xfade1.y*2.44140625E-004;
+
+    _v10300 = floor(_x0302);
+
+    _v00300 = _sheet_xfade1.y - 4.09600000E+003*_v10300;
+
+    _frame10294 = vec2(_v00300, _v10300);
+
+    _uv00294 = _value0185.xy + _frame00294*_sheet_geom1.xy;
+
+    _uv10294 = _value0185.xy + _frame10294*_sheet_geom1.xy;
+
+    _value0305 = vec4(_uv00294.x, _uv00294.y, _uv10294.x, _uv10294.y);
+
+    this308._tex_interp_1.xyz = _r0242;
+
+    this308._tex_interp_1.w = _sheet_xfade1.z;
+
+    _result2._position7 = _r0206;
+
+    _result2._color7 = ATTR3;
+
+    _result2._tex_interp_01 = _value0305;
+
+    _result2._tex_interp_1 = this308._tex_interp_1;
+
+    _result2._tex_interp_2 = _r0225.xyz;
+
+    cg_TexCoord2.xyz = _r0225.xyz;
+
+    cg_TexCoord0 = _value0305;
+
+    cg_TexCoord1 = this308._tex_interp_1;
+
+    gl_Position = _r0206;
+
+    cg_FrontColor = ATTR3;
+
+}
+
+

@@ -1,0 +1,3 @@
+using System; using System.Linq; using SomniumSpace.Worlds.SomniumEuroTruck.Ets;
+static class P { static void Main(string[] a){ var fs=EtsFileSystem.Mount("E:/SteamLibrary/steamapps/common/Euro Truck Simulator 2 Demo", out _);
+ foreach(var p in a){ var t=fs.ReadText(p); if(t!=null){ Console.WriteLine("== "+p); Console.WriteLine(t.Length>6000?t.Substring(0,6000):t);} else { fs.TryList(p, out var files, out var dirs); Console.WriteLine("dir "+p+": "+string.Join(" ",files??new System.Collections.Generic.List<string>())+" | "+string.Join(" ",dirs??new System.Collections.Generic.List<string>())); } } }}

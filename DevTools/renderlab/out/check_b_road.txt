@@ -1,0 +1,13 @@
+view b_road site dover centre game (-33391.4, 24.0, -7420.0)
+camera unity (-336.78, 11.48, -57.85) euler (3.0, 117.0, 0.0) fov(v) 60 near 0.1 far 2831.482 1920x1080 hdr True post on
+placement: ground (-336.78, 8.96, -57.85)
+fog True Linear 180-2631 density 0.000541 colour RGBA(0.399, 0.519, 0.723, 1.000)
+ambient Trilight sky RGBA(0.734, 0.827, 0.947, 1.000) equator RGBA(0.701, 0.790, 0.904, 1.000) ground RGBA(0.349, 0.397, 0.458, 1.000) intensity 1.00 probe DC 0.399/0.522/0.707
+sun Directional Light intensity 3.532 colour RGBA(1.000, 0.909, 0.798, 1.000) shadows Soft strength 1.00 forward (-0.649, -0.704, 0.288) euler (44.8, 293.9, 0.0)
+skybox ets sky / SomniumEuroTruck/Sky reflection Skybox intensity 0.00
+climate Climate 'default' (/map/europe/sec-0009-0002.desc, 53.7 N 3.6 E) at 10:00 day 172: sun 44.8 deg up, azimuth 114; /def/climate/default/nice.sii default.nice.14 + default.nice.15 48 % slot 5 (weighted pick 0.357 of weights 3,3,3,1,0,3,3,3,3,3,3,3,1 (seed: centre -3339140/742000 cm, UTC day 20730)); exposure 0.2108 = target_gray 0.277 x adapted 0.762 in min_scale 0.556 .. max_scale 1.016 (centre 0.752) (the old albedo key: 0.0900); fog game exp2(-0.000892 x (d - 180 m)), vgradient 0.008 -> Unity linear 180-2631 m (exp fit 0.000541, exp2 fit 0.000595), colour RGBA(0.40, 0.52, 0.72, 1.00) (fog_color2 share 0.13); sun RGBA(3.53, 2.84, 2.12, 0.21) shadow 1.00; ambient RGBA(0.519, 0.678, 0.919, 0.211); sky x2.50 /asset/skybox/s_nice_05/s_nice05_08_35_g.tobj + /asset/skybox/s_nice_05/s_nice05_09_50_g.tobj; sun disc RGBA(5.45, 5.10, 4.46, 0.21) halo RGBA(0.92, 0.62, 0.40, 0.21); below the horizon RGBA(0.080, 0.154, 0.289, 0.211); curve target_gray 0.277 shoulder 1.14 contrast 0.311 saturation 1.071 bloom 0.096 (limit 26.3).
+post Look: post volume Neutral, exposure +0.0 EV over the climate's x0.2108, contrast 10.4 (file 0.311 x 0.33), saturation +7.1, bloom 0.096 threshold 0 clamp 5.55 quarter-res x3, colour balance none, no DOF/sunshafts/AO, weight 1 (EtsFlow's phase), layer 0 priority 100.
+volume 'Ets Post' global True priority 100 weight 1.00 layer 0: Tonemapping, ColorAdjustments, Bloom
+volume 'Global Volume' global True priority 0 weight 1.00 layer 0: Bloom, ColorAdjustments
+stream: built 3345, queued 0, batching 0, plants 60024 (sides waiting 0), detail jobs 0, ground fill builds 1
+lod bias 2, shadow distance (pipeline) 100 cascades 4 msaa 1 hdr True render scale 1

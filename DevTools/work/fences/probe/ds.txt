@@ -1,0 +1,24 @@
+        if (Variant == "dstest")
+        {
+            var use = new Dictionary<ulong, int>();
+            foreach (var name in Lib.Map.AvailableSectors.ToList())
+            {
+                int sx = int.Parse(name.Substring(3, 5)), sz = int.Parse(name.Substring(8, 5));
+                EtsMapSector s; try { s = Lib.Map.GetSector(sx, sz); } catch { continue; }
+                if (s == null) continue;
+                foreach (var rd in s.Roads) if (rd.Railings != null) foreach (var rl in rd.Railings) if (rl.Left ? rd.LeftRailingDoubleSided : rd.RightRailingDoubleSided) use[rl.Model] = (use.TryGetValue(rl.Model, out int u) ? u : 0) + 1;
+            }
+            foreach (var kv in use.OrderByDescending(k => k.Value))
+            {
+                var unit = Lib.Map.Railing(kv.Key); string path = unit?.GetString("model_desc"); var m = Lib.Model(path);
+                if (m == null) continue; var parts = PartsOf(m, 45f); if (parts == null) continue;
+                tris.Clear();
+                D3 p0 = new D3(0, 0, 0), p1 = new D3(0, 0, 45), t = new D3(0, 0, 45);
+                RailingCopy(m, parts, 3f, false, true, true, 45f, p0, t, p1, t, 1, "a");
+                RailingCopy(m, parts, 3f, true, true, true, 45f, p0, t, p1, t, 2, "b");
+                var o = Lib.Scan(tris);
+                double cross = o.Area - o.SameItemArea; int crossPairs = o.Pairs - o.SameItemPairs;
+                Console.WriteLine(string.Format("{0,5} DS sides  {1,-60} copy-vs-turned-copy overlap {2,5} pairs {3,8:F3} m2 per 45 m", kv.Value, path, crossPairs, cross));
+            }
+            return;
+        }

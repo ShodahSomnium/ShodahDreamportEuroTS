@@ -1,0 +1,2790 @@
+// Render lab (throwaway project only): runs in play mode after RenderLabEditor.Go has opened the world's real scene,
+// switched off everything that is not the map (network, HQ flow, truck, spawn platform) and entered play mode. The map
+// viewer loads round the site's centre with the world's own code; this waits for the stream to settle round each view
+// and renders a URP camera (the project's pipeline asset, the scene's Global Volume and the world's EtsPostFx volume,
+// the climate's fog, sun, ambient and EtsSky skybox) into an sRGB render texture, saved as PNG with a sidecar .txt.
+//
+// Hole tools (2026-09-25; DevTools/renderlab/render.sh knows the sites "doverh" and "prague"):
+//   - sites doverh / prague: a survey of the user's VR drive points (SurveyFor): per point a 2 m ground census 60 m
+//     round, 8 compass views at cab eye height (2.6 m, pitch 2) and 4 from 30 m up (pitch 25), 1280x720. Each view
+//     is rendered normally and once more with post off and the sky cleared to pure magenta (Holes): every magenta
+//     pixel below the horizon is a hole (nothing drawn). Every 3rd one is ray-cast (FirstDrawnHit, Locate) and
+//     binned in 6 m cells with what stands round it (Around), what should draw over it (RenderersOver) and every
+//     collider along the ray (AllAlong). Out: <prefix>_<point>_<cab|up>_y<yaw>.png, _void.png when >= 30 hole px,
+//     <prefix>_<site>_holes.txt. RL_VIEWS=p5,p9 limits the points; RL_PAIRS_AB=1 repeats each view with the blended
+//     terrain pairs swapped for their flat stand-ins.
+//   - RL_SHOTS="name,x,y,z,yaw,pitch;...": fixed poses, normal + void render + analysis (<prefix>_shot_<name>*.png,
+//     <prefix>_<site>_shots.txt).
+//   - RL_PROBE="x,z,r,step;x0,z0,x1,z1,step;...": every collider under a grid or a line (all layers, back faces too)
+//     and every renderer over its middle (<prefix>_<site>_probe.txt).
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
+using System.Reflection;
+using System.Text;
+using SomniumSpace.Worlds.SomniumEuroTruck;
+using SomniumSpace.Worlds.SomniumEuroTruck.Ets;
+using UnityEngine;
+using UnityEngine.Experimental.Rendering;
+using UnityEngine.Rendering;
+using UnityEngine.Rendering.Universal;
+
+public class RenderLabRunner : MonoBehaviour
+{
+    public static bool Done;
+    public static int ExitCode = 3;
+    public static string OutPrefix = "C:/Temp/rl";
+    public static string Site = "dover";
+    public static string OnlyViews = "";
+    public static float Fov = 60f;
+    public static int Width = 1920, Height = 1080;
+    public static float TimeoutSeconds = 1500f;
+    public static bool NoPost;
+
+    static readonly CultureInfo I = CultureInfo.InvariantCulture;
+    static readonly StringBuilder Log = new StringBuilder();
+
+    public sealed class View
+    {
+        public string Name;
+        public Vector3 Position;      // Unity, y ignored when Ground is set
+        public bool Ground = true;    // put the eye EyeHeight above the ground under Position
+        public float EyeHeight = 2.52f;
+        public float Yaw, Pitch;      // degrees; pitch positive = looking down
+        public string Auto = "";      // "trees": yaw toward the most trees; "tree": close-up of a tree and a bush
+        public float GroundGuessY;    // where to start the ground ray (Unity y)
+    }
+
+    Camera _camera;
+    Transform _focus;
+    float _start;
+
+    public static List<View> ViewsFor(string site)
+    {
+        var views = new List<View>();
+
+        if (site == "dover")
+        {
+            // The user's 2026-09-24 run: map centre game (-33391.4, 24.0, -7420.0); the truck stood at Unity (0, 0.08, 0)
+            // facing 90 degrees. Eye 2.52 m above the ground there (cab eye ~2.6 m).
+            // Unity (0, 0, 0) is inside the HQ garage (the spawn; first render showed the door frame), so the yard views
+            // stand where the user drove to, about (-16, -2, 40), facing on along that line (yaw -22).
+            views.Add(new View { Name = "a_spawn", Position = new Vector3(0f, 0f, 0f), Yaw = 90f, Pitch = 4f, GroundGuessY = 0f });
+            views.Add(new View { Name = "a_yard", Position = new Vector3(-16f, 0f, 40f), Yaw = -22f, Pitch = 4f, GroundGuessY = -2f });
+            views.Add(new View { Name = "a_trees", Position = new Vector3(-16f, 0f, 40f), Pitch = 3f, Auto = "trees", GroundGuessY = -2f });
+
+            // Probe RL1 (renderlab/probe/rl1_dover.txt): road 2935dee5f0a8cd, look8, 87 m, 345 m from the centre, v2_14 bands
+            // 8-30 m (right) and 6-15 m (left), terrain strips 67 m both sides. Mid game (-33730.9, 32.7, -7356.8) = Unity
+            // (-339.5, 8.7, -63.2); its a->b heading is Unity yaw 117. Eye on the left lane (UK), 2.52 m up.
+            // It is a divided road: the chord's middle is the median (first render: on the median, a lamp post in the
+            // middle of the view), so the eye goes 6 m to the left, onto the left carriageway's inner lane.
+            Vector3 road = new Vector3(-339.5f, 8.7f, -63.2f);
+            Vector3 left = Quaternion.Euler(0f, 117f, 0f) * Vector3.left * 6f;
+            views.Add(new View { Name = "b_road", Position = road + left, Yaw = 117f, Pitch = 3f, GroundGuessY = road.y });
+            views.Add(new View { Name = "c_sky", Position = road + left, Yaw = 117f, Pitch = -20f, GroundGuessY = road.y });
+            views.Add(new View { Name = "d_tree", Position = road, Auto = "tree", GroundGuessY = road.y, EyeHeight = 1.7f });
+        }
+        else if (site == "szczecin")
+        {
+            // The game's own start: "[actor] Initialized at [14994.0;46.8;-15235.2]" (TransiNet yard, Szczecin).
+            views.Add(new View { Name = "e_yard", Position = Vector3.zero, Pitch = 3f, Auto = "busy", GroundGuessY = 0f });
+            views.Add(new View { Name = "e_trees", Position = Vector3.zero, Pitch = 3f, Auto = "trees", GroundGuessY = 0f });
+
+            // The first 1.2 km round the start plants big_bush among the trees (checker probes 1936/1937, EtsVegetationBuilder
+            // notes); round the Dover road spot there is none within 600 m (lab log, 2026-09-25), so the bush close-up is here.
+            views.Add(new View { Name = "e_tree", Position = Vector3.zero, Auto = "tree", GroundGuessY = 0f, EyeHeight = 1.7f });
+        }
+
+        return views;
+    }
+
+    public static Vector3 CentreFor(string site)
+    {
+        if (site == "prague")
+        {
+            // The client's Prague HQ (Player.log 2026-09-25): "map centre (14501.1, 73.1, 3624.6)".
+            return new Vector3(14501.1f, 73.1f, 3624.6f);
+        }
+
+        if (site == "austria")
+        {
+            // 2026-10-27 floating ground / tunnels / invisible colliders: RL_CENTRE="gx,gy,gz" (game), default the A9/S6
+            // junction Knoten St. Michael, where the map's only "Salzburg / Graz" gantries stand (signs 42cf13e4744d0377 at
+            // game (16822, 37, 18338), 42cf13e4b5cd0384 at (17037, 41, 18249); DevTools/work/floating/probe/t2).
+            string c = Environment.GetEnvironmentVariable("RL_CENTRE");
+
+            if (!string.IsNullOrEmpty(c))
+            {
+                string[] f = c.Split(',');
+                return new Vector3(float.Parse(f[0], I), float.Parse(f[1], I), float.Parse(f[2], I));
+            }
+
+            return new Vector3(16900f, 40f, 18300f);
+        }
+
+        if (site == "graz")
+        {
+            // 2026-10-23 trees on roads (DevTools/work/trees): the motorway (ger11, road 42bf29e0d0cf8f41) on its viaduct SE of
+            // Graz, where a terrain item's tree belt stands 12.7 m under the deck. Use RL_SHOTS.
+            return new Vector3(19425.6f, 85.8f, 17738.6f);
+        }
+
+        return site == "szczecin" ? new Vector3(14994.0f, 46.8f, -15235.2f) : new Vector3(-33391.4f, 24.0f, -7420.0f);
+    }
+
+    // ------------------------------------------------------------------ hole survey (2026-09-25)
+
+    /// <summary>A place the user drove in the 2026-09-25 VR test (Player.log "in scania_s_2016 at (x, y, z)", Unity).</summary>
+    public sealed class SurveyPoint
+    {
+        public string Name;
+        public float X, Z, GuessY;
+    }
+
+    /// <summary>
+    /// Sites "doverh" and "prague": at each drive point, 8 compass directions at cab eye height (2.6 m) and 4 from 30 m
+    /// up; each view is rendered normally and once more with the sky replaced by pure magenta and post off, so every
+    /// pixel below the horizon where NOTHING is drawn (a hole: sky or void where ground, road or building should be)
+    /// is counted, ray-cast and located. Plus a 2 m ground census 60 m round the point (what the truck can fall into).
+    /// </summary>
+    public static List<SurveyPoint> SurveyFor(string site)
+    {
+        var p = new List<SurveyPoint>();
+
+        if (site == "doverh")
+        {
+            p.Add(new SurveyPoint { Name = "d1", X = 0f, Z = -6f, GuessY = 0f });      // arrival
+            p.Add(new SurveyPoint { Name = "d2", X = -53f, Z = -80f, GuessY = -1f });
+            p.Add(new SurveyPoint { Name = "d3", X = -13f, Z = -106f, GuessY = -1f });
+            p.Add(new SurveyPoint { Name = "d4", X = 43f, Z = -98f, GuessY = -1f });
+        }
+        else if (site == "prague")
+        {
+            p.Add(new SurveyPoint { Name = "p1", X = 0f, Z = 0f, GuessY = 0f });
+            p.Add(new SurveyPoint { Name = "p2", X = -39f, Z = 59f, GuessY = -1f });
+            p.Add(new SurveyPoint { Name = "p3", X = -306f, Z = 112f, GuessY = 0f });
+            p.Add(new SurveyPoint { Name = "p4", X = -372f, Z = -29f, GuessY = -1f });
+            p.Add(new SurveyPoint { Name = "p5", X = -391f, Z = 124f, GuessY = -1f });   // "fell through the world at (-396, -99, 123)"
+            p.Add(new SurveyPoint { Name = "p6", X = -619f, Z = -121f, GuessY = -3f });
+            p.Add(new SurveyPoint { Name = "p7", X = -376f, Z = 549f, GuessY = -2f });
+            p.Add(new SurveyPoint { Name = "p8", X = -712f, Z = 1159f, GuessY = -11f });
+            p.Add(new SurveyPoint { Name = "p9", X = -947f, Z = 1442f, GuessY = -11f });
+        }
+
+        return p;
+    }
+
+    static readonly StringBuilder HoleSummary = new StringBuilder();
+
+    IEnumerator Survey(List<SurveyPoint> points)
+    {
+        Width = 1280;
+        Height = 720;
+        Vector3 centre = CentreFor(Site);
+        int rendered = 0;
+        HoleSummary.AppendLine("hole survey, site " + Site + ", centre game " + centre.ToString("0.0") + " (game x = centre x + unity x, game z = centre z - unity z)");
+
+        foreach (SurveyPoint pt in points)
+        {
+            if (!string.IsNullOrEmpty(OnlyViews) && Array.IndexOf(OnlyViews.Split(','), pt.Name) < 0)
+            {
+                continue;
+            }
+
+            _focus.position = new Vector3(pt.X, pt.GuessY, pt.Z);
+            yield return Settle(pt.Name, 25f, 300f);
+            bool found = GroundAt(new Vector3(pt.X, 0f, pt.Z), pt.GuessY, out Vector3 ground);
+            HoleSummary.AppendLine();
+            HoleSummary.AppendLine("== " + pt.Name + " unity (" + pt.X.ToString("0", I) + ", " + pt.Z.ToString("0", I) + ") game (" + (centre.x + pt.X).ToString("0", I) + ", " + (centre.z - pt.Z).ToString("0", I) + "): ground " +
+                                   (found ? ground.y.ToString("0.00", I) : "NONE under the point"));
+            HoleSummary.AppendLine("   " + Census(ground, 60f, 2f));
+            _camera.transform.position = ground + Vector3.up * 2.6f;
+            _focus.position = ground;
+            yield return Settle(pt.Name + " (camera placed)", 8f, 120f);
+
+            for (int pass = 0; pass < 2; pass++)
+            {
+                float lift = pass == 0 ? 2.6f : 30f, pitch = pass == 0 ? 2f : 25f;
+                int count = pass == 0 ? 8 : 4;
+
+                for (int k = 0; k < count; k++)
+                {
+                    float yaw = k * 360f / count;
+                    Vector3 eye = ground + Vector3.up * lift;
+                    _camera.transform.SetPositionAndRotation(eye, Quaternion.Euler(pitch, yaw, 0f));
+                    yield return null;
+                    string view = pt.Name + (pass == 0 ? "_cab" : "_up") + "_y" + yaw.ToString("000", I);
+
+                    try
+                    {
+                        RenderTo(OutPrefix + "_" + view + ".png", true);
+                        string line = Holes(view, eye, ground.y, centre, out bool save, out Texture2D voidTex);
+
+                        if (save)
+                        {
+                            File.WriteAllBytes(OutPrefix + "_" + view + "_void.png", voidTex.EncodeToPNG());
+                        }
+
+                        Destroy(voidTex);
+                        HoleSummary.AppendLine("   " + line);
+                        Say("wrote " + view + ": " + line);
+                        rendered++;
+
+                        // RL_PAIRS_AB=1: the same view once more with the blended terrain pairs swapped for their
+                        // single-brush stand-ins (EtsTerrainBuilder.SetPairsVisible, the F9 key): are the pairs the holes?
+                        if (Environment.GetEnvironmentVariable("RL_PAIRS_AB") == "1")
+                        {
+                            EtsTerrainBuilder.SetPairsVisible(false);
+                            string flat = Holes(view + "_flatpairs", eye, ground.y, centre, out bool saveFlat, out Texture2D flatTex);
+
+                            if (saveFlat)
+                            {
+                                File.WriteAllBytes(OutPrefix + "_" + view + "_flatpairs_void.png", flatTex.EncodeToPNG());
+                            }
+
+                            Destroy(flatTex);
+                            EtsTerrainBuilder.SetPairsVisible(true);
+                            HoleSummary.AppendLine("   " + flat);
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Say("view " + view + " render failed: " + e);
+                    }
+                }
+            }
+
+            File.WriteAllText(OutPrefix + "_" + Site + "_holes.txt", HoleSummary.ToString());
+        }
+
+        File.WriteAllText(OutPrefix + "_" + Site + "_holes.txt", HoleSummary.ToString());
+        Finish(rendered > 0 ? 0 : 5);
+    }
+
+    /// <summary>
+    /// RL_SHOTS="name,x,y,z,yaw,pitch;..." (Unity, degrees; pitch 90 = straight down): after the stream settles round
+    /// each pose, a normal render and the magenta void render with its hole analysis (&lt;prefix&gt;_shot_&lt;name&gt;.png,
+    /// _void.png, lines in &lt;prefix&gt;_&lt;site&gt;_shots.txt).
+    /// </summary>
+    /// <summary>
+    /// 2026-10-30: RL_PICK="shot@px,py;shot@px,py" (pixels of the 1280 x 720 shot, y down): every drawn renderer whose bounds the
+    /// camera ray through that pixel crosses, nearest first, with an exact triangle test where the mesh is readable
+    /// ("TRI d" = the ray meets a triangle d metres out). Finds things with no collider (skirts, run models, decals).
+    /// </summary>
+    void Pick(string shot, StringBuilder s)
+    {
+        string spec = Environment.GetEnvironmentVariable("RL_PICK");
+
+        if (string.IsNullOrEmpty(spec))
+        {
+            return;
+        }
+
+        foreach (string one in spec.Split(';'))
+        {
+            int at = one.IndexOf('@');
+
+            if (at <= 0 || one.Substring(0, at) != shot)
+            {
+                continue;
+            }
+
+            string[] p = one.Substring(at + 1).Split(',');
+            float px = float.Parse(p[0], I), py = float.Parse(p[1], I);
+            Ray ray = _camera.ViewportPointToRay(new Vector3(px / 1280f, 1f - py / 720f, 0f));
+            var found = new List<KeyValuePair<float, string>>();
+
+            foreach (Renderer r in FindObjectsByType<Renderer>(FindObjectsSortMode.None))
+            {
+                if (!r.gameObject.activeInHierarchy || !r.bounds.IntersectRay(ray, out float d))
+                {
+                    continue;
+                }
+
+                string off = r.enabled ? "" : " [OFF]";
+
+                string tri = "";
+                MeshFilter mf = r.GetComponent<MeshFilter>();
+                Mesh mesh = mf != null ? mf.sharedMesh : null;
+
+                if (mesh != null && mesh.isReadable && !r.isPartOfStaticBatch)
+                {
+                    Vector3[] v = mesh.vertices;
+                    int[] t = mesh.triangles;
+                    Matrix4x4 m = r.transform.localToWorldMatrix;
+                    float best = float.MaxValue;
+                    Vector3 ba = default, bb = default, bc = default;
+
+                    for (int k = 0; k + 2 < t.Length; k += 3)
+                    {
+                        Vector3 ta = m.MultiplyPoint3x4(v[t[k]]), tb = m.MultiplyPoint3x4(v[t[k + 1]]), tc = m.MultiplyPoint3x4(v[t[k + 2]]);
+
+                        if (RayTri(ray, ta, tb, tc, out float hit) && hit < best)
+                        {
+                            best = hit;
+                            ba = ta; bb = tb; bc = tc;
+                        }
+                    }
+
+                    // 2026-10-31: which side the ray meets (Unity draws the side where Cross(b - a, c - a) faces the viewer) and the triangle.
+                    tri = best < float.MaxValue
+                        ? " TRI " + best.ToString("0.0", I) + (Vector3.Dot(Vector3.Cross(bb - ba, bc - ba), ray.direction) < 0f ? " front" : " BACK") +
+                          " [" + ba.ToString("0.0") + " " + bb.ToString("0.0") + " " + bc.ToString("0.0") + "]"
+                        : " no tri";
+
+                    if (best < float.MaxValue)
+                    {
+                        MeshCollider mc = r.GetComponent<MeshCollider>();
+                        tri += " {layer " + r.gameObject.layer + ", shader " + (r.sharedMaterial != null && r.sharedMaterial.shader != null ? r.sharedMaterial.shader.name : "-") +
+                               ", queue " + (r.sharedMaterial != null ? r.sharedMaterial.renderQueue : -1) + ", forceOff " + r.forceRenderingOff + ", visible " + r.isVisible +
+                               ", rlm " + r.renderingLayerMask + ", verts " + mesh.vertexCount + ", subs " + mesh.subMeshCount + ", id " + r.GetInstanceID() +
+                               ", collider " + (mc == null ? "none" : (mc.enabled ? "on" : "OFF") + (mc.sharedMesh == null ? " no mesh" : " tris " + mc.sharedMesh.triangles.Length / 3 + (mc.sharedMesh == mesh ? " same mesh" : " own mesh"))) + "}";
+                    }
+                }
+                else
+                {
+                    tri = r.isPartOfStaticBatch ? " (static batch)" : " (not readable)";
+                }
+
+                Material mat = r.sharedMaterial;
+                found.Add(new KeyValuePair<float, string>(d, PathOf(r.transform, 4) + " | " + (mat != null ? mat.name : "-") + " | bounds " +
+                    r.bounds.center.ToString("0") + " size " + r.bounds.size.ToString("0") + tri + off));
+            }
+
+            found.Sort((a, b) => a.Key.CompareTo(b.Key));
+            s.AppendLine("  pick " + one + " (ray " + ray.origin.ToString("0.0") + " dir " + ray.direction.ToString("0.000") + "): " + found.Count + " renderers");
+
+            for (int i = 0; i < found.Count && i < 30; i++)
+            {
+                s.AppendLine("    " + found[i].Key.ToString("0", I) + " m  " + found[i].Value);
+            }
+
+            // 2026-10-31: every collider along the same ray (all layers, back faces too), nearest first.
+            bool back = Physics.queriesHitBackfaces;
+            Physics.queriesHitBackfaces = true;
+            RaycastHit[] hits = Physics.RaycastAll(ray, 600f, ~0, QueryTriggerInteraction.Collide);
+            Physics.queriesHitBackfaces = back;
+            Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+            s.AppendLine("    physics: " + hits.Length + " colliders");
+
+            for (int i = 0; i < hits.Length && i < 12; i++)
+            {
+                Renderer hr = hits[i].collider.GetComponent<Renderer>();
+                s.AppendLine("      " + hits[i].distance.ToString("0.0", I) + " m  " + PathOf(hits[i].collider.transform, 5) + " layer " + hits[i].collider.gameObject.layer +
+                             " at " + hits[i].point.ToString("0.0") + " normal " + hits[i].normal.ToString("0.00") +
+                             (hr == null ? " (no renderer)" : hr.enabled ? " drawn id " + hr.GetInstanceID() : " renderer OFF"));
+            }
+        }
+    }
+
+    static bool RayTri(Ray ray, Vector3 a, Vector3 b, Vector3 c, out float t)
+    {
+        t = 0f;
+        Vector3 e1 = b - a, e2 = c - a, pv = Vector3.Cross(ray.direction, e2);
+        float det = Vector3.Dot(e1, pv);
+        if (Mathf.Abs(det) < 1e-8f) return false;
+        float inv = 1f / det;
+        Vector3 tv = ray.origin - a;
+        float u = Vector3.Dot(tv, pv) * inv;
+        if (u < 0f || u > 1f) return false;
+        Vector3 qv = Vector3.Cross(tv, e1);
+        float v = Vector3.Dot(ray.direction, qv) * inv;
+        if (v < 0f || u + v > 1f) return false;
+        t = Vector3.Dot(e2, qv) * inv;
+        return t > 0f;
+    }
+
+    IEnumerator Shots(string spec)
+    {
+        int w = Width, h = Height;
+        Width = 1280;
+        Height = 720;
+        var s = new StringBuilder();
+        Vector3 centre = CentreFor(Site);
+
+        foreach (string one in spec.Split(';'))
+        {
+            string[] f = one.Split(',');
+
+            if (f.Length < 6)
+            {
+                continue;
+            }
+
+            var eye = new Vector3(float.Parse(f[1], I), float.Parse(f[2], I), float.Parse(f[3], I));
+            _focus.position = new Vector3(eye.x, 0f, eye.z);
+            yield return Settle("shot " + f[0], 30f, 300f);
+            _camera.transform.SetPositionAndRotation(eye, Quaternion.Euler(float.Parse(f[5], I), float.Parse(f[4], I), 0f));
+            yield return Settle("shot " + f[0] + " (camera placed)", 8f, 120f);
+            yield return null;
+
+            try
+            {
+                RenderTo(OutPrefix + "_shot_" + f[0] + ".png", true);
+                GroundAt(eye, eye.y - 2f, out Vector3 ground);
+                string line = Holes("shot_" + f[0], eye, ground.y, centre, out bool save, out Texture2D voidTex);
+                File.WriteAllBytes(OutPrefix + "_shot_" + f[0] + "_void.png", voidTex.EncodeToPNG());
+                Destroy(voidTex);
+                s.AppendLine(line);
+                Pick(f[0], s);
+                Say("wrote shot " + f[0]);
+            }
+            catch (Exception e)
+            {
+                Say("shot " + f[0] + " failed: " + e);
+            }
+
+            File.WriteAllText(OutPrefix + "_" + Site + "_shots.txt", s.ToString());
+        }
+
+        // 2026-10-27 water: RL_FINDMAT="water" lists every loaded renderer whose material name contains it (Unity bounds),
+        // to <prefix>_<site>_find.txt, so views can be aimed at it.
+        string findMat = Environment.GetEnvironmentVariable("RL_FINDMAT");
+
+        if (!string.IsNullOrEmpty(findMat))
+        {
+            var fs = new StringBuilder();
+
+            foreach (Renderer r in FindObjectsByType<Renderer>(FindObjectsSortMode.None))
+            {
+                foreach (Material m in r.sharedMaterials)
+                {
+                    if (m != null && m.name.IndexOf(findMat, StringComparison.OrdinalIgnoreCase) >= 0)
+                    {
+                        Bounds b = r.bounds;
+                        fs.AppendLine(string.Format(I, "{0} | {1} | shader {2} | centre {3:F1},{4:F1},{5:F1} size {6:F1},{7:F1},{8:F1} | {9}",
+                            r.name, m.name, m.shader != null ? m.shader.name : "-", b.center.x, b.center.y, b.center.z, b.size.x, b.size.y,
+                            b.size.z, r.enabled && r.gameObject.activeInHierarchy ? "drawn" : "hidden"));
+                        break;
+                    }
+                }
+            }
+
+            File.WriteAllText(OutPrefix + "_" + Site + "_find.txt", fs.ToString());
+            Say("find " + findMat + " written");
+        }
+
+        Width = w;
+        Height = h;
+    }
+
+    /// <summary>
+    /// RL_PROBE="x,z,r,step;x,z,r,step..." (Unity): after the stream settles round each point, every collider under a
+    /// grid of points (all layers, back faces too): path, height, which way it faces, layer, drawn or not. Written to
+    /// &lt;prefix&gt;_&lt;site&gt;_probe.txt.
+    /// </summary>
+    IEnumerator Probe(string spec)
+    {
+        var s = new StringBuilder();
+
+        foreach (string one in spec.Split(';'))
+        {
+            string[] f = one.Split(',');
+
+            if (f.Length < 4)
+            {
+                continue;
+            }
+
+            // 4 fields: a square grid x,z,r,step. 5 fields: a line x0,z0,x1,z1,step.
+            bool isLine = f.Length >= 5;
+            float x = float.Parse(f[0], I), z = float.Parse(f[1], I);
+            float r = isLine ? 0f : float.Parse(f[2], I), step = float.Parse(f[isLine ? 4 : 3], I);
+            float x1 = isLine ? float.Parse(f[2], I) : x, z1 = isLine ? float.Parse(f[3], I) : z;
+            _focus.position = new Vector3((x + x1) * 0.5f, 0f, (z + z1) * 0.5f);
+            yield return Settle("probe " + one, 30f, 300f);
+            Physics.SyncTransforms();
+            bool back = Physics.queriesHitBackfaces;
+            Physics.queriesHitBackfaces = true;
+            s.AppendLine("== probe " + one);
+            var pts = new List<Vector2>();
+
+            if (isLine)
+            {
+                float len = new Vector2(x1 - x, z1 - z).magnitude;
+
+                for (float t = 0f; t <= len + 0.001f; t += step)
+                {
+                    pts.Add(Vector2.Lerp(new Vector2(x, z), new Vector2(x1, z1), len > 0f ? t / len : 0f));
+                }
+            }
+            else
+            {
+                for (float dz = -r; dz <= r + 0.001f; dz += step)
+                {
+                    for (float dx = -r; dx <= r + 0.001f; dx += step)
+                    {
+                        pts.Add(new Vector2(x + dx, z + dz));
+                    }
+                }
+            }
+
+            {
+                foreach (Vector2 pt in pts)
+                {
+                    float dx = pt.x - x, dz = pt.y - z;
+                    var o = new Vector3(x + dx, 400f, z + dz);
+                    RaycastHit[] hits = Physics.RaycastAll(o, Vector3.down, 1200f, ~0, QueryTriggerInteraction.Ignore);
+                    Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+                    var line = new StringBuilder("  (" + (x + dx).ToString("0.0", I) + ", " + (z + dz).ToString("0.0", I) + "): " + (hits.Length == 0 ? "NOTHING" : ""));
+
+                    foreach (RaycastHit h in hits)
+                    {
+                        Renderer rend = h.collider.GetComponent<Renderer>();
+                        line.Append(" [" + PathOf(h.collider.transform, 3) + " y " + h.point.y.ToString("0.00", I) + (h.normal.y < 0f ? " FACES DOWN" : "") + " L" + h.collider.gameObject.layer +
+                                    (rend == null ? " no-renderer" : rend.enabled ? "" : " renderer-off") + "]");
+                    }
+
+                    s.AppendLine(line.ToString());
+                }
+            }
+
+            Physics.queriesHitBackfaces = back;
+
+            // Every renderer whose bounds hold the probe's middle column: what is (or should be) drawn there.
+            var mid = new Vector2((x + x1) * 0.5f, (z + z1) * 0.5f);
+            s.AppendLine("  renderers over (" + mid.x.ToString("0.0", I) + ", " + mid.y.ToString("0.0", I) + "):");
+
+            foreach (Renderer rr in FindObjectsByType<Renderer>(FindObjectsSortMode.None))
+            {
+                Bounds b = rr.bounds;
+
+                if (mid.x < b.min.x || mid.x > b.max.x || mid.y < b.min.z || mid.y > b.max.z || b.size.x > 3000f)
+                {
+                    continue;
+                }
+
+                Material m = rr.sharedMaterial;
+                MeshFilter mf = rr.GetComponent<MeshFilter>();
+                Mesh mesh = mf != null ? mf.sharedMesh : null;
+                string tex = "";
+
+                if (m != null)
+                {
+                    foreach (string prop in new[] { "_BaseMap", "_MultMap" })
+                    {
+                        if (m.HasProperty(prop))
+                        {
+                            Texture t = m.GetTexture(prop);
+                            tex += " " + prop + "=" + (t != null ? t.name + (t is Texture2D t2 ? " " + t2.format : "") : "null");
+                        }
+                    }
+                }
+
+                s.AppendLine("    " + PathOf(rr.transform, 3) + (rr.enabled ? "" : " [OFF]") + (rr.gameObject.activeInHierarchy ? "" : " [INACTIVE]") + " y " + b.min.y.ToString("0.0", I) + ".." + b.max.y.ToString("0.0", I) +
+                             " mat " + (m != null ? m.name + " / " + m.shader.name + " queue " + m.renderQueue + (m.HasProperty("_LayerMode") ? " layer " + m.GetFloat("_LayerMode") : "") +
+                                                    (m.HasProperty("_Cutoff") ? " cutoff " + m.GetFloat("_Cutoff").ToString("0.00", I) : "") + " kw [" + string.Join(" ", m.shaderKeywords) + "]" + tex : "none") +
+                             (mesh != null ? " mesh " + mesh.name + " v " + mesh.vertexCount + (mesh.isReadable ? "" : " (not readable)") + " colors " + mesh.HasVertexAttribute(VertexAttribute.Color) + " uv1 " + mesh.HasVertexAttribute(VertexAttribute.TexCoord1) : ""));
+            }
+
+            File.WriteAllText(OutPrefix + "_" + Site + "_probe.txt", s.ToString());
+        }
+
+        File.WriteAllText(OutPrefix + "_" + Site + "_probe.txt", s.ToString());
+        Finish(0);
+    }
+
+    /// <summary>Cells (step m) within radius of a point with no ground-mask collider under them at all.</summary>
+    static string Census(Vector3 at, float radius, float step)
+    {
+        Physics.SyncTransforms();
+        int cells = 0, none = 0;
+        var clusters = new Dictionary<long, int>();
+
+        for (float z = -radius; z < radius; z += step)
+        {
+            for (float x = -radius; x < radius; x += step)
+            {
+                cells++;
+                var o = new Vector3(at.x + x + step * 0.5f, at.y + 400f, at.z + z + step * 0.5f);
+
+                if (!Physics.Raycast(o, Vector3.down, 1200f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore))
+                {
+                    none++;
+                    long key = ((long)Mathf.FloorToInt(o.x / 10f) << 32) ^ (uint)Mathf.FloorToInt(o.z / 10f);
+                    clusters.TryGetValue(key, out int n);
+                    clusters[key] = n + 1;
+                }
+            }
+        }
+
+        var parts = new List<KeyValuePair<long, int>>(clusters);
+        parts.Sort((p, q) => q.Value.CompareTo(p.Value));
+        var s = new StringBuilder("census " + radius.ToString("0", I) + " m round at " + step.ToString("0", I) + " m: " + none + " of " + cells + " cells have NO ground");
+
+        for (int i = 0; i < parts.Count && i < 8; i++)
+        {
+            int cx = (int)(parts[i].Key >> 32), cz = (int)(uint)(parts[i].Key & 0xFFFFFFFF);
+            s.Append(i == 0 ? "; 10 m blocks: " : ", ").Append("(" + (cx * 10 + 5) + ", " + (cz * 10 + 5) + ") x" + parts[i].Value);
+        }
+
+        return s.ToString();
+    }
+
+    static string PathOf(Transform t, int depth)
+    {
+        string s = t.name;
+
+        for (int i = 0; i < depth && t.parent != null; i++)
+        {
+            t = t.parent;
+            s = t.name + "/" + s;
+        }
+
+        return s;
+    }
+
+    /// <summary>
+    /// Where a hole ray goes through the ground: marching along it 1.5 m at a time (horizontally), the first point
+    /// with no ground-mask collider within 40 m under it (the ray is over the gap there).
+    /// </summary>
+    static bool Locate(Vector3 eye, Vector3 dir, out Vector3 at)
+    {
+        at = eye;
+        float h = new Vector2(dir.x, dir.z).magnitude;
+
+        if (h < 1e-4f)
+        {
+            return false;
+        }
+
+        float step = 1.5f / h;
+
+        for (float t = step; t * h < 2300f; t += step)
+        {
+            Vector3 q = eye + dir * t;
+
+            if (!Physics.Raycast(q + Vector3.up * 3f, Vector3.down, 43f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore))
+            {
+                at = q;
+                return true;
+            }
+        }
+
+        return false;
+    }
+
+    /// <summary>
+    /// The first collider along the ray that has a renderer (drawn from somewhere: a hole pixel on it means it is not
+    /// drawn from this side). Colliders with no renderer are passed and named; the first of them that is ground (the
+    /// ground mask) is handed back: a hole over it is invisible ground.
+    /// </summary>
+    static bool FirstDrawnHit(Vector3 eye, Vector3 dir, out RaycastHit hit, out string passed, out Vector3? invisibleGround)
+    {
+        RaycastHit[] hits = Physics.RaycastAll(eye, dir, 3000f, ~0, QueryTriggerInteraction.Ignore);
+        Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+        var names = new List<string>();
+        invisibleGround = null;
+        hit = default(RaycastHit);
+
+        foreach (RaycastHit h in hits)
+        {
+            Renderer r = h.collider.GetComponent<Renderer>();
+
+            Material hm = r != null ? r.sharedMaterial : null;
+            bool seeThrough = hm != null && (hm.renderQueue >= 2450 || (hm.HasProperty("_AlphaClipOn") && hm.GetFloat("_AlphaClipOn") > 0.5f) || hm.IsKeywordEnabled("_ALPHATEST_ON"));
+
+            if (r != null && r.enabled && !seeThrough)
+            {
+                hit = h;
+                passed = string.Join(", ", names.ToArray());
+                return true;
+            }
+
+            if (!invisibleGround.HasValue && ((1 << h.collider.gameObject.layer) & EtsLayers.GroundMask) != 0 && h.normal.y > 0.3f &&
+                !h.collider.name.StartsWith("railing", StringComparison.Ordinal) && !h.collider.name.StartsWith("coll", StringComparison.Ordinal))
+            {
+                invisibleGround = h.point;
+                names.Insert(0, PathOf(h.collider.transform, 3));
+                continue;
+            }
+
+            string n = PathOf(h.collider.transform, 2);
+
+            if (!names.Contains(n) && names.Count < 3)
+            {
+                names.Add(n);
+            }
+        }
+
+        passed = string.Join(", ", names.ToArray());
+        return false;
+    }
+
+    /// <summary>The map renderers whose bounds hold a point's column (not plants, not the whole-tile fill): what should draw there.</summary>
+    static string RenderersOver(Vector3 p)
+    {
+        var names = new List<string>();
+
+        foreach (Renderer rr in FindObjectsByType<Renderer>(FindObjectsSortMode.None))
+        {
+            Bounds b = rr.bounds;
+
+            if (p.x < b.min.x - 1f || p.x > b.max.x + 1f || p.z < b.min.z - 1f || p.z > b.max.z + 1f || b.size.x > 3000f || IsLeaves(rr))
+            {
+                continue;
+            }
+
+            Material m = rr.sharedMaterial;
+            string n = PathOf(rr.transform, 2) + (rr.enabled && rr.gameObject.activeInHierarchy ? "" : " OFF") + " y " + b.min.y.ToString("0", I) + ".." + b.max.y.ToString("0", I) +
+                       (m != null && m.HasProperty("_LayerMode") ? " L" + m.GetFloat("_LayerMode").ToString("0", I) : "") + (m != null ? " q" + m.renderQueue : "") + (rr.isPartOfStaticBatch ? " SB" : "") + (rr.isVisible ? " vis" : " NOTVIS");
+
+            if (!names.Contains(n))
+            {
+                names.Add(n);
+            }
+
+            if (names.Count >= 12)
+            {
+                break;
+            }
+        }
+
+        return string.Join(" | ", names.ToArray());
+    }
+
+    /// <summary>Every collider along a ray, back faces included, nearest first: path, distance, height, facing, drawn or not.</summary>
+    static string AllAlong(Vector3 eye, Vector3 dir)
+    {
+        bool back = Physics.queriesHitBackfaces;
+        Physics.queriesHitBackfaces = true;
+        RaycastHit[] hits = Physics.RaycastAll(eye, dir, 3000f, ~0, QueryTriggerInteraction.Ignore);
+        Physics.queriesHitBackfaces = back;
+        Array.Sort(hits, (a, b) => a.distance.CompareTo(b.distance));
+        var parts = new List<string>();
+
+        foreach (RaycastHit h in hits)
+        {
+            Renderer r = h.collider.GetComponent<Renderer>();
+            parts.Add(PathOf(h.collider.transform, 2) + " @" + h.distance.ToString("0.0", I) + "m y" + h.point.y.ToString("0.0", I) + (Vector3.Dot(h.normal, dir) > 0f ? " BACK" : "") +
+                      (r == null ? " no-r" : r.enabled ? "" : " r-off"));
+
+            if (parts.Count >= 8)
+            {
+                break;
+            }
+        }
+
+        return parts.Count == 0 ? "nothing" : string.Join(" | ", parts.ToArray());
+    }
+
+    /// <summary>What stands round a hole: the ground-mask colliders within 8 m (for naming the map item).</summary>
+    static string Around(Vector3 p)
+    {
+        var names = new List<string>();
+
+        foreach (Collider c in Physics.OverlapSphere(p, 8f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore))
+        {
+            string n = PathOf(c.transform, 2);
+
+            if (!names.Contains(n))
+            {
+                names.Add(n);
+            }
+
+            if (names.Count >= 5)
+            {
+                break;
+            }
+        }
+
+        return string.Join(" | ", names.ToArray());
+    }
+
+    sealed class HoleCell
+    {
+        public int Samples;
+        public float MinDist = float.MaxValue;
+        public Vector3 Sum;
+        public string Near = "";
+        public Vector3 Dir;
+    }
+
+    /// <summary>
+    /// Renders the view once more with post off and the sky replaced by magenta; every magenta pixel below the horizon
+    /// is a hole. Every 3rd pixel of them is ray-cast: a collider hit means something solid there is not drawn from
+    /// this side (a culled underside, an invisible collider); no hit means nothing at all is there, located where the
+    /// ray crosses the eye's ground level, in 20 m cells.
+    /// </summary>
+    string Holes(string view, Vector3 eye, float groundY, Vector3 centre, out bool save, out Texture2D tex)
+    {
+        UniversalAdditionalCameraData data = _camera.GetUniversalAdditionalCameraData();
+        data.renderPostProcessing = false;
+        CameraClearFlags flags = _camera.clearFlags;
+        Color background = _camera.backgroundColor;
+        _camera.clearFlags = CameraClearFlags.SolidColor;
+        _camera.backgroundColor = new Color(1f, 0f, 1f, 1f);
+        var rt = new RenderTexture(new RenderTextureDescriptor(Width, Height, GraphicsFormat.R8G8B8A8_SRGB, 24) { msaaSamples = 1 });
+        rt.Create();
+        RenderTexture previous = RenderTexture.active;
+
+        try
+        {
+            _camera.targetTexture = rt;
+            _camera.Render();
+            _camera.Render();
+            RenderTexture.active = rt;
+            tex = new Texture2D(Width, Height, TextureFormat.RGBA32, false, false);
+            tex.ReadPixels(new Rect(0, 0, Width, Height), 0, 0);
+            tex.Apply(false);
+        }
+        finally
+        {
+            RenderTexture.active = previous;
+            _camera.targetTexture = null;
+            _camera.clearFlags = flags;
+            _camera.backgroundColor = background;
+            data.renderPostProcessing = true;
+            rt.Release();
+            Destroy(rt);
+        }
+
+        Color32[] px = tex.GetPixels32();
+        Transform t = _camera.transform;
+        float tanV = Mathf.Tan(_camera.fieldOfView * 0.5f * Mathf.Deg2Rad), tanH = tanV * Width / Height;
+        int below = 0, holes = 0, sampled = 0, hitSolid = 0, invisibleHits = 0;
+        int[] bands = new int[5]; // <100, 100-400, 400-1200, 1200-2150, beyond (or no crossing)
+        var cells = new Dictionary<long, HoleCell>();
+        var solids = new Dictionary<string, int>();
+        Physics.SyncTransforms();
+
+        for (int y = 0; y < Height; y++)
+        {
+            float v = ((y + 0.5f) / Height) * 2f - 1f;
+
+            for (int x = 0; x < Width; x++)
+            {
+                float u = ((x + 0.5f) / Width) * 2f - 1f;
+                Vector3 dir = (t.forward + t.right * (u * tanH) + t.up * (v * tanV)).normalized;
+
+                if (dir.y > -0.002f)
+                {
+                    continue;
+                }
+
+                below++;
+                Color32 c = px[y * Width + x];
+
+                if (!(c.r > 250 && c.g < 6 && c.b > 250))
+                {
+                    continue;
+                }
+
+                holes++;
+
+                if (x % 3 != 0 || y % 3 != 0)
+                {
+                    continue;
+                }
+
+                sampled++;
+
+                if (FirstDrawnHit(eye, dir, out RaycastHit hit, out string passed, out Vector3? invisibleGround))
+                {
+                    hitSolid++;
+                    string group = PathOf(hit.collider.transform, 3) + (passed.Length > 0 ? " (behind " + passed + ")" : "");
+                    solids.TryGetValue(group, out int n);
+                    solids[group] = n + 1;
+                    continue;
+                }
+
+                if (invisibleGround.HasValue)
+                {
+                    invisibleHits++;
+                    string ig = "INVISIBLE GROUND " + passed;
+                    solids.TryGetValue(ig, out int ni);
+                    solids[ig] = ni + 1;
+                }
+
+                Vector3 p;
+
+                if (invisibleGround.HasValue)
+                {
+                    p = invisibleGround.Value;
+                }
+                else if (!Locate(eye, dir, out p))
+                {
+                    float tt = (groundY - eye.y) / dir.y;
+                    p = eye + dir * tt;
+                }
+
+                float d = new Vector2(p.x - eye.x, p.z - eye.z).magnitude;
+                int band = d < 100f ? 0 : d < 400f ? 1 : d < 1200f ? 2 : d < 2150f ? 3 : 4;
+                bands[band]++;
+
+                if (band <= 3)
+                {
+                    long key = ((long)Mathf.FloorToInt(p.x / 6f) << 32) ^ (uint)Mathf.FloorToInt(p.z / 6f);
+
+                    if (!cells.TryGetValue(key, out HoleCell cell))
+                    {
+                        cells[key] = cell = new HoleCell { Near = Around(p), Dir = dir };
+                    }
+
+                    cell.Samples++;
+                    cell.Sum += p;
+                    cell.MinDist = Mathf.Min(cell.MinDist, d);
+                }
+            }
+        }
+
+        save = holes >= 30;
+        var s = new StringBuilder(view + ": " + holes + " hole px of " + below + " below the horizon (" + (below > 0 ? 100.0 * holes / below : 0).ToString("0.000", I) + " %); sampled " + sampled +
+                                  ": solid-but-undrawn " + hitSolid + ", over invisible ground " + invisibleHits + ", nothing at <100 m " + bands[0] + ", 100-400 " + bands[1] + ", 400-1200 " + bands[2] + ", 1200-2150 " + bands[3] + ", beyond " + bands[4]);
+        var list = new List<KeyValuePair<long, HoleCell>>(cells);
+        list.Sort((a, b) => b.Value.Samples.CompareTo(a.Value.Samples));
+
+        for (int i = 0; i < list.Count && i < 10; i++)
+        {
+            HoleCell cell = list[i].Value;
+            Vector3 m = cell.Sum / cell.Samples;
+            s.Append(i == 0 ? "\n      void cells: " : "; ").Append("unity (" + m.x.ToString("0", I) + ", " + m.z.ToString("0", I) + ") game (" + (centre.x + m.x).ToString("0", I) + ", " + (centre.z - m.z).ToString("0", I) + ") " +
+                                                          cell.MinDist.ToString("0", I) + " m x" + cell.Samples + " y " + m.y.ToString("0.0", I) + " near [" + cell.Near + "]");
+
+            if (i < 3 && cell.Samples >= 5)
+            {
+                s.Append(" over it {" + RenderersOver(m) + "}");
+                s.Append(" ray [" + AllAlong(eye, cell.Dir) + "]");
+            }
+        }
+
+        var sl = new List<KeyValuePair<string, int>>(solids);
+        sl.Sort((a, b) => b.Value.CompareTo(a.Value));
+
+        for (int i = 0; i < sl.Count && i < 6; i++)
+        {
+            s.Append(i == 0 ? "\n      undrawn solids: " : "; ").Append(sl[i].Key + " x" + sl[i].Value);
+        }
+
+        return s.ToString();
+    }
+
+    static void Say(string line)
+    {
+        string text = "[RenderLab] " + line;
+        Debug.Log(text);
+        Log.AppendLine(DateTime.Now.ToString("HH:mm:ss", I) + " " + line);
+    }
+
+    void Start()
+    {
+        _start = Time.realtimeSinceStartup;
+        Application.runInBackground = true;
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = -1;
+        GameObject focus = GameObject.Find("RL Focus");
+        _focus = focus != null ? focus.transform : new GameObject("RL Focus").transform;
+        StartCoroutine(Run());
+    }
+
+    void Update()
+    {
+        if (!Done && Time.realtimeSinceStartup - _start > TimeoutSeconds)
+        {
+            Say("TIMEOUT after " + TimeoutSeconds + " s");
+            Finish(4);
+        }
+    }
+
+    void Finish(int code)
+    {
+        ExitCode = code;
+
+        try
+        {
+            File.WriteAllText(OutPrefix + "_" + Site + "_runlog.txt", Log.ToString());
+        }
+        catch (Exception e)
+        {
+            Debug.LogWarning("[RenderLab] could not write the run log: " + e.Message);
+        }
+
+        Done = true;
+    }
+
+    IEnumerator Run()
+    {
+        Say("site " + Site + " centre " + CentreFor(Site).ToString("0.0") + " out " + OutPrefix + " gfx " + SystemInfo.graphicsDeviceType + " " + SystemInfo.graphicsDeviceName +
+            " colour space " + QualitySettings.activeColorSpace + " quality " + QualitySettings.names[QualitySettings.GetQualityLevel()] + " pipeline " +
+            (GraphicsSettings.currentRenderPipeline != null ? GraphicsSettings.currentRenderPipeline.name : "none"));
+        MakeCamera();
+        List<View> views = ViewsFor(Site);
+
+        // 2026-10-14: the world's day now runs (EtsDayNight): every render that does not ask for a time is held at the
+        // session start, 10:00 in clear weather, so renders stay comparable (RL_DAYNIGHT renders other times).
+        // RL_TIME (game minutes) and RL_WEATHER (0..1) set another held moment for the other modes (RL_LAMPS at night).
+        string labTime = Environment.GetEnvironmentVariable("RL_TIME"), labWeather = Environment.GetEnvironmentVariable("RL_WEATHER");
+        EtsDayNight.LabMinutes = string.IsNullOrEmpty(labTime) ? EtsClimate.DefaultGameMinutes : double.Parse(labTime, I);
+        EtsDayNight.LabWeather = string.IsNullOrEmpty(labWeather) ? 0f : float.Parse(labWeather, I);
+
+        if (views.Count > 0)
+        {
+            _focus.position = views[0].Position;
+        }
+
+        // 1. The first build.
+        while (!EtsMapViewer.AnyCompleted)
+        {
+            yield return new WaitForSeconds(2f);
+            Say("loading " + (EtsMapViewer.LoadProgress * 100f).ToString("0", I) + " % " + EtsMapViewer.LoadStage);
+        }
+
+        Say("first build complete at " + (Time.realtimeSinceStartup - _start).ToString("0", I) + " s");
+
+        // RL_LAMPS=1: the vehicle lamp views (Lamps).
+        if (Environment.GetEnvironmentVariable("RL_LAMPS") == "1")
+        {
+            yield return Lamps();
+            yield break;
+        }
+
+        // RL_CAB=1: the cab's digital cluster display from the driver's side (Cab, 2026-10-23 mirrored-text check).
+        if (Environment.GetEnvironmentVariable("RL_CAB") == "1")
+        {
+            yield return Cab();
+            yield break;
+        }
+
+        // RL_DAYNIGHT="name:minutes:weather[:badslot];...": each view at each time and weather (DayNight, 2026-10-14).
+        string dayNight = Environment.GetEnvironmentVariable("RL_DAYNIGHT");
+
+        if (!string.IsNullOrEmpty(dayNight))
+        {
+            yield return DayNight(dayNight, views);
+            yield break;
+        }
+
+        // RL_AUDIO="name,x,y,z;...": the game's ambience and sounds run at each pose (Audio, 2026-10-14 sound agent).
+        string audioSpec = Environment.GetEnvironmentVariable("RL_AUDIO");
+
+        if (!string.IsNullOrEmpty(audioSpec))
+        {
+            yield return Audio(audioSpec);
+            yield break;
+        }
+
+        // RL_TRAFFIC="name,x,y,z,yaw,pitch;...": the AI traffic running round the first pose, then each pose rendered (Traffic).
+        string trafficSpec = Environment.GetEnvironmentVariable("RL_TRAFFIC");
+
+        if (!string.IsNullOrEmpty(trafficSpec))
+        {
+            yield return Traffic(trafficSpec);
+            yield break;
+        }
+
+        string shots = Environment.GetEnvironmentVariable("RL_SHOTS");
+
+        if (!string.IsNullOrEmpty(shots))
+        {
+            yield return Shots(shots);
+        }
+
+        // RL_GROUND="name,gx,gz,r;..." (game coordinates): the floating-ground / tunnel / invisible-collider survey (2026-10-27).
+        string ground = Environment.GetEnvironmentVariable("RL_GROUND");
+
+        if (!string.IsNullOrEmpty(ground))
+        {
+            yield return GroundSurvey(ground);
+            yield break;
+        }
+
+        string probe = Environment.GetEnvironmentVariable("RL_PROBE");
+
+        if (!string.IsNullOrEmpty(probe))
+        {
+            yield return Probe(probe);
+            yield break;
+        }
+
+        if (!string.IsNullOrEmpty(shots))
+        {
+            Finish(0);
+            yield break;
+        }
+
+        List<SurveyPoint> survey = SurveyFor(Site);
+
+        if (survey.Count > 0)
+        {
+            yield return Survey(survey);
+            yield break;
+        }
+
+        int rendered = 0;
+
+        foreach (View view in views)
+        {
+            if (!string.IsNullOrEmpty(OnlyViews) && Array.IndexOf(OnlyViews.Split(','), view.Name) < 0)
+            {
+                continue;
+            }
+
+            _focus.position = view.Position;
+            yield return Settle(view.Name, 25f, 300f);
+
+            string how;
+            Pose pose;
+
+            try
+            {
+                pose = Place(view, out how);
+            }
+            catch (Exception e)
+            {
+                Say("view " + view.Name + " could not be placed: " + e);
+                continue;
+            }
+
+            _camera.transform.SetPositionAndRotation(pose.position, pose.rotation);
+            _focus.position = pose.position;
+
+            // The camera moved: let the stream, the LODs and the vegetation catch up round it once more.
+            yield return Settle(view.Name + " (camera placed)", 8f, 120f);
+
+            // Not WaitForEndOfFrame: it never resumes in a batchmode editor (nothing presents a frame).
+            yield return null;
+
+            try
+            {
+                string file = OutPrefix + "_" + view.Name + ".png";
+                RenderTo(file, true);
+                File.WriteAllText(OutPrefix + "_" + view.Name + ".txt", Describe(view, how));
+                Say("wrote " + file + " (" + how + ")");
+                rendered++;
+
+                // Diagnostic: the same frame with the camera's post-processing off (no tone curve, grading or bloom):
+                // what the lighting and the sky put out before the post volume.
+                if (NoPost)
+                {
+                    string raw = OutPrefix + "_" + view.Name + "_nopost.png";
+                    RenderTo(raw, false);
+                    Say("wrote " + raw);
+                }
+            }
+            catch (Exception e)
+            {
+                Say("view " + view.Name + " render failed: " + e);
+            }
+        }
+
+        Finish(rendered > 0 ? 0 : 5);
+    }
+
+    // ------------------------------------------------------------------ sound (2026-10-14, sound agent)
+
+    /// <summary>
+    /// RL_AUDIO="name,x,y,z;..." (Unity): an AudioListener on the lab camera and an EtsAmbience (the game's map sound
+    /// items, default beds, weather) run at each pose for RL_AUDIO_WAIT seconds (default 60); every 5 s the listener's
+    /// output level (AudioListener.GetOutputData RMS) and the game-sound counters are logged ("[RenderLab] audio ...").
+    /// Also plays the truck/trailer/crash/UI one-shots the world now takes from the game once each through a 2D source.
+    /// </summary>
+    IEnumerator Audio(string spec)
+    {
+        var names = new List<string>();
+        var eyes = new List<Vector3>();
+        foreach (string one in spec.Split(';'))
+        {
+            string[] f = one.Split(',');
+            if (f.Length < 4) continue;
+            names.Add(f[0]);
+            eyes.Add(new Vector3(float.Parse(f[1], I), float.Parse(f[2], I), float.Parse(f[3], I)));
+        }
+        if (names.Count == 0) { Finish(2); yield break; }
+
+        if (_camera.GetComponent<AudioListener>() == null) _camera.gameObject.AddComponent<AudioListener>();
+        Say("audio: output " + AudioSettings.outputSampleRate + " Hz, " + AudioSettings.driverCapabilities + ", speaker mode " + AudioSettings.speakerMode);
+        var host = new GameObject("RL Audio");
+        EtsAmbience ambience = null;
+        float wait = float.Parse(Environment.GetEnvironmentVariable("RL_AUDIO_WAIT") ?? "60", I);
+        var data = new float[1024];
+        var shot = host.AddComponent<AudioSource>();
+        shot.spatialBlend = 0f;
+        string[] oneShots =
+        {
+            "/sound/truck/default/air_horn_default.soundref", "/sound/truck/default/noise_suspension.soundref", "/sound/truck/default/interior_noise.soundref",
+            "/sound/collisions/crash_metal.soundref", "/sound/trailer/default/trailer_brace_down.soundref", "/sound/trailer/default/trailer_noise_suspension.soundref",
+            "/sound/ui/ui_click.soundref", "/sound/world/weather_thunder.soundref", "/sound/traffic/truck_effect_gear.soundref"
+        };
+        var events = new List<EtsGameEvent>();
+
+        for (int p = 0; p < names.Count; p++)
+        {
+            _focus.position = new Vector3(eyes[p].x, 0f, eyes[p].z);
+            yield return Settle("audio " + names[p], 10f, 200f);
+            _camera.transform.position = eyes[p];
+            if (ambience == null) ambience = host.AddComponent<EtsAmbience>();
+            if (events.Count == 0) foreach (string r in oneShots) { EtsGameEvent ev = EtsGameSound.GetRef(r); if (ev != null) events.Add(ev); }
+            float t0 = Time.realtimeSinceStartup;
+            int k = 0;
+            bool played = false;
+            while (Time.realtimeSinceStartup - t0 < wait)
+            {
+                yield return new WaitForSeconds(5f);
+                AudioListener.GetOutputData(data, 0);
+                double ss = 0; for (int i = 0; i < data.Length; i++) ss += data[i] * data[i];
+                if (!played && events.Count > 0 && events.TrueForAll(e => e.Ready || e.Failed))
+                {
+                    played = true;
+                    var sb = new StringBuilder();
+                    foreach (EtsGameEvent e in events)
+                    {
+                        if (e.Ready) { e.Set("susp_speed", 2f); e.Set("Distance", 1200f); e.Set("Distance Thunder", 1200f); }
+                        bool ok = e.Ready && e.PlayOnce(shot, 0.2f);
+                        sb.Append(e.Source).Append(ok ? " played" : e.Failed ? " FAILED " + e.Failure : " silent").Append("; ");
+                    }
+                    Say("audio one-shots: " + sb);
+                    EtsUiSound.Click();
+                }
+                Say("audio " + names[p] + " t+" + (++k * 5) + " s: listener rms " + Math.Sqrt(ss / data.Length).ToString("0.00000", I) + ", game clips " + EtsGameSound.ClipCount
+                    + " (" + (EtsGameSound.PcmBytes / 1048576.0).ToString("0.0", I) + " MB), streams " + EtsGameStream.Live + " (" + (EtsGameStream.PacketBytes / 1048576.0).ToString("0.0", I) + " MB packets), sources playing " + Playing());
+            }
+        }
+        Finish(0);
+    }
+
+    static int Playing()
+    {
+        int n = 0;
+        foreach (AudioSource s in UnityEngine.Object.FindObjectsByType<AudioSource>(FindObjectsSortMode.None)) if (s.isPlaying) n++;
+        return n;
+    }
+
+    // ------------------------------------------------------------------ AI traffic (2026-10-14, traffic agent)
+
+    /// <summary>
+    /// RL_TRAFFIC="name,x,y,z,yaw,pitch;..." (Unity, degrees): the camera stands at the first pose (Camera.main is the
+    /// traffic's focus when there is no EtsNet), an EtsTraffic is added (role Local, as alone in the world) with more cars
+    /// round the one focus (PerFocus 40) and a bigger frame budget so its models build quickly, then the lab waits
+    /// RL_TRAFFIC_WAIT seconds (default 150) for the vehicles to spawn and drive in, and renders every pose to
+    /// &lt;prefix&gt;_traffic_&lt;name&gt;.png with a .txt listing the vehicles within 300 m of the camera.
+    /// </summary>
+    IEnumerator Traffic(string spec)
+    {
+        var names = new List<string>();
+        var eyes = new List<Vector3>();
+        var turns = new List<Quaternion>();
+
+        foreach (string one in spec.Split(';'))
+        {
+            string[] f = one.Split(',');
+            if (f.Length < 6) continue;
+            names.Add(f[0]);
+            eyes.Add(new Vector3(float.Parse(f[1], I), float.Parse(f[2], I), float.Parse(f[3], I)));
+            turns.Add(Quaternion.Euler(float.Parse(f[5], I), float.Parse(f[4], I), 0f));
+        }
+
+        if (names.Count == 0)
+        {
+            Finish(2);
+            yield break;
+        }
+
+        _focus.position = new Vector3(eyes[0].x, 0f, eyes[0].z);
+        yield return Settle("traffic site", 30f, 300f);
+        _camera.transform.SetPositionAndRotation(eyes[0], turns[0]);
+
+        var host = new GameObject("RL Traffic");
+        EtsTraffic traffic = host.AddComponent<EtsTraffic>();
+        traffic.PerFocus = 40;
+        traffic.MaxCars = 48;
+        traffic.FrameBudgetMs = 40f;
+        traffic.PrewarmVehicles = 40;
+        traffic.PrewarmTrailers = 10;
+        float wait = float.Parse(Environment.GetEnvironmentVariable("RL_TRAFFIC_WAIT") ?? "150", I);
+        float t0 = Time.realtimeSinceStartup;
+
+        while (Time.realtimeSinceStartup - t0 < wait)
+        {
+            yield return new WaitForSeconds(10f);
+            Say("traffic: " + (Time.realtimeSinceStartup - t0).ToString("0", I) + " s, role " + traffic.Current + ", " + Near(eyes[0], 300f, out _));
+        }
+
+        for (int i = 0; i < names.Count; i++)
+        {
+            _camera.transform.SetPositionAndRotation(eyes[i], turns[i]);
+            _focus.position = new Vector3(eyes[i].x, 0f, eyes[i].z);
+            yield return Settle("traffic " + names[i] + " (camera placed)", 3f, 60f);
+            yield return null;
+
+            try
+            {
+                string file = OutPrefix + "_traffic_" + names[i] + ".png";
+                RenderTo(file, true);
+                Near(eyes[i], 300f, out string list);
+                File.WriteAllText(OutPrefix + "_traffic_" + names[i] + ".txt", "camera " + eyes[i].ToString("0.0") + " yaw/pitch " + turns[i].eulerAngles.ToString("0") + "\n" + list);
+                Say("wrote " + file);
+            }
+            catch (Exception e)
+            {
+                Say("traffic view " + names[i] + " failed: " + e);
+            }
+        }
+
+        Finish(0);
+    }
+
+    /// <summary>The traffic vehicles and trailers shown within 'radius' of a point: a count line, and one line each.</summary>
+    static string Near(Vector3 p, float radius, out string list)
+    {
+        var s = new StringBuilder();
+        int cars = 0, trailers = 0;
+
+        foreach (string rootName in new[] { "Ets Traffic", "Ets Traffic Trailers" })
+        {
+            GameObject root = GameObject.Find(rootName);
+            if (root == null) continue;
+
+            for (int i = 0; i < root.transform.childCount; i++)
+            {
+                Transform t = root.transform.GetChild(i);
+                if (!t.gameObject.activeSelf || (t.position - p).sqrMagnitude > radius * radius) continue;
+                if (rootName == "Ets Traffic") cars++; else trailers++;
+                s.AppendLine(t.name + " at " + t.position.ToString("0.0") + " yaw " + t.eulerAngles.y.ToString("0") + " (" + (t.position - p).magnitude.ToString("0") + " m)");
+            }
+        }
+
+        list = s.ToString();
+        return cars + " vehicles and " + trailers + " trailers within " + radius.ToString("0") + " m";
+    }
+
+    // ------------------------------------------------------------------ vehicle lamps (2026-10-04, indicators agent)
+
+    /// <summary>
+    /// RL_LAMPS=1 (any site): builds a preview truck (RL_LAMPS_TRUCK, default scania.s_2016) as a puppet and an AI car
+    /// model (RL_LAMPS_CAR, default /vehicle/ai/a3/ai.pmd) on the ground near the site's first view, sets their lamps and
+    /// renders: lamps_truck_off / _left / _hazard (front-left three-quarter), lamps_truck_rear_left (behind, left
+    /// indicator + brake), lamps_car_off / lamps_car_left (rear-left, left indicator + brake), lamps_car_front_left.
+    /// </summary>
+    IEnumerator Lamps()
+    {
+        string truckId = Environment.GetEnvironmentVariable("RL_LAMPS_TRUCK");
+        if (string.IsNullOrEmpty(truckId)) truckId = "scania.s_2016";
+        string carModel = Environment.GetEnvironmentVariable("RL_LAMPS_CAR");
+        if (string.IsNullOrEmpty(carModel)) carModel = "/vehicle/ai/a3/ai.pmd";
+        List<View> views = ViewsFor(Site);
+        // An open spot: the b_road view (a country road, nothing between the camera and the vehicles), else the first view.
+        View spot = views.Find(v => v.Name == "b_road") ?? (views.Count > 0 ? views[0] : null);
+        Vector3 at = spot != null ? spot.Position : Vector3.zero;
+        float guess = spot != null ? spot.GroundGuessY : 0f;
+        _focus.position = at;
+        yield return Settle("lamps site", 20f, 240f);
+
+        GroundAt(at, guess, out Vector3 ground);
+        float yawDegrees = spot != null ? spot.Yaw : 30f;
+        Quaternion yaw = Quaternion.Euler(0f, yawDegrees, 0f);
+
+        // The truck, as a puppet (nothing takes the camera or the controls).
+        EtsTruckCatalog catalog = EtsTruckCatalog.Current ?? EtsTruckCatalog.Load(EtsEngine.Files);
+        int index = -1;
+
+        for (int i = 0; i < catalog.Trucks.Count; i++)
+        {
+            if (catalog.Trucks[i].TruckId == truckId) { index = i; break; }
+        }
+
+        EtsTruckRig rig = null;
+        string failure = null;
+        var holder = new GameObject("RL lamp truck");
+
+        if (index >= 0)
+        {
+            var id = new EtsTruckIdentity { Preview = index, CatalogueHash = catalog.Hash & 0xFF, PaintRgb = EtsTruckIdentity.SavePaint };
+            IEnumerator build = EtsTruckFactory.Build(id, holder.transform, true, r => rig = r, f => failure = f);
+            while (build.MoveNext()) yield return build.Current;
+        }
+
+        Say("lamps: truck " + truckId + " index " + index + (rig != null ? " built" : " NOT built: " + failure));
+        EtsTruckController truck = rig != null ? rig.Controller : null;
+
+        if (truck != null)
+        {
+            bool placed = false;
+            yield return rig.PlaceWhenGroundExists(ground, yawDegrees, true, 30f, ok => placed = ok);
+            for (int f = 0; f < 30; f++) yield return null; // the wheels settle
+            Say("lamps: truck placed " + placed + " at " + truck.transform.position.ToString("0.00"));
+            Rigidbody body = truck.GetComponent<Rigidbody>();
+            if (body != null) body.isKinematic = true;
+            rig.SetInteriorVisible(false);
+            truck.enabled = false;
+        }
+
+        // The AI car beside it, built the way the traffic builds its templates (EtsModelBuilder) and lit the same way.
+        Vector3 carAt = ground + yaw * new Vector3(4.5f, 0f, -1f);
+        GroundAt(carAt, ground.y, out carAt);
+        EtsVehicleLamps carLamps = null;
+        EtsModelData car = EtsEngine.LoadModel(carModel, out string carFailure);
+
+        if (car != null)
+        {
+            var carRoot = new GameObject("RL lamp car");
+            carRoot.transform.SetPositionAndRotation(carAt, yaw);
+            EtsModelBuilder.Build(car, new EtsModelBuilder.Options { CreateLocators = false }, carRoot.transform, EtsEngine.Materials);
+            carLamps = EtsVehicleLamps.Build(carRoot.transform, EtsLampSetup.For(null, p => EtsEngine.Files.ReadSii(p)), null);
+            Say("lamps: car " + carModel + " - " + carLamps.Describe());
+        }
+        else
+        {
+            Say("lamps: car " + carModel + " NOT loaded: " + carFailure);
+        }
+
+        yield return Settle("lamps vehicles", 10f, 120f);
+        int rendered = 0;
+
+        // Truck shots. Its front is +z (the model's -z), the left -x.
+        if (truck != null)
+        {
+            Vector3 o = truck.transform.position;
+            var front = new Pose(o + yaw * new Vector3(-3.5f, 1.6f, 8f), Quaternion.LookRotation(yaw * new Vector3(-0.3f, 0.6f, 2.5f) - yaw * new Vector3(-3.5f, 1.6f, 8f)));
+            var rear = new Pose(o + yaw * new Vector3(-3f, 1.5f, -9f), Quaternion.LookRotation(yaw * new Vector3(-0.3f, 0.6f, -3f) - yaw * new Vector3(-3f, 1.5f, -9f)));
+            yield return Shot(truck, 0, 0f, front, "lamps_truck_off"); rendered++;
+            yield return Shot(truck, -1, 0f, front, "lamps_truck_left"); rendered++;
+            yield return Shot(truck, 2, 0f, front, "lamps_truck_hazard"); rendered++;
+            yield return Shot(truck, -1, 1f, rear, "lamps_truck_rear_left_brake"); rendered++;
+            Say("lamps: truck " + EtsVehicleLampDriver.For(truck).Describe());
+        }
+
+        if (carLamps != null)
+        {
+            Vector3 o = carAt;
+            var carRear = new Pose(o + yaw * new Vector3(-3.5f, 1.6f, -7.5f), Quaternion.LookRotation(yaw * new Vector3(-0.3f, 0.7f, -1.8f) - yaw * new Vector3(-3.5f, 1.6f, -7.5f)));
+            var carFront = new Pose(o + yaw * new Vector3(-3.5f, 1.6f, 7.5f), Quaternion.LookRotation(yaw * new Vector3(-0.3f, 0.7f, 1.8f) - yaw * new Vector3(-3.5f, 1.6f, 7.5f)));
+            carLamps.Set(false, false, false, false);
+            carLamps.SetHead(EtsDayNight.TrafficHeadlights ? 2 : 0, false, false); // 2026-10-14: as EtsTrafficModels.SetLamps does
+            yield return CarShot(carRear, "lamps_car_off"); rendered++;
+            carLamps.Set(true, false, true, false);
+            yield return CarShot(carRear, "lamps_car_rear_left_brake"); rendered++;
+            yield return CarShot(carFront, "lamps_car_front_left"); rendered++;
+        }
+
+        Finish(rendered > 0 ? 0 : 5);
+    }
+
+    /// <summary>
+    /// RL_CAB=1 (any site; RL_LAMPS_TRUCK picks the truck, default scania.s_2016): builds the truck with its interior,
+    /// engine on, and renders the cluster display (EtsInstruments "instrument display") from the driver's side:
+    /// cab_display.png (close) and cab_wide.png, and logs which way the display text faces against the truck.
+    /// </summary>
+    IEnumerator Cab()
+    {
+        string truckId = Environment.GetEnvironmentVariable("RL_LAMPS_TRUCK");
+        if (string.IsNullOrEmpty(truckId)) truckId = "scania.s_2016";
+        List<View> views = ViewsFor(Site);
+        Vector3 at = views.Count > 0 ? views[0].Position : Vector3.zero;
+        float guess = views.Count > 0 ? views[0].GroundGuessY : 0f;
+        _focus.position = at;
+        yield return Settle("cab site", 10f, 120f);
+        GroundAt(at, guess, out Vector3 ground);
+
+        EtsTruckCatalog catalog = EtsTruckCatalog.Current ?? EtsTruckCatalog.Load(EtsEngine.Files);
+        int index = -1;
+
+        for (int i = 0; i < catalog.Trucks.Count; i++)
+        {
+            if (catalog.Trucks[i].TruckId == truckId) { index = i; break; }
+        }
+
+        EtsTruckRig rig = null;
+        string failure = null;
+        var holder = new GameObject("RL cab truck");
+
+        if (index >= 0)
+        {
+            var id = new EtsTruckIdentity { Preview = index, CatalogueHash = catalog.Hash & 0xFF, PaintRgb = EtsTruckIdentity.SavePaint };
+            IEnumerator build = EtsTruckFactory.Build(id, holder.transform, true, r => rig = r, f => failure = f);
+            while (build.MoveNext()) yield return build.Current;
+        }
+
+        EtsTruckController truck = rig != null ? rig.Controller : null;
+        Say("cab: truck " + truckId + " index " + index + (truck != null ? " built" : " NOT built: " + failure));
+
+        if (truck == null)
+        {
+            Finish(5);
+            yield break;
+        }
+
+        bool placed = false;
+        yield return rig.PlaceWhenGroundExists(ground, 0f, true, 30f, ok => placed = ok);
+        Rigidbody body = truck.GetComponent<Rigidbody>();
+        if (body != null) body.isKinematic = true;
+        rig.SetInteriorVisible(true);
+        truck.EngineRunning = true;
+        Transform display = null;
+
+        for (int f = 0; f < 600 && display == null; f++)
+        {
+            yield return null;
+            truck.EngineRunning = true;
+
+            foreach (Transform t in truck.GetComponentsInChildren<Transform>(true))
+            {
+                if (t.name == "instrument display") { display = t; break; }
+            }
+        }
+
+        if (display == null)
+        {
+            Say("cab: no instrument display found");
+            Finish(5);
+            yield break;
+        }
+
+        for (int f = 0; f < 30; f++) { truck.EngineRunning = true; yield return null; }
+        Matrix4x4 m = display.localToWorldMatrix;
+        Say("cab: display at " + display.position.ToString("0.000") + ", its +Z (text back) . truck forward = " + Vector3.Dot(display.forward, truck.transform.forward).ToString("0.000", I) +
+            ", its +X . truck right = " + Vector3.Dot(display.right, truck.transform.right).ToString("0.000", I) + ", determinant " + m.determinant.ToString("0.000000", I) +
+            ", lossy scale " + display.lossyScale.ToString("0.000") + ", active " + display.gameObject.activeInHierarchy);
+        Vector3 eye = display.position - truck.transform.forward * 0.7f + truck.transform.up * 0.25f;
+        _camera.nearClipPlane = 0.02f;
+        _camera.transform.SetPositionAndRotation(eye, Quaternion.LookRotation(display.position - eye, truck.transform.up));
+        yield return null;
+        yield return null;
+        RenderTo(OutPrefix + "_cab_display.png", true);
+        Vector3 wide = display.position - truck.transform.forward * 1.1f + truck.transform.up * 0.45f - truck.transform.right * 0.1f;
+        _camera.transform.SetPositionAndRotation(wide, Quaternion.LookRotation(display.position - wide, truck.transform.up));
+        yield return null;
+        RenderTo(OutPrefix + "_cab_wide.png", true);
+        Say("wrote " + OutPrefix + "_cab_display.png and _cab_wide.png");
+        Finish(0);
+    }
+
+    IEnumerator Shot(EtsTruckController truck, int indicator, float brake, Pose pose, string name)
+    {
+        truck.SetIndicator(indicator);
+        truck.Brake = brake;
+        truck.Gear = 0;
+        bool lit = truck.IndicatorLit;
+        EtsVehicleLampDriver.For(truck).Set(lit && (indicator == -1 || indicator == 2), lit && (indicator == 1 || indicator == 2), brake > 0.05f, false);
+        // 2026-10-14: the beams with the lamps (dusk, night: RL_TIME).
+        truck.Lights = EtsDayNight.LampsOn ? 2 : 0;
+        EtsVehicleLampDriver.For(truck).SetHead(truck.Lights, false, false);
+        yield return CarShot(pose, name);
+    }
+
+    IEnumerator CarShot(Pose pose, string name)
+    {
+        _camera.transform.SetPositionAndRotation(pose.position, pose.rotation);
+        yield return null;
+        yield return null;
+        string file = OutPrefix + "_" + name + ".png";
+        RenderTo(file, true);
+        Say("wrote " + file + " (exposure " + EtsClimate.AppliedExposure.ToString("0.000", I) + ")");
+    }
+
+
+    void MakeCamera()
+    {
+        var go = new GameObject("RL Camera");
+        go.tag = "MainCamera";
+        _camera = go.AddComponent<Camera>();
+        _camera.fieldOfView = Fov;
+        _camera.nearClipPlane = 0.1f;
+        _camera.farClipPlane = Mathf.Max(1000f, EtsClimate.Visibility);
+        _camera.allowHDR = true;
+        _camera.allowMSAA = true;
+        _camera.clearFlags = CameraClearFlags.Skybox;
+        UniversalAdditionalCameraData data = go.AddComponent<UniversalAdditionalCameraData>();
+        data.renderPostProcessing = true;
+        data.antialiasing = AntialiasingMode.None;
+        data.volumeLayerMask = 1 << 0;
+        data.volumeTrigger = go.transform;
+        data.renderShadows = true;
+        data.requiresColorOption = CameraOverrideOption.UsePipelineSettings;
+        data.requiresDepthOption = CameraOverrideOption.UsePipelineSettings;
+        data.SetRenderer(-1);
+        _camera.targetTexture = null;
+    }
+
+    // ------------------------------------------------------------------ settling
+
+    static FieldInfo _fCandidates, _fCandHead, _fBuilt, _fCombine;
+
+    static int Private(object owner, ref FieldInfo field, string name, bool countOnly)
+    {
+        try
+        {
+            if (field == null)
+            {
+                field = owner.GetType().GetField(name, BindingFlags.Instance | BindingFlags.NonPublic);
+            }
+
+            if (field == null)
+            {
+                return -1;
+            }
+
+            object value = field.GetValue(owner);
+
+            if (value == null)
+            {
+                return -1;
+            }
+
+            if (value is int i)
+            {
+                return i;
+            }
+
+            PropertyInfo count = value.GetType().GetProperty("Count");
+            return count != null ? (int)count.GetValue(value) : -1;
+        }
+        catch (Exception)
+        {
+            return -1;
+        }
+    }
+
+    string Signature(out string text)
+    {
+        EtsMapViewer viewer = EtsMapViewer.Current;
+        int built = -1, queued = -1, combine = -1;
+
+        if (viewer != null)
+        {
+            built = Private(viewer, ref _fBuilt, "_built", true);
+            int cands = Private(viewer, ref _fCandidates, "_candidates", true);
+            int head = Private(viewer, ref _fCandHead, "_candHead", false);
+            queued = cands >= 0 && head >= 0 ? cands - head : -1;
+            combine = Private(viewer, ref _fCombine, "_combineQueue", true);
+        }
+
+        int plants = EtsVegetationBuilder.PlantsPlanted;
+        int details = EtsDetailDriver.Pending;
+        int fill = EtsGroundFill.Builds;
+        text = "built " + built + ", queued " + queued + ", batching " + combine + ", plants " + plants + " (sides waiting " + EtsVegetationBuilder.SidesWaiting + "), detail jobs " + details +
+               ", ground fill builds " + fill;
+        return built + "/" + queued + "/" + combine + "/" + plants + "/" + details;
+    }
+
+    IEnumerator Settle(string what, float minSeconds, float maxSeconds)
+    {
+        float from = Time.realtimeSinceStartup;
+        string last = null;
+        float stableSince = from;
+        string text = "";
+
+        while (true)
+        {
+            yield return new WaitForSeconds(1f);
+            float now = Time.realtimeSinceStartup;
+            string sig = Signature(out text);
+
+            if (sig != last)
+            {
+                last = sig;
+                stableSince = now;
+            }
+
+            if (now - from >= minSeconds && now - stableSince >= 6f)
+            {
+                Say("settled for " + what + " after " + (now - from).ToString("0", I) + " s: " + text);
+                yield break;
+            }
+
+            if (now - from >= maxSeconds)
+            {
+                Say("NOT settled for " + what + " after " + maxSeconds + " s (rendering anyway): " + text);
+                yield break;
+            }
+        }
+    }
+
+    // ------------------------------------------------------------------ placing
+
+    static bool GroundAt(Vector3 at, float guessY, out Vector3 point)
+    {
+        Physics.SyncTransforms();
+
+        // Every surface under the point; the one nearest the expected height (a gantry, a canopy or a roof above the
+        // yard is not the ground the truck stands on).
+        RaycastHit[] hits = Physics.RaycastAll(new Vector3(at.x, guessY + 60f, at.z), Vector3.down, 400f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore);
+        float best = float.MaxValue;
+        point = new Vector3(at.x, guessY, at.z);
+
+        foreach (RaycastHit hit in hits)
+        {
+            float d = Mathf.Abs(hit.point.y - guessY);
+
+            if (d < best)
+            {
+                best = d;
+                point = hit.point;
+            }
+        }
+
+        return hits.Length > 0;
+    }
+
+    static bool IsLeaves(Renderer r)
+    {
+        Material m = r.sharedMaterial;
+        return m != null && m.shader != null && m.shader.name == "SomniumEuroTruck/Leaves";
+    }
+
+    /// <summary>One entry per plant: a LODGroup's bounds, or a leaves renderer's own when it has none.</summary>
+    /// <summary>Plant names seen by the last Plants call, with counts (for the log).</summary>
+    static readonly Dictionary<string, int> PlantKinds = new Dictionary<string, int>();
+
+    /// <summary>
+    /// One box per plant EtsVegetationBuilder planted (root "plant &lt;model path&gt;"), standing on its foot and as tall as
+    /// the stored model (LODGroup.size x scale: a leaves renderer's own bounds are grown by the reach of its cards, about
+    /// twice the tree), plus the map-placed vegetation models (leaves renderers outside any plant root, their renderer
+    /// bounds). Bushes are told by height, and by "bush" in the model path.
+    /// </summary>
+    static List<Bounds> Plants(Vector3 near, float radius)
+    {
+        var list = new List<Bounds>();
+        var seen = new HashSet<int>();
+        PlantKinds.Clear();
+
+        foreach (Renderer r in FindObjectsByType<Renderer>(FindObjectsSortMode.None))
+        {
+            if (!r.enabled || !r.gameObject.activeInHierarchy || !IsLeaves(r))
+            {
+                continue;
+            }
+
+            Transform root = r.transform;
+
+            while (root != null && !root.name.StartsWith("plant ", StringComparison.Ordinal))
+            {
+                root = root.parent;
+            }
+
+            Bounds b;
+            string kind;
+
+            if (root != null)
+            {
+                if (!seen.Add(root.GetInstanceID()))
+                {
+                    continue;
+                }
+
+                LODGroup group = root.GetComponent<LODGroup>();
+                float scale = root.lossyScale.y;
+                float height = group != null ? group.size * scale : r.bounds.size.y * 0.5f;
+                kind = root.name.Substring(6);
+
+                if (kind.IndexOf("bush", StringComparison.OrdinalIgnoreCase) >= 0)
+                {
+                    height = Mathf.Min(height, 4f);
+                }
+
+                Vector3 foot = root.position;
+                b = new Bounds(foot + Vector3.up * height * 0.5f, new Vector3(height * 0.6f, height, height * 0.6f));
+            }
+            else
+            {
+                b = r.bounds;
+                kind = "(map model) " + r.gameObject.name;
+            }
+
+            if (Flat(b.center - near) <= radius)
+            {
+                list.Add(b);
+                PlantKinds.TryGetValue(kind, out int n);
+                PlantKinds[kind] = n + 1;
+            }
+        }
+
+        return list;
+    }
+
+    static string KindsText()
+    {
+        var parts = new List<string>();
+
+        foreach (KeyValuePair<string, int> k in PlantKinds)
+        {
+            parts.Add(k.Key + " x" + k.Value);
+        }
+
+        parts.Sort(StringComparer.Ordinal);
+        return string.Join(", ", parts.ToArray());
+    }
+
+    Pose Place(View view, out string how)
+    {
+        GroundAt(view.Position, view.GroundGuessY, out Vector3 ground);
+        Vector3 eye = view.Ground ? ground + Vector3.up * view.EyeHeight : view.Position;
+        float yaw = view.Yaw;
+        how = "ground " + ground.ToString("0.00");
+
+        if (view.Auto == "trees" || view.Auto == "busy")
+        {
+            // The yaw (15 degree steps) whose 60 degree cone holds the most plants (trees) or renderers (busy) 25-400 m away.
+            var points = new List<Vector3>();
+
+            if (view.Auto == "trees")
+            {
+                foreach (Bounds b in Plants(eye, 400f))
+                {
+                    points.Add(b.center);
+                }
+            }
+            else
+            {
+                foreach (Renderer r in FindObjectsByType<Renderer>(FindObjectsSortMode.None))
+                {
+                    if (r.enabled && r.gameObject.activeInHierarchy && r.gameObject != _camera.gameObject)
+                    {
+                        points.Add(r.bounds.center);
+                    }
+                }
+            }
+
+            int best = 0;
+            float bestYaw = yaw;
+
+            for (int step = 0; step < 24; step++)
+            {
+                float y = step * 15f;
+                Vector3 dir = Quaternion.Euler(0f, y, 0f) * Vector3.forward;
+                int count = 0;
+
+                foreach (Vector3 p in points)
+                {
+                    Vector3 d = p - eye;
+                    d.y = 0f;
+                    float m = d.magnitude;
+
+                    if (m < 25f || m > 400f)
+                    {
+                        continue;
+                    }
+
+                    if (Vector3.Angle(dir, d) <= 30f)
+                    {
+                        count++;
+                    }
+                }
+
+                if (count > best)
+                {
+                    best = count;
+                    bestYaw = y;
+                }
+            }
+
+            yaw = bestYaw;
+            how += ", auto " + view.Auto + " yaw " + yaw.ToString("0", I) + " (" + best + " of " + points.Count + " in the cone)";
+        }
+        else if (view.Auto == "tree")
+        {
+            Pose closeUp;
+
+            if (TreeCloseUp(view, out closeUp, out string found))
+            {
+                how += ", " + found;
+                return closeUp;
+            }
+
+            how += ", " + found;
+        }
+
+        return new Pose(eye, Quaternion.Euler(view.Pitch, yaw, 0f));
+    }
+
+    /// <summary>
+    /// A tree (5 m or taller) with a bush (0.4-4.5 m) beside it, nearest the spot first: the camera 11 m from the pair at
+    /// 1.7 m above ground within 3 m of the tree's foot, from the first of twelve directions with a clear line of sight
+    /// (no collider in between, not inside another plant), looking at the pair.
+    /// </summary>
+    bool TreeCloseUp(View view, out Pose pose, out string found)
+    {
+        pose = default(Pose);
+        List<Bounds> plants = Plants(view.Position, 1500f);
+        var trees = new List<Bounds>();
+        var bushes = new List<Bounds>();
+        var heights = new int[8];
+
+        foreach (Bounds b in plants)
+        {
+            heights[Mathf.Clamp((int)(b.size.y / 5f), 0, 7)]++;
+
+            if (b.size.y >= 5f && b.size.y <= 40f)
+            {
+                trees.Add(b);
+            }
+            else if (b.size.y >= 0.4f && b.size.y < 4.5f)
+            {
+                bushes.Add(b);
+            }
+        }
+
+        trees.Sort((p, q) => Flat(p.center - view.Position).CompareTo(Flat(q.center - view.Position)));
+        found = plants.Count + " plants within 1500 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes" + "; kinds: " + KindsText();
+
+        for (int pass = 0; pass < 2; pass++)
+        {
+            int looked = 0;
+
+            foreach (Bounds tree in trees)
+            {
+                if (++looked > 3000)
+                {
+                    break;
+                }
+
+                Bounds bush = tree;
+                bool hasBush = false;
+                float nearest = 15f;
+
+                foreach (Bounds b in bushes)
+                {
+                    float d = Flat(b.center - tree.center);
+
+                    if (d < nearest)
+                    {
+                        nearest = d;
+                        bush = b;
+                        hasBush = true;
+                    }
+                }
+
+                if (pass == 0 && !hasBush)
+                {
+                    continue;
+                }
+
+                Vector3 foot = new Vector3(tree.center.x, tree.min.y, tree.center.z);
+                Vector3 target = Vector3.Lerp(new Vector3(tree.center.x, tree.min.y + tree.size.y * 0.35f, tree.center.z), bush.center, hasBush ? 0.4f : 0f);
+                Vector3 pairMid = hasBush ? (foot + new Vector3(bush.center.x, bush.min.y, bush.center.z)) * 0.5f : foot;
+
+                for (int step = 0; step < 12; step++)
+                {
+                    Vector3 dir = Quaternion.Euler(0f, step * 30f, 0f) * Vector3.forward;
+                    Vector3 at = pairMid + dir * 11f;
+
+                    if (!GroundAt(at, tree.min.y, out Vector3 ground) || Mathf.Abs(ground.y - tree.min.y) > 3f)
+                    {
+                        continue;
+                    }
+
+                    Vector3 eye = ground + Vector3.up * view.EyeHeight;
+                    Vector3 toTarget = target - eye;
+
+                    if (Physics.Raycast(eye, toTarget.normalized, toTarget.magnitude - 1.5f, ~0, QueryTriggerInteraction.Ignore))
+                    {
+                        continue;
+                    }
+
+                    bool inside = false;
+
+                    foreach (Bounds p in plants)
+                    {
+                        Bounds grown = p;
+                        grown.Expand(0.6f);
+
+                        if (grown.Contains(eye))
+                        {
+                            inside = true;
+                            break;
+                        }
+                    }
+
+                    if (inside)
+                    {
+                        continue;
+                    }
+
+                    pose = new Pose(eye, Quaternion.LookRotation(toTarget, Vector3.up));
+                    found += "; tree " + tree.size.y.ToString("0.0", I) + " m tall at " + tree.center.ToString("0.0") + (hasBush ? ", bush " + bush.size.y.ToString("0.0", I) + " m at " + bush.center.ToString("0.0") + " (" + nearest.ToString("0.0", I) + " m from the tree)" : ", no bush beside it") +
+                             ", camera " + Flat(foot - eye).ToString("0.0", I) + " m from the tree, from " + (step * 30) + " deg, " + Flat(tree.center - view.Position).ToString("0", I) + " m from the spot";
+                    return true;
+                }
+            }
+        }
+
+        found += "; NO clear view of a tree";
+        return false;
+    }
+
+    static float Flat(Vector3 v)
+    {
+        v.y = 0f;
+        return v.magnitude;
+    }
+
+    // ------------------------------------------------------------------ rendering
+
+    void RenderTo(string file, bool post)
+    {
+        _camera.GetUniversalAdditionalCameraData().renderPostProcessing = post;
+        var rt = new RenderTexture(new RenderTextureDescriptor(Width, Height, GraphicsFormat.R8G8B8A8_SRGB, 24) { msaaSamples = 1 });
+        rt.name = "RL target";
+        rt.Create();
+        RenderTexture previous = RenderTexture.active;
+
+        try
+        {
+            _camera.targetTexture = rt;
+            _camera.farClipPlane = Mathf.Max(1000f, EtsClimate.Visibility);
+
+            // Twice: the first frame at a new place warms per-camera state (LOD choice, shadow cascades, the leaves' camera frame).
+            _camera.Render();
+            _camera.Render();
+            RenderTexture.active = rt;
+            var tex = new Texture2D(Width, Height, TextureFormat.RGBA32, false, false);
+            tex.ReadPixels(new Rect(0, 0, Width, Height), 0, 0);
+            tex.Apply(false);
+            File.WriteAllBytes(file, tex.EncodeToPNG());
+            Destroy(tex);
+        }
+        finally
+        {
+            RenderTexture.active = previous;
+            _camera.targetTexture = null;
+            rt.Release();
+            Destroy(rt);
+        }
+    }
+
+    string Describe(View view, string how)
+    {
+        var s = new StringBuilder();
+        Transform t = _camera.transform;
+        s.AppendLine("view " + view.Name + " site " + Site + " centre game " + CentreFor(Site).ToString("0.0"));
+        s.AppendLine("camera unity " + t.position.ToString("0.00") + " euler " + t.eulerAngles.ToString("0.0") + " fov(v) " + _camera.fieldOfView + " near " + _camera.nearClipPlane +
+                     " far " + _camera.farClipPlane + " " + Width + "x" + Height + " hdr " + _camera.allowHDR + " post on");
+        s.AppendLine("placement: " + how);
+        s.AppendLine("fog " + RenderSettings.fog + " " + RenderSettings.fogMode + " " + RenderSettings.fogStartDistance.ToString("0") + "-" + RenderSettings.fogEndDistance.ToString("0") +
+                     " density " + RenderSettings.fogDensity.ToString("0.000000", I) + " colour " + RenderSettings.fogColor.ToString("0.000"));
+        SphericalHarmonicsL2 sh = RenderSettings.ambientProbe;
+        s.AppendLine("ambient " + RenderSettings.ambientMode + " sky " + RenderSettings.ambientSkyColor.ToString("0.000") + " equator " + RenderSettings.ambientEquatorColor.ToString("0.000") +
+                     " ground " + RenderSettings.ambientGroundColor.ToString("0.000") + " intensity " + RenderSettings.ambientIntensity.ToString("0.00", I) + " probe DC " +
+                     sh[0, 0].ToString("0.000", I) + "/" + sh[1, 0].ToString("0.000", I) + "/" + sh[2, 0].ToString("0.000", I));
+        Light sun = RenderSettings.sun;
+        s.AppendLine("sun " + (sun != null ? sun.name + " intensity " + sun.intensity.ToString("0.000", I) + " colour " + sun.color.ToString("0.000") + " shadows " + sun.shadows + " strength " +
+                                             sun.shadowStrength.ToString("0.00", I) + " forward " + sun.transform.forward.ToString("0.000") + " euler " + sun.transform.eulerAngles.ToString("0.0") : "none"));
+        s.AppendLine("skybox " + (RenderSettings.skybox != null ? RenderSettings.skybox.name + " / " + RenderSettings.skybox.shader.name : "none") + " reflection " + RenderSettings.defaultReflectionMode +
+                     " intensity " + RenderSettings.reflectionIntensity.ToString("0.00", I));
+        EtsClimate climate = EtsMapViewer.Current != null ? EtsMapViewer.Current.Climate : null;
+        s.AppendLine("climate " + (climate != null ? climate.ToString() : "none"));
+        s.AppendLine("post " + (EtsPostFx.Current != null ? EtsPostFx.Current.Summary : "no EtsPostFx"));
+
+        foreach (Volume v in FindObjectsByType<Volume>(FindObjectsSortMode.None))
+        {
+            var comps = new List<string>();
+
+            if (v.sharedProfile != null)
+            {
+                foreach (VolumeComponent c in v.sharedProfile.components)
+                {
+                    comps.Add(c.GetType().Name + (c.active ? "" : "(off)"));
+                }
+            }
+
+            s.AppendLine("volume '" + v.name + "' global " + v.isGlobal + " priority " + v.priority + " weight " + v.weight.ToString("0.00", I) + " layer " + v.gameObject.layer + ": " +
+                         string.Join(", ", comps.ToArray()));
+        }
+
+        Signature(out string sig);
+        s.AppendLine("stream: " + sig);
+        s.AppendLine("lod bias " + QualitySettings.lodBias + ", shadow distance (pipeline) " +
+                     (GraphicsSettings.currentRenderPipeline is UniversalRenderPipelineAsset urp ? urp.shadowDistance.ToString("0", I) + " cascades " + urp.shadowCascadeCount + " msaa " + urp.msaaSampleCount + " hdr " + urp.supportsHDR + " render scale " + urp.renderScale : "?"));
+        return s.ToString();
+    }
+
+    // ------------------------------------------------------------------ time of day and weather (2026-10-14, day/night agent)
+
+    /// <summary>
+    /// RL_DAYNIGHT="name:minutes:weather[:badslot];..." (any site): each view (RL_VIEWS) is placed once and rendered at every
+    /// spec - EtsDayNight's lab clock held at the game minutes (600 = 10:00), the weather mix 0 nice .. 1 bad, the bad slot
+    /// (default the hash's) - after waiting for the sky's panoramas and the stars to be read. Gives
+    /// &lt;prefix&gt;_&lt;view&gt;_&lt;name&gt;.png (+ .txt with the day line).
+    /// </summary>
+    IEnumerator DayNight(string spec, List<View> views)
+    {
+        int rendered = 0;
+
+        foreach (View view in views)
+        {
+            if (!string.IsNullOrEmpty(OnlyViews) && Array.IndexOf(OnlyViews.Split(','), view.Name) < 0)
+            {
+                continue;
+            }
+
+            _focus.position = view.Position;
+            yield return Settle(view.Name, 25f, 300f);
+            Pose pose;
+            string how;
+
+            try
+            {
+                pose = Place(view, out how);
+            }
+            catch (Exception e)
+            {
+                Say("view " + view.Name + " could not be placed: " + e);
+                continue;
+            }
+
+            _camera.transform.SetPositionAndRotation(pose.position, pose.rotation);
+            _focus.position = pose.position;
+            yield return Settle(view.Name + " (camera placed)", 8f, 120f);
+
+            foreach (string item in spec.Split(';'))
+            {
+                string[] p = item.Split(':');
+
+                if (p.Length < 3)
+                {
+                    continue;
+                }
+
+                EtsDayNight.LabMinutes = double.Parse(p[1], I);
+                EtsDayNight.LabWeather = float.Parse(p[2], I);
+                EtsDayNight.LabBadSlot = p.Length > 3 ? int.Parse(p[3], I) : -1;
+
+                // The driver steps every quarter second; the sky reads its panoramas on a worker.
+                float until = Time.realtimeSinceStartup + 40f;
+                yield return new WaitForSecondsRealtime(3f);
+
+                while (Time.realtimeSinceStartup < until && EtsSky.Note().IndexOf(" 0 being read", StringComparison.Ordinal) < 0)
+                {
+                    yield return new WaitForSecondsRealtime(0.5f);
+                }
+
+                yield return new WaitForSecondsRealtime(2f);
+                yield return null;
+
+                try
+                {
+                    string file = OutPrefix + "_" + view.Name + "_" + p[0] + ".png";
+                    RenderTo(file, true);
+                    EtsClimate day = EtsDayNight.Day;
+                    File.WriteAllText(OutPrefix + "_" + view.Name + "_" + p[0] + ".txt", (day != null ? day.DayLine() : "no day") + "\n" + EtsSky.Note() + "\n" + EtsWetSurfaces.Describe() + "\n" + EtsNightLights.Describe() + "\n" + Describe(view, how));
+                    Say("wrote " + file + " (" + (day != null ? day.DayLine() : "no day") + ")");
+                    rendered++;
+                }
+                catch (Exception e)
+                {
+                    Say("day/night " + p[0] + " render failed: " + e);
+                }
+            }
+        }
+
+        EtsDayNight.LabMinutes = -1.0;
+        EtsDayNight.LabWeather = -1f;
+        Finish(rendered > 0 ? 0 : 5);
+    }
+
+    // ------------------------------------------------------------------ ground survey (2026-10-27: floating ground, tunnels, invisible colliders)
+
+    /// <summary>
+    /// RL_GROUND="name,gx,gz,r;..." (GAME coordinates, any site): after the stream and the ground fill settle round each point,
+    /// measures within r metres (a square): (A) ground-fill triangles floating over something (more than 3 m of air under
+    /// them) or more than 5 m above every terrain top 25 m round them; (B) terrain skirts hanging in the air (their foot 2 m
+    /// or more above anything) or hanging into a road's 5 m clearance; (C) terrain / fill / skirt / undrawn colliders inside
+    /// the 4.75 m clearance over every road and junction surface (RL_GROUND_GRID m grid, default 4; "covered" = something
+    /// drawn 4.75-80 m over the road: a tunnel, a mountain or a bridge); (D) every collider with nothing drawn on it, by kind
+    /// and name, and items whose colliders stand with no renderer at all. Writes &lt;prefix&gt;_&lt;site&gt;_ground.txt.
+    /// </summary>
+    IEnumerator GroundSurvey(string spec)
+    {
+        Vector3 centre = CentreFor(Site);
+        var report = new StringBuilder();
+        var totals = new GsTotals();
+        float grid = float.Parse(Environment.GetEnvironmentVariable("RL_GROUND_GRID") ?? "4", I);
+        report.AppendLine("ground survey, site " + Site + " centre game " + centre.ToString("0.0") + ", clearance grid " + grid.ToString("0.0", I) + " m");
+
+        foreach (string one in spec.Split(';'))
+        {
+            string[] f = one.Split(',');
+
+            if (f.Length < 4)
+            {
+                continue;
+            }
+
+            string name = f[0];
+            float gx = float.Parse(f[1], I), gz = float.Parse(f[2], I), r = float.Parse(f[3], I);
+            var at = new Vector3(gx - centre.x, 0f, centre.z - gz);
+            _focus.position = at;
+            yield return Settle("ground " + name, 30f, 300f);
+            yield return SettleFill("ground " + name, 150f);
+            Physics.SyncTransforms();
+
+            try
+            {
+                var pt = new GsTotals();
+                MeasureGround(name, at, r, grid, centre, pt);
+                report.AppendLine(pt.Line(name + " game (" + gx.ToString("0", I) + ", " + gz.ToString("0", I) + ") r " + r.ToString("0", I)));
+                totals.Add(pt);
+                Say("ground " + name + ": " + pt.Short());
+            }
+            catch (Exception e)
+            {
+                Say("ground " + name + " failed: " + e);
+                report.AppendLine(name + " FAILED " + e.Message);
+            }
+
+            File.WriteAllText(OutPrefix + "_" + Site + "_ground.txt", report + "\n" + totals.Full());
+        }
+
+        File.WriteAllText(OutPrefix + "_" + Site + "_ground.txt", report + "\n" + totals.Full());
+        Say("wrote ground survey " + OutPrefix + "_" + Site + "_ground.txt: " + totals.Short());
+        Finish(0);
+    }
+
+    /// <summary>Waits until the ground fill's tiles stop changing (their count and vertices) for 8 s.</summary>
+    IEnumerator SettleFill(string what, float maxSeconds)
+    {
+        float from = Time.realtimeSinceStartup, stable = from;
+        long last = -1;
+
+        while (Time.realtimeSinceStartup - from < maxSeconds)
+        {
+            yield return new WaitForSeconds(1f);
+            long sig = 0;
+            GameObject root = GameObject.Find("ground fill");
+
+            if (root != null)
+            {
+                foreach (MeshFilter mf in root.GetComponentsInChildren<MeshFilter>(false))
+                {
+                    if (mf.sharedMesh != null) sig = sig * 31 + mf.sharedMesh.vertexCount + 1;
+                }
+            }
+
+            if (sig != last)
+            {
+                last = sig;
+                stable = Time.realtimeSinceStartup;
+            }
+            else if (Time.realtimeSinceStartup - stable >= 8f)
+            {
+                Say("fill settled for " + what + " after " + (Time.realtimeSinceStartup - from).ToString("0", I) + " s");
+                yield break;
+            }
+        }
+
+        Say("fill NOT settled for " + what + " after " + maxSeconds + " s");
+    }
+
+    sealed class GsSpot
+    {
+        public float Score;
+        public string Text;
+    }
+
+    sealed class GsTotals
+    {
+        public double FillArea, FillFloatArea, FillAboveRingArea, SkirtArea, SkirtHangArea, SkirtRoadArea;
+        public int FillTris, FillFloatTris, SkirtSegs, SkirtHangSegs, SkirtRoadSegs, RoadCells, CoveredCells;
+        public readonly Dictionary<string, int> Clearance = new Dictionary<string, int>();
+        public readonly Dictionary<string, int> Undrawn = new Dictionary<string, int>();
+        public readonly Dictionary<string, int> UndrawnOverRoad = new Dictionary<string, int>();
+        public readonly Dictionary<string, List<string>> Examples = new Dictionary<string, List<string>>();
+
+        public static void Example(Dictionary<string, List<string>> d, string key, string text)
+        {
+            if (!d.TryGetValue(key, out List<string> l)) d[key] = l = new List<string>();
+            if (l.Count < 6) l.Add(text);
+        }
+        public int DeadItems, Colliders, UndrawnColliders;
+        public readonly List<GsSpot> FillSpots = new List<GsSpot>(), SkirtSpots = new List<GsSpot>(), ClearSpots = new List<GsSpot>(), DeadSpots = new List<GsSpot>();
+
+        public static void Bump(Dictionary<string, int> d, string k, int n = 1)
+        {
+            d.TryGetValue(k, out int v);
+            d[k] = v + n;
+        }
+
+        public static void Spot(List<GsSpot> list, float score, string text)
+        {
+            list.Add(new GsSpot { Score = score, Text = text });
+
+            if (list.Count > 400)
+            {
+                list.Sort((a, b) => b.Score.CompareTo(a.Score));
+                list.RemoveRange(200, list.Count - 200);
+            }
+        }
+
+        public void Add(GsTotals o)
+        {
+            FillArea += o.FillArea; FillFloatArea += o.FillFloatArea; FillAboveRingArea += o.FillAboveRingArea; SkirtArea += o.SkirtArea; SkirtHangArea += o.SkirtHangArea; SkirtRoadArea += o.SkirtRoadArea;
+            FillTris += o.FillTris; FillFloatTris += o.FillFloatTris; SkirtSegs += o.SkirtSegs; SkirtHangSegs += o.SkirtHangSegs; SkirtRoadSegs += o.SkirtRoadSegs; RoadCells += o.RoadCells; CoveredCells += o.CoveredCells;
+            foreach (var kv in o.Clearance) Bump(Clearance, kv.Key, kv.Value);
+            foreach (var kv in o.Undrawn) Bump(Undrawn, kv.Key, kv.Value);
+            foreach (var kv in o.UndrawnOverRoad) Bump(UndrawnOverRoad, kv.Key, kv.Value);
+            foreach (var kv in o.Examples) foreach (string e in kv.Value) Example(Examples, kv.Key, e);
+            DeadItems += o.DeadItems; Colliders += o.Colliders; UndrawnColliders += o.UndrawnColliders;
+            foreach (GsSpot s in o.FillSpots) Spot(FillSpots, s.Score, s.Text);
+            foreach (GsSpot s in o.SkirtSpots) Spot(SkirtSpots, s.Score, s.Text);
+            foreach (GsSpot s in o.ClearSpots) Spot(ClearSpots, s.Score, s.Text);
+            foreach (GsSpot s in o.DeadSpots) Spot(DeadSpots, s.Score, s.Text);
+        }
+
+        static string Dict(Dictionary<string, int> d, int max)
+        {
+            var l = new List<KeyValuePair<string, int>>(d);
+            l.Sort((a, b) => b.Value.CompareTo(a.Value));
+            var s = new StringBuilder();
+            for (int i = 0; i < l.Count && i < max; i++) s.Append(i == 0 ? "" : "; ").Append(l[i].Key + " x" + l[i].Value);
+            return s.ToString();
+        }
+
+        static int Sum(Dictionary<string, int> d)
+        {
+            int n = 0;
+            foreach (var kv in d) n += kv.Value;
+            return n;
+        }
+
+        public string Short()
+        {
+            return "fill floating " + FillFloatArea.ToString("0", I) + " m2 (" + FillFloatTris + " tris; above all terrain round it " + FillAboveRingArea.ToString("0", I) + " m2) of " + FillArea.ToString("0", I) +
+                   " m2; skirts hanging in air " + SkirtHangSegs + " segs / " + SkirtHangArea.ToString("0", I) + " m2, into road clearance " + SkirtRoadSegs + " segs of " + SkirtSegs +
+                   "; road cells " + RoadCells + " (covered " + CoveredCells + "), clearance hits " + Sum(Clearance) + "; colliders " + Colliders + ", undrawn " + UndrawnColliders + ", undrawn over roads " + Sum(UndrawnOverRoad) + ", dead items " + DeadItems;
+        }
+
+        public string Line(string head)
+        {
+            return head + ": " + Short() + "\n    clearance: " + Dict(Clearance, 12) + "\n    undrawn over roads: " + Dict(UndrawnOverRoad, 12);
+        }
+
+        public string Full()
+        {
+            var s = new StringBuilder("TOTALS: " + Short() + "\n");
+            s.AppendLine("  clearance over roads by what: " + Dict(Clearance, 40));
+            s.AppendLine("  undrawn colliders over roads by kind/name: " + Dict(UndrawnOverRoad, 40));
+            s.AppendLine("  undrawn colliders by kind/name: " + Dict(Undrawn, 60));
+            foreach (var kv in Examples) { s.AppendLine("  examples of " + kv.Key + ":"); foreach (string e in kv.Value) s.AppendLine("    " + e); }
+            foreach (var pair in new[] { new KeyValuePair<string, List<GsSpot>>("floating fill", FillSpots), new KeyValuePair<string, List<GsSpot>>("skirts", SkirtSpots),
+                                         new KeyValuePair<string, List<GsSpot>>("road clearance", ClearSpots), new KeyValuePair<string, List<GsSpot>>("dead items", DeadSpots) })
+            {
+                pair.Value.Sort((a, b) => b.Score.CompareTo(a.Score));
+                s.AppendLine("  worst " + pair.Key + ":");
+                for (int i = 0; i < pair.Value.Count && i < 30; i++) s.AppendLine("    " + pair.Value[i].Text);
+            }
+            return s.ToString();
+        }
+    }
+
+    const int LabShadowLayer = 30;
+
+    /// <summary>RL_GROUND reads the skirt and terrain meshes one by one: the map viewer must not static-batch them (EtsMapViewer.StaticBatching, by reflection so older code still compiles).</summary>
+    /// <summary>RL_SKIRTDEBUG="x0,z0,x1,z1" (Unity): EtsTerrainBuilder logs its skirt decisions there (by reflection, so older code still compiles).</summary>
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    static void SkirtDebug()
+    {
+        string spec = Environment.GetEnvironmentVariable("RL_SKIRTDEBUG");
+        if (string.IsNullOrEmpty(spec)) return;
+        string[] f = spec.Split(',');
+        FieldInfo field = typeof(EtsTerrainBuilder).GetField("SkirtDebugBox", BindingFlags.Public | BindingFlags.Static);
+        if (field != null && f.Length == 4) field.SetValue(null, new Vector4(float.Parse(f[0], I), float.Parse(f[1], I), float.Parse(f[2], I), float.Parse(f[3], I)));
+        Debug.Log("[RenderLab] skirt debug box " + spec + (field != null ? "" : " (field not found)"));
+    }
+
+    /// <summary>RL_LATECLAMP=1: every terrain-item side is clamped out of the lanes late (EtsTerrainBuilder.ForceLateClamps, by reflection).</summary>
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    static void LateClamps()
+    {
+        if (string.IsNullOrEmpty(Environment.GetEnvironmentVariable("RL_LATECLAMP"))) return;
+        FieldInfo field = typeof(EtsTerrainBuilder).GetField("ForceLateClamps", BindingFlags.Public | BindingFlags.Static);
+        if (field != null) field.SetValue(null, true);
+        Debug.Log("[RenderLab] late clamps forced" + (field != null ? "" : " (field not found)"));
+    }
+
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    static void NoBatchingForTheSurvey()
+    {
+        if (string.IsNullOrEmpty(Environment.GetEnvironmentVariable("RL_GROUND")) && string.IsNullOrEmpty(Environment.GetEnvironmentVariable("RL_PICK"))) return;
+        FieldInfo f = typeof(EtsMapViewer).GetField("StaticBatching", BindingFlags.Public | BindingFlags.Static);
+        if (f != null) f.SetValue(null, false);
+        Debug.Log("[RenderLab] static batching " + (f != null ? "OFF for the ground survey" : "switch not found (older code): skirt meshes may be batched"));
+    }
+
+    /// <summary>The map group (roads, terrain items, prefabs, models, runs, signs) a collider's object belongs to, and its item.</summary>
+    static string GroupOf(Transform t, out Transform item)
+    {
+        item = null;
+        Transform prev = null, prev2 = null;
+
+        for (Transform p = t; p != null; p = p.parent)
+        {
+            if (p.name == "Ets Map")
+            {
+                item = prev2;
+                return prev != null ? prev.name : "";
+            }
+
+            prev2 = prev;
+            prev = p;
+        }
+
+        return t.root != null ? t.root.name : "";
+    }
+
+    static string KindOf(Collider c, out Transform item)
+    {
+        item = null;
+
+        if (EtsGroundFill.IsFill(c)) return "fill";
+
+        string n = c.gameObject.name;
+
+        if (n == "LAB skirt") return "skirt";
+
+        string g = GroupOf(c.transform, out item);
+
+        if (n.StartsWith("terrain ", StringComparison.Ordinal) || n.StartsWith("prefab terrain ", StringComparison.Ordinal))
+        {
+            return n.Contains("invisible") || n.EndsWith(" inv", StringComparison.Ordinal) ? "terrain-inv" : "terrain";
+        }
+
+        if (g == "roads") return n.StartsWith("railing", StringComparison.Ordinal) ? "railing" : "road";
+        if (g == "prefabs") return "prefab";
+        if (g == "models") return "model";
+        if (g == "runs") return "run";
+        if (g == "signs") return "sign";
+        return "other:" + g;
+    }
+
+    static readonly Dictionary<int, bool> DrawnCache = new Dictionary<int, bool>();
+
+    /// <summary>Whether something is drawn where this collider is: its own renderer, or (a terrain flat stand-in) its blended twin.</summary>
+    static bool Drawn(Collider c)
+    {
+        int id = c.GetInstanceID();
+
+        if (DrawnCache.TryGetValue(id, out bool d)) return d;
+
+        Renderer r = c.GetComponent<Renderer>();
+        d = r != null && r.enabled && r.sharedMaterial != null && c.gameObject.activeInHierarchy;
+
+        if (!d && r != null && c.name.StartsWith("terrain ", StringComparison.Ordinal) && !c.name.Contains("invisible") && c.transform.parent != null)
+        {
+            MeshFilter mf = c.GetComponent<MeshFilter>();
+            int tris = mf != null && mf.sharedMesh != null ? (int)mf.sharedMesh.GetIndexCount(0) : -1;
+
+            foreach (Transform sib in c.transform.parent)
+            {
+                Renderer sr = sib.GetComponent<Renderer>();
+                MeshFilter sf = sib.GetComponent<MeshFilter>();
+
+                if (sr != null && sr.enabled && sf != null && sf.sharedMesh != null && (int)sf.sharedMesh.GetIndexCount(0) == tris)
+                {
+                    d = true;
+                    break;
+                }
+            }
+        }
+
+        DrawnCache[id] = d;
+        return d;
+    }
+
+    static string Pattern(Collider c, string kind, Transform item)
+    {
+        string n = System.Text.RegularExpressions.Regex.Replace(c.gameObject.name, "[0-9]+", "N");
+        string it = item != null ? item.name : "";
+        return kind + " " + (kind == "model" || kind == "prefab" || kind == "run" || kind == "sign" ? it + " / " : "") + n;
+    }
+
+    static string G(Vector3 centre, Vector3 p)
+    {
+        return "game (" + (centre.x + p.x).ToString("0", I) + ", " + (centre.y + p.y).ToString("0", I) + ", " + (centre.z - p.z).ToString("0", I) + ")";
+    }
+
+    static bool IsRoadSurface(RaycastHit h, string kind, Transform item)
+    {
+        if (h.normal.y < 0.8f) return false;
+        if (kind == "road") return true;
+
+        // A junction's lanes, yards and car parks: a prefab piece within 1.5 m of the prefab's own level (not a roof).
+        return kind == "prefab" && item != null && Mathf.Abs(item.InverseTransformPoint(h.point).y) < 1.5f;
+    }
+
+    void MeasureGround(string name, Vector3 at, float r, float step, Vector3 centre, GsTotals t)
+    {
+        DrawnCache.Clear();
+        int all = ~((1 << LabShadowLayer) | (1 << EtsLayers.Vehicle) | (1 << EtsLayers.Player) | (1 << EtsLayers.Ui) | (1 << EtsLayers.IgnoreRaycast));
+        int withSkirts = all | (1 << LabShadowLayer);
+        var shadows = new List<GameObject>();
+
+        // Lab-only colliders on the skirts (they have none in the world) so the rays see them.
+        foreach (MeshRenderer mr in FindObjectsByType<MeshRenderer>(FindObjectsSortMode.None))
+        {
+            if (mr.gameObject.name != "terrain skirt" || !mr.enabled || !mr.gameObject.activeInHierarchy) continue;
+            Bounds b = mr.bounds;
+            if (b.max.x < at.x - r - 50f || b.min.x > at.x + r + 50f || b.max.z < at.z - r - 50f || b.min.z > at.z + r + 50f) continue;
+            MeshFilter mf = mr.GetComponent<MeshFilter>();
+            if (mf == null || mf.sharedMesh == null) continue;
+            var go = new GameObject("LAB skirt");
+            go.layer = LabShadowLayer;
+            go.transform.SetParent(mr.transform, false);
+            go.AddComponent<MeshCollider>().sharedMesh = mf.sharedMesh;
+            shadows.Add(go);
+        }
+
+        Physics.SyncTransforms();
+        bool back = Physics.queriesHitBackfaces;
+        Physics.queriesHitBackfaces = true;
+        var hits = new RaycastHit[64];
+
+        try
+        {
+            // (A) ground fill
+            GameObject fillRoot = GameObject.Find("ground fill");
+
+            if (fillRoot != null)
+            {
+                foreach (MeshFilter mf in fillRoot.GetComponentsInChildren<MeshFilter>(false))
+                {
+                    Mesh m = mf.sharedMesh;
+                    if (m == null || !m.isReadable) continue;
+                    Vector3[] v = m.vertices;
+                    int[] tri = m.triangles;
+                    Transform tt = mf.transform;
+
+                    for (int k = 0; k + 2 < tri.Length; k += 3)
+                    {
+                        Vector3 a = tt.TransformPoint(v[tri[k]]), b = tt.TransformPoint(v[tri[k + 1]]), c = tt.TransformPoint(v[tri[k + 2]]);
+                        Vector3 ctr = (a + b + c) / 3f;
+                        if (Mathf.Abs(ctr.x - at.x) > r || Mathf.Abs(ctr.z - at.z) > r) continue;
+                        float area = Vector3.Cross(b - a, c - a).magnitude * 0.5f;
+                        t.FillTris++;
+                        t.FillArea += area;
+
+                        // What is under it (not the fill itself).
+                        int n = Physics.RaycastNonAlloc(ctr + Vector3.down * 0.05f, Vector3.down, hits, 3000f, all, QueryTriggerInteraction.Ignore);
+                        float below = float.MinValue;
+                        Collider under = null;
+
+                        for (int q = 0; q < n; q++)
+                        {
+                            if (EtsGroundFill.IsFill(hits[q].collider)) continue;
+                            if (hits[q].point.y > below) { below = hits[q].point.y; under = hits[q].collider; }
+                        }
+
+                        float gap = under != null ? ctr.y - below : 0f;
+
+                        // The terrain round it (8 rays 25 m out): the highest terrain top in each.
+                        float ring = float.MinValue;
+                        int ringHits = 0;
+
+                        if (gap <= 3f)
+                        {
+                            for (int dir = 0; dir < 8; dir++)
+                            {
+                                float ang = dir * Mathf.PI / 4f;
+                                var o = new Vector3(ctr.x + Mathf.Cos(ang) * 25f, ctr.y + 1500f, ctr.z + Mathf.Sin(ang) * 25f);
+                                int nn = Physics.RaycastNonAlloc(o, Vector3.down, hits, 3000f, all, QueryTriggerInteraction.Ignore);
+                                float top = float.MinValue;
+
+                                for (int q = 0; q < nn; q++)
+                                {
+                                    string kk = KindOf(hits[q].collider, out _);
+                                    if ((kk == "terrain" || kk == "terrain-inv") && hits[q].point.y > top) top = hits[q].point.y;
+                                }
+
+                                if (top > float.MinValue) { ringHits++; ring = Mathf.Max(ring, top); }
+                            }
+                        }
+
+                        bool aboveRing = ringHits >= 3 && ctr.y > ring + 5f;
+
+                        if (gap > 3f || aboveRing)
+                        {
+                            t.FillFloatTris++;
+                            t.FillFloatArea += area;
+                            if (aboveRing) t.FillAboveRingArea += area;
+                            string uk = under != null ? KindOf(under, out _) + " " + PathOf(under.transform, 2) : "nothing";
+                            GsTotals.Spot(t.FillSpots, (gap > 3f ? gap : ctr.y - ring) * Mathf.Sqrt(area), name + " " + G(centre, ctr) + " fill " + mf.name + " area " + area.ToString("0", I) + " m2 " +
+                                                                            (gap > 3f ? "air under it " + gap.ToString("0.0", I) + " m over [" + uk + "]" : "above all terrain round it by " + (ctr.y - ring).ToString("0.0", I) + " m"));
+                        }
+                    }
+                }
+            }
+
+            // (B) skirts
+            foreach (GameObject go in shadows)
+            {
+                MeshFilter mf = go.transform.parent.GetComponent<MeshFilter>();
+                Vector3[] v = mf.sharedMesh.vertices;
+                Vector3[] nrm = mf.sharedMesh.normals;
+                Transform tt = mf.transform;
+
+                for (int k = 0; k + 3 < v.Length; k += 4)
+                {
+                    Vector3 a = tt.TransformPoint(v[k]), b = tt.TransformPoint(v[k + 1]), c = tt.TransformPoint(v[k + 2]), d = tt.TransformPoint(v[k + 3]);
+                    Vector3 top = (a + b) * 0.5f, bot = (c + d) * 0.5f;
+                    if (Mathf.Abs(top.x - at.x) > r || Mathf.Abs(top.z - at.z) > r) continue;
+                    float len = new Vector2(b.x - a.x, b.z - a.z).magnitude, hgt = top.y - bot.y, area = len * hgt;
+                    t.SkirtSegs++;
+                    t.SkirtArea += area;
+                    // The builder looks for the ground 0.35 m outside the edge (EtsTerrainBuilder.SkirtEdge): so does this, at three points along the foot.
+                    Vector3 outw = nrm != null && nrm.Length > k ? tt.TransformDirection(nrm[k]) : Vector3.zero;
+                    outw.y = 0f;
+                    outw = outw.sqrMagnitude > 1e-6f ? outw.normalized * 0.35f : Vector3.zero;
+                    bool hang = true;
+                    for (int f3 = 0; f3 < 3 && hang; f3++)
+                    {
+                        Vector3 foot = Vector3.Lerp(c, d, f3 == 0 ? 0.1f : f3 == 1 ? 0.5f : 0.9f) + outw;
+                        hang = !Physics.Raycast(foot + Vector3.up * 0.8f, Vector3.down, 2.8f, EtsLayers.GroundMask, QueryTriggerInteraction.Ignore);
+                    }
+
+                    // A road or junction surface under the wall within 5 m of its foot.
+                    string road = null;
+                    float roadY = 0f;
+
+                    for (int f3 = 0; f3 < 3 && road == null; f3++)
+                    {
+                        Vector3 over = Vector3.Lerp(a, b, f3 == 0 ? 0.1f : f3 == 1 ? 0.5f : 0.9f);
+                        int n = Physics.RaycastNonAlloc(over + Vector3.up * 0.3f, Vector3.down, hits, hgt + 6f, all, QueryTriggerInteraction.Ignore);
+
+                        for (int q = 0; q < n; q++)
+                        {
+                            string kk = KindOf(hits[q].collider, out Transform it);
+
+                            if (IsRoadSurface(hits[q], kk, it) && hits[q].point.y < over.y - 0.1f && hits[q].point.y > bot.y - 5f)
+                            {
+                                road = PathOf(hits[q].collider.transform, 2);
+                                roadY = hits[q].point.y;
+                            }
+                        }
+                    }
+
+                    if (hang)
+                    {
+                        t.SkirtHangSegs++;
+                        t.SkirtHangArea += area;
+                    }
+
+                    if (road != null)
+                    {
+                        t.SkirtRoadSegs++;
+                        t.SkirtRoadArea += area;
+                    }
+
+                    if (hang || road != null)
+                    {
+                        GsTotals.Spot(t.SkirtSpots, area + (road != null ? 1000f : 0f), name + " " + G(centre, top) + " skirt of " + PathOf(tt, 2) + " " + len.ToString("0.0", I) + " x " + hgt.ToString("0.0", I) + " m" +
+                                                                         (hang ? " HANGS (foot " + G(centre, bot) + " has nothing within 2 m under it)" : "") + (road != null ? " OVER ROAD " + road + " foot " + (bot.y - roadY).ToString("0.0", I) + " m above it" : ""));
+                    }
+                }
+            }
+
+            // (C) the 4.75 m clearance over every road and junction surface, on a grid
+            var cellClear = new HashSet<long>();
+
+            for (float z = at.z - r; z <= at.z + r; z += step)
+            {
+                for (float x = at.x - r; x <= at.x + r; x += step)
+                {
+                    int n = Physics.RaycastNonAlloc(new Vector3(x, 4000f, z), Vector3.down, hits, 8000f, all, QueryTriggerInteraction.Ignore);
+
+                    for (int q = 0; q < n; q++)
+                    {
+                        RaycastHit h = hits[q];
+                        string kind = KindOf(h.collider, out Transform item);
+                        if (!IsRoadSurface(h, kind, item)) continue;
+                        t.RoadCells++;
+                        Vector3 p = h.point + Vector3.up * 0.25f;
+
+                        // Covered: something drawn 4.75 to 80 m over the road (tunnel roof, mountain, bridge).
+                        bool covered = false;
+                        RaycastHit[] up = Physics.RaycastAll(p, Vector3.up, 80f, withSkirts, QueryTriggerInteraction.Ignore);
+
+                        foreach (RaycastHit u in up)
+                        {
+                            if (u.distance > 4.75f && u.collider.gameObject.layer != LabShadowLayer && Drawn(u.collider)) { covered = true; break; }
+                        }
+
+                        if (covered) t.CoveredCells++;
+
+                        foreach (RaycastHit u in up)
+                        {
+                            if (u.distance > 4.75f || u.collider == h.collider) continue;
+                            string uk = KindOf(u.collider, out Transform uit);
+                            bool drawn = uk == "skirt" || uk == "fill" || Drawn(u.collider);
+
+                            // An undrawn surface with a drawn one within 0.6 m (a building's collision hull inside its walls) is backed.
+                            bool backed = drawn;
+
+                            if (!drawn)
+                            {
+                                foreach (Collider near in Physics.OverlapSphere(u.point, 0.6f, all, QueryTriggerInteraction.Ignore))
+                                {
+                                    if (near != u.collider && near != h.collider && Drawn(near)) { backed = true; break; }
+                                }
+                            }
+
+                            string what = null;
+                            float above = u.distance + 0.25f;
+
+                            if (uk == "terrain" || uk == "fill" || uk == "skirt" || uk == "terrain-inv") what = uk + (drawn ? "" : backed ? " (undrawn, backed)" : " (undrawn)");
+                            else if (!backed) what = "undrawn " + uk;
+
+                            if (what == null) continue;
+
+                            string key = what + (above < 0.6f ? " poking <0.6 m" : "") + (covered ? " in covered road" : " over open road");
+                            GsTotals.Bump(t.Clearance, key);
+
+                            if (!backed) GsTotals.Bump(t.UndrawnOverRoad, Pattern(u.collider, uk, uit));
+
+                            long cell = ((long)Mathf.FloorToInt(x / 20f) << 32) ^ (uint)Mathf.FloorToInt(z / 20f);
+
+                            if (cellClear.Add(cell))
+                            {
+                                GsTotals.Example(t.Examples, key, name + " " + G(centre, h.point) + ": " + PathOf(u.collider.transform, 3) + " " + above.ToString("0.0", I) + " m over " + PathOf(h.collider.transform, 2));
+                                GsTotals.Spot(t.ClearSpots, (4.75f - u.distance) + (covered ? 5f : 0f) + (above >= 0.6f && (uk == "terrain" || uk == "fill" || uk == "skirt") ? 10f : 0f),
+                                    name + " " + G(centre, h.point) + " " + key + ": " + PathOf(u.collider.transform, 3) + " " + above.ToString("0.0", I) + " m over " + PathOf(h.collider.transform, 2));
+                            }
+                        }
+                    }
+                }
+            }
+
+            // (D) every collider round the point, drawn or not; items whose colliders stand with nothing drawn at all
+            var deadSeen = new HashSet<int>();
+
+            foreach (Collider c in Physics.OverlapBox(at, new Vector3(r, 4000f, r), Quaternion.identity, all, QueryTriggerInteraction.Ignore))
+            {
+                if (EtsGroundFill.IsFill(c)) continue;
+                string kind = KindOf(c, out Transform item);
+                if (kind.StartsWith("other:", StringComparison.Ordinal)) continue;
+                t.Colliders++;
+
+                if (!Drawn(c))
+                {
+                    t.UndrawnColliders++;
+                    GsTotals.Bump(t.Undrawn, Pattern(c, kind, item));
+                }
+
+                if (item != null && kind != "terrain" && kind != "terrain-inv" && deadSeen.Add(item.GetInstanceID()))
+                {
+                    bool any = false;
+
+                    foreach (Renderer rr in item.GetComponentsInChildren<Renderer>(false))
+                    {
+                        if (rr.enabled && rr.sharedMaterial != null) { any = true; break; }
+                    }
+
+                    if (!any)
+                    {
+                        t.DeadItems++;
+                        Bounds b = c.bounds;
+                        GsTotals.Spot(t.DeadSpots, b.size.magnitude, name + " " + G(centre, b.center) + " " + kind + " " + item.name + " colliders with nothing drawn, size " + b.size.ToString("0.0"));
+                    }
+                }
+            }
+        }
+        finally
+        {
+            Physics.queriesHitBackfaces = back;
+
+            foreach (GameObject go in shadows)
+            {
+                Destroy(go);
+            }
+        }
+    }
+}

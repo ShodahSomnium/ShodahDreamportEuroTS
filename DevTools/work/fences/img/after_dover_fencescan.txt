@@ -1,0 +1,66 @@
+FenceScanLab radius 400 m: 11312 renderers, 292468 fence/railing/run triangles, 452629 other triangles, 2044 ms
+overlapping coplanar same-facing pairs touching a run/railing: 2106 (2188.22 m2); within one item (joints): 9 (0.01 m2); opposite-facing coplanar pairs: 3900
+by category:
+     1224.282 m2    1196 pairs  run x run
+      903.977 m2     403 pairs  run x prefabs
+       27.289 m2     413 pairs  run x terrain items
+       22.201 m2      26 pairs  run x models
+       10.465 m2      59 pairs  run x roads
+        0.006 m2       9 pairs  run (same item)
+by item kind (top 40), with the first place (unity x,y,z):
+      818.489 m2      37 pairs  cross: run:building bld_model.92/piece 2 | run:building bld_model.91/piece 2  @ (365.1, -5.6, -155.4)
+      268.123 m2      20 pairs  cross: run:building bld_model.92/piece 1 | run:building bld_model.91/piece 2  @ (342.1, -5.6, -155.8)
+      220.712 m2      71 pairs  cross: run:building bld_model.20/piece 2 | prefabs:prefab 49uk/piece 5  @ (67.9, -0.6, 360.7)
+      202.334 m2      65 pairs  cross: run:building bld_model.20/piece 1 | prefabs:prefab 49uk/piece 5  @ (62.8, -0.6, 357.6)
+      155.514 m2      94 pairs  cross: run:building bld_model.20/piece 1 | prefabs:prefab 5uk/piece 3  @ (138.1, -0.4, 364.5)
+      151.258 m2      87 pairs  cross: run:building bld_model.20/piece 2 | prefabs:prefab 5uk/piece 3  @ (133.7, -0.4, 365.3)
+      148.335 m2      57 pairs  cross: run:building bld_model.20/piece 0 | prefabs:prefab 49uk/piece 5  @ (63.9, -0.6, 360.9)
+       29.394 m2       8 pairs  cross: run:building bld_model.20/piece 0 | run:building bld_model.20/piece 2  @ (98.5, -0.3, 294.4)
+       24.009 m2      14 pairs  cross: run:building bld_model.20/piece 0 | prefabs:prefab 5uk/piece 3  @ (146.6, -0.4, 347.9)
+       21.981 m2       4 pairs  cross: run:building bld_model.16/piece 8 | models:model 171/piece 0  @ (131.1, -2.8, -92.7)
+       21.767 m2       8 pairs  cross: run:building bld_model.20/piece 2 | run:building bld_model.20/piece 0  @ (66.2, -0.6, 359.9)
+       20.718 m2     304 pairs  cross: run:curve at_2i00j/piece 34 | terrain items:bezier patch/terrain patch share_42  @ (233.1, 0.0, 179.6)
+       18.043 m2      10 pairs  cross: run:building bld_model.20/piece 2 | run:building bld_model.20/piece 2  @ (142.0, -0.4, 361.6)
+        8.826 m2      20 pairs  cross: run:building bld_model.20/piece 1 | run:building bld_model.20/piece 2  @ (138.1, -0.4, 364.5)
+        8.438 m2       6 pairs  cross: run:building bld_model.20/piece 1 | run:building bld_model.20/piece 1  @ (73.7, -0.6, 363.1)
+        8.191 m2      34 pairs  cross: run:building bld_model.16/piece 11 | roads:road look8/median 6  @ (54.9, -0.6, 44.7)
+        7.074 m2       4 pairs  cross: run:building bld_model.20/piece 0 | run:building bld_model.20/piece 0  @ (67.9, -0.6, 362.6)
+        5.063 m2      10 pairs  cross: run:building bld_model.92/piece 2 | run:building bld_model.92/piece 1  @ (146.2, -5.6, -153.6)
+        5.032 m2      14 pairs  cross: run:building bld_model.20/piece 2 | run:building bld_model.20/piece 1  @ (67.9, -0.6, 360.7)
+        4.942 m2      15 pairs  cross: run:building bld_model.59/piece 5 | run:building bld_model.59/piece 1  @ (-38.5, -0.2, 295.2)
+        4.737 m2       2 pairs  cross: run:building bld_model.91/piece 2 | run:building bld_model.91/piece 1  @ (7.8, -5.6, -213.5)
+        3.977 m2      62 pairs  cross: run:curve at_2i00j/piece 34 | terrain items:bezier patch/terrain patch share_43 + share_42  @ (244.4, 0.0, 179.6)
+        2.646 m2     194 pairs  cross: run:building bld_model.16/piece 8 | run:building bld_model.16/piece 1  @ (-40.4, -0.4, -92.9)
+        2.496 m2      18 pairs  cross: run:building bld_model.91/piece 1 | run:building bld_model.91/piece 2  @ (113.2, -5.6, -182.0)
+        2.421 m2      34 pairs  cross: run:curve at_2i00j/piece 35 | terrain items:bezier patch/terrain patch share_42  @ (222.5, 0.0, 177.5)
+        1.927 m2       4 pairs  cross: run:building bld_model.59/piece 4 | roads:road look8/terrain skirt  @ (164.8, -1.7, 90.8)
+        1.712 m2       6 pairs  cross: run:building bld_model.142/piece 0 | run:building bld_model.142/piece 0  @ (44.0, -3.3, 31.8)
+        1.330 m2      15 pairs  cross: run:building bld_model.59/piece 3 | run:building bld_model.16/piece 11  @ (39.6, -0.4, -166.1)
+        1.103 m2      15 pairs  cross: run:curve rus_14013/piece 1 | run:curve ibe_14006/piece 1  @ (267.1, 0.0, 193.3)
+        0.985 m2      65 pairs  cross: run:building bld_model.16/piece 2 | run:building bld_model.16/piece 9  @ (186.5, -0.2, -19.5)
+        0.970 m2       2 pairs  cross: run:building bld_model.20/piece 1 | run:building bld_model.20/piece 0  @ (62.8, -0.6, 357.6)
+        0.892 m2       7 pairs  cross: run:building bld_model.20/piece 1 | prefabs:prefab 5uk/piece 4  @ (146.6, -0.4, 343.2)
+        0.877 m2      66 pairs  cross: run:building bld_model.16/piece 8 | run:building bld_model.16/piece 8  @ (3.3, -0.4, -92.1)
+        0.742 m2       7 pairs  cross: run:building bld_model.92/piece 1 | run:building bld_model.92/piece 2  @ (182.6, -5.6, -165.6)
+        0.692 m2       6 pairs  cross: run:building bld_model.187/piece 1 | run:building bld_model.187/piece 5  @ (221.4, 0.8, -2.7)
+        0.664 m2      16 pairs  cross: run:building bld_model.16/piece 13 | run:building bld_model.59/piece 4  @ (35.0, -0.4, -167.2)
+        0.629 m2      37 pairs  cross: run:building bld_model.16/piece 9 | run:building bld_model.16/piece 9  @ (160.1, 0.7, 39.8)
+        0.621 m2      13 pairs  cross: run:building bld_model.59/piece 6 | run:building bld_model.59/piece 1  @ (219.6, -0.3, 9.7)
+        0.598 m2      59 pairs  cross: run:building bld_model.16/piece 1 | run:building bld_model.16/piece 8  @ (152.0, -0.4, 39.9)
+        0.584 m2      36 pairs  cross: run:building bld_model.16/piece 9 | run:building bld_model.16/piece 2  @ (162.7, -0.2, -31.2)
+worst 10 m cells (unity x, z):
+      254.955 m2 at x 340..350, z -150..-140
+      214.314 m2 at x 360..370, z -150..-140
+      206.867 m2 at x 360..370, z -160..-150
+      160.011 m2 at x 350..360, z -160..-150
+      129.851 m2 at x 330..340, z -160..-150
+       98.425 m2 at x 340..350, z -160..-150
+       97.003 m2 at x 140..150, z 350..360
+       95.491 m2 at x 60..70, z 360..370
+       81.155 m2 at x 140..150, z 360..370
+       54.339 m2 at x 50..60, z 370..380
+       53.713 m2 at x 50..60, z 380..390
+       53.540 m2 at x 150..160, z 360..370
+       52.137 m2 at x 60..70, z 350..360
+       51.796 m2 at x 50..60, z 340..350
+       47.766 m2 at x 140..150, z 340..350

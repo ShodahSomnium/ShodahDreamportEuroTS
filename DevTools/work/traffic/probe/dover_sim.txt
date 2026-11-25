@@ -1,0 +1,13 @@
+dover: lanes 1381 in 2 sectors, 237 ms
+  lanes by country: uk 1381
+    140 road lanes within 1.5 km: uk expressway urban car 48 truck 48 bus 48 km/h
+    80 road lanes within 1.5 km: uk expressway car 113 truck 97 bus 97 km/h
+    62 road lanes within 1.5 km: uk local_road urban car 48 truck 48 bus 48 km/h
+    25 road lanes within 1.5 km: uk local_road car 97 truck 80 bus 80 km/h
+    16 road lanes within 1.5 km: uk motorway car 113 truck 97 bus 113 km/h
+  start mix uk (id 10, mph): 168 vehicles, 65 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  prepare 795 ms
+  300 s: steps mean 0.079 ms, p99.9 0.952, max after 2 s 5.87 ms; cars max 30, stopped share 28.0%
+  spawned 86, removed far 56 stuck 3 deadend 0 lost 0; junction waits 40740, entered unheld 0, priority give-ways 4843; by kind 57 car, 5 police, 2 truck_light, 2 truck_medium, 0 truck_heavy, 15 truck, 5 bus, trailers 15
+  tractor boxes overlapping (0.3 m in): 0 pairs, 0 pair-seconds
+  on the road at the end: 17 car, 1 bus, 2 truck_medium, 5 truck, 1 truck_light, 1 police; examples: tourliner_p 42 km/h back 6.0 m; daily.tow.eu.car2 68 km/h back 4.0 m; daf.2021.xf_4x2+scs_box.curtain.default 51 km/h back 13.9 m; larus.rack 0 km/h back 3.9 m; jaguar_xf.pol_uk 0 km/h back 2.4 m; lowcab 0 km/h back 3.3 m; renault.t.evo_hi_4x2+scs_logs 15 km/h back 13.4 m; mercedes.actros_2014.st_6x2+scs_brick_r 19 km/h back 14.4 m

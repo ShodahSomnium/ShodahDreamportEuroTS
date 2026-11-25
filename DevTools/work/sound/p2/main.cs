@@ -1,0 +1,6 @@
+using System; using System.Linq; using SomniumSpace.Worlds.SomniumEuroTruck.Ets;
+static class P { static void Main(string[] a){
+  var fs = EtsFileSystem.Mount("E:/SteamLibrary/steamapps/common/Euro Truck Simulator 2 Demo", out _);
+  switch(a[0]){ case "tmap": TM.Run(fs,a.Skip(1).ToArray()); break; case "ev": EV2.Run(fs,a.Skip(1).ToArray()); break; case "cat": Console.WriteLine(fs.ReadText(a[1])); break;
+    case "gmap": GM.Run(fs,a.Skip(1).ToArray()); break; case "prof": PROF.Run(fs,a.Skip(1).ToArray()); break; case "strm": STRM.Run(fs,a.Skip(1).ToArray()); break; case "dec": DEC.Run(fs,a.Skip(1).ToArray()); break; case "pk": PK.Run(fs,a.Skip(1).ToArray()); break; case "pk2": PK2.Run(fs,a.Skip(1).ToArray()); break; case "hdr": HDR.Run(fs,a.Skip(1).ToArray()); break; case "hx": HX.Run(fs,a.Skip(1).ToArray()); break; case "shall": SHALL.Run(fs,a.Skip(1).ToArray()); break; case "tl": TL.Run(fs,a.Skip(1).ToArray()); break; case "msnd": MS.Run(fs,a.Skip(1).ToArray()); break; case "chk": CHK.Run(fs,a.Skip(1).ToArray()); break; case "heavy": HV.Run(fs,a.Skip(1).ToArray()); break; case "cat2": CT.Run(fs); break; case "ls": fs.TryList(a[1], out var f, out var d); Console.WriteLine("dirs: "+string.Join(" ",d)); Console.WriteLine("files: "+string.Join(" ",f)); break;
+    default: X.Run(fs,a); break; } } }

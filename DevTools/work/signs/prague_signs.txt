@@ -1,0 +1,392 @@
+46 m (14515.4,72.4,3581.2) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+63 m (14456.4,72.4,3580.8) BOARDS 693 traffic_signals_cr-sk [/model/sign/traffic/traffic_signals.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+79 m (14571.3,72.4,3587.4) BOARDS 1640 hw left 2 cz [/model/sign/navigation/cz/hw_left_2_cz.pmd] look= | city1_0=cz_wroclw_wr
+87 m (14569.2,72.4,3570.4) BOARDS 696 main_road_cr-sk [/model/sign/traffic/main_road.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+90 m (14424.1,72.4,3578.9) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+96 m (14571.1,72.4,3558.9) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+97 m (14596.1,72.4,3606.4) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+115 m (14585.3,72.4,3546.4) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | city1_0=cz_wroclw_wl
+118 m (14618.5,72.4,3632.2) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+119 m (14620.3,72.4,3619.3) BOARDS 1642 hw straight 2 cz [/model/sign/navigation/cz/hw_straight_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_wroclw_w road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+136 m (14618.5,72.4,3692.2) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+149 m (14618.9,72.4,3533.4) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+154 m (14645.2,72.4,3570.4) BOARDS 696 main_road_cr-sk [/model/sign/traffic/main_road.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+157 m (14652.4,72.4,3581.7) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+170 m (14595.4,72.4,3766.1) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+184 m (14643.6,72.4,3740.4) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+197 m (14674.6,72.4,3717.6) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+252 m (14734.8,72.4,3717.7) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+262 m (14618.8,72.4,3858.5) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+283 m (14764.8,72.4,3728.3) BOARDS 820 sr city right cz [/model/sign/navigation/sr_city_right_cz.pmd] look= | road_0=fr_a4 city1_0=cz_centr_bl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+283 m (14764.2,72.3,3729.7) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+288 m (14779.3,72.5,3699.3) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+289 m (14764.5,72.5,3742.4) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+289 m (14236.5,72.4,3508.4) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+301 m (14793.5,72.3,3695.8) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+302 m (14794.1,72.4,3697.0) BOARDS 747 sr right cz [/model/sign/navigation/sr_right_cz.pmd] look= | road_0=fr_a4 city1_0=cz_dresdn_wl city2_0=cz_wroclw_wl road_1=fr_e50 road_2=fr_a26
+307 m (14805.3,72.4,3665.0) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+314 m (14214.0,72.9,3751.7) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+323 m (14795.6,72.4,3757.1) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_brno_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+324 m (14796.3,72.3,3758.1) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+325 m (14189.5,72.4,3530.6) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+334 m (14823.4,72.5,3712.4) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+336 m (14810.3,72.5,3756.1) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+338 m (14824.2,72.3,3725.5) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+339 m (14824.3,72.4,3727.0) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_wroclw_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+342 m (14697.8,72.4,3344.8) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_di_500m
+358 m (14159.3,72.4,3519.1) BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd] look= | road_0=fr_a4 city1_0=cz_brno_wl city2_0=cz_wroclw_wl road_1=fr_e50 road_2=fr_a26
+358 m (14159.3,72.4,3518.3) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+359 m (14807.8,72.5,3810.8) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+362 m (14159.4,72.5,3505.6) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+371 m (14137.6,72.4,3549.2) BOARDS 820 sr city right cz [/model/sign/navigation/sr_city_right_cz.pmd] look= | road_0=fr_a4 city1_0=cz_centr_bl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+372 m (14136.3,72.6,3551.9) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+373 m (14856.0,72.4,3738.0) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+377 m (14146.4,72.4,3752.0) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+377 m (14139.4,72.4,3517.2) BOARDS 679 go_right_cr-sk [/model/sign/traffic/cr/go_right_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+380 m (14134.8,72.4,3727.1) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+383 m (14130.4,72.4,3530.0) BOARDS 679 go_right_cr-sk [/model/sign/traffic/cr/go_right_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+385 m (14122.0,72.4,3557.4) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+392 m (14126.7,72.4,3508.5) BOARDS 679 go_right_cr-sk [/model/sign/traffic/cr/go_right_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+397 m (14128.2,72.4,3489.0) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_dresdn_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+397 m (14117.9,72.4,3520.5) BOARDS 679 go_right_cr-sk [/model/sign/traffic/cr/go_right_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+398 m (14127.8,72.4,3486.7) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+405 m (14693.8,72.4,3980.8) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+405 m (14121.2,72.4,3765.7) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+409 m (14108.7,72.4,3738.2) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+410 m (14112.8,72.5,3492.1) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+413 m (14746.2,72.4,3956.9) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+413 m (14097.9,72.6,3532.9) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+416 m (14098.9,72.4,3519.5) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_brno_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+416 m (14779.2,72.9,3934.2) BOARDS 1642 hw straight 2 cz [/model/sign/navigation/cz/hw_straight_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_brno_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+417 m (14097.7,72.4,3520.8) BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+420 m (14911.9,72.4,3712.8) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+432 m (14128.4,71.8,3405.9) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+432 m (14807.7,72.4,3929.5) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+435 m (14140.4,71.8,3381.8) BOARDS 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+441 m (14760.3,72.4,3981.9) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_brno_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+442 m (14117.0,71.8,3405.9) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+450 m (14139.4,71.8,3357.7) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+451 m (14065.8,72.4,3508.4) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+454 m (14117.6,71.9,3381.8) BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+458 m (14128.6,71.8,3357.7) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+468 m (14117.3,71.8,3357.6) BOARDS 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+468 m (14048.2,72.2,3507.7) BOARDS 456 speedcamera sign - cz [/model/sign/speedcamera/speedcamera_sign_cz.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+474 m (14969.1,72.4,3697.7) BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+479 m (14973.2,72.4,3708.2) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+480 m (14974.1,72.4,3707.2) BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+481 m (14784.9,72.4,4012.7) BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+484 m (14026.6,71.7,3531.0) BOARDS 457 speedcamera sign - cz end [/model/sign/speedcamera/speedcamera_sign_cz_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+486 m (14978.1,72.4,3717.8) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+487 m (14027.3,72.4,3737.8) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+505 m (14004.4,70.9,3533.1) BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+518 m (13990.7,70.3,3536.1) BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+519 m (13992.2,70.5,3524.1) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+523 m (13987.5,70.3,3525.7) BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+524 m (13988.7,70.7,3513.6) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+530 m (13986.6,72.4,3751.9) BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+546 m (14144.1,71.0,3212.0) BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+556 m (14129.1,70.9,3211.5) BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+557 m (14127.3,70.9,3211.6) BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+563 m (14143.9,71.0,3189.5) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+567 m (14112.4,71.0,3211.3) BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+573 m (14128.1,71.0,3189.8) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+575 m (15076.2,72.4,3631.5) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+576 m (15077.1,72.4,3642.1) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+583 m (14127.4,71.0,3177.5) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+589 m (14848.8,72.4,4099.8) BOARDS 693 traffic_signals_cr-sk [/model/sign/traffic/traffic_signals.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+593 m (14111.7,71.0,3178.0) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+594 m (14843.5,72.4,4109.5) BOARDS 693 traffic_signals_cr-sk [/model/sign/traffic/traffic_signals.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+601 m (14143.2,71.2,3141.9) TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307100000000
+606 m (14856.5,72.4,4115.0) BOARDS 741 2lane highway crs 500m cz [/model/sign/navigation/2hw_crs_500m_cz.pmd] look= | road_0=cz_1 city1_0=cz_brno_w city2_0=cz_wien_w road_1=cz_e65 city1_1=cz_praha_o city2_1=cz_nurnb_w road_2=cz_1_b
+619 m (15119.7,72.4,3630.4) BOARDS 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+622 m (15122.9,72.4,3652.5) BOARDS 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+633 m (13878.9,70.3,3739.1) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+641 m (14926.6,72.4,3145.5) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_di_200m
+643 m (15143.2,72.4,3652.4) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+643 m (15143.9,72.4,3641.7) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+644 m (14896.7,72.4,4132.6) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+646 m (13865.5,69.7,3739.0) BOARDS 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+647 m (14890.6,72.4,4141.8) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+701 m (14965.7,72.4,3099.2) TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307100000000
+707 m (13795.0,63.2,3591.7) BOARDS 1011 Speedcamera hw cz [/model/speedcamera/speedcamera_hw_cz.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+711 m (13790.1,63.2,3615.7) BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+727 m (14123.6,71.0,3003.8) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+732 m (14108.2,71.0,3007.3) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+733 m (14107.5,71.0,3006.2) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+738 m (14092.2,71.0,3009.8) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+790 m (15003.8,72.4,4234.5) BOARDS 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+817 m (15006.2,72.4,4266.4) BOARDS 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+828 m (13673.8,63.2,3593.5) BOARDS 746 sr left cz [/model/sign/navigation/sr_left_cz.pmd] look= | road_0=fr_a4 city1_0=cz_frank_wr road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+844 m (15342.5,72.4,3555.5) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+845 m (15344.1,72.4,3566.2) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+851 m (13650.1,63.2,3607.1) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+851 m (13649.8,63.2,3618.0) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+868 m (13633.9,63.2,3595.7) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_dresdn_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+872 m (13629.5,63.2,3595.6) BOARDS 1640 hw left 2 cz [/model/sign/navigation/cz/hw_left_2_cz.pmd] look= | road_0=fr_a4 city1_0=cz_brno_wr road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+879 m (15073.5,72.4,4292.0) BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+880 m (15061.5,72.4,4303.3) BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+881 m (15063.4,72.4,4302.3) BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+882 m (15051.5,72.4,4313.5) BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+884 m (13628.7,66.7,3768.2) BOARDS 821 sr city left cz [/model/sign/navigation/sr_city_left_cz.pmd] look= | road_0=fr_a4 city1_0=cz_centr_br road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+888 m (13624.5,66.7,3768.2) BOARDS 747 sr right cz [/model/sign/navigation/sr_right_cz.pmd] look= | road_0=fr_a4 city1_0=cz_frank_wl road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+891 m (15069.2,72.4,4311.0) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+892 m (15059.0,72.4,4321.0) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+895 m (13606.9,63.2,3594.5) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+895 m (13606.5,63.2,3605.4) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+901 m (15401.3,72.4,3581.1) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+902 m (15401.2,72.4,3565.1) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+910 m (13590.9,63.3,3618.0) BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd] look= | road_0=fr_a4 city1_0=cz_praha_bf city2_0=cz_frank_wl road_1=fr_e50 road_2=fr_a26
+928 m (15079.3,72.4,2898.1) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_arrow_l
+937 m (13575.1,67.2,3770.6) BOARDS 822 sr city straight cz [/model/sign/navigation/sr_city_straight_cz.pmd] look= | city1_0=cz_centr_b
+940 m (15439.8,72.1,3581.2) TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307100000000
+967 m (15103.3,77.8,2867.7) TEMPLATE 1109 Gas Big Price Czech [/model/sign/gas/gas_big_price.pmd] tpl=sign_templ.674 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36373400000000
+969 m (13541.5,68.0,3758.6) BOARDS 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+973 m (13539.8,68.1,3772.9) BOARDS 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+980 m (13521.1,63.7,3613.8) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+980 m (13520.9,63.7,3602.9) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+981 m (13520.8,63.7,3591.8) BOARDS 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+990 m (13511.3,63.8,3614.2) BOARDS 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd] look= | road_0=at_a14 city1_0=at_state_d city2_0=at_munch_wl road_1=at_a14 city2_1=at_innsb_wl
+990 m (13510.9,63.8,3602.9) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+991 m (13510.6,63.8,3592.0) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1019 m (15149.2,72.4,4410.8) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | road_0=cz_1 city1_0=cz_brno_w city2_0=cz_wien_w road_1=cz_e65 city1_1=cz_praha_o city2_1=cz_nurnb_w road_2=cz_1_b
+1037 m (13463.7,64.1,3619.2) BOARDS 1011 Speedcamera hw cz [/model/speedcamera/speedcamera_hw_cz.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1040 m (13461.6,64.1,3607.8) BOARDS 741 2lane highway crs 500m cz [/model/sign/navigation/2hw_crs_500m_cz.pmd] look= | road_0=cz_1_b city1_0=cz_praha_o city2_0=cz_brno_w road_1=cz_e50 city1_1=cz_nurnb_w city2_1=cz_munch_w road_2=cz_5 city1_2=cz_state_d
+1061 m (13440.3,64.2,3612.7) BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1063 m (13438.8,64.2,3601.1) BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1078 m (13423.6,64.2,3618.1) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1080 m (13421.4,64.2,3630.9) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1081 m (13419.8,64.2,3607.9) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1084 m (13417.2,64.2,3620.8) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1084 m (13976.5,64.8,2675.7) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_di_200m
+1091 m (15591.4,68.7,3577.7) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1094 m (15592.9,68.7,3561.8) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1095 m (15593.9,68.6,3561.5) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1097 m (13404.5,64.2,3613.8) BOARDS 457 speedcamera sign - cz end [/model/sign/speedcamera/speedcamera_sign_cz_end.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1097 m (15595.4,68.6,3545.2) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1126 m (13375.5,63.8,3660.3) BOARDS 456 speedcamera sign - cz [/model/sign/speedcamera/speedcamera_sign_cz.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1134 m (15147.4,77.8,2692.7) TEMPLATE 1109 Gas Big Price Czech [/model/sign/gas/gas_big_price.pmd] tpl=sign_templ.674 look= |
+    tail 0E000000000000007369676E5F74656D706C2E36373400000000
+1137 m (13364.6,63.6,3670.9) BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1145 m (13356.4,63.6,3663.2) BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1183 m (13326.2,63.1,3761.9) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1193 m (13324.4,63.2,3818.7) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1194 m (13315.4,63.1,3761.0) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1203 m (13313.7,63.2,3818.8) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1209 m (13329.4,63.2,3924.2) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1210 m (15099.3,63.2,4676.8) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_bf city2_0=cz_wroclw_w road_1=cz_e65 city1_1=cz_wien_w city2_1=cz_brno_w road_2=cz_1 city1_2=cz_state_a city2_2=cz_state_a
+1214 m (15196.4,72.4,2629.6) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_arrow_l
+1215 m (13313.5,63.2,3879.6) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1224 m (13314.2,63.2,3924.4) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1230 m (13298.1,63.2,3879.7) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1239 m (13314.3,63.2,3980.8) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | road_0=cz_1_b city1_0=cz_praha_o city2_0=cz_brno_w road_1=cz_e50 city1_1=cz_nurnb_w city2_1=cz_munch_w road_2=cz_5 city1_2=cz_state_d
+1243 m (14930.1,63.2,4791.7) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_bf city2_0=cz_wroclw_w road_1=cz_e65 city1_1=cz_wien_w city2_1=cz_brno_w road_2=cz_1 city1_2=cz_state_a city2_2=cz_state_a
+1275 m (13854.5,61.9,2526.2) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_arrow_s
+1354 m (14676.0,63.2,4967.4) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+1367 m (14682.2,63.2,4979.1) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+1434 m (13750.4,61.9,2403.2) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_arrow_l
+1455 m (13314.5,63.2,4465.9) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | city1_0=cz_praha_bf city2_0=cz_dresdn_w city1_1=cz_nurnb_w city2_1=cz_munch_w road_2=cz_5 city1_2=cz_state_d
+1470 m (14135.7,63.2,5048.2) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+1483 m (14132.7,63.2,5060.9) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+1488 m (13109.1,54.1,4150.3) TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307100000000
+1488 m (13115.7,54.1,4167.7) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | city1_0=cz_praha_bf city2_0=cz_dresdn_w city1_1=cz_praha_o city2_1=cz_brno_w road_2=cz_1_b
+1488 m (15384.3,73.1,2426.4) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_di_200m
+1501 m (15433.0,72.4,4801.1) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_bf city2_0=cz_wroclw_w road_1=cz_e65 city1_1=cz_praha_o city2_1=cz_nurnb_w road_2=cz_1_b
+1502 m (15433.7,72.4,4802.4) BOARDS 742 2lane highway sr 500m cz [/model/sign/navigation/2hw_sr_500m_cz.pmd] look= | road_0=cz_1 city1_0=cz_brno_w city2_0=cz_wien_w road_1=cz_e65 city2_2=cz_linz_w
+1522 m (13643.2,63.2,4881.6) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+1523 m (13523.4,63.2,4792.7) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1530 m (13587.1,63.2,4851.7) BOARDS 741 2lane highway crs 500m cz [/model/sign/navigation/2hw_crs_500m_cz.pmd] look= | city1_0=cz_praha_bf city2_0=cz_dresdn_w city1_1=cz_nurnb_w city2_1=cz_munch_w road_2=cz_5 city1_2=cz_state_d
+1537 m (13636.6,63.2,4894.9) BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+1539 m (13514.0,63.2,4804.9) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1540 m (13509.3,63.2,4802.6) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1554 m (13500.3,63.2,4814.0) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=d_a9 city1_0=nurnberg city2_0=leipzig road_2=d_a9 city1_2=munchen
+1707 m (13546.3,61.9,2209.9) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_arrow_l
+1715 m (12789.4,77.2,3737.2) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1726 m (12779.7,77.2,3747.9) BOARDS 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1761 m (15640.6,71.2,2281.8) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_di_500m
+1769 m (15624.7,72.4,4991.3) BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_bf city2_0=cz_wroclw_w road_1=cz_e65 city1_1=cz_praha_o city2_1=cz_nurnb_w road_2=cz_1_b
+1772 m (15613.6,72.4,5003.4) BOARDS 744 highway sr exit cz [/model/sign/navigation/hw_sr_exit_cz.pmd] look= | road_0=cz_1_b road_1=cz_e50 road_2=cz_5 city1_2=cz_linz_w city2_2=cz_state_a
+1831 m (15717.7,71.8,2256.2) BOARDS 742 2lane highway sr 500m cz [/model/sign/navigation/2hw_sr_500m_cz.pmd] look= | road_0=cz_e65 city1_0=cz_wroclw_w city2_0=cz_state_pl city1_1=cz_skoda_bf
+1832 m (15672.2,70.0,5033.3) BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd] look= | road_0=cz_1 road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+1863 m (13444.9,61.9,2090.5) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_arrow_s
+1896 m (15774.8,63.7,5028.8) BOARDS 1640 hw left 2 cz [/model/sign/navigation/cz/hw_left_2_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_wr road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+1907 m (15731.2,63.8,5081.6) BOARDS 1642 hw straight 2 cz [/model/sign/navigation/cz/hw_straight_2_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_w road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+1923 m (15745.1,63.9,5091.5) BOARDS 1642 hw straight 2 cz [/model/sign/navigation/cz/hw_straight_2_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_w road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+1932 m (15695.7,63.8,5143.0) BOARDS 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+1941 m (15660.6,65.9,5181.5) TEMPLATE 149v8 sign sr blue 4 lines cz [/model/sign/navigation/sign_sr_blue_4_lines_cz.pmd] tpl=sign_templ.0700p look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307000000000
+1942 m (12671.9,60.0,4275.7) BOARDS 741 2lane highway crs 500m cz [/model/sign/navigation/2hw_crs_500m_cz.pmd] look= | city1_0=cz_praha_bf city2_0=cz_dresdn_w city1_1=cz_praha_o city2_1=cz_brno_w road_2=cz_1_b
+1944 m (15714.3,63.6,5143.1) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | road_0=cz_1 city1_0=cz_brno_wl road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+1983 m (15830.1,70.1,5096.1) BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd] look= | road_0=cz_1 road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+2039 m (15884.4,72.4,5122.8) BOARDS 744 highway sr exit cz [/model/sign/navigation/hw_sr_exit_cz.pmd] look= | road_0=cz_1_b road_1=cz_e50 road_2=cz_5 city1_2=cz_linz_w city2_2=cz_state_a
+2052 m (13314.8,65.6,1950.1) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_di_200m
+2078 m (15675.6,70.7,5338.9) BOARDS 683 bend_right_cr-sk [/model/sign/traffic/bend_right.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2091 m (15904.6,72.5,5173.9) TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307100000000
+2105 m (16605.7,60.6,3597.3) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_di_500m
+2110 m (15964.9,74.4,2105.1) TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q look= |
+    tail 10000000000000007369676E5F74656D706C2E303730307100000000
+2137 m (12499.8,57.9,4374.1) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_di_200m
+2148 m (15299.5,77.7,5618.3) BOARDS 684 bend_left_cr-sk [/model/sign/traffic/bend_left.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2175 m (15261.8,79.8,5662.2) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2183 m (15651.8,75.1,1769.7) BOARDS 820 sr city right cz [/model/sign/navigation/sr_city_right_cz.pmd] look= | city1_0=cz_skoda_b
+2184 m (15274.7,79.8,5667.3) BOARDS 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2192 m (15603.2,64.8,5519.8) BOARDS 684 bend_left_cr-sk [/model/sign/traffic/bend_left.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2234 m (15269.7,79.0,5721.7) BOARDS 683 bend_right_cr-sk [/model/sign/traffic/bend_right.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2266 m (12250.4,87.2,3358.4) BOARDS 714 level_crossing_3_cr-sk [/model/sign/traffic/cr/level_crossing_3_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2311 m (15259.7,77.7,5807.4) BOARDS 751 sr straight cz [/model/sign/navigation/sr_straight_cz.pmd] look= | road_0=cz_1 city1_0=cz_linz_w road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+2313 m (12363.3,54.1,4507.7) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_arrow_s
+2325 m (16130.8,79.8,1966.3) BOARDS 744 highway sr exit cz [/model/sign/navigation/hw_sr_exit_cz.pmd] look= | city1_0=cz_skoda_bf
+2327 m (15262.1,77.7,5823.6) BOARDS 692 main_road_left_right_cr-sk [/model/sign/traffic/fr/main_road_left_right_fr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2329 m (16110.2,79.3,1941.4) BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd] look= | city1_2=cz_skoda_bf
+2347 m (12172.5,84.2,3331.2) BOARDS 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2350 m (12168.2,84.2,3345.1) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2357 m (12163.0,83.7,3328.6) BOARDS 713 level_crossing_2_cr-sk [/model/sign/traffic/cr/level_crossing_2_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2374 m (15263.2,77.7,5872.6) BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2382 m (15275.9,77.7,5877.3) BOARDS 692 main_road_left_right_cr-sk [/model/sign/traffic/fr/main_road_left_right_fr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2390 m (16891.1,54.4,3583.8) BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd] look= | city1_0=d_di_200m
+2392 m (15277.2,77.8,5887.1) BOARDS 751 sr straight cz [/model/sign/navigation/sr_straight_cz.pmd] look= | road_0=cz_1 city1_0=cz_praha_w road_1=cz_e65 city1_2=cz_linz_w city2_2=cz_state_a
+2419 m (16081.1,69.1,1792.6) BOARDS 1640 hw left 2 cz [/model/sign/navigation/cz/hw_left_2_cz.pmd] look= | city1_0=cz_praha_wr
+2419 m (16080.8,69.1,1792.1) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | city1_0=cz_praha_wl
+2436 m (16139.3,67.5,1821.2) BOARDS 822 sr city straight cz [/model/sign/navigation/sr_city_straight_cz.pmd] look= | city1_0=cz_skoda_b
+2438 m (12083.3,78.8,3314.2) BOARDS 712 level_crossing_1_cr-sk [/model/sign/traffic/cr/level_crossing_1_cr.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2442 m (16017.5,73.7,1710.6) BOARDS 1642 hw straight 2 cz [/model/sign/navigation/cz/hw_straight_2_cz.pmd] look= | city1_0=cz_wroclw_w
+2444 m (16115.9,68.4,1790.5) BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd] look= | city1_0=cz_wroclw_wl
+2445 m (16113.1,68.6,1786.5) BOARDS 821 sr city left cz [/model/sign/navigation/sr_city_left_cz.pmd] look= | city1_0=cz_skoda_b
+2446 m (13167.0,67.4,1574.1) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+2447 m (13153.5,67.4,1581.6) BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+2458 m (13148.2,67.2,1572.5) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+2459 m (13134.8,67.2,1580.2) BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+2464 m (12248.6,54.1,4622.3) BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd] look= | city1_0=d_arrow_l
+2468 m (15891.0,74.9,1585.4) BOARDS 820 sr city right cz [/model/sign/navigation/sr_city_right_cz.pmd] look= | city1_0=cz_skoda_b
+2476 m (13151.8,66.9,1549.1) BOARDS 456 speedcamera sign - cz [/model/sign/speedcamera/speedcamera_sign_cz.pmd] look= | road_0=fr_a31 road_1=fr_e17 city1_1=fr_mann_b road_2=fr_a31
+2477 m (16221.6,80.0,1843.1) BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd] look= | city1_2=cz_skoda_bf
+2486 m (15227.2,76.0,6002.5) BOARDS 681 bend_road_left_cr-sk [/model/sign/traffic/bend_road_left.pmd] look= | road_0=fr_a4 road_1=fr_e50 city1_1=fr_paris_b road_2=fr_a26
+2489 m (15933.9,74.9,1589.2) BOARDS 747 sr right cz [/model/sign/navigation/sr_right_cz.pmd] look= | city1_0=cz_praha_wl
+   2 BOARDS 1011 Speedcamera hw cz [/model/speedcamera/speedcamera_hw_cz.pmd]
+   5 BOARDS 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd]
+   5 BOARDS 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd]
+  15 BOARDS 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd]
+   6 BOARDS 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd]
+   6 BOARDS 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd]
+   4 BOARDS 1640 hw left 2 cz [/model/sign/navigation/cz/hw_left_2_cz.pmd]
+  10 BOARDS 1641 hw right 2 cz [/model/sign/navigation/cz/hw_right_2_cz.pmd]
+   5 BOARDS 1642 hw straight 2 cz [/model/sign/navigation/cz/hw_straight_2_cz.pmd]
+   3 BOARDS 456 speedcamera sign - cz [/model/sign/speedcamera/speedcamera_sign_cz.pmd]
+   2 BOARDS 457 speedcamera sign - cz end [/model/sign/speedcamera/speedcamera_sign_cz_end.pmd]
+   6 BOARDS 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd]
+  31 BOARDS 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd]
+  15 BOARDS 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd]
+  20 BOARDS 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd]
+   7 BOARDS 670 no_stoping_cr-sk [/model/sign/traffic/no_stoping.pmd]
+  16 BOARDS 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd]
+   5 BOARDS 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd]
+   4 BOARDS 679 go_right_cr-sk [/model/sign/traffic/cr/go_right_cr.pmd]
+   1 BOARDS 681 bend_road_left_cr-sk [/model/sign/traffic/bend_road_left.pmd]
+   2 BOARDS 683 bend_right_cr-sk [/model/sign/traffic/bend_right.pmd]
+   2 BOARDS 684 bend_left_cr-sk [/model/sign/traffic/bend_left.pmd]
+   2 BOARDS 692 main_road_left_right_cr-sk [/model/sign/traffic/fr/main_road_left_right_fr.pmd]
+   3 BOARDS 693 traffic_signals_cr-sk [/model/sign/traffic/traffic_signals.pmd]
+   2 BOARDS 696 main_road_cr-sk [/model/sign/traffic/main_road.pmd]
+   8 BOARDS 697 main_road_end_cr-sk [/model/sign/traffic/main_road_end.pmd]
+   1 BOARDS 712 level_crossing_1_cr-sk [/model/sign/traffic/cr/level_crossing_1_cr.pmd]
+   1 BOARDS 713 level_crossing_2_cr-sk [/model/sign/traffic/cr/level_crossing_2_cr.pmd]
+   1 BOARDS 714 level_crossing_3_cr-sk [/model/sign/traffic/cr/level_crossing_3_cr.pmd]
+   4 BOARDS 741 2lane highway crs 500m cz [/model/sign/navigation/2hw_crs_500m_cz.pmd]
+   2 BOARDS 742 2lane highway sr 500m cz [/model/sign/navigation/2hw_sr_500m_cz.pmd]
+   8 BOARDS 743 2lane highway crs exit cz [/model/sign/navigation/2hw_crs_exit_cz.pmd]
+   3 BOARDS 744 highway sr exit cz [/model/sign/navigation/hw_sr_exit_cz.pmd]
+   6 BOARDS 745 highway sr exit small cz [/model/sign/navigation/hw_sr_exit_small_cz.pmd]
+   1 BOARDS 746 sr left cz [/model/sign/navigation/sr_left_cz.pmd]
+   3 BOARDS 747 sr right cz [/model/sign/navigation/sr_right_cz.pmd]
+   2 BOARDS 751 sr straight cz [/model/sign/navigation/sr_straight_cz.pmd]
+   4 BOARDS 820 sr city right cz [/model/sign/navigation/sr_city_right_cz.pmd]
+   2 BOARDS 821 sr city left cz [/model/sign/navigation/sr_city_left_cz.pmd]
+   2 BOARDS 822 sr city straight cz [/model/sign/navigation/sr_city_straight_cz.pmd]
+   7 BOARDS 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd]
+   8 BOARDS 979 hw sr gas parking d [/model/sign/navigation/hw_sr_gaspark_d.pmd]
+   9 BOARDS 980 hw sr parking d [/model/sign/navigation/hw_sr_park_d.pmd]
+   2 plain 1011 Speedcamera hw cz [/model/speedcamera/speedcamera_hw_cz.pmd]
+   1 plain 1024 prague_enter [/model/sign/city_limits/cr_sk_exit_enter.pmd]
+   1 plain 1025 prague_exit [/model/sign/city_limits/cr_sk_exit_enter.pmd]
+  27 plain 11 gas station lamp [/model/lamp/gas_st_lamp.pmd]
+   3 plain 116 interior decal lamp no flare [/model/lamp/lamp_decal_no_flare.pmd]
+  26 plain 12 curved street lamp [/model/lamp/street_lamp_curved.pmd]
+  19 plain 14 sellplan lamp [/model/lamp/sellplan_lamp.pmd]
+   1 plain 147 fuel_left de [/model/sign/traffic/de/fuel_left_de.pmd]
+  25 plain 15 sellplan lamp single [/model/lamp/sellplan_lamp_single.pmd]
+   4 plain 1637 give road roundabout cr [/model/sign/traffic/cr/give_road_roundabout_cr.pmd]
+   5 plain 1638 highway end 2 cr [/model/sign/traffic/cr/highway_end_2_cr.pmd]
+   8 plain 1639 highway start 2 cr [/model/sign/traffic/cr/highway_start_2_cr.pmd]
+   2 plain 18 fuel de [/model/sign/traffic/de/fuel_de.pmd]
+   5 plain 19 give_road de [/model/sign/traffic/de/give_road_de.pmd]
+  12 plain 212 pallete [/model/sign/pallete.pmd]
+   5 plain 213 port lamp [/model/lamp/port_lamp.pmd]
+  46 plain 223 sellplan lamp single decal [/model/lamp/sellplan_lamp_single.pmd]
+   3 plain 226 flare lamp decal verysmall [/model/lamp/flare_decal_verysmall.pmd]
+   8 plain 227 garage lamp decal [/model/lamp/garage_lamp.pmd]
+   4 plain 244 Give road at [/model/sign/traffic/give_road_at.pmd]
+   2 plain 256 No turn right at [/model/sign/traffic/no_turn_right_at.pmd]
+   6 plain 28 parking de [/model/sign/traffic/de/parking_de.pmd]
+  15 plain 285 Trashbin blue [/model/sign/misc/trash_bin_blue.pmd]
+  15 plain 286 Trashbin yellow [/model/sign/misc/trash_bin_yellow.pmd]
+   4 plain 289 Trafic barrier [/model/sign/misc/traffic_barrier.pmd]
+   1 plain 29 no overtaking de [/model/sign/traffic/de/no_overtaking_de.pmd]
+  13 plain 296 street_flowerpot [/model/sign/misc/street_flowerpot.pmd]
+   2 plain 3 Metal Barrier [/model/sign/metal_barrier.pmd]
+   7 plain 30 Barrel gray red [/model/sign/barrels/barrel_gray_darkred.pmd]
+  15 plain 302 banch_01_white [/model/sign/misc/banch_01_wite.pmd]
+  15 plain 303 banch_01_yellow [/model/sign/misc/banch_01_yellow.pmd]
+  16 plain 304 banch_01_blue [/model/sign/misc/banch_01_blue.pmd]
+  20 plain 305 banch_01_red [/model/sign/misc/banch_01_red.pmd]
+  24 plain 307 reflective_post_cz [/model/sign/reflective_post_cz.pmd]
+   7 plain 31 Barrel red darkgray [/model/sign/barrels/barrel_red_darkgray.pmd]
+   4 plain 32 Barrel red gray [/model/sign/barrels/barrel_red_gray.pmd]
+   4 plain 33 Barrel yellow blue [/model/sign/barrels/barrel_yellow_blue.pmd]
+   6 plain 38 Barrel yellow gray [/model/sign/barrels/barrel_yellow_gray.pmd]
+  63 plain 413 lamp czech tshape [/model/lamp/lamp_czech_tshape.pmd]
+  41 plain 414 lamp czech [/model/lamp/lamp_czech.pmd]
+   2 plain 455 lowering 2 lanes to 1 - right side [/model/sign/traffic/2_lanes_to_1.pmd]
+   2 plain 456 speedcamera sign - cz [/model/sign/speedcamera/speedcamera_sign_cz.pmd]
+   2 plain 457 speedcamera sign - cz end [/model/sign/speedcamera/speedcamera_sign_cz_end.pmd]
+  22 plain 468 gas big trash bin [/model/sign/gas/gas_big_trash.pmd]
+  10 plain 469 gas big banch [/model/sign/gas/gas_big_banch.pmd]
+   3 plain 476 Gas Big Goods A [/model/sign/gas/gas_goods_a.pmd]
+   3 plain 477 Gas Big Goods B [/model/sign/gas/gas_goods_b.pmd]
+   1 plain 478 parking right de [/model/sign/traffic/parking_right.pmd]
+   7 plain 479 parking for truck de [/model/sign/traffic/parking_truck.pmd]
+   4 plain 480 parking for car de [/model/sign/traffic/parking_car.pmd]
+   2 plain 481 fuel for truck de [/model/sign/traffic/fuel_truck.pmd]
+   2 plain 482 speedlimit 30 de [/model/sign/traffic/speedlimit_30_de.pmd]
+   4 plain 664 speedlimit_50_cr-sk [/model/sign/traffic/speedlimit_50.pmd]
+  14 plain 665 speedlimit_80_cr-sk [/model/sign/traffic/cr/speedlimit_80_cr.pmd]
+   2 plain 666 speedlimit_30_cr-sk [/model/sign/traffic/speedlimit_30.pmd]
+   6 plain 667 no_entry_cr-sk [/model/sign/traffic/no_entry.pmd]
+   9 plain 668 no_limits_cr-sk [/model/sign/traffic/no_limits.pmd]
+   5 plain 669 no_parking_cr-sk [/model/sign/traffic/no_parking.pmd]
+   2 plain 671 speedlimit_110_cr-sk [/model/sign/traffic/cr/speedlimit_110_cr.pmd]
+   1 plain 672 no_overtaking_cr-sk [/model/sign/traffic/no_overtaking.pmd]
+   1 plain 673 turn_left_cr-sk [/model/sign/traffic/turn_left.pmd]
+  11 plain 680 give_road_cr-sk [/model/sign/traffic/give_road.pmd]
+   1 plain 687 parking_cr-sk [/model/sign/traffic/cr/parking_cr.pmd]
+   1 plain 695 stop_cr-sk [/model/sign/traffic/stop.pmd]
+   6 plain 696 main_road_cr-sk [/model/sign/traffic/main_road.pmd]
+   1 plain 701 no_turn_left_cr-sk [/model/sign/traffic/cr/no_turn_left_cr.pmd]
+   1 plain 71 tradeaux_logo [/prefab/tradeaux_warehouse/tradeaux_logo.pmd]
+   1 plain 72 Tradeaux gate [/prefab/tradeaux_warehouse/tradeaux_gate.pmd]
+   4 plain 772 speedlimit_40_it [/model/sign/traffic/it/speedlimit_40_it.pmd]
+   3 plain 828 tunnel_cr-sk [/model/sign/traffic/cr/tunnel_cr.pmd]
+   1 plain 90 no limits de [/model/sign/traffic/no_limits.pmd]
+   1 plain dlc_no_100 bicycles_static [/model2/props/street/bicycles.pmd]
+   1 plain dlc_no_107 trash_bin_02_grey [/model2/props/street/trash_bin_02_sc.pmd]
+   1 plain dlc_no_118 garbage_container_01 [/model2/props/street/garbage_container_01_sc.pmd]
+   1 plain dlc_no_228 logo renault entrance sign [/model2/sign/truck_company_logos/renault/entrance_sign_sc.pmd]
+  17 plain poc_3m00s lamp 21 poc [/model2/lamp/lamp_21_poc.pmd]
+   4 plain skoda skoda logo [/prefab/car_factory/skoda_logo.pmd]
+   2 TEMPLATE 1109 Gas Big Price Czech [/model/sign/gas/gas_big_price.pmd] tpl=sign_templ.674
+   1 TEMPLATE 149v8 sign sr blue 4 lines cz [/model/sign/navigation/sign_sr_blue_4_lines_cz.pmd] tpl=sign_templ.0700p
+   6 TEMPLATE 149v9 sign sr green 4 lines cz [/model/sign/navigation/sign_sr_green_4_lines_cz.pmd] tpl=sign_templ.0700q

@@ -1,0 +1,35 @@
+23:31:19 site austria centre (18020.0, 29.4, 21381.4) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/terrain1029/out/c1 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+23:31:23 loading 5 % Reading the map
+23:31:25 loading 5 % Reading the map
+23:31:27 loading 5 % Reading the map
+23:31:29 loading 10 % Building roads
+23:31:31 loading 42 % Building terrain
+23:31:33 loading 56 % Building junctions and yards
+23:31:35 loading 65 % Placing buildings and props
+23:31:37 loading 69 % Placing buildings and props
+23:31:39 loading 69 % Placing fences and barriers
+23:31:41 loading 69 % Placing fences and barriers
+23:31:43 loading 69 % Placing fences and barriers
+23:31:45 loading 69 % Placing fences and barriers
+23:31:47 loading 69 % Placing fences and barriers
+23:31:49 loading 69 % Placing fences and barriers
+23:31:51 loading 100 % Ready
+23:31:51 first build complete at 32 s
+23:32:21 settled for shot hq1 after 30 s: built 5032, queued 0, batching 0, plants 176358 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:32:29 settled for shot hq1 (camera placed) after 8 s: built 5032, queued 0, batching 0, plants 176358 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:32:30 wrote shot hq1
+23:33:01 settled for shot hq2 after 31 s: built 5032, queued 0, batching 0, plants 176358 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:33:09 settled for shot hq2 (camera placed) after 8 s: built 5032, queued 0, batching 0, plants 176358 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:33:10 wrote shot hq2
+23:33:41 settled for shot hq3 after 31 s: built 5116, queued 0, batching 0, plants 179722 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:33:49 settled for shot hq3 (camera placed) after 8 s: built 5116, queued 0, batching 0, plants 179722 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:33:50 wrote shot hq3
+23:34:21 settled for shot hq4 after 31 s: built 5279, queued 0, batching 0, plants 188613 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:34:29 settled for shot hq4 (camera placed) after 8 s: built 5279, queued 0, batching 0, plants 188613 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:34:29 wrote shot hq4
+23:35:00 settled for shot hq5 after 31 s: built 5395, queued 0, batching 0, plants 196119 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:35:08 settled for shot hq5 (camera placed) after 8 s: built 5395, queued 0, batching 0, plants 196119 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:35:08 wrote shot hq5
+23:35:39 settled for shot hqup after 31 s: built 5465, queued 0, batching 0, plants 196119 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:35:47 settled for shot hqup (camera placed) after 8 s: built 5465, queued 0, batching 0, plants 196119 (sides waiting 0), detail jobs 0, ground fill builds 1
+23:35:48 wrote shot hqup

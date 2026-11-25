@@ -1,0 +1,19 @@
+12:30:30 site dover centre (-33391.4, 24.0, -7420.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/out/pillar_b5 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+12:30:33 loading 8 % Reading the map
+12:30:35 loading 56 % Building junctions and yards
+12:30:37 loading 58 % Building junctions and yards
+12:30:39 loading 67 % Placing buildings and props
+12:30:41 loading 72 % Placing fences and barriers
+12:30:43 loading 72 % Placing fences and barriers
+12:30:45 loading 100 % Ready
+12:30:45 first build complete at 15 s
+12:31:15 settled for shot d1 after 30 s: built 3393, queued 0, batching 0, plants 57470 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:31:23 settled for shot d1 (camera placed) after 8 s: built 3393, queued 0, batching 0, plants 57470 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:31:24 wrote shot d1
+12:31:55 settled for shot d2 after 31 s: built 3395, queued 0, batching 0, plants 57470 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:32:03 settled for shot d2 (camera placed) after 8 s: built 3395, queued 0, batching 0, plants 57470 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:32:03 wrote shot d2
+12:32:34 settled for shot d3 after 31 s: built 3441, queued 0, batching 0, plants 57470 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:32:42 settled for shot d3 (camera placed) after 8 s: built 3441, queued 0, batching 0, plants 57470 (sides waiting 0), detail jobs 0, ground fill builds 1
+12:32:42 wrote shot d3
+12:33:13 settled for probe 54,150,25,1.5 after 31 s: built 3545, queued 0, batching 0, plants 57470 (sides waiting 1), detail jobs 0, ground fill builds 1

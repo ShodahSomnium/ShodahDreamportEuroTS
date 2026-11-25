@@ -1,0 +1,294 @@
+===== 2026-09-25T10:45:16.419Z Bash
+--- original result:
+603:    // ------------------------------------------------------------------ rendering
+
+                if (count > best)
+                {
+                    best = count;
+                    bestYaw = y;
+                }
+            }
+
+            yaw = bestYaw;
+            how += ", auto " + view.Auto + " yaw " + yaw.ToString("0", I) + " (" + best + " of " + points.Count + " in the cone)";
+        }
+        else if (view.Auto == "tree")
+        {
+            Pose closeUp;
+
+            if (TreeCloseUp(view, out closeUp, out string found))
+--- replay output:
+603:    // ------------------------------------------------------------------ rendering
+
+                if (count > best)
+                {
+                    best = count;
+                    bestYaw = y;
+                }
+            }
+
+            yaw = bestYaw;
+            how += ", auto " + view.Auto + " yaw " + yaw.ToString("0", I) + " (" + best + " of " + points.Count + " in the cone)";
+        }
+        else if (view.Auto == "tree")
+        {
+            Pose closeUp;
+
+            if (TreeCloseUp(view, out closeUp, out string found))
+
+===== 2026-09-25T10:48:28.068Z Bash
+--- original result:
+30:    public static bool NoPost;
+191:                RenderTo(file, true);
+198:                if (NoPost)
+201:                    RenderTo(raw, false);
+615:    void RenderTo(string file, bool post)
+--- replay output:
+30:    public static bool NoPost;
+191:                RenderTo(file, true);
+198:                if (NoPost)
+201:                    RenderTo(raw, false);
+615:    void RenderTo(string file, bool post)
+
+===== 2026-09-25T10:48:39.455Z Bash
+--- original result:
+Unknown regexp modifier "/R" at -e line 1, at end of line
+Unknown regexp modifier "/L" at -e line 1, at end of line
+Unknown regexp modifier "/_" at -e line 1, at end of line
+Unknown regexp modifier "/F" at -e line 1, at end of line
+Unknown regexp modifier "/O" at -e line 1, at end of line
+Unknown regexp modifier "/V" at -e line 1, at end of line
+syntax error at -e line 1, near "s|RL_TIMEOUT="\$\{RL_TIMEOUT:-1500\}" \|RL_TIMEOUT="\${RL_TIMEOUT:-1500}" RL_NOPOST="\${RL_NOPOST:-0}" \|; s|RL_FOV \(default 60\)|RL_FOV ("
+Execution of -e aborted due to compilation errors.
+C:/Users/derii/AppData/Local/Temp/claude/D--Dreamport-Euro-Truck-Simulator-Euro-Truck-Sim/b6bed9e4-1d99-4fd7-84f3-35278f538c47/scratchpad/renderlab/labsrc/Editor/RenderLabEditor.cs:3:// RL_FOV (vertical degrees, default 60), RL_TIMEOUT (seconds, default 1500), RL_NOPOST=1 (also a _nopost.png per view).
+C:/Users/derii/AppData/Local/Temp/claude/D--Dreamport-Euro-Truck-Simulator-Euro-Truck-Sim/b6bed9e4-1d99-4fd7-84f3-35278f538c47/scratchpad/renderlab/labsrc/Editor/RenderLabEditor.cs:47:        RenderLabRunner.NoPost = Env("RL_NOPOST", "0") == "1";
+--- replay output:
+Unknown regexp modifier "/R" at -e line 1, at end of line
+Unknown regexp modifier "/L" at -e line 1, at end of line
+Unknown regexp modifier "/_" at -e line 1, at end of line
+Unknown regexp modifier "/F" at -e line 1, at end of line
+Unknown regexp modifier "/O" at -e line 1, at end of line
+Unknown regexp modifier "/V" at -e line 1, at end of line
+syntax error at -e line 1, near "s|RL_TIMEOUT="\$\{RL_TIMEOUT:-1500\}" \|RL_TIMEOUT="\${RL_TIMEOUT:-1500}" RL_NOPOST="\${RL_NOPOST:-0}" \|; s|RL_FOV \(default 60\)|RL_FOV ("
+Execution of -e aborted due to compilation errors.
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/_recover/replay/sp/renderlab/labsrc/Editor/RenderLabEditor.cs:3:// RL_FOV (vertical degrees, default 60), RL_TIMEOUT (seconds, default 1500), RL_NOPOST=1 (also a _nopost.png per view).
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/_recover/replay/sp/renderlab/labsrc/Editor/RenderLabEditor.cs:47:        RenderLabRunner.NoPost = Env("RL_NOPOST", "0") == "1";
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/_recover/replay/sp/../cmd.sh: line 2: /nonexistent/Unity/Hub/Editor/6000.3.5f2/Editor/Data/NetCoreRuntime/dotnet.exe: No such file or directory
+
+===== 2026-09-25T10:51:40.322Z Bash
+--- original result:
+556:        found = plants.Count + " plants within 600 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes";
+--- replay output:
+556:        found = plants.Count + " plants within 600 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes";
+
+===== 2026-09-25T10:51:48.559Z Bash
+--- original result:
+        found = plants.Count + " plants within 600 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes" + "; kinds: " + KindsText();
+        }
+
+        parts.Sort(StringComparer.Ordinal);
+        return string.Join(", ", parts.ToArray());
+    }
+
+    Pose Place(View view, out string how)
+    {
+        GroundAt(view.Position, view.GroundGuessY, out Vector3 ground);
+        Vector3 eye = view.Ground ? ground + Vector3.up * view.EyeHeight : view.Position;
+        float yaw = view.Yaw;
+--- replay output:
+        found = plants.Count + " plants within 600 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes" + "; kinds: " + KindsText();
+        }
+
+        parts.Sort(StringComparer.Ordinal);
+        return string.Join(", ", parts.ToArray());
+    }
+
+    Pose Place(View view, out string how)
+    {
+        GroundAt(view.Position, view.GroundGuessY, out Vector3 ground);
+        Vector3 eye = view.Ground ? ground + Vector3.up * view.EyeHeight : view.Position;
+        float yaw = view.Yaw;
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/_recover/replay/sp/../cmd.sh: line 2: /nonexistent/Unity/Hub/Editor/6000.3.5f2/Editor/Data/NetCoreRuntime/dotnet.exe: No such file or directory
+
+===== 2026-09-25T10:55:51.839Z Bash
+--- original result:
+83:            views.Add(new View { Name = "e_tree", Position = Vector3.zero, Auto = "tree", GroundGuessY = 0f, EyeHeight = 1.7f });
+540:        List<Bounds> plants = Plants(view.Position, 1500f);
+560:        found = plants.Count + " plants within 1500 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes" + "; kinds: " + KindsText();
+12:#   views            dover: a_spawn a_yard a_trees b_road c_sky d_tree      szczecin: e_yard e_trees e_tree
+78:            szczecin) views="e_yard e_trees e_tree" ;;
+--- replay output:
+83:            views.Add(new View { Name = "e_tree", Position = Vector3.zero, Auto = "tree", GroundGuessY = 0f, EyeHeight = 1.7f });
+540:        List<Bounds> plants = Plants(view.Position, 1500f);
+560:        found = plants.Count + " plants within 1500 m (heights by 5 m: " + string.Join("/", Array.ConvertAll(heights, h => h.ToString())) + "), " + trees.Count + " trees, " + bushes.Count + " bushes" + "; kinds: " + KindsText();
+12:#   views            dover: a_spawn a_yard a_trees b_road c_sky d_tree      szczecin: e_yard e_trees e_tree
+78:            szczecin) views="e_yard e_trees e_tree" ;;
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/_recover/replay/sp/../cmd.sh: line 2: /nonexistent/Unity/Hub/Editor/6000.3.5f2/Editor/Data/NetCoreRuntime/dotnet.exe: No such file or directory
+
+===== 2026-09-25T10:56:03.793Z Bash
+--- original result:
+568:                if (++looked > 3000)
+render.sh: site szczecin Unity exit 0 after 66 s
+   wrote C:/Users/derii/AppData/Local/Temp/claude/D--Dreamport-Euro-Truck-Simulator-Euro-Truck-Sim/b6bed9e4-1d99-4fd7-84f3-35278f538c47/scratchpad/renderlab/out/try5_e_tree.png (ground (0.00, -0.02, 0.00), 2614 plants within 1500 m (heights by 5 m: 1/13/1371/675/522/26/6/0), 2613 trees, 1 bushes; kinds: /asset/vegetation/deciduous/birch/birch01_mid.pmd x1, /model/vegetation/poly_vegetation/buk_tree_1_med.pmd x607, /model/vegetation/poly_vegetation/buk_tree_2_med.pmd x639, /model/vegetation/poly_vegetation/bush_medium_1.pmd x1, /model/vegetation/poly_vegetation/lime_tree_1_med.pmd x368, /model/vegetation/poly_vegetation/lime_tree_2_med.pmd x290, /model/vegetation/poly_vegetation/poplar_tree_1_med.pmd x618, /model/vegetation/poly_vegetation/spruce_big1_mid.pmd x9, /model/vegetation/poly_vegetation/spruce_med1_mid.pmd x19, /model/vegetation/poly_vegetation/spruce_small1_mid.pmd x23, /model2/vegetation/coniferous/scott_pine/scott_pine_tall_01_mid.pmd x4, /model2/vegetation/coniferous/scott_pine/scott_pine_tall_02_mid.pmd x19, /model2/vegetation/deciduous/beech_small/beech_small1_fr.pmd x1, /model2/vegetation/deciduous/beech_small/beech_small2_mid_fr.pmd x1, /model2/vegetation/deciduous/poplar/tree_middle1_mid_fr.pmd x8, /model2/vegetation/deciduous/poplar/tree_middle4_mid_fr.pmd x2, /model2/vegetation/deciduous/tree_obsolete2/tree_middle2_mid_fr.pmd x4; tree 19.2 m tall at (-1056.5, 34.3, -662.5), bush 4.0 m at (-1053.4, 26.4, -665.8) (4.6 m from the tree), camera 9.5 m from the
+--- replay output:
+568:                if (++looked > 3000)
+
+===== 2026-09-25T14:39:53.547Z Bash
+--- original result:
+79:            doverh|prague) views="" ;;  # hole survey (N/holes): images named <prefix>_<point>_<cab|up>_y<yaw>.png
+78a79
+>             doverh|prague) views="" ;;  # hole survey (N/holes): images named <prefix>_<point>_<cab|up>_y<yaw>.png
+--- replay output:
+79:            doverh|prague) views="" ;;  # hole survey (N/holes): images named <prefix>_<point>_<cab|up>_y<yaw>.png
+78a79
+>             doverh|prague) views="" ;;  # hole survey (N/holes): images named <prefix>_<point>_<cab|up>_y<yaw>.png
+
+===== 2026-09-25T14:43:43.197Z Bash
+--- original result:
+267:        public string Near = "";
+360:                if (!Locate(eye, dir, out p))
+376:                        cells[key] = cell = new HoleCell { Near = Around(p) };
+--- replay output:
+267:        public string Near = "";
+360:                if (!Locate(eye, dir, out p))
+376:                        cells[key] = cell = new HoleCell { Near = Around(p) };
+
+===== 2026-09-25T14:46:31.512Z Bash
+--- original result:
+456:                if (FirstDrawnHit(eye, dir, out RaycastHit hit, out string passed))
+--- replay output:
+456:                if (FirstDrawnHit(eye, dir, out RaycastHit hit, out string passed))
+
+===== 2026-09-25T14:46:50.935Z Bash
+--- original result:
+                }
+
+                sampled++;
+
+                if (FirstDrawnHit(eye, dir, out RaycastHit hit, out string passed, out Vector3? invisibleGround))
+                {
+                    hitSolid++;
+                    string group = PathOf(hit.collider.transform, 3) + (passed.Length > 0 ? " (behind " + passed + ")" : "");
+                    solids.TryGetValue(group, out int n);
+                    solids[group] = n + 1;
+                    continue;
+                }
+
+                if (invisibleGround.HasValue)
+                {
+                    invisibleHits++;
+                    string ig = "INVISIBLE GROUND " + passed;
+                    solids.TryGetValue(ig, out int ni);
+                    solids[ig] = ni + 1;
+                }
+
+                Vector3 p;
+
+                if (!Locate(eye, dir, out p)) && !(invisibleGround.HasValue && LocateInvisible(invisibleGround.Value, out p)))
+                {
+                    float tt = (groundY - eye.y) / dir.y;
+                    p = eye + dir * tt;
+                }
+
+                float d = new Vector2(p.x - eye.x, p.z - eye.z).magnitude;
+                int band = d < 100f ? 0 : d < 400f ? 1 : d < 1200f ? 2 : d < 2150f ? 3 : 4;
+                bands[band]++;
+
+                if (band <= 3)
+                {
+                    long key = ((long)Mathf.FloorToInt(p.x / 6f) << 32) ^ (uint)Mathf.FloorToInt(p.z / 6f);
+
+                    if (!cells.TryGetValue(key, out HoleCell cell))
+                    {
+--- replay output:
+                }
+
+                sampled++;
+
+                if (FirstDrawnHit(eye, dir, out RaycastHit hit, out string passed, out Vector3? invisibleGround))
+                {
+                    hitSolid++;
+                    string group = PathOf(hit.collider.transform, 3) + (passed.Length > 0 ? " (behind " + passed + ")" : "");
+                    solids.TryGetValue(group, out int n);
+                    solids[group] = n + 1;
+                    continue;
+                }
+
+                if (invisibleGround.HasValue)
+                {
+                    invisibleHits++;
+                    string ig = "INVISIBLE GROUND " + passed;
+                    solids.TryGetValue(ig, out int ni);
+                    solids[ig] = ni + 1;
+                }
+
+                Vector3 p;
+
+                if (!Locate(eye, dir, out p)) && !(invisibleGround.HasValue && LocateInvisible(invisibleGround.Value, out p)))
+                {
+                    float tt = (groundY - eye.y) / dir.y;
+                    p = eye + dir * tt;
+                }
+
+                float d = new Vector2(p.x - eye.x, p.z - eye.z).magnitude;
+                int band = d < 100f ? 0 : d < 400f ? 1 : d < 1200f ? 2 : d < 2150f ? 3 : 4;
+                bands[band]++;
+
+                if (band <= 3)
+                {
+                    long key = ((long)Mathf.FloorToInt(p.x / 6f) << 32) ^ (uint)Mathf.FloorToInt(p.z / 6f);
+
+                    if (!cells.TryGetValue(key, out HoleCell cell))
+                    {
+
+===== 2026-09-25T14:47:22.887Z Bash
+--- original result:
+231:            bool isLine = f.Length >= 5;
+--- replay output:
+231:            bool isLine = f.Length >= 5;
+
+===== 2026-09-25T14:51:45.852Z Bash
+--- original result:
+626:                s.Append(" over it {" + RenderersOver(m) + "}");
+--- replay output:
+626:                s.Append(" over it {" + RenderersOver(m) + "}");
+
+===== 2026-09-25T14:54:29.212Z Bash
+--- original result:
+426:            bool seeThrough = hm != null && (hm.renderQueue >= 2450 || (hm.HasProperty("_AlphaClipOn") && hm.GetFloat("_AlphaClipOn") > 0.5f) || hm.IsKeywordEnabled("_ALPHATEST_ON"));
+428:            if (r != null && r.enabled && !seeThrough)
+--- replay output:
+426:            bool seeThrough = hm != null && (hm.renderQueue >= 2450 || (hm.HasProperty("_AlphaClipOn") && hm.GetFloat("_AlphaClipOn") > 0.5f) || hm.IsKeywordEnabled("_ALPHATEST_ON"));
+428:            if (r != null && r.enabled && !seeThrough)
+
+===== 2026-09-25T14:56:43.944Z Bash
+--- original result:
+471:                       (m != null && m.HasProperty("_LayerMode") ? " L" + m.GetFloat("_LayerMode").ToString("0", I) : "") + (m != null ? " q" + m.renderQueue : "") + (rr.isPartOfStaticBatch ? " SB" : "") + (rr.isVisible ? " vis" : " NOTVIS");
+194:                        HoleSummary.AppendLine("   " + line);
+--- replay output:
+471:                       (m != null && m.HasProperty("_LayerMode") ? " L" + m.GetFloat("_LayerMode").ToString("0", I) : "") + (m != null ? " q" + m.renderQueue : "") + (rr.isPartOfStaticBatch ? " SB" : "") + (rr.isVisible ? " vis" : " NOTVIS");
+194:                        HoleSummary.AppendLine("   " + line);
+
+===== 2026-09-25T15:08:57.423Z Bash
+--- original result:
+705:                        cells[key] = cell = new HoleCell { Near = Around(p), Dir = dir };
+731:                s.Append(" ray [" + AllAlong(eye, cell.Dir) + "]");
+--- replay output:
+705:                        cells[key] = cell = new HoleCell { Near = Around(p), Dir = dir };
+731:                s.Append(" ray [" + AllAlong(eye, cell.Dir) + "]");
+
+===== 2026-09-25T15:21:51.033Z Bash
+--- original result:
+#!/bin/bash
+# Render lab (hole-survey copy, N/holes/render.sh, 2026-09-25): identical to N/renderlab/render.sh plus the sites
+# "doverh" and "prague" (the hole survey of RenderLabRunner.SurveyFor; RL_SHOTS / RL_PROBE work on any site).
+# Render lab: renders the Euro Truck Simulator world with the world's real code, shaders and render settings.
+24
+--- replay output:
+#!/bin/bash
+# Render lab (hole-survey copy, N/holes/render.sh, 2026-09-25): identical to N/renderlab/render.sh plus the sites
+# "doverh" and "prague" (the hole survey of RenderLabRunner.SurveyFor; RL_SHOTS / RL_PROBE work on any site).
+# Render lab: renders the Euro Truck Simulator world with the world's real code, shaders and render settings.
+grep: D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/renderlab/_recover/replay/sp/holes/after1/a_prague_unity.log: No such file or directory
+0
+

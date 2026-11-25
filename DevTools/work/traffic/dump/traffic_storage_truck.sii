@@ -1,0 +1,88 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+# tractor units only
+
+@include "ai/daf_xf_scp_4x2.sui"
+@include "ai/daf_xf_scp_6x4.sui"
+@include "ai/daf_xf_sc_6x4.sui"
+
+@include "ai/daf_xf_euro6_ssp_4x2.sui"
+@include "ai/daf_xf_euro6_sca_4x2.sui"
+@include "ai/daf_xf_euro6_ssp_6x4.sui"
+@include "ai/daf_xf_euro6_sca_6x24.sui"
+
+@include "ai/iveco_hiway_asp_6x4.sui"
+@include "ai/iveco_hiway_asp_6x24.sui"
+@include "ai/iveco_hiway_asp_4x2.sui"
+
+@include "ai/iveco_stralis_asp_4x2.sui"
+@include "ai/iveco_stralis_asp_6x4.sui"
+@include "ai/iveco_stralis_as_6x4.sui"
+
+@include "ai/man_tgx_xxl_4x2.sui"
+@include "ai/man_tgx_xxl_6x4.sui"
+@include "ai/man_tgx_xl_6x4.sui"
+
+@include "ai/man_tgx_euro6_xxl_4x2.sui"
+@include "ai/man_tgx_euro6_xlx_6x24.sui"
+@include "ai/man_tgx_euro6_ef3_xxl_4x2.sui"
+@include "ai/man_tgx_euro6_ef3_xlx_6x24.sui"
+@include "ai/man_tgx_euro6_ef3_xxl_6x2.sui"
+
+
+@include "ai/mercedes_actros_2009_ms_6x4.sui"
+@include "ai/mercedes_actros_2009_hr_6x24.sui"
+@include "ai/mercedes_actros_2009_ms_4x2.sui"
+@include "ai/mercedes_actros_2009_hr_4x2.sui"
+
+@include "ai/mercedes_actros_2014_gs_4x2.sui"
+@include "ai/mercedes_actros_2014_st_4x2.sui"
+@include "ai/mercedes_actros_2014_gs_6x2.sui"
+@include "ai/mercedes_actros_2014_st_6x2.sui"
+
+@include "ai/renault_magnum_2009_std_4x2.sui"
+@include "ai/renault_magnum_2009_std_6x2.sui"
+@include "ai/renault_magnum_2009_std_6x24.sui"
+
+@include "ai/renault_premium_hr_4x2.sui"
+@include "ai/renault_premium_nr_4x2.sui"
+@include "ai/renault_premium_hr_6x2.sui"
+
+@include "ai/renault_t_std_hi_4x2.sui"
+@include "ai/renault_t_std_slp_6x2.sui"
+@include "ai/renault_t_evo_hi_4x2.sui"
+@include "ai/renault_t_evo_hi_6x2.sui"
+@include "ai/renault_t_evo_slp_6x2.sui"
+
+@include "ai/scania_rcab_2009_tl_4x2.sui"
+@include "ai/scania_rcab_2009_tl_6x4.sui"
+@include "ai/scania_rcab_2009_nr_6x4.sui"
+
+@include "ai/scania_streamline_tl_4x2.sui"
+@include "ai/scania_streamline_hl_4x2.sui"
+@include "ai/scania_streamline_hl_6x4.sui"
+
+@include "ai/scania_s_2016_nrm_4x2.sui"
+@include "ai/scania_s_2016_nrm_6x2.sui"
+
+@include "ai/scania_r_2016_nrm_4x2.sui"
+@include "ai/scania_r_2016_nrm_6x2.sui"
+
+@include "ai/volvo_fh16_2009_gtxl_4x2.sui"
+@include "ai/volvo_fh16_2009_gtxl_6x4.sui"
+@include "ai/volvo_fh16_2009_slp_6x4.sui"
+
+@include "ai/volvo_fh16_2012_gtxl_4x2.sui"
+@include "ai/volvo_fh16_2012_gtxl_6x2.sui"
+@include "ai/volvo_fh16_2012_slp_6x2.sui"
+
+
+}

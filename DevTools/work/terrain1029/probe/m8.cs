@@ -1,0 +1,4 @@
+using System; using System.Linq; using SomniumSpace.Worlds.SomniumEuroTruck.Ets;
+static class P { static void Main(string[] a){ var fs=EtsFileSystem.Mount("E:/SteamLibrary/steamapps/common/Euro Truck Simulator 2 Demo", out _);
+ foreach(var p in a){ var md=EtsModelData.Parse(fs.Read(p), fs.Read(p.Substring(0,p.Length-4)+".pmg"), p); Console.WriteLine(p+" variants "+string.Join(",",md.Variants));
+  foreach(var pt in md.Parts){ for(int k=pt.PieceStart;k<pt.PieceStart+pt.PieceCount;k++){ var pc=md.Pieces[k]; float x0=999,x1=-999,y0=999,y1=-999; for(int i=0;i<pc.VertexCount;i++){ x0=Math.Min(x0,pc.Positions[i*3]); x1=Math.Max(x1,pc.Positions[i*3]); y0=Math.Min(y0,pc.Positions[i*3+1]); y1=Math.Max(y1,pc.Positions[i*3+1]);} Console.WriteLine($"  {pt.Name} vis {string.Join("",pt.VisibleInVariant.Select(b=>b?"1":"0"))} x {x0:0.00}..{x1:0.00} y {y0:0.00}..{y1:0.00} verts {pc.VertexCount}"); } } } } }

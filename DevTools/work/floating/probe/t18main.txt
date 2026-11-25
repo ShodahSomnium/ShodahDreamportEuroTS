@@ -1,0 +1,12 @@
+  static void Main2(string[] a){
+    float gx=float.Parse(a[0]), gy=float.Parse(a[1]), gz=float.Parse(a[2]); EtsMapSector.SectorOf(gx,gz,out int sx,out int sz);
+    win=new Win(12); var P0=new Vector3(gx,gy,-gz);
+    for(int x=sx-1;x<=sx+1;x++) for(int z=sz-1;z<=sz+1;z++){ var sec=win.Get(x,z); if(sec==null) continue;
+      foreach(var item in sec.Terrains){ if(!sec.NodesByUid.TryGetValue(item.StartNode, out var st) || !sec.NodesByUid.TryGetValue(item.EndNode, out var en)) continue;
+        var sp=new[]{st.Position[0]+item.StartOffset[0],st.Position[1]+item.StartOffset[1],st.Position[2]+item.StartOffset[2]}; var ep=new[]{en.Position[0]+item.EndOffset[0],en.Position[1]+item.EndOffset[1],en.Position[2]+item.EndOffset[2]};
+        float len=Math.Max(0.5f,item.Length); Vector3 p0=U(sp), p1=U(ep), t0=D(st.Forward())*len, t1=D(en.Forward())*len; int tc=Math.Max(1,(int)Math.Ceiling(len/item.ColumnStep)); Vector3 no=U(st.Position);
+        foreach(var (nm,side,left) in new[]{("R",item.Right,false),("L",item.Left,true)}){ var g=Grid(side,left,0f,tc,p0,t0,p1,t1,no,0f,out _,out int rows,out int cols); if(g==null) continue;
+          float best=1e9f; Vector3 bv=default; foreach(var v in g){ float d=new Vector2(v.x-P0.x,v.z-P0.z).magnitude; if(d<12f && v.y>gy+6 && d<best){ best=d; bv=v; } }
+          if(best<1e9f){ var pr=EtsToken.Decode(side.ProfileToken); Console.WriteLine($"terrain {item.Uid:x} {nm} sec {x},{z} flags {item.Flags:x8} vd {item.ViewDistance} size {side.Size} {pr}*{side.Coefficient} rows {rows} cols {cols} offs {(side.Quads!=null?side.Quads.OffsetCount:0)} start {st.Position[0]:0},{st.Position[1]:0},{st.Position[2]:0} end {en.Position[0]:0},{en.Position[1]:0},{en.Position[2]:0} vertex {bv.x:0},{bv.y:0},{-bv.z:0} kdopY {item.KdopMin[1]:0}..{item.KdopMax[1]:0}"); } } } }
+  }
+}

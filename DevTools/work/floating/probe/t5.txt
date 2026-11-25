@@ -1,0 +1,398 @@
+MODEL 42bf29e0018f5e2f at 16844,41,18263 d 149 1193 /model/parked_cars/static/laguna/car_parked_laguna_far.pmd scale 1,1,1
+MODEL 42bf29e001cf5b0d at 16573,39,18228 d 146 dlc_no_204 /model2/building/logistic/logistic_10.pmd scale 1,1,-1
+MODEL 42bf29e0024f5e78 at 16908,45,18487 d 280 scene_03 /model2/props/street/street_dirt_decal.pmd scale 0.2,0.2,0.2
+MODEL 42bf29e0058f5eea at 17000,41,18149 d 335 at_0700l /model2/gas_station/gas_shop_01_at.pmd scale 1,1,1
+MODEL 42bf29e00b0f59a1 at 16474,39,18265 d 229 dlc_fr_227 /model2/gates/gate_small_03_fr.pmd scale 1,1,1
+MODEL 42bf29e013cf5fa3 at 16986,41,18443 d 320 565 /model/dock/logs1.pmd scale 1,1,1
+MODEL 42bf29e0168f5e60 at 16903,39,18286 d 203 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e016cf5eed at 16979,41,18163 d 311 dlc_it_382 /model/parked_cars_groups/cars_parked_5x1_var7_lod_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e0170f597a at 16468,39,18234 d 242 at_2m002 /model2/building/village_close/village_close_01_at.pmd scale 1,1,1
+MODEL 42bf29e0170f5d75 at 16693,38,18532 d 232 scene_03 /model2/props/street/street_dirt_decal.pmd scale 0.5,0.5,0.5
+MODEL 42bf29e017cf5960 at 16408,39,18229 d 301 dlc_balt_109  scale 1,1,1
+MODEL 42bf29e0180f5bf3 at 16579,39,18265 d 126 dlc_no_336 /model2/props/construction/details/const_dvar_05.pmd scale 1,1,1
+MODEL 42bf29e0194f5f99 at 17028,41,18307 d 328 balt_715 /model2/props/country/logs_long_balt.pmd scale 1,1,1.2
+MODEL 42bf29e01a8f5ecf at 16983,40,18109 d 341 at_2000a /model2/building/village_mid/village_mid_07_at.pmd scale 1,1,1
+MODEL 42bf29e01b8f5973 at 16438,39,18251 d 266 dlc_no_225 /model2/gates/gate_metal_01_sc.pmd scale 0.55,0.6,1
+MODEL 42bf29e01e8f5de5 at 16875,41,18248 d 182 dlc_blke_64 /model2/building/logistic/gatehouse_02_blke.pmd scale 1,1,1
+MODEL 42bf29e01fcf5b17 at 16595,39,18255 d 114 dlc_no_714 /model/parked_cars_groups/cars_parked_5x1_var4_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e01fcf5e97 at 16849,49,18605 d 339 dlc_balt_113  scale 1,1,1
+MODEL 42bf29e0230f5bbe at 16395,40,18295 d 305 1z02s  scale 1,1,1
+MODEL 42bf29e0244f5fd3 at 17042,41,18291 d 342 1103 /model/parked_cars/physics/car_parked_transit_physics.pmd scale 1,1,1
+MODEL 42bf29e0268f5e8f at 16918,47,18559 d 339 254 /model/farm/farm_tractor_lod1.pmd scale 1,1,1
+MODEL 42bf29e0270f5f1b at 16957,41,18237 d 264 9998 /asset/shapes.pmd scale 0.15,2.1,0.15
+MODEL 42bf29e0274f5d28 at 16819,39,18140 d 199 dlc_it_138 /model2/village_far/village_house_06_it.pmd scale 1,1,1
+MODEL 42bf29e0284f5e8a at 16923,44,18488 d 292 9998 /asset/shapes.pmd scale 10,1,1
+MODEL 42bf29e0294f5faa at 17008,41,18445 d 341 565 /model/dock/logs1.pmd scale 1,1,1
+MODEL 42bf29e02b4f5de8 at 16891,38,18138 d 250 at_20006 /model2/building/village_mid/village_mid_03_at.pmd scale 1,1,1
+MODEL 42bf29e02d4f5f95 at 17020,41,18273 d 321 1103 /model/parked_cars/physics/car_parked_transit_physics.pmd scale 1,1,1
+MODEL 42bf29e02e4f5dc4 at 16849,41,18239 d 161 759 /model/parked_trailers/static/reefer/trailer_reefer_lod1.pmd scale 1,1,1
+MODEL 42bf29e02f0f5e7f at 16913,47,18563 d 339 1144 /model/farm/farm_trailer.pmd scale 1,1,1
+MODEL 42bf29e02f8f5d24 at 16756,38,18155 d 155 at_2000d /model2/building/village_mid/village_mid_10_at.pmd scale 1,1,1
+MODEL 42bf29e030cf5f23 at 16999,41,18249 d 303 1x04b /model2/vegetation/decal/terrain_decal_model.pmd scale 0.05,0.05,0.05
+MODEL 42bf29e031cf5cc1 at 16658,39,18273 d 50 dlc_balt_579 /model2/props/construction/close/concrete_pile_03_balt.pmd scale 1,1,1
+MODEL 42bf29e0320f5bdf at 16484,39,18301 d 216 at_0v009 /model2/props/street/parking_roof_02_at.pmd scale 1,1,1
+MODEL 42bf29e0340f5e2e at 16845,41,18266 d 149 dlc_no_704 /model/parked_cars/static/volvo/car_parked_volvo_far.pmd scale 1,1,1
+MODEL 42bf29e0354f5c50 at 16649,39,18279 d 55 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e035cf5b2b at 16602,46,18226 d 122 at_2x009 /model2/props/street/advert/at/shop_advert_01_at.pmd scale 3,3,3
+MODEL 42bf29e0370f5e67 at 16884,38,18304 d 184 mod_ger_5 /model2/props/street/arrow_left_ger.pmd scale 1,1,1
+MODEL 42bf29e0390f5e98 at 16878,48,18595 d 345 dlc_balt_146 /model2/building/village_close/wooden_barn_01_balt.pmd scale 1,1,1
+MODEL 42bf29e0390f5eee at 17002,41,18200 d 319 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0438f5ee2 at 16942,41,18239 d 250 dlc_no_705 /model/parked_cars/static/vw_passat_cc/car_parked_vw.pmd scale 1,1,1
+MODEL 42bf29e043cf5c61 at 16623,39,18306 d 78 at_0m001 /model2/building/village_close/village_close_07_at.pmd scale -1,1,1
+MODEL 42bf29e0454f5f24 at 16989,41,18259 d 292 mod_ger_4 /model2/props/street/arrow_ahead_right_ger.pmd scale 1,1,1
+MODEL 42bf29e0460f598f at 16475,39,18258 d 229 dlc_fr_24 /model2/gates/gate_village_02_fr.pmd scale 1,1,1
+MODEL 42bf29e0464f5cf4 at 16685,39,18232 d 69 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0468f5b3c at 16648,39,18206 d 108 dlc_no_714 /model/parked_cars_groups/cars_parked_5x1_var4_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e047cf5bd8 at 16492,39,18279 d 209 dlc_no_657 /model2/props/garden/pergola_01.pmd scale 1,1,1
+MODEL 42bf29e04b4f5dc3 at 16840,41,18223 d 160 dlc_fr_35 /model2/gates/gate_industrial_04_fr.pmd scale 1,1,1
+MODEL 42bf29e04fcf598b at 16489,39,18248 d 218 at_2n002 /model2/building/village_close_04_at.pmd scale 1,1,1
+MODEL 42bf29e04fcf5c5f at 16648,39,18290 d 53 dlc_balt_577 /model2/props/construction/close/concrete_pile_01_balt.pmd scale 1,1,1
+MODEL 42bf29e0500f5bdb at 16482,39,18288 d 218 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0524f59a2 at 16474,39,18269 d 228 dlc_fr_315  scale 1,1,1
+MODEL 42bf29e0530f5beb at 16550,39,18293 d 151 dlc_balt_605 /model2/props/street/bench_01_balt.pmd scale 1,1,1
+MODEL 42bf29e053cf59a4 at 16497,39,18263 d 206 blke_72  scale 1,1,1
+MODEL 42bf29e0544f5b0b at 16567,39,18254 d 141 ibe_1i00j /model2/props/storage/cargo_box_pile_01_ibe.pmd scale 1,1,1
+MODEL 42bf29e0548f597f at 16457,39,18255 d 247 dlc_no_658 /model2/props/garden/garage_01.pmd scale 1,1,1
+MODEL 42bf29e054cf5e05 at 16927,41,18237 d 235 dlc_fr_338 /model/parked_cars/static/tourer/car_parked_tourer.pmd scale 1,1,1
+MODEL 42bf29e0588f596a at 16422,39,18240 d 285 dlc_no_657 /model2/props/garden/pergola_01.pmd scale 1,1,1
+MODEL 42bf29e0590f5bf4 at 16585,39,18270 d 119 dlc_no_256 /model2/props/uni/close/cargobox01_single_sc.pmd scale 1,1,1
+MODEL 42bf29e0594f5e4c at 16863,41,18270 d 165 at_1u013  scale 1,1,1
+MODEL 42bf29e0598f5fd6 at 17047,41,18290 d 347 1103 /model/parked_cars/physics/car_parked_transit_physics.pmd scale 1,1,1
+MODEL 42bf29e05acf5efd at 17025,41,18188 d 344 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e05bcf5b22 at 16610,46,18217 d 122 at_2x009 /model2/props/street/advert/at/shop_advert_01_at.pmd scale 4,4,4
+MODEL 42bf29e05c4f596b at 16416,39,18251 d 288 dlc_balt_108  scale 1,1,1
+MODEL 42bf29e05fcf5be5 at 16506,39,18280 d 195 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e060cf5deb at 16905,41,18211 d 223 dlc_no_700 /model/parked_cars/static/kia_ceed/car_parked_kia_far.pmd scale 1,1,1
+MODEL 42bf29e0640f5983 at 16478,38,18235 d 231 dlc_no_704 /model/parked_cars/static/volvo/car_parked_volvo_far.pmd scale 1,1,1
+MODEL 42bf29e0660f5be1 at 16484,39,18301 d 216 1169 /model/parked_cars/static/p3008/car_parked_p3008_far.pmd scale 1,1,1
+MODEL 42bf29e0668f5fab at 17021,41,18436 d 349 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e06bcf5b12 at 16592,43,18224 d 132 at_2x009 /model2/props/street/advert/at/shop_advert_01_at.pmd scale 2.3,2.3,2.3
+MODEL 42bf29e06fcf5cc2 at 16675,39,18290 d 27 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0710f5cb5 at 16664,39,18249 d 62 9998 /asset/shapes.pmd scale 0.2,3.8,0.2
+MODEL 42bf29e0710f5dea at 16897,41,18182 d 229 dlc_no_714 /model/parked_cars_groups/cars_parked_5x1_var4_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e0724f5fae at 17010,41,18435 d 338 dlc_balt_420 /model2/props/sawmill/logs_04_balt.pmd scale 1,1,1
+MODEL 42bf29e072cf5b27 at 16622,39,18236 d 101 dlc_it_380 /model/parked_cars_groups/cars_parked_5x1_var6_lod_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e0740f5cb7 at 16665,39,18252 d 60 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e075cf5d1d at 16779,38,18161 d 160 dlc_fr_86 /model2/village_far/house09_fr.pmd scale 1,1,1
+MODEL 42bf29e0764f5993 at 16514,38,18254 d 192 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0768f5bd5 at 16482,39,18273 d 220 at_2n001 /model2/building/village_close_03_at.pmd scale 1,1,1
+MODEL 42bf29e0770f5caf at 16679,39,18238 d 65 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e078cf5d14 at 16720,39,18176 d 126 at_20008 /model2/building/village_mid/village_mid_05_at.pmd scale 1,1,1
+MODEL 42bf29e0798f5e86 at 16918,44,18446 d 263 9998 /asset/shapes.pmd scale 10,1,1
+MODEL 42bf29e079cf5ef0 at 16992,41,18178 d 317 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.7,0.7,0.7
+MODEL 42bf29e07a8f5fdb at 17044,41,18326 d 345 dlc_balt_403 /model2/props/container/single/container_wood_01_balt.pmd scale 1,1,1
+MODEL 42bf29e07acf5b0c at 16572,39,18257 d 135 dlc_no_246 /model2/props/construction/close/bricks02_pile_sc.pmd scale 1,1,1
+MODEL 42bf29e07c4f5bec at 16540,39,18291 d 160 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e07c8f5edb at 16928,41,18222 d 240 ibe_0u001 /model2/building/administration/logistic_es/logistic_10b_es_ibe.pmd scale 1,1,1
+MODEL 42bf29e07dcf5de9 at 16915,41,18192 d 240 dlc_blke_88 /model2/building/logistic/warehouse_02_blke.pmd scale 1,1,1
+MODEL 42bf29e07f4f5b1a at 16625,46,18201 d 124 at_2x009 /model2/props/street/advert/at/shop_advert_01_at.pmd scale 4,4,4
+MODEL 42bf29e0814f5f7e at 16950,40,18270 d 252 mod_ger_5 /model2/props/street/arrow_left_ger.pmd scale 1,1,1
+MODEL 42bf29e0830f5b37 at 16644,39,18184 d 129 dlc_balt_514 /model2/building/logistic/warehouse_03_balt.pmd scale 1,1,1
+MODEL 42bf29e0830f5f9b at 17037,41,18306 d 337 balt_715 /model2/props/country/logs_long_balt.pmd scale 1,0.8,1
+MODEL 42bf29e083cf5e57 at 16878,41,18272 d 180 dlc_fr_37 /model2/gates/gate_industrial_06_fr.pmd scale 1,1,1
+MODEL 42bf29e0840f5992 at 16518,38,18253 d 188 dlc_it_365 /model/parked_cars_groups/cars_parked_diagonal_var6_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e0854f5e69 at 16927,40,18279 d 228 mod_ger_5 /model2/props/street/arrow_left_ger.pmd scale 1,1,1
+MODEL 42bf29e0874f5dd3 at 16844,41,18253 d 151 dlc_fr_33 /model2/gates/gate_industrial_02_fr.pmd scale 1,1,1
+MODEL 42bf29e087cf598a at 16476,39,18243 d 231 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0888f5cc5 at 16670,39,18296 d 30 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e08a0f5e44 at 16869,41,18271 d 171 1193 /model/parked_cars/static/laguna/car_parked_laguna_far.pmd scale 1,1,1
+MODEL 42bf29e0920f5e68 at 16925,40,18275 d 227 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e0968f5e5e at 16905,39,18291 d 205 mod_ger_5 /model2/props/street/arrow_left_ger.pmd scale 1,1,1
+MODEL 42bf29e0968f5f92 at 17031,41,18272 d 332 1097 /model/parked_cars/physics/car_parked_physics.pmd scale 1,1,1
+MODEL 42bf29e096cf5971 at 16444,39,18246 d 262 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 1,1,1
+MODEL 42bf29e0980f5be0 at 16488,39,18302 d 212 dlc_no_698 /model/parked_cars/static/audi_a3/car_parked_audi_far.pmd scale 1,1,1
+MODEL 42bf29e098cf5b1d at 16624,43,18201 d 125 at_2x009 /model2/props/street/advert/at/shop_advert_01_at.pmd scale 3,3,3
+MODEL 42bf29e09a8f5e5c at 16881,38,18300 d 181 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e09bcf5f7c at 16949,40,18266 d 251 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e09dcf5e39 at 16849,41,18276 d 151 dlc_fr_339 /model/parked_cars/static/talisman/car_parked_talisman.pmd scale 1,1,1
+MODEL 42bf29e0a24f5f2e at 17028,41,18257 d 331 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e0a48f5b14 at 16592,39,18232 d 127 dlc_no_291 /model2/props/uni/uni_var_01.pmd scale 1,1,1
+MODEL 42bf29e0a48f5d8a at 16814,41,18272 d 118 dlc_blke_88 /model2/building/logistic/warehouse_02_blke.pmd scale 1,1,1
+MODEL 42bf29e0a54f5ee4 at 16940,41,18239 d 247 1198 /model/parked_cars/static/toyco/car_parked_toyco.pmd scale 1,1,1
+MODEL 42bf29e0a5cf5ee3 at 16952,41,18238 d 260 dlc_fr_34 /model2/gates/gate_industrial_03_fr.pmd scale 1,1,1
+MODEL 42bf29e0a6cf5bee at 16531,39,18288 d 170 dlc_balt_605 /model2/props/street/bench_01_balt.pmd scale 1,1,1
+MODEL 42bf29e0a70f5f9a at 17041,41,18335 d 343 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0a7cf5f7d at 16949,40,18282 d 250 mod_ger_7 /model2/props/street/arrow_merge_ger.pmd scale 1,1,1
+MODEL 42bf29e0ad8f599a at 16440,39,18260 d 263 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 1,1,1
+MODEL 42bf29e0b20f5966 at 16426,39,18232 d 283 at_1z006  scale 0.6,0.6,0.6
+MODEL 42bf29e0b30f5998 at 16415,40,18263 d 287 blke_73  scale 1,1,1
+MODEL 42bf29e0b78f5fc2 at 17044,41,18273 d 345 1103 /model/parked_cars/physics/car_parked_transit_physics.pmd scale 1,1,1
+MODEL 42bf29e0b84f5970 at 16432,39,18248 d 273 dlc_fr_339 /model/parked_cars/static/talisman/car_parked_talisman.pmd scale 1,1,1
+MODEL 42bf29e0b84f5df4 at 16907,41,18217 d 224 dlc_balt_246  scale 1,1,1
+MODEL 42bf29e0b98f5df3 at 16910,41,18226 d 223 ibe_1u021  scale 1,1,1
+MODEL 42bf29e0bccf5ee9 at 16987,41,18158 d 320 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.7,0.7,0.7
+MODEL 42bf29e0c14f596d at 16426,40,18261 d 276 at_12001 /model2/building/village_close/village_close_05_at.pmd scale 1,1,1
+MODEL 42bf29e0c30f5bf0 at 16581,38,18263 d 124 martin54 /model/cargo_props/cargo_props_bag01.pmd scale 1,1,1
+MODEL 42bf29e0c8cf5961 at 16438,38,18225 d 273 at_0m001 /model2/building/village_close/village_close_07_at.pmd scale 1,1,1
+MODEL 42bf29e0c90f5d9f at 16925,38,18122 d 287 at_2m00a /model2/building/village_close/farmhouse_barn_01_at.pmd scale 1,1,1
+MODEL 42bf29e0c94f5ef3 at 17024,41,18169 d 350 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.7,0.7,0.7
+MODEL 42bf29e0ca4f5c37 at 16564,57,18404 d 171 at_2x009 /model2/props/street/advert/at/shop_advert_01_at.pmd scale 3.5,3.5,3.5
+MODEL 42bf29e0cacf5bff at 16573,39,18296 d 127 at_2t002 /model2/props/street/trash_bin_glass_01_at.pmd scale 1,1,1
+MODEL 42bf29e0ce0f5bf9 at 16560,39,18297 d 141 dlc_no_713 /model/parked_cars_groups/cars_parked_5x1_var4.pmd scale 1,1,1
+MODEL 42bf29e0d04f5f28 at 17026,41,18249 d 330 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e0d48f5987 at 16481,38,18237 d 228 dlc_fr_22 /model2/gates/gate_village_04_fr.pmd scale 1,1.1,1
+MODEL 42bf29e0d58f5fd4 at 17050,41,18307 d 350 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0d60f5f8a at 16992,41,18267 d 293 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e0d6cf5bbb at 16394,40,18273 d 307 dlc_no_701 /model/parked_cars/static/ford_transit/car_parked_transit.pmd scale 1,1,1
+MODEL 42bf29e0d74f59a8 at 16545,39,18270 d 158 dlc_no_465 /model2/building/administration/admin_12b.pmd scale 1,1,1
+MODEL 42bf29e0d88f5eeb at 17005,41,18169 d 332 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0d94f598c at 16484,39,18260 d 220 at_12006 /model2/props/street/parking_roof_01_at.pmd scale 1,1,1
+MODEL 42bf29e0dc4f5fa1 at 16936,45,18487 d 301 scene_03 /model2/props/street/street_dirt_decal.pmd scale 0.2,0.2,0.2
+MODEL 42bf29e0dd4f5cc3 at 16684,39,18280 d 25 dlc_blke_65 /model2/building/logistic/warehouse_01_blke.pmd scale 1,1,1
+MODEL 42bf29e0de0f5bef at 16532,39,18293 d 168 1068 /model/mover/characters/civilians_group_01.pmd scale 1,1,1
+MODEL 42bf29e0df0f5be8 at 16520,39,18288 d 180 dlc_no_711 /model/parked_cars_groups/cars_parked_5x1_var3.pmd scale 1,1,1
+MODEL 42bf29e0df8f595f at 16411,39,18224 d 299 at_2m002 /model2/building/village_close/village_close_01_at.pmd scale 1,1,1
+MODEL 42bf29e0e0cf5c2d at 16586,45,18397 d 149 at_31002 /model2/props/road/emergency_phone_01_at.pmd scale 1,1,1
+MODEL 42bf29e0e14f5fd9 at 17050,41,18313 d 350 dlc_balt_418 /model2/props/sawmill/logs_02_balt.pmd scale 1,1,1
+MODEL 42bf29e0e2cf5bd1 at 16469,39,18270 d 233 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0e78f5e53 at 16863,41,18274 d 165 at_1u012  scale 1,1,1
+MODEL 42bf29e0e94f5d1c at 16704,39,18252 d 48 dlc_balt_577 /model2/props/construction/close/concrete_pile_01_balt.pmd scale 1,1,1
+MODEL 42bf29e0ea0f599c at 16456,39,18265 d 247 at_2n002 /model2/building/village_close_04_at.pmd scale -1,1,1
+MODEL 42bf29e0ea0f5dff at 16913,41,18234 d 223 ibe_1u022  scale 1,1,1
+MODEL 42bf29e0ea8f596e at 16418,40,18258 d 285 dlc_fr_149 /model2/props/street/table_02.pmd scale 1,1,1
+MODEL 42bf29e0ea8f5bde at 16481,39,18299 d 220 dlc_no_702 /model/parked_cars/static/ford_transit/car_parked_transit_far.pmd scale 1,1,1
+MODEL 42bf29e0ec0f5ed2 at 16955,40,18115 d 315 at_20008 /model2/building/village_mid/village_mid_05_at.pmd scale 1,1,1
+MODEL 42bf29e0ed0f5f7f at 16949,40,18280 d 249 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 42bf29e0ee4f5cb3 at 16672,39,18231 d 75 dlc_fr_35 /model2/gates/gate_industrial_04_fr.pmd scale 1,1,1
+MODEL 42bf29e0ef4f5e8e at 16915,47,18561 d 339 9998 /asset/shapes.pmd scale 0.15,2.4,0.15
+MODEL 42bf29e0f00f5efa at 17025,41,18187 d 345 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.6,0.6,0.6
+MODEL 42bf29e0f0cf5994 at 16395,40,18265 d 307 dlc_it_324 /model2/props/street/container_01_it.pmd scale 1,1,1
+MODEL 42bf29e0f10f5fa8 at 16976,41,18440 d 309 568 /model/dock/logs2.pmd scale 1,1,1
+MODEL 42bf29e0f20f5c51 at 16641,39,18276 d 64 9998 /asset/shapes.pmd scale 0.2,3.8,0.2
+MODEL 42bf29e0f54f5c38 at 16564,53,18404 d 171 9998 /asset/shapes.pmd scale 0.200003,6.96743,3.5
+MODEL 42bf29e0f60f5cb4 at 16672,39,18240 d 66 9998 /asset/shapes.pmd scale 0.2,3.8,0.2
+MODEL 42bf29e0f78f5f93 at 17037,41,18272 d 338 1097 /model/parked_cars/physics/car_parked_physics.pmd scale 1,1,1
+MODEL 42bf29e0f88f5bca at 16435,40,18285 d 266 at_01005 /model2/props/street/parking_roof_03_at.pmd scale 1,1,1
+MODEL 42bf29e0f8cf5e51 at 16871,41,18273 d 174 at_1u010  scale 1,1,1
+MODEL 42bf29e0fa4f5b29 at 16617,39,18231 d 109 dlc_it_382 /model/parked_cars_groups/cars_parked_5x1_var7_lod_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e0fc8f5bdc at 16492,39,18282 d 209 dlc_it_61  scale 1,1,1
+MODEL 42bf29e0fe0f5ca8 at 16656,39,18258 d 61 9998 /asset/shapes.pmd scale 0.2,3.8,0.2
+MODEL 42bf29e0fe8f5b2e at 16601,39,18260 d 107 dlc_no_712 /model/parked_cars_groups/cars_parked_5x1_var3_far_hookup.pmd scale 1,1,1
+MODEL 4321fa0c44050001 at 17006,41,18276 d 307 scene_03 /model2/props/street/street_dirt_decal.pmd scale 0.6,0.6,0.6
+MODEL 4322040011450000 at 16921,38,18442 d 263 scene_03 /model2/props/street/street_dirt_decal.pmd scale 0.6,0.6,0.6
+MODEL 432204509a450000 at 16915,38,18443 d 258 scene_03 /model2/props/street/street_dirt_decal.pmd scale 0.5,0.5,0.5
+MODEL 4322e3f8e0850001 at 16422,45,18356 d 284 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 4322e4702b850001 at 16422,45,18361 d 285 mod_ger_6 /model2/props/street/arrow_right_ger.pmd scale 1,1,1
+MODEL 4322e55842050001 at 16372,45,18356 d 333 mod_ger_6 /model2/props/street/arrow_right_ger.pmd scale 1,1,1
+MODEL 4322e558a5c50000 at 16372,45,18352 d 332 mod_ger_2 /model2/props/street/arrow_ahead_ger.pmd scale 1,1,1
+MODEL 4322f4e4f2050001 at 16853,43,18426 d 199 1u_40  scale 1,1,1
+MODEL 4322f52892c50001 at 16853,43,18424 d 198 1u_41  scale 1,1,1
+MODEL 4324e078f6c50001 at 16566,45,18398 d 166 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.8,0.8,0.8
+MODEL 4324e15461050000 at 16517,45,18383 d 200 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.8,0.8,0.8
+MODEL 4324e19460450000 at 16508,45,18377 d 207 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.5,0.5,0.5
+MODEL 4324e21c97050000 at 16493,45,18374 d 220 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.5,0.5,0.5
+MODEL 4324e264b1850000 at 16544,44,18410 d 191 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.4,0.4,0.4
+MODEL 4324e3748c850000 at 16541,44,18403 d 190 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.4,0.4,0.4
+MODEL 4324e3b8a0450000 at 16531,44,18398 d 195 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.4,0.4,0.4
+MODEL 4324e424be050000 at 16583,45,18414 d 163 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.8,0.8,0.8
+MODEL 4324e44c16450000 at 16596,45,18405 d 148 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.5,0.5,0.5
+MODEL 4324e4ecc8450000 at 16610,45,18409 d 142 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale -0.5,0.5,0.5
+MODEL 4324e5547bc50000 at 16629,45,18415 d 135 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale -0.5,0.5,0.5
+MODEL 4324e5dcfd850000 at 16619,45,18417 d 143 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale -0.5,0.5,0.5
+MODEL 4324e64446050000 at 16636,45,18421 d 137 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 0.5,0.5,0.5
+MODEL 4344b28058c50001 at 16821,41,18236 d 137 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 4344bbec8b850000 at 16839,41,18275 d 141 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 42bf29e0020f5db7 at 16845,40,18199 d 177 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0058f5db5 at 16851,40,18215 d 173 9998 /asset/shapes.pmd scale 0.8,9.2,0.8
+MODEL 42bf29e0088f5dd8 at 16857,40,18231 d 171 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0194f5da1 at 16843,40,18191 d 179 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0360f5dd7 at 16854,40,18223 d 172 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0408f5de0 at 16863,40,18247 d 171 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0810f5da2 at 16840,40,18183 d 182 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0bb8f5dde at 16860,40,18239 d 171 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0c28f5db6 at 16848,40,18207 d 175 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0268f5dda at 16877,40,18224 d 193 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0444f5dbf at 16872,40,18208 d 195 9998 /asset/shapes.pmd scale 0.8,9.2,0.8
+MODEL 42bf29e0540f5dbb at 16869,40,18200 d 196 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e06ecf5dae at 16860,40,18176 d 203 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e08e4f5dac at 16866,40,18192 d 198 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0950f5daf at 16863,40,18184 d 200 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0c64f5df6 at 16880,40,18231 d 193 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0e74f5df5 at 16883,40,18239 d 193 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 42bf29e0e8cf5dbc at 16874,40,18216 d 194 9998 /asset/shapes.pmd scale 0.5,9.2,0.7
+MODEL 4354497c47850008 at 16494,34,18045 d 328 dlc_it_138 /model2/village_far/village_house_06_it.pmd scale 1,1,1
+MODEL 4354497c7b85000d at 16650,39,18091 d 215 373 /model/village_far/village_at/at_house_single_1.pmd scale 1,1,1
+MODEL 4354497c9c050006 at 16454,34,18075 d 333 dlc_fr_84 /model2/village_far/house07_fr.pmd scale 1,1,1
+MODEL 4354497cbb45000c at 16624,39,18082 d 231 dlc_it_138 /model2/village_far/village_house_06_it.pmd scale 1,1,1
+MODEL 4354497cc245000f at 16687,38,18141 d 159 at_2000a /model2/building/village_mid/village_mid_07_at.pmd scale 1,1,1
+MODEL 4354497cd485000b at 16604,39,18065 d 253 at_20009 /model2/building/village_mid/village_mid_06_at.pmd scale 1,1,1
+MODEL 4354497cdb050007 at 16477,34,18069 d 322 dlc_fr_96 /model2/village_far/house19_fr.pmd scale 1,1,1
+MODEL 4354497cdb850009 at 16464,34,18120 d 297 at_20004 /model2/building/village_mid/village_mid_01_at.pmd scale 1,1,1
+MODEL 4354497ce705000e at 16672,37,18113 d 189 dlc_balt_225 /model2/building/village_far/village_far_fin/village_far_22_fin_balt.pmd scale 1,1,1
+MODEL 4356b36448c50001 at 16549,32,18023 d 315 9998 /asset/shapes.pmd scale 3,6.7,1.4
+MODEL 4356b4e852c50000 at 16555,32,18017 d 318 9998 /asset/shapes.pmd scale 3,6.7,1.4
+MODEL 42bf29e06a8f5ed1 at 17003,41,18124 d 350 at_2m002 /model2/building/village_close/village_close_01_at.pmd scale 1,1,1
+MODEL 4357f5c49a050001 at 16664,43,18302 d 36 2g008 /asset/props/lamp/fill_light_10m.pmd scale 1,1,1
+MODEL 4357f64412050000 at 16703,43,18257 d 43 0j007 /asset/props/lamp/fill_light_20m.pmd scale 1,1,1
+MODEL 4357f71842c50000 at 16820,43,18226 d 141 0j007 /asset/props/lamp/fill_light_20m.pmd scale 1,1,1
+MODEL 4357fa6cd6c50000 at 16695,43,18235 d 66 2g008 /asset/props/lamp/fill_light_10m.pmd scale 1,1,1
+MODEL 4357fb08fec50000 at 16856,45,18240 d 167 0j007 /asset/props/lamp/fill_light_20m.pmd scale 1,1,1
+MODEL 4357fbd8a2c50000 at 16843,45,18214 d 166 0j007 /asset/props/lamp/fill_light_20m.pmd scale 1,1,1
+MODEL 4357fc2453850000 at 16881,46,18257 d 186 2g008 /asset/props/lamp/fill_light_10m.pmd scale 1,1,1
+MODEL 4357fcdc7fc50000 at 16886,44,18232 d 198 2g008 /asset/props/lamp/fill_light_10m.pmd scale 1,1,1
+MODEL 4357fcfcd3450000 at 16878,42,18209 d 200 2g008 /asset/props/lamp/fill_light_10m.pmd scale 1,1,1
+MODEL 42bf29e01f8f5c3d at 16575,45,18408 d 165 dlc_balt_417 /model2/building/industry/silo/silo_concrete_02_balt.pmd scale -1,1,1
+MODEL 42bf29e07fcf5c35 at 16568,45,18406 d 169 dlc_balt_417 /model2/building/industry/silo/silo_concrete_02_balt.pmd scale 1,1,-1
+MODEL 435818f827450001 at 16613,39,18303 d 87 dlc_no_705 /model/parked_cars/static/vw_passat_cc/car_parked_vw.pmd scale 1,1,1
+MODEL 42bf29e05e0f5c4d at 16644,39,18269 d 64 dlc_no_715 /model/parked_cars_groups/cars_parked_5x1_var5.pmd scale 1,1,1
+MODEL 42bf29e0828f5cb9 at 16660,39,18248 d 65 dlc_no_712 /model/parked_cars_groups/cars_parked_5x1_var3_far_hookup.pmd scale 1,1,1
+MODEL 42bf29e0514f5d1b at 16696,39,18227 d 73 dlc_balt_105 /model2/building/administration/admin_lt/admin_04_lt_balt.pmd scale -1,1,1
+MODEL 42bf29e0670f5d19 at 16711,39,18240 d 61 dlc_balt_105 /model2/building/administration/admin_lt/admin_04_lt_balt.pmd scale 1,1,1
+MODEL 42bf29e036cf5cba at 16667,43,18243 d 66 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e0408f5c4c at 16646,42,18262 d 66 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e04e0f5c4b at 16649,43,18264 d 62 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e04e0f5cac at 16653,42,18255 d 65 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e06e4f5c52 at 16643,43,18271 d 64 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e07e4f5c4e at 16640,42,18269 d 67 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e08a8f5cb6 at 16661,43,18250 d 63 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e09f4f5cae at 16655,43,18257 d 62 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e0cf0f5cab at 16659,42,18248 d 66 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e0e34f5cb1 at 16665,42,18241 d 69 dlc_it_104 /model2/distribution/electricity/solar_panel_01_it.pmd scale 3,1.5,1.5
+MODEL 42bf29e00f4f5b2d at 16604,39,18250 d 108 blke_0u004 /model2/props/street/trolley_roof_02_blke.pmd scale 1,1,1
+MODEL 42bf29e034cf5b28 at 16625,39,18226 d 105 blke_0u004 /model2/props/street/trolley_roof_02_blke.pmd scale 1,1,1
+MODEL 43584d9457050000 at 16873,41,18257 d 179 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 43584dc4ef850000 at 16857,41,18249 d 165 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 43584df0efc50000 at 16933,41,18235 d 242 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.6,0.6,0.6
+MODEL 43584e5813050000 at 16915,41,18249 d 221 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.6,0.6,0.6
+MODEL 43584e645b850000 at 16908,41,18232 d 219 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.6,0.6,0.6
+MODEL 43584e90ab850000 at 16951,41,18235 d 259 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 1,1,1
+MODEL 43584ed8f7450000 at 16945,41,18212 d 261 dlc_no_437 /model2/dirt/dirt_decal_big_01.pmd scale 1,1,1
+MODEL 43584fa8c5c50000 at 16906,41,18202 d 228 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 43584fe45b050000 at 16899,41,18171 d 237 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 43591f7090450001 at 16826,41,18229 d 145 759 /model/parked_trailers/static/reefer/trailer_reefer_lod1.pmd scale 1,1,1
+MODEL 43592050d4850000 at 16832,41,18201 d 165 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 1,1,1
+MODEL 435922e894050000 at 16790,41,18315 d 91 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.7,0.7,0.7
+MODEL 4359233c24c50000 at 16806,41,18311 d 107 dlc_no_438 /model2/dirt/dirt_decal_big_02.pmd scale 0.6,0.6,0.6
+ROAD 42bf29e0018f5c70 16564,50,18567 -> 16527,48,18502 len 75 look ger road 1 minim R 37/profile93 L 27/profile31 flags 0b00008a rf 00020080
+ROAD 42bf29e0064f5d31 16749,37,18346 -> 16669,40,18346 len 81 look ger hw exit one lane R 4/profile104 L 25/profile96 flags 0920000a rf 00020080
+ROAD 42bf29e0074f5c04 16486,45,18378 -> 16552,44,18438 len 92 look ger hw exit one lane R 20/profile95 L 10/profile96 flags 0900000a rf 00020080
+ROAD 42bf29e0148f5c1e 16624,45,18383 -> 16504,45,18350 len 124 look ger hw 2 lanes one way tmpl R 14/profile96 L 2/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e01c4f5bb4 16342,45,18354 -> 16424,45,18359 len 83 look ger hw2 exit one lane tmpl R 4/profile104 L 2/profile0 flags 0820000a rf 00020080
+ROAD 42bf29e0210f5f19 16986,41,18257 -> 16965,41,18263 len 21 look ger road 2 narrow one way tmpl R 3/profile95 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e023cf5bea 16578,39,18313 -> 16496,39,18292 len 85 look ger road 1 tmpl R 53/profile93 L 19/profile95 flags 0b00000a rf 000200c0
+ROAD 42bf29e0270f5cdc 16603,50,18589 -> 16564,50,18567 len 46 look ger road 1 minim R 37/profile93 L 37/profile31 flags 0a000088 rf 00020080
+ROAD 42bf29e034cf5d50 16786,45,18443 -> 16729,45,18424 len 60 look ger hw 2 lanes one way tmpl R 0/profile96 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e0364f5e66 16903,39,18304 -> 16989,41,18268 len 94 look ger road 2 narrow one way tmpl R 2/profile0 L 0/profile0 flags 0940000a rf 00020080
+ROAD 42bf29e039cf5c68 16607,43,18451 -> 16659,45,18427 len 61 look ger hw exit one lane R 2/profile96 L 15/profile96 flags 0900002a rf 00020080
+ROAD 42bf29e0440f5e61 16919,40,18308 -> 16879,39,18382 len 88 look ger road 1 minim R 6/profile92 L 8/profile0 flags 0b00008a rf 00020080
+ROAD 42bf29e044cf5e62 16879,39,18382 -> 16918,38,18443 len 74 look ger road 1 minim R 8/profile0 L 8/profile0 flags 0b00008a rf 00020080
+ROAD 42bf29e04ccf5cfe 16688,39,18200 -> 16707,39,18153 len 52 look ger road 1 tmpl R 11/profile0 L 67/profile0 flags 3a00000a rf 00020080
+ROAD 42bf29e050cf5e74 16896,45,18460 -> 16786,45,18443 len 111 look ger hw 2 lanes one way tmpl R 4/profile96 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e05a0f5b24 16607,39,18293 -> 16688,39,18200 len 123 look ger road 1 tmpl R 11/profile0 L 82/profile0 flags 0a00008a rf 00020080
+ROAD 42bf29e05e4f5cce 16683,37,18518 -> 16614,40,18511 len 75 look ger hw exit one lane R 2/profile96 L 1/profile95 flags 0910000a rf 00020080
+ROAD 42bf29e0674f5e6e 16918,38,18443 -> 16923,38,18488 len 46 look ger road 1 minim R 6/profile31 L 10/profile31 flags 0a00000a rf 00020080
+ROAD 42bf29e06e0f5d5e 16765,36,18429 -> 16866,38,18330 len 142 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e06f0f5d8f 16827,37,18328 -> 16749,37,18346 len 80 look ger hw exit one lane R 2/profile95 L 27/profile96 flags 0930000a rf 00020080
+ROAD 42bf29e0708f5c22 16587,43,18339 -> 16505,45,18335 len 82 look ger hw exit one lane R 15/profile104 L 6/profile95 flags 0920000a rf 00020080
+ROAD 42bf29e0708f5f20 17002,41,18259 -> 17031,41,18251 len 30 look ger road 2 narrow tmpl R 3/profile0 L 33/profile95 flags 0960000a rf 00020080
+ROAD 42bf29e0730f5c20 16619,45,18395 -> 16664,45,18413 len 48 look ger hw 2 lanes one way tmpl R 7/profile96 L 2/profile0 flags 0920000a rf 00020080
+ROAD 42bf29e0734f5ed5 16947,41,18250 -> 16822,41,18311 len 139 look ger road 1 tmpl R 100/profile95 L 6/profile96 flags 0b00000a rf 00020080
+ROAD 42bf29e0744f5cbd 16669,40,18346 -> 16587,43,18339 len 82 look ger hw exit one lane R 12/profile104 L 13/profile96 flags 0920000a rf 00020080
+ROAD 42bf29e0748f5f90 17057,41,18278 -> 17007,41,18279 len 51 look ger road 1 minim R 9/profile0 L 10/profile92 flags 0b00000a rf 00020080
+ROAD 42bf29e0758f5d5d 16729,36,18485 -> 16765,36,18429 len 67 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0910000a rf 00020080
+ROAD 42bf29e07c8f5d39 16729,45,18424 -> 16624,45,18383 len 113 look ger hw 2 lanes one way tmpl R 43/profile96 L 2/profile0 flags 0910000a rf 00020080
+ROAD 42bf29e081cf5d5c 16754,37,18421 -> 16717,36,18478 len 68 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0910000a rf 00020080
+ROAD 42bf29e0830f5c41 16603,40,18520 -> 16691,38,18530 len 96 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0900008a rf 00020080
+ROAD 42bf29e083cf5bc3 16412,46,18380 -> 16319,48,18375 len 93 look ger road 1 minim R 6/profile15 L 47/profile31 flags 0a000048 rf 00020080
+ROAD 42bf29e0870f5fa0 16957,45,18479 -> 17018,45,18485 len 62 look ger hw 2 lanes one way tmpl R 16/profile95 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e08d4f5c19 16485,48,18435 -> 16412,46,18380 len 94 look ger road 1 minim R 26/profile93 L 33/profile31 flags 0b0000ca rf 00020080
+ROAD 42bf29e0920f5c17 16552,44,18438 -> 16603,40,18520 len 97 look ger hw exit one lane R 2/profile96 L 20/profile95 flags 0900000a rf 00020080
+ROAD 42bf29e095cf5d56 16770,45,18456 -> 16898,45,18478 len 130 look ger hw 3 lanes one way tmpl R 70/profile95 L 1/profile0 flags 0900008a rf 04020080
+ROAD 42bf29e096cf5d38 16723,45,18441 -> 16770,45,18456 len 49 look ger hw 3 lanes one way tmpl R 0/profile96 L 1/profile0 flags 0900000a rf 04020080
+ROAD 42bf29e0980f5cdd 16610,53,18654 -> 16603,50,18589 len 77 look ger road 1 minim R 43/profile93 L 28/profile31 flags 0b00000a rf 00020080
+ROAD 42bf29e098cf5e81 16923,38,18488 -> 16865,47,18595 len 125 look ger road 1 minim R 10/profile31 L 37/profile0 flags 0b0000ba rf 00020080
+ROAD 42bf29e0990f5b05 16588,39,18032 -> 16518,39,18000 len 78 look ger road 1 tmpl R 0/profile0 L 0/profile92 flags 0a20000a rf 01020080
+ROAD 42bf29e09f8f5c67 16614,40,18511 -> 16607,43,18451 len 64 look ger hw exit one lane R 2/profile96 L 20/profile96 flags 0910000a rf 00020080
+ROAD 42bf29e0a18f5c03 16489,45,18362 -> 16619,45,18395 len 134 look ger hw 2 lanes one way tmpl R 8/profile96 L 2/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e0a3cf5f07 17050,41,18209 -> 17018,41,18194 len 39 look ger road 1 tmpl R 12/profile95 L 16/profile95 flags 0b00000a rf 00020080
+ROAD 42bf29e0a60f5d0e 16707,39,18153 -> 16661,38,18072 len 96 look ger road 1 tmpl R 11/profile93 L 73/profile0 flags 3a00000a rf 00020080
+ROAD 42bf29e0a8cf5bce 16496,39,18292 -> 16413,40,18273 len 85 look ger road 1 tmpl R 53/profile93 L 33/profile95 flags 0b00000a rf 00020080
+ROAD 42bf29e0b10f5f1a 16965,41,18263 -> 16868,38,18312 len 110 look ger road 2 narrow one way tmpl R 2/profile95 L 0/profile0 flags 0940000a rf 00020080
+ROAD 42bf29e0b68f5c99 16661,38,18072 -> 16588,39,18032 len 84 look ger road 1 tmpl R 8/profile92 L 27/profile92 flags 3a00003a rf 00020080
+ROAD 42bf29e0bf0f5ed6 16975,41,18240 -> 16947,41,18250 len 30 look ger road 1 tmpl R 100/profile95 L 4/profile96 flags 0b00001a rf 00020080
+ROAD 42bf29e0cb4f595e 16407,40,18264 -> 16390,38,18208 len 61 look ger road 1 minim R 17/profile93 L 11/profile0 flags 0b00000a rf 00020080
+ROAD 42bf29e0cd0f5f89 17007,41,18279 -> 16919,40,18308 len 93 look ger road 1 minim R 3/profile92 L 9/profile0 flags 0b00002a rf 00020080
+ROAD 42bf29e0d74f5e6f 16854,41,18401 -> 16873,38,18337 len 69 look ger hw exit one lane R 12/profile102 L 20/profile96 flags 0900000a rf 00020080
+ROAD 42bf29e0ddcf5bc8 16440,45,18338 -> 16340,45,18332 len 100 look ger hw2 exit one lane tmpl R 20/profile104 L 2/profile0 flags 0800000a rf 00020080
+ROAD 42bf29e0e14f5c1d 16527,48,18502 -> 16485,48,18435 len 80 look ger road 1 minim R 34/profile93 L 8/profile31 flags 0b00000a rf 00020080
+ROAD 42bf29e0e20f5d2e 16822,41,18311 -> 16720,40,18328 len 104 look ger road 1 tmpl R 108/profile96 L 8/profile96 flags 0b20004a rf 00020080
+ROAD 42bf29e0e84f5e43 16831,37,18337 -> 16754,37,18421 len 115 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e0ea8f5d70 16691,38,18530 -> 16729,36,18485 len 58 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0900000a rf 00020080
+ROAD 42bf29e0ec0f5e75 16898,45,18445 -> 16854,41,18401 len 66 look ger hw exit one lane R 12/profile102 L 26/profile95 flags 0900000a rf 00020080
+ROAD 42bf29e0ec8f5ef1 17018,41,18194 -> 16975,41,18240 len 64 look ger road 1 tmpl R 100/profile95 L 10/profile95 flags 0b00000a rf 00020080
+ROAD 42bf29e0ee0f5d2f 16720,40,18328 -> 16617,39,18320 len 104 look ger road 1 tmpl R 108/profile95 L 5/profile96 flags 0b00001a rf 00020080
+ROAD 42bf29e0f90f5d3c 16717,36,18478 -> 16683,37,18518 len 53 look ger hw exit one lane R 2/profile96 L 1/profile0 flags 0900000a rf 00020080
+TERR 42bf29e001cf5d42 16725,37,18452 -> 16721,37,18458 len 7 R 13/profile115*0.55 L 2/profile96*0.6 kdopY 36..44
+TERR 42bf29e0038f5d69 16750,37,18466 -> 16755,37,18458 len 9 R 13/profile115*0.55 L 2/profile96*0.55 kdopY 36..45
+TERR 42bf29e006cf5d72 16733,42,18529 -> 16768,45,18538 len 36 R 69/profile65*1 L 35/profile113*1 kdopY 42..49
+TERR 42bf29e0090f5d32 16815,37,18340 -> 16748,37,18417 len 103 R 15/profile115*0.55 L 2/profile96*0.55 kdopY 36..44
+TERR 42bf29e0098f5ca1 16672,33,18044 -> 16866,34,18109 len 222 R 15/profile30*0.4 L 7/profile15*2 kdopY 30..58
+TERR 42bf29e00acf5e6d 16830,43,18439 -> 16807,43,18434 len 24 R 10/profile77*1 L 0/profile0*1 kdopY 42..43
+TERR 42bf29e00b8f5c05 16439,45,18347 -> 16504,45,18355 len 65 R 2/profile0*1 L 0/profile0*1 kdopY 45..45
+TERR 42bf29e00c0f5c42 16546,44,18442 -> 16598,41,18525 len 99 R 16/profile115*0.17 L 2/profile96*0.17 kdopY 38..73
+TERR 42bf29e01d8f5c6a 16613,43,18454 -> 16657,44,18434 len 52 R 37/profile95*0.1 L 2/profile95*0.1 kdopY 42..45
+TERR 42bf29e01f8f5cc9 16657,44,18434 -> 16687,44,18442 len 31 R 47/profile95*0.1 L 2/profile95*0.1 kdopY 44..44
+TERR 42bf29e0214f5e90 16900,43,18546 -> 16947,47,18537 len 48 R 45/profile0*1 L 11/profile15*1.5 kdopY 41..47
+TERR 42bf29e0220f5953 16460,34,18149 -> 16402,34,18109 len 74 R 55/profile53*0 L 7/profile15*2 kdopY 31..34
+TERR 42bf29e0230f5d91 16780,37,18422 -> 16870,38,18336 len 125 R 28/profile95*0.1 L 2/profile95*0.1 kdopY 34..57
+TERR 42bf29e0234f5f9d 16930,45,18448 -> 16922,38,18446 len 11 R 9/profile102*3 L 0/profile0*1 kdopY 34..45
+TERR 42bf29e0264f5d41 16744,37,18423 -> 16725,37,18452 len 35 R 7/profile115*0.55 L 2/profile96*0.6 kdopY 36..42
+TERR 42bf29e0264f5f8b 17002,41,18260 -> 16988,41,18264 len 15 R 1/profile98*1 L 0/profile0*1 kdopY 41..41
+TERR 42bf29e0278f5b01 16564,34,17973 -> 16502,34,18063 len 113 R 55/profile53*0 L 7/profile15*2 kdopY 31..34
+TERR 42bf29e0298f5e02 16905,41,18253 -> 16908,41,18261 len 8 R 3/profile95*1 L 3/profile95*1 kdopY 41..41
+TERR 42bf29e029cf5c3b 16543,45,18394 -> 16610,45,18415 len 70 R 30/profile113*1 L 0/profile0*1 kdopY 43..45
+TERR 42bf29e02c8f5d73 16768,45,18538 -> 16872,46,18555 len 106 R 60/profile65*1 L 0/profile65*1 kdopY 45..52
+TERR 42bf29e02d4f5e34 16846,41,18256 -> 16856,41,18283 len 29 R 7/profile95*1 L 0/profile0*1 kdopY 41..41
+TERR 42bf29e0348f5f80 16988,41,18264 -> 16967,41,18270 len 21 R 1/profile98*1 L 0/profile0*1 kdopY 41..41
+TERR 42bf29e035cf5d3a 16726,45,18433 -> 16666,45,18409 len 65 R 2/profile0*1 L 0/profile0*1 kdopY 45..45
+TERR 42bf29e0378f5fb0 16936,45,18487 -> 16956,45,18489 len 20 R 8/profile104*0.6 L 0/profile0*1 kdopY 39..58
+TERR 42bf29e03a0f5c43 16598,41,18525 -> 16695,38,18535 len 107 R 24/profile115*0.35 L 2/profile96*0.35 kdopY 38..43
+TERR 42bf29e0428f5c00 16490,45,18358 -> 16425,45,18350 len 65 R 2/profile0*1 L 0/profile0*1 kdopY 45..45
+TERR 42bf29e046cf5d33 16748,37,18417 -> 16744,37,18423 len 7 R 13/profile115*0.55 L 2/profile96*0.6 kdopY 36..45
+TERR 42bf29e0498f5e83 16923,40,18320 -> 16956,40,18443 len 127 R 45/profile0*1 L 0/profile0*1 kdopY 39..59
+TERR 42bf29e0508f5cca 16678,38,18512 -> 16619,40,18506 len 65 R 36/profile115*0.27 L 2/profile96*0.4 kdopY 36..44
+TERR 42bf29e0534f5dc7 16842,41,18249 -> 16840,41,18244 len 5 R 2/profile98*1 L 6/profile95*1 kdopY 41..41
+TERR 42bf29e06e0f5d5b 16721,37,18458 -> 16711,37,18474 len 19 R 36/profile115*0.55 L 2/profile96*0.6 kdopY 36..44
+TERR 42bf29e06e8f5d58 16772,37,18433 -> 16775,37,18428 len 7 R 13/profile115*0.55 L 2/profile115*-0.55 kdopY 36..45
+TERR 42bf29e0810f5fb2 16936,45,18488 -> 16908,45,18488 len 28 R 1/profile98*1 L 0/profile0*1 kdopY 45..45
+TERR 42bf29e0848f5d71 16695,38,18535 -> 16735,37,18490 len 61 R 24/profile115*0.45 L 2/profile96*0.45 kdopY 36..43
+TERR 42bf29e0878f595a 16469,34,18202 -> 16559,33,18065 len 177 R 60/profile53*0.3 L 7/profile15*2 kdopY 30..56
+TERR 42bf29e0878f5e73 16914,38,18445 -> 16905,45,18443 len 11 R 12/profile102*3 L 0/profile0*1 kdopY 38..45
+TERR 42bf29e08f4f5f27 16987,41,18262 -> 17001,41,18258 len 15 R 1/profile98*1 L 0/profile0*1 kdopY 41..41
+TERR 42bf29e0944f5d0d 16733,53,17980 -> 16843,50,18020 len 123 R 40/profile112*0.5 L 112/profile114*-0.6 kdopY 28..123
+TERR 42bf29e095cf5b04 16595,33,18015 -> 16672,33,18044 len 90 R 19/profile30*0.4 L 7/profile15*2 kdopY 30..52
+TERR 42bf29e0964f5fb5 16955,42,18501 -> 16988,44,18504 len 34 R 28/profile95*1 L 4/profile95*1 kdopY 42..46
+TERR 42bf29e09d0f5d8b 16809,41,18300 -> 16856,41,18283 len 50 R 4/profile104*0.05 L 0/profile0*1 kdopY 41..41
+TERR 42bf29e09d4f5fb4 16941,40,18500 -> 16955,42,18501 len 14 R 3/profile95*1 L 4/profile95*1 kdopY 40..42
+TERR 42bf29e0a08f5b03 16559,33,18065 -> 16595,33,18015 len 64 R 17/profile30*0.4 L 7/profile15*2 kdopY 30..50
+TERR 42bf29e0a28f5fac 16956,41,18443 -> 17052,41,18417 len 100 R 33/profile113*1 L 0/profile65*1 kdopY 40..41
+TERR 42bf29e0a94f5d92 16775,37,18428 -> 16780,37,18422 len 7 R 13/profile115*0.45 L 2/profile115*-0.45 kdopY 36..45
+TERR 42bf29e0ab4f5995 16399,40,18265 -> 16397,40,18277 len 13 R 10/profile95*1 L 0/profile0*1 kdopY 40..41
+TERR 42bf29e0ab4f5d3f 16711,37,18474 -> 16678,38,18512 len 50 R 36/profile115*0.5 L 2/profile96*0.6 kdopY 36..44
+TERR 42bf29e0af8f5d0c 16711,34,18013 -> 16564,34,17973 len 166 R 67/profile53*0 L 7/profile15*2 kdopY 31..35
+TERR 42bf29e0b08f5c6b 16619,40,18506 -> 16613,43,18454 len 55 R 44/profile115*0.1 L 2/profile96*0.1 kdopY 39..44
+TERR 42bf29e0b1cf5db0 16840,41,18244 -> 16821,41,18192 len 56 R 2/profile98*1 L 0/profile0*1 kdopY 41..41
+TERR 42bf29e0b54f5d21 16716,38,18130 -> 16872,38,18135 len 160 R 75/profile0*1 L 11/profile0*1 kdopY 37..41
+TERR 42bf29e0be4f5e8d 16926,38,18499 -> 16941,40,18500 len 15 R 3/profile95*1 L 4/profile95*1 kdopY 38..40
+TERR 42bf29e0c44f5da0 16872,38,18135 -> 17093,39,18059 len 235 R 31/profile0*1 L 9/profile0*1 kdopY 37..43
+TERR 42bf29e0cc8f5e7e 16907,45,18488 -> 16878,45,18548 len 67 R 8/profile113*1 L 12/profile102*3.5 kdopY 38..45
+TERR 42bf29e0cccf5d9a 16845,34,18062 -> 16711,34,18013 len 155 R 20/profile53*0 L 7/profile15*2 kdopY 31..34
+TERR 42bf29e0cd0f5e8b 16927,38,18487 -> 16936,45,18487 len 12 R 8/profile104*0.8 L 0/profile0*1 kdopY 33..55
+TERR 42bf29e0cf4f5d68 16735,37,18490 -> 16750,37,18466 len 28 R 24/profile115*0.45 L 2/profile96*0.45 kdopY 36..44
+TERR 42bf29e0d3cf5d8e 16819,37,18338 -> 16815,37,18340 len 4 R 1/profile95*0.55 L 0/profile96*0.1 kdopY 27..47
+TERR 42bf29e0d64f5937 16358,34,18134 -> 16469,34,18202 len 137 R 17/profile53*0.3 L 7/profile15*2 kdopY 31..51
+TERR 42bf29e0de4f5b1c 16572,47,18201 -> 16622,47,18143 len 76 R 40/profile65*1 L 0/profile0*1 kdopY 47..47
+TERR 42bf29e0eccf5d57 16755,37,18458 -> 16772,37,18433 len 30 R 7/profile115*0.55 L 2/profile96*0.55 kdopY 36..42
+TERR 42bf29e0f04f5c5a 16616,39,18311 -> 16613,39,18301 len 10 R 4/profile98*1 L 5/profile92*0.01 kdopY 39..39
+TERR 42bf29e0f3cf5952 16502,34,18063 -> 16460,34,18149 len 103 R 55/profile53*0 L 7/profile15*2 kdopY 31..34
+TERR 42bf29e0f54f5c3e 16532,45,18387 -> 16633,45,18419 len 105 R 3/profile113*1 L 3/profile113*1 kdopY 44..45
+TERR 42bf29e0ff0f5c74 16651,43,18572 -> 16719,42,18547 len 74 R 50/profile112*-0.07 L 0/profile65*1 kdopY 42..47
+TERR 42f33d6841c50001 16650,34,18403 -> 16488,31,18202 len 279 R 160/profile114*-0.6 L 0/profile0*1 kdopY 31..150
+TERR 42f341bc6e850000 16635,36,18543 -> 16650,34,18403 len 141 R 160/profile114*-0.5 L 0/profile0*1 kdopY 34..116
+TERR 42f34af4acc50001 16866,108,17986 -> 16551,103,17917 len 325 R 128/profile114*-0.35 L 0/profile114*0.35 kdopY 103..164
+TERR 42bf29e0be4f5cdb 16547,71,18636 -> 16496,71,18560 len 94 R 30/profile112*0.6 L 64/profile114*-0.6 kdopY 54..138
+TERR 42bf29e0e40f5c1c 16496,71,18560 -> 16414,61,18428 len 169 R 30/profile112*0.6 L 64/profile114*-0.6 kdopY 47..136
+TERR 42bf29e0930f5958 16530,34,18003 -> 16522,39,17995 len 12 R 10/profile15*1.5 L 0/profile0*1 kdopY 34..39
+TERR 42bf29e0d08f5957 16513,39,18004 -> 16523,34,18011 len 13 R 10/profile15*1.5 L 0/profile0*1 kdopY 34..39
+TERR 42bf29e00b8f5b07 16590,39,18026 -> 16582,33,18024 len 11 R 2/profile92*0.5 L 0/profile0*1 kdopY 32..39
+TERR 42bf29e0ca0f5b06 16579,33,18036 -> 16586,39,18038 len 10 R 4/profile92*0.5 L 0/profile0*1 kdopY 31..39

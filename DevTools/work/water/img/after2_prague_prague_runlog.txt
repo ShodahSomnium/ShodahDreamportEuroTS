@@ -1,0 +1,16 @@
+14:17:28 site prague centre (14501.1, 73.1, 3624.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/after2_prague gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+14:17:31 loading 8 % Reading the map
+14:17:33 loading 56 % Building junctions and yards
+14:17:35 loading 58 % Building junctions and yards
+14:17:37 loading 72 % Placing fences and barriers
+14:17:39 loading 100 % Ready
+14:17:39 first build complete at 11 s
+14:18:09 settled for shot g_d0 after 30 s: built 2726, queued 0, batching 0, plants 144226 (sides waiting 9), detail jobs 0, ground fill builds 1
+14:18:17 settled for shot g_d0 (camera placed) after 8 s: built 2726, queued 0, batching 0, plants 144226 (sides waiting 9), detail jobs 0, ground fill builds 1
+14:18:18 wrote shot g_d0
+14:18:49 settled for shot g_d0r after 31 s: built 2726, queued 0, batching 0, plants 144226 (sides waiting 9), detail jobs 0, ground fill builds 1
+14:18:57 settled for shot g_d0r (camera placed) after 8 s: built 2726, queued 0, batching 0, plants 144226 (sides waiting 9), detail jobs 0, ground fill builds 1
+14:18:58 wrote shot g_d0r
+14:19:28 settled for shot g_d0l after 31 s: built 2726, queued 0, batching 0, plants 144226 (sides waiting 9), detail jobs 0, ground fill builds 1
+14:19:36 settled for shot g_d0l (camera placed) after 8 s: built 2726, queued 0, batching 0, plants 144226 (sides waiting 9), detail jobs 0, ground fill builds 1
+14:19:37 wrote shot g_d0l

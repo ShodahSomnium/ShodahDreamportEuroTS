@@ -1,0 +1,50 @@
+13:32:25 site austria centre (16900.0, 40.0, 18300.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/b0 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+13:32:29 loading 8 % Reading the map
+13:32:31 loading 8 % Reading the map
+13:32:33 loading 8 % Reading the map
+13:32:35 loading 10 % Building roads
+13:32:37 loading 13 % Building roads
+13:32:39 loading 58 % Building junctions and yards
+13:32:41 loading 67 % Placing buildings and props
+13:32:43 loading 71 % Placing fences and barriers
+13:32:45 loading 71 % Placing fences and barriers
+13:32:47 loading 71 % Placing fences and barriers
+13:32:49 loading 71 % Placing fences and barriers
+13:32:51 loading 100 % Ready
+13:32:51 first build complete at 25 s
+13:33:21 settled for shot m0 after 30 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:33:29 settled for shot m0 (camera placed) after 8 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:33:31 wrote shot m0
+13:34:02 settled for shot m90 after 31 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:34:10 settled for shot m90 (camera placed) after 8 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:34:11 wrote shot m90
+13:34:42 settled for shot m180 after 31 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:34:50 settled for shot m180 (camera placed) after 8 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:34:51 wrote shot m180
+13:35:22 settled for shot m270 after 31 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:35:30 settled for shot m270 (camera placed) after 8 s: built 4563, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:35:30 wrote shot m270
+13:36:01 settled for shot w0 after 31 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:36:09 settled for shot w0 (camera placed) after 8 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:36:10 wrote shot w0
+13:36:41 settled for shot w90 after 31 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:36:49 settled for shot w90 (camera placed) after 8 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:36:49 wrote shot w90
+13:37:20 settled for shot w180 after 31 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:37:28 settled for shot w180 (camera placed) after 8 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:37:29 wrote shot w180
+13:37:59 settled for shot w270 after 31 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:38:07 settled for shot w270 (camera placed) after 8 s: built 6035, queued 0, batching 0, plants 225016 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:38:08 wrote shot w270
+13:38:39 settled for shot g0 after 31 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:38:47 settled for shot g0 (camera placed) after 8 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:38:47 wrote shot g0
+13:39:18 settled for shot g90 after 31 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:39:26 settled for shot g90 (camera placed) after 8 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:39:27 wrote shot g90
+13:39:58 settled for shot g180 after 31 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:40:06 settled for shot g180 (camera placed) after 8 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:40:06 wrote shot g180
+13:40:37 settled for shot g270 after 31 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:40:45 settled for shot g270 (camera placed) after 8 s: built 2212, queued 0, batching 0, plants 210963 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:40:46 wrote shot g270

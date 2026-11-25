@@ -1,0 +1,605 @@
+-target:library
+-define:UNITY_6000_3_5
+-define:UNITY_6000_3
+-define:UNITY_6000
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_2017_1_OR_NEWER
+-define:UNITY_2017_2_OR_NEWER
+-define:UNITY_2017_3_OR_NEWER
+-define:UNITY_2017_4_OR_NEWER
+-define:UNITY_2018_1_OR_NEWER
+-define:UNITY_2018_2_OR_NEWER
+-define:UNITY_2018_3_OR_NEWER
+-define:UNITY_2018_4_OR_NEWER
+-define:UNITY_2019_1_OR_NEWER
+-define:UNITY_2019_2_OR_NEWER
+-define:UNITY_2019_3_OR_NEWER
+-define:UNITY_2019_4_OR_NEWER
+-define:UNITY_2020_1_OR_NEWER
+-define:UNITY_2020_2_OR_NEWER
+-define:UNITY_2020_3_OR_NEWER
+-define:UNITY_2021_1_OR_NEWER
+-define:UNITY_2021_2_OR_NEWER
+-define:UNITY_2021_3_OR_NEWER
+-define:UNITY_2022_1_OR_NEWER
+-define:UNITY_2022_2_OR_NEWER
+-define:UNITY_2022_3_OR_NEWER
+-define:UNITY_2023_1_OR_NEWER
+-define:UNITY_2023_2_OR_NEWER
+-define:UNITY_2023_3_OR_NEWER
+-define:UNITY_6000_0_OR_NEWER
+-define:UNITY_6000_1_OR_NEWER
+-define:UNITY_6000_2_OR_NEWER
+-define:UNITY_6000_3_OR_NEWER
+-define:PLATFORM_ARCH_64
+-define:UNITY_64
+-define:ENABLE_AR
+-define:ENABLE_AUDIO
+-define:ENABLE_AUDIO_SCRIPTABLE_PIPELINE
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_TEXTURE_STREAMING
+-define:ENABLE_VIRTUALTEXTURING
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+-define:ENABLE_UNITY_CONSENT
+-define:ENABLE_UNITY_CLOUD_IDENTIFIERS
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_EDITOR_GAME_SERVICES
+-define:ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_HUB_LICENSE
+-define:ENABLE_WEBSOCKET_CLIENT
+-define:ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API
+-define:ENABLE_DIRECTOR_AUDIO
+-define:ENABLE_DIRECTOR_TEXTURE
+-define:ENABLE_MANAGED_JOBS
+-define:ENABLE_MANAGED_TRANSFORM_JOBS
+-define:ENABLE_MANAGED_ANIMATION_JOBS
+-define:ENABLE_MANAGED_AUDIO_JOBS
+-define:ENABLE_MANAGED_UNITYTLS
+-define:INCLUDE_DYNAMIC_GI
+-define:ENABLE_SCRIPTING_GC_WBARRIERS
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_MARSHALLING_TESTS
+-define:ENABLE_VIDEO
+-define:ENABLE_NAVIGATION_OFFMESHLINK_TO_NAVMESHLINK
+-define:ENABLE_ACCELERATOR_CLIENT_DEBUGGING
+-define:ENABLE_ACCESSIBILITY_SCREEN_READER
+-define:TEXTCORE_1_0_OR_NEWER
+-define:EDITOR_ONLY_NAVMESH_BUILDER_DEPRECATED
+-define:PLATFORM_STANDALONE_WIN
+-define:PLATFORM_STANDALONE
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_NVIDIA
+-define:ENABLE_AMD
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_CLOUD_SERVICES_ENGINE_DIAGNOSTICS
+-define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+-define:ENABLE_CLUSTER_SYNC
+-define:ENABLE_CLUSTERINPUT
+-define:PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP
+-define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+-define:PLATFORM_USES_EXPLICIT_MEMORY_MANAGER_INITIALIZER
+-define:PLATFORM_SUPPORTS_WAIT_FOR_PRESENTATION
+-define:PLATFORM_SUPPORTS_SPLIT_GRAPHICS_JOBS
+-define:ENABLE_MONO
+-define:NET_4_6
+-define:NET_UNITY_4_8
+-define:ENABLE_CUSTOM_RENDER_TEXTURE
+-define:ENABLE_DIRECTOR
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_TILEMAP
+-define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
+-define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_TEXT_ENGINE_1_5_OR_NEWER
+-define:TEXTCORE_FONT_ENGINE_1_6_OR_NEWER
+-define:USE_INPUT_SYSTEM_POSE_CONTROL
+-define:USE_STICK_CONTROL_THUMBSTICKS
+-define:FUSION_LOGLEVEL_INFO
+-define:FUSION_WEAVER
+-define:FUSION2
+-define:FUSION_2
+-define:FUSION_2_OR_NEWER
+-define:FUSION_2_0_OR_NEWER
+-define:CSHARP_7_OR_LATER
+-define:CSHARP_7_3_OR_NEWER
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Common.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Log.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Realtime.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Runtime.dll"
+-r:"Assets/Photon/Fusion/Assemblies/Fusion.Sockets.dll"
+-r:"Assets/Photon/Fusion/Plugins/NanoSockets/NanoSockets/Dynamic/NanoSockets.dll"
+-r:"Assets/Photon/PhotonLibs/netstandard2.0/debug/PhotonClient.dll"
+-r:"Assets/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+-r:"Assets/Plugins/Meshia/Meshia.MeshSimplification.Runtime.dll"
+-r:"Assets/Plugins/SomniumSpace/Bridge/SomniumSpace.Bridge.dll"
+-r:"Assets/Plugins/SomniumSpace/Bridge/SomniumSpace.Bridge.Editor.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.Bundles.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.Common.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.Helpers.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.SDK.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.SDK.Editor.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.SDK.Tools.dll"
+-r:"Assets/Plugins/SomniumSpace/SomniumSpace.User.dll"
+-r:"Assets/Plugins/UnityGLTF/GLTFSerialization.dll"
+-r:"Assets/Plugins/UnityGLTF/UnityGLTF.Helpers.dll"
+-r:"Assets/Plugins/UnityGLTF/UnityGLTFScripts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AdaptivePerformanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HierarchyCoreModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IdentifiersModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputForUIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InsightsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.MarshallingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.MultiplayerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsBackendPhysXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RenderAs2DModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ShaderRuntimeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConsentModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VectorGraphicsModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/Microsoft.Win32.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/netstandard.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.AppContext.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Buffers.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Concurrent.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.NonGeneric.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Collections.Specialized.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Annotations.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.EventBasedAsync.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ComponentModel.TypeConverter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Console.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Data.Common.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Contracts.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Debug.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.FileVersionInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Process.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.StackTrace.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TextWriterTraceListener.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.Tools.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Diagnostics.TraceSource.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Drawing.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Dynamic.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Calendars.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Globalization.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Compression.ZipFile.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.DriveInfo.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.FileSystem.Watcher.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.IsolatedStorage.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.MemoryMappedFiles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.Pipes.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.IO.UnmanagedMemoryStream.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Expressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Linq.Queryable.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Memory.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Http.Rtc.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NameResolution.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.NetworkInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Ping.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Requests.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.Sockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebHeaderCollection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.Client.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Net.WebSockets.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ObjectModel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.DispatchProxy.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.ILGeneration.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Emit.Lightweight.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Reflection.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Reader.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.ResourceManager.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Resources.Writer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.CompilerServices.VisualC.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Handles.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Formatters.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Json.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Runtime.Serialization.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Claims.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Algorithms.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Csp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Cryptography.X509Certificates.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.Principal.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Security.SecureString.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Duplex.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.NetTcp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Primitives.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ServiceModel.Security.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.Encoding.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Text.RegularExpressions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Overlapped.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Extensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Tasks.Parallel.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Thread.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.ThreadPool.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Threading.Timer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.ValueTuple.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.ReaderWriter.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XmlSerializer.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Facades/System.Xml.XPath.XDocument.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/Microsoft.CSharp.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.ComponentModel.Composition.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Core.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.DataSetExtensions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Data.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.IO.Compression.FileSystem.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Net.Http.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Numerics.Vectors.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Runtime.Serialization.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Transactions.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.Linq.dll"
+-r:"Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll"
+-r:"Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.IO.Hashing/System.IO.Hashing.dll"
+-r:"Library/PackageCache/com.unity.collections@aea9d3bd5e19/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll"
+-r:"Library/PackageCache/com.unity.ext.nunit@d8c07649098d/net40/unity-custom/nunit.framework.dll"
+-r:"Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/Runtime/AOT/Newtonsoft.Json.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Fusion.Unity.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SomniumSpace.Network.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Core.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.RenderPipelines.Universal.Runtime.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.TextMeshPro.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/Unity.XR.Interaction.Toolkit.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.SourceGenerators.dll"
+-analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.5f2/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+-langversion:9.0
+/deterministic
+/optimize+
+/debug:portable
+/nologo
+/RuntimeMetadataVersion:v4.0.30319
+/nowarn:0169
+/nowarn:0649
+/nowarn:0282
+/nowarn:1701
+/nowarn:1702
+/utf8output
+/preferreduilang:en-US
+/additionalfile:"Library/Bee/artifacts/1900b0aP.dag/SomniumEuroTruck.UnityAdditionalFile.txt"
+-define:FUSION_2_1
+-define:FUSION_2_1_3
+-define:FUSION_2_1_OR_NEWER
+-define:PHOTON_REALTIME_5_OR_NEWER
+-out:"DevTools/work/bridges/build/SomniumEuroTruck.dll"
+"Assets/#User/SomniumEuroTruck/Ets/EtsAnimation.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsCaptureThread.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsCityHash.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsClimate.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsDamageModel.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsDds.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsDetailDriver.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsDetailPatch.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsDetailVegetation.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsEconomy.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsEngine.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsFileSystem.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsFinesRules.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsFmodBank.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsFmodStudio.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsFontFile.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsGDeflate.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsGpsMap.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsHashFs.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsHqCatalog.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsInstall.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsInstrumentKit.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsJobRules.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsLampSetup.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsLaneGraph.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsLayers.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsLifeSkin.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsLocale.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMap.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMapBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMapSector.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMapSounds.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMapTerrain.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMaterialCache.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMaterialFile.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsModelBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsModelData.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsMovers.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsPixels.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsPml.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsPostFx.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsPrefabDescriptor.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsPrefabNav.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsPrefabTerrainBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsProcess.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsProfileBook.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsProfileRecord.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsProfileSlots.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsRailingTwin.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsRiderMath.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsRoadClearance.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsRoadGraph.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsRunBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSemaphores.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSignBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSignFacePump.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSignFaceRef.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSignFaces.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSignRaster.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSignTemplates.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSii.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSkeletonPose.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsSky.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsStartupOptions.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsStreetLamps.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTabletLayout.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTerrainBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTextureCache.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTobj.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsToken.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTrafficCatalog.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTrafficSim.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTreeField.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTruckAssembly.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsTruckCatalog.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsUiPainter.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsVegetationBuilder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsVegetationLook.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsVegetationOwner.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsVehicleLamps.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsVehicleSpec.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsVorbisSetups.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsWeatherTable.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsWetSurfaces.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsWindowCapture.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsWorker.cs"
+"Assets/#User/SomniumEuroTruck/Ets/EtsXpTable.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/DecodeResults.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/DecompressionContext.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/Decompressor.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/DeferredCopy.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/Deflate.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/Enums.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/FlagField.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/State.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/TileStream.cs"
+"Assets/#User/SomniumEuroTruck/Ets/GDeflate/Utils.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Codebook.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/HuffmanListNode.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/ICodebook.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IFactory.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IFloor.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IFloorData.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IHuffman.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IMapping.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IMdct.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IMode.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IPacket.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IPacketProvider.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IResidue.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IStreamDecoder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/IStreamStats.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Contracts/ITagData.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/DataPacket.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Extensions.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Factory.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Floor0.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Floor1.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Huffman.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Mapping.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Mdct.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Mode.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Residue0.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Residue1.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Residue2.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/StreamDecoder.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/StreamStats.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/TagData.cs"
+"Assets/#User/SomniumEuroTruck/Ets/Vorbis/Utils.cs"
+"Assets/#User/SomniumEuroTruck/EtsAccess.cs"
+"Assets/#User/SomniumEuroTruck/EtsAccessCheck.cs"
+"Assets/#User/SomniumEuroTruck/EtsAccessGate.cs"
+"Assets/#User/SomniumEuroTruck/EtsAmbience.cs"
+"Assets/#User/SomniumEuroTruck/EtsAvatarCloth.cs"
+"Assets/#User/SomniumEuroTruck/EtsAvatarSync.cs"
+"Assets/#User/SomniumEuroTruck/EtsCabControls.cs"
+"Assets/#User/SomniumEuroTruck/EtsCarAudio.cs"
+"Assets/#User/SomniumEuroTruck/EtsClientProbe.cs"
+"Assets/#User/SomniumEuroTruck/EtsDamage.cs"
+"Assets/#User/SomniumEuroTruck/EtsDayNight.cs"
+"Assets/#User/SomniumEuroTruck/EtsDemoEndScreen.cs"
+"Assets/#User/SomniumEuroTruck/EtsEmbeddedGame.cs"
+"Assets/#User/SomniumEuroTruck/EtsFeatures.cs"
+"Assets/#User/SomniumEuroTruck/EtsFines.cs"
+"Assets/#User/SomniumEuroTruck/EtsFlow.cs"
+"Assets/#User/SomniumEuroTruck/EtsFont.cs"
+"Assets/#User/SomniumEuroTruck/EtsFrontEnd.cs"
+"Assets/#User/SomniumEuroTruck/EtsGamePages.cs"
+"Assets/#User/SomniumEuroTruck/EtsGameSound.cs"
+"Assets/#User/SomniumEuroTruck/EtsGameUi.cs"
+"Assets/#User/SomniumEuroTruck/EtsGarageScene.cs"
+"Assets/#User/SomniumEuroTruck/EtsGroundFill.cs"
+"Assets/#User/SomniumEuroTruck/EtsHeadlights.cs"
+"Assets/#User/SomniumEuroTruck/EtsHqStage.cs"
+"Assets/#User/SomniumEuroTruck/EtsHudJobCard.cs"
+"Assets/#User/SomniumEuroTruck/EtsInstruments.cs"
+"Assets/#User/SomniumEuroTruck/EtsIsolation.cs"
+"Assets/#User/SomniumEuroTruck/EtsIsolationDriver.cs"
+"Assets/#User/SomniumEuroTruck/EtsJobs.cs"
+"Assets/#User/SomniumEuroTruck/EtsLaunchSpike.cs"
+"Assets/#User/SomniumEuroTruck/EtsLife.cs"
+"Assets/#User/SomniumEuroTruck/EtsLoadingScreen.cs"
+"Assets/#User/SomniumEuroTruck/EtsMapIndex.cs"
+"Assets/#User/SomniumEuroTruck/EtsMapViewer.cs"
+"Assets/#User/SomniumEuroTruck/EtsMenu.cs"
+"Assets/#User/SomniumEuroTruck/EtsMirrors.cs"
+"Assets/#User/SomniumEuroTruck/EtsMirrorsUrp.cs"
+"Assets/#User/SomniumEuroTruck/EtsModelViewer.cs"
+"Assets/#User/SomniumEuroTruck/EtsNameplate.cs"
+"Assets/#User/SomniumEuroTruck/EtsNet.cs"
+"Assets/#User/SomniumEuroTruck/EtsNetVehicle.cs"
+"Assets/#User/SomniumEuroTruck/EtsNetWire.cs"
+"Assets/#User/SomniumEuroTruck/EtsOrderProbe.cs"
+"Assets/#User/SomniumEuroTruck/EtsOrderProbeEarly.cs"
+"Assets/#User/SomniumEuroTruck/EtsOrderProbeLate.cs"
+"Assets/#User/SomniumEuroTruck/EtsPlayerWire.cs"
+"Assets/#User/SomniumEuroTruck/EtsProbe.cs"
+"Assets/#User/SomniumEuroTruck/EtsProfileStore.cs"
+"Assets/#User/SomniumEuroTruck/EtsRadio.cs"
+"Assets/#User/SomniumEuroTruck/EtsRain.cs"
+"Assets/#User/SomniumEuroTruck/EtsRemotes.cs"
+"Assets/#User/SomniumEuroTruck/EtsRiders.cs"
+"Assets/#User/SomniumEuroTruck/EtsRouteAdvisor.cs"
+"Assets/#User/SomniumEuroTruck/EtsRouteLine.cs"
+"Assets/#User/SomniumEuroTruck/EtsSession.cs"
+"Assets/#User/SomniumEuroTruck/EtsSessionWire.cs"
+"Assets/#User/SomniumEuroTruck/EtsSteeringGrab.cs"
+"Assets/#User/SomniumEuroTruck/EtsTabletApp.cs"
+"Assets/#User/SomniumEuroTruck/EtsTabletLink.cs"
+"Assets/#User/SomniumEuroTruck/EtsTraffic.cs"
+"Assets/#User/SomniumEuroTruck/EtsTrafficModels.cs"
+"Assets/#User/SomniumEuroTruck/EtsTrafficWire.cs"
+"Assets/#User/SomniumEuroTruck/EtsTrailer.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckAudio.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckCamera.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckController.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckDoor.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckFactory.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckMarker.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckRig.cs"
+"Assets/#User/SomniumEuroTruck/EtsTruckSeat.cs"
+"Assets/#User/SomniumEuroTruck/EtsUiHost.cs"
+"Assets/#User/SomniumEuroTruck/EtsVegetationLod.cs"
+"Assets/#User/SomniumEuroTruck/EtsVegetationStream.cs"
+"Assets/#User/SomniumEuroTruck/EtsVehicleLampDriver.cs"
+"Assets/#User/SomniumEuroTruck/EtsVr.cs"
+"Assets/#User/SomniumEuroTruck/EtsVrPanel.cs"
+"Assets/#User/SomniumEuroTruck/EtsWheelHaptics.cs"
+"Assets/#User/SomniumEuroTruck/SceneNetworking.cs"
+"Assets/#User/SomniumEuroTruck/SomniPackages/bentlybro.bentlyweather/Runtime/SkyWeather.cs"
+"Assets/#User/SomniumEuroTruck/SomniPackages/bentlybro.bentlyweather/Runtime/SomniumWeatherIntegration.cs"
+"Assets/#User/SomniumEuroTruck/SomniPackages/bentlybro.bentlyweather/Runtime/WeatherParticles.cs"
+"Assets/#User/SomniumEuroTruck/SomniPackages/bentlybro.bentlyweather/Runtime/WeatherPreset.cs"

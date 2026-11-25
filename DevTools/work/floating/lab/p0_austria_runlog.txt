@@ -1,0 +1,22 @@
+13:41:45 site austria centre (16900.0, 40.0, 18300.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/p0 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+13:41:48 loading 8 % Reading the map
+13:41:50 loading 8 % Reading the map
+13:41:52 loading 8 % Reading the map
+13:41:54 loading 10 % Building roads
+13:41:56 loading 11 % Building roads
+13:41:58 loading 55 % Building terrain
+13:42:00 loading 67 % Placing buildings and props
+13:42:02 loading 69 % Placing buildings and props
+13:42:04 loading 71 % Placing fences and barriers
+13:42:06 loading 71 % Placing fences and barriers
+13:42:09 loading 71 % Placing fences and barriers
+13:42:11 loading 71 % Placing fences and barriers
+13:42:12 loading 71 % Placing signs and lamps
+13:42:15 loading 100 % Ready
+13:42:15 first build complete at 29 s
+13:42:45 settled for probe 0,0,-700,0,20 after 30 s: built 5415, queued 0, batching 0, plants 249999 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:43:15 settled for probe 0,150,-700,150,20 after 30 s: built 5474, queued 0, batching 0, plants 249999 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:43:45 settled for probe 0,-150,-700,-150,20 after 30 s: built 5582, queued 0, batching 0, plants 249999 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:44:16 settled for probe -150,0,-150,900,25 after 31 s: built 5588, queued 0, batching 0, plants 249999 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:44:46 settled for probe 100,0,100,900,25 after 30 s: built 5273, queued 0, batching 0, plants 248546 (sides waiting 0), detail jobs 0, ground fill builds 1
+13:45:17 settled for probe 0,0,0,-700,25 after 31 s: built 5537, queued 0, batching 0, plants 249995 (sides waiting 0), detail jobs 0, ground fill builds 1

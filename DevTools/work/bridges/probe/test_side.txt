@@ -1,0 +1,3 @@
+bridges probe b1: lane band inset 0.3 m, rise 0.5..4.5 m, prefab lane +-2 m; 13 s
+TOTAL side(now: left from end): 0 of 32 instances stand in a lane
+TOTAL side(old: all from start): 0 of 16 instances stand in a lane

@@ -1,0 +1,20 @@
+22:39:01 site szczecin centre (14994.0, 46.8, -15235.2) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/fences/img/before_szczecin gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+22:39:05 loading 56 % Building junctions and yards
+22:39:07 loading 66 % Placing buildings and props
+22:39:09 loading 100 % Ready
+22:39:09 first build complete at 7 s
+22:39:39 settled for shot sz_pillar_brick after 30 s: built 1919, queued 0, batching 0, plants 35980 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:39:47 settled for shot sz_pillar_brick (camera placed) after 8 s: built 1919, queued 0, batching 0, plants 35980 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:39:48 wrote shot sz_pillar_brick
+22:40:18 settled for shot sz_bank after 31 s: built 1919, queued 0, batching 0, plants 35980 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:40:26 settled for shot sz_bank (camera placed) after 8 s: built 1919, queued 0, batching 0, plants 35980 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:40:27 wrote shot sz_bank
+22:40:58 settled for shot sz_hedge after 31 s: built 2015, queued 0, batching 0, plants 38922 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:41:06 settled for shot sz_hedge (camera placed) after 8 s: built 2015, queued 0, batching 0, plants 38922 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:41:06 wrote shot sz_hedge
+22:41:37 settled for shot sz_terrace after 31 s: built 2092, queued 0, batching 0, plants 43747 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:41:45 settled for shot sz_terrace (camera placed) after 8 s: built 2092, queued 0, batching 0, plants 43747 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:41:45 wrote shot sz_terrace
+22:42:16 settled for shot sz_pillar_light after 31 s: built 2295, queued 0, batching 0, plants 45476 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:42:24 settled for shot sz_pillar_light (camera placed) after 8 s: built 2295, queued 0, batching 0, plants 45476 (sides waiting 0), detail jobs 0, ground fill builds 1
+22:42:24 wrote shot sz_pillar_light

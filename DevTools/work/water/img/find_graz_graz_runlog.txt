@@ -1,0 +1,12 @@
+15:20:05 site graz centre (19425.6, 85.8, 17738.6) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/water/img/find_graz gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+15:20:08 loading 5 % Reading the map
+15:20:10 loading 10 % Building roads
+15:20:12 loading 65 % Placing buildings and props
+15:20:14 loading 68 % Placing buildings and props
+15:20:16 loading 69 % Placing fences and barriers
+15:20:18 loading 100 % Ready
+15:20:18 first build complete at 13 s
+15:20:48 settled for shot gtop after 30 s: built 1996, queued 0, batching 0, plants 215625 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:20:56 settled for shot gtop (camera placed) after 8 s: built 1996, queued 0, batching 0, plants 215625 (sides waiting 0), detail jobs 0, ground fill builds 1
+15:20:58 wrote shot gtop
+15:20:58 find water written

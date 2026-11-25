@@ -1,0 +1,156 @@
+catalog 133 ms: 308 entries, 284 vehicles, trailers 24, hash 184, countries 36
+  uk (id 10, mph): 168 vehicles, 65 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  czech (id 3): 170 vehicles, 67 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  poland (id 8): 172 vehicles, 67 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 7 bus
+  france (id 4): 164 vehicles, 62 car, 1 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  germany (id 5): 174 vehicles, 66 car, 3 police, 17 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 7 bus
+  netherlands (id 7): 168 vehicles, 65 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  belgium (id 2): 166 vehicles, 63 car, 2 police, 15 truck_light, 5 truck_medium, 4 truck_heavy, 72 truck, 5 bus
+  type car: 89
+  type police: 63
+  type truck_light: 25
+  type truck_medium: 13
+  type truck_heavy: 5
+  type truck: 72
+  type bus: 17
+  traffic_lane.road.motorway density 45: traffic_rule.s_car_h=car[/!] 30, traffic_rule.s_trl_r=truck_light[/!] 1, traffic_rule.s_trm_r=truck_medium[/!] 1, traffic_rule.s_truck_h=truck[/!] 10, traffic_rule.s_bus_h=bus[/!] 2, traffic_rule.s_police=police[/!customs] 1
+  traffic_lane.road.local density 13: traffic_rule.s_car_l=car[/!] 8, traffic_rule.s_trl_r=truck_light[/!] 1, traffic_rule.s_truck_l=truck[/!] 3, traffic_rule.s_police=police[/!customs] 1
+  traffic_lane.road.expressway density 45: traffic_rule.s_car_h=car[/!] 30, traffic_rule.s_trl_r=truck_light[/!] 1, traffic_rule.s_trm_r=truck_medium[/!] 1, traffic_rule.s_truck_h=truck[/!] 10, traffic_rule.s_bus_h=bus[/!] 2, traffic_rule.s_police=police[/!customs] 1
+  uk class 0: local 96.6 urban 48.3 exp 112.7 mw 112.7
+  uk class 1: local 80.5 urban 48.3 exp 96.6 mw 96.6
+  uk class 2: local 80.5 urban 48.3 exp 96.6 mw 112.7
+  czech class 0: local 90.0 urban 50.0 exp 110.0 mw 130.0
+  czech class 1: local 80.0 urban 50.0 exp 80.0 mw 80.0
+  czech class 2: local 90.0 urban 50.0 exp 110.0 mw 130.0
+  germany class 0: local 100.0 urban 50.0 exp 130.0 mw 130.0
+  germany class 1: local 60.0 urban 50.0 exp 80.0 mw 80.0
+  germany class 2: local 80.0 urban 50.0 exp 80.0 mw 100.0
+prepare uk 822 ms
+prepare czech 1 ms
+  trailer traffic.trailer.truck_trans.scania len 13.5 kingpin -5.00 axle 2.68 ratio 0.01 tags low,carrier,carr_truck,cargo,medium wheel /vehicle/wheel/overweight/245_70_r17_5.pmd mass 7000+16000
+  trailer traffic.trailer.t_car_trans.empty len 13.8 kingpin -5.00 axle 3.36 ratio 0.01 tags low,carrier,carr_car,empty,medium wheel /vehicle/wheel/overweight/245_70_r17_5.pmd mass 7500+1000
+  trailer traffic.trailer.t_car_trans1 len 13.8 kingpin -5.00 axle 3.36 ratio 1 tags low,carrier,carr_car,cargo,medium wheel /vehicle/wheel/overweight/245_70_r17_5.pmd mass 7500+9000
+  trailer traffic.trailer.willig.fuel_cistern len 13.8 kingpin -5.90 axle 2.39 ratio 0.02 tags low,cistern,fuel,chemical,medium wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 6200+22000
+  trailer traffic.trailer.scs_box.curtain.default len 13.8 kingpin -5.07 axle 2.85 ratio 4 tags high,box,curtainsider,medium,basic wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 6160+20000
+  trailer traffic.trailer.scs_box.curtain.2axle len 13.8 kingpin -5.07 axle 2.95 ratio 0.005 tags high,box,curtainsider,medium wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 5860+20000
+  trailer traffic.trailer.scs_box.reefer.default len 14.1 kingpin -5.07 axle 2.85 ratio 2 tags high,box,reefer,medium,basic wheel /vehicle/wheel/trailer/single_385_55/alu.pmd mass 7000+20000
+  trailer traffic.trailer.scs_box.dry_van.default len 14.1 kingpin -5.07 axle 2.85 ratio 2 tags high,box,dryvan,medium,basic wheel /vehicle/wheel/trailer/single_385_55/alu.pmd mass 7000+20000
+  trailer traffic.trailer.scs_box.m_floor.default len 14.1 kingpin -5.07 axle 2.85 ratio 0.01 tags high,box,movingfloor,medium wheel /vehicle/wheel/trailer/single_385_55/alu.pmd mass 7000+20000
+  trailer traffic.trailer.scs_box.aero_dynamic.default len 14.1 kingpin -5.07 axle 2.85 ratio 0.001 tags  wheel /vehicle/wheel/trailer/single_385_55/alu.pmd mass 7000+20000
+  trailer traffic.trailer.car_glass len 11.4 kingpin -5.01 axle 3.23 ratio 0.01 tags low,glass,short wheel /vehicle/wheel/steel/rear_single.pmd mass 6500+9000
+  trailer traffic.trailer.scs_brick_r len 13.7 kingpin -5.00 axle 2.85 ratio 1 tags low,flatbed,brick,medium,cargo,construct wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 5800+20000
+  trailer traffic.trailer.scs_logs len 13.6 kingpin -5.00 axle 2.85 ratio 1 tags high,log,cargo,medium wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 5800+16000
+  trailer traffic.trailer.scs_gosck20 len 9.4 kingpin -5.00 axle 2.48 ratio 1 tags high,gooseneck,container,short,cargo,basic wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 5800+8000
+  trailer traffic.trailer.scs_fodt len 10.5 kingpin -3.44 axle 2.77 ratio 0.2 tags low,cistern,food,short wheel /vehicle/wheel/trailer/single_385_65/steel.pmd mass 5800+8000
+  trailer traffic.trailer.scs_lowbed len 15.6 kingpin -5.62 axle 2.67 ratio 1 tags low,lowboy,loader,construct,long,cargo wheel /vehicle/wheel/overweight/245_70_r17_5.pmd mass 9500+20000
+  trailer traffic.trailer.scs_lowlowd len 13.7 kingpin -5.92 axle 5.54 ratio 1 tags low,lowloader,loader,construct,long,cargo wheel /vehicle/wheel/overweight/245_70_r17_5.pmd mass 12000+20000
+  trailer traffic.van_trans_id len 13.5 kingpin -5.00 axle 2.68 ratio 0.1 tags  wheel /vehicle/wheel/overweight/245_70_r17_5.pmd mass 7500+9000
+  trailer traffic.trailer.scs_dumper len 9.1 kingpin -2.89 axle 2.07 ratio 0.1 tags low,dumper,construct,heavy,medium wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 5800+20000
+  trailer traffic.trailer.scs_fueltank len 11.0 kingpin -4.62 axle 2.07 ratio 1 tags low,cistern,fuel,medium wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 6160+20000
+  trailer traffic.trailer.scs_silo len 10.1 kingpin -3.96 axle 3.32 ratio 1 tags low,silo,construct,heavy,medium wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 6500+25000
+  trailer traffic.trailer.scs_chemt len 10.5 kingpin -3.44 axle 2.77 ratio 1 tags low,cistern,food,short wheel /vehicle/wheel/trailer/single_385_65/steel.pmd mass 5800+8000
+  trailer traffic.trailer.scs_gastank len 13.1 kingpin -5.59 axle 2.07 ratio 0.5 tags low,gastank,gas,short wheel /vehicle/wheel/trailer/single_385_55/steel.pmd mass 5800+8000
+  trailer traffic.trailer.scs_livestk len 14.2 kingpin -5.00 axle 3.03 ratio 0.05 tags livestock,medium,high wheel /vehicle/wheel/trailer/single_385_55/alu.pmd mass 6650+25000
+  uk police traffic.jaguar_xf.pol_uk r=1 len 4.8 hitch 1.50 semi False/ kw 0 max 200
+  uk police traffic.combi.betrude_m5.22.pol_uk r=1 len 5.2 hitch 1.50 semi False/ kw 0 max 160
+  uk truck_light traffic.transit_16 r=0.3 len 5.7 hitch 1.50 semi False/ kw 0 max 120
+  uk truck_light traffic.transport_t6 r=0.5 len 4.8 hitch 1.50 semi False/ kw 0 max 130
+  uk truck_light traffic.ducato.van r=0.3 len 5.8 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.crafter r=0.5 len 5.8 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.hymer r=0.3 len 7.0 hitch 1.50 semi False/ kw 0 max 160
+  uk truck_light traffic.larus r=0.3 len 7.8 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.larus.rack r=0.3 len 7.8 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.larus.roof r=0.3 len 7.8 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.ixcent.pickup.midclass_24.camper r=1 len 5.5 hitch 1.50 semi False/ kw 0 max 240
+  uk truck_light traffic.ixcent.pickup.midclass_24.camper_02 r=1 len 5.5 hitch 1.50 semi False/ kw 0 max 240
+  uk truck_light traffic.daily r=0.3 len 6.6 hitch 1.50 semi False/ kw 88 max 100
+  uk truck_light traffic.peugeotbo r=0.1 len 5.5 hitch 1.50 semi False/ kw 0 max 140
+  uk truck_light traffic.ducato r=0.3 len 6.2 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.ducato.box r=0.5 len 6.2 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_light traffic.ducato.plat r=0.05 len 7.0 hitch 1.50 semi False/ kw 0 max 100
+  uk truck_medium traffic.lowcab r=1 len 6.5 hitch 1.50 semi False/ kw 140 max 120
+  uk truck_medium traffic.lowcab_box r=1 len 6.5 hitch 1.50 semi False/ kw 140 max 120
+  uk truck_medium traffic.daily.tow.eu r=1 len 7.7 hitch 1.50 semi False/ kw 88 max 100
+  uk truck_medium traffic.daily.tow.eu.car r=1 len 7.7 hitch 1.50 semi False/ kw 88 max 100
+  uk truck_medium traffic.daily.tow.eu.car2 r=1 len 8.0 hitch 1.50 semi False/ kw 88 max 100
+  uk truck_heavy traffic.sem_crane r=0.3 len 9.5 hitch 1.50 semi False/ kw 0 max 70
+  uk truck_heavy traffic.sem_mixer r=0.3 len 7.5 hitch 1.50 semi False/ kw 0 max 80
+  uk truck_heavy traffic.sem_dumper r=0.3 len 7.4 hitch 1.50 semi False/ kw 0 max 80
+  uk truck_heavy traffic.fox_tipper r=0.5 len 7.3 hitch 1.50 semi False/ kw 200 max 80
+  uk truck traffic.daf.xf.scp_4x2a r=0.4 len 6.2 hitch 1.53 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.daf.xf.scp_4x2b r=0.4 len 6.2 hitch 1.53 semi True/ kw 336 max 90 trailer traffic.trailer.scs_livestk back 14.0
+  uk truck traffic.daf.xf.scp_6x4 r=0.1 len 7.0 hitch 1.86 semi True/ kw 373 max 90 trailer traffic.trailer.scs_lowbed back 15.3
+  uk truck traffic.daf.xf.sc_6x4 r=0.05 len 7.0 hitch 1.86 semi True/low kw 373 max 90 trailer traffic.trailer.scs_silo back 11.5
+  uk truck traffic.daf.xf_euro6.ssp_4x2 r=0.5 len 6.1 hitch 1.50 semi True/ kw 336 max 90 trailer traffic.trailer.scs_silo back 11.2
+  uk truck traffic.daf.xf_euro6.sca_4x2 r=0.5 len 6.1 hitch 1.50 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.daf.xf_euro6.ssp_6x4 r=0.1 len 6.3 hitch 1.50 semi True/ kw 336 max 90 trailer traffic.trailer.scs_lowlowd back 14.3
+  uk truck traffic.daf.xf_euro6.sca_6x24 r=0.1 len 6.3 hitch 1.50 semi True/ kw 336 max 90 trailer traffic.trailer.scs_chemt back 11.0
+  uk truck traffic.iveco.hiway.asp_6x4 r=0.1 len 6.5 hitch 1.49 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.iveco.hiway.asp_6x24 r=0.1 len 6.5 hitch 1.49 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.dry_van.default back 13.6
+  uk truck traffic.iveco.hiway.asp_4x2 r=0.5 len 5.9 hitch 1.53 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.reefer.default back 13.6
+  uk truck traffic.iveco.stralis.asp_4x2 r=0.1 len 6.3 hitch 1.65 semi True/ kw 298 max 90 trailer traffic.trailer.scs_logs back 13.6
+  uk truck traffic.iveco.stralis.asp_6x4 r=0.05 len 6.3 hitch 1.65 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.8
+  uk truck traffic.iveco.stralis.as_6x4 r=0.05 len 6.3 hitch 1.65 semi True/low kw 373 max 90 trailer traffic.trailer.scs_chemt back 11.1
+  uk truck traffic.man.tgx.xxl_4x2 r=0.3 len 6.1 hitch 1.71 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.8
+  uk truck traffic.man.tgx.xxl_6x4 r=0.05 len 6.8 hitch 2.06 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.dry_van.default back 14.2
+  uk truck traffic.man.tgx.xl_6x4 r=0.1 len 6.9 hitch 2.06 semi True/low kw 373 max 90 trailer traffic.trailer.t_car_trans1 back 14.0
+  uk truck traffic.man.tgx_euro6.xxl_4x2 r=0.2 len 5.9 hitch 1.46 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.reefer.default back 13.6
+  uk truck traffic.man.tgx_euro6.xlx_6x24 r=1 len 6.4 hitch 1.49 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.man.tgx_euro6.ef3_xxl_4x2 r=1 len 5.9 hitch 1.46 semi True/ kw 298 max 90 trailer traffic.trailer.scs_lowlowd back 14.3
+  uk truck traffic.man.tgx_euro6.ef3_xlx_6x24 r=0.2 len 6.4 hitch 1.49 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.reefer.default back 13.6
+  uk truck traffic.man.tgx_euro6.ef3_xxl_6x2 r=0.2 len 6.4 hitch 1.49 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.dry_van.default back 13.6
+  uk truck traffic.mercedes.actros.ms_6x4 r=0.05 len 7.4 hitch 2.45 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.curtain.default back 14.6
+  uk truck traffic.mercedes.actros.hr_6x24 r=0.05 len 6.5 hitch 1.42 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.5
+  uk truck traffic.mercedes.actros.ms_4x2 r=0.3 len 6.1 hitch 1.43 semi True/ kw 298 max 90 trailer traffic.trailer.t_car_trans1 back 13.4
+  uk truck traffic.mercedes.actros.hr_4x2 r=0.3 len 6.0 hitch 1.43 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.reefer.default back 13.5
+  uk truck traffic.mercedes.actros_2014.gs_4x2 r=1 len 6.2 hitch 1.45 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.mercedes.actros_2014.st_4x2 r=1 len 6.2 hitch 1.45 semi True/ kw 298 max 90 trailer traffic.trailer.scs_logs back 13.4
+  uk truck traffic.mercedes.actros_2014.gs_6x2 r=0.2 len 7.4 hitch 2.35 semi True/ kw 298 max 90 trailer traffic.trailer.scs_logs back 14.3
+  uk truck traffic.mercedes.actros_2014.st_6x2 r=0.2 len 7.4 hitch 2.35 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.curtain.default back 14.5
+  uk truck traffic.renault.magnum.std_4x2 r=0.1 len 6.0 hitch 1.53 semi True/ kw 373 max 90 trailer traffic.trailer.t_car_trans1 back 13.5
+  uk truck traffic.renault.magnum.std_6x2 r=0.01 len 6.6 hitch 1.99 semi True/ kw 373 max 90 trailer traffic.trailer.scs_fueltank back 11.8
+  uk truck traffic.renault.magnum.std_6x24 r=0.01 len 6.6 hitch 1.99 semi True/ kw 373 max 90 trailer traffic.trailer.scs_logs back 13.9
+  uk truck traffic.renault.premium.hr_4x2 r=0.1 len 6.1 hitch 1.59 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.7
+  uk truck traffic.renault.premium.nr_4x2 r=0.05 len 6.1 hitch 1.59 semi True/low kw 336 max 90 trailer traffic.trailer.scs_chemt back 11.1
+  uk truck traffic.renault.premium.hr_6x2 r=0.05 len 6.3 hitch 1.59 semi True/ kw 298 max 90 trailer traffic.trailer.scs_dumper back 9.2
+  uk truck traffic.renault.t.std_hi_4x2 r=0.5 len 6.1 hitch 1.44 semi True/ kw 373 max 90 trailer traffic.trailer.scs_brick_r back 13.5
+  uk truck traffic.renault.t.std_slp_6x2 r=0.05 len 7.0 hitch 2.30 semi True/low kw 373 max 90 trailer traffic.trailer.scs_brick_r back 14.4
+  uk truck traffic.renault.t.evo_hi_4x2 r=1 len 6.1 hitch 1.44 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.renault.t.evo_hi_6x2 r=0.2 len 7.0 hitch 2.30 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.dry_van.default back 14.4
+  uk truck traffic.renault.t.evo_slp_6x2 r=0.2 len 7.0 hitch 2.30 semi True/low kw 373 max 90 trailer traffic.trailer.scs_fueltank back 12.1
+  uk truck traffic.scania.r.tl_4x2 r=0.5 len 6.0 hitch 0.98 semi True/ kw 298 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.1
+  uk truck traffic.scania.r.tl_6x4 r=0.1 len 6.3 hitch 1.22 semi True/ kw 373 max 90 trailer traffic.trailer.scs_box.dry_van.default back 13.3
+  uk truck traffic.scania.r.nr_6x4 r=0.1 len 6.4 hitch 1.22 semi True/low kw 336 max 90 trailer traffic.trailer.scs_brick_r back 13.3
+  uk truck traffic.scania.streamline.tl_4x2 r=0.5 len 6.0 hitch 0.98 semi True/ kw 336 max 90 trailer traffic.trailer.scs_gosck20 back 10.7
+  uk truck traffic.scania.streamline.hl_4x2 r=0.5 len 6.0 hitch 0.98 semi True/ kw 336 max 90 trailer traffic.trailer.scs_logs back 12.9
+  uk truck traffic.scania.streamline.hl_6x4 r=0.1 len 6.4 hitch 1.22 semi True/ kw 373 max 90 trailer traffic.trailer.scs_lowlowd back 14.0
+  uk truck traffic.scania.s_2016.nrm_4x2 r=1 len 6.0 hitch 1.48 semi True/ kw 336 max 90 trailer traffic.trailer.scs_logs back 13.4
+  uk truck traffic.scania.s_2016.nrm_6x2 r=0.2 len 6.4 hitch 1.69 semi True/ kw 373 max 90 trailer traffic.trailer.scs_chemt back 11.2
+  uk truck traffic.scania.r_2016.nrm_4x2 r=1 len 6.0 hitch 1.48 semi True/low kw 336 max 90 trailer traffic.trailer.scs_gastank back 13.3
+  uk truck traffic.scania.r_2016.nrm_6x2 r=0.2 len 6.4 hitch 1.69 semi True/low kw 373 max 90 trailer traffic.trailer.t_car_trans1 back 13.6
+  uk truck traffic.volvo.fh16.gtxl_4x2 r=0.5 len 6.3 hitch 1.33 semi True/ kw 298 max 90 trailer traffic.trailer.scs_chemt back 10.8
+  uk truck traffic.volvo.fh16.gtxl_6x4 r=0.1 len 6.9 hitch 1.84 semi True/ kw 373 max 90 trailer traffic.trailer.scs_lowbed back 15.3
+  uk truck traffic.volvo.fh16.slp_6x4 r=0.1 len 6.9 hitch 1.84 semi True/low kw 373 max 90 trailer traffic.trailer.scs_fueltank back 11.7
+  uk truck traffic.volvo.fh16_2012.gtxl_4x2 r=0.5 len 6.4 hitch 1.50 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.6
+  uk truck traffic.volvo.fh16_2012.gtxl_6x2 r=1 len 6.6 hitch 1.50 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.dry_van.default back 13.6
+  uk truck traffic.volvo.fh16_2012.slp_6x2 r=1 len 6.6 hitch 1.50 semi True/low kw 336 max 90 trailer traffic.trailer.scs_brick_r back 13.6
+  uk truck traffic.daf.2021.xg_6x2 r=1 len 6.5 hitch 1.73 semi True/ kw 336 max 90 trailer traffic.trailer.scs_logs back 13.7
+  uk truck traffic.daf.2021.xgp_4x2 r=1 len 6.5 hitch 1.79 semi True/ kw 336 max 90 trailer traffic.trailer.scs_gastank back 13.7
+  uk truck traffic.daf.2021.xf_4x2 r=1 len 6.5 hitch 1.79 semi True/ kw 336 max 90 trailer traffic.trailer.scs_silo back 11.5
+  uk truck traffic.daf.xd.slp_4x2 r=0.05 len 5.9 hitch 1.59 semi True/low kw 336 max 90 trailer traffic.trailer.scs_fodt back 11.1
+  uk truck traffic.man.tgx_2020.gx_4x2 r=1 len 6.0 hitch 1.63 semi True/ kw 336 max 90 trailer traffic.trailer.scs_logs back 13.6
+  uk truck traffic.man.tgx_2020.gx_6x2 r=1 len 6.5 hitch 1.62 semi True/ kw 336 max 90 trailer traffic.trailer.scs_logs back 13.6
+  uk truck traffic.man.tgx_2020.gm_6x4 r=1 len 6.9 hitch 2.38 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.curtain.default back 14.5
+  uk truck traffic.man.tgx_2020.gn_6x2 r=1 len 6.5 hitch 1.62 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.dry_van.default back 13.7
+  uk truck traffic.man.tgx_2020.gm_4x2 r=1 len 6.0 hitch 1.63 semi True/ kw 336 max 90 trailer traffic.trailer.scs_lowbed back 15.1
+  uk truck traffic.volvo.fh_2024.slp_4x2 r=1 len 6.2 hitch 1.60 semi True/ kw 336 max 90 trailer traffic.trailer.scs_silo back 11.3
+  uk truck traffic.volvo.fh_2024.gt_4x2 r=1 len 6.2 hitch 1.60 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.curtain.default back 13.7
+  uk truck traffic.volvo.fh_2024.gtxl_4x2 r=1 len 6.2 hitch 1.60 semi True/ kw 336 max 90 trailer traffic.trailer.scs_gastank back 13.5
+  uk truck traffic.volvo.fh_2024.slp_6x2 r=0.3 len 7.0 hitch 1.89 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.reefer.default back 14.0
+  uk truck traffic.volvo.fh_2024.gt_6x2 r=0.3 len 6.8 hitch 1.89 semi True/ kw 336 max 90 trailer traffic.trailer.scs_box.curtain.default back 14.0
+  uk truck traffic.volvo.fh_2024.gtxl_6x2 r=0.3 len 6.8 hitch 1.89 semi True/ kw 336 max 90 trailer traffic.trailer.scs_lowlowd back 14.7
+  uk bus traffic.opalin r=0.01 len 8.3 hitch 1.50 semi False/ kw 0 max 100
+  uk bus traffic.tourliner r=0.01 len 12.1 hitch 1.50 semi False/ kw 324 max 100
+  uk bus traffic.tourliner_p r=1 len 12.1 hitch 1.50 semi False/ kw 324 max 100
+  uk bus traffic.tourliner.nor r=0.01 len 12.1 hitch 1.50 semi False/ kw 324 max 100
+  uk bus traffic.tourliner.nor_p r=0.1 len 12.1 hitch 1.50 semi False/ kw 324 max 100

@@ -1,0 +1,150 @@
+16:14:13 site austria centre (16900.0, 40.0, 18300.0) out D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RA2 gfx Direct3D11 NVIDIA GeForce RTX 3080 Ti colour space Linear quality Ultra pipeline UniversalRender
+16:14:17 loading 8 % Reading the map
+16:14:19 loading 8 % Reading the map
+16:14:21 loading 8 % Reading the map
+16:14:23 loading 11 % Building roads
+16:14:25 loading 15 % Building roads
+16:14:27 loading 65 % Placing buildings and props
+16:14:29 loading 67 % Placing buildings and props
+16:14:31 loading 71 % Placing fences and barriers
+16:14:33 loading 71 % Placing fences and barriers
+16:14:35 loading 71 % Placing fences and barriers
+16:14:37 loading 71 % Placing fences and barriers
+16:14:39 loading 100 % Ready
+16:14:39 first build complete at 26 s
+16:15:15 settled for ground at1 after 36 s: built 4594, queued 0, batching 0, plants 146500 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:15:24 fill settled for ground at1 after 9 s
+16:15:25 ground at1: fill floating 269 m2 (30 tris; above all terrain round it 178 m2) of 38046 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 277; road cells 8928 (covered 2948), clearance hits 2157; colliders 13610, undrawn 204, undrawn over roads 0, dead items 19
+16:15:59 settled for ground at2 after 34 s: built 6582, queued 0, batching 0, plants 145994 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:16:08 fill settled for ground at2 after 9 s
+16:16:09 ground at2: fill floating 167 m2 (15 tris; above all terrain round it 167 m2) of 242156 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 33 segs of 2855; road cells 10721 (covered 644), clearance hits 219; colliders 27112, undrawn 205, undrawn over roads 1, dead items 44
+16:16:40 settled for ground at3 after 31 s: built 3548, queued 0, batching 0, plants 114854 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:16:49 fill settled for ground at3 after 9 s
+16:16:50 ground at3: fill floating 11909 m2 (244 tris; above all terrain round it 240 m2) of 611854 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 333; road cells 10299 (covered 195), clearance hits 66; colliders 10345, undrawn 190, undrawn over roads 16, dead items 11
+16:17:21 settled for ground at4 after 31 s: built 2906, queued 0, batching 0, plants 200985 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:17:30 fill settled for ground at4 after 9 s
+16:17:31 ground at4: fill floating 19 m2 (2 tris; above all terrain round it 0 m2) of 161173 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 122; road cells 5769 (covered 299), clearance hits 29; colliders 7115, undrawn 128, undrawn over roads 11, dead items 0
+16:18:02 settled for ground at5 after 32 s: built 4545, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:18:11 fill settled for ground at5 after 9 s
+16:18:12 ground at5: fill floating 1256 m2 (79 tris; above all terrain round it 1152 m2) of 425486 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 296; road cells 7310 (covered 183), clearance hits 28; colliders 11625, undrawn 195, undrawn over roads 0, dead items 26
+16:18:43 settled for ground at6 after 31 s: built 2992, queued 0, batching 0, plants 70092 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:18:52 fill settled for ground at6 after 9 s
+16:18:53 ground at6: fill floating 1301 m2 (39 tris; above all terrain round it 1159 m2) of 590035 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 121; road cells 3175 (covered 624), clearance hits 23; colliders 3559, undrawn 19, undrawn over roads 22, dead items 0
+16:19:24 settled for ground at7 after 31 s: built 5720, queued 0, batching 0, plants 110289 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:19:33 fill settled for ground at7 after 9 s
+16:19:34 ground at7: fill floating 362 m2 (29 tris; above all terrain round it 362 m2) of 388189 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 693; road cells 7170 (covered 836), clearance hits 406; colliders 13019, undrawn 253, undrawn over roads 1, dead items 7
+16:20:04 settled for ground at8 after 31 s: built 3647, queued 0, batching 0, plants 132764 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:20:13 fill settled for ground at8 after 9 s
+16:20:14 ground at8: fill floating 954 m2 (62 tris; above all terrain round it 785 m2) of 562585 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 202; road cells 7661 (covered 267), clearance hits 9; colliders 11491, undrawn 141, undrawn over roads 1, dead items 14
+16:20:59 settled for ground at9 after 45 s: built 7059, queued 0, batching 0, plants 150321 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:21:08 fill settled for ground at9 after 9 s
+16:21:09 ground at9: fill floating 1278 m2 (131 tris; above all terrain round it 1066 m2) of 250410 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 6 segs of 1180; road cells 20488 (covered 2377), clearance hits 129; colliders 37221, undrawn 453, undrawn over roads 17, dead items 74
+16:21:39 settled for ground at10 after 30 s: built 3105, queued 0, batching 0, plants 181531 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:21:49 fill settled for ground at10 after 9 s
+16:21:49 ground at10: fill floating 267 m2 (24 tris; above all terrain round it 83 m2) of 178862 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 170; road cells 7819 (covered 528), clearance hits 13; colliders 8196, undrawn 145, undrawn over roads 13, dead items 1
+16:22:20 settled for ground at11 after 31 s: built 2832, queued 0, batching 0, plants 189019 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:22:29 fill settled for ground at11 after 9 s
+16:22:30 ground at11: fill floating 4387 m2 (193 tris; above all terrain round it 3720 m2) of 226873 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 4 segs of 249; road cells 3896 (covered 657), clearance hits 6; colliders 7685, undrawn 90, undrawn over roads 2, dead items 3
+16:23:11 settled for ground at12 after 41 s: built 4526, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:23:20 fill settled for ground at12 after 9 s
+16:23:21 ground at12: fill floating 1372 m2 (152 tris; above all terrain round it 1329 m2) of 151132 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 514; road cells 7796 (covered 523), clearance hits 74; colliders 21290, undrawn 285, undrawn over roads 0, dead items 23
+16:23:52 settled for ground at13 after 31 s: built 5462, queued 0, batching 0, plants 229618 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:24:01 fill settled for ground at13 after 9 s
+16:24:02 ground at13: fill floating 290 m2 (19 tris; above all terrain round it 169 m2) of 94667 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 249; road cells 8418 (covered 2098), clearance hits 21; colliders 13722, undrawn 426, undrawn over roads 3, dead items 52
+16:24:32 settled for ground at14 after 30 s: built 4155, queued 0, batching 0, plants 241091 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:24:41 fill settled for ground at14 after 9 s
+16:24:42 ground at14: fill floating 1026 m2 (56 tris; above all terrain round it 513 m2) of 376239 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 2205; road cells 5699 (covered 1017), clearance hits 127; colliders 12011, undrawn 295, undrawn over roads 44, dead items 66
+16:25:45 settled for ground at15 after 63 s: built 8150, queued 0, batching 0, plants 145497 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:25:54 fill settled for ground at15 after 9 s
+16:25:55 ground at15: fill floating 318 m2 (1 tris; above all terrain round it 318 m2) of 62977 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 9 segs of 618; road cells 16171 (covered 2971), clearance hits 868; colliders 40567, undrawn 466, undrawn over roads 5, dead items 42
+16:26:26 settled for ground at16 after 31 s: built 4318, queued 0, batching 0, plants 151915 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:26:35 fill settled for ground at16 after 9 s
+16:26:36 ground at16: fill floating 1525 m2 (74 tris; above all terrain round it 1186 m2) of 331226 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 207; road cells 5919 (covered 617), clearance hits 40; colliders 10275, undrawn 193, undrawn over roads 0, dead items 6
+16:27:06 settled for ground at17 after 30 s: built 5080, queued 0, batching 0, plants 154753 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:27:15 fill settled for ground at17 after 9 s
+16:27:16 ground at17: fill floating 18 m2 (2 tris; above all terrain round it 0 m2) of 398294 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 533; road cells 12240 (covered 186), clearance hits 120; colliders 15977, undrawn 489, undrawn over roads 3, dead items 62
+16:27:47 settled for ground at18 after 31 s: built 5183, queued 0, batching 0, plants 147987 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:27:56 fill settled for ground at18 after 9 s
+16:27:57 ground at18: fill floating 43 m2 (2 tris; above all terrain round it 0 m2) of 443850 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 261; road cells 7105 (covered 192), clearance hits 8; colliders 14383, undrawn 174, undrawn over roads 0, dead items 1
+16:28:27 settled for ground at19 after 31 s: built 1444, queued 0, batching 0, plants 99800 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:28:36 fill settled for ground at19 after 9 s
+16:28:37 ground at19: fill floating 49306 m2 (649 tris; above all terrain round it 4579 m2) of 1093540 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 38; road cells 5866 (covered 244), clearance hits 2; colliders 3759, undrawn 25, undrawn over roads 0, dead items 0
+16:29:37 settled for ground at20 after 60 s: built 5984, queued 0, batching 0, plants 230045 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:29:46 fill settled for ground at20 after 9 s
+16:29:47 ground at20: fill floating 956 m2 (57 tris; above all terrain round it 555 m2) of 60614 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 3 segs of 491; road cells 15887 (covered 2787), clearance hits 115; colliders 40081, undrawn 437, undrawn over roads 1, dead items 61
+16:30:18 settled for ground at21 after 31 s: built 5037, queued 0, batching 0, plants 210525 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:30:27 fill settled for ground at21 after 9 s
+16:30:28 ground at21: fill floating 2285 m2 (150 tris; above all terrain round it 2275 m2) of 239103 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 173; road cells 7332 (covered 1384), clearance hits 18; colliders 10484, undrawn 117, undrawn over roads 8, dead items 10
+16:31:02 settled for ground at22 after 34 s: built 4038, queued 0, batching 0, plants 123688 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:31:11 fill settled for ground at22 after 9 s
+16:31:12 ground at22: fill floating 624 m2 (68 tris; above all terrain round it 551 m2) of 317853 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 379; road cells 7742 (covered 1046), clearance hits 119; colliders 13019, undrawn 238, undrawn over roads 5, dead items 32
+16:31:42 settled for ground at23 after 31 s: built 4085, queued 0, batching 0, plants 177417 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:31:51 fill settled for ground at23 after 9 s
+16:31:52 ground at23: fill floating 997 m2 (38 tris; above all terrain round it 605 m2) of 799841 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 385; road cells 7271 (covered 553), clearance hits 78; colliders 4559, undrawn 65, undrawn over roads 2, dead items 4
+16:32:23 settled for ground at24 after 31 s: built 2718, queued 0, batching 0, plants 110191 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:32:32 fill settled for ground at24 after 9 s
+16:32:33 ground at24: fill floating 97 m2 (11 tris; above all terrain round it 44 m2) of 652603 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 128; road cells 9351 (covered 321), clearance hits 31; colliders 11602, undrawn 132, undrawn over roads 3, dead items 15
+16:33:03 settled for ground at25 after 31 s: built 1220, queued 0, batching 0, plants 99894 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:33:12 fill settled for ground at25 after 9 s
+16:33:13 ground at25: fill floating 828 m2 (51 tris; above all terrain round it 146 m2) of 576571 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 216; road cells 6615 (covered 155), clearance hits 9; colliders 4284, undrawn 16, undrawn over roads 0, dead items 0
+16:33:44 settled for ground at26 after 31 s: built 2314, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:33:53 fill settled for ground at26 after 9 s
+16:33:54 ground at26: fill floating 1571 m2 (110 tris; above all terrain round it 1019 m2) of 330600 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 102; road cells 5999 (covered 949), clearance hits 18; colliders 5824, undrawn 111, undrawn over roads 12, dead items 2
+16:34:25 settled for ground at27 after 31 s: built 4356, queued 0, batching 0, plants 250000 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:34:34 fill settled for ground at27 after 9 s
+16:34:35 ground at27: fill floating 2191 m2 (70 tris; above all terrain round it 1139 m2) of 173584 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 708; road cells 8363 (covered 1665), clearance hits 87; colliders 13537, undrawn 302, undrawn over roads 31, dead items 56
+16:35:06 settled for ground at28 after 31 s: built 2422, queued 0, batching 0, plants 187782 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:35:15 fill settled for ground at28 after 9 s
+16:35:15 ground at28: fill floating 7044 m2 (467 tris; above all terrain round it 5853 m2) of 560727 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 101; road cells 5042 (covered 854), clearance hits 28; colliders 6466, undrawn 130, undrawn over roads 10, dead items 0
+16:35:51 settled for ground at29 after 36 s: built 4636, queued 0, batching 0, plants 134047 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:36:00 fill settled for ground at29 after 9 s
+16:36:01 ground at29: fill floating 893 m2 (29 tris; above all terrain round it 353 m2) of 533838 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 224; road cells 11766 (covered 700), clearance hits 22; colliders 21430, undrawn 314, undrawn over roads 20, dead items 59
+16:36:32 settled for ground at30 after 31 s: built 4177, queued 0, batching 0, plants 226244 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:36:41 fill settled for ground at30 after 9 s
+16:36:42 ground at30: fill floating 3876 m2 (72 tris; above all terrain round it 0 m2) of 260363 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 615; road cells 7826 (covered 316), clearance hits 81; colliders 16124, undrawn 267, undrawn over roads 2, dead items 15
+16:37:13 settled for ground at31 after 31 s: built 2130, queued 0, batching 0, plants 102281 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:37:22 fill settled for ground at31 after 9 s
+16:37:23 ground at31: fill floating 87 m2 (4 tris; above all terrain round it 0 m2) of 396763 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 139; road cells 3625 (covered 56), clearance hits 63; colliders 3577, undrawn 43, undrawn over roads 0, dead items 4
+16:38:09 settled for ground at32 after 46 s: built 6400, queued 0, batching 0, plants 109760 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:38:18 fill settled for ground at32 after 9 s
+16:38:19 ground at32: fill floating 412 m2 (12 tris; above all terrain round it 316 m2) of 386582 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 483; road cells 17054 (covered 1344), clearance hits 84; colliders 42473, undrawn 296, undrawn over roads 4, dead items 19
+16:38:50 settled for ground at33 after 31 s: built 5724, queued 0, batching 0, plants 155666 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:38:59 fill settled for ground at33 after 9 s
+16:39:00 ground at33: fill floating 108 m2 (9 tris; above all terrain round it 64 m2) of 93834 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 347; road cells 13727 (covered 524), clearance hits 225; colliders 26130, undrawn 261, undrawn over roads 0, dead items 18
+16:39:31 settled for ground at34 after 31 s: built 3789, queued 0, batching 0, plants 118437 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:39:40 fill settled for ground at34 after 9 s
+16:39:41 ground at34: fill floating 545 m2 (26 tris; above all terrain round it 232 m2) of 663545 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 65; road cells 6186 (covered 520), clearance hits 5; colliders 10630, undrawn 205, undrawn over roads 0, dead items 29
+16:40:11 settled for ground at35 after 30 s: built 2937, queued 0, batching 0, plants 76306 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:40:20 fill settled for ground at35 after 9 s
+16:40:20 ground at35: fill floating 1034 m2 (102 tris; above all terrain round it 643 m2) of 203097 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 472; road cells 6608 (covered 156), clearance hits 75; colliders 6886, undrawn 77, undrawn over roads 7, dead items 2
+16:40:52 settled for ground at36 after 32 s: built 5483, queued 0, batching 0, plants 201727 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:41:01 fill settled for ground at36 after 9 s
+16:41:02 ground at36: fill floating 148 m2 (17 tris; above all terrain round it 0 m2) of 64207 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 2 segs of 467; road cells 16694 (covered 730), clearance hits 75; colliders 21058, undrawn 320, undrawn over roads 0, dead items 25
+16:41:33 settled for ground at37 after 31 s: built 3542, queued 0, batching 0, plants 188631 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:41:42 fill settled for ground at37 after 9 s
+16:41:43 ground at37: fill floating 1459 m2 (46 tris; above all terrain round it 1114 m2) of 680121 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 436; road cells 5110 (covered 128), clearance hits 11; colliders 11556, undrawn 161, undrawn over roads 2, dead items 11
+16:42:17 settled for ground at38 after 34 s: built 3185, queued 0, batching 0, plants 183259 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:42:26 fill settled for ground at38 after 9 s
+16:42:27 ground at38: fill floating 1627 m2 (125 tris; above all terrain round it 781 m2) of 136332 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 792; road cells 5501 (covered 1426), clearance hits 164; colliders 12382, undrawn 142, undrawn over roads 2, dead items 7
+16:42:58 settled for ground at39 after 31 s: built 3630, queued 0, batching 0, plants 227757 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:43:07 fill settled for ground at39 after 9 s
+16:43:08 ground at39: fill floating 46055 m2 (630 tris; above all terrain round it 2999 m2) of 415466 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 433; road cells 4812 (covered 1184), clearance hits 41; colliders 13311, undrawn 161, undrawn over roads 1, dead items 31
+16:43:39 settled for ground ch40 after 31 s: built 3068, queued 0, batching 0, plants 221856 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:43:48 fill settled for ground ch40 after 9 s
+16:43:49 ground ch40: fill floating 2026 m2 (177 tris; above all terrain round it 2026 m2) of 527595 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 149; road cells 5781 (covered 66), clearance hits 32; colliders 8124, undrawn 119, undrawn over roads 23, dead items 10
+16:44:21 settled for ground ch41 after 32 s: built 2601, queued 0, batching 0, plants 129175 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:44:30 fill settled for ground ch41 after 9 s
+16:44:31 ground ch41: fill floating 13533 m2 (408 tris; above all terrain round it 896 m2) of 151855 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 510; road cells 6272 (covered 959), clearance hits 31; colliders 17627, undrawn 186, undrawn over roads 10, dead items 12
+16:45:02 settled for ground ch42 after 31 s: built 2590, queued 0, batching 0, plants 161606 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:45:11 fill settled for ground ch42 after 9 s
+16:45:12 ground ch42: fill floating 991 m2 (63 tris; above all terrain round it 695 m2) of 407903 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 5 segs of 548; road cells 5173 (covered 1252), clearance hits 80; colliders 18781, undrawn 270, undrawn over roads 4, dead items 5
+16:45:43 settled for ground ch43 after 31 s: built 1618, queued 0, batching 0, plants 93627 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:45:52 fill settled for ground ch43 after 9 s
+16:45:53 ground ch43: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 85642 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 5; road cells 3591 (covered 174), clearance hits 104; colliders 12330, undrawn 41, undrawn over roads 10, dead items 6
+16:46:55 settled for ground ch44 after 62 s: built 7999, queued 0, batching 0, plants 175892 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:47:04 fill settled for ground ch44 after 9 s
+16:47:05 ground ch44: fill floating 750 m2 (46 tris; above all terrain round it 707 m2) of 115441 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 3 segs of 240; road cells 15268 (covered 3097), clearance hits 1984; colliders 31826, undrawn 593, undrawn over roads 5, dead items 63
+16:48:09 settled for ground ch45 after 64 s: built 11455, queued 0, batching 0, plants 228328 (sides waiting 0), detail jobs 0, ground fill builds 1
+16:48:18 fill settled for ground ch45 after 9 s
+16:48:19 ground ch45: fill floating 594 m2 (27 tris; above all terrain round it 476 m2) of 856811 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 453; road cells 8754 (covered 557), clearance hits 91; colliders 44090, undrawn 843, undrawn over roads 1, dead items 121
+16:48:19 wrote ground survey D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/floating/lab/RA2_austria_ground.txt: fill floating 166795 m2 (4618 tris; above all terrain round it 40494 m2) of 16318488 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 85 segs of 20184; road cells 379800 (covered 40309), clearance hits 8016; colliders 711153, undrawn 10223, undrawn over roads 302, dead items 1068

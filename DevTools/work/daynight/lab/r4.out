@@ -1,0 +1,17 @@
+render.sh: site dover -> D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_*.png (log D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_dover_unity.log)
+render.sh: site dover Unity exit 0 after 66 s
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_car_front_left.png (exposure 227.504)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_car_off.png (exposure 227.504)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_car_rear_left_brake.png (exposure 227.504)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_hazard.png (exposure 227.504)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_left.png (exposure 227.504)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_off.png (exposure 227.504)
+   wrote D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_rear_left_brake.png (exposure 227.504)
+render.sh: images:
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_car_front_left.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_car_off.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_car_rear_left_brake.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_hazard.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_left.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_off.png
+D:/Dreamport/Euro Truck Simulator/Euro Truck Sim/DevTools/work/daynight/lab/r4_lamps_truck_rear_left_brake.png

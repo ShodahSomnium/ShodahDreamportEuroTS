@@ -1,0 +1,17 @@
+// chk: every sound_item_data event + the weather/truck/trailer/collision/ui/traffic events the world asks for resolve in their banks
+// (instruments, scatterers, streamed beds); LoopReader runs default_country round its end.
+using System; using System.Collections.Generic; using System.Linq; using SomniumSpace.Worlds.SomniumEuroTruck; using SomniumSpace.Worlds.SomniumEuroTruck.Ets;
+static class CHK { public static void Run(EtsFileSystem fs, string[] a){
+  var defs=EtsMapSounds.ReadDefs(fs); var paths=new SortedSet<string>(); foreach(var d in defs.Values){ paths.Add(d.Path); if(d.Sfx.Length>0) paths.Add(d.Sfx); }
+  foreach(var r in new[]{"/sound/world/weather_rain.soundref","/sound/world/weather_thunder.soundref","/sound/truck/default/air_horn_default.soundref","/sound/truck/default/noise_suspension.soundref","/sound/truck/default/brake_squeal.soundref","/sound/truck/default/interior_noise.soundref","/sound/truck/default/noise_rain.soundref","/sound/collisions/crash_hard.soundref","/sound/collisions/crash_metal.soundref","/sound/collisions/crash_soft.soundref","/sound/trailer/tires/asphalt.soundref","/sound/trailer/tires/gravel.soundref","/sound/trailer/tires/grass.soundref","/sound/trailer/default/trailer_noise_suspension.soundref","/sound/trailer/default/trailer_brake_squeal.soundref","/sound/trailer/default/trailer_brace_up.soundref","/sound/trailer/default/trailer_brace_down.soundref","/sound/ui/ui_click.soundref","/sound/traffic/trailer.soundref","/sound/traffic/truck_effect_gear.soundref"}){ var s=EtsGameSound.ResolveSoundref(fs,r); Console.WriteLine(r+" -> "+s); if(s!=null) paths.Add(s); }
+  var banks=new Dictionary<string,(EtsFmodBank,EtsFmodStudio)>(); int ok=0, missing=0, empty=0; double streamS=0, decS=0; long packets=0;
+  foreach(var p in paths){ int h=p.IndexOf('#'); string bank=p.Substring(0,h), ev=p.Substring(h+1);
+    if(!banks.TryGetValue(bank,out var bs)){ var bytes=fs.Read(bank); bs=(bytes==null?null:EtsFmodBank.Parse(bytes,out _), bytes==null?null:EtsFmodStudio.Parse(bytes,fs.ReadText(bank+".guids"),out _)); banks[bank]=bs; }
+    var e=bs.Item2?.FindEvent(ev); if(e==null){ missing++; Console.WriteLine("MISSING "+p); continue; }
+    if(e.Instruments.Count==0){ empty++; Console.WriteLine("EMPTY "+p); continue; } ok++;
+    foreach(var ins in e.Instruments) foreach(var s in ins.Samples){ var smp=bs.Item1.Samples[s]; double sec=smp.Frames/(double)smp.Rate; if(ins.Loop&&!ins.IsMulti&&sec>12){ streamS+=sec; packets+=smp.DataLength; } else decS+=Math.Min(sec, ins.Loop?20:sec); } }
+  Console.WriteLine("events "+paths.Count+": ok "+ok+" missing "+missing+" empty "+empty+"; streamed beds "+streamS.ToString("0")+" s ("+(packets/1048576.0).ToString("0.0")+" MB packets if all were live), decoded clips "+decS.ToString("0")+" s if all were live");
+  var db=EtsFmodBank.Parse(fs.Read("/sound/world/ambients/default.bank"),out _); var smp0=db.Find("default_country"); var rd=new EtsFmodBank.LoopReader(db.CopyPackets(smp0),smp0.Channels,smp0.Rate,smp0.SetupCrc); var buf=new float[24000]; double sum=0; int blocks=(int)(smp0.Frames/24000)+10; int zeroBlocks=0;
+  for(int i=0;i<blocks;i++){ rd.Read(buf); double ss=0; foreach(var x in buf) ss+=x*x; if(ss==0) zeroBlocks++; sum+=ss; }
+  Console.WriteLine("LoopReader default_country: "+blocks+" blocks, passes "+rd.Passes+", rms "+Math.Sqrt(sum/(blocks*24000.0)).ToString("0.0000")+", silent blocks "+zeroBlocks);
+} }

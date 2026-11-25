@@ -1,0 +1,28 @@
+ground survey, site austria centre game (18020.0, 29.4, 21381.4), clearance grid 4.0 m
+g4 game (17643, 20284) r 120: fill floating 0 m2 (0 tris; above all terrain round it 0 m2) of 12224 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 0 segs of 20; road cells 485 (covered 480), clearance hits 0; colliders 1311, undrawn 3, undrawn over roads 0, dead items 0
+    clearance: 
+    undrawn over roads: 
+g8 game (17652, 19382) r 120: fill floating 18 m2 (2 tris; above all terrain round it 0 m2) of 3234 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 13; road cells 709 (covered 11), clearance hits 17; colliders 746, undrawn 16, undrawn over roads 4, dead items 0
+    clearance: terrain over open road x12; terrain-inv (undrawn) over open road x4; terrain-inv (undrawn, backed) over open road x1
+    undrawn over roads: terrain-inv terrain right invisible x4
+
+TOTALS: fill floating 18 m2 (2 tris; above all terrain round it 0 m2) of 15458 m2; skirts hanging in air 0 segs / 0 m2, into road clearance 1 segs of 33; road cells 1194 (covered 491), clearance hits 17; colliders 2057, undrawn 19, undrawn over roads 4, dead items 0
+  clearance over roads by what: terrain over open road x12; terrain-inv (undrawn) over open road x4; terrain-inv (undrawn, backed) over open road x1
+  undrawn colliders over roads by kind/name: terrain-inv terrain right invisible x4
+  undrawn colliders by kind/name: terrain-inv terrain right invisible x8; railing railing collision N x5; terrain-inv terrain left invisible x4; prefab prefab mod_ger_67 / piece N x1; terrain-inv terrain patch invisible x1
+  examples of terrain over open road:
+    g8 game (17628, 44, 19422): Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 1.0 m over prefab mod_ger_18/vis/piece 13
+    g8 game (17640, 44, 19422): Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 2.9 m over prefab mod_ger_18/vis/piece 12
+    g8 game (17660, 44, 19422): Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 4.6 m over roads/road ger17/vis 7
+    g8 game (17628, 44, 19418): Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 4.8 m over prefab mod_ger_18/vis/piece 13
+  worst floating fill:
+    g8 game (17652, 36, 19279) fill fill -2 8 area 9 m2 air under it 8.5 m over [run c1/c1/piece 18]
+    g8 game (17651, 30, 19268) fill fill -2 8 area 9 m2 air under it 3.2 m over [run c1/c1/piece 18]
+  worst skirts:
+    g8 game (17664, 49, 19421) skirt of terrain items/terrain profile29uk/terrain skirt 6.0 x 8.7 m OVER ROAD roads/road ger17/vis 7 foot -3.4 m above it
+  worst road clearance:
+    g8 game (17628, 44, 19422) terrain over open road: Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 1.0 m over prefab mod_ger_18/vis/piece 13
+    g8 game (17640, 44, 19422) terrain over open road: Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 2.9 m over prefab mod_ger_18/vis/piece 12
+    g8 game (17660, 44, 19422) terrain over open road: Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 4.6 m over roads/road ger17/vis 7
+    g8 game (17628, 44, 19418) terrain over open road: Ets Map/terrain items/terrain profile29uk/terrain right dlc_balt_10 4.8 m over prefab mod_ger_18/vis/piece 13
+  worst dead items:

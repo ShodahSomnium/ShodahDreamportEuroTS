@@ -1,0 +1,22 @@
+        if (Variant == "kdop")
+        {
+            foreach (double minTurn in new[] { 0.0, 10.0, 30.0, 60.0 })
+            {
+                var rr = new List<double>(); var bb = new List<double>(); int bentWins = 0, n = 0;
+                foreach (var kv in Items)
+                {
+                    if (!Turn.TryGetValue(kv.Key, out double tn) || tn < minTurn || !KRigid.ContainsKey(kv.Key)) continue;
+                    var it = kv.Value; double er = 0, eb = 0;
+                    foreach (int ax in new[] { 0, 2, 3, 4 })
+                    {
+                        er = Math.Max(er, Math.Max(Math.Abs(KRigid[kv.Key][ax] - 0.125 - it.KdopMin[ax]), Math.Abs(KRigid[kv.Key][ax + 5] + 0.125 - it.KdopMax[ax])));
+                        eb = Math.Max(eb, Math.Max(Math.Abs(KBent[kv.Key][ax] - 0.125 - it.KdopMin[ax]), Math.Abs(KBent[kv.Key][ax + 5] + 0.125 - it.KdopMax[ax])));
+                    }
+                    rr.Add(er); bb.Add(eb); n++; if (eb < er - 0.01) bentWins++;
+                    if (minTurn >= 60 && n <= 12) Console.WriteLine(string.Format("   item {0} {1} turn {2:F0} rigid err {3:F3} bent err {4:F3}", kv.Key, it.Type, tn, er, eb));
+                }
+                rr.Sort(); bb.Sort();
+                if (n > 0) Console.WriteLine(string.Format("kdop turn>={0}: {1} items; worst-axis residual median rigid {2:F3} bent {3:F3}; p90 rigid {4:F3} bent {5:F3}; bent closer on {6}",
+                    minTurn, n, rr[n / 2], bb[n / 2], rr[n * 9 / 10], bb[n * 9 / 10], bentWins));
+            }
+        }

@@ -1,0 +1,17 @@
+ets-profile=1
+user=abc-123
+nick=Tester
+gen=7
+created=1700000000
+saved=1700000100
+money=52000
+xp=700
+distance=123456
+jobs=3
+earned=50000
+hq=szczecin
+truck=daf_xf_euro6
+paint=FF0000
+recent=0123456789abcdef0123456789abcdef
+delivery0=Cargo|A, B|C, D|215|9000|215|1700000050
+mac=a5ee16d4749c2f5d1ae09efc88c181194f15f653c815bbf866ceb6b0a4cc3263
